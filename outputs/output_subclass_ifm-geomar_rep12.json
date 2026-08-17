@@ -1,0 +1,16 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "MSM 04-2",
+                "hasDuration": "16 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

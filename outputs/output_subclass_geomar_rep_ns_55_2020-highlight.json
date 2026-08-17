@@ -1,0 +1,16 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "AL533",
+                "hasDuration": "11.5 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

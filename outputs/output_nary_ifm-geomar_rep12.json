@@ -1,0 +1,46 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SurveyNavigation hasMission MSM04-2",
+                "MSM04-2 usesVehicle FS Maria S. Merian",
+                "MSM04-2 hasGoal Seismic hazard assessment",
+                "MSM04-2 hasInitialCondition Geological settings of Lesser Antilles Arc",
+                "MSM04-2 hasTask Seismic Work",
+                "Seismic Work realisedByAction Deployment of OBS",
+                "Geological settings of Lesser Antilles Arc hasScenarioTask Seismic hazard in the Antilles Arc"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "MSM04-2",
+                "FS Maria S. Merian",
+                "Seismic hazard assessment",
+                "Geological settings of Lesser Antilles Arc",
+                "Seismic Work",
+                "Deployment of OBS",
+                "Seismic hazard in the Antilles Arc"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SurveyNavigation hasMission MSM04-2",
+                "MSM04-2 usesVehicle FS Maria S. Merian",
+                "MSM04-2 hasGoal Seismic hazard assessment",
+                "MSM04-2 hasInitialCondition Geological settings of Lesser Antilles Arc",
+                "MSM04-2 hasTask Seismic Work",
+                "Seismic Work realisedByAction Deployment of OBS",
+                "Geological settings of Lesser Antilles Arc hasScenarioTask Seismic hazard in the Antilles Arc"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "MSM04-2",
+                "FS Maria S. Merian",
+                "Seismic hazard assessment",
+                "Geological settings of Lesser Antilles Arc",
+                "Seismic Work",
+                "Deployment of OBS",
+                "Seismic hazard in the Antilles Arc"
+            ]
+        }
+    }
+}

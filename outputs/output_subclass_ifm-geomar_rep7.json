@@ -1,0 +1,16 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "Cruise M67/1",
+                "hasDuration": "20 February - 13 March 2006",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Individuals": {
+        "Cruise_M67_1": {
+            "class": "Mission",
+            "MissionID": "M67/1",
+            "startTime": "20 February 2006",
+            "endTime": "13 March 2006",
+            "maxDepth": "5000 m",
+            "imageCount": "Not specified",
+            "dataVolume": "Not specified",
+            "hasStatus": "Completed",
+            "remark": "Cruise conducted to study tectonic processes and fluid venting."
+        },
+        "Talcahuano_Balboa": {
+            "class": "Station",
+            "stationID": "Talcahuano-Balboa",
+            "stationDate": "20 February 2006",
+            "stationTime": "Not specified"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "latitude": "Not specified",
+            "longitude": "Not specified",
+            "seabedDepth": "130-230 m"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "latitude": "Not specified",
+            "longitude": "Not specified",
+            "seabedDepth": "5000 m"
+        },
+        "Task_Bathymetric_Survey": {
+            "class": "Task",
+            "hasDuration": "Not specified",
+            "hasStatus": "Completed"
+        },
+        "Task_Gravity_Coring": {
+            "class": "Task",
+            "hasDuration": "Not specified",
+            "hasStatus": "Completed"
+        }
+    }
+}

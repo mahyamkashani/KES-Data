@@ -1,0 +1,73 @@
+{
+    "Individuals": {
+        "P399-2": {
+            "class": "Mission",
+            "MissionID": "P399-2",
+            "startTime": "31.05.2010",
+            "endTime": "17.06.2010",
+            "maxDepth": "4328",
+            "imageCount": "N/A",
+            "dataVolume": "N/A",
+            "hasStatus": "Completed",
+            "remark": "Cruise report for legs 2 and 3"
+        },
+        "P399-3": {
+            "class": "Mission",
+            "MissionID": "P399-3",
+            "startTime": "18.06.2010",
+            "endTime": "24.06.2010",
+            "maxDepth": "N/A",
+            "imageCount": "N/A",
+            "dataVolume": "N/A",
+            "hasStatus": "Completed",
+            "remark": "Cruise report for legs 2 and 3"
+        },
+        "Las_Palmas": {
+            "class": "Station",
+            "stationID": "Las_Palmas",
+            "stationDate": "31.05.2010",
+            "stationTime": "N/A"
+        },
+        "Mindelo": {
+            "class": "Station",
+            "stationID": "Mindelo",
+            "stationDate": "N/A",
+            "stationTime": "N/A"
+        },
+        "Vigo": {
+            "class": "Station",
+            "stationID": "Vigo",
+            "stationDate": "18.06.2010",
+            "stationTime": "N/A"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "latitude": "22\u00b0 N",
+            "longitude": "21\u00b0 W",
+            "seabedDepth": "4328"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "latitude": "17\u00b0 N",
+            "longitude": "24\u00b0 W",
+            "seabedDepth": "3598"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint",
+            "latitude": "18\u00b0 N",
+            "longitude": "21\u00b0 W",
+            "seabedDepth": "3068"
+        },
+        "Waypoint_4": {
+            "class": "Waypoint",
+            "latitude": "19\u00b0 N",
+            "longitude": "16\u00b0 W",
+            "seabedDepth": "64"
+        },
+        "Task_1": {
+            "class": "Task",
+            "hasDuration": "N/A",
+            "hasStatus": "Ongoing"
+        }
+    }
+}

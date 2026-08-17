@@ -1,7 +1,7 @@
 import  Reader_pdf_reader
-#import Reader_spreadsheet_reader
-import Reader_pdf_reader
+import Reader_spreadsheet_reader
 import AI_gpt_caller
+import JSON_validator
 #import AI_geminiai_caller
 import re
 
@@ -31,12 +31,11 @@ def get_individual_for_binary_relation(binary_relations,docpath,doc_type, pages,
     if doc_type == "pdf":
         docdata = Reader_pdf_reader.pdfReadModullar(docpath, pages)
     elif doc_type == "excel":
-        #data = Reader_spreadsheet_reader.get_spreadsheet_data(docpath,sheet_name)
+        data = Reader_spreadsheet_reader.get_spreadsheet_data(docpath,sheet_name)
         # Convert DataFrame to JSON
-        #docdata = data.to_json(orient="records")
-        prompt=""
+        docdata = data.to_json(orient="records")
     else:
-        prompt=""
+        raise ValueError(f"Unsupported doc_type: {doc_type}")
 
     prompt = (
     "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
@@ -67,14 +66,10 @@ def get_individual_for_binary_relation(binary_relations,docpath,doc_type, pages,
 
     """
     output = AI_gpt_caller.get_gpt_response(prompt)
-    # Extract and print the 'content' part
+    # Extract the 'content' part
     content_part = output.content
-    print(content_part)
-
-    print ("check type:")
-    print (type (content_part))
 
     # Parse the JSON data
-    #parsed_data = json.loads(content_part)
+    parsed_data = JSON_validator.validate_json(content_part)
 
-    return content_part 
+    return parsed_data

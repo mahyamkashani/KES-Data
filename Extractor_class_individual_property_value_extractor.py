@@ -1,6 +1,7 @@
 import Reader_pdf_reader
 import AI_gpt_caller
 import Reader_spreadsheet_reader
+import JSON_validator
 
 def get_class_property_value(individuals,docpath,doc_type, pages, sheet_name):
     prompt = None  
@@ -58,21 +59,15 @@ def get_class_property_value(individuals,docpath,doc_type, pages, sheet_name):
             f"\nTEXT_CONTENT: {docdata}"
         )
     else:
-        prompt=""
-    
-    print ("Here is the prompt: " + prompt)
+        raise ValueError(f"Unsupported doc_type: {doc_type}")
 
     output = AI_gpt_caller.get_gpt_response(prompt)
-    # Extract and print the 'content' part
+    # Extract the 'content' part
     content_part = output.content
-    #print(content_part)
-
-    print ("check type:")
-    #print (type (content_part))
 
     # Parse the JSON data
-    #parsed_data = json.loads(content_part)
+    parsed_data = JSON_validator.validate_json(content_part)
 
-    return content_part
+    return parsed_data
 
 

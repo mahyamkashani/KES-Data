@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "RV SONNE hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "SMART",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "SMART usesVehicle RV SONNE"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "RV SONNE hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint onTerrain TerrainArea"
+        }
+    ]
+}

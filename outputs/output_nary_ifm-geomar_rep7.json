@@ -1,0 +1,46 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SurveyNavigation hasMission M67_1",
+                "M67_1 usesVehicle R/V_METEOR",
+                "M67_1 hasGoal betterUnderstanding",
+                "M67_1 hasInitialCondition Chile-Margin-Survey",
+                "M67_1 hasTask BathymetricSurvey",
+                "BathymetricSurvey realisedByAction Mapping",
+                "Chile-Margin-Survey hasScenarioTask TectonicStudy"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M67_1",
+                "R/V_METEOR",
+                "betterUnderstanding",
+                "Chile-Margin-Survey",
+                "BathymetricSurvey",
+                "Mapping",
+                "TectonicStudy"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SurveyNavigation hasMission M67_1",
+                "M67_1 usesVehicle R/V_METEOR",
+                "M67_1 hasGoal betterUnderstanding",
+                "M67_1 hasInitialCondition Chile-Margin-Survey",
+                "M67_1 hasTask BathymetricSurvey",
+                "BathymetricSurvey realisedByAction Mapping",
+                "Chile-Margin-Survey hasScenarioTask TectonicStudy"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M67_1",
+                "R/V_METEOR",
+                "betterUnderstanding",
+                "Chile-Margin-Survey",
+                "BathymetricSurvey",
+                "Mapping",
+                "TectonicStudy"
+            ]
+        }
+    }
+}

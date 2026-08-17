@@ -1,0 +1,21 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "SO277 OMAX",
+                "hasDuration": "14.08.2020 - 03.10.2020",
+                "hasStatus": "Completed"
+            },
+            {
+                "individual_name": "MAPACT-ETNA",
+                "hasDuration": "1-3 years",
+                "hasStatus": "Ongoing"
+            }
+        ]
+    }
+}

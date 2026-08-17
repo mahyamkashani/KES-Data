@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "Mission_AL533": {
+            "class": "Mission",
+            "MissionID": "AL533",
+            "startTime": "2020-02-05",
+            "endTime": "2020-02-18",
+            "maxDepth": "500",
+            "imageCount": "100000",
+            "dataVolume": "795 nm",
+            "hasStatus": "Completed",
+            "remark": "Mutual Field Trials of the Manned Submersible JAGO and the Hover-AUVs ANTON and LUISE"
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "2020-02-05",
+            "stationTime": "10:40"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "latitude": "38\u00b024.70'N",
+            "longitude": "14\u00b058.56'E",
+            "seabedDepth": "310"
+        },
+        "Task_1": {
+            "class": "Task",
+            "hasDuration": "11.5 days",
+            "hasStatus": "Completed"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import Reader_pdf_reader
 import Reader_spreadsheet_reader
-import Reader_pdf_reader
 import AI_gpt_caller
+import JSON_validator
 #import AI_geminiai_caller
 #import re
 
@@ -22,7 +22,7 @@ def get_individual_for_nary_relation(nary_relations,docpath,doc_type, pages, she
                 ],
             "Individuals": [
             "crop_intance","growing_problem_event_id","GrowingProblem_name", "Symptom_description","CausalAgent_name","Season_name","ControlMethod_description","PreventionMethod_description"]
-        }
+        },
         "pattern02": {
             "Axioms":    [
                     "<crop_intance> hasGrowingProblemEvent <growing_problem_event_id>"
@@ -46,9 +46,8 @@ def get_individual_for_nary_relation(nary_relations,docpath,doc_type, pages, she
         data = Reader_spreadsheet_reader.get_spreadsheet_data(docpath,sheet_name)
         # Convert DataFrame to JSON
         docdata = data.to_json(orient="records")
-        prompt=''
     else:
-        prompt=""
+        raise ValueError(f"Unsupported doc_type: {doc_type}")
 
     prompt = (
     "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
@@ -66,7 +65,6 @@ def get_individual_for_nary_relation(nary_relations,docpath,doc_type, pages, she
     f"\nOUTPUT_JSON_FORMAT: {jsonExample}"
     f"\nTEXT_CONTENT: {docdata}"
     )
-    print ("Here is the prompt: " + prompt)
     '''
     #output = gpt_caller.get_gpt_response(prompt)
     output = geminiai_caller.get_gemini_response(prompt)
@@ -75,17 +73,13 @@ def get_individual_for_nary_relation(nary_relations,docpath,doc_type, pages, she
     # Extract and print the text content
     text_content = output.text
     print(text_content)
-    ''' 
+    '''
 
     output = AI_gpt_caller.get_gpt_response(prompt)
-    # Extract and print the 'content' part
+    # Extract the 'content' part
     content_part = output.content
-    print(content_part)
-
-    print ("check type:")
-    print (type (content_part))
 
     # Parse the JSON data
-    #parsed_data = json.loads(content_part)
+    parsed_data = JSON_validator.validate_json(content_part)
 
-    return content_part 
+    return parsed_data

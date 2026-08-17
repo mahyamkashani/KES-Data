@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "R/V SONNE hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO199 CHRISP",
+                "R/V SONNE"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "SO199 CHRISP usesVehicle R/V SONNE"
+        },
+        {
+            "INDIVIDUAL": [
+                "Investigator Ridge",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Investigator Ridge hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Christmas Island",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Christmas Island onTerrain TerrainArea"
+        }
+    ]
+}

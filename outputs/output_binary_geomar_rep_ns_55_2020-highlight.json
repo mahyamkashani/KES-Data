@@ -1,0 +1,84 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "JAGO hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission AL533",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "Mission AL533 usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "Traversal 1",
+                "Waypoint 1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Traversal 1 hasDestination Waypoint 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint 1",
+                "TerrainArea 1"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint 1 onTerrain TerrainArea 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "ANTON hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission AL533",
+                "ANTON"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "Mission AL533 usesVehicle ANTON"
+        },
+        {
+            "INDIVIDUAL": [
+                "Traversal 2",
+                "Waypoint 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Traversal 2 hasDestination Waypoint 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint 2",
+                "TerrainArea 2"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint 2 onTerrain TerrainArea 2"
+        }
+    ]
+}

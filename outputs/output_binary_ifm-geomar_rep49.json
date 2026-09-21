@@ -1,0 +1,264 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "ROV Max Rover"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V AEGAEO usesVehicle ROV Max Rover"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "SIMRAD EK60"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V AEGAEO hasSensor SIMRAD EK60"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V AEGAEO hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "CAT meters"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V AEGAEO hasSensor CAT meters"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "OBMets"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V AEGAEO hasSensor OBMets"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "piezometers"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V AEGAEO hasSensor piezometers"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #2"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #3"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #4"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #5"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #6"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #7"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #8"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #9"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #10"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #11"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #12"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #13"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #14"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #15"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #15"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #16"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #16"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #17"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #17"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #18"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #19"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #20"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #20"
+        }
+    ]
+}

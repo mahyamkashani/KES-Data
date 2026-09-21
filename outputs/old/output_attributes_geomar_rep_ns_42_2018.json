@@ -1,0 +1,40 @@
+{
+    "Individuals": {
+        "M143": {
+            "class": "Station",
+            "stationID": "M143",
+            "stationDate": "12.12.2017 - 22.12.2017",
+            "stationTime": "10:00 (local time) on 12.12.2017"
+        },
+        "M142": {
+            "class": "Station",
+            "stationID": "M142",
+            "stationDate": "Not specified",
+            "stationTime": "Not specified"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "island name": "Varna",
+            "latitude": "43\u00b0 58.151' N",
+            "longitude": "30\u00b0 49.408' E",
+            "seabedDepth": "680 m"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "island name": "Heraklion",
+            "latitude": "not specified",
+            "longitude": "not specified",
+            "seabedDepth": "not specified"
+        },
+        "Dive 1426": {
+            "class": "Task",
+            "hasDuration": "4.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 143": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

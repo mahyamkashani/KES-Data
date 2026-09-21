@@ -1,0 +1,25 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "AL533 goes_through Vulcano",
+                "AL533 goes_through Lipari",
+                "AL533 goes_through Panarea",
+                "AL533 goes_through Stromboli",
+                "AL533 hasVehicle JAGO",
+                "AL533 hasVehicle ANTON",
+                "AL533 hasVehicle LUISE"
+            ],
+            "Individuals": [
+                "AL533",
+                "JAGO",
+                "ANTON",
+                "LUISE",
+                "Vulcano",
+                "Lipari",
+                "Panarea",
+                "Stromboli"
+            ]
+        }
+    }
+}

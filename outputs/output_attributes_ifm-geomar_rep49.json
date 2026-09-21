@@ -1,0 +1,107 @@
+{
+    "Individuals": {
+        "Cruise_WND_V": {
+            "class": "Mission",
+            "MissionID": "WND-V",
+            "startTime": "2010-06-15",
+            "endTime": "2010-06-25",
+            "maxDepth": "450",
+            "dataVolume": "12 OBS, 4 Piezometers, 6 CATmeters, 2 Tiltmeters, 2 T-Observatories",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Final expedition of the West Nile Delta project"
+        },
+        "North_Alex_MV": {
+            "class": "Station",
+            "stationID": "North Alex MV",
+            "stationDate": "2010-06-15 to 2010-06-25",
+            "stationTime": "Various"
+        },
+        "Giza_MV": {
+            "class": "Station",
+            "stationID": "Giza MV",
+            "stationDate": "2010-06-15 to 2010-06-25",
+            "stationTime": "Various"
+        },
+        "North_Alex_Mud_Volcano": {
+            "class": "Waypoint",
+            "locationName": "North Alex",
+            "latitude": "31\u00b0 58.1877",
+            "longitude": "30\u00b0 08.1528",
+            "seabedDepth": "500 m"
+        },
+        "Giza_Mud_Volcano": {
+            "class": "Waypoint",
+            "locationName": "Giza",
+            "latitude": "31\u00b0 43.002",
+            "longitude": "29\u00b0 44.000",
+            "seabedDepth": "861 m"
+        },
+        "CTD_cast_1": {
+            "class": "Task",
+            "hasDuration": "2.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_cast_2": {
+            "class": "Task",
+            "hasDuration": "3.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_cast_3": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "CTD_cast_4": {
+            "class": "Task",
+            "hasDuration": "4.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_cast_5": {
+            "class": "Task",
+            "hasDuration": "3.5",
+            "hasStatus": "FAILED"
+        },
+        "CTD_Cast_1": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "505.0"
+        },
+        "CTD_Cast_2": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "523.0"
+        },
+        "CTD_Cast_3": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "510.0"
+        },
+        "CTD_Cast_4": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "518.0"
+        },
+        "CTD_Cast_5": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "494.0"
+        },
+        "CTD_Cast_6": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "510.0"
+        },
+        "CTD_Cast_7": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "518.0"
+        }
+    }
+}

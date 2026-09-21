@@ -1,0 +1,320 @@
+{
+    "Individuals": {
+        "Mission_01": {
+            "class": "Mission",
+            "MissionID": "SO210",
+            "startTime": "26.09.2010",
+            "endTime": "28.10.2010",
+            "maxDepth": "5988 m",
+            "dataVolume": "large amounts of data",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for SONNE 210/CHIFLUX"
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "26.09.10",
+            "stationTime": "10:20"
+        },
+        "Station_2": {
+            "class": "Station",
+            "stationID": "2",
+            "stationDate": "26.09.10",
+            "stationTime": "17:00"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "3",
+            "stationDate": "27.09.10",
+            "stationTime": "1:00"
+        },
+        "Station_4": {
+            "class": "Station",
+            "stationID": "4",
+            "stationDate": "28.09.10",
+            "stationTime": "2:41"
+        },
+        "Station_5": {
+            "class": "Station",
+            "stationID": "5",
+            "stationDate": "28.09.10",
+            "stationTime": "10:34"
+        },
+        "Station_6": {
+            "class": "Station",
+            "stationID": "6",
+            "stationDate": "01.10.10",
+            "stationTime": "10:16"
+        },
+        "Station_7": {
+            "class": "Station",
+            "stationID": "7",
+            "stationDate": "01.10.10",
+            "stationTime": "19:25"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "8",
+            "stationDate": "05.10.10",
+            "stationTime": "10:30"
+        },
+        "Station_9": {
+            "class": "Station",
+            "stationID": "9",
+            "stationDate": "06.10.10",
+            "stationTime": "1:36"
+        },
+        "Station_10": {
+            "class": "Station",
+            "stationID": "10",
+            "stationDate": "06.10.10",
+            "stationTime": "10:30"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "11",
+            "stationDate": "07.10.10",
+            "stationTime": "2:06"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "12",
+            "stationDate": "07.10.10",
+            "stationTime": "3:45"
+        },
+        "Station_13": {
+            "class": "Station",
+            "stationID": "13",
+            "stationDate": "07.10.10",
+            "stationTime": "10:30"
+        },
+        "Station_14": {
+            "class": "Station",
+            "stationID": "14",
+            "stationDate": "07.10.10",
+            "stationTime": "22:35"
+        },
+        "Station_15": {
+            "class": "Station",
+            "stationID": "15",
+            "stationDate": "08.10.10",
+            "stationTime": "15:43"
+        },
+        "Station_16": {
+            "class": "Station",
+            "stationID": "16",
+            "stationDate": "08.10.10",
+            "stationTime": "23:50"
+        },
+        "Station_17": {
+            "class": "Station",
+            "stationID": "17",
+            "stationDate": "13.10.10",
+            "stationTime": "20:33"
+        },
+        "Station_18": {
+            "class": "Station",
+            "stationID": "18",
+            "stationDate": "14.10.10",
+            "stationTime": "19:50"
+        },
+        "Station_19": {
+            "class": "Station",
+            "stationID": "19",
+            "stationDate": "14.10.10",
+            "stationTime": "23:02"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "20",
+            "stationDate": "17.10.10",
+            "stationTime": "10:04"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "21",
+            "stationDate": "19.10.10",
+            "stationTime": "2:07"
+        },
+        "Station_22": {
+            "class": "Station",
+            "stationID": "22",
+            "stationDate": "19.10.10",
+            "stationTime": "5:00"
+        },
+        "Station_23": {
+            "class": "Station",
+            "stationID": "23",
+            "stationDate": "23.10.10",
+            "stationTime": "0:10"
+        },
+        "Station_24": {
+            "class": "Station",
+            "stationID": "24",
+            "stationDate": "23.10.10",
+            "stationTime": "3:10"
+        },
+        "Station_25": {
+            "class": "Station",
+            "stationID": "25",
+            "stationDate": "24.10.10",
+            "stationTime": "2:20"
+        },
+        "Station_26": {
+            "class": "Station",
+            "stationID": "26",
+            "stationDate": "24.10.10",
+            "stationTime": "3:31"
+        },
+        "Station_27": {
+            "class": "Station",
+            "stationID": "27",
+            "stationDate": "24.10.10",
+            "stationTime": "4:56"
+        },
+        "Station_28": {
+            "class": "Station",
+            "stationID": "28",
+            "stationDate": "24.10.10",
+            "stationTime": "8:38"
+        },
+        "Station_29": {
+            "class": "Station",
+            "stationID": "29",
+            "stationDate": "24.10.10",
+            "stationTime": "13:41"
+        },
+        "Station_30": {
+            "class": "Station",
+            "stationID": "30",
+            "stationDate": "25.10.10",
+            "stationTime": "0:25"
+        },
+        "Station_31": {
+            "class": "Station",
+            "stationID": "31",
+            "stationDate": "28.10.10",
+            "stationTime": "9:05"
+        },
+        "Station_32": {
+            "class": "Station",
+            "stationID": "32",
+            "stationDate": "28.10.10",
+            "stationTime": "13:42"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "Concepcion Bay",
+            "latitude": "-36.367",
+            "longitude": "-73.617",
+            "seabedDepth": "740-870 m"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "CMSA Box 4",
+            "latitude": "-36.381",
+            "longitude": "-73.712",
+            "seabedDepth": "680 m"
+        },
+        "ROV-1": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-2": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-5": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-6": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-7": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-8": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-9": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-10": {
+            "class": "Task",
+            "hasDuration": "1.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "GC_01": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "3785"
+        },
+        "GC_04": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "4306"
+        },
+        "GC_06": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "4387"
+        },
+        "GC_07": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "4043"
+        },
+        "MUC_01": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "700"
+        },
+        "ROV_02_PC02": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "680"
+        },
+        "ROV_02_PC05": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "682"
+        },
+        "ROV_02_PC16": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "681"
+        },
+        "GC_11": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "1448"
+        },
+        "ROV_05_PC05": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "707"
+        }
+    }
+}

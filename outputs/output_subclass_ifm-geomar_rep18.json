@@ -1,0 +1,145 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "Stat #226",
+                "hasDuration": "2900 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #227",
+                "hasDuration": "3600 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #228",
+                "hasDuration": "3500 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #229",
+                "hasDuration": "3300 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #230",
+                "hasDuration": "3000 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #231",
+                "hasDuration": "3200 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #232",
+                "hasDuration": "3100 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #233",
+                "hasDuration": "2800 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #234",
+                "hasDuration": "2500 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #235",
+                "hasDuration": "1700 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #236",
+                "hasDuration": "190 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #237",
+                "hasDuration": "100 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #238",
+                "hasDuration": "1600 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #239",
+                "hasDuration": "2600 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #240",
+                "hasDuration": "2400 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #241",
+                "hasDuration": "2200 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #242",
+                "hasDuration": "1200 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #243",
+                "hasDuration": "60 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #244",
+                "hasDuration": "100 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #245",
+                "hasDuration": "1600 m",
+                "hasStatus": "FAILED"
+            },
+            {
+                "individual_name": "Stat #246",
+                "hasDuration": "1900 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #247",
+                "hasDuration": "70 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #248",
+                "hasDuration": "20 m",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #249",
+                "hasDuration": "30 m",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon",
+                "maxDepth": "2900 m"
+            }
+        ],
+        "Station": []
+    }
+}

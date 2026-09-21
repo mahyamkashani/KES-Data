@@ -1,0 +1,304 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Station 921RD",
+                "Act_AcquireDVLLock"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 921RD hasAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 922RD",
+                "Act_EstablishUSBLFix"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 922RD hasAction Act_EstablishUSBLFix"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 926RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 926RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 928DR",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 928DR hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 930MB",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 930MB hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 931RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 931RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 932RD",
+                "Act_EstablishUSBLFix"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 932RD hasAction Act_EstablishUSBLFix"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 940RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 940RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 941DR",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 941DR hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 942DR",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 942DR hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 943DR",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 943DR hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 944DR",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 944DR hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 945DR",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 945DR hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 946DR",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 946DR hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 947GC",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 947GC hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 948GC",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 948GC hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 949GC",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 949GC hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 950RD",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 950RD hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 951DR",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 951DR hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 952MB",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 952MB hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 953GC",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 953GC hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 954RD",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 954RD hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 955RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 955RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 956MB",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 956MB hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 957RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 957RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 958GC",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 958GC hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 959RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 959RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 960GC",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 960GC hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 961MB",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 961MB hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 962RD",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 962RD hasAction Act_TakePhoto"
+        }
+    ]
+}

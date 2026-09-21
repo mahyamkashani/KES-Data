@@ -1,0 +1,24 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Bathymetric Survey",
+                "hasDuration": "From 30th March to 1st April",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RRS James Cook",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Station": []
+    }
+}

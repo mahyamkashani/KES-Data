@@ -1,0 +1,369 @@
+{
+    "Individuals": {
+        "Cruise_SO_206": {
+            "class": "Mission",
+            "MissionID": "SO 206",
+            "startTime": "2010-05-31",
+            "endTime": "2010-06-17",
+            "maxDepth": "2017 m",
+            "dataVolume": "36 sediment cores",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Geophysical, biogeochemical, and sedimentological investigations at cold seeps"
+        },
+        "SO206-01": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-02-101": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-02-102": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-02-103": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-02-104": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-02-105": {
+            "class": "Task",
+            "hasDuration": 0.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-03": {
+            "class": "Task",
+            "hasDuration": 33.7,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-04": {
+            "class": "Task",
+            "hasDuration": 0.24,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1909
+        },
+        "SO206-06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1896
+        },
+        "SO206-07": {
+            "class": "Task",
+            "hasDuration": 3.41,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-08": {
+            "class": "Task",
+            "hasDuration": 0.4,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-09-106": {
+            "class": "Task",
+            "hasDuration": 0.07,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-10": {
+            "class": "Task",
+            "hasDuration": 1.01,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-11": {
+            "class": "Task",
+            "hasDuration": 6.19,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-12": {
+            "class": "Task",
+            "hasDuration": 3.19,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-13": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1905
+        },
+        "SO206-14": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1895
+        },
+        "SO206-15": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 766
+        },
+        "SO206-16": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 623
+        },
+        "SO206-17": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 525
+        },
+        "SO206-18": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 673
+        },
+        "SO206-19": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-20": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2017
+        },
+        "SO206-22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2011
+        },
+        "SO206-23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 518
+        },
+        "SO206-24": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 671
+        },
+        "SO206-25": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-26": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-27": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-28": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-29": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-30": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-31": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-32": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 398
+        },
+        "SO206-34": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-35": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-36": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1006
+        },
+        "SO206-37": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1013
+        },
+        "SO206-38": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1020
+        },
+        "SO206-39": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-40": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-41": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-42-306": {
+            "class": "Station",
+            "stationID": "SO206-42-306",
+            "stationDate": "11/06/2010",
+            "stationTime": "04:48"
+        },
+        "SO206-43": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-44": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-45": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-46": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-47": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-48": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-49": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-50": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-51": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-52": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-53": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-54": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-55": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-56": {
+            "class": "Task",
+            "hasDuration": 2.13,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mound_11": {
+            "class": "Waypoint",
+            "locationName": "Mound 11",
+            "latitude": "8\u00b0 55,34' N",
+            "longitude": "84\u00b0 18,21' W",
+            "seabedDepth": "1003 m"
+        },
+        "Mound_12": {
+            "class": "Waypoint",
+            "locationName": "Mound 12",
+            "latitude": "8\u00b0 55,72' N",
+            "longitude": "84\u00b0 18,82' W",
+            "seabedDepth": "1007 m"
+        },
+        "Pockmark": {
+            "class": "Waypoint",
+            "locationName": "Pockmark",
+            "latitude": "8\u00b0 59,58' N",
+            "longitude": "84\u00b0 43,69' W",
+            "seabedDepth": "1909 m"
+        },
+        "Mound_Cocori": {
+            "class": "Waypoint",
+            "locationName": "Mound Cocori",
+            "latitude": "9\u00b0 00,20' N",
+            "longitude": "84\u00b0 45,90' W",
+            "seabedDepth": "2017 m"
+        },
+        "SO206-02-106": {
+            "class": "Task",
+            "hasDuration": 2.02,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-33": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-42": {
+            "class": "Task",
+            "hasDuration": 1.03,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

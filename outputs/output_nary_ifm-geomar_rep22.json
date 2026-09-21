@@ -1,0 +1,76 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA09ROV",
+                "ATA09ROV hasAction Dive",
+                "HYDROMAR_V hasTask ATA13ROV",
+                "ATA13ROV hasAction Dive",
+                "HYDROMAR_V hasTask ATA15ROV",
+                "ATA15ROV hasAction Dive",
+                "HYDROMAR_V hasTask ATA30ROV",
+                "ATA30ROV hasAction Dive"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA09ROV",
+                "ATA13ROV",
+                "ATA15ROV",
+                "ATA30ROV"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA09ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA09ROV"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA13ROV",
+                "ATA13ROV hasDestination Anna_Louise"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA13ROV",
+                "Anna_Louise"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA15ROV",
+                "ATA15ROV hasDestination Quest"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA15ROV",
+                "Quest"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA17ROV",
+                "ATA17ROV hasDestination Irina_II"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA17ROV",
+                "Irina_II"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA21ROV",
+                "ATA21ROV hasDestination Quest"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA21ROV",
+                "Quest"
+            ]
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P340 hasTask 1",
+                "1 hasAction 721CTD",
+                "1 hasAction 722SBM",
+                "1 hasAction 724DR",
+                "1 hasAction 725DR",
+                "1 hasAction 726DR",
+                "1 hasAction 727SBM",
+                "1 hasAction 730DR",
+                "1 hasAction 731DR",
+                "1 hasAction 732DR",
+                "1 hasAction 733SBM",
+                "1 hasAction 740ROV",
+                "1 hasAction 741ROV",
+                "1 hasAction 743ROV",
+                "1 hasAction 752ROV",
+                "1 hasAction 754ROV",
+                "1 hasAction 756ROV"
+            ],
+            "Individuals": [
+                "P340",
+                "1",
+                "721CTD",
+                "722SBM",
+                "724DR",
+                "725DR",
+                "726DR",
+                "727SBM",
+                "730DR",
+                "731DR",
+                "732DR",
+                "733SBM",
+                "740ROV",
+                "741ROV",
+                "743ROV",
+                "752ROV",
+                "754ROV",
+                "756ROV"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "P340 hasTask 1",
+                "1 hasAction 721CTD",
+                "1 hasAction 722SBM",
+                "1 hasAction 724DR",
+                "1 hasAction 725DR",
+                "1 hasAction 726DR",
+                "1 hasAction 727SBM",
+                "1 hasAction 730DR",
+                "1 hasAction 731DR",
+                "1 hasAction 732DR",
+                "1 hasAction 733SBM",
+                "1 hasAction 740ROV",
+                "1 hasAction 741ROV",
+                "1 hasAction 743ROV",
+                "1 hasAction 752ROV",
+                "1 hasAction 754ROV"
+            ],
+            "Individuals": [
+                "P340",
+                "1",
+                "721CTD",
+                "722SBM",
+                "724DR",
+                "725DR",
+                "726DR",
+                "727SBM",
+                "730DR",
+                "731DR",
+                "732DR",
+                "733SBM",
+                "740ROV",
+                "741ROV",
+                "743ROV",
+                "752ROV",
+                "754ROV"
+            ]
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "Individuals": {
+        "MSM_04-2": {
+            "class": "Mission",
+            "MissionID": "MSM 04-2",
+            "startTime": "03.01.2007",
+            "endTime": "19.01.2007",
+            "maxDepth": "6000 m",
+            "imageCount": "50",
+            "dataVolume": "High",
+            "hasStatus": "Completed",
+            "remark": "Cruise report for seismic profiling"
+        },
+        "Fort-de-France": {
+            "class": "Station",
+            "stationID": "Station 01",
+            "stationDate": "03.01.2007",
+            "stationTime": "10:30"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "latitude": "15.17 N",
+            "longitude": "60.30 W",
+            "seabedDepth": "3040 m"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "latitude": "15.19 N",
+            "longitude": "60.25 W",
+            "seabedDepth": "3380 m"
+        },
+        "Waypoint_03": {
+            "class": "Waypoint",
+            "latitude": "15.23 N",
+            "longitude": "60.16 W",
+            "seabedDepth": "3568 m"
+        },
+        "Waypoint_04": {
+            "class": "Waypoint",
+            "latitude": "15.39 N",
+            "longitude": "61.40 W",
+            "seabedDepth": "1885 m"
+        },
+        "Waypoint_05": {
+            "class": "Waypoint",
+            "latitude": "15.43 N",
+            "longitude": "61.23 W",
+            "seabedDepth": "955 m"
+        },
+        "Waypoint_06": {
+            "class": "Waypoint",
+            "latitude": "16.18 N",
+            "longitude": "60.17 W",
+            "seabedDepth": "4875 m"
+        },
+        "Waypoint_07": {
+            "class": "Waypoint",
+            "latitude": "16.17 N",
+            "longitude": "60.17 W",
+            "seabedDepth": "4950 m"
+        },
+        "Waypoint_08": {
+            "class": "Waypoint",
+            "latitude": "16.02 N",
+            "longitude": "60.49 W",
+            "seabedDepth": "1023 m"
+        },
+        "Waypoint_09": {
+            "class": "Waypoint",
+            "latitude": "16.01 N",
+            "longitude": "60.50 W",
+            "seabedDepth": "1062 m"
+        },
+        "Waypoint_10": {
+            "class": "Waypoint",
+            "latitude": "14.58 N",
+            "longitude": "60.23 W",
+            "seabedDepth": "2685 m"
+        }
+    }
+}

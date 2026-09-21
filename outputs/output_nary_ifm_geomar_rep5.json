@@ -1,0 +1,36 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO186_1B hasTask Task_GITEWS",
+                "SO186_1C hasTask Task_GITEWS",
+                "SO186_1D hasTask Task_GITEWS"
+            ],
+            "Individuals": [
+                "SO186_1B",
+                "Task_GITEWS",
+                "SO186_1C",
+                "SO186_1D"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "Mission_hasTask_Task_1",
+                "Task_hasAction_Action_1",
+                "Traversal_hasVehicle_Vehicle_1",
+                "Traversal_hasDestination_Waypoint_1",
+                "Traversal_goes_through_Waypoint_1",
+                "Terrain_requiresNavigation_Waypoint_1"
+            ],
+            "Individuals": [
+                "Mission_1",
+                "Task_1",
+                "Action_1",
+                "Traversal_1",
+                "Waypoint_1",
+                "Terrain_1",
+                "Vehicle_1"
+            ]
+        }
+    }
+}

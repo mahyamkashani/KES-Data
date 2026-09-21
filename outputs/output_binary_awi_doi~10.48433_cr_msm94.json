@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "DVL",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Ship mounted ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Ship mounted ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Acoustic Doppler Current Profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Acoustic Doppler Current Profiler"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "POZ Bottom Lander"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "MARIA S. MERIAN hasSensor POZ Bottom Lander"
+        }
+    ]
+}

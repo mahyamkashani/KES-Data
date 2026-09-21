@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public">
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="http://oru.se/marinellm/survey" uri="marine_report.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="http://www.semanticweb.org/ontologies/crop_kb/" uri="CropKB_Tbox_KES.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="http://www.w3.org/ns/sosa/" uri="sosa.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="http://www.w3.org/ns/ssn/" uri="ssn.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="shadowed:http://oru.se/marinellm/survey" uri="Ontology/marine_survey_disjoint.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="shadowed:http://oru.se/marinellm/survey" uri="Ontology/marine_survey.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="shadowed:http://oru.se/marinellm/survey" uri="Ontology/marine_survey_with_data.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1788702354661" name="shadowed:http://oru.se/marinellm/survey" uri="Ontology/marine_survey_populated.rdf"/>
+    </group>
+</catalog>

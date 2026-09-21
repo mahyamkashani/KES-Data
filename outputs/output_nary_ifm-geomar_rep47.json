@@ -1,0 +1,37 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO214 hasTask NEMESYS",
+                "NEMESYS hasAction CTD"
+            ],
+            "Individuals": [
+                "SO214",
+                "NEMESYS",
+                "CTD"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO214 hasTask CSEM-SO214-1",
+                "CSEM-SO214-1 hasVehicle RV_SONNE"
+            ],
+            "Individuals": [
+                "SO214",
+                "CSEM-SO214-1",
+                "RV_SONNE"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "CSEM-SO214-2 hasTask CSEM-SO214-2_Task",
+                "CSEM-SO214-2 hasVehicle RV_SONNE"
+            ],
+            "Individuals": [
+                "CSEM-SO214-2",
+                "CSEM-SO214-2_Task",
+                "RV_SONNE"
+            ]
+        }
+    }
+}

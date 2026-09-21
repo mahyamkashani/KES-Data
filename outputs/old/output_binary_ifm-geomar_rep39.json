@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "SO208 hasSensor Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "PLUMEFLUX",
+                "R/V SONNE"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "PLUMEFLUX usesVehicle R/V SONNE"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "R/V SONNE hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint onTerrain TerrainArea"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P362-2 hasTask GizaMV",
+                "GizaMV hasAction GravityCorer",
+                "GravityCorer hasVehicle RVPoseidon",
+                "GravityCorer goes_through GizaOutflow",
+                "GravityCorer goes_through GizaNW",
+                "GravityCorer goes_through GizaNE",
+                "P362-2 hasTask NorthAlexMV",
+                "NorthAlexMV hasAction GravityCorer",
+                "GravityCorer hasVehicle RVPoseidon",
+                "GravityCorer goes_through NorthAlexOutflow",
+                "GravityCorer goes_through NorthAlexNW",
+                "GravityCorer goes_through NorthAlexSE",
+                "GravityCorer goes_through NorthAlexFarOutflow"
+            ],
+            "Individuals": [
+                "P362-2",
+                "GizaMV",
+                "GravityCorer",
+                "RVPoseidon",
+                "GizaOutflow",
+                "GizaNW",
+                "GizaNE",
+                "NorthAlexMV",
+                "NorthAlexOutflow",
+                "NorthAlexNW",
+                "NorthAlexSE",
+                "NorthAlexFarOutflow"
+            ]
+        }
+    }
+}

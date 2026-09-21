@@ -13,7 +13,7 @@ def get_classes_properties(ontology_path, classList):
     subclasses = Retriver_ontology_entity.data_property_list_for_classes(ontology, classList)
     return subclasses
     
-def get_subclass_pattern_from_doc (user_data,doc='/home/mahya/Desktop/robotic-cybersecurity/Projects/marineLLM-PDDL/documents/geomar_rep_ns_55_2020-highlight.pdf',doctype='pdf',pages=30, sheet=None):
+def get_subclass_pattern_from_doc (user_data,doc='pdfs/geomar_rep_ns_55_2020-highlight.pdf',pages=None):
 # Define the ontology structure with classes, subclasses, and data properties
     #agriculture pattern (CropKB_Tbox_KES.rdf / rice_large.pdf)
     #data = {
@@ -37,33 +37,88 @@ def get_subclass_pattern_from_doc (user_data,doc='/home/mahya/Desktop/robotic-cy
     #}
 
     #marine survey pattern (marine_survey.rdf / geomar_rep_ns_55_2020-highlight.pdf)
+    #Adapted to Ontology/new/marine_report.rdf, which declares a different
+    #hierarchy: BottomLockSite, NavFixSite, UnconstrainedSite and LongTask are
+    #gone, Waypoint has no subclasses any more, and the *_Mission classes are
+    #subclasses of Task rather than of Mission. Only the SUBCLASS names have to
+    #resolve as onto.<Name> -- populate_ontology.py types each individual by its
+    #subclass -- so Platform is fine as a parent label even though sosa:Platform
+    #is not reachable that way.
     data = {
         "classes": {
-            "Waypoint": {
+            "Task": {
                 "subclasses": {
-                    "BottomLockSite":{
+                    "SurveyMission":{
                         "data_properties": [
-                            "seabedDepth"
+                            "hasDuration",
+                            "hasStatus"
                         ]
                     },
-                    "NavFixSite":{
+                    "Bathymetric_Mission":{
                         "data_properties": [
-                            "seabedDepth"
+                            "hasDuration",
+                            "hasStatus"
                         ]
                     },
-                    "UnconstrainedSite":{
+                    "CTDMission":{
                         "data_properties": [
-                            "seabedDepth"
+                            "hasDuration",
+                            "hasStatus"
+                        ]
+                    },
+                    "Data_Sampling_Mission":{
+                        "data_properties": [
+                            "hasDuration",
+                            "hasStatus",
+                            "collect_sample"
+                        ]
+                    },
+                    "TrialMission":{
+                        "data_properties": [
+                            "hasDuration",
+                            "hasStatus"
+                        ]
+                    },
+                    "Traversal":{
+                        "data_properties": [
+                            "hasDuration",
+                            "hasStatus"
                         ]
                     }
                 }
             },
-            "Task": {
+            "Vehicle": {
                 "subclasses": {
-                    "LongTask":{
+                    "AUV":{
                         "data_properties": [
-                            "hasDuration",
-                            "hasStatus"
+                            "maxDepth"
+                        ]
+                    },
+                    "Remotely_Operated_Vehicle":{
+                        "data_properties": [
+                            "maxDepth"
+                        ]
+                    },
+                    "Submersible_Vehicle":{
+                        "data_properties": [
+                            "maxDepth"
+                        ]
+                    }
+                }
+            },
+            "Platform": {
+                "subclasses": {
+                    "Ship":{
+                        "data_properties": [
+                            "maxDepth"
+                        ]
+                    },
+                    "Station":{
+                        "data_properties": [
+                            "stationID",
+                            "stationName",
+                            "stationDate",
+                            "stationTime"
                         ]
                     }
                 }
@@ -75,7 +130,7 @@ def get_subclass_pattern_from_doc (user_data,doc='/home/mahya/Desktop/robotic-cy
     json_classes = json.dumps(data, indent=4)
 
     #Testing SubClasses pattern based individual extraction
-    #parameters: subclasses: List/JSON ,docpath: file path ,doc_type: pdf or excel, pages: if pdf, sheet_name: if excel
-    respones = Extractor_subclass_individual_extractor.get_subclass_individual(json_classes,doc,doctype,pages,sheet)
-    #respones = subclass_individual_extractor.get_subclass_individual(json_classes,'./POPs/homegarden_brinjal_v9.xlsx','excel',None,"Variety - small")
+    #parameters: subclasses: List/JSON, docpath: file path, pages: cap on pages
+    #indexed (None = the whole report)
+    respones = Extractor_subclass_individual_extractor.get_subclass_individual(json_classes,doc,pages)
     return respones

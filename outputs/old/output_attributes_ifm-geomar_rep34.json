@@ -1,0 +1,188 @@
+{
+    "Individuals": {
+        "MSM_03_2": {
+            "class": "Mission",
+            "MissionID": "MSM 03-2",
+            "startTime": "2006-11-08",
+            "endTime": "2006-11-30",
+            "maxDepth": "3100 m",
+            "dataVolume": "48 m",
+            "hasStatus": "Completed",
+            "remark": "Cruise report detailing the investigation of the Logatchev hydrothermal field."
+        },
+        "Station_01": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-08 to 2006-11-30",
+            "stationTime": "08:30 LT"
+        },
+        "Station_02": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-09",
+            "stationTime": "09:05 LT"
+        },
+        "Station_03": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-10",
+            "stationTime": "Morning"
+        },
+        "Station_04": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-11",
+            "stationTime": "Various"
+        },
+        "Station_05": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-12",
+            "stationTime": "Various"
+        },
+        "Station_06": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-13",
+            "stationTime": "Various"
+        },
+        "Station_07": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-14",
+            "stationTime": "Various"
+        },
+        "Station_08": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-15",
+            "stationTime": "Various"
+        },
+        "Station_09": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-16",
+            "stationTime": "Various"
+        },
+        "Station_10": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-17",
+            "stationTime": "Various"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-18",
+            "stationTime": "Various"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-19",
+            "stationTime": "Various"
+        },
+        "Station_13": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-20",
+            "stationTime": "Various"
+        },
+        "Station_14": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-21",
+            "stationTime": "Various"
+        },
+        "Station_15": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-22",
+            "stationTime": "Various"
+        },
+        "Station_16": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-23",
+            "stationTime": "Various"
+        },
+        "Station_17": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-24",
+            "stationTime": "Various"
+        },
+        "Station_18": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-25",
+            "stationTime": "Various"
+        },
+        "Station_19": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-26",
+            "stationTime": "08:30 LT"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "MSM 03-2",
+            "stationDate": "2006-11-27 to 2006-11-30",
+            "stationTime": "Various"
+        },
+        "Logatchev_Hydrothermal_Field": {
+            "class": "Waypoint",
+            "island name": "Logatchev",
+            "latitude": "14\u00b045'N",
+            "longitude": "44\u00b058'W",
+            "seabedDepth": "3000 m"
+        },
+        "Maria_S_Merian": {
+            "class": "Waypoint",
+            "island name": "Fort-de-France",
+            "latitude": "14\u00b050'N",
+            "longitude": "60\u00b055'W",
+            "seabedDepth": "60 m"
+        },
+        "Dive 925RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive 926RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 931RD": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 954RD": {
+            "class": "Task",
+            "hasDuration": 7.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 955RD": {
+            "class": "Task",
+            "hasDuration": 22.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 957RD": {
+            "class": "Task",
+            "hasDuration": 26.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 959RD": {
+            "class": "Task",
+            "hasDuration": 16.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 962RD": {
+            "class": "Task",
+            "hasDuration": 31.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

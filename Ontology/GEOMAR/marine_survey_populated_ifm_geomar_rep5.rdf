@@ -1,0 +1,1000 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://oru.se/marinellm/survey"
+         xmlns="http://oru.se/marinellm/survey#"
+         xmlns:core="http://www.w3.org/2004/02/skos/core#">
+
+<owl:Ontology rdf:about="http://oru.se/marinellm/survey">
+  <owl:versionIRI rdf:resource="http://oru.se/marinellm/survey"/>
+</owl:Ontology>
+
+<owl:ObjectProperty rdf:about="#before">
+  <rdfs:domain rdf:resource="#Waypoint"/>
+  <rdfs:range rdf:resource="#Waypoint"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#goes_through">
+  <rdfs:domain rdf:resource="#Traversal"/>
+  <rdfs:range rdf:resource="#Waypoint"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasAction">
+  <rdfs:domain rdf:resource="#Task"/>
+  <rdfs:range rdf:resource="#Action"/>
+  <owl:propertyChainAxiom>
+    <rdf:Description>
+      <rdf:first rdf:resource="#hasTask"/>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first rdf:resource="#realisedByAction"/>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </owl:propertyChainAxiom>
+  <rdfs:label xml:lang="en">has action</rdfs:label>
+  <core:definition xml:lang="en">Derived: the primitive planner actions of a mission, via its tasks.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasTask">
+  <owl:inverseOf rdf:resource="#taskOf"/>
+  <rdfs:domain rdf:resource="#Mission"/>
+  <rdfs:range rdf:resource="#Task"/>
+  <rdfs:label xml:lang="en">has task</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#realisedByAction">
+  <rdfs:range rdf:resource="#Action"/>
+  <rdfs:label xml:lang="en">realised by action</rdfs:label>
+  <core:definition xml:lang="en">Links a mission Task to the primitive planner Action(s) that carry it out (PDDL domain al533_auv_survey, domain_55.pddl).</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasDestination">
+  <rdfs:domain rdf:resource="#Traversal"/>
+  <rdfs:range rdf:resource="#Waypoint"/>
+  <rdfs:label xml:lang="en">has destination</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasGoal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="#Mission"/>
+  <rdfs:label xml:lang="en">has goal</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasInitialCondition">
+  <owl:inverseOf rdf:resource="#initialConditionOf"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:label xml:lang="en">has initial condition</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#initialConditionOf">
+  <rdfs:range rdf:resource="#Action"/>
+  <rdfs:label xml:lang="en">initial condition of</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasMission">
+  <owl:inverseOf rdf:resource="#missionOf"/>
+  <rdfs:range rdf:resource="#Mission"/>
+  <rdfs:label xml:lang="en">has mission</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#missionOf">
+  <rdfs:domain rdf:resource="#Mission"/>
+  <rdfs:label xml:lang="en">mission of</rdfs:label>
+  <core:definition xml:lang="en">Derived: the survey campaign (SurveyNavigation) a mission belongs to -- the inverse of hasMission.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasScenarioTask">
+  <owl:propertyChainAxiom>
+    <rdf:Description>
+      <rdf:first rdf:resource="#initialConditionOf"/>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first rdf:resource="#hasTask"/>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </owl:propertyChainAxiom>
+  <rdfs:label xml:lang="en">has scenario task</rdfs:label>
+  <core:definition xml:lang="en">Derived: the tasks carried out under this scenario -- the tasks of the (single) mission this scenario initiates (initialConditionOf o hasTask).</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSensor">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">has sensor</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSurface">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:range rdf:resource="#Terrain"/>
+  <rdfs:label xml:lang="en">has surface</rdfs:label>
+  <core:definition xml:lang="en">The ground class of a terrain area. Functional: one area has exactly one surface.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#taskOf">
+  <rdfs:domain rdf:resource="#Task"/>
+  <rdfs:range rdf:resource="#Action"/>
+  <rdfs:label xml:lang="en">task of</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasVehicle">
+  <rdfs:domain rdf:resource="#Traversal"/>
+  <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:label xml:lang="en">has vehicle</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_Terrain">
+  <rdfs:domain rdf:resource="#State"/>
+  <rdfs:range rdf:resource="#Terrain"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#onTerrain">
+  <rdfs:domain rdf:resource="#Terrain"/>
+  <rdfs:range rdf:resource="#State"/>
+  <rdfs:label xml:lang="en">on terrain</rdfs:label>
+  <core:definition xml:lang="en">The terrain AREA a waypoint falls inside. Terrain is a mappable area covering a SET of waypoints, not a per-waypoint tag.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#requiresNavigation">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Terrain"/>
+  <rdfs:range rdf:resource="#Waypoint"/>
+  <rdfs:label xml:lang="en">requires navigation</rdfs:label>
+  <core:definition xml:lang="en">THE RULE: the navigation capability a vehicle must hold to traverse this surface. This is the ontology half of can_perform.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usesDevice">
+  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:range rdf:resource="#Vehicle"/>
+  <rdfs:label xml:lang="en">uses device</rdfs:label>
+  <core:definition xml:lang="en">Derived: the devices a mission uses, via the vehicles it uses (usesVehicle o hasDevice). Never asserted.</core:definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#usesVehicle">
+  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:range rdf:resource="#Vehicle"/>
+  <rdfs:label xml:lang="en">uses vehicle</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/hasResult"/>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/madeBySensor"/>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observedProperty"/>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observes"/>
+
+<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/usedProcedure"/>
+
+<owl:DatatypeProperty rdf:about="#MissionID">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">mission ID</rdfs:label>
+  <core:definition xml:lang="en">Cruise or mission identifier used by the operator ("AL533").</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#collect_sample">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#dataVolume">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">data volume</rdfs:label>
+  <core:definition xml:lang="en">Amount of data the mission produced, verbatim from the report including its unit.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#endTime">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">end time</rdfs:label>
+  <core:definition xml:lang="en">When the mission ended, verbatim from the report ("2020-02-18").</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDuration">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label xml:lang="en">has duration</rdfs:label>
+  <core:definition xml:lang="en">Task duration in decimal hours. Omitted when unknown (open-world), never written as 0. Mission duration = sum over tasks, computed in SPARQL (no arithmetic in OWL). Reports that give a duration with its unit or as a span go to hasDurationText.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasDurationText">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">has duration (as reported)</rdfs:label>
+  <core:definition xml:lang="en">Duration verbatim from the source report, keeping the unit the report used ("11.5 days"). Companion to hasDuration, which holds decimal hours.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasStatus">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range>
+    <rdfs:Datatype>
+      <owl:oneOf>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAILED</rdf:first>
+        <rdf:rest>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PartialFAILURE</rdf:first>
+        <rdf:rest>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PartialSUCCESSFUL</rdf:first>
+        <rdf:rest>
+        <rdf:Description>
+      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+        </rdf:rest>
+        </rdf:Description>
+        </rdf:rest>
+        </rdf:Description>
+        </rdf:rest>
+        </rdf:Description>
+      </owl:oneOf>
+    </rdfs:Datatype>
+  </rdfs:range>
+  <rdfs:label xml:lang="en">has status</rdfs:label>
+  <core:definition xml:lang="en">The outcome of a task: exactly one of SUCCESSFUL / PartialSUCCESSFUL / FAILED (closed datatype enumeration). Functional: one status per task.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_Conductivity">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_Depth">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_Maximum_Depth">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#has_Temperature">
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#latitude">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">latitude</rdfs:label>
+  <core:definition xml:lang="en">Latitude as printed in the cruise report, degrees and decimal minutes with a hemisphere letter ("38°24.70'N"). String rather than decimal because the reports do not use signed decimal degrees.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#locationName">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">location name</rdfs:label>
+  <core:definition xml:lang="en">Place name the report uses for the waypoint -- an island, bank, seamount or station area ("Vulcano", "Lipari").</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#longitude">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">longitude</rdfs:label>
+  <core:definition xml:lang="en">Longitude as printed in the cruise report, degrees and decimal minutes with a hemisphere letter ("14°58.56'E").</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#maxDepth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label xml:lang="en">max depth</rdfs:label>
+  <core:definition xml:lang="en">Deepest point reached during the mission, in metres. Numeric; an extraction carrying a unit or a range goes to maxDepthText.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#maxDepthText">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">max depth (as reported)</rdfs:label>
+  <core:definition xml:lang="en">Maximum mission depth verbatim from the report, keeping ranges and units. Companion to maxDepth.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#remark">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">remark</rdfs:label>
+  <core:definition xml:lang="en">Free-text note on the mission, typically the title or summary line of the cruise report.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#seabedDepth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+  <rdfs:label xml:lang="en">seabed depth</rdfs:label>
+  <core:definition xml:lang="en">Seabed depth below the waypoint, in metres, as a single number. Reports that give a range or carry a unit go to seabedDepthText instead.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#seabedDepthText">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">seabed depth (as reported)</rdfs:label>
+  <core:definition xml:lang="en">Seabed depth verbatim from the source report, keeping ranges and units ("50-310 meters"). Companion to seabedDepth, which holds a single numeric value.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#startTime">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">start time</rdfs:label>
+  <core:definition xml:lang="en">When the mission began, verbatim from the report ("2020-02-05"). String rather than xsd:date because reports vary in format and the populator does no date parsing.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stationDate">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">station date</rdfs:label>
+  <core:definition xml:lang="en">Date the station was occupied, verbatim from the report. String, because extractions often give a span ("2020-02-05 to 2020-02-18") rather than a single date.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stationID">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">station ID</rdfs:label>
+  <core:definition xml:lang="en">Identifier the report gives the station.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stationName">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">station name</rdfs:label>
+  <core:definition xml:lang="en">Human-readable name of the station.</core:definition>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stationTime">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  <rdfs:label xml:lang="en">station time</rdfs:label>
+  <core:definition xml:lang="en">Time or elapsed duration at the station, verbatim from the report ("11.5 days").</core:definition>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+<owl:AnnotationProperty rdf:about="http://www.w3.org/ns/sosa/resultTime"/>
+
+<owl:Class rdf:about="#Waypoint">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WayPoint</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Traversal">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#hasVehicle"/>
+      <owl:someValuesFrom rdf:resource="#AUV"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:label xml:lang="en">Traversal</rdfs:label>
+  <core:definition xml:lang="en">A reified move: an AUV going to a destination waypoint.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Task">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Task</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Action">
+  <rdfs:label xml:lang="en">Action</rdfs:label>
+  <core:definition xml:lang="en">A primitive, executable vehicle operation - a durative-action schema in the PDDL planning domain (domain_55.pddl). Tasks are realised by sequences of Actions.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Mission">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.w3.org/ns/sosa/Platform"/>
+
+<owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
+
+<owl:Class rdf:about="#Terrain">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terrain</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#State">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">State</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Vehicle">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+  <core:definition xml:lang="en">A mobile or moored underwater platform used in a mission.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#ADCP">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">Acoustic Doppler Current Profiler</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#AUV">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+  <rdfs:label xml:lang="en">Autonomous Underwater Vehicle</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#AcousticSensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">Acoustic Sensor</rdfs:label>
+  <core:definition xml:lang="en">A sensor operating with sound (hydrophone, sonar, echosounder, sub-bottom profiler). Note: USBL/ADCP/DVL are acoustic too but are positioning/current instruments, deliberately NOT grouped here.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#BathymetricSensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:hasValue rdf:resource="#Depth"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:label xml:lang="en">Bathymetric Sensor</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Bathymetric_Mission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bathymetric Mapping Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#CTDMission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label xml:lang="en">CTD Profile Mission</rdfs:label>
+  <core:definition xml:lang="en">A mission carrying out a CTD-profile activity (derived through hasActivity).</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#CTDSensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:hasValue rdf:resource="#Conductivity"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:hasValue rdf:resource="#Depth"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:hasValue rdf:resource="#Temperature"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:label xml:lang="en">CTD Sensor</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Camera">
+  <rdfs:subClassOf rdf:resource="#OpticalSensor"/>
+  <rdfs:label xml:lang="en">Camera</rdfs:label>
+  <core:altLabel xml:lang="en">CoraMo</core:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#OpticalSensor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">Optical Sensor</rdfs:label>
+  <core:definition xml:lang="en">A sensor imaging with light (camera, hyperspectral, ...).</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#DVL">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">Doppler Velocity Log</rdfs:label>
+  <core:definition xml:lang="en">Bottom-lock sensor; locks only within dvl_range of the seabed.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Data_Observation_and_Collection">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Observation and Collection Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Data_Sampling_Mission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Sampling Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Echosounder">
+  <rdfs:subClassOf rdf:resource="#AcousticSensor"/>
+  <rdfs:subClassOf rdf:resource="#BathymetricSensor"/>
+  <rdfs:label xml:lang="en">Echosounder</rdfs:label>
+  <core:altLabel xml:lang="en">Echosounder</core:altLabel>
+  <core:definition xml:lang="en">Acoustic depth sounder (single- or split-beam); both a bathymetric and an acoustic sensor.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Hydrophone">
+  <rdfs:subClassOf rdf:resource="#AcousticSensor"/>
+  <rdfs:label xml:lang="en">Hydrophone</rdfs:label>
+  <core:altLabel xml:lang="en">Hydrophone</core:altLabel>
+  <core:definition xml:lang="en">Passive acoustic sensor: listens to underwater sound.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#MBES">
+  <rdfs:subClassOf rdf:resource="#BathymetricSensor"/>
+  <rdfs:label xml:lang="en">Multibeam Echosounder</rdfs:label>
+  <core:altLabel xml:lang="en">Multibeam</core:altLabel>
+</owl:Class>
+
+<owl:Class rdf:about="#Monocular">
+  <rdfs:subClassOf rdf:resource="#Camera"/>
+  <owl:disjointWith rdf:resource="#Stereo"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monocular Camera</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Stereo">
+  <rdfs:subClassOf rdf:resource="#Camera"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stereo Camera</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Remotely_Operated_Vehicle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remotely Operated Vehicle</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#ScienceMission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label xml:lang="en">Science Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Ship">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ship</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Sonar">
+  <rdfs:subClassOf rdf:resource="#AcousticSensor"/>
+  <rdfs:label xml:lang="en">Sonar</rdfs:label>
+  <core:altLabel xml:lang="en">Sonar</core:altLabel>
+  <core:definition xml:lang="en">Active acoustic sensor: images or ranges by emitting sound and timing echoes.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Station">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Submersible_Vehicle">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Submersible Vehicle</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#SurveyMission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label xml:lang="en">Survey Mission</rdfs:label>
+  <core:definition xml:lang="en">A mission that belongs to a Survey-and-Navigation campaign (the combined Sec. 5 category; navigation folded in). Derived through missionOf.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Survey_and_Navigation">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey and Navigation</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Transponder">
+  <rdfs:subClassOf rdf:resource="#Vehicle"/>
+  <rdfs:label xml:lang="en">Seabed Transponder</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#TrialMission">
+  <rdfs:subClassOf rdf:resource="#Task"/>
+  <rdfs:label xml:lang="en">Trial Mission</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#USBL">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:label xml:lang="en">Ultra-Short BaseLine positioning</rdfs:label>
+  <core:definition xml:lang="en">Acoustic position fix from the surface vessel; available anywhere in the water column.</core:definition>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Depth">
+  <rdfs:label xml:lang="en">Depth</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Conductivity">
+  <rdfs:label xml:lang="en">Conductivity</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Temperature">
+  <rdfs:label xml:lang="en">Temperature</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Act_AcquireDVLLock">
+  <rdf:type rdf:resource="#Action"/>
+  <rdfs:comment xml:lang="en">PDDL 'acquire_dvl_lock' - DVL bottom-lock, achievable only once the vehicle's altitude above the seabed is within dvl_range (depth-dependent) (domain_55.pddl).</rdfs:comment>
+  <rdfs:label xml:lang="en">acquire_dvl_lock</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Act_DeepDive">
+  <rdf:type rdf:resource="#Action"/>
+  <rdfs:comment xml:lang="en">PDDL 'deep_dive' - USBL-aided descent through the water column to the site's seabed depth (no DVL bottom-lock yet) (domain_55.pddl).</rdfs:comment>
+  <rdfs:label xml:lang="en">deep_dive</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Act_EstablishUSBLFix">
+  <rdf:type rdf:resource="#Action"/>
+  <rdfs:comment xml:lang="en">PDDL 'establish_usbl_fix' - ship-relative acoustic position fix from the surface vessel's USBL, available anywhere in the water column (domain_55.pddl).</rdfs:comment>
+  <rdfs:label xml:lang="en">establish_usbl_fix</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Act_Move">
+  <rdf:type rdf:resource="#Action"/>
+  <rdfs:comment xml:lang="en">PDDL durative-action 'move' - transit between connected waypoints; the destination's terrain class (flat/rocky) is read from the ontology, and rocky ground requires a live DVL bottom-lock or USBL fix (domain_55.pddl).</rdfs:comment>
+  <rdfs:label xml:lang="en">move</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Act_TakePhoto">
+  <rdf:type rdf:resource="#Action"/>
+  <rdfs:comment xml:lang="en">PDDL 'take_photo' - CoraMo Mk II imaging survey flown at the seabed under DVL bottom-lock, producing one photo survey per site (domain_55.pddl).</rdfs:comment>
+  <rdfs:label xml:lang="en">take_photo</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BottomLockRequired">
+  <rdfs:label xml:lang="en">DVL bottom-lock required</rdfs:label>
+  <core:definition xml:lang="en">Steep ground: altitude must be tracked continuously, so a USBL ship-fix is NOT sufficient. DVL bottom-lock specifically.</core:definition>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NavFixRequired">
+  <rdfs:label xml:lang="en">navigation fix required</rdfs:label>
+  <core:definition xml:lang="en">Hard/irregular ground: needs a LIVE fix -- DVL bottom-lock OR USBL. Either satisfies it.</core:definition>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NoFixRequired">
+  <rdfs:label xml:lang="en">no navigation fix required</rdfs:label>
+  <core:definition xml:lang="en">Benign ground: traversable dead-reckoned, no live fix needed.</core:definition>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#flat">
+  <requiresNavigation rdf:resource="#NoFixRequired"/>
+  <rdfs:comment xml:lang="en">Level soft sediment (Rep57 Sec.5.1: soft-sediment basin).</rdfs:comment>
+  <rdfs:label xml:lang="en">flat</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#rocky">
+  <requiresNavigation rdf:resource="#NavFixRequired"/>
+  <rdfs:comment xml:lang="en">Stony / hard ground, pillow lava (Rep55 Lipari, Vulcano; Rep57 high-backscatter shelf).</rdfs:comment>
+  <rdfs:label xml:lang="en">rocky</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#sand">
+  <requiresNavigation rdf:resource="#NoFixRequired"/>
+  <rdfs:comment xml:lang="en">Sandy / overgrown sediment; benign but poor optical contrast (Rep57 p.88, Gozo).</rdfs:comment>
+  <rdfs:label xml:lang="en">sand</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#steep">
+  <requiresNavigation rdf:resource="#BottomLockRequired"/>
+  <rdfs:comment xml:lang="en">Slope / scarp. Altitude changes fast under the vehicle, so a ship-relative USBL fix is not enough -- DVL bottom-lock is mandatory.</rdfs:comment>
+  <rdfs:label xml:lang="en">steep</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#RV_SONNE">
+  <rdf:type rdf:resource="#Ship"/>
+  <hasSensor rdf:resource="#Simrad_EM_120"/>
+  <hasSensor rdf:resource="#Parasound"/>
+  <maxDepthText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not specified</maxDepthText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Simrad_EM_120">
+  <rdf:type rdf:resource="#MBES"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Parasound">
+  <rdf:type rdf:resource="#Echosounder"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1A">
+  <rdf:type rdf:resource="#Task"/>
+  <hasAction rdf:resource="#OBS03"/>
+  <hasAction rdf:resource="#OBS10"/>
+  <hasAction rdf:resource="#OBS11"/>
+  <MissionID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO186-1A</MissionID>
+  <startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-10-29T17:23:00</startTime>
+  <endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-09T20:41:00</endTime>
+  <maxDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6200.0</maxDepth>
+  <dataVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45000</dataVolume>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+  <remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Survey profile 21 to 56</remark>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#OBS03">
+  <rdf:type rdf:resource="#Action"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#OBS10">
+  <rdf:type rdf:resource="#Action"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#OBS11">
+  <rdf:type rdf:resource="#Action"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B">
+  <rdf:type rdf:resource="#Mission"/>
+  <hasTask rdf:resource="#Task_GITEWS"/>
+  <MissionID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO186-1B</MissionID>
+  <startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-10T00:00:00</startTime>
+  <endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-20T23:59:00</endTime>
+  <maxDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000.0</maxDepth>
+  <dataVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50000</dataVolume>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+  <remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extended survey with EM120</remark>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Task_GITEWS">
+  <rdf:type rdf:resource="#Task"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C">
+  <rdf:type rdf:resource="#Mission"/>
+  <hasTask rdf:resource="#Task_GITEWS"/>
+  <MissionID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO186-1C</MissionID>
+  <startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-21T00:00:00</startTime>
+  <endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-11-30T23:59:00</endTime>
+  <maxDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5800.0</maxDepth>
+  <dataVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">52000</dataVolume>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+  <remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Further data collection</remark>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1D">
+  <rdf:type rdf:resource="#Mission"/>
+  <hasTask rdf:resource="#Task_GITEWS"/>
+  <MissionID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO186-1D</MissionID>
+  <startTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-12-01T00:00:00</startTime>
+  <endTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-12-10T23:59:00</endTime>
+  <maxDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000.0</maxDepth>
+  <dataVolume rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53000</dataVolume>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+  <remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Final data collection</remark>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TS1">
+  <rdf:type rdf:resource="#Remotely_Operated_Vehicle"/>
+  <maxDepthText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3600 m</maxDepthText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TS2">
+  <rdf:type rdf:resource="#Remotely_Operated_Vehicle"/>
+  <maxDepthText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3500 m</maxDepthText>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LEWK">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEWK</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LFAK">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LFAK</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LABU">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LABU</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#MAUD">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAUD</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PUTR">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUTR</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DEHI">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEHI</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#BATU">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BATU</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#LUAN">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LUAN</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16.12.2005</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#GITEWS_1">
+  <rdf:type rdf:resource="#Waypoint"/>
+  <locationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3°43.7'S/99°14.0'E</locationName>
+  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-3.7283</latitude>
+  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">99.2333</longitude>
+  <seabedDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5250.0</seabedDepth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#GITEWS_2">
+  <rdf:type rdf:resource="#Waypoint"/>
+  <locationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0°27'S/96°51'E</locationName>
+  <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-0.4500</latitude>
+  <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96.8500</longitude>
+  <seabedDepth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600.0</seabedDepth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_1">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_2">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_3">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_4">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_5">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.9</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_6">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_7">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_8">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.2</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1B_9">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.5</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C_1">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C_2">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C_3">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C_4">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO186_1C_5">
+  <rdf:type rdf:resource="#Task"/>
+  <hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.9</hasDuration>
+  <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_01">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.4</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5800.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_02">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_03">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5800.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_04">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5800.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_05">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5297.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#CTD_Station_06">
+  <rdf:type rdf:resource="#State"/>
+  <has_Temperature rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</has_Temperature>
+  <has_Conductivity rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</has_Conductivity>
+  <has_Depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5055.0</has_Depth>
+</owl:NamedIndividual>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Ship"/>
+    <rdf:Description rdf:about="#Station"/>
+    <rdf:Description rdf:about="#Terrain"/>
+    <rdf:Description rdf:about="#Vehicle"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#Mission"/>
+    <rdf:Description rdf:about="#State"/>
+    <rdf:Description rdf:about="#Task"/>
+    <rdf:Description rdf:about="#Terrain"/>
+    <rdf:Description rdf:about="#Waypoint"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#AUV"/>
+    <rdf:Description rdf:about="#Remotely_Operated_Vehicle"/>
+    <rdf:Description rdf:about="#Submersible_Vehicle"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#ADCP"/>
+    <rdf:Description rdf:about="#AcousticSensor"/>
+    <rdf:Description rdf:about="#CTDSensor"/>
+    <rdf:Description rdf:about="#DVL"/>
+    <rdf:Description rdf:about="#OpticalSensor"/>
+    <rdf:Description rdf:about="#USBL"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+
+</rdf:RDF>

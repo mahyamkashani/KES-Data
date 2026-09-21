@@ -1,20 +1,63 @@
 {
-    "Waypoint": {
-        "BottomLockSite": [],
-        "NavFixSite": [],
-        "UnconstrainedSite": []
-    },
     "Task": {
-        "LongTask": [
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
             {
-                "individual_name": "SO277 OMAX",
-                "hasDuration": "14.08.2020 - 03.10.2020",
-                "hasStatus": "Completed"
+                "individual_name": "Anton",
+                "maxDepth": "500m"
             },
             {
-                "individual_name": "MAPACT-ETNA",
-                "hasDuration": "1-3 years",
-                "hasStatus": "Ongoing"
+                "individual_name": "Luise",
+                "maxDepth": "500m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "SO277_1-1",
+                "stationID": "SO277_1-1",
+                "stationName": "MB",
+                "stationDate": "23.8.2020",
+                "stationTime": "14:08:00"
+            },
+            {
+                "individual_name": "SO277_2-1",
+                "stationID": "SO277_2-1",
+                "stationName": "CTD",
+                "stationDate": "24.8.2020",
+                "stationTime": "01:35:25"
+            },
+            {
+                "individual_name": "SO277_3-1",
+                "stationID": "SO277_3-1",
+                "stationName": "AGSS",
+                "stationDate": "24.8.2020",
+                "stationTime": "06:30:30"
+            },
+            {
+                "individual_name": "SO277_7-1",
+                "stationID": "SO277_7-1",
+                "stationName": "CTD",
+                "stationDate": "27.8.2020",
+                "stationTime": "01:27:46"
+            },
+            {
+                "individual_name": "SO277_8-1",
+                "stationID": "SO277_8-1",
+                "stationName": "AUV_L",
+                "stationDate": "27.8.2020",
+                "stationTime": "05:52:48"
             }
         ]
     }

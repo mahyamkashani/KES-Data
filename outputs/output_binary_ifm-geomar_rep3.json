@@ -1,0 +1,164 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 486"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 486"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 487"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 487"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 488"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 488"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 489"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 489"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 506"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 506"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 507"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 507"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 508"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 508"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 530"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 530"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 531"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 531"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 532"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 532"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 533"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 533"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 534"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 534"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 535"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 535"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 536"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 536"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 537"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 537"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 538"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 538"
+        }
+    ]
+}

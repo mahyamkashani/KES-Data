@@ -1,0 +1,134 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V METEOR hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V METEOR hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EK80"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V METEOR hasSensor EK80"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "PARASOUND"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_4-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_4-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_5-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_5-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_6-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_6-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_7-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_7-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_8-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_8-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_9-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_9-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_10-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_10-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_11-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_11-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M143_12-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask M143_12-1"
+        }
+    ]
+}

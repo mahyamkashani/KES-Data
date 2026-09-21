@@ -1,0 +1,150 @@
+{
+    "Individuals": {
+        "MASS-III": {
+            "class": "Mission",
+            "MissionID": "MASS-III",
+            "startTime": "2011-01-11",
+            "endTime": "2011-01-24",
+            "maxDepth": "2000 m",
+            "dataVolume": "450 nautical miles of seismic profiles",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise conducted in the Andaman Sea to assess tsunami risks."
+        },
+        "MASS III-001": {
+            "class": "Station",
+            "stationID": "MASS III-001",
+            "stationDate": "19.01.11",
+            "stationTime": "02:24"
+        },
+        "MASS III-002": {
+            "class": "Station",
+            "stationID": "MASS III-002",
+            "stationDate": "19.01.11",
+            "stationTime": "03:45"
+        },
+        "MASS III-004": {
+            "class": "Station",
+            "stationID": "MASS III-004",
+            "stationDate": "20.01.11",
+            "stationTime": "03:04"
+        },
+        "MASS III-005": {
+            "class": "Station",
+            "stationID": "MASS III-005",
+            "stationDate": "20.01.11",
+            "stationTime": "07:57"
+        },
+        "MASS III-006": {
+            "class": "Station",
+            "stationID": "MASS III-006",
+            "stationDate": "20.01.11",
+            "stationTime": "09:16"
+        },
+        "MASS III-007": {
+            "class": "Station",
+            "stationID": "MASS III-007",
+            "stationDate": "21.01.11",
+            "stationTime": "01:48"
+        },
+        "MASS III-008": {
+            "class": "Station",
+            "stationID": "MASS III-008",
+            "stationDate": "21.01.11",
+            "stationTime": "03:56"
+        },
+        "MASS III-009": {
+            "class": "Station",
+            "stationID": "MASS III-009",
+            "stationDate": "21.01.11",
+            "stationTime": "05:55"
+        },
+        "MASS III-010": {
+            "class": "Station",
+            "stationID": "MASS III-010",
+            "stationDate": "21.01.11",
+            "stationTime": "06:55"
+        },
+        "MASS III-011": {
+            "class": "Station",
+            "stationID": "MASS III-011",
+            "stationDate": "21.01.11",
+            "stationTime": "08:22"
+        },
+        "MASS III-012": {
+            "class": "Station",
+            "stationID": "MASS III-012",
+            "stationDate": "21.01.11",
+            "stationTime": "09:15"
+        },
+        "MASS III-013": {
+            "class": "Station",
+            "stationID": "MASS III-013",
+            "stationDate": "22.01.11",
+            "stationTime": "02:03"
+        },
+        "MASS_III_001": {
+            "class": "Waypoint",
+            "locationName": "MASS III-001",
+            "latitude": "8\u00b025.48",
+            "longitude": "95\u00b056.66",
+            "seabedDepth": "573.3"
+        },
+        "MASS_III_002": {
+            "class": "Waypoint",
+            "locationName": "MASS III-002",
+            "latitude": "8\u00b025.30",
+            "longitude": "95\u00b056.95",
+            "seabedDepth": "555.6"
+        },
+        "MASS_III_006": {
+            "class": "Waypoint",
+            "locationName": "MASS III-006",
+            "latitude": "7\u00b047.32",
+            "longitude": "95\u00b046.28",
+            "seabedDepth": "822.2"
+        },
+        "MASS_III_007": {
+            "class": "Waypoint",
+            "locationName": "MASS III-007",
+            "latitude": "8\u00b011.97",
+            "longitude": "95\u00b052.96",
+            "seabedDepth": "597.8"
+        },
+        "MASS_III-001": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 573.3
+        },
+        "MASS_III-002": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 551.1
+        },
+        "MASS_III-006": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 822.2
+        },
+        "MASS_III-007": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 597.8
+        },
+        "MASS_III-009": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 714.5
+        },
+        "MASS_III-010": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 632.2
+        }
+    }
+}

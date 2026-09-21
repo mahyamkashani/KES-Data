@@ -1,73 +1,204 @@
 {
     "Individuals": {
-        "P399-2": {
+        "P399_leg_2": {
             "class": "Mission",
-            "MissionID": "P399-2",
+            "MissionID": "P399/2",
             "startTime": "31.05.2010",
             "endTime": "17.06.2010",
             "maxDepth": "4328",
-            "imageCount": "N/A",
             "dataVolume": "N/A",
-            "hasStatus": "Completed",
-            "remark": "Cruise report for legs 2 and 3"
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for leg 2"
         },
-        "P399-3": {
-            "class": "Mission",
-            "MissionID": "P399-3",
-            "startTime": "18.06.2010",
-            "endTime": "24.06.2010",
-            "maxDepth": "N/A",
-            "imageCount": "N/A",
-            "dataVolume": "N/A",
-            "hasStatus": "Completed",
-            "remark": "Cruise report for legs 2 and 3"
-        },
-        "Las_Palmas": {
+        "Station_305": {
             "class": "Station",
-            "stationID": "Las_Palmas",
-            "stationDate": "31.05.2010",
-            "stationTime": "N/A"
+            "stationID": "305",
+            "stationDate": "02.06.2010",
+            "stationTime": "11:26"
         },
-        "Mindelo": {
+        "Station_307": {
             "class": "Station",
-            "stationID": "Mindelo",
-            "stationDate": "N/A",
-            "stationTime": "N/A"
+            "stationID": "307",
+            "stationDate": "03.06.2010",
+            "stationTime": "21:56"
         },
-        "Vigo": {
+        "Station_308": {
             "class": "Station",
-            "stationID": "Vigo",
-            "stationDate": "18.06.2010",
-            "stationTime": "N/A"
+            "stationID": "308",
+            "stationDate": "06.06.2010",
+            "stationTime": "17:06"
         },
-        "Waypoint_1": {
+        "Station_312": {
+            "class": "Station",
+            "stationID": "312",
+            "stationDate": "09.06.2010",
+            "stationTime": "20:38"
+        },
+        "Waypoint_01": {
             "class": "Waypoint",
-            "latitude": "22\u00b0 N",
-            "longitude": "21\u00b0 W",
-            "seabedDepth": "4328"
+            "locationName": "CVOO (Cape Verde Ocean Observatory)",
+            "latitude": "17\u00b0N",
+            "longitude": "24\u00b0W",
+            "seabedDepth": "unknown"
         },
-        "Waypoint_2": {
+        "Waypoint_02": {
             "class": "Waypoint",
-            "latitude": "17\u00b0 N",
-            "longitude": "24\u00b0 W",
-            "seabedDepth": "3598"
+            "locationName": "Mindelo (Cape Verde Islands)",
+            "latitude": "17\u00b0N",
+            "longitude": "24\u00b0W",
+            "seabedDepth": "unknown"
         },
-        "Waypoint_3": {
+        "Waypoint_03": {
             "class": "Waypoint",
-            "latitude": "18\u00b0 N",
-            "longitude": "21\u00b0 W",
-            "seabedDepth": "3068"
+            "locationName": "Las Palmas (Canary Islands)",
+            "latitude": "28\u00b0N",
+            "longitude": "15\u00b0W",
+            "seabedDepth": "unknown"
         },
-        "Waypoint_4": {
-            "class": "Waypoint",
-            "latitude": "19\u00b0 N",
-            "longitude": "16\u00b0 W",
-            "seabedDepth": "64"
-        },
-        "Task_1": {
+        "CTD_1": {
             "class": "Task",
-            "hasDuration": "N/A",
-            "hasStatus": "Ongoing"
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_2": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_3": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_4": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_5": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_6": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_7": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_8": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_9": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_10": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_11": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_12": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_13": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_14": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_15": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_16": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_17": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_18": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_19": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_20": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_21": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_22": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_23": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_Station_305": {
+            "class": "State",
+            "has_Temperature": 26.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 4328
+        },
+        "CTD_Station_307": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 3598
+        },
+        "CTD_Station_311": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 2801
+        },
+        "CTD_Station_317": {
+            "class": "State",
+            "has_Temperature": 34.1,
+            "has_Conductivity": 0.0,
+            "has_Depth": 64
+        },
+        "CTD_Station_319": {
+            "class": "State",
+            "has_Temperature": 15.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 25
         }
     }
 }

@@ -1,0 +1,54 @@
+{
+  "ObjectPropertyAxiom": [
+    {
+      "INDIVIDUAL": [
+        "JAGO",
+        "ANTON"
+      ],
+      "OBJECT_PROPERTY": "hasDevice",
+      "DOMAIN": "Vehicle",
+      "RANGE": "Device",
+      "AXIOM": "JAGO hasDevice ANTON"
+    },
+    {
+      "INDIVIDUAL": [
+        "JAGO",
+        "LUISE"
+      ],
+      "OBJECT_PROPERTY": "hasDevice",
+      "DOMAIN": "Vehicle",
+      "RANGE": "Device",
+      "AXIOM": "JAGO hasDevice LUISE"
+    },
+    {
+      "INDIVIDUAL": [
+        "Mission AL533",
+        "JAGO"
+      ],
+      "OBJECT_PROPERTY": "usesVehicle",
+      "DOMAIN": "Mission",
+      "RANGE": "Vehicle",
+      "AXIOM": "Mission AL533 usesVehicle JAGO"
+    },
+    {
+      "INDIVIDUAL": [
+        "Mission AL533",
+        "ANTON"
+      ],
+      "OBJECT_PROPERTY": "usesVehicle",
+      "DOMAIN": "Mission",
+      "RANGE": "Vehicle",
+      "AXIOM": "Mission AL533 usesVehicle ANTON"
+    },
+    {
+      "INDIVIDUAL": [
+        "Mission AL533",
+        "LUISE"
+      ],
+      "OBJECT_PROPERTY": "usesVehicle",
+      "DOMAIN": "Mission",
+      "RANGE": "Vehicle",
+      "AXIOM": "Mission AL533 usesVehicle LUISE"
+    }
+  ]
+}

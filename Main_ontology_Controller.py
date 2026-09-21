@@ -85,22 +85,10 @@ print (respones)
 """
 
 
-# Runs each of the four design patterns of Table 1 over a document and writes
-# one validated JSON file per pattern. The pattern samples the controllers send
-# to the LLM are the ones of marine_survey.rdf; the source document is the
-# GEOMAR AL533 cruise report.
-#   python Main_ontology_Controller.py                    # all patterns
-#   python Main_ontology_Controller.py subclass binary    # selected patterns only
-#   python Main_ontology_Controller.py --pages 52         # the whole cruise report
-#   python Main_ontology_Controller.py --doc ./rice_large.pdf   # other source document
-# The model comes from KES_GPT_MODEL (see AI_gpt_caller.py); the paper's
-# experiments 02 and 03 used gpt-4o-mini.
-
 #source document matching marine_survey.rdf
-MARINE_DOC = "pdfs/geomar_rep_ns_55_2020-highlight.pdf"
-#MARINE_DOC = "/home/mahya/Desktop/robotic-cybersecurity/Projects/marineLLM-PDDL/documents/Kiel/geomar/geomar_rep_ns_57_2021_compressed.pdf"
+#MARINE_DOC = "pdfs/geomar_rep_ns_57_2021_compressed.pdf" #ifm-geomar_rep40.pdf"
 # MARINE_DOC = "AL374 CR ifm-geomar_rep51-1.pdf"
-#MARINE_DOC = "/home/mahya/Desktop/robotic-cybersecurity/Projects/marineLLM-PDDL/documents/Kiel/geomar/ifm-geomar_rep39.pdf"
+MARINE_DOC = "pdfs/geomar_rep_ns_57_2021_compressed.pdf"#"pdfs/ifm_geomar_rep5.pdf"
 
 #pattern name -> extraction function
 PATTERNS = {
@@ -110,11 +98,10 @@ PATTERNS = {
     "attributes": Controller_class_with_attributes_pattern.get_individual_data_from_doc,
 }
 
-
-def run_pattern(name, doc, doctype, pages, outdir):
+def run_pattern(name, doc, pages, outdir):
     #run one pattern and write its validated JSON
     print(f"\n=== {name} pattern ===")
-    respones = PATTERNS[name](None, doc, doctype, pages, None)
+    respones = PATTERNS[name](None, doc, pages)
 
     docstem = os.path.splitext(os.path.basename(doc))[0]
     os.makedirs(outdir, exist_ok=True)
@@ -130,12 +117,26 @@ def main():
     parser.add_argument("patterns", nargs="*", metavar="PATTERN",
                         help="patterns to run, any of %s (default: all)" % ", ".join(PATTERNS))
     parser.add_argument("--doc", default=MARINE_DOC)
-    parser.add_argument("--doctype", default="pdf", choices=["pdf", "excel"])
-    parser.add_argument("--pages", type=int, default=30,
-                        help="max pages to read; clamped to the document length")
+    parser.add_argument("--pages", type=int, default=None,
+                        help="index only the first N pages (default: the whole "
+                             "report; retrieval, not a page cap, is what keeps "
+                             "the prompt small)")
     parser.add_argument("--outdir", default="outputs",
                         help="directory for the JSON files (created if missing)")
+    parser.add_argument("--tbox", default=None,
+                        help="ontology the extractions are validated against "
+                             "(default: Ontology/new/marine_report.rdf)")
+    parser.add_argument("--no-validate", action="store_true",
+                        help="skip the T-box check and the refine loop: one LLM "
+                             "call per pattern, as before")
     args = parser.parse_args()
+
+    #the extractors reach the validator through the environment, so the four
+    #controller signatures stay as they are
+    if args.tbox:
+        os.environ["KES_TBOX"] = os.path.abspath(args.tbox)
+    if args.no_validate:
+        os.environ["KES_VALIDATE"] = "0"
 
     #argparse cannot validate a list default against choices, so check by hand
     if not args.patterns:
@@ -148,7 +149,7 @@ def main():
     failures = []
     for name in args.patterns:
         try:
-            run_pattern(name, args.doc, args.doctype, args.pages, args.outdir)
+            run_pattern(name, args.doc, args.pages, args.outdir)
         except Exception as exc:
             #one bad pattern should not lose the results of the others
             print(f"FAILED {name}: {type(exc).__name__}: {exc}")

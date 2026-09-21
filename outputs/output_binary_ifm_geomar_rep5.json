@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Simrad EM-120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Simrad EM-120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186-1A",
+                "OBS03"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO186-1A hasAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186-1A",
+                "OBS10"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO186-1A hasAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186-1A",
+                "OBS11"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO186-1A hasAction Act_AcquireDVLLock"
+        }
+    ]
+}

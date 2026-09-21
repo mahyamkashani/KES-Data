@@ -1,0 +1,368 @@
+{
+    "Individuals": {
+        "P350": {
+            "class": "Mission",
+            "MissionID": "P350",
+            "startTime": "2007-04-26",
+            "endTime": "2007-05-10",
+            "maxDepth": "2000m",
+            "dataVolume": "High",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise focused on internal wave and mixing processes in the Gulf of Cadiz."
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "2007-04-27",
+            "stationTime": "19:00:44"
+        },
+        "Station_2": {
+            "class": "Station",
+            "stationID": "2",
+            "stationDate": "2007-04-28",
+            "stationTime": "14:54:16"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "3",
+            "stationDate": "2007-04-28",
+            "stationTime": "16:49:58"
+        },
+        "Station_4": {
+            "class": "Station",
+            "stationID": "4",
+            "stationDate": "2007-04-28",
+            "stationTime": "21:35:23"
+        },
+        "Station_5": {
+            "class": "Station",
+            "stationID": "5",
+            "stationDate": "2007-04-29",
+            "stationTime": "00:30:38"
+        },
+        "Station_6": {
+            "class": "Station",
+            "stationID": "6",
+            "stationDate": "2007-04-29",
+            "stationTime": "03:38:02"
+        },
+        "Station_7": {
+            "class": "Station",
+            "stationID": "7",
+            "stationDate": "2007-04-29",
+            "stationTime": "06:25:41"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "8",
+            "stationDate": "2007-04-29",
+            "stationTime": "09:14:41"
+        },
+        "Station_9": {
+            "class": "Station",
+            "stationID": "9",
+            "stationDate": "2007-04-30",
+            "stationTime": "21:31:32"
+        },
+        "Station_10": {
+            "class": "Station",
+            "stationID": "10",
+            "stationDate": "2007-05-01",
+            "stationTime": "16:09:08"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "11",
+            "stationDate": "2007-05-01",
+            "stationTime": "18:58:52"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "Funchal",
+            "latitude": "34\u00b040.57'N",
+            "longitude": "12\u00b034.51'W",
+            "seabedDepth": "2024 m"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "Lisbon",
+            "latitude": "36\u00b014.08'N",
+            "longitude": "9\u00b010.54'W",
+            "seabedDepth": "1974 m"
+        },
+        "Yoyo 1": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Yoyo 2": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 290": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 291": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 292": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 294": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 296": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 304": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 305": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 306": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 309": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 317": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 319": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 321": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 323": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 325": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 330": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 332": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 338": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 343": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 344": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 346": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 356": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 358": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 360": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 362": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 364": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 366": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 368": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 370": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_Station_290": {
+            "class": "State",
+            "has_Depth": 2020
+        },
+        "CTD_Station_291": {
+            "class": "State",
+            "has_Depth": 1974
+        },
+        "CTD_Station_292": {
+            "class": "State",
+            "has_Depth": 2010
+        },
+        "CTD_Station_304": {
+            "class": "State",
+            "has_Depth": 857
+        },
+        "CTD_Station_305": {
+            "class": "State",
+            "has_Depth": 1194
+        },
+        "CTD_Station_306": {
+            "class": "State",
+            "has_Depth": 686
+        },
+        "CTD_Station_309": {
+            "class": "State",
+            "has_Depth": 1078
+        },
+        "CTD_Station_311": {
+            "class": "State",
+            "has_Depth": 704
+        },
+        "CTD_Station_312": {
+            "class": "State",
+            "has_Depth": 803
+        },
+        "CTD_Station_317": {
+            "class": "State",
+            "has_Depth": 966
+        },
+        "CTD_Station_319": {
+            "class": "State",
+            "has_Depth": 2024
+        },
+        "CTD_Station_321": {
+            "class": "State",
+            "has_Depth": 2023
+        },
+        "CTD_Station_323": {
+            "class": "State",
+            "has_Depth": 2020
+        },
+        "CTD_Station_325": {
+            "class": "State",
+            "has_Depth": 2022
+        },
+        "CTD_Station_330": {
+            "class": "State",
+            "has_Depth": 2023
+        },
+        "CTD_Station_332": {
+            "class": "State",
+            "has_Depth": 2018
+        },
+        "CTD_Station_334": {
+            "class": "State",
+            "has_Depth": 2023
+        },
+        "CTD_Station_338": {
+            "class": "State",
+            "has_Depth": 2025
+        },
+        "CTD_Station_343": {
+            "class": "State",
+            "has_Depth": 2019
+        },
+        "CTD_Station_344": {
+            "class": "State",
+            "has_Depth": 2024
+        },
+        "CTD_Station_346": {
+            "class": "State",
+            "has_Depth": 2032
+        },
+        "CTD_Station_356": {
+            "class": "State",
+            "has_Depth": 2018
+        },
+        "CTD_Station_358": {
+            "class": "State",
+            "has_Depth": 2021
+        },
+        "CTD_Station_360": {
+            "class": "State",
+            "has_Depth": 2024
+        },
+        "CTD_Station_362": {
+            "class": "State",
+            "has_Depth": 2024
+        },
+        "CTD_Station_364": {
+            "class": "State",
+            "has_Depth": 2023
+        },
+        "CTD_Station_366": {
+            "class": "State",
+            "has_Depth": 2024
+        },
+        "CTD_Station_368": {
+            "class": "State",
+            "has_Depth": 2022
+        },
+        "CTD_Station_370": {
+            "class": "State",
+            "has_Depth": 2016
+        },
+        "Yoyo_Station_1": {
+            "class": "State",
+            "has_Depth": 2019
+        },
+        "Yoyo_Station_2": {
+            "class": "State",
+            "has_Depth": 1718
+        }
+    }
+}

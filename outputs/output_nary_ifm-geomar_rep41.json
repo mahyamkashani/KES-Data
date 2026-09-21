@@ -1,0 +1,20 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO206 hasTask Task_1",
+                "Traversal_1 hasVehicle RV_SONNE",
+                "Traversal_1 goes_through Pockmark",
+                "Traversal_1 goes_through Jaco_Scarp",
+                "Traversal_1 goes_through Quepos_Slide"
+            ],
+            "Individuals": [
+                "SO206",
+                "RV_SONNE",
+                "Pockmark",
+                "Jaco_Scarp",
+                "Quepos_Slide"
+            ]
+        }
+    }
+}

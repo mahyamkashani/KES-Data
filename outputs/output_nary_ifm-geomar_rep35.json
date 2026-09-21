@@ -1,0 +1,35 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO201-2 hasTask KALMAR",
+                "KALMAR hasAction Dredging"
+            ],
+            "Individuals": [
+                "SO201-2",
+                "KALMAR",
+                "Dredging"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO201-2 hasTask HydrographicMeasurements",
+                "HydrographicMeasurements hasAction CTDProfiling"
+            ],
+            "Individuals": [
+                "SO201-2",
+                "HydrographicMeasurements",
+                "CTDProfiling"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO201-2 hasTask HeatFlowMeasurements"
+            ],
+            "Individuals": [
+                "SO201-2",
+                "HeatFlowMeasurements"
+            ]
+        }
+    }
+}

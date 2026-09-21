@@ -1,0 +1,144 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM06"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM06"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM03"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM03"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM09"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM09"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM07",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM07 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM07",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM07 realised by action Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM10",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM10 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM10",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM10 realised by action Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM11",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM11 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM11",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM11 realised by action Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM03",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM03 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM03",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM03 realised by action Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM09",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM09 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM09",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM09 realised by action Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM06",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM06 realised by action Act_Move"
+        }
+    ]
+}

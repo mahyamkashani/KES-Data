@@ -1,0 +1,33 @@
+{
+    "Individuals": {
+        "SO199_CHRISP": {
+            "class": "Mission",
+            "MissionID": "SO199",
+            "startTime": "02.08.2008",
+            "endTime": "22.09.2008",
+            "maxDepth": "5000",
+            "imageCount": "70",
+            "dataVolume": "5694",
+            "hasStatus": "Completed",
+            "remark": "Research project on Christmas Island Seamount Province and Investigator Ridge"
+        },
+        "Investigator_Ridge": {
+            "class": "Waypoint",
+            "latitude": "-6.0",
+            "longitude": "95.0",
+            "seabedDepth": "3000"
+        },
+        "Christmas_Island_Seamount_Province": {
+            "class": "Waypoint",
+            "latitude": "-10.0",
+            "longitude": "105.0",
+            "seabedDepth": "2000"
+        },
+        "R_V_SONNE": {
+            "class": "Station",
+            "stationID": "RV_SONNE",
+            "stationDate": "02.08.2008",
+            "stationTime": "16:00"
+        }
+    }
+}

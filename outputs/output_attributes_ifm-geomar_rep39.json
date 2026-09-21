@@ -1,75 +1,323 @@
 {
     "Individuals": {
-        "SO208": {
+        "DR5": {
             "class": "Mission",
-            "MissionID": "SO208",
-            "startTime": "2010-07-15",
-            "endTime": "2010-08-29",
-            "maxDepth": "3000",
-            "imageCount": "0",
-            "dataVolume": "N/A",
-            "hasStatus": "Completed",
-            "remark": "Propagation of Gal\u00e1pagos Plume Material in the Equatorial East Pacific"
+            "MissionID": "1",
+            "startTime": "UTC 18/07/10 03:04hrs",
+            "endTime": "UTC 18/07/10 03:46hrs",
+            "maxDepth": "3410m",
+            "dataVolume": "empty",
+            "hasStatus": "FAILED",
+            "remark": "gDr, no sediment, no macrofauna"
         },
-        "Caldera_Costa_Rica": {
+        "DR6": {
+            "class": "Mission",
+            "MissionID": "1",
+            "startTime": "UTC 19/07/10 07:53hrs",
+            "endTime": "UTC 19/07/10 07:53hrs",
+            "maxDepth": "3572m",
+            "dataVolume": "empty",
+            "hasStatus": "FAILED",
+            "remark": "no sediment, no macrofauna"
+        },
+        "DR7": {
+            "class": "Mission",
+            "MissionID": "1",
+            "startTime": "UTC 20/07/10 12:20hrs",
+            "endTime": "UTC 20/07/10 13:35hrs",
+            "maxDepth": "3104m",
+            "dataVolume": "1/3 full",
+            "hasStatus": "FAILED",
+            "remark": "pillow basalts with fresh glass"
+        },
+        "DR9": {
+            "class": "Mission",
+            "MissionID": "1",
+            "startTime": "UTC 22/07/10 06:22hrs",
+            "endTime": "UTC 22/07/10 07:42hrs",
+            "maxDepth": "3329m",
+            "dataVolume": "100% full",
+            "hasStatus": "FAILED",
+            "remark": "pillow fragments with fresh glass"
+        },
+        "SO208_DR122": {
             "class": "Station",
-            "stationID": "1",
-            "stationDate": "2010-07-15",
-            "stationTime": "14:00"
+            "stationID": "SO208_DR122",
+            "stationDate": "26/08/10",
+            "stationTime": "00:30"
         },
-        "Guayaquil_Ecuador": {
+        "SO208_MUC124": {
             "class": "Station",
-            "stationID": "2",
-            "stationDate": "2010-08-29",
-            "stationTime": "N/A"
+            "stationID": "SO208_MUC124",
+            "stationDate": "26/08/10",
+            "stationTime": "06:49"
         },
-        "Pancake_Seamount": {
-            "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3224-2992"
+        "SO208_TVG123": {
+            "class": "Station",
+            "stationID": "SO208_TVG123",
+            "stationDate": "26/08/10",
+            "stationTime": "06:48"
         },
-        "Half_Moon_Seamount": {
-            "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3600-2300"
+        "SO208_DR29": {
+            "class": "Station",
+            "stationID": "SO208_DR29",
+            "stationDate": "24/07/10",
+            "stationTime": "09:12"
+        },
+        "SO208_DR30": {
+            "class": "Station",
+            "stationID": "SO208_DR30",
+            "stationDate": "24/07/10",
+            "stationTime": "12:19"
+        },
+        "SO208_DR37": {
+            "class": "Station",
+            "stationID": "SO208_DR37",
+            "stationDate": "26/07/10",
+            "stationTime": "03:01"
+        },
+        "SO208_DR67": {
+            "class": "Station",
+            "stationID": "SO208_DR67",
+            "stationDate": "09/08/10",
+            "stationTime": "03:27"
+        },
+        "SO208_DR120": {
+            "class": "Station",
+            "stationID": "SO208_DR120",
+            "stationDate": "25/08/10",
+            "stationTime": "11:46"
+        },
+        "SO208_DR121": {
+            "class": "Station",
+            "stationID": "SO208_DR121",
+            "stationDate": "25/08/10",
+            "stationTime": "16:27"
         },
         "Egg_Seamount": {
             "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3400-2800"
+            "locationName": "Egg Seamount",
+            "latitude": "07\u00b050,32'N",
+            "longitude": "90\u00b028,15'W",
+            "seabedDepth": "3096 m"
         },
         "Boxer_Seamount": {
             "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3398-2973"
-        },
-        "Horseshoe_Seamount": {
-            "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "N/A"
+            "locationName": "Boxer Seamount",
+            "latitude": "07\u00b038,61'N",
+            "longitude": "90\u00b052,20'W",
+            "seabedDepth": "3398 m"
         },
         "Donut_Seamount": {
             "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3600-3290"
+            "locationName": "Donut Seamount",
+            "latitude": "06\u00b051,47'N",
+            "longitude": "91\u00b038,59'W",
+            "seabedDepth": "3572 m"
         },
-        "Spiegelei_Seamount": {
+        "Bend_Fault_Seamount": {
             "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "3104-2783"
+            "locationName": "Bend fault Seamount",
+            "latitude": "10\u00b047,46'N",
+            "longitude": "87\u00b050,46'W",
+            "seabedDepth": "2574 m"
         },
-        "Eye_Seamount": {
+        "Little_Bend_Seamount": {
             "class": "Waypoint",
-            "latitude": "N/A",
-            "longitude": "N/A",
-            "seabedDepth": "N/A"
+            "locationName": "Little Bend Seamount",
+            "latitude": "10\u00b041,12'N",
+            "longitude": "87\u00b045,52'W",
+            "seabedDepth": "2995 m"
+        },
+        "DR 60": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 61": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 62": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 63": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 64": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 65": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 66": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 67": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 68": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 69": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 71": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 72": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 73": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 74": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 75": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 76": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 77": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 78": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 79": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 80": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 81": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 82": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 83": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 84": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 85": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 86": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 87": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 88": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 89": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 90": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 91": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 92": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "Profile_1": {
+            "class": "State",
+            "has_Temperature": "1.68",
+            "has_Conductivity": "0.052",
+            "has_Depth": "1680"
+        },
+        "Profile_2": {
+            "class": "State",
+            "has_Temperature": "1.75",
+            "has_Conductivity": "0.053",
+            "has_Depth": "1682"
+        },
+        "Profile_3": {
+            "class": "State",
+            "has_Temperature": "1.87",
+            "has_Conductivity": "0.054",
+            "has_Depth": "1685"
+        },
+        "Profile_4": {
+            "class": "State",
+            "has_Temperature": "1.90",
+            "has_Conductivity": "0.055",
+            "has_Depth": "1690"
+        },
+        "Profile_5": {
+            "class": "State",
+            "has_Temperature": "1.95",
+            "has_Conductivity": "0.056",
+            "has_Depth": "1695"
         }
     }
 }

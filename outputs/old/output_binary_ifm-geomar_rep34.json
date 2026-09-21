@@ -1,0 +1,494 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Maria S. Merian deploysVehicle Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM 03-2",
+                "RV Maria S. Merian"
+            ],
+            "OBJECT_PROPERTY": "operatedFromShip",
+            "DOMAIN": "Mission",
+            "RANGE": "Ship",
+            "AXIOM": "MSM 03-2 operatedFromShip RV Maria S. Merian"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM 03-2",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "MSM 03-2 usesVehicle Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM 03-2",
+                "Dive 954"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM 03-2 hasTask Dive 954"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 954",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 954 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 954",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 954 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 920RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 920RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 921RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 921RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 922RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 922RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 923SV",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 923SV hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 924MB",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 924MB hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 925RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 925RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 926RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 926RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 927MUC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 927MUC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 928DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 928DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 929DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 929DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 930MB",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 930MB hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 931RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 931RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 932RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 932RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 933MUC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 933MUC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 934MB",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 934MB hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 935MUC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 935MUC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 936DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 936DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 937DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 937DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 938DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 938DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 939DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 939DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 940RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 940RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 941DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 941DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 942DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 942DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 943DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 943DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 944DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 944DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 945GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 945GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 946GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 946GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 947GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 947GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 948RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 948RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 949DR",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 949DR hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 950RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 950RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 951RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 951RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 952MB",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 952MB hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 953GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 953GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 954RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 954RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 955RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 955RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 956MB",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 956MB hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 957RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 957RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 958GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 958GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 959RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 959RD hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 960GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 960GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 961GC",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 961GC hasDestination Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 962RD",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 962RD hasDestination Rockdrill 2"
+        }
+    ]
+}

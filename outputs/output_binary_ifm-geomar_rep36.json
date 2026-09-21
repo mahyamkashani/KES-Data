@@ -1,0 +1,454 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "SBE9 Seabird CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV CELTIC EXPLORER hasSensor SBE9 Seabird CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profiler-Lander",
+                "RDI Sentinel 300 kHz"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "Profiler-Lander hasSensor RDI Sentinel 300 kHz"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 37-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 37-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 37-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 37-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 38"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 39"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 40"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 41"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 41"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 42"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 42"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 43"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 43"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 44"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 44"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 46"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 46"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 47"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 47"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 48"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 48"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 49"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 49"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 50"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 50"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 51-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 51-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 51-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 51-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 52"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 52"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 53-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 53-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 53-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 53-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 53-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 53-3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 54"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 54"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 55"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 55"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 56"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 56"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 57"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 57"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 58"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 58"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 59-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 59-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 59-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 59-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 61"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 61"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 62"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 62"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 63"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 63"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 64"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 64"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 65"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 65"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 66"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 66"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 67"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 67"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 68"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 68"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 69"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 69"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 70"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 70"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 71"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 71"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 72"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 72"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 73"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 73"
+        }
+    ]
+}

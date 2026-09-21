@@ -1,0 +1,39 @@
+{
+    "Individuals": {
+        "SO277": {
+            "class": "Mission",
+            "MissionID": "SO277",
+            "startTime": "14.08.2020",
+            "endTime": "03.10.2020",
+            "maxDepth": "1700 m",
+            "imageCount": "multiple",
+            "dataVolume": "extensive",
+            "hasStatus": "completed",
+            "remark": "Cruise report for offshore Malta aquifer exploration"
+        },
+        "RV_SONNE": {
+            "class": "Station",
+            "stationID": "RV_SONNE",
+            "stationDate": "14.08.2020",
+            "stationTime": "12:00"
+        },
+        "Malta": {
+            "class": "Waypoint",
+            "latitude": "35.9375",
+            "longitude": "14.3754",
+            "seabedDepth": "up to 500 m"
+        },
+        "Mt_Etna": {
+            "class": "Waypoint",
+            "latitude": "37.7510",
+            "longitude": "14.9950",
+            "seabedDepth": "2000 m"
+        },
+        "Stromboli": {
+            "class": "Waypoint",
+            "latitude": "38.7892",
+            "longitude": "15.2134",
+            "seabedDepth": "2700 m"
+        }
+    }
+}

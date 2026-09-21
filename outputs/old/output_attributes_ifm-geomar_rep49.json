@@ -1,0 +1,60 @@
+{
+    "Individuals": {
+        "WND-V": {
+            "class": "Mission",
+            "MissionID": "WND-V",
+            "startTime": "2010-06-15",
+            "endTime": "2010-06-25",
+            "maxDepth": "500m",
+            "dataVolume": "27 instruments",
+            "hasStatus": "completed",
+            "remark": "Final expedition of the West Nile Delta project"
+        },
+        "North_Alex": {
+            "class": "Station",
+            "stationID": "North Alex MV",
+            "stationDate": "15.06.2010 - 25.06.2010",
+            "stationTime": "Various times during the cruise"
+        },
+        "Giza": {
+            "class": "Station",
+            "stationID": "Giza MV",
+            "stationDate": "15.06.2010 - 25.06.2010",
+            "stationTime": "Various times during the cruise"
+        },
+        "North Alex MV": {
+            "class": "Waypoint",
+            "island name": "North Alex",
+            "latitude": "31\u00b0 57.9341'",
+            "longitude": "30\u00b0 08.3310'",
+            "seabedDepth": "500 m"
+        },
+        "Giza MV": {
+            "class": "Waypoint",
+            "island name": "Giza",
+            "latitude": "31\u00b0 58.1910'",
+            "longitude": "30\u00b0 08.1659'",
+            "seabedDepth": "700 m"
+        },
+        "Dive 1426": {
+            "class": "Task",
+            "hasDuration": 10.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1427": {
+            "class": "Task",
+            "hasDuration": 4.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1428": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive 1429": {
+            "class": "Task",
+            "hasDuration": 5.5,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

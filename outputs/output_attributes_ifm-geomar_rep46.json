@@ -1,0 +1,60 @@
+{
+    "Individuals": {
+        "RVPoseidon_Cruise_408": {
+            "class": "Mission",
+            "MissionID": "408-3",
+            "startTime": "14 January 2011",
+            "endTime": "31 January 2011",
+            "maxDepth": "3000 m",
+            "dataVolume": "4500 km2",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Focused on geological development of Red Sea deeps."
+        },
+        "Station_34": {
+            "class": "Station",
+            "stationID": "34",
+            "stationDate": "24.01.2011",
+            "stationTime": "~7:45 - ~9:45"
+        },
+        "Hatiba_Deep": {
+            "class": "Waypoint",
+            "locationName": "Hatiba Deep",
+            "latitude": "22\u00b0 03\u00b4N",
+            "longitude": "37\u00b0 50.6'",
+            "seabedDepth": "unknown"
+        },
+        "Port_Sudan_Deep": {
+            "class": "Waypoint",
+            "locationName": "Port Sudan Deep",
+            "latitude": "20\u00b0 4.61'",
+            "longitude": "38\u00b0 30.73'",
+            "seabedDepth": "2698 m"
+        },
+        "Station_1": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_2": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_3": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_4": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Station_34_CTD": {
+            "class": "State",
+            "has_Temperature": "36",
+            "has_Conductivity": "2000",
+            "has_Depth": "unknown"
+        }
+    }
+}

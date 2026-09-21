@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ATA-35ROV",
+                "Two Boats"
+            ],
+            "OBJECT_PROPERTY": "goes_through",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "ATA-35ROV goes_through Two Boats"
+        }
+    ]
+}

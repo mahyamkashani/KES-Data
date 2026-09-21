@@ -1,0 +1,47 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD measurements",
+                "hasDuration": "during ship stations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "water samples for salinity calibration"
+            },
+            {
+                "individual_name": "XBT measurements",
+                "hasDuration": "during the cruise",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "temperature profiles"
+            }
+        ],
+        "TrialMission": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Autonomous Glider",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "FS Poseidon",
+                "maxDepth": "500 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RRS Discovery",
+                "maxDepth": "1000 m"
+            },
+            {
+                "individual_name": "FS Poseidon",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Station": []
+    }
+}

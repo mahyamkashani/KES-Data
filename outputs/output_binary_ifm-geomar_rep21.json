@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Cherokee"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ROV",
+            "AXIOM": "R/V Poseidon hasSensor Cherokee"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "SEABEAM 1050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V Poseidon hasSensor SEABEAM 1050"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Sonne",
+                "Rockdrill 1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V Sonne hasSensor Rockdrill 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 743ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Dive 743ROV hasTask Palinuro Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 752ROV",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Dive 752ROV hasTask Panarea Island"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 754ROV",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Dive 754ROV hasTask Panarea Island"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 756ROV",
+                "Lisca Bianca"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Dive 756ROV hasTask Lisca Bianca"
+        }
+    ]
+}

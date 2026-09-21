@@ -1,0 +1,316 @@
+{
+    "Individuals": {
+        "SO214": {
+            "class": "Mission",
+            "MissionID": "SO214",
+            "startTime": "2011-04-06T00:00:00Z",
+            "endTime": "2011-04-15T00:00:00Z",
+            "maxDepth": "11000",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise dedicated to geological, geo-chemical and biological investigations."
+        },
+        "OBS_01": {
+            "class": "Station",
+            "stationID": "OBS_01",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_02": {
+            "class": "Station",
+            "stationID": "OBS_02",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_03": {
+            "class": "Station",
+            "stationID": "OBS_03",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_04": {
+            "class": "Station",
+            "stationID": "OBS_04",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_05": {
+            "class": "Station",
+            "stationID": "OBS_05",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_06": {
+            "class": "Station",
+            "stationID": "OBS_06",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_07": {
+            "class": "Station",
+            "stationID": "OBS_07",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_08": {
+            "class": "Station",
+            "stationID": "OBS_08",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_09": {
+            "class": "Station",
+            "stationID": "OBS_09",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_10": {
+            "class": "Station",
+            "stationID": "OBS_10",
+            "stationDate": "12.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_11": {
+            "class": "Station",
+            "stationID": "OBS_11",
+            "stationDate": "24.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_12": {
+            "class": "Station",
+            "stationID": "OBS_12",
+            "stationDate": "24.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_13": {
+            "class": "Station",
+            "stationID": "OBS_13",
+            "stationDate": "24.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_14": {
+            "class": "Station",
+            "stationID": "OBS_14",
+            "stationDate": "24.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_15": {
+            "class": "Station",
+            "stationID": "OBS_15",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_16": {
+            "class": "Station",
+            "stationID": "OBS_16",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_17": {
+            "class": "Station",
+            "stationID": "OBS_17",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_18": {
+            "class": "Station",
+            "stationID": "OBS_18",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_19": {
+            "class": "Station",
+            "stationID": "OBS_19",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_20": {
+            "class": "Station",
+            "stationID": "OBS_20",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_21": {
+            "class": "Station",
+            "stationID": "OBS_21",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_22": {
+            "class": "Station",
+            "stationID": "OBS_22",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_23": {
+            "class": "Station",
+            "stationID": "OBS_23",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_24": {
+            "class": "Station",
+            "stationID": "OBS_24",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_25": {
+            "class": "Station",
+            "stationID": "OBS_25",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_26": {
+            "class": "Station",
+            "stationID": "OBS_26",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_27": {
+            "class": "Station",
+            "stationID": "OBS_27",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_28": {
+            "class": "Station",
+            "stationID": "OBS_28",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_29": {
+            "class": "Station",
+            "stationID": "OBS_29",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "OBS_30": {
+            "class": "Station",
+            "stationID": "OBS_30",
+            "stationDate": "28.03.11",
+            "stationTime": "unknown"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "Opouawe Bank",
+            "latitude": "-41.7745",
+            "longitude": "175.4225",
+            "seabedDepth": "959"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "Takahe",
+            "latitude": "-41.46",
+            "longitude": "175.27",
+            "seabedDepth": "1055"
+        },
+        "CTD-5": {
+            "class": "Task",
+            "hasDuration": "10.25",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-6": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-7": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-8": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-9": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-10": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-11": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-12": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-13": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-14": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-15": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-16": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-17": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-18": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-19": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-20": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-21": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-22": {
+            "class": "Task",
+            "hasDuration": "11",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-2": {
+            "class": "State",
+            "has_Temperature": "0.001",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1164"
+        },
+        "CTD-3": {
+            "class": "State",
+            "has_Temperature": "0.001",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1096"
+        },
+        "CTD-4": {
+            "class": "State",
+            "has_Temperature": "0.001",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "670"
+        }
+    }
+}

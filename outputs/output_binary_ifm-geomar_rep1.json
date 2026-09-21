@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 15"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 15"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0176",
+                "Station 01CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0176 hasTask Station 01CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/014-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Station S0179/014-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/015-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Station S0179/015-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0179",
+                "Profile 16"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Profile 16"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0179",
+                "Profile 18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Profile 18"
+        },
+        {
+            "INDIVIDUAL": [
+                "S0179",
+                "Profile 19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Profile 19"
+        }
+    ]
+}

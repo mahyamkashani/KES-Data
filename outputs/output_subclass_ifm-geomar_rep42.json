@@ -1,0 +1,27 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "SO212/001-1",
+                "stationID": "SO212/001-1",
+                "stationName": "Station",
+                "stationDate": "23.12.10",
+                "stationTime": "03:00"
+            }
+        ]
+    }
+}

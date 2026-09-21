@@ -1,0 +1,80 @@
+{
+    "Individuals": {
+        "MSM04_1": {
+            "class": "Mission",
+            "MissionID": "MSM04/1",
+            "startTime": "02.12.2006",
+            "endTime": "21.12.2006",
+            "maxDepth": "5000 m",
+            "dataVolume": "High",
+            "hasStatus": "Completed",
+            "remark": "Cruise report for Meridional Overturning Variability Experiment"
+        },
+        "MSM04/1": {
+            "class": "Station",
+            "stationID": "MSM04/1",
+            "stationDate": "02.12.2006 - 21.12.2006",
+            "stationTime": "Various times"
+        },
+        "Fort_de_France": {
+            "class": "Waypoint",
+            "island name": "Fort de France",
+            "latitude": "15\u00b0 46.11'",
+            "longitude": "60\u00b0 47.49'",
+            "seabedDepth": "1705.8"
+        },
+        "Mooring_M3": {
+            "class": "Waypoint",
+            "island name": "Mooring M3",
+            "latitude": "16\u00b0 20.26'",
+            "longitude": "60\u00b0 30.86'",
+            "seabedDepth": "328.5"
+        },
+        "Mooring_M4": {
+            "class": "Waypoint",
+            "island name": "Mooring M4",
+            "latitude": "16\u00b0 19.33'",
+            "longitude": "60\u00b0 36.82'",
+            "seabedDepth": "2809.2"
+        },
+        "PIES123": {
+            "class": "Waypoint",
+            "island name": "PIES123",
+            "latitude": "16\u00b0 21.30'",
+            "longitude": "60\u00b0 29.25'",
+            "seabedDepth": "4959.4"
+        },
+        "PIES128": {
+            "class": "Waypoint",
+            "island name": "PIES128",
+            "latitude": "16\u00b0 20.30'",
+            "longitude": "60\u00b0 30.30'",
+            "seabedDepth": "4953.2"
+        },
+        "Dive_1426": {
+            "class": "Task",
+            "hasDuration": 19.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1427": {
+            "class": "Task",
+            "hasDuration": 18.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1428": {
+            "class": "Task",
+            "hasDuration": 17.5,
+            "hasStatus": "FAILED"
+        },
+        "Dive_1429": {
+            "class": "Task",
+            "hasDuration": 20.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1430": {
+            "class": "Task",
+            "hasDuration": 15.0,
+            "hasStatus": "FAILED"
+        }
+    }
+}

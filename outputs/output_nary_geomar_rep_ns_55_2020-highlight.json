@@ -2,65 +2,19 @@
     "NaryPropertyAxiom": {
         "pattern01": {
             "Axioms": [
-                "SurveyNavigation hasMission M1",
-                "M1 usesVehicle JAGO",
-                "M1 hasGoal Training",
-                "M1 hasInitialCondition CalmSea",
-                "M1 hasTask Dive",
-                "Dive realisedByAction Pilot",
-                "CalmSea hasScenarioTask WeatherCheck"
+                "AL533 hasTask Task_1",
+                "Task_1 hasAction Action_1",
+                "Action_1 hasVehicle JAGO",
+                "Action_1 hasVehicle ANTON",
+                "Action_1 hasVehicle LUISE"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M1",
+                "AL533",
+                "Task_1",
+                "Action_1",
                 "JAGO",
-                "Training",
-                "CalmSea",
-                "Dive",
-                "Pilot",
-                "WeatherCheck"
-            ]
-        },
-        "pattern02": {
-            "Axioms": [
-                "SurveyNavigation hasMission M2",
-                "M2 usesVehicle ANTON",
-                "M2 hasGoal DataCollection",
-                "M2 hasInitialCondition RoughSea",
-                "M2 hasTask TestMission",
-                "TestMission realisedByAction AUVOperation",
-                "RoughSea hasScenarioTask SafetyCheck"
-            ],
-            "Individuals": [
-                "SurveyNavigation",
-                "M2",
                 "ANTON",
-                "DataCollection",
-                "RoughSea",
-                "TestMission",
-                "AUVOperation",
-                "SafetyCheck"
-            ]
-        },
-        "pattern03": {
-            "Axioms": [
-                "SurveyNavigation hasMission M3",
-                "M3 usesVehicle LUISE",
-                "M3 hasGoal ImagingSurvey",
-                "M3 hasInitialCondition NightDive",
-                "M3 hasTask PhotoCapture",
-                "PhotoCapture realisedByAction CameraOperation",
-                "NightDive hasScenarioTask LightAdjustment"
-            ],
-            "Individuals": [
-                "SurveyNavigation",
-                "M3",
-                "LUISE",
-                "ImagingSurvey",
-                "NightDive",
-                "PhotoCapture",
-                "CameraOperation",
-                "LightAdjustment"
+                "LUISE"
             ]
         }
     }

@@ -1,0 +1,46 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Expedition M143",
+                "hasDuration": "Not specified",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Expedition M143",
+                "hasDuration": "Not specified",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "SVP02",
+                "hasDuration": "Not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Sound velocity profile"
+            },
+            {
+                "individual_name": "SVP04",
+                "hasDuration": "Not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Sound velocity profile"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V METEOR",
+                "maxDepth": "Not specified"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": [
+            {
+                "individual_name": "Pancake Seamount",
+                "seabedDepth": "3224 to 2992 m"
+            },
+            {
+                "individual_name": "Half-Moon Seamount",
+                "seabedDepth": "3600 to 2300 m"
+            },
+            {
+                "individual_name": "Egg Seamount",
+                "seabedDepth": "3400 to 2800 m"
+            },
+            {
+                "individual_name": "Boxer Seamount",
+                "seabedDepth": "3398 to 2973 m"
+            },
+            {
+                "individual_name": "Horseshoe Seamount",
+                "seabedDepth": "not specified"
+            },
+            {
+                "individual_name": "Krapfen Seamount",
+                "seabedDepth": "3570 m"
+            },
+            {
+                "individual_name": "Donut Seamount",
+                "seabedDepth": "3600 to 3290 m"
+            },
+            {
+                "individual_name": "Embryo Seamount",
+                "seabedDepth": "2499 to 2419 m"
+            },
+            {
+                "individual_name": "Spiegelei Seamount",
+                "seabedDepth": "3104 to 2783 m"
+            },
+            {
+                "individual_name": "Looser Seamount",
+                "seabedDepth": "2591 to 2777 m"
+            },
+            {
+                "individual_name": "Eye Seamount",
+                "seabedDepth": "not specified"
+            }
+        ]
+    },
+    "Task": {
+        "LongTask": []
+    }
+}

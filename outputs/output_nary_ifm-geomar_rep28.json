@@ -1,0 +1,45 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "POS379_1 hasTask Task_1",
+                "Task_1 hasAction Action_1",
+                "Traversal_1 hasVehicle RV_POSEIDON",
+                "Traversal_1 hasDestination Mt_Demenitskoy"
+            ],
+            "Individuals": [
+                "POS379_1",
+                "Task_1",
+                "Action_1",
+                "Traversal_1",
+                "RV_POSEIDON",
+                "Mt_Demenitskoy"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "POS379_1 hasTask Task_2",
+                "Traversal_2 hasVehicle RV_POSEIDON",
+                "Traversal_2 hasDestination Tolkien_Seamount"
+            ],
+            "Individuals": [
+                "POS379_1",
+                "Task_2",
+                "Traversal_2",
+                "RV_POSEIDON",
+                "Tolkien_Seamount"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "Traversal_3 hasVehicle RV_POSEIDON",
+                "Traversal_3 hasDestination Krylov_Seamount"
+            ],
+            "Individuals": [
+                "Traversal_3",
+                "RV_POSEIDON",
+                "Krylov_Seamount"
+            ]
+        }
+    }
+}

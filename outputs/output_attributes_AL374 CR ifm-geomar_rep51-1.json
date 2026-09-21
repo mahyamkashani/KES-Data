@@ -1,45 +1,133 @@
 {
     "Individuals": {
-        "Cruise_AL374": {
-            "class": "Mission",
-            "MissionID": "AL374",
-            "startTime": "29.05.2011 10:00",
-            "endTime": "13.06.2011 17:00",
-            "maxDepth": "1000 m",
-            "imageCount": "multiple",
-            "dataVolume": "various",
-            "hasStatus": "completed",
-            "remark": "First cruise conducted in the framework of the EU project ECO2"
+        "Station_Salt_Dome_Juist": {
+            "class": "Station",
+            "stationID": "495",
+            "stationDate": "30.05.2011",
+            "stationTime": "04:15"
+        },
+        "Station_Salt_Dome_Juist_2": {
+            "class": "Station",
+            "stationID": "496",
+            "stationDate": "30.05.2011",
+            "stationTime": "07:53"
+        },
+        "Station_Sleipner": {
+            "class": "Station",
+            "stationID": "505",
+            "stationDate": "02.06.2011",
+            "stationTime": "06:06"
+        },
+        "Station_Sleipner_2": {
+            "class": "Station",
+            "stationID": "513",
+            "stationDate": "03.06.2011",
+            "stationTime": "12:04"
+        },
+        "Station_Blowout": {
+            "class": "Station",
+            "stationID": "532",
+            "stationDate": "06.06.2011",
+            "stationTime": "17:51"
+        },
+        "Station_Blowout_2": {
+            "class": "Station",
+            "stationID": "533",
+            "stationDate": "07.06.2011",
+            "stationTime": "06:41"
         },
         "Salt_Dome_Juist": {
-            "class": "Station",
-            "stationID": "SDJ",
-            "stationDate": "30.05.2011",
-            "stationTime": "19:00"
+            "class": "Waypoint",
+            "locationName": "Salt Dome Juist",
+            "latitude": "54.1",
+            "longitude": "6.5",
+            "seabedDepth": "30"
         },
         "Sleipner": {
-            "class": "Station",
-            "stationID": "SLE",
-            "stationDate": "02.06.2011",
-            "stationTime": "19:00"
-        },
-        "Well_22_4b": {
-            "class": "Station",
-            "stationID": "W22",
-            "stationDate": "06.06.2011",
-            "stationTime": "19:00"
-        },
-        "Waypoint_1": {
             "class": "Waypoint",
-            "latitude": "57\u00b055'N",
-            "longitude": "01\u00b038'E",
-            "seabedDepth": "unknown"
+            "locationName": "Sleipner",
+            "latitude": "58.23",
+            "longitude": "1.56",
+            "seabedDepth": "79"
         },
-        "Waypoint_2": {
+        "Blowout": {
             "class": "Waypoint",
-            "latitude": "58.3851\u00b0N",
-            "longitude": "21.9356\u00b0E",
-            "seabedDepth": "unknown"
+            "locationName": "Well 22/4-b",
+            "latitude": "57.55",
+            "longitude": "1.38",
+            "seabedDepth": "83"
+        },
+        "CTD01": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "29"
+        },
+        "CTD02": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD03": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD04": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD05": {
+            "class": "State",
+            "has_Temperature": "11.5",
+            "has_Conductivity": "35.06",
+            "has_Depth": "80"
+        },
+        "CTD06": {
+            "class": "State",
+            "has_Temperature": "6.75",
+            "has_Conductivity": "35.04",
+            "has_Depth": "80"
+        },
+        "CTD07": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD08": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD09": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD10": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD11": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "CTD12": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
         }
     }
 }

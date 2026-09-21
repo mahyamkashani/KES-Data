@@ -1,0 +1,124 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM06"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM06"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM03"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM03"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM09"
+            ],
+            "OBJECT_PROPERTY": "deploys vehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II deploys vehicle IFM09"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM06",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM06 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM06",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM06 realised by action Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM07",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM07 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM07",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM07 realised by action Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM03",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM03 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM09",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realised by action",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM09 realised by action Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM06",
+                "AL533"
+            ],
+            "OBJECT_PROPERTY": "has task",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "IFM06 has task AL533"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM03",
+                "AL533"
+            ],
+            "OBJECT_PROPERTY": "has task",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "IFM03 has task AL533"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM09",
+                "AL533"
+            ],
+            "OBJECT_PROPERTY": "has task",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "IFM09 has task AL533"
+        }
+    ]
+}

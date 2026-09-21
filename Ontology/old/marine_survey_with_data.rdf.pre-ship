@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://oru.se/marinellm/survey#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+   xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#rocky">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <requiresNavigation rdf:resource="http://oru.se/marinellm/survey#NavFixRequired"/>
+    <rdfs:comment xml:lang="en">Stony / hard ground, pillow lava (Rep55 Lipari, Vulcano; Rep57 high-backscatter shelf).</rdfs:comment>
+    <rdfs:label xml:lang="en">rocky</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#SurveyMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N1fa5f5e69ea74a17893c4fd2009fc894"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Survey Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission that belongs to a Survey-and-Navigation campaign (the combined Sec. 5 category; navigation folded in). Derived through missionOf.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasInitialCondition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:inverseOf rdf:resource="http://oru.se/marinellm/survey#initialConditionOf"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+    <rdfs:label xml:lang="en">has initial condition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb04a80b52ea42c6936a799fec4d1304">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>S1</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Necb79708438142cd82623f783af61b37"/>
+    <swrl:head rdf:nodeID="N60063443c1444191afeeabc4b091eee3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N242a03f4639c4ee3827a90e94ced0a75">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N9195cd4d4573463e9d76581d0868e43c"/>
+    <rdf:rest rdf:nodeID="Na927b57465d94ddc9c8ee83a5aa6162b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54a98e937cf54e14bcbe7ae59bcf6976">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Mission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Deployment"/>
+    <rdfs:subClassOf rdf:nodeID="N6295de02a51a49c48ca723fb11c81cff"/>
+    <rdfs:subClassOf rdf:nodeID="Nf3ac7ed27f2046f3937f907bd9630f40"/>
+    <rdfs:subClassOf rdf:nodeID="Ne26d5ab0de944e73a23cc22f71e7ff29"/>
+    <rdfs:subClassOf rdf:nodeID="Nae109fd3514e4e639d6c917e3246d5b1"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Mission</rdfs:label>
+    <skos:definition xml:lang="en">A goal-directed campaign within a research cruise, grouping the tasks that achieve its goal from one or more platforms, starting from a given initial condition.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf218a9dfd79467eb9fdc941415c9726">
+    <rdf:first rdf:nodeID="N652df8323aa94a67abcf1617cbdf675d"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6562632544d449b998da92906782c38d">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdf:rest rdf:nodeID="N72c193b0d4c04c96ad9f9ede314d9061"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Act_DeepDive">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:comment xml:lang="en">PDDL 'deep_dive' - USBL-aided descent through the water column to the site's seabed depth (no DVL bottom-lock yet) (domain_55.pddl).</rdfs:comment>
+    <rdfs:label xml:lang="en">deep_dive</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#USBL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">Ultra-Short BaseLine positioning</rdfs:label>
+    <skos:definition xml:lang="en">Acoustic position fix from the surface vessel; available anywhere in the water column.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne02655a7af5848d4b41c75c22f293b22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N69473b6943d34dda9207ff45d7f77fa9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N033d75694602425bbc2b65c96eaa49c8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nf7506b955f614f2f99d944299533176e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf438a80bbc8a475b8ec016b74e969075">
+    <rdf:first rdf:nodeID="N5f113bcebef44b3fb8910b7d21d95d7c"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/sosa/resultTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N50dc566e42da4d3d9b6853a4f1408b1a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#onTerrain"/>
+    <owl:someValuesFrom rdf:nodeID="Ncb1e3ae9042546d397a62141da1d14a2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Device">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N6aaa60f4194c4b54a8bd741bffd30bcf"/>
+    <rdfs:label xml:lang="en">Device</rdfs:label>
+    <skos:definition xml:lang="en">Any component carried by a vehicle: a sensor or an actuator (Q7 vocabulary).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Echosounder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AcousticSensor"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#BathymetricSensor"/>
+    <rdfs:label xml:lang="en">Echosounder</rdfs:label>
+    <skos:altLabel xml:lang="en">Echosounder</skos:altLabel>
+    <skos:definition xml:lang="en">Acoustic depth sounder (single- or split-beam); both a bathymetric and an acoustic sensor.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Task">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Procedure"/>
+    <rdfs:subClassOf rdf:nodeID="Nd5d8800d2a7d43fbaad7c527a94463e6"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Task</rdfs:label>
+    <skos:definition xml:lang="en">An operation carried out as part of a mission (e.g. a dive, a deployment, a test).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne26d5ab0de944e73a23cc22f71e7ff29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N239827c586154061bcb1d26c596af218">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>S4</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Nc45f50bd52984fd2aa728bc32cc92d53"/>
+    <swrl:head rdf:nodeID="Nf4b36a0163c745c29434ba0c1978103e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Act_AcquireDVLLock">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:comment xml:lang="en">PDDL 'acquire_dvl_lock' - DVL bottom-lock, achievable only once the vehicle's altitude above the seabed is within dvl_range (depth-dependent) (domain_55.pddl).</rdfs:comment>
+    <rdfs:label xml:lang="en">acquire_dvl_lock</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a14f8a6b9644b658669fa207ac9b188">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N31314a7591614fd68ba6f08a9d6d1c5e"/>
+    <rdf:rest rdf:nodeID="Nb343f217daf7448fa9295ca19084ecdd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#CTDSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:subClassOf rdf:nodeID="N27198122887e4218bf79d0f069c8277d"/>
+    <rdfs:subClassOf rdf:nodeID="N3898dd0f392b479f91296f157b40700c"/>
+    <rdfs:subClassOf rdf:nodeID="Nb5ac42e9df2c4432bc0660ff844a682e"/>
+    <rdfs:label xml:lang="en">CTD Sensor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd276e099efe3422ebf8a3d64556c1598">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>FAILED</rdf:first>
+    <rdf:rest rdf:nodeID="N9f41ae099744451ca98d5dcbbca705d4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#CTDProfile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N978fcf1b8b264474a1770319c140c9bd"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    <rdfs:subClassOf rdf:nodeID="Nc1d9d867ee5f4f6b8051b5d1b126f447"/>
+    <rdfs:label xml:lang="en">CTD Profile</rdfs:label>
+    <skos:altLabel xml:lang="en">CTD Profile</skos:altLabel>
+    <skos:definition xml:lang="en">An observation made by a CTD sensor, profiling conductivity, temperature and depth through the water column.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#steep">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <requiresNavigation rdf:resource="http://oru.se/marinellm/survey#BottomLockRequired"/>
+    <rdfs:comment xml:lang="en">Slope / scarp. Altitude changes fast under the vehicle, so a ship-relative USBL fix is not enough -- DVL bottom-lock is mandatory.</rdfs:comment>
+    <rdfs:label xml:lang="en">steep</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#taskOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">task of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2c9068c61c6460abbd8c4cd0c5fe3bc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasActivity"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#CTDProfile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#missionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#SurveyNavigation"/>
+    <rdfs:label xml:lang="en">mission of</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the survey campaign (SurveyNavigation) a mission belongs to -- the inverse of hasMission.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd698bb10e12c488c851c19075657b7e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasGoal"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#DataAcquisitionGoal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6295de02a51a49c48ca723fb11c81cff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasGoal"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Goal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Hydrophone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AcousticSensor"/>
+    <rdfs:label xml:lang="en">Hydrophone</rdfs:label>
+    <skos:altLabel xml:lang="en">Hydrophone</skos:altLabel>
+    <skos:definition xml:lang="en">Passive acoustic sensor: listens to underwater sound.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Manipulator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    <rdfs:label xml:lang="en">Manipulator Arm</rdfs:label>
+    <skos:altLabel xml:lang="en">ORION</skos:altLabel>
+    <skos:altLabel xml:lang="en">RIGMASTER</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasGoal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Goal"/>
+    <rdfs:label xml:lang="en">has goal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48949831dabe46c1a81c4910d4fa35e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N2d027528dff041a193c27decd178cd64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N75ca3b82f32c4fb48db5b2c011eaa4cb">
+    <rdf:first rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    <rdf:rest rdf:nodeID="Nc50e1f2d28654ab19a378c7d20b8cfc6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naedee5c86cf14046b6598c8140027882">
+    <rdf:first rdf:nodeID="Nd698bb10e12c488c851c19075657b7e6"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#usesVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">uses vehicle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NavFixed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N11ad5228e1da4d8695ea5d9a10a6959c"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdfs:label xml:lang="en">Navigation-Fixed AUV</rdfs:label>
+    <skos:definition xml:lang="en">AUV currently holding EITHER a DVL bottom-lock or a USBL fix -- either suffices for a nav-fix site.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9195cd4d4573463e9d76581d0868e43c">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://oru.se/marinellm/survey#hasSensor"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+    <swrl:argument2 rdf:resource="http://oru.se/marinellm/survey#s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#TransponderMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N274a98de65bc48bc9e0b80b21091827c"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Transponder Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Thruster">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    <rdfs:label xml:lang="en">Thruster</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N23ecf27b2b5b4afc9369388833ce8fba">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#HasUSBLFix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdfs:label xml:lang="en">AUV currently holding a USBL fix</rdfs:label>
+    <skos:definition xml:lang="en">FLUENT: the planner asserts/retracts this as the USBL fix is (re)acquired or lost.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BottomLockCapable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N97f63316eaa84eea9d79d56b90b73954"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Bottom-Lock Capable Vehicle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6424cb5e60924bb98b647014afecd798">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#BottomLocked"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DVL">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">Doppler Velocity Log</rdfs:label>
+    <skos:definition xml:lang="en">Bottom-lock sensor; locks only within dvl_range of the seabed.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf3ac7ed27f2046f3937f907bd9630f40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasInitialCondition"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N07829c3c3bdf43fc83c482a842c4f727">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Depth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Scenario">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Scenario</rdfs:label>
+    <skos:definition xml:lang="en">The initial condition of a mission: platform and equipment state and the environment at mission start.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a30355cd2e2476a870996efa6e8afad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasAction"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Act_TakePhoto"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc178db56908343a69bb3d80b01c0cc8a">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>S2</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="N51db2019dee049089ddd5633133adb52"/>
+    <swrl:head rdf:nodeID="Nb5b43d91c7504c8080f5729f791b1f14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#UnconstrainedSite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nb4139ed307bf4f44b925c8af02ac112e"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:label xml:lang="en">Unconstrained Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N655afaf66f42430abaacb79c740941c9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45304f5a4eb24a3f834aff3954050063">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Act_EstablishUSBLFix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:comment xml:lang="en">PDDL 'establish_usbl_fix' - ship-relative acoustic position fix from the surface vessel's USBL, available anywhere in the water column (domain_55.pddl).</rdfs:comment>
+    <rdfs:label xml:lang="en">establish_usbl_fix</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27198122887e4218bf79d0f069c8277d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Conductivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae109fd3514e4e639d6c917e3246d5b1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N06297e44ac294588a1d66b351a5e137e">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N10469405b2ac4a188cc875a833507453"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#TrialMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N61a4b5fc78ea46e5a7cc438c0772407f"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Trial Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#PlannableMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Ndc16e8a1f63b4eb8bbae0f1460a287af"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Plannable Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission whose tasks are grounded in PDDL action schemas, so a problem file can be generated.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:range rdf:nodeID="N0ca920add12d4364b210e18cf1977be1"/>
+    <rdfs:label xml:lang="en">has status</rdfs:label>
+    <skos:definition xml:lang="en">The outcome of a task: exactly one of SUCCESSFUL / PartialSUCCESSFUL / FAILED (closed datatype enumeration). Functional: one status per task.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#SurveyNavigation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Deployment"/>
+    <rdfs:subClassOf rdf:nodeID="Nfc3cb77ce3934015853471189a451fca"/>
+    <rdfs:label xml:lang="en">Survey and Navigation</rdfs:label>
+    <skos:altLabel xml:lang="en">Survey and Navigation</skos:altLabel>
+    <skos:definition xml:lang="en">A survey campaign and its navigation, grouping the observation and sampling activities carried out from a platform. A cruise report typically contains several missions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N26c798c86e5248518769c07dcbb28762">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#OpticalSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">Optical Sensor</rdfs:label>
+    <skos:definition xml:lang="en">A sensor imaging with light (camera, hyperspectral, ...).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#MultiPlatformMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Na7792ec5be7240409ec19ed368bdd5ca"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Multi-Platform Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission integrating vehicles of two different classes (e.g. the JAGO + ANTON mutual dive).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93be338c783c4d22bd6be7dc0eaf463a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ne44900b31a844d049db446cc7e4d1d9c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nde953c681f2e449284cbbcf459446f33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasDuration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label xml:lang="en">has duration</rdfs:label>
+    <skos:definition xml:lang="en">Task duration in decimal hours. Omitted when unknown (open-world), never written as 0. Mission duration = sum over tasks, computed in SPARQL (no arithmetic in OWL).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DataSampling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sampling"/>
+    <rdfs:subClassOf rdf:nodeID="Nd33381dd387942e89ecc8d59f610e080"/>
+    <rdfs:subClassOf rdf:nodeID="N26c798c86e5248518769c07dcbb28762"/>
+    <rdfs:label xml:lang="en">Data Sampling</rdfs:label>
+    <skos:altLabel xml:lang="en">Data Sampling</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ded2d5836134acfacab27773ddf8c60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasDestination"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#NavFixSite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a48e90bb5764082bfd82db6b915330f">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#Camera"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#s"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BottomLockSite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N8768bed17f4441e9b93d2a4c62e8e003"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:label xml:lang="en">Bottom-Lock Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Depth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    <rdfs:label xml:lang="en">Depth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca249f6cb9c84453b7f218a637d1856b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc76ec9fd2491427b81cb6be96813e6a3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N6562632544d449b998da92906782c38d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://oru.se/marinellm/survey#missionOf"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#SurveyNavigation"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">has mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BottomLocked">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N93be338c783c4d22bd6be7dc0eaf463a"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdfs:label xml:lang="en">Bottom-Locked AUV</rdfs:label>
+    <skos:definition xml:lang="en">AUV currently holding a DVL bottom-lock specifically -- a ship-relative USBL fix cannot track altitude over a scarp.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5be7ce8527994370bfea8550b34ccf1a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesDevice"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#OpticalSensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb65f3b05d14047468000082784f7036c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N14570d18383e4ff986e9a5ae6bb74633"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Camera">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#OpticalSensor"/>
+    <rdfs:label xml:lang="en">Camera</rdfs:label>
+    <skos:altLabel xml:lang="en">CoraMo</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd8d63de721d54f32a7026b2f4a9b2979">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#NavFixed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Goal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Goal</rdfs:label>
+    <skos:definition xml:lang="en">The objective that a mission aims to achieve.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasDestination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Traversal"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:label xml:lang="en">has destination</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasScenarioTask">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <owl:propertyChainAxiom rdf:nodeID="N1cbf0af9862d4bc6b6017ef7b9df1ae1"/>
+    <rdfs:label xml:lang="en">has scenario task</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the tasks carried out under this scenario -- the tasks of the (single) mission this scenario initiates (initialConditionOf o hasTask).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasSurface">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#TerrainArea"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <rdfs:label xml:lang="en">has surface</rdfs:label>
+    <skos:definition xml:lang="en">The ground class of a terrain area. Functional: one area has exactly one surface.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#AUV">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Submersible"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Transponder"/>
+    <rdfs:label xml:lang="en">Autonomous Underwater Vehicle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb9b220ef068b432c9fddaac493bab38c">
+    <rdf:first rdf:nodeID="Nc2c9068c61c6460abbd8c4cd0c5fe3bc"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#PartiallyFailedMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N9aa46b1bce304fcfba8d0fc60de700e3"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Partially Failed Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission with at least one failed task.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf578d8c943374937a7763f3d2a5ef1cc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#requiresNavigation"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#NoFixRequired"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9b50c33a8cc44780a2e57701e2daecad">
+    <rdf:first rdf:nodeID="Nde953c681f2e449284cbbcf459446f33"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5951f24d6aae46e19d4c14f7134b1d7a">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://oru.se/marinellm/survey#hasSensor"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+    <swrl:argument2 rdf:resource="http://oru.se/marinellm/survey#s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7bbafd557bb84b7a909ce74545db4373">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+    <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#count"/>
+    <swrl:arguments rdf:nodeID="N4cde418b18bd4825bdbd39a8602bf1b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3f49ee5b6624fc790f3b780eb94e9ec">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>SUCCESSFUL</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd3e4b6ceb6c456891e4bccd8166fe90">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Traversal"/>
+    <rdf:rest rdf:nodeID="N7a8b602dcb2044968b6de475818ee3b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb89253f392e44ead99ff5c8b099c6e4f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasStatus"/>
+    <owl:hasValue>FAILED</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd397cd717407404fa2e38aea8ad88c2d">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Nb4df2b6ff54e4e17bb48c0682a3d982b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#AcousticMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nb172d81201174f47aaefa439f5b0b021"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Acoustic Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission using an acoustic sensor (hydrophone, sonar, echosounder; Parasound counts via Sonar) on any of its vehicles (derived through usesDevice).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb6e408565c3e4d7cb3b70b3e8be9a33a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd965d6f221b34917b152687e7090cfa4">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdf:rest rdf:nodeID="N976065c93d2948db8af7fd1c2d5db623"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9d0b7feae2314a8ba66c08e5dc784b96">
+    <rdf:first rdf:nodeID="Nc2116d8ba002469cbd681adab136bb92"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N01dbf45cc09a44a29c5c104bc5ad24fc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bfab941a922484e9874a136a3fa7c84">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N05ce8dc5ed1749e7883549c9c2d38bc2"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#ScienceMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nc307f12cc0e141cb8e1a4556a4d51332"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Science Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#ImagingMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N5b42902fac4b41fdade6e3ff1297d978"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Imaging Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14570d18383e4ff986e9a5ae6bb74633">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#DVL"/>
+    <rdf:rest rdf:nodeID="N0a33d676fc7f45f2b44bfc3479948e89"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35c3acae1cbb415badeb17be8a3d0ddd">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N32af674f8632451b85b5d6a75a98d541"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1ed9fe9db9c4cc6b572f7d446460fca">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://oru.se/marinellm/survey#hasDuration"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#t"/>
+    <swrl:argument2 rdf:resource="http://oru.se/marinellm/survey#d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14376bbe05a64289a3fb9ad86e8926f0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasDestination"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5b43d91c7504c8080f5729f791b1f14">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N93c1013e4e674ff886fa99cd0b5b59b6"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#GPS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">GPS Receiver</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#sand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <requiresNavigation rdf:resource="http://oru.se/marinellm/survey#NoFixRequired"/>
+    <rdfs:comment xml:lang="en">Sandy / overgrown sediment; benign but poor optical contrast (Rep57 p.88, Gozo).</rdfs:comment>
+    <rdfs:label xml:lang="en">sand</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ed9b542990247a3b0899c9492dbc859">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6c3148189e9249729b53ef7f7e2a553a">
+    <rdf:first rdf:nodeID="N50dc566e42da4d3d9b6853a4f1408b1a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Act_Move">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:comment xml:lang="en">PDDL durative-action 'move' - transit between connected waypoints; the destination's terrain class (flat/rocky) is read from the ontology, and rocky ground requires a live DVL bottom-lock or USBL fix (domain_55.pddl).</rdfs:comment>
+    <rdfs:label xml:lang="en">move</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1cb7f862ef004e4688dcb0b3685c7343">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#d"/>
+    <rdf:rest rdf:nodeID="N6a43c96940d84153b77d84d6957477b3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N47866461e6674f5094637c9d161ffa0a">
+    <rdf:first rdf:nodeID="N97df228db1744d558576643efdc47e91"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf94876c65d624f578a1b21326b1eaea8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Submersible"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3631afc4273e4655bf8a027b5c83cf85">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#HasDVLLock"/>
+    <rdf:rest rdf:nodeID="N454cc30bf83646db829df4ad586fa771"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#onTerrain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#TerrainArea"/>
+    <rdfs:label xml:lang="en">on terrain</rdfs:label>
+    <skos:definition xml:lang="en">The terrain AREA a waypoint falls inside. Terrain is a mappable area covering a SET of waypoints, not a per-waypoint tag.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5d8800d2a7d43fbaad7c527a94463e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#taskOf"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Submersible">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#Transponder"/>
+    <rdfs:label xml:lang="en">Manned Submersible</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc307f12cc0e141cb8e1a4556a4d51332">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nbfcaf72bf00741b8a514c7e90f2290c6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na6956034aeca437fb095358a53cbbc73">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ndd3e4b6ceb6c456891e4bccd8166fe90"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#HasDVLLock">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdfs:label xml:lang="en">AUV currently holding DVL bottom-lock</rdfs:label>
+    <skos:definition xml:lang="en">FLUENT: the planner asserts/retracts this as the DVL locks or drops.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Traversal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N14376bbe05a64289a3fb9ad86e8926f0"/>
+    <rdfs:subClassOf rdf:nodeID="N0ed9b542990247a3b0899c9492dbc859"/>
+    <rdfs:label xml:lang="en">Traversal</rdfs:label>
+    <skos:definition xml:lang="en">A reified move: an AUV going to a destination waypoint.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc8f5ca2888994355819b508be9e7618a">
+    <rdf:first rdf:nodeID="N54a98e937cf54e14bcbe7ae59bcf6976"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#AcousticSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">Acoustic Sensor</rdfs:label>
+    <skos:definition xml:lang="en">A sensor operating with sound (hydrophone, sonar, echosounder, sub-bottom profiler). Note: USBL/ADCP/DVL are acoustic too but are positioning/current instruments, deliberately NOT grouped here.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0cfc2f27b1a046ea8a6503a24b71de78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#CTDSensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NavigationRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Navigation Requirement</rdfs:label>
+    <skos:definition xml:lang="en">The navigation capability a surface demands of a vehicle crossing it.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#flat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <requiresNavigation rdf:resource="http://oru.se/marinellm/survey#NoFixRequired"/>
+    <rdfs:comment xml:lang="en">Level soft sediment (Rep57 Sec.5.1: soft-sediment basin).</rdfs:comment>
+    <rdfs:label xml:lang="en">flat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#MBES">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#BathymetricSensor"/>
+    <rdfs:label xml:lang="en">Multibeam Echosounder</rdfs:label>
+    <skos:altLabel xml:lang="en">Multibeam</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1fa5f5e69ea74a17893c4fd2009fc894">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nd397cd717407404fa2e38aea8ad88c2d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#AUVMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N25299b5c55924e21bbc70c68f39f3a88"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">AUV Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9c075c9966dc4baa8c4eb5ce40ab2e05">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>S3</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Ne8f8008131464f06af3b4fb349a09a38"/>
+    <swrl:head rdf:nodeID="Nca3cf9e1fa8249b8821c3eedc9a08dbe"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N721f109aa54f4b1aa1e4d16240e2c5d4">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N7987ddfb211f40c89affa86aedd478cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb4d92aa4f6044a59f41ab738dafef2e">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Nf40175e87d8c498eaca48a62d283c22e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NavFixCapable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N55c05d54ce3147a4b62afd840a3894d0"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Navigation-Fix Capable Vehicle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6964e3e0426c4179a87470aa3a43b972">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nf1ed9fe9db9c4cc6b572f7d446460fca"/>
+    <rdf:rest rdf:nodeID="N0bfab941a922484e9874a136a3fa7c84"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncaa6809da95c417c946f25c4285b9c5c">
+    <rdf:first rdf:nodeID="Nfeccc18b3bfa4cd095b005f87c2adca5"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NavFixRequired">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#NavigationRequirement"/>
+    <rdfs:label xml:lang="en">navigation fix required</rdfs:label>
+    <skos:definition xml:lang="en">Hard/irregular ground: needs a LIVE fix -- DVL bottom-lock OR USBL. Either satisfies it.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc720b2b1056d466197d9e28bf8d20bee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasStatus"/>
+    <owl:hasValue>SUCCESSFUL</owl:hasValue>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2e1faba51545431c98ce4899be58363a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#BathymetricSensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N210ddc0a3eb64f5bbaa375816b63cdb4">
+    <rdf:first rdf:nodeID="N6424cb5e60924bb98b647014afecd798"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Parasound">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Sonar"/>
+    <rdfs:label xml:lang="en">Sub-bottom Profiler</rdfs:label>
+    <skos:altLabel xml:lang="en">Parasound</skos:altLabel>
+    <skos:altLabel xml:lang="en">Sub-bottom Profiler</skos:altLabel>
+    <skos:definition xml:lang="en">Sediment-penetrating acoustic profiler (a sonar); PARASOUND is the GEOMAR instrument.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc41810790cb841b4957cbd92ace365e0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N156e3cb7c97846d5b8a3fd838c8a40c8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8f8008131464f06af3b4fb349a09a38">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N56d7797e74b24ddba72e231cd8d1dd21"/>
+    <rdf:rest rdf:nodeID="N6964e3e0426c4179a87470aa3a43b972"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne421d26de3cb4fa5bf3f3daff8404af0">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#Camera"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#s"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N156e3cb7c97846d5b8a3fd838c8a40c8">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N9b50c33a8cc44780a2e57701e2daecad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4139ed307bf4f44b925c8af02ac112e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N38631a25a59140e7959134780c7261ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Temperature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    <rdfs:label xml:lang="en">Temperature</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf8ae4f23503a4426823b1da87f898361">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5951f24d6aae46e19d4c14f7134b1d7a"/>
+    <rdf:rest rdf:nodeID="N82ac8780b10247c299693f3d38195131"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N652df8323aa94a67abcf1617cbdf675d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Transponder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#LongTask">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nc76ec9fd2491427b81cb6be96813e6a3"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:label xml:lang="en">Long Task</rdfs:label>
+    <skos:definition xml:lang="en">A task of 6 h or more -- about one hover-AUV battery endurance (Rep55 Sec. 5.2.1, ~8 h).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Conductivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    <rdfs:label xml:lang="en">Conductivity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38631a25a59140e7959134780c7261ec">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdf:rest rdf:nodeID="Nc51247e6a0b34421aacb6453c38b49f8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#FullySuccessfulMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Ne02655a7af5848d4b41c75c22f293b22"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Fully Successful Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission that has tasks and all of them succeeded.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#seabedDepth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:label xml:lang="en">seabed depth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DataSamplingMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N6ac2465b03894b579929435b1f810e19"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Data Sampling Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission carrying out a data-sampling activity (derived through hasActivity).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5b42902fac4b41fdade6e3ff1297d978">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N7f334aeaa5004e1282446e5487fd11ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8768bed17f4441e9b93d2a4c62e8e003">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N1a235831ebbd4eb0b1d334493c837c1a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f41ae099744451ca98d5dcbbca705d4">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>PartialSUCCESSFUL</rdf:first>
+    <rdf:rest rdf:nodeID="Nb3f49ee5b6624fc790f3b780eb94e9ec"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DataObservationAndCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    <rdfs:subClassOf rdf:nodeID="Nca249f6cb9c84453b7f218a637d1856b"/>
+    <rdfs:label xml:lang="en">Data Observation and Collection</rdfs:label>
+    <skos:altLabel xml:lang="en">Data Observation and Collection</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N922efe224ddf48438050b4f9a56da3d1">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#LongTask"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#t"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndc16e8a1f63b4eb8bbae0f1460a287af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N35c3acae1cbb415badeb17be8a3d0ddd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NavFixSite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N48949831dabe46c1a81c4910d4fa35e6"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdfs:label xml:lang="en">Navigation-Fix Site</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neaf8f63343454c20bf74e94404d7f20a">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#CameraEquippedVehicle"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3dc4e8cbdf0849c4bb2aa72c68f82008">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Na3c7b69e7bcc4e45ac30c7db15de9063"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne8ace8b6795f4112b92b0b2f63f6c285">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Ncaa6809da95c417c946f25c4285b9c5c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c0c745292014abbaa969766cea9d36b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasDestination"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#BottomLockSite"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Waypoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Waypoint</rdfs:label>
+    <skos:definition xml:lang="en">A dive site: latitude, longitude, seabed depth.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb1e3ae9042546d397a62141da1d14a2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasSurface"/>
+    <owl:someValuesFrom rdf:nodeID="N53613de089e141fea95369587e47ebd8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca2a14a6fce44d68806452b48d1baaa1">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#CameraEquippedVehicle"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49ac3594b4444567b1e9b1a9842f2390">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasSurface"/>
+    <owl:someValuesFrom rdf:nodeID="Nf578d8c943374937a7763f3d2a5ef1cc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ca920add12d4364b210e18cf1977be1">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="Nd276e099efe3422ebf8a3d64556c1598"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N05ce8dc5ed1749e7883549c9c2d38bc2">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+    <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+    <swrl:arguments rdf:nodeID="N1cb7f862ef004e4688dcb0b3685c7343"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N392013d88d3b4a989c1a23729674b827">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasGoal"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#QualificationGoal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Act_TakePhoto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:comment xml:lang="en">PDDL 'take_photo' - CoraMo Mk II imaging survey flown at the seabed under DVL bottom-lock, producing one photo survey per site (domain_55.pddl).</rdfs:comment>
+    <rdfs:label xml:lang="en">take_photo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31314a7591614fd68ba6f08a9d6d1c5e">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#m"/>
+    <swrl:argument2 rdf:resource="http://oru.se/marinellm/survey#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne650168c1daf4832b07c26f45835ea1b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#requiresNavigation"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#BottomLockRequired"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Necb79708438142cd82623f783af61b37">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N45304f5a4eb24a3f834aff3954050063"/>
+    <rdf:rest rdf:nodeID="Nf8ae4f23503a4426823b1da87f898361"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbfcaf72bf00741b8a514c7e90f2290c6">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Naedee5c86cf14046b6598c8140027882"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Mission_AL533">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <usesVehicle rdf:resource="http://oru.se/marinellm/survey#ANTON"/>
+    <usesVehicle rdf:resource="http://oru.se/marinellm/survey#JAGO"/>
+    <usesVehicle rdf:resource="http://oru.se/marinellm/survey#LUISE"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N32af674f8632451b85b5d6a75a98d541">
+    <rdf:first rdf:nodeID="N5aa9bd7e570c441d813eb78d4ba2bcf7"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#realisedByAction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Action"/>
+    <rdfs:label xml:lang="en">realised by action</rdfs:label>
+    <skos:definition xml:lang="en">Links a mission Task to the primitive planner Action(s) that carry it out (PDDL domain al533_auv_survey, domain_55.pddl).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N25299b5c55924e21bbc70c68f39f3a88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Naebfdfaf15ae40bd9284fa879c4ace9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N51db2019dee049089ddd5633133adb52">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N0492e13cafa74215a319c05dad601524"/>
+    <rdf:rest rdf:nodeID="N7a14f8a6b9644b658669fa207ac9b188"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9aa46b1bce304fcfba8d0fc60de700e3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ne8ace8b6795f4112b92b0b2f63f6c285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Transponder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:label xml:lang="en">Seabed Transponder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N70493a0cba3643ccaabd466c77f6ea70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N721f109aa54f4b1aa1e4d16240e2c5d4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8b1127e67c494eae885d5d12ccde964c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Submersible"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc50e1f2d28654ab19a378c7d20b8cfc6">
+    <rdf:first rdf:nodeID="N0cfc2f27b1a046ea8a6503a24b71de78"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#OpticalMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N70493a0cba3643ccaabd466c77f6ea70"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Optical Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission using an optical sensor (camera) on any of its vehicles (derived through usesDevice).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbf9508de935d442c8a8a9f0562378940">
+    <rdf:first rdf:nodeID="N8b1127e67c494eae885d5d12ccde964c"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#usesDevice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:propertyChainAxiom rdf:nodeID="Nbe0cea949cb54a38ab19c60e878bd256"/>
+    <rdfs:label xml:lang="en">uses device</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the devices a mission uses, via the vehicles it uses (usesVehicle o hasDevice). Never asserted.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72c193b0d4c04c96ad9f9ede314d9061">
+    <rdf:first rdf:nodeID="N06c0eb7340d644cfbb13d49da8ce4e52"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N60063443c1444191afeeabc4b091eee3">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nca2a14a6fce44d68806452b48d1baaa1"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N658cf4bffdda46c2a95458eb224fe935">
+    <rdf:first rdf:nodeID="N28930ad82cc64808be9dd68e7bde2357"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#inMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <owl:propertyChainAxiom rdf:nodeID="N69a0f8d76796443fa8707d1b15a81462"/>
+    <rdfs:label xml:lang="en">in mission</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the mission an observation or sampling activity belongs to, via the task it executes (usedProcedure o taskOf).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ec7594b30644afe9f52a020a73c2373">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasSurface"/>
+    <owl:someValuesFrom rdf:nodeID="Ne650168c1daf4832b07c26f45835ea1b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:label xml:lang="en">Action</rdfs:label>
+    <skos:definition xml:lang="en">A primitive, executable vehicle operation - a durative-action schema in the PDDL planning domain (domain_55.pddl). Tasks are realised by sequences of Actions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N454cc30bf83646db829df4ad586fa771">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#HasUSBLFix"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9233e2c73b764270b9a678900f6dbc0a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#onTerrain"/>
+    <owl:someValuesFrom rdf:nodeID="N49ac3594b4444567b1e9b1a9842f2390"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93c1013e4e674ff886fa99cd0b5b59b6">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#FeasibleImagingMission"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#m"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N11ad5228e1da4d8695ea5d9a10a6959c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nd141fdf51fea442ba54de71fd9a39cbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7792ec5be7240409ec19ed368bdd5ca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ncb4d92aa4f6044a59f41ab738dafef2e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2116d8ba002469cbd681adab136bb92">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#onTerrain"/>
+    <owl:someValuesFrom rdf:nodeID="N0ec7594b30644afe9f52a020a73c2373"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53613de089e141fea95369587e47ebd8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#requiresNavigation"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#NavFixRequired"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa04bf8cbd3d4be8a48bc3ec5bc90e17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nf2696de900934c2f8d3b11fe86389039"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Vehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+    <rdfs:label xml:lang="en">Vehicle</rdfs:label>
+    <skos:definition xml:lang="en">A mobile or moored underwater platform used in a mission.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4b36a0163c745c29434ba0c1978103e">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N7bbafd557bb84b7a909ce74545db4373"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc51247e6a0b34421aacb6453c38b49f8">
+    <rdf:first rdf:nodeID="N9233e2c73b764270b9a678900f6dbc0a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3150a81d096c4ed68edf1ca634128aed">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:withRestrictions rdf:nodeID="Nc8f5ca2888994355819b508be9e7618a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasDevice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Device"/>
+    <rdfs:label xml:lang="en">has device</rdfs:label>
+    <skos:definition xml:lang="en">A device (sensor or actuator) fitted to a vehicle. Populated from Q7 by csv2onto.py.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9040009e9ce5417c9ce0bce7a0367d54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#NoFixRequired">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#NavigationRequirement"/>
+    <rdfs:label xml:lang="en">no navigation fix required</rdfs:label>
+    <skos:definition xml:lang="en">Benign ground: traversable dead-reckoned, no live fix needed.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc45f50bd52984fd2aa728bc32cc92d53">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N97360781dba741949b7bdbcc24d5b8a1"/>
+    <rdf:rest rdf:nodeID="N242a03f4639c4ee3827a90e94ced0a75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nca3cf9e1fa8249b8821c3eedc9a08dbe">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N922efe224ddf48438050b4f9a56da3d1"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na548900773174e81be1fe1025a48d407">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Depth"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4df2b6ff54e4e17bb48c0682a3d982b">
+    <rdf:first rdf:nodeID="N82a1928402974f0d909a79327dde122d"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb343f217daf7448fa9295ca19084ecdd">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Neaf8f63343454c20bf74e94404d7f20a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N710a60633a494b21a2e860b95ee73c40">
+    <rdf:first rdf:nodeID="N392013d88d3b4a989c1a23729674b827"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasTask">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://oru.se/marinellm/survey#taskOf"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <rdfs:label xml:lang="en">has task</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#TerrainArea">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Terrain Area</rdfs:label>
+    <skos:definition xml:lang="en">One mappable ground unit grouping a set of waypoints (e.g. the Comino ridge, the Qawra shelf).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb844a8b38d544c29bb14bceebbe20498">
+    <rdf:first rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N28930ad82cc64808be9dd68e7bde2357">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasDestination"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#UnconstrainedSite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0492e13cafa74215a319c05dad601524">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#ImagingMission"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#m"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3a27cb6c02b3442c96525e03852a183e">
+    <rdf:first rdf:nodeID="N596747330cbe42779dfef40161cb29fc"/>
+    <rdf:rest rdf:nodeID="N658cf4bffdda46c2a95458eb224fe935"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#initialConditionOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Scenario"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">initial condition of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfeccc18b3bfa4cd095b005f87c2adca5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <owl:someValuesFrom rdf:nodeID="Nb89253f392e44ead99ff5c8b099c6e4f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a43c96940d84153b77d84d6957477b3">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#ADCP">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">Acoustic Doppler Current Profiler</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd141fdf51fea442ba54de71fd9a39cbc">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdf:rest rdf:nodeID="N24ff052e7efb41c1940fe69fe2d3e75d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N434cccd055bb459e9693352176610a35">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Nb9b220ef068b432c9fddaac493bab38c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N56d7797e74b24ddba72e231cd8d1dd21">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#Task"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#t"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#requiresNavigation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Surface"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#NavigationRequirement"/>
+    <rdfs:label xml:lang="en">requires navigation</rdfs:label>
+    <skos:definition xml:lang="en">THE RULE: the navigation capability a vehicle must hold to traverse this surface. This is the ontology half of can_perform.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasActivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://oru.se/marinellm/survey#inMission"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">has activity</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the survey activities (observations, samplings) carried out under a mission -- the inverse of inMission (usedProcedure o taskOf).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba733240f1b34d5e9966483ae2c8985b">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Nbf218a9dfd79467eb9fdc941415c9726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#QualificationGoal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Goal"/>
+    <rdfs:label xml:lang="en">Qualification Goal</rdfs:label>
+    <skos:definition xml:lang="en">Qualify / commission equipment or train crew.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3c7b69e7bcc4e45ac30c7db15de9063">
+    <rdf:first rdf:nodeID="Nf94876c65d624f578a1b21326b1eaea8"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14da94016e7941c0b37186b8e296857a">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N710a60633a494b21a2e860b95ee73c40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BottomLockRequired">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#NavigationRequirement"/>
+    <rdfs:label xml:lang="en">DVL bottom-lock required</rdfs:label>
+    <skos:definition xml:lang="en">Steep ground: altitude must be tracked continuously, so a USBL ship-fix is NOT sufficient. DVL bottom-lock specifically.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N55c05d54ce3147a4b62afd840a3894d0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nc5540103f4ea4e12bea12fa2b3c8cf96"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfc3cb77ce3934015853471189a451fca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasMission"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    <owl:onClass rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1d9d867ee5f4f6b8051b5d1b126f447">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5fb932b32ce04f3b9ceb995c906e438a">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#hasDevice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#CameraEquippedVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#ANTON">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N28baf25a2fa040d6b1ec4fdfa6854d0d">
+    <rdf:first rdf:nodeID="N6ded2d5836134acfacab27773ddf8c60"/>
+    <rdf:rest rdf:nodeID="N4f6f032cccfe479ebc9f1bd4e4863beb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#JAGO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Submersible"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ac2465b03894b579929435b1f810e19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N06297e44ac294588a1d66b351a5e137e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d027528dff041a193c27decd178cd64">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdf:rest rdf:nodeID="N6c3148189e9249729b53ef7f7e2a553a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N54027666384040b183aecb63cb298643">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#HasDVLLock"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N978fcf1b8b264474a1770319c140c9bd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N75ca3b82f32c4fb48db5b2c011eaa4cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BathymetricObservation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+    <rdfs:subClassOf rdf:nodeID="N2e1faba51545431c98ce4899be58363a"/>
+    <rdfs:subClassOf rdf:nodeID="Nb6e408565c3e4d7cb3b70b3e8be9a33a"/>
+    <rdfs:subClassOf rdf:nodeID="N07829c3c3bdf43fc83c482a842c4f727"/>
+    <rdfs:label xml:lang="en">Bathymetric Observation</rdfs:label>
+    <skos:altLabel xml:lang="en">Bathymetric</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N855929a9589e4875a7da719e9a1f1d70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3631afc4273e4655bf8a027b5c83cf85"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N901aa65443ed4403a58e7eda71ab0146">
+    <rdf:first rdf:nodeID="N01dbf45cc09a44a29c5c104bc5ad24fc"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasAction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:propertyChainAxiom rdf:nodeID="N969a9967157047f49bb4b8a859179822"/>
+    <rdfs:label xml:lang="en">has action</rdfs:label>
+    <skos:definition xml:lang="en">Derived: the primitive planner actions of a mission, via its tasks.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3898dd0f392b479f91296f157b40700c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Depth"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f334aeaa5004e1282446e5487fd11ed">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N33b722c616874bce9574e48a2db635d9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#LUISE">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey_with_data">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97df228db1744d558576643efdc47e91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasSensor"/>
+    <owl:someValuesFrom rdf:nodeID="Nb65f3b05d14047468000082784f7036c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#m">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5ac42e9df2c4432bc0660ff844a682e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+    <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Temperature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Sonar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#AcousticSensor"/>
+    <rdfs:label xml:lang="en">Sonar</rdfs:label>
+    <skos:altLabel xml:lang="en">Sonar</skos:altLabel>
+    <skos:definition xml:lang="en">Active acoustic sensor: images or ranges by emitting sound and timing echoes.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N596747330cbe42779dfef40161cb29fc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N28baf25a2fa040d6b1ec4fdfa6854d0d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc5540103f4ea4e12bea12fa2b3c8cf96">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdf:rest rdf:nodeID="N47866461e6674f5094637c9d161ffa0a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N976065c93d2948db8af7fd1c2d5db623">
+    <rdf:first rdf:nodeID="N21e70bfb7fbf406fa2200da19771c579"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#PerformableTraversal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Na6956034aeca437fb095358a53cbbc73"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Traversal"/>
+    <rdfs:label xml:lang="en">Performable Traversal</rdfs:label>
+    <skos:definition xml:lang="en">A traversal the vehicle can actually perform: the destination is unconstrained, OR needs a nav-fix and the vehicle has one, OR needs bottom-lock and the vehicle has it. The whole of can_perform as one OWL concept (README Sec. 7.2).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71bde8197d8943b5bdb0b8898917683d">
+    <rdf:first rdf:nodeID="N8492a36b7f374fd0970059e8dc9e4d0f"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne69c0f9304ea46c8a2762f14694bfa17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasActivity"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#DataSampling"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N21e70bfb7fbf406fa2200da19771c579">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasSensor"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#DVL"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4f6f032cccfe479ebc9f1bd4e4863beb">
+    <rdf:first rdf:nodeID="Nd8d63de721d54f32a7026b2f4a9b2979"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69473b6943d34dda9207ff45d7f77fa9">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N96d19c4af7074c4a92ce34dbfe7a29b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N969a9967157047f49bb4b8a859179822">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <rdf:rest rdf:nodeID="N2f83743eb106450f8345f515f888c033"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne44900b31a844d049db446cc7e4d1d9c">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdf:rest rdf:nodeID="N54027666384040b183aecb63cb298643"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4cde418b18bd4825bdbd39a8602bf1b7">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#v"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f83743eb106450f8345f515f888c033">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#realisedByAction"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5504a5c8c05f451c8cd369b7e7cedd9b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N434cccd055bb459e9693352176610a35"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbe0cea949cb54a38ab19c60e878bd256">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#usesVehicle"/>
+    <rdf:rest rdf:nodeID="N5fb932b32ce04f3b9ceb995c906e438a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://oru.se/marinellm/survey#hasDevice"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:label xml:lang="en">has sensor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69a0f8d76796443fa8707d1b15a81462">
+    <rdf:first rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+    <rdf:rest rdf:nodeID="N9a18d3782977443eae537aeb548dc862"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N203c142e5b73470cbad3e6b6dc3ab274">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N3dc4e8cbdf0849c4bb2aa72c68f82008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DataAcquisitionGoal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Goal"/>
+    <owl:disjointWith rdf:resource="http://oru.se/marinellm/survey#QualificationGoal"/>
+    <rdfs:label xml:lang="en">Data Acquisition Goal</rdfs:label>
+    <skos:definition xml:lang="en">Acquire scientific data (e.g. seabed photo mosaics).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncaaf66877fb640ec915c0b9e40fe1358">
+    <rdf:first rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+    <rdf:rest rdf:nodeID="Nb844a8b38d544c29bb14bceebbe20498"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5aa9bd7e570c441d813eb78d4ba2bcf7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasAction"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#Action"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6aaa60f4194c4b54a8bd741bffd30bcf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncaaf66877fb640ec915c0b9e40fe1358"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1a235831ebbd4eb0b1d334493c837c1a">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Waypoint"/>
+    <rdf:rest rdf:nodeID="N9d0b7feae2314a8ba66c08e5dc784b96"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#CTDMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N5504a5c8c05f451c8cd369b7e7cedd9b"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">CTD Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission carrying out a CTD-profile activity (derived through hasActivity).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24ff052e7efb41c1940fe69fe2d3e75d">
+    <rdf:first rdf:nodeID="N855929a9589e4875a7da719e9a1f1d70"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5f113bcebef44b3fb8910b7d21d95d7c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#usesDevice"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#AcousticSensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82a1928402974f0d909a79327dde122d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#missionOf"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#SurveyNavigation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a18d3782977443eae537aeb548dc862">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#taskOf"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#SubmersibleMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N203c142e5b73470cbad3e6b6dc3ab274"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Submersible Mission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8492a36b7f374fd0970059e8dc9e4d0f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasTask"/>
+    <owl:allValuesFrom rdf:nodeID="Nc720b2b1056d466197d9e28bf8d20bee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#BathymetricSensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    <rdfs:subClassOf rdf:nodeID="Na548900773174e81be1fe1025a48d407"/>
+    <rdfs:label xml:lang="en">Bathymetric Sensor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#SinglePlatformMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nc41810790cb841b4957cbd92ace365e0"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdfs:label xml:lang="en">Single-Platform Mission</rdfs:label>
+    <skos:definition xml:lang="en">A mission using exactly one vehicle.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naebfdfaf15ae40bd9284fa879c4ace9a">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="N901aa65443ed4403a58e7eda71ab0146"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#Surface">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Surface</rdfs:label>
+    <skos:definition xml:lang="en">The ground class of a terrain area.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a33d676fc7f45f2b44bfc3479948e89">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#USBL"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na927b57465d94ddc9c8ee83a5aa6162b">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Ne421d26de3cb4fa5bf3f3daff8404af0"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb172d81201174f47aaefa439f5b0b021">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N57856debf8dd4350a29cc486cf136797"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N06c0eb7340d644cfbb13d49da8ce4e52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#hasDuration"/>
+    <owl:someValuesFrom rdf:nodeID="N3150a81d096c4ed68edf1ca634128aed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#FeasibleImagingMission">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#SSS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Sonar"/>
+    <rdfs:label xml:lang="en">Side-Scan Sonar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82ac8780b10247c299693f3d38195131">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N7a48e90bb5764082bfd82db6b915330f"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N96d19c4af7074c4a92ce34dbfe7a29b8">
+    <rdf:first rdf:nodeID="N655afaf66f42430abaacb79c740941c9"/>
+    <rdf:rest rdf:nodeID="N71bde8197d8943b5bdb0b8898917683d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7506b955f614f2f99d944299533176e">
+    <rdf:first rdf:nodeID="N5c0c745292014abbaa969766cea9d36b"/>
+    <rdf:rest rdf:nodeID="N210ddc0a3eb64f5bbaa375816b63cdb4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf2696de900934c2f8d3b11fe86389039">
+    <rdf:first rdf:nodeID="N033d75694602425bbc2b65c96eaa49c8"/>
+    <rdf:rest rdf:nodeID="N3a27cb6c02b3442c96525e03852a183e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd33381dd387942e89ecc8d59f610e080">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/hasResult"/>
+    <owl:someValuesFrom rdf:resource="http://oru.se/marinellm/survey#DataSample"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97f63316eaa84eea9d79d56b90b73954">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nd965d6f221b34917b152687e7090cfa4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57856debf8dd4350a29cc486cf136797">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#Mission"/>
+    <rdf:rest rdf:nodeID="Nf438a80bbc8a475b8ec016b74e969075"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#DataSample">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sample"/>
+    <rdfs:label xml:lang="en">Data Sample</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61a4b5fc78ea46e5a7cc438c0772407f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N14da94016e7941c0b37186b8e296857a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N10469405b2ac4a188cc875a833507453">
+    <rdf:first rdf:nodeID="Ne69c0f9304ea46c8a2762f14694bfa17"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1cbf0af9862d4bc6b6017ef7b9df1ae1">
+    <rdf:first rdf:resource="http://oru.se/marinellm/survey#initialConditionOf"/>
+    <rdf:rest rdf:nodeID="N23ecf27b2b5b4afc9369388833ce8fba"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33b722c616874bce9574e48a2db635d9">
+    <rdf:first rdf:nodeID="N8a30355cd2e2476a870996efa6e8afad"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#hasVehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://oru.se/marinellm/survey#Traversal"/>
+    <rdfs:range rdf:resource="http://oru.se/marinellm/survey#AUV"/>
+    <rdfs:label xml:lang="en">has vehicle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf40175e87d8c498eaca48a62d283c22e">
+    <rdf:first rdf:nodeID="N9040009e9ce5417c9ce0bce7a0367d54"/>
+    <rdf:rest rdf:nodeID="Nbf9508de935d442c8a8a9f0562378940"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7987ddfb211f40c89affa86aedd478cb">
+    <rdf:first rdf:nodeID="N5be7ce8527994370bfea8550b34ccf1a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#s">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N274a98de65bc48bc9e0b80b21091827c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nba733240f1b34d5e9966483ae2c8985b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N97360781dba741949b7bdbcc24d5b8a1">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://oru.se/marinellm/survey#Vehicle"/>
+    <swrl:argument1 rdf:resource="http://oru.se/marinellm/survey#v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#t">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a8b602dcb2044968b6de475818ee3b2">
+    <rdf:first rdf:nodeID="Naa04bf8cbd3d4be8a48bc3ec5bc90e17"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://oru.se/marinellm/survey#v">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+</rdf:RDF>

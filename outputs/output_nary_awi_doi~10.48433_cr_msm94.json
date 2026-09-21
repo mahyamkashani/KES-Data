@@ -1,0 +1,92 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1185",
+                "KPO_1185 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1185",
+                "Mooring"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1186",
+                "KPO_1186 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1186",
+                "Mooring"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1188",
+                "KPO_1188 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1188",
+                "Mooring"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1189",
+                "KPO_1189 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1189",
+                "Mooring"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1190",
+                "KPO_1190 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1190",
+                "Mooring"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1192",
+                "KPO_1192 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1192",
+                "Mooring"
+            ]
+        },
+        "pattern07": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1193",
+                "KPO_1193 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1193",
+                "Mooring"
+            ]
+        },
+        "pattern08": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1194",
+                "KPO_1194 hasAction Mooring"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1194",
+                "Mooring"
+            ]
+        }
+    }
+}

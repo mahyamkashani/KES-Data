@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "R/V Poseidon hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "P399/2",
+                "R/V Poseidon"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "P399/2 usesVehicle R/V Poseidon"
+        },
+        {
+            "INDIVIDUAL": [
+                "P399/2",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "P399/2 hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint onTerrain TerrainArea"
+        }
+    ]
+}

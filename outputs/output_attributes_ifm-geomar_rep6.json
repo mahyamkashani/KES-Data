@@ -1,0 +1,179 @@
+{
+    "Individuals": {
+        "SO186-3-01": {
+            "class": "Mission",
+            "MissionID": "SO186-3-01",
+            "startTime": "02.03.2006 23:02",
+            "endTime": "04.03.2006 07:30",
+            "maxDepth": "1949",
+            "dataVolume": "150",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Profile SO186-3-01"
+        },
+        "SO186-3-02": {
+            "class": "Mission",
+            "MissionID": "SO186-3-02",
+            "startTime": "07.03.2006 02:07",
+            "endTime": "07.03.2006 09:24",
+            "maxDepth": "335",
+            "dataVolume": "200",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Profile SO186-3-02"
+        },
+        "SO186-3-03": {
+            "class": "Mission",
+            "MissionID": "SO186-3-03",
+            "startTime": "08.03.2006 18:50",
+            "endTime": "08.03.2006 20:17",
+            "maxDepth": "175",
+            "dataVolume": "250",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Profile SO186-3-03"
+        },
+        "SO186-3-04": {
+            "class": "Mission",
+            "MissionID": "SO186-3-04",
+            "startTime": "10.03.2006 03:54",
+            "endTime": "10.03.2006 06:18",
+            "maxDepth": "289",
+            "dataVolume": "300",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Profile SO186-3-04"
+        },
+        "OBM59": {
+            "class": "Station",
+            "stationID": "OBM59",
+            "stationDate": "01.03.06 \u2013 04.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBM60": {
+            "class": "Station",
+            "stationID": "OBM60",
+            "stationDate": "01.03.06 \u2013 04.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBM61": {
+            "class": "Station",
+            "stationID": "OBM61",
+            "stationDate": "01.03.06 \u2013 04.03.06",
+            "stationTime": "10min / 1min"
+        },
+        "OBM101": {
+            "class": "Station",
+            "stationID": "OBM101",
+            "stationDate": "06.03.06 \u2013 08.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBM102": {
+            "class": "Station",
+            "stationID": "OBM102",
+            "stationDate": "06.03.06 \u2013 08.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBM106": {
+            "class": "Station",
+            "stationID": "OBM106",
+            "stationDate": "08.03.06 \u2013 11.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBM107": {
+            "class": "Station",
+            "stationID": "OBM107",
+            "stationDate": "08.03.06 \u2013 11.03.06",
+            "stationTime": "1min / 1min"
+        },
+        "OBH 19": {
+            "class": "Station",
+            "stationID": "OBH 19",
+            "stationDate": "16.10.05 \u2013 01.03.06",
+            "stationTime": "1112"
+        },
+        "OBSTEST": {
+            "class": "Station",
+            "stationID": "OBSTEST",
+            "stationDate": "18.11.05 \u2013 20.11.05",
+            "stationTime": "5812"
+        },
+        "OBS_01": {
+            "class": "Waypoint",
+            "locationName": "OBS 01",
+            "latitude": "2\u00b048,024' N",
+            "longitude": "97\u00b012,036' E",
+            "seabedDepth": 834
+        },
+        "OBS_02": {
+            "class": "Waypoint",
+            "locationName": "OBS 02",
+            "latitude": "2\u00b042,008' N",
+            "longitude": "96\u00b051,044' E",
+            "seabedDepth": 1123
+        },
+        "OBS_03": {
+            "class": "Waypoint",
+            "locationName": "OBS 03",
+            "latitude": "2\u00b012,009' N",
+            "longitude": "96\u00b018,012' E",
+            "seabedDepth": 1021
+        },
+        "OBS_04": {
+            "class": "Waypoint",
+            "locationName": "OBS 04",
+            "latitude": "1\u00b057,987' N",
+            "longitude": "96\u00b029,981' E",
+            "seabedDepth": 1155
+        },
+        "OBH_05": {
+            "class": "Waypoint",
+            "locationName": "OBH 05",
+            "latitude": "1\u00b054,020' N",
+            "longitude": "96\u00b012,004' E",
+            "seabedDepth": 2364
+        },
+        "OBH_39": {
+            "class": "Waypoint",
+            "locationName": "OBH 39",
+            "latitude": "2\u00b042,040' N",
+            "longitude": "95\u00b03,953' E",
+            "seabedDepth": 1104
+        },
+        "OBH_40": {
+            "class": "Waypoint",
+            "locationName": "OBH 40",
+            "latitude": "2\u00b048,046' N",
+            "longitude": "94\u00b055,986' E",
+            "seabedDepth": 865
+        },
+        "TOBU_01": {
+            "class": "Waypoint",
+            "locationName": "TOBU 01",
+            "latitude": "3\u00b043,900' S",
+            "longitude": "99\u00b013,800' E",
+            "seabedDepth": 5290
+        },
+        "TOBS_01": {
+            "class": "Waypoint",
+            "locationName": "TOBS 01",
+            "latitude": "3\u00b043,000' S",
+            "longitude": "99\u00b014,050' E",
+            "seabedDepth": 5228
+        },
+        "CTD_Station_01": {
+            "class": "State",
+            "has_Temperature": "1498",
+            "has_Conductivity": "unknown",
+            "has_Depth": "1800"
+        },
+        "CTD_Station_02": {
+            "class": "State",
+            "has_Temperature": "1487",
+            "has_Conductivity": "unknown",
+            "has_Depth": "1000"
+        },
+        "CTD_Station_03": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2186"
+        }
+    }
+}

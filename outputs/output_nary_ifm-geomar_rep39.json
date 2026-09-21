@@ -2,44 +2,57 @@
     "NaryPropertyAxiom": {
         "pattern01": {
             "Axioms": [
-                "SurveyNavigation hasMission M01",
-                "M01 usesVehicle V01",
-                "M01 hasGoal G01",
-                "M01 hasInitialCondition S01",
-                "M01 hasTask T01",
-                "T01 realisedByAction A01",
-                "S01 hasScenarioTask T02"
+                "SO208 hasTask DR107",
+                "DR107 hasAction gDr"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M01",
-                "V01",
-                "G01",
-                "S01",
-                "T01",
-                "A01",
-                "T02"
+                "SO208",
+                "DR107",
+                "gDr"
             ]
         },
         "pattern02": {
             "Axioms": [
-                "SurveyNavigation hasMission M02",
-                "M02 usesVehicle V02",
-                "M02 hasGoal G02",
-                "M02 hasInitialCondition S02",
-                "M02 hasTask T03",
-                "T03 realisedByAction A02",
-                "S02 hasScenarioTask T04"
+                "SO208 hasTask DR106",
+                "DR106 hasAction gDr"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M02",
-                "V02",
-                "G02",
-                "S02",
-                "T03",
-                "A02",
-                "T04"
+                "SO208",
+                "DR106",
+                "gDr"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO208 hasTask DR105",
+                "DR105 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR105",
+                "gDr"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO208 hasTask DR104",
+                "DR104 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR104",
+                "gDr"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "SO208 hasTask DR103",
+                "DR103 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR103",
+                "gDr"
             ]
         }
     }

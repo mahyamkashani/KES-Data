@@ -1,0 +1,17 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P350 hasTask Task_1",
+                "Task_1 hasAction Action_1",
+                "Action_1 hasVehicle RV_POSEIDON"
+            ],
+            "Individuals": [
+                "P350",
+                "Task_1",
+                "Action_1",
+                "RV_POSEIDON"
+            ]
+        }
+    }
+}

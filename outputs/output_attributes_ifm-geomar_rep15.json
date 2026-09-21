@@ -1,0 +1,69 @@
+{
+    "Individuals": {
+        "Giza_MV": {
+            "class": "State",
+            "has_Temperature": "40",
+            "has_Conductivity": "0.86",
+            "has_Depth": "675"
+        },
+        "North_Alex_MV": {
+            "class": "State",
+            "has_Temperature": "70",
+            "has_Conductivity": "0.89",
+            "has_Depth": "491"
+        },
+        "Giza_MV_Station_01": {
+            "class": "Station",
+            "stationID": "P362/2-2",
+            "stationDate": "13.02.2008",
+            "stationTime": "16:35"
+        },
+        "Giza_MV_Station_02": {
+            "class": "Station",
+            "stationID": "P362/2-5",
+            "stationDate": "15.02.2008",
+            "stationTime": "11:23"
+        },
+        "Giza_MV_Station_03": {
+            "class": "Station",
+            "stationID": "P362/2-6",
+            "stationDate": "15.02.2008",
+            "stationTime": "12:44"
+        },
+        "Giza_MV_Station_04": {
+            "class": "Station",
+            "stationID": "P362/2-7",
+            "stationDate": "15.02.2008",
+            "stationTime": "14:00"
+        },
+        "North_Alex_MV_Station_01": {
+            "class": "Station",
+            "stationID": "P362/2-36",
+            "stationDate": "20.02.2008",
+            "stationTime": "04:45"
+        },
+        "North_Alex_MV_Station_02": {
+            "class": "Station",
+            "stationID": "P362/2-37",
+            "stationDate": "20.02.2008",
+            "stationTime": "06:45"
+        },
+        "North_Alex_MV_Station_03": {
+            "class": "Station",
+            "stationID": "P362/2-38",
+            "stationDate": "20.02.2008",
+            "stationTime": "07:48"
+        },
+        "North_Alex_MV_Station_04": {
+            "class": "Station",
+            "stationID": "P362/2-100",
+            "stationDate": "22.02.2008",
+            "stationTime": "07:31"
+        },
+        "P362/2-2-2": {
+            "class": "Task",
+            "hasDuration": "4.5",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

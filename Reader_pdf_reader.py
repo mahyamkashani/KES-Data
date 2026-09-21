@@ -13,7 +13,7 @@ def pdfReadModullar( filename,x=50):
 # getting a specific page from the pdf file
 # never ask for more pages than the document has
     text = ""
-    for i in range(min(x, len(reader.pages))):
+    for i in range(min(x, len(reader.pages))): # x is number of PDF pages
         page = reader.pages[i]
         # extracting text from page 
         text = text + page.extract_text() 

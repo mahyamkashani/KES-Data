@@ -1,0 +1,38 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "Mission_hasTask_M389 POS389",
+                "Task_hasAction_A1 POS389",
+                "Traversal_hasVehicle_RV_Poseidon_M389 POS389",
+                "Traversal_hasDestination_Waypoint_Valletta_M389 POS389",
+                "Traversal_goes_through_Waypoint_Malaga_M389 POS389",
+                "Mission_hasTask_M393 POS393",
+                "Task_hasAction_A2 POS393",
+                "Traversal_hasVehicle_RV_Poseidon_M393 POS393",
+                "Traversal_hasDestination_Waypoint_Malaga_M393 POS393",
+                "Traversal_goes_through_Waypoint_Faro_M393 POS393",
+                "Mission_hasTask_MSM15_5 MSM15/5",
+                "Task_hasAction_A3 MSM15/5",
+                "Traversal_hasVehicle_RV_MariaS_Merian_MSM15/5 MSM15/5",
+                "Traversal_hasDestination_Waypoint_Valletta_MSM15/5 MSM15/5"
+            ],
+            "Individuals": [
+                "Mission_hasTask_M389",
+                "Task_hasAction_A1",
+                "Traversal_hasVehicle_RV_Poseidon_M389",
+                "Traversal_hasDestination_Waypoint_Valletta_M389",
+                "Traversal_goes_through_Waypoint_Malaga_M389",
+                "Mission_hasTask_M393",
+                "Task_hasAction_A2",
+                "Traversal_hasVehicle_RV_Poseidon_M393",
+                "Traversal_hasDestination_Waypoint_Malaga_M393",
+                "Traversal_goes_through_Waypoint_Faro_M393",
+                "Mission_hasTask_MSM15_5",
+                "Task_hasAction_A3",
+                "Traversal_hasVehicle_RV_MariaS_Merian_MSM15/5",
+                "Traversal_hasDestination_Waypoint_Valletta_MSM15/5"
+            ]
+        }
+    }
+}

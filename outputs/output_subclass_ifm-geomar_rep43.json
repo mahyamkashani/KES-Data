@@ -1,0 +1,86 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "MASS III Cruise",
+                "hasDuration": "13 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Mini-Gravity Corer",
+                "hasDuration": "Variable",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Sediment samples"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "RV Chakratong Tongyai",
+                "maxDepth": "2000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Chakratong Tongyai",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "MASS III-001",
+                "stationID": "001",
+                "stationName": "Coring Station 1",
+                "stationDate": "19.01.11",
+                "stationTime": "02:24"
+            },
+            {
+                "individual_name": "MASS III-002",
+                "stationID": "002",
+                "stationName": "Coring Station 2",
+                "stationDate": "19.01.11",
+                "stationTime": "03:45"
+            },
+            {
+                "individual_name": "MASS III-003",
+                "stationID": "003",
+                "stationName": "Coring Station 3",
+                "stationDate": "19.01.11",
+                "stationTime": "09:45"
+            },
+            {
+                "individual_name": "MASS III-004",
+                "stationID": "004",
+                "stationName": "Coring Station 4",
+                "stationDate": "20.01.11",
+                "stationTime": "03:04"
+            },
+            {
+                "individual_name": "MASS III-005",
+                "stationID": "005",
+                "stationName": "Coring Station 5",
+                "stationDate": "20.01.11",
+                "stationTime": "07:57"
+            },
+            {
+                "individual_name": "MASS III-006",
+                "stationID": "006",
+                "stationName": "Coring Station 6",
+                "stationDate": "20.01.11",
+                "stationTime": "09:16"
+            },
+            {
+                "individual_name": "MASS III-007",
+                "stationID": "007",
+                "stationName": "Coring Station 7",
+                "stationDate": "21.01.11",
+                "stationTime": "01:48"
+            }
+        ]
+    }
+}

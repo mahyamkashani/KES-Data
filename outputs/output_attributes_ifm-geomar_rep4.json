@@ -1,0 +1,785 @@
+{
+    "Individuals": {
+        "Mission_01": {
+            "class": "Mission",
+            "MissionID": "SO177/1",
+            "startTime": "2004-06-05T00:00:00Z",
+            "endTime": "2004-06-21T00:00:00Z",
+            "maxDepth": "3360",
+            "dataVolume": "9 GB",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Survey conducted in areas A and B"
+        },
+        "Mission_02": {
+            "class": "Mission",
+            "MissionID": "SO177/2",
+            "startTime": "2004-06-25T00:00:00Z",
+            "endTime": "2004-07-09T00:00:00Z",
+            "maxDepth": "3329",
+            "dataVolume": "Data collected from multiple CTD stations",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Follow-up survey in area B"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 11 OFOS 02",
+            "stationDate": "06.06.2004/07.06.2004",
+            "stationTime": "23:00"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 12 OFOS 03",
+            "stationDate": "07.06.2004",
+            "stationTime": "06:27"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 20 OFOS 05",
+            "stationDate": "09.06.2004",
+            "stationTime": "13:55"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 21 OFOS 06",
+            "stationDate": "09.06.2004",
+            "stationTime": "18:21"
+        },
+        "Station_38": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 38 OFOS-11",
+            "stationDate": "13.06.2004",
+            "stationTime": "12:51"
+        },
+        "Station_42": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 42 GC-1",
+            "stationDate": "14.06.2004",
+            "stationTime": "06:07"
+        },
+        "Station_44": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 44 CTD-9",
+            "stationDate": "14.06.2004",
+            "stationTime": "13:03"
+        },
+        "Station_46": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 46 OFOS-12",
+            "stationDate": "14.06.2004",
+            "stationTime": "23:26"
+        },
+        "Station_47": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 47 CTD-10",
+            "stationDate": "15.06.2004",
+            "stationTime": "05:22"
+        },
+        "Station_48": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 48 OFOS-13",
+            "stationDate": "15.06.2004",
+            "stationTime": "07:08"
+        },
+        "Station_61": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 61 CTD-11",
+            "stationDate": "17.06.2004",
+            "stationTime": "22:24"
+        },
+        "Station_62": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 62 OFOS-14",
+            "stationDate": "18.06.2004",
+            "stationTime": "00:49"
+        },
+        "Station_63": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 63 OFOS-15",
+            "stationDate": "18.06.2004",
+            "stationTime": "08:32"
+        },
+        "Station_64": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 64 PS-19",
+            "stationDate": "19.06.2004",
+            "stationTime": "13:40"
+        },
+        "Station_65": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 65 GC-6",
+            "stationDate": "19.06.2004",
+            "stationTime": "01:57"
+        },
+        "Station_66": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 66 GC-7",
+            "stationDate": "19.06.2004",
+            "stationTime": "04:58"
+        },
+        "Station_67": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 67 GC-8",
+            "stationDate": "19.06.2004",
+            "stationTime": "07:40"
+        },
+        "Station_68": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 68 CTD-12",
+            "stationDate": "19.06.2004",
+            "stationTime": "11:26"
+        },
+        "Station_69": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 69 PS-20",
+            "stationDate": "19.06.2004",
+            "stationTime": "14:21"
+        },
+        "Station_70": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 70 GC-9",
+            "stationDate": "20.06.2004",
+            "stationTime": "00:59"
+        },
+        "Station_71": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 71 PS-21",
+            "stationDate": "20.06.2004",
+            "stationTime": "03:37"
+        },
+        "Station_72": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 72 TVG-11",
+            "stationDate": "20.06.2004",
+            "stationTime": "08:03"
+        },
+        "Station_73": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 73 TV-MUC 5",
+            "stationDate": "20.06.2004",
+            "stationTime": "12:13"
+        },
+        "Station_74": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 74 OFOS-16",
+            "stationDate": "20.06.2004",
+            "stationTime": "16:25"
+        },
+        "Station_75": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 75 CTD-13",
+            "stationDate": "20.06.2004",
+            "stationTime": "23:13"
+        },
+        "Station_76": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 76 PS-22",
+            "stationDate": "21.06.2004",
+            "stationTime": "01:00"
+        },
+        "Station_77": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 82 OFOS 17",
+            "stationDate": "25-26.06.2004",
+            "stationTime": "23:50"
+        },
+        "Station_78": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 88 OFOS 18",
+            "stationDate": "27.06.2004",
+            "stationTime": "03:07"
+        },
+        "Station_79": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 89 OFOS 19",
+            "stationDate": "27.06.2004",
+            "stationTime": "08:23"
+        },
+        "Station_80": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 95 OFOS 20",
+            "stationDate": "28.06.2004",
+            "stationTime": "01:14"
+        },
+        "Station_81": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 99 OFOS 21",
+            "stationDate": "29.06.2004",
+            "stationTime": "02:35"
+        },
+        "Station_82": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 103 OFOS 22",
+            "stationDate": "01.07.2004",
+            "stationTime": "03:36"
+        },
+        "Station_83": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 107 OFOS 23",
+            "stationDate": "02.07.2004",
+            "stationTime": "00:16"
+        },
+        "Station_84": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 111 OFOS 24",
+            "stationDate": "04.07.2004",
+            "stationTime": "00:16"
+        },
+        "Station_85": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 112 OFOS 25",
+            "stationDate": "04.07.2004",
+            "stationTime": "11:08"
+        },
+        "Station_86": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 113 OFOS 26",
+            "stationDate": "04.07.2004",
+            "stationTime": "15:59"
+        },
+        "Station_87": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 114 OFOS 27",
+            "stationDate": "04.07.2004",
+            "stationTime": "18:47"
+        },
+        "OFOS_02": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 08.14'",
+            "longitude": "118\u00b0 54.23'",
+            "seabedDepth": 625
+        },
+        "OFOS_03": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 06.39'",
+            "longitude": "118\u00b0 54.73'",
+            "seabedDepth": 899
+        },
+        "OFOS_04": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 18.79'",
+            "longitude": "119\u00b0 11.98'",
+            "seabedDepth": 2987
+        },
+        "OFOS_05": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 18.16'",
+            "longitude": "119\u00b0 20.84'",
+            "seabedDepth": 3037
+        },
+        "OFOS_06": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 18.19'",
+            "longitude": "119\u00b0 14.90'",
+            "seabedDepth": 2994
+        },
+        "OFOS_07": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 10.54'",
+            "longitude": "118\u00b0 52.56'",
+            "seabedDepth": 484
+        },
+        "OFOS_08": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 02.98'",
+            "longitude": "118\u00b0 46.01'",
+            "seabedDepth": 955
+        },
+        "OFOS_09": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 59.35'",
+            "longitude": "118\u00b0 39.00'",
+            "seabedDepth": 1160
+        },
+        "OFOS_10": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 18.51'",
+            "longitude": "119\u00b0 25.90'",
+            "seabedDepth": 3056
+        },
+        "OFOS_11": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 18.13'",
+            "longitude": "119\u00b0 25.76'",
+            "seabedDepth": 3119
+        },
+        "OFOS_12": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 03.20'",
+            "longitude": "118\u00b0 45.78'",
+            "seabedDepth": 744
+        },
+        "OFOS_13": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 03.03'",
+            "longitude": "118\u00b0 46.49'",
+            "seabedDepth": 803
+        },
+        "OFOS_14": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 00.79'",
+            "longitude": "118\u00b0 45.21'",
+            "seabedDepth": 913
+        },
+        "OFOS_15": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22\u00b0 05.35'",
+            "longitude": "118\u00b0 42.10'",
+            "seabedDepth": 826
+        },
+        "OFOS_16": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21\u00b0 55.89'",
+            "longitude": "118\u00b0 46.31'",
+            "seabedDepth": 1355
+        },
+        "OFOS_17": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.68'",
+            "longitude": "119\u00b0 27.60'",
+            "seabedDepth": 3058
+        },
+        "OFOS_18": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "22\u00b0 10.748'",
+            "longitude": "118\u00b0 52.5318'",
+            "seabedDepth": 512
+        },
+        "OFOS_19": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "22\u00b0 08.587'",
+            "longitude": "118\u00b0 43.478'",
+            "seabedDepth": 569
+        },
+        "OFOS_20": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.926'",
+            "longitude": "119\u00b0 12.288'",
+            "seabedDepth": 3016
+        },
+        "OFOS_21": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 24.939'",
+            "longitude": "118\u00b0 31.669'",
+            "seabedDepth": 2429
+        },
+        "OFOS_22": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "18\u00b0 25.311'",
+            "longitude": "112\u00b0 19.193'",
+            "seabedDepth": 1073
+        },
+        "OFOS_23": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "18\u00b0 27.526'",
+            "longitude": "112\u00b0 18.959'",
+            "seabedDepth": 884
+        },
+        "OFOS_24": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.553'",
+            "longitude": "119\u00b0 11.978'",
+            "seabedDepth": 3007
+        },
+        "OFOS_25": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.570'",
+            "longitude": "119\u00b0 11.963'",
+            "seabedDepth": 2999
+        },
+        "OFOS_26": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.520'",
+            "longitude": "119\u00b0 26.050'",
+            "seabedDepth": 3072
+        },
+        "OFOS_27": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 18.450'",
+            "longitude": "119\u00b0 26.140'",
+            "seabedDepth": 3094
+        },
+        "OFOS_28": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "22\u00b0 02.083'",
+            "longitude": "118\u00b0 25.972'",
+            "seabedDepth": 744
+        },
+        "OFOS_29": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "22\u00b0 02.426'",
+            "longitude": "118\u00b0 26.210'",
+            "seabedDepth": 815
+        },
+        "OFOS_30": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "22\u00b0 08.362'",
+            "longitude": "118\u00b0 43.414'",
+            "seabedDepth": 528
+        },
+        "OFOS_31": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 08.948'",
+            "longitude": "119\u00b0 11.912'",
+            "seabedDepth": 1896
+        },
+        "OFOS_32": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 19.538'",
+            "longitude": "119\u00b0 14.924'",
+            "seabedDepth": 2924
+        },
+        "OFOS_33": {
+            "class": "Waypoint",
+            "locationName": "Area B",
+            "latitude": "21\u00b0 07.697'",
+            "longitude": "119\u00b0 13.081'",
+            "seabedDepth": 1504
+        },
+        "OFOS-1": {
+            "class": "Task",
+            "hasDuration": 7.24,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-2": {
+            "class": "Task",
+            "hasDuration": 5.32,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-3": {
+            "class": "Task",
+            "hasDuration": 3.12,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-4": {
+            "class": "Task",
+            "hasDuration": 1.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-5": {
+            "class": "Task",
+            "hasDuration": 3.27,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-6": {
+            "class": "Task",
+            "hasDuration": 3.54,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-7": {
+            "class": "Task",
+            "hasDuration": 1.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-8": {
+            "class": "Task",
+            "hasDuration": 2.56,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-9": {
+            "class": "Task",
+            "hasDuration": 3.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-10": {
+            "class": "Task",
+            "hasDuration": 13.26,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-11": {
+            "class": "Task",
+            "hasDuration": 2.53,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-12": {
+            "class": "Task",
+            "hasDuration": 4.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-13": {
+            "class": "Task",
+            "hasDuration": 4.44,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-14": {
+            "class": "Task",
+            "hasDuration": 7.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-15": {
+            "class": "Task",
+            "hasDuration": 4.59,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-16": {
+            "class": "Task",
+            "hasDuration": 6.25,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-17": {
+            "class": "Task",
+            "hasDuration": 4.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-18": {
+            "class": "Task",
+            "hasDuration": 4.25,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-19": {
+            "class": "Task",
+            "hasDuration": 4.25,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-20": {
+            "class": "Task",
+            "hasDuration": 4.35,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-21": {
+            "class": "Task",
+            "hasDuration": 4.35,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-22": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-23": {
+            "class": "Task",
+            "hasDuration": 4.49,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-24": {
+            "class": "Task",
+            "hasDuration": 2.44,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-25": {
+            "class": "Task",
+            "hasDuration": 2.51,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-26": {
+            "class": "Task",
+            "hasDuration": 2.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-27": {
+            "class": "Task",
+            "hasDuration": 2.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-28": {
+            "class": "Task",
+            "hasDuration": 2.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-29": {
+            "class": "Task",
+            "hasDuration": 2.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-30": {
+            "class": "Task",
+            "hasDuration": 2.31,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-31": {
+            "class": "Task",
+            "hasDuration": 4.39,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-32": {
+            "class": "Task",
+            "hasDuration": 3.46,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-33": {
+            "class": "Task",
+            "hasDuration": 6.57,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_01": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2199
+        },
+        "CTD_02": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3360
+        },
+        "CTD_03": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3163
+        },
+        "CTD_04": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 911
+        },
+        "CTD_05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3011
+        },
+        "CTD_06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 919
+        },
+        "CTD_07": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 402
+        },
+        "CTD_08": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2205
+        },
+        "CTD_09": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 768
+        },
+        "CTD_10": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 769
+        },
+        "CTD_11": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1357
+        },
+        "CTD_12": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3283
+        },
+        "CTD_13": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1747
+        },
+        "CTD_14": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3329
+        },
+        "CTD_15": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3252
+        },
+        "CTD_16": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3247
+        },
+        "CTD_17": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 762
+        },
+        "CTD_18": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1183
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2555
+        },
+        "CTD_20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1651
+        },
+        "CTD_21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3013
+        },
+        "CTD_22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 630
+        },
+        "CTD_23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2850
+        },
+        "CTD_24": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3019
+        },
+        "CTD_25": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2983
+        }
+    }
+}

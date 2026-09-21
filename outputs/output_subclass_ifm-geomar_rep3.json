@@ -1,0 +1,37 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "POSEIDON Cruise 316",
+                "hasDuration": "April 2004 to August 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "CTD/RO",
+                "maxDepth": "Unknown"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "Galway Mound",
+                "stationID": "Stat. 506",
+                "stationName": "Galway Mound",
+                "stationDate": "10-08-2004",
+                "stationTime": "09:45:00"
+            },
+            {
+                "individual_name": "Challenger Mound",
+                "stationID": "Stat. 507",
+                "stationName": "Challenger Mound",
+                "stationDate": "10-08-2004",
+                "stationTime": "13:18:50"
+            }
+        ]
+    }
+}

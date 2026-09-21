@@ -1,0 +1,84 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP1"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon deploysVehicle MUMP1"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP2"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon deploysVehicle MUMP2"
+        },
+        {
+            "INDIVIDUAL": [
+                "P347",
+                "RV Poseidon"
+            ],
+            "OBJECT_PROPERTY": "operatedFromShip",
+            "DOMAIN": "Mission",
+            "RANGE": "Ship",
+            "AXIOM": "P347 operatedFromShip RV Poseidon"
+        },
+        {
+            "INDIVIDUAL": [
+                "P347",
+                "Dive 1426"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P347 hasTask Dive 1426"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1426",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1426 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1426",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1426 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP1",
+                "Waypoint 1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "MUMP1 hasDestination Waypoint 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP2",
+                "Waypoint 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "MUMP2 hasDestination Waypoint 2"
+        }
+    ]
+}

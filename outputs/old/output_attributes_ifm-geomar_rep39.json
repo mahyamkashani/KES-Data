@@ -1,0 +1,75 @@
+{
+    "Individuals": {
+        "SO208": {
+            "class": "Mission",
+            "MissionID": "SO208",
+            "startTime": "2010-07-15",
+            "endTime": "2010-08-29",
+            "maxDepth": "3000",
+            "imageCount": "0",
+            "dataVolume": "N/A",
+            "hasStatus": "Completed",
+            "remark": "Propagation of Gal\u00e1pagos Plume Material in the Equatorial East Pacific"
+        },
+        "Caldera_Costa_Rica": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "2010-07-15",
+            "stationTime": "14:00"
+        },
+        "Guayaquil_Ecuador": {
+            "class": "Station",
+            "stationID": "2",
+            "stationDate": "2010-08-29",
+            "stationTime": "N/A"
+        },
+        "Pancake_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3224-2992"
+        },
+        "Half_Moon_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3600-2300"
+        },
+        "Egg_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3400-2800"
+        },
+        "Boxer_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3398-2973"
+        },
+        "Horseshoe_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "N/A"
+        },
+        "Donut_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3600-3290"
+        },
+        "Spiegelei_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "3104-2783"
+        },
+        "Eye_Seamount": {
+            "class": "Waypoint",
+            "latitude": "N/A",
+            "longitude": "N/A",
+            "seabedDepth": "N/A"
+        }
+    }
+}

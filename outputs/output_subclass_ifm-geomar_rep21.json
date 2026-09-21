@@ -1,0 +1,90 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "745SBM",
+                "hasDuration": "21:15 \u2013 04:55",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "742SBM",
+                "hasDuration": "17:40 \u2013 06:25",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "739SBM",
+                "hasDuration": "16:45 \u2013 08:00",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "748SBM",
+                "hasDuration": "22:20 \u2013 01:30",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "747SBM",
+                "hasDuration": "15:50 \u2013 19:05",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "733SBM",
+                "hasDuration": "09.07.06/08.07.06 16:00 \u2013 05:00",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "744CTD",
+                "hasDuration": "11.07.06/18:30 \u2013 19:50",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "740ROV",
+                "maxDepth": "ca. 600 m"
+            },
+            {
+                "individual_name": "741ROV",
+                "maxDepth": "ca. 580 m"
+            },
+            {
+                "individual_name": "743ROV",
+                "maxDepth": "ca. 690 m"
+            },
+            {
+                "individual_name": "746ROV",
+                "maxDepth": "545 m"
+            },
+            {
+                "individual_name": "749ROV",
+                "maxDepth": "777 m"
+            },
+            {
+                "individual_name": "752ROV",
+                "maxDepth": "74 m"
+            },
+            {
+                "individual_name": "754ROV",
+                "maxDepth": "73 m"
+            }
+        ],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon",
+                "maxDepth": "800 m"
+            }
+        ],
+        "Station": []
+    }
+}

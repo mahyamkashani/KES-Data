@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "MicroRider 6000"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "AUV Abyss hasSensor MicroRider 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "AUV Abyss"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V Poseidon usesVehicle AUV Abyss"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "P403"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission P403"
+        },
+        {
+            "INDIVIDUAL": [
+                "M1",
+                "M2"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "M1 before M2"
+        },
+        {
+            "INDIVIDUAL": [
+                "M1",
+                "M1_2"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "M1 before M1_2"
+        }
+    ]
+}

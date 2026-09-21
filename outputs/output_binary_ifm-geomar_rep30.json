@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Meteor",
+                "M73/2"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Meteor hasMission M73/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "POS340"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission POS340"
+        },
+        {
+            "INDIVIDUAL": [
+                "Kongsberg Simrad EM120",
+                "R/V Meteor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "Kongsberg Simrad EM120 hasSensor R/V Meteor"
+        }
+    ]
+}

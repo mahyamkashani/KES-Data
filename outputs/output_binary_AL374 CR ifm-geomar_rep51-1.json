@@ -2,43 +2,173 @@
     "ObjectPropertyAxiom": [
         {
             "INDIVIDUAL": [
-                "ALKOR",
-                "Sensor"
+                "RV ALKOR",
+                "AL66"
             ],
-            "OBJECT_PROPERTY": "hasSensor",
-            "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "ALKOR hasSensor Sensor"
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV ALKOR hasMission AL66"
         },
         {
             "INDIVIDUAL": [
-                "ECO2",
-                "ALKOR"
+                "Sleipner",
+                "VCTD 1"
             ],
-            "OBJECT_PROPERTY": "usesVehicle",
-            "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "ECO2 usesVehicle ALKOR"
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction VCTD 1"
         },
         {
             "INDIVIDUAL": [
-                "ALKOR",
-                "Waypoint"
+                "Sleipner",
+                "VCTD 2"
             ],
-            "OBJECT_PROPERTY": "hasDestination",
-            "DOMAIN": "Traversal",
-            "RANGE": "Waypoint",
-            "AXIOM": "ALKOR hasDestination Waypoint"
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction VCTD 2"
         },
         {
             "INDIVIDUAL": [
-                "Waypoint",
-                "TerrainArea"
+                "Sleipner",
+                "VCTD 5"
             ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint onTerrain TerrainArea"
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction VCTD 5"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 2/1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 2/1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 2/2"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 2/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 2/3"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 2/3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 2/4"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 2/4"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 3/1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 3/1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 3/2"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 3/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "MIC 4/2"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction MIC 4/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "MIC 4/3"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction MIC 4/3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 9/1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 9/1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 9/2"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 9/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 9/3"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 9/3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "SG 9/4"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction SG 9/4"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "VCTD 13"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Sleipner hasAction VCTD 13"
         }
     ]
 }

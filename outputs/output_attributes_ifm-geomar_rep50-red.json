@@ -1,0 +1,113 @@
+{
+    "Individuals": {
+        "P395": {
+            "class": "Mission",
+            "MissionID": "P395",
+            "startTime": "04.02.2010",
+            "endTime": "19.02.2010",
+            "maxDepth": "2700",
+            "dataVolume": "10 cores",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report on the Sahara Slide Complex"
+        },
+        "P395/02-1": {
+            "class": "Station",
+            "stationID": "P395/02-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/03-1": {
+            "class": "Station",
+            "stationID": "P395/03-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/03-2": {
+            "class": "Station",
+            "stationID": "P395/03-2",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/04-1": {
+            "class": "Station",
+            "stationID": "P395/04-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/05-1": {
+            "class": "Station",
+            "stationID": "P395/05-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/06-1": {
+            "class": "Station",
+            "stationID": "P395/06-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/07-1": {
+            "class": "Station",
+            "stationID": "P395/07-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/08-1": {
+            "class": "Station",
+            "stationID": "P395/08-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/09-1": {
+            "class": "Station",
+            "stationID": "P395/09-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/10-1": {
+            "class": "Station",
+            "stationID": "P395/10-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "P395/11-1": {
+            "class": "Station",
+            "stationID": "P395/11-1",
+            "stationDate": "04.02.2010",
+            "stationTime": "N/A"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "25\u00b011'N, 16\u00b050'W",
+            "latitude": "25.1833",
+            "longitude": "-16.8333",
+            "seabedDepth": "2000"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "24\u00b022'N, 16\u00b030'W",
+            "latitude": "24.3667",
+            "longitude": "-16.5000",
+            "seabedDepth": "2700"
+        },
+        "Waypoint_03": {
+            "class": "Waypoint",
+            "locationName": "24\u00b020.93'N, 17\u00b009.87'W",
+            "latitude": "24.3485",
+            "longitude": "-17.1645",
+            "seabedDepth": "2039"
+        },
+        "Waypoint_04": {
+            "class": "Waypoint",
+            "locationName": "24\u00b020.57'N, 17\u00b010.05'W",
+            "latitude": "24.3428",
+            "longitude": "-17.1685",
+            "seabedDepth": "2036"
+        },
+        "Poseidon Cruise P395": {
+            "class": "Task",
+            "hasDuration": 16.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

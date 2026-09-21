@@ -1,0 +1,71 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Kongsberg EM120 Multibeam Bathymetry System",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "ROV Operations",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "Lander Operations",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "TV-Grab Operations",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            }
+        ],
+        "TrialMission": [
+            {
+                "individual_name": "ROV Deployment and Sampling",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "KIEL 6000",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "CMSA Box 1",
+                "stationID": "1",
+                "stationName": "CMSA Box 1",
+                "stationDate": "2010-10-03",
+                "stationTime": "17:00"
+            },
+            {
+                "individual_name": "CMSA Box 2",
+                "stationID": "2",
+                "stationName": "CMSA Box 2",
+                "stationDate": "2010-10-04",
+                "stationTime": "14:21"
+            },
+            {
+                "individual_name": "CMSA Box 4",
+                "stationID": "4",
+                "stationName": "CMSA Box 4",
+                "stationDate": "2010-10-05",
+                "stationTime": "12:45"
+            }
+        ]
+    }
+}

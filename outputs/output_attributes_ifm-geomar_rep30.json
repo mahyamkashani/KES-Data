@@ -1,0 +1,591 @@
+{
+    "Individuals": {
+        "Mission_1": {
+            "class": "Mission",
+            "MissionID": "M73/2",
+            "startTime": "14.08.2007",
+            "endTime": "30.08.2007",
+            "maxDepth": "5 m",
+            "dataVolume": "31.91 m",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Shallow drilling of hydrothermal sites in the Tyrrhenian Sea"
+        },
+        "station_852RD": {
+            "class": "Station",
+            "stationID": "852RD",
+            "stationDate": "16.08.07",
+            "stationTime": "10:53-13:46 UTC"
+        },
+        "station_853RD": {
+            "class": "Station",
+            "stationID": "853RD",
+            "stationDate": "16.08.07",
+            "stationTime": "14:23-16:16 UTC"
+        },
+        "station_856SB": {
+            "class": "Station",
+            "stationID": "856SB",
+            "stationDate": "16.08.07",
+            "stationTime": "21:13-23:06 UTC"
+        },
+        "station_857RD": {
+            "class": "Station",
+            "stationID": "857RD",
+            "stationDate": "17.08.07",
+            "stationTime": "11:50-13:27 UTC"
+        },
+        "station_858RD": {
+            "class": "Station",
+            "stationID": "858RD",
+            "stationDate": "17.08.07",
+            "stationTime": "14:13-15:39 UTC"
+        },
+        "station_860RD": {
+            "class": "Station",
+            "stationID": "860RD",
+            "stationDate": "17.08.07",
+            "stationTime": "18:13-20:21 UTC"
+        },
+        "station_861GC": {
+            "class": "Station",
+            "stationID": "861GC",
+            "stationDate": "17.08.07",
+            "stationTime": "20:36-21:08 UTC"
+        },
+        "station_862GC": {
+            "class": "Station",
+            "stationID": "862GC",
+            "stationDate": "17.08.07",
+            "stationTime": "22:25-23:00 UTC"
+        },
+        "station_863GC": {
+            "class": "Station",
+            "stationID": "863GC",
+            "stationDate": "17.08.07",
+            "stationTime": "23:43-00:33 UTC"
+        },
+        "station_864SB": {
+            "class": "Station",
+            "stationID": "864SB",
+            "stationDate": "18.08.07",
+            "stationTime": "00:53-05:26 UTC"
+        },
+        "station_865RD": {
+            "class": "Station",
+            "stationID": "865RD",
+            "stationDate": "18.08.07",
+            "stationTime": "06:02-08:21 UTC"
+        },
+        "station_866TVG": {
+            "class": "Station",
+            "stationID": "866TVG",
+            "stationDate": "18.08.07",
+            "stationTime": "14:30-16:18 UTC"
+        },
+        "station_867TVG": {
+            "class": "Station",
+            "stationID": "867TVG",
+            "stationDate": "18.08.07",
+            "stationTime": "18:29-20:07 UTC"
+        },
+        "station_868SB": {
+            "class": "Station",
+            "stationID": "868SB",
+            "stationDate": "18.08.07",
+            "stationTime": "21:35-05:27 UTC"
+        },
+        "station_870SB": {
+            "class": "Station",
+            "stationID": "870SB",
+            "stationDate": "19.08.07",
+            "stationTime": "12:00-13:00 UTC"
+        },
+        "station_875RD": {
+            "class": "Station",
+            "stationID": "875RD",
+            "stationDate": "20.08.07",
+            "stationTime": "11:21-12:35 UTC"
+        },
+        "station_876RD": {
+            "class": "Station",
+            "stationID": "876RD",
+            "stationDate": "20.08.07",
+            "stationTime": "12:56-14:09 UTC"
+        },
+        "station_878RD": {
+            "class": "Station",
+            "stationID": "878RD",
+            "stationDate": "20.08.07",
+            "stationTime": "16:12-17:44 UTC"
+        },
+        "station_879RD": {
+            "class": "Station",
+            "stationID": "879RD",
+            "stationDate": "20.08.07",
+            "stationTime": "18:06-19:07 UTC"
+        },
+        "station_881RD": {
+            "class": "Station",
+            "stationID": "881RD",
+            "stationDate": "20.08.07",
+            "stationTime": "22:00-00:13 UTC"
+        },
+        "station_882RD": {
+            "class": "Station",
+            "stationID": "882RD",
+            "stationDate": "21.08.07",
+            "stationTime": "00:46-02:06 UTC"
+        },
+        "station_886RD": {
+            "class": "Station",
+            "stationID": "886RD",
+            "stationDate": "21.08.07",
+            "stationTime": "08:49-09:47 UTC"
+        },
+        "station_887RDV": {
+            "class": "Station",
+            "stationID": "887RDV",
+            "stationDate": "21.08.07",
+            "stationTime": "10:07-10:49 UTC"
+        },
+        "station_889RD": {
+            "class": "Station",
+            "stationID": "889RD",
+            "stationDate": "21.08.07",
+            "stationTime": "15:58-16:45 UTC"
+        },
+        "station_890RDV": {
+            "class": "Station",
+            "stationID": "890RDV",
+            "stationDate": "21.08.07",
+            "stationTime": "17:46-18:07 UTC"
+        },
+        "station_894RDV": {
+            "class": "Station",
+            "stationID": "894RDV",
+            "stationDate": "21.08.07",
+            "stationTime": "22:13-22:52 UTC"
+        },
+        "station_895RD": {
+            "class": "Station",
+            "stationID": "895RD",
+            "stationDate": "22.08.07",
+            "stationTime": "00:16-02:47 UTC"
+        },
+        "station_896RD": {
+            "class": "Station",
+            "stationID": "896RD",
+            "stationDate": "22.08.07",
+            "stationTime": "03:14-06:25 UTC"
+        },
+        "station_899RD": {
+            "class": "Station",
+            "stationID": "899RD",
+            "stationDate": "22.08.07",
+            "stationTime": "11:50-12:39 UTC"
+        },
+        "station_900RDV": {
+            "class": "Station",
+            "stationID": "900RDV",
+            "stationDate": "22.08.07",
+            "stationTime": "13:00-13:29 UTC"
+        },
+        "station_902RD": {
+            "class": "Station",
+            "stationID": "902RD",
+            "stationDate": "22.08.07",
+            "stationTime": "15:48-16:59 UTC"
+        },
+        "station_903RD": {
+            "class": "Station",
+            "stationID": "903RD",
+            "stationDate": "22.08.07",
+            "stationTime": "17:13-18:20 UTC"
+        },
+        "station_904RD": {
+            "class": "Station",
+            "stationID": "904RD",
+            "stationDate": "22.08.07",
+            "stationTime": "18:30-21:13 UTC"
+        },
+        "station_905RD": {
+            "class": "Station",
+            "stationID": "905RD",
+            "stationDate": "22.08.07",
+            "stationTime": "21:52-23:04 UTC"
+        },
+        "station_907RDV": {
+            "class": "Station",
+            "stationID": "907RDV",
+            "stationDate": "23.08.07",
+            "stationTime": "00:13-00:57 UTC"
+        },
+        "station_908RD": {
+            "class": "Station",
+            "stationID": "908RD",
+            "stationDate": "23.08.07",
+            "stationTime": "01:25-03:09 UTC"
+        },
+        "station_912SB": {
+            "class": "Station",
+            "stationID": "912SB",
+            "stationDate": "23.08.07",
+            "stationTime": "07:05-08:54 UTC"
+        },
+        "station_913RD": {
+            "class": "Station",
+            "stationID": "913RD",
+            "stationDate": "23.08.07",
+            "stationTime": "10:00-10:49 UTC"
+        },
+        "station_914RD": {
+            "class": "Station",
+            "stationID": "914RD",
+            "stationDate": "23.08.07",
+            "stationTime": "11:06-13:14 UTC"
+        },
+        "station_917RD": {
+            "class": "Station",
+            "stationID": "917RD",
+            "stationDate": "24.08.07",
+            "stationTime": "07:21-09:59 UTC"
+        },
+        "station_918RD": {
+            "class": "Station",
+            "stationID": "918RD",
+            "stationDate": "24.08.07",
+            "stationTime": "10:06-12:38 UTC"
+        },
+        "station_919TVG": {
+            "class": "Station",
+            "stationID": "919TVG",
+            "stationDate": "24.08.07",
+            "stationTime": "13:10-13:48 UTC"
+        },
+        "station_920RD": {
+            "class": "Station",
+            "stationID": "920RD",
+            "stationDate": "24.08.07",
+            "stationTime": "15:49-18:14 UTC"
+        },
+        "station_921RD": {
+            "class": "Station",
+            "stationID": "921RD",
+            "stationDate": "24.08.07",
+            "stationTime": "18:51-20:59 UTC"
+        },
+        "station_922TVG": {
+            "class": "Station",
+            "stationID": "922TVG",
+            "stationDate": "24.08.07",
+            "stationTime": "21:16-21:53 UTC"
+        },
+        "station_923SB": {
+            "class": "Station",
+            "stationID": "923SB",
+            "stationDate": "24.08.07",
+            "stationTime": "22:28-14:20 UTC"
+        },
+        "station_924SB": {
+            "class": "Station",
+            "stationID": "924SB",
+            "stationDate": "25.08.07",
+            "stationTime": "14:39-07:44 UTC"
+        },
+        "station_925RD": {
+            "class": "Station",
+            "stationID": "925RD",
+            "stationDate": "26.08.07",
+            "stationTime": "10:25-13:25 UTC"
+        },
+        "station_927RD": {
+            "class": "Station",
+            "stationID": "927RD",
+            "stationDate": "26.08.07",
+            "stationTime": "16:46-19:20 UTC"
+        },
+        "station_930RD": {
+            "class": "Station",
+            "stationID": "930RD",
+            "stationDate": "26.08.07",
+            "stationTime": "23:52-02:13 UTC"
+        },
+        "station_931RD": {
+            "class": "Station",
+            "stationID": "931RD",
+            "stationDate": "27.08.07",
+            "stationTime": "02:38-05:43 UTC"
+        },
+        "station_932RD": {
+            "class": "Station",
+            "stationID": "932RD",
+            "stationDate": "27.08.07",
+            "stationTime": "06:03-07:57 UTC"
+        },
+        "station_933SB": {
+            "class": "Station",
+            "stationID": "933SB",
+            "stationDate": "27.08.07",
+            "stationTime": "08:46-09:44 UTC"
+        },
+        "station_934SB": {
+            "class": "Station",
+            "stationID": "934SB",
+            "stationDate": "27.08.07",
+            "stationTime": "14:12-19:10 UTC"
+        },
+        "station_935SB": {
+            "class": "Station",
+            "stationID": "935SB",
+            "stationDate": "27.08.07",
+            "stationTime": "22:00-02:41 UTC"
+        },
+        "Palinuro_849SP": {
+            "class": "Waypoint",
+            "locationName": "Palinuro",
+            "latitude": "39\u00b034.00'N",
+            "longitude": "14\u00b038.00'E",
+            "seabedDepth": "1732"
+        },
+        "Panarea_875RD": {
+            "class": "Waypoint",
+            "locationName": "Panarea",
+            "latitude": "38\u00b038.854'N",
+            "longitude": "15\u00b006.728'E",
+            "seabedDepth": "56"
+        },
+        "Marsili_917RD": {
+            "class": "Waypoint",
+            "locationName": "Marsili",
+            "latitude": "39\u00b017.022'N",
+            "longitude": "14\u00b023.767'E",
+            "seabedDepth": "500"
+        },
+        "855RD": {
+            "class": "Task",
+            "hasDuration": 1.38,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "856SB": {
+            "class": "Task",
+            "hasDuration": 1.88,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "857RD": {
+            "class": "Task",
+            "hasDuration": 1.62,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "858RD": {
+            "class": "Task",
+            "hasDuration": 1.43,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "859RD": {
+            "class": "Task",
+            "hasDuration": 1.47,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "860RD": {
+            "class": "Task",
+            "hasDuration": 2.03,
+            "hasStatus": "FAILED"
+        },
+        "861GC": {
+            "class": "Task",
+            "hasDuration": 0.53,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "862GC": {
+            "class": "Task",
+            "hasDuration": 0.58,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "863GC": {
+            "class": "Task",
+            "hasDuration": 0.83,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "864SB": {
+            "class": "Task",
+            "hasDuration": 4.55,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "865RD": {
+            "class": "Task",
+            "hasDuration": 2.32,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "866TVG": {
+            "class": "Task",
+            "hasDuration": 1.47,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "867TVG": {
+            "class": "Task",
+            "hasDuration": 1.63,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "868SB": {
+            "class": "Task",
+            "hasDuration": 7.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "869TVG": {
+            "class": "Task",
+            "hasDuration": 4.51,
+            "hasStatus": "FAILED"
+        },
+        "870SB": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "871GC": {
+            "class": "Task",
+            "hasDuration": 0.68,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "872GC": {
+            "class": "Task",
+            "hasDuration": 0.67,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "873SB": {
+            "class": "Task",
+            "hasDuration": 10.32,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "874SB": {
+            "class": "Task",
+            "hasDuration": 1.95,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "875RD": {
+            "class": "Task",
+            "hasDuration": 2.12,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "876RD": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "878RD": {
+            "class": "Task",
+            "hasDuration": 1.57,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "879RD": {
+            "class": "Task",
+            "hasDuration": 1.02,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "880RD": {
+            "class": "Task",
+            "hasDuration": 2.12,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "881RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "882RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "883RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "884RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "885RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "886RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "888SB": {
+            "class": "Task",
+            "hasDuration": 4.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "889RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "891RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "892RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "893RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "896RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "901RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "902RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "903RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "904RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "905RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "906RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "911RD": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_866TVG": {
+            "class": "State",
+            "has_Temperature": "60",
+            "has_Conductivity": "unknown",
+            "has_Depth": "622"
+        }
+    }
+}

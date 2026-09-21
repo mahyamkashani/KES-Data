@@ -1,0 +1,212 @@
+{
+    "Individuals": {
+        "SO186-1A": {
+            "class": "Mission",
+            "MissionID": "SO186-1A",
+            "startTime": "2005-10-29T17:23:00",
+            "endTime": "2005-11-09T20:41:00",
+            "maxDepth": "6200",
+            "dataVolume": "45000",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Survey profile 21 to 56"
+        },
+        "SO186-1B": {
+            "class": "Mission",
+            "MissionID": "SO186-1B",
+            "startTime": "2005-11-10T00:00:00",
+            "endTime": "2005-11-20T23:59:00",
+            "maxDepth": "6000",
+            "dataVolume": "50000",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Extended survey with EM120"
+        },
+        "SO186-1C": {
+            "class": "Mission",
+            "MissionID": "SO186-1C",
+            "startTime": "2005-11-21T00:00:00",
+            "endTime": "2005-11-30T23:59:00",
+            "maxDepth": "5800",
+            "dataVolume": "52000",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Further data collection"
+        },
+        "SO186-1D": {
+            "class": "Mission",
+            "MissionID": "SO186-1D",
+            "startTime": "2005-12-01T00:00:00",
+            "endTime": "2005-12-10T23:59:00",
+            "maxDepth": "6000",
+            "dataVolume": "53000",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Final data collection"
+        },
+        "LEWK": {
+            "class": "Station",
+            "stationID": "LEWK",
+            "stationDate": "12.12.2005",
+            "stationTime": "N/A"
+        },
+        "LFAK": {
+            "class": "Station",
+            "stationID": "LFAK",
+            "stationDate": "12.12.2005",
+            "stationTime": "N/A"
+        },
+        "LABU": {
+            "class": "Station",
+            "stationID": "LABU",
+            "stationDate": "13.12.2005",
+            "stationTime": "N/A"
+        },
+        "MAUD": {
+            "class": "Station",
+            "stationID": "MAUD",
+            "stationDate": "14.12.2005",
+            "stationTime": "N/A"
+        },
+        "PUTR": {
+            "class": "Station",
+            "stationID": "PUTR",
+            "stationDate": "15.12.2005",
+            "stationTime": "N/A"
+        },
+        "DEHI": {
+            "class": "Station",
+            "stationID": "DEHI",
+            "stationDate": "15.12.2005",
+            "stationTime": "N/A"
+        },
+        "BATU": {
+            "class": "Station",
+            "stationID": "BATU",
+            "stationDate": "16.12.2005",
+            "stationTime": "N/A"
+        },
+        "LUAN": {
+            "class": "Station",
+            "stationID": "LUAN",
+            "stationDate": "16.12.2005",
+            "stationTime": "N/A"
+        },
+        "GITEWS-1": {
+            "class": "Waypoint",
+            "locationName": "3\u00b043.7'S/99\u00b014.0'E",
+            "latitude": "-3.7283",
+            "longitude": "99.2333",
+            "seabedDepth": "5250"
+        },
+        "GITEWS-2": {
+            "class": "Waypoint",
+            "locationName": "0\u00b027'S/96\u00b051'E",
+            "latitude": "-0.4500",
+            "longitude": "96.8500",
+            "seabedDepth": "3600"
+        },
+        "SO186-1B-1": {
+            "class": "Task",
+            "hasDuration": 3.7,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-2": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-3": {
+            "class": "Task",
+            "hasDuration": 6.6,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-4": {
+            "class": "Task",
+            "hasDuration": 10.9,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-5": {
+            "class": "Task",
+            "hasDuration": 23.9,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-6": {
+            "class": "Task",
+            "hasDuration": 6.9,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-7": {
+            "class": "Task",
+            "hasDuration": 3.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-8": {
+            "class": "Task",
+            "hasDuration": 8.2,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1B-9": {
+            "class": "Task",
+            "hasDuration": 18.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1C-1": {
+            "class": "Task",
+            "hasDuration": 1.1,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1C-2": {
+            "class": "Task",
+            "hasDuration": 0.2,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1C-3": {
+            "class": "Task",
+            "hasDuration": 0.8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1C-4": {
+            "class": "Task",
+            "hasDuration": 0.9,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-1C-5": {
+            "class": "Task",
+            "hasDuration": 1.9,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_Station_01": {
+            "class": "State",
+            "has_Temperature": "0.4",
+            "has_Conductivity": "8",
+            "has_Depth": "5800"
+        },
+        "CTD_Station_02": {
+            "class": "State",
+            "has_Temperature": "0.5",
+            "has_Conductivity": "6",
+            "has_Depth": "6000"
+        },
+        "CTD_Station_03": {
+            "class": "State",
+            "has_Temperature": "1.2",
+            "has_Conductivity": "7",
+            "has_Depth": "5800"
+        },
+        "CTD_Station_04": {
+            "class": "State",
+            "has_Temperature": "1.1",
+            "has_Conductivity": "10",
+            "has_Depth": "5800"
+        },
+        "CTD_Station_05": {
+            "class": "State",
+            "has_Temperature": "1.4",
+            "has_Conductivity": "5",
+            "has_Depth": "5297"
+        },
+        "CTD_Station_06": {
+            "class": "State",
+            "has_Temperature": "1.2",
+            "has_Conductivity": "3",
+            "has_Depth": "5055"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "SIMRAD EM 120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor SIMRAD EM 120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV SONNE hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Fast Repetition Rate Fluorometer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV SONNE hasSensor Fast Repetition Rate Fluorometer"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Airsampling"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor Airsampling"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DMS"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV SONNE hasMission DMS"
+        }
+    ]
+}

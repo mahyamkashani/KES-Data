@@ -1,0 +1,547 @@
+{
+    "Individuals": {
+        "POS316": {
+            "class": "Mission",
+            "MissionID": "POS 316",
+            "startTime": "03.08.2004",
+            "endTime": "17.08.2004",
+            "maxDepth": "1806 m",
+            "dataVolume": "Not specified",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Multidisciplinary cruise addressing biological, geological and hydrographical scientific objectives."
+        },
+        "Station_486": {
+            "class": "Station",
+            "stationID": "486",
+            "stationDate": "04.08.04",
+            "stationTime": "09:55:00"
+        },
+        "Station_487": {
+            "class": "Station",
+            "stationID": "487",
+            "stationDate": "05.08.04",
+            "stationTime": "08:41:53"
+        },
+        "Station_488": {
+            "class": "Station",
+            "stationID": "488",
+            "stationDate": "06.08.04",
+            "stationTime": "06:30:00"
+        },
+        "Station_489": {
+            "class": "Station",
+            "stationID": "489",
+            "stationDate": "06.08.04",
+            "stationTime": "17:40:00"
+        },
+        "Station_490": {
+            "class": "Station",
+            "stationID": "490",
+            "stationDate": "06.08.04",
+            "stationTime": "19:00:00"
+        },
+        "Station_491": {
+            "class": "Station",
+            "stationID": "491",
+            "stationDate": "06.08.04",
+            "stationTime": "20:45:00"
+        },
+        "Station_492": {
+            "class": "Station",
+            "stationID": "492",
+            "stationDate": "06.08.04",
+            "stationTime": "22:01:00"
+        },
+        "Station_493": {
+            "class": "Station",
+            "stationID": "493",
+            "stationDate": "06.08.04",
+            "stationTime": "23:02:00"
+        },
+        "Station_494": {
+            "class": "Station",
+            "stationID": "494",
+            "stationDate": "07.08.04",
+            "stationTime": "00:15:00"
+        },
+        "Station_495": {
+            "class": "Station",
+            "stationID": "495",
+            "stationDate": "07.08.04",
+            "stationTime": "01:32:00"
+        },
+        "Station_496": {
+            "class": "Station",
+            "stationID": "496",
+            "stationDate": "07.08.04",
+            "stationTime": "03:07:00"
+        },
+        "Station_497": {
+            "class": "Station",
+            "stationID": "497",
+            "stationDate": "07.08.04",
+            "stationTime": "04:20:00"
+        },
+        "Station_506": {
+            "class": "Station",
+            "stationID": "506",
+            "stationDate": "10.08.04",
+            "stationTime": "09:45:00"
+        },
+        "Station_507": {
+            "class": "Station",
+            "stationID": "507",
+            "stationDate": "10.08.04",
+            "stationTime": "13:18:50"
+        },
+        "Station_508": {
+            "class": "Station",
+            "stationID": "508",
+            "stationDate": "10.08.04",
+            "stationTime": "14:22:30"
+        },
+        "Station_509": {
+            "class": "Station",
+            "stationID": "509",
+            "stationDate": "10.08.04",
+            "stationTime": "17:00:00"
+        },
+        "Station_510": {
+            "class": "Station",
+            "stationID": "510",
+            "stationDate": "10.08.04",
+            "stationTime": "17:59:54"
+        },
+        "Station_511": {
+            "class": "Station",
+            "stationID": "511",
+            "stationDate": "10.08.04",
+            "stationTime": "18:46:00"
+        },
+        "Station_512": {
+            "class": "Station",
+            "stationID": "512",
+            "stationDate": "10.08.04",
+            "stationTime": "20:10:00"
+        },
+        "Station_513": {
+            "class": "Station",
+            "stationID": "513",
+            "stationDate": "10.08.04",
+            "stationTime": "21:23:00"
+        },
+        "Station_514": {
+            "class": "Station",
+            "stationID": "514",
+            "stationDate": "10.08.04",
+            "stationTime": "22:12:00"
+        },
+        "Station_515": {
+            "class": "Station",
+            "stationID": "515",
+            "stationDate": "10.08.04",
+            "stationTime": "23:04:00"
+        },
+        "Station_516": {
+            "class": "Station",
+            "stationID": "516",
+            "stationDate": "11.08.04",
+            "stationTime": "00:38:00"
+        },
+        "Station_517": {
+            "class": "Station",
+            "stationID": "517",
+            "stationDate": "11.08.04",
+            "stationTime": "01:32:00"
+        },
+        "Station_518": {
+            "class": "Station",
+            "stationID": "518",
+            "stationDate": "11.08.04",
+            "stationTime": "02:26:00"
+        },
+        "Station_519": {
+            "class": "Station",
+            "stationID": "519",
+            "stationDate": "11.08.04",
+            "stationTime": "03:48:00"
+        },
+        "Station_520": {
+            "class": "Station",
+            "stationID": "520",
+            "stationDate": "11.08.04",
+            "stationTime": "05:13:00"
+        },
+        "Station_521": {
+            "class": "Station",
+            "stationID": "521",
+            "stationDate": "11.08.04",
+            "stationTime": "06:20:00"
+        },
+        "Station_522": {
+            "class": "Station",
+            "stationID": "522",
+            "stationDate": "11.08.04",
+            "stationTime": "08:15:00"
+        },
+        "Station_523": {
+            "class": "Station",
+            "stationID": "523",
+            "stationDate": "11.08.04",
+            "stationTime": "09:44:00"
+        },
+        "Station_524": {
+            "class": "Station",
+            "stationID": "524",
+            "stationDate": "11.08.04",
+            "stationTime": "13:03:00"
+        },
+        "Station_525": {
+            "class": "Station",
+            "stationID": "525",
+            "stationDate": "11.08.04",
+            "stationTime": "14:11:00"
+        },
+        "Station_526": {
+            "class": "Station",
+            "stationID": "526",
+            "stationDate": "11.08.04",
+            "stationTime": "15:22:00"
+        },
+        "Station_527": {
+            "class": "Station",
+            "stationID": "527",
+            "stationDate": "11.08.04",
+            "stationTime": "16:14:00"
+        },
+        "Station_528": {
+            "class": "Station",
+            "stationID": "528",
+            "stationDate": "11.08.04",
+            "stationTime": "17:14:55"
+        },
+        "Station_529": {
+            "class": "Station",
+            "stationID": "529",
+            "stationDate": "11.08.04",
+            "stationTime": "18:33:00"
+        },
+        "Station_530": {
+            "class": "Station",
+            "stationID": "530",
+            "stationDate": "11.08.04",
+            "stationTime": "19:40:00"
+        },
+        "Station_531": {
+            "class": "Station",
+            "stationID": "531",
+            "stationDate": "11.08.04",
+            "stationTime": "20:51:00"
+        },
+        "Station_532": {
+            "class": "Station",
+            "stationID": "532",
+            "stationDate": "11.08.04",
+            "stationTime": "22:03:00"
+        },
+        "Station_533": {
+            "class": "Station",
+            "stationID": "533",
+            "stationDate": "12.08.04",
+            "stationTime": "23:38:00"
+        },
+        "Station_534": {
+            "class": "Station",
+            "stationID": "534",
+            "stationDate": "12.08.04",
+            "stationTime": "00:26:00"
+        },
+        "Station_535": {
+            "class": "Station",
+            "stationID": "535",
+            "stationDate": "12.08.04",
+            "stationTime": "01:10:00"
+        },
+        "Station_536": {
+            "class": "Station",
+            "stationID": "536",
+            "stationDate": "12.08.04",
+            "stationTime": "01:57:00"
+        },
+        "Station_537": {
+            "class": "Station",
+            "stationID": "537",
+            "stationDate": "12.08.04",
+            "stationTime": "02:59:00"
+        },
+        "Station_538": {
+            "class": "Station",
+            "stationID": "538",
+            "stationDate": "12.08.04",
+            "stationTime": "03:51:00"
+        },
+        "Galway_Mound": {
+            "class": "Waypoint",
+            "locationName": "Galway Mound",
+            "latitude": "51\u00b027.182N",
+            "longitude": "11\u00b044.026W",
+            "seabedDepth": "870 m"
+        },
+        "Poseidon_Mound": {
+            "class": "Waypoint",
+            "locationName": "Poseidon Mound",
+            "latitude": "51\u00b027.35N",
+            "longitude": "11\u00b042.044W",
+            "seabedDepth": "679 m"
+        },
+        "Kiel_Mount": {
+            "class": "Waypoint",
+            "locationName": "Kiel Mount",
+            "latitude": "56\u00b041.41N",
+            "longitude": "17\u00b027.91W",
+            "seabedDepth": "940 m"
+        },
+        "Dive 489": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 490": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 491": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 492": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 493": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 494": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 495": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 506": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 507": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 508": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 509": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 510": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 511": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 512": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 513": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 514": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 515": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 516": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 517": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 518": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 519": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 520": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 521": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 522": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 523": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 524": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 525": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 526": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 527": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 528": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 529": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 530": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 531": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 532": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 533": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 534": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 535": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 536": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 537": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 538": {
+            "class": "Task",
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_1": {
+            "class": "State",
+            "has_Temperature": "7.6",
+            "has_Conductivity": "N/A",
+            "has_Depth": "906"
+        },
+        "CTD_2": {
+            "class": "State",
+            "has_Temperature": "8",
+            "has_Conductivity": "N/A",
+            "has_Depth": "824"
+        },
+        "CTD_3": {
+            "class": "State",
+            "has_Temperature": "12.4",
+            "has_Conductivity": "N/A",
+            "has_Depth": "878"
+        },
+        "CTD_4": {
+            "class": "State",
+            "has_Temperature": "11",
+            "has_Conductivity": "N/A",
+            "has_Depth": "993"
+        },
+        "CTD_5": {
+            "class": "State",
+            "has_Temperature": "9.3",
+            "has_Conductivity": "N/A",
+            "has_Depth": "1039"
+        },
+        "CTD_6": {
+            "class": "State",
+            "has_Temperature": "11.8",
+            "has_Conductivity": "N/A",
+            "has_Depth": "1077"
+        },
+        "CTD_7": {
+            "class": "State",
+            "has_Temperature": "13.5",
+            "has_Conductivity": "N/A",
+            "has_Depth": "1079"
+        }
+    }
+}

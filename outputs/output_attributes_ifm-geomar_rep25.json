@@ -1,33 +1,466 @@
 {
     "Individuals": {
-        "SO199_CHRISP": {
+        "DR1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4036
+        },
+        "DR2": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4602
+        },
+        "DR3": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4789
+        },
+        "DR5": {
+            "class": "Station",
+            "stationID": "DR5",
+            "stationDate": "07.08.2008",
+            "stationTime": "12:58"
+        },
+        "DR6": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4135
+        },
+        "DR9": {
             "class": "Mission",
-            "MissionID": "SO199",
-            "startTime": "02.08.2008",
-            "endTime": "22.09.2008",
-            "maxDepth": "5000",
-            "imageCount": "70",
-            "dataVolume": "5694",
-            "hasStatus": "Completed",
-            "remark": "Research project on Christmas Island Seamount Province and Investigator Ridge"
+            "MissionID": "DR9",
+            "startTime": "UTC 09/08/08 01:30",
+            "endTime": "UTC 09/08/08 04:45",
+            "maxDepth": 4420,
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "dredge on bottom"
+        },
+        "DR10": {
+            "class": "Mission",
+            "MissionID": "DR10",
+            "startTime": "UTC 09/08/08 10:51",
+            "endTime": "UTC 09/08/08 12:12",
+            "maxDepth": 4060,
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "dredge on bottom"
+        },
+        "SO199": {
+            "class": "Station",
+            "stationID": "SO199",
+            "stationDate": "02.08.2008 - 22.09.2008",
+            "stationTime": "Various times during the cruise"
+        },
+        "DR28": {
+            "class": "Station",
+            "stationID": "DR28",
+            "stationDate": "16.08.2008",
+            "stationTime": "08:40"
+        },
+        "DR29": {
+            "class": "Station",
+            "stationID": "DR29",
+            "stationDate": "16.08.2008",
+            "stationTime": "19:46"
+        },
+        "DR31": {
+            "class": "Station",
+            "stationID": "DR31",
+            "stationDate": "17.08.2008",
+            "stationTime": "21:01"
+        },
+        "DR52": {
+            "class": "Station",
+            "stationID": "DR52",
+            "stationDate": "27.08.2008",
+            "stationTime": "12:30"
+        },
+        "DR61": {
+            "class": "Station",
+            "stationID": "DR61",
+            "stationDate": "30.08.2008",
+            "stationTime": "15:52"
+        },
+        "Outsider_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Outsider Seamount",
+            "latitude": "6\u00b015'S",
+            "longitude": "45 nm west of the Investigator Ridge",
+            "seabedDepth": ">5,000 m to ~3,300 m"
         },
         "Investigator_Ridge": {
             "class": "Waypoint",
-            "latitude": "-6.0",
-            "longitude": "95.0",
-            "seabedDepth": "3000"
+            "locationName": "Investigator Ridge",
+            "latitude": "16\u00b000'S",
+            "longitude": "between 4,649 and 4,290 m",
+            "seabedDepth": "4,938 to 4,575 m"
         },
-        "Christmas_Island_Seamount_Province": {
+        "Sherbakov_Seamount": {
             "class": "Waypoint",
-            "latitude": "-10.0",
-            "longitude": "105.0",
-            "seabedDepth": "2000"
+            "locationName": "Sherbakov Seamount",
+            "latitude": "10\u00b054.49'S",
+            "longitude": "104\u00b032.04'E",
+            "seabedDepth": "2,820 to 2,229 m"
         },
-        "R_V_SONNE": {
-            "class": "Station",
-            "stationID": "RV_SONNE",
-            "stationDate": "02.08.2008",
-            "stationTime": "16:00"
+        "DR_1": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_2": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "FAILED"
+        },
+        "DR_5": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_8": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_10": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_11": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_12": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_16": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_19": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_20": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_21": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "FAILED"
+        },
+        "DR_22": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_23": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_26": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_28": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_31": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_35": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_36": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_37": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_38": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_39": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_40": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_42": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_44": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_45": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_46": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_48": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_49": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_50": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_52": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_56": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_57": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_58": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_59": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_61": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_62": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_63": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_64": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_65": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_66": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_67": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_68": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_69": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_71": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_72": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_73": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_75": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_76": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "FAILED"
+        },
+        "DR_77": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_78": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_79": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_80": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_81": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_82": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_84": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_87": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_88": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_89": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_90": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR8": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4000
+        },
+        "DR36": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2548
+        },
+        "DR39": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3100
+        },
+        "DR40": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4306
+        },
+        "DR41": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3754
+        },
+        "DR44": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2525
+        },
+        "DR78": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5088
+        },
+        "DR79": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3787
+        },
+        "DR80": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3220
+        },
+        "DR81": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4400
         }
     }
 }

@@ -1,0 +1,110 @@
+{
+    "Individuals": {
+        "Station_Baltic_Sea": {
+            "class": "Station",
+            "stationID": "Baltic Sea",
+            "stationDate": "1946-1956",
+            "stationTime": "N/A"
+        },
+        "Station_North_Sea": {
+            "class": "Station",
+            "stationID": "North Sea",
+            "stationDate": "1954",
+            "stationTime": "N/A"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "Baltic Sea",
+            "latitude": "unknown",
+            "longitude": "unknown",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "eastern German Bight",
+            "latitude": "unknown",
+            "longitude": "unknown",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_03": {
+            "class": "Waypoint",
+            "locationName": "North Sea",
+            "latitude": "unknown",
+            "longitude": "unknown",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_04": {
+            "class": "Waypoint",
+            "locationName": "Kiel Canal",
+            "latitude": "unknown",
+            "longitude": "unknown",
+            "seabedDepth": "unknown"
+        },
+        "Station_1": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_2": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_3": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_4": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_5": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_6": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_7": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_8": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_9": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_10": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        },
+        "Station_11": {
+            "class": "State",
+            "has_Temperature": "Not specified",
+            "has_Conductivity": "Not specified",
+            "has_Depth": "Not specified"
+        }
+    }
+}

@@ -2,44 +2,40 @@
     "NaryPropertyAxiom": {
         "pattern01": {
             "Axioms": [
-                "SurveyNavigation hasMission M01",
-                "M01 usesVehicle V01",
-                "M01 hasGoal G01",
-                "M01 hasInitialCondition S01",
-                "M01 hasTask T01",
-                "T01 realisedByAction A01",
-                "S01 hasScenarioTask T02"
+                "SO277 hasTask SMART",
+                "SO277 hasTask MAPACT-ETNA"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M01",
-                "V01",
-                "G01",
-                "S01",
-                "T01",
-                "A01",
-                "T02"
+                "SO277",
+                "SMART",
+                "MAPACT-ETNA"
             ]
         },
         "pattern02": {
             "Axioms": [
-                "SurveyNavigation hasMission M02",
-                "M02 usesVehicle V02",
-                "M02 hasGoal G02",
-                "M02 hasInitialCondition S02",
-                "M02 hasTask T03",
-                "T03 realisedByAction A02",
-                "S02 hasScenarioTask T04"
+                "SO277 hasTask Station_06",
+                "Station_06 hasAction CTD_02",
+                "SO277 hasTask Station_13",
+                "Station_13 hasAction CTD_04",
+                "SO277 hasTask Station_15",
+                "Station_15 hasAction CTD_05",
+                "SO277 hasTask Station_19",
+                "Station_19 hasAction CTD_06",
+                "SO277 hasTask Station_67",
+                "Station_67 hasAction CTD_19"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M02",
-                "V02",
-                "G02",
-                "S02",
-                "T03",
-                "A02",
-                "T04"
+                "SO277",
+                "Station_06",
+                "CTD_02",
+                "Station_13",
+                "CTD_04",
+                "Station_15",
+                "CTD_05",
+                "Station_19",
+                "CTD_06",
+                "Station_67",
+                "CTD_19"
             ]
         }
     }

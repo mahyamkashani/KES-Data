@@ -1,0 +1,218 @@
+{
+    "Individuals": {
+        "POS379_2": {
+            "class": "Mission",
+            "MissionID": "POS379/2",
+            "startTime": "15.02.2009",
+            "endTime": "08.03.2009",
+            "maxDepth": "3500",
+            "dataVolume": "N/A",
+            "hasStatus": "N/A",
+            "remark": "Cruise Report for Mid-Atlantic-Researcher Ridge Volcanism"
+        },
+        "MT001": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3500
+        },
+        "MT002": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3000
+        },
+        "MT003": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3200
+        },
+        "MT004": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3200
+        },
+        "MT005": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4070
+        },
+        "MT006": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3600
+        },
+        "MT007": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2900
+        },
+        "MT008": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2500
+        },
+        "MT009": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2200
+        },
+        "MT010": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2500
+        },
+        "MT011": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2800
+        },
+        "MT012": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2600
+        },
+        "Rocket_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Rocket Seamount",
+            "latitude": "15\u00b047.03'N",
+            "longitude": "36\u00b013.61'W",
+            "seabedDepth": "3000 mbsl"
+        },
+        "Vayda_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Vayda Seamount",
+            "latitude": "14\u00b056.22'N",
+            "longitude": "48\u00b011.24'W",
+            "seabedDepth": "1642 mbsl"
+        },
+        "Molodezhnaya_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Molodezhnaya Seamount",
+            "latitude": "15\u00b001.56'N",
+            "longitude": "50\u00b015.60'W",
+            "seabedDepth": "3000 mbsl"
+        },
+        "Frodo_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Frodo Seamount",
+            "latitude": "15\u00b001.92'N",
+            "longitude": "49\u00b039.74'W",
+            "seabedDepth": "2481 mbsl"
+        },
+        "The_Shire_Seamount": {
+            "class": "Waypoint",
+            "locationName": "The Shire Seamount",
+            "latitude": "15\u00b000.30'N",
+            "longitude": "49\u00b035.06'W",
+            "seabedDepth": "2540 mbsl"
+        },
+        "Mount_Doom": {
+            "class": "Waypoint",
+            "locationName": "Mount Doom",
+            "latitude": "15\u00b040.47'N",
+            "longitude": "51\u00b029.47'W",
+            "seabedDepth": "2463 mbsl"
+        },
+        "DR1": {
+            "class": "Task",
+            "hasDuration": 3.55,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR2": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR3": {
+            "class": "Task",
+            "hasDuration": 2.85,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR4": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR5": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR6": {
+            "class": "Task",
+            "hasDuration": 3.43,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR10": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR11": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR12": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR13": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR14": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR15": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR16": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR17": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR18": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR19": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR20": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR21": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

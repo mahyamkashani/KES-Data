@@ -1,0 +1,39 @@
+{
+    "Individuals": {
+        "Dive 1426": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1427": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1428": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1429": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1430": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1431": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1432": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Camera",
+            "AXIOM": "R/V SONNE hasSensor OFOS"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "POSIDONIA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "USBL",
+            "AXIOM": "R/V SONNE hasSensor POSIDONIA"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "GI airgun"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V SONNE hasSensor GI airgun"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DTS-1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V SONNE hasSensor DTS-1"
+        }
+    ]
+}

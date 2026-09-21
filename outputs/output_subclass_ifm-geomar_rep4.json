@@ -1,0 +1,88 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV SONNE",
+                "hasDuration": "1 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD-4",
+                "hasDuration": "1 hour 26 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-10",
+                "hasDuration": "1 hour 3 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-11",
+                "hasDuration": "1 hour 47 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-12",
+                "hasDuration": "2 hours 49 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-18",
+                "hasDuration": "1 hour 17 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-19",
+                "hasDuration": "2 hours 13 minutes",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "TVG-6",
+                "hasDuration": "1 hour 53 minutes",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Clam field from OFOS-2"
+            },
+            {
+                "individual_name": "TVG-7",
+                "hasDuration": "2 hours 2 minutes",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Jiu Long Chemoherm"
+            },
+            {
+                "individual_name": "TVG-8",
+                "hasDuration": "1 hour 31 minutes",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Jiu Long Chemoherm"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "3000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "3000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Haiyang 4",
+                "stationID": "4",
+                "stationName": "Haiyang 4",
+                "stationDate": "June 2004",
+                "stationTime": "N/A"
+            }
+        ]
+    }
+}

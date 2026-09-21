@@ -1,0 +1,44 @@
+{
+    "Individuals": {
+        "P347": {
+            "class": "Mission",
+            "MissionID": "P347",
+            "startTime": "2007-01-18",
+            "endTime": "2007-02-05",
+            "maxDepth": "500",
+            "dataVolume": "N/A",
+            "hasStatus": "Completed",
+            "remark": "Mauritanian Upwelling and Mixing Process Study"
+        },
+        "Cruise_Report_P347": {
+            "class": "Station",
+            "stationID": "P347",
+            "stationDate": "18.01.2007 - 05.02.2007",
+            "stationTime": "9:00"
+        },
+        "MUMP1": {
+            "class": "Waypoint",
+            "island name": "Mauritania",
+            "latitude": "17\u00b059.65'N",
+            "longitude": "16\u00b032.00'W",
+            "seabedDepth": "386m"
+        },
+        "MUMP2": {
+            "class": "Waypoint",
+            "island name": "Mauritania",
+            "latitude": "18\u00b000.08'N",
+            "longitude": "16\u00b016.15'W",
+            "seabedDepth": "41m"
+        },
+        "Dive 1426": {
+            "class": "Task",
+            "hasDuration": 4.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 347": {
+            "class": "Task",
+            "hasDuration": 10.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

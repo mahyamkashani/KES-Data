@@ -1,0 +1,86 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "AL533_9-2",
+                "hasDuration": "10.2. 10:13",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "12 samples of volcanidastic material"
+            },
+            {
+                "individual_name": "AL533_13-2",
+                "hasDuration": "12.2. 16:11",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "2 rock samples"
+            },
+            {
+                "individual_name": "AL533_15-2",
+                "hasDuration": "13.2. 12:08",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "2 rock samples"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "ANTON",
+                "maxDepth": "500 m"
+            },
+            {
+                "individual_name": "LUISE",
+                "maxDepth": "500 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "JAGO",
+                "maxDepth": "400 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "FS ALKOR",
+                "maxDepth": "N/A"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 5-1",
+                "stationID": "5-1",
+                "stationName": "Panarea",
+                "stationDate": "08.02.2020",
+                "stationTime": "12:20"
+            },
+            {
+                "individual_name": "Station 11-1",
+                "stationID": "11-1",
+                "stationName": "Water Column Test",
+                "stationDate": "12.02.2020",
+                "stationTime": "12:04"
+            },
+            {
+                "individual_name": "Station 14-1",
+                "stationID": "14-1",
+                "stationName": "Deep dive ANTON and Test LUISE",
+                "stationDate": "13.02.2020",
+                "stationTime": "5:44"
+            },
+            {
+                "individual_name": "Station 17-1",
+                "stationID": "17-1",
+                "stationName": "Lipari Deep Dive",
+                "stationDate": "15.02.2020",
+                "stationTime": "07:20"
+            }
+        ]
+    }
+}

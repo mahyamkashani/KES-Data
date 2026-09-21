@@ -1,0 +1,124 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "ELAC Bottomchart Mk. II"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V POSEIDON hasSensor ELAC Bottomchart Mk. II"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "GI airgun"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V POSEIDON hasSensor GI airgun"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "CAT Meter #1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor CAT Meter #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "CAT Meter #3"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor CAT Meter #3"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "Tiltmeter"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor Tiltmeter"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_18"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_18"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_19"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_19"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_20"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_20"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_21"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_21"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_22"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_22"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_23"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_23"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "OBS_24"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V POSEIDON hasSensor OBS_24"
+        }
+    ]
+}

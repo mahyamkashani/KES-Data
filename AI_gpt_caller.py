@@ -14,18 +14,32 @@ def _load_key():
         return key
 
     env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
-    if os.path.exists(env_path):
+    commented = False
+    if not os.path.exists(env_path):
+        detail = "there is no .env file at %s" % env_path
+    else:
         with open(env_path) as fh:
             for line in fh:
                 line = line.strip()
-                if not line or line.startswith("#") or "=" not in line:
+                if not line or "=" not in line:
                     continue
-                name, _, value = line.partition("=")
-                if name.strip() in ("OPENAI_API_KEY", "OPENAI_KEY"):
-                    return value.strip().strip("'\"")
+                name, _, value = line.lstrip("#").partition("=")
+                if name.strip() not in ("OPENAI_API_KEY", "OPENAI_KEY"):
+                    continue
+                if line.startswith("#"):
+                    #the usual cause: the key line is still commented out
+                    commented = True
+                    continue
+                value = value.strip().strip("'\"")
+                if value:
+                    return value
+        if commented:
+            detail = "every key line in %s is commented out" % env_path
+        else:
+            detail = "%s has no OPENAI_API_KEY line with a value" % env_path
     raise RuntimeError(
-        "No API key found. Set OPENAI_API_KEY, or put OPENAI_KEY=... in a .env "
-        "file next to this module."
+        "No API key found: %s. Set OPENAI_API_KEY, or put OPENAI_KEY=... in a "
+        ".env file next to this module." % detail
     )
 
 
@@ -37,8 +51,7 @@ def _get_client():
 
 
 def get_gpt_response(prompt):
-    """Send a prompt to the chat model and return the response message.
-
+    """
     The returned object exposes `.content`, which is what the
     Extractor_* modules read.
     """

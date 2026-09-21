@@ -1,0 +1,4 @@
+You mention Jago as type Vehicle, Anton as type Vehicle, you also mention Domain of hasSensor is Vehicle and range is Sensor. Now if you added Jago hasSensor Anton - your ontology would infer that Anton is Also a Sensor as according to the definition, the range of hasSensor is always an individual of type Sensor. Which means, now Anton is both a Vehicle (as you added it as an individual of Vehicle) and a Sensor (from inference). To avoid this, you need to explicitly state that individuals of vehicle cannot be individuals of Sensor.
+ 
+You do that by going to class description of Vehicle - there you add in Disjoint with - Sensor class.
+ 

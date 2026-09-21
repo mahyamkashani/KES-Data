@@ -1,0 +1,154 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Acoustic Doppler current profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V Poseidon hasSensor Acoustic Doppler current profiler"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #226"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #226"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #227"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #227"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #228"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #228"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #236"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #236"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #238"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #238"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #240"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #240"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #241"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #241"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #242"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #242"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #243"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #243"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #244"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #244"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #246"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #246"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #247"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #247"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #249"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "R/V Poseidon hasTask Stat #249"
+        }
+    ]
+}

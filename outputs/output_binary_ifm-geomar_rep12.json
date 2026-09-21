@@ -3,42 +3,12 @@
         {
             "INDIVIDUAL": [
                 "FS Maria S. Merian",
-                "Sensor"
+                "EM120"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "FS Maria S. Merian hasSensor Sensor"
-        },
-        {
-            "INDIVIDUAL": [
-                "Mission MSM 04-2",
-                "FS Maria S. Merian"
-            ],
-            "OBJECT_PROPERTY": "usesVehicle",
-            "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "Mission MSM 04-2 usesVehicle FS Maria S. Merian"
-        },
-        {
-            "INDIVIDUAL": [
-                "Traversal",
-                "Waypoint"
-            ],
-            "OBJECT_PROPERTY": "hasDestination",
-            "DOMAIN": "Traversal",
-            "RANGE": "Waypoint",
-            "AXIOM": "Traversal hasDestination Waypoint"
-        },
-        {
-            "INDIVIDUAL": [
-                "Waypoint",
-                "TerrainArea"
-            ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint onTerrain TerrainArea"
+            "RANGE": "MBES",
+            "AXIOM": "FS Maria S. Merian hasSensor EM120"
         }
     ]
 }

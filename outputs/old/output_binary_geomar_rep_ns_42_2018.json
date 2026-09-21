@@ -1,0 +1,124 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV METEOR",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV METEOR hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV METEOR",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV METEOR hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV METEOR",
+                "PARASOUND"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Parasound",
+            "AXIOM": "RV METEOR hasSensor PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "RV METEOR"
+            ],
+            "OBJECT_PROPERTY": "operatedFromShip",
+            "DOMAIN": "Mission",
+            "RANGE": "Ship",
+            "AXIOM": "M143 operatedFromShip RV METEOR"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "M142"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "M143 usesVehicle M142"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Dive 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask Dive 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Dive 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M143 hasTask Dive 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M143 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M143 realisedByAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M143 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Act_AcquireDVLLock"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M143 realisedByAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "M143",
+                "Act_EstablishUSBLFix"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M143 realisedByAction Act_EstablishUSBLFix"
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "Individuals": {
+        "HYDROMAR_V": {
+            "class": "Mission",
+            "MissionID": "HYDROMAR V",
+            "startTime": "04.12.2007",
+            "endTime": "02.01.2008",
+            "maxDepth": "5300 m",
+            "dataVolume": "170 l",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report of R/V l\u2019Atalante"
+        },
+        "ATA01CTD": {
+            "class": "Station",
+            "stationID": "ATA01CTD",
+            "stationDate": "2007-12-16",
+            "stationTime": "09:29-10:55"
+        },
+        "ATA08MAPR": {
+            "class": "Station",
+            "stationID": "ATA08MAPR",
+            "stationDate": "2007-12-17",
+            "stationTime": "00:57-09:09"
+        },
+        "ATA09ROV": {
+            "class": "Task",
+            "hasDuration": 3.85,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA10CTD": {
+            "class": "Station",
+            "stationID": "ATA10CTD",
+            "stationDate": "2007-12-18",
+            "stationTime": "20:39-00:18"
+        },
+        "ATA12CTD": {
+            "class": "Station",
+            "stationID": "ATA12CTD",
+            "stationDate": "2007-12-18",
+            "stationTime": "07:03-09:11"
+        },
+        "ATA13ROV": {
+            "class": "Task",
+            "hasDuration": 3.27,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA14CTD": {
+            "class": "Station",
+            "stationID": "ATA14CTD",
+            "stationDate": "2007-12-20",
+            "stationTime": "21:37-09:00"
+        },
+        "ATA15ROV": {
+            "class": "Task",
+            "hasDuration": 6.49,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA17ROV": {
+            "class": "Task",
+            "hasDuration": 7.3,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA18CTD": {
+            "class": "State",
+            "has_Temperature": 400,
+            "has_Conductivity": null,
+            "has_Depth": 2200
+        },
+        "ATA21ROV": {
+            "class": "Task",
+            "hasDuration": 8.25,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA24ROV": {
+            "class": "Task",
+            "hasDuration": 9.03,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA25CTD": {
+            "class": "Station",
+            "stationID": "ATA25CTD",
+            "stationDate": "2007-12-23",
+            "stationTime": "23:55-02:40"
+        },
+        "ATA27ROV": {
+            "class": "Task",
+            "hasDuration": 9.2,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA28CTD": {
+            "class": "State",
+            "has_Temperature": 375,
+            "has_Conductivity": null,
+            "has_Depth": 2200
+        },
+        "ATA29CTD": {
+            "class": "Station",
+            "stationID": "ATA29CTD",
+            "stationDate": "2007-12-24",
+            "stationTime": "04:37-07:01"
+        },
+        "ATA30ROV": {
+            "class": "Task",
+            "hasDuration": 5.52,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Logatchev": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.30'N",
+            "longitude": "44\u00b058.80'W",
+            "seabedDepth": "1600m"
+        },
+        "Irina II": {
+            "class": "Waypoint",
+            "locationName": "Irina II",
+            "latitude": "14\u00b045.17'N",
+            "longitude": "44\u00b058.75'W",
+            "seabedDepth": "2928m"
+        },
+        "Quest": {
+            "class": "Waypoint",
+            "locationName": "Quest",
+            "latitude": "14\u00b045.19'N",
+            "longitude": "44\u00b058.77'W",
+            "seabedDepth": "3035m"
+        },
+        "Anna Louise": {
+            "class": "Waypoint",
+            "locationName": "Anna Louise",
+            "latitude": "14\u00b045.06'N",
+            "longitude": "44\u00b058.64'W",
+            "seabedDepth": "2938m"
+        },
+        "ATA19CTD": {
+            "class": "State",
+            "has_Temperature": 375,
+            "has_Conductivity": null,
+            "has_Depth": 2200
+        }
+    }
+}

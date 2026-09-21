@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 01"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 01"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBS 05"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBS 05"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBS 06"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBS 06"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192-1",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192-1 hasTask CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192-1",
+                "Magnetometer"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192-1 hasTask Magnetometer"
+        }
+    ]
+}

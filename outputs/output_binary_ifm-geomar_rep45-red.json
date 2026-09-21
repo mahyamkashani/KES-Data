@@ -1,0 +1,314 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "OBS 16"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Poseidon hasSensor OBS 16"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 3"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 3"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 4"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 4"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 5"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 5"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 6"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 6"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 7"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 7"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 8"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 8"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 9"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 9"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 10"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 10"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 11"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 11"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 12"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 12"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 13"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 13"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 14"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 14"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 15"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 15"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 16"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 16"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 17"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 17"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 18"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 18"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 19"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 19"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 20"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 20"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 21"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 21"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 22"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 22"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 23"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 23"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 24"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 24"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 25"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 25"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 26"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 26"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 27"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 27"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 28"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 28"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 29"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 29"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Maria S. Merian",
+                "OBS 30"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV Maria S. Merian hasSensor OBS 30"
+        }
+    ]
+}

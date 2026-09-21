@@ -1,0 +1,86 @@
+"""Populate the marine ontology A-box from extracted binary axioms.
+
+Reads marine_binary_axioms.json (produced by run_marine_binary.py) and asserts
+each axiom into marine_survey2.rdf using the KES Creator_* modules, writing the
+result to marine_survey2_populated.rdf. The source ontology is never modified.
+
+Usage:  python populate_ontology.py [axioms.json]
+"""
+import json
+import os
+import re
+import sys
+
+KES = "/home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data"
+sys.path.insert(0, KES)
+
+import ontology_importer
+import Creator_ontology_Individual_Creator as IndividualCreator
+import Creator_ontology_Property_Creator as PropertyCreator
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+SOURCE = os.path.join(HERE, "marine_survey2.rdf")
+TARGET = os.path.join(HERE, "marine_survey2_populated.rdf")
+AXIOMS = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "marine_binary_axioms.json")
+
+# Axioms judged incorrect on review; listed as "<individual1> <property> <individual2>".
+# The extraction asserted JAGO hasDevice ANTON/LUISE, but the cruise report describes
+# ANTON and LUISE as independent hover-AUVs, not devices carried by JAGO.
+# Add entries here to keep them out of the populated ontology.
+EXCLUDE = set()
+
+
+def sanitise(name):
+    """owlready2 resolves individuals via getattr, so names need to be identifiers."""
+    return re.sub(r"\W+", "_", name.strip()).strip("_")
+
+
+def main():
+    with open(AXIOMS) as fh:
+        axioms = json.load(fh)["ObjectPropertyAxiom"]
+
+    onto = ontology_importer.ontology_reader("file://" + SOURCE)
+    before = len(list(onto.individuals()))
+
+    created, asserted, skipped = [], [], []
+
+    for axiom in axioms:
+        subject_raw, object_raw = axiom["INDIVIDUAL"]
+        prop = axiom["OBJECT_PROPERTY"]
+
+        if f"{subject_raw} {prop} {object_raw}" in EXCLUDE:
+            skipped.append(axiom["AXIOM"])
+            continue
+
+        pairs = ((sanitise(subject_raw), axiom["DOMAIN"]), (sanitise(object_raw), axiom["RANGE"]))
+        for individual_name, class_name in pairs:
+            if getattr(onto, class_name, None) is None:
+                raise ValueError(f"class {class_name!r} not in ontology")
+            # Re-running must not duplicate individuals already asserted.
+            if getattr(onto, individual_name, None) is None:
+                IndividualCreator.createIndividual(onto, class_name, individual_name)
+                created.append(f"{individual_name} : {class_name}")
+
+        PropertyCreator.createObjPropertyForIndividual(
+            onto, prop, sanitise(subject_raw), sanitise(object_raw)
+        )
+        asserted.append(axiom["AXIOM"])
+
+    onto.save(file=TARGET, format="rdfxml")
+
+    print(f"individuals before: {before}  after: {len(list(onto.individuals()))}")
+    print(f"\ncreated {len(created)} individuals:")
+    for entry in created:
+        print(f"  + {entry}")
+    print(f"\nasserted {len(asserted)} axioms:")
+    for entry in asserted:
+        print(f"  + {entry}")
+    if skipped:
+        print(f"\nskipped {len(skipped)} excluded axioms:")
+        for entry in skipped:
+            print(f"  - {entry}")
+    print(f"\nwritten to {TARGET}")
+
+
+if __name__ == "__main__":
+    main()

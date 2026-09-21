@@ -1,0 +1,166 @@
+{
+    "Individuals": {
+        "Mission_01": {
+            "class": "Mission",
+            "MissionID": "MSM 03/2",
+            "startTime": "2006-11-08",
+            "endTime": "2006-11-30",
+            "maxDepth": "3045 m",
+            "dataVolume": "2.6 million data points",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for the Logatchev hydrothermal field"
+        },
+        "Station_926_RD": {
+            "class": "Mission",
+            "MissionID": "MSM 03/2",
+            "startTime": "2006-11-14",
+            "endTime": "2006-11-14",
+            "maxDepth": "1763 m",
+            "dataVolume": "1.0 m penetration, 25% recovery",
+            "hasStatus": "FAILED",
+            "remark": "Test of the Rockdrill in shallow water"
+        },
+        "Station_931_RD": {
+            "class": "Mission",
+            "MissionID": "MSM 03/2",
+            "startTime": "2006-11-15",
+            "endTime": "2006-11-15",
+            "maxDepth": "1762 m",
+            "dataVolume": "1.8 m penetration, 95% recovery",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Repetition of station 925"
+        },
+        "Station_954_RD": {
+            "class": "Mission",
+            "MissionID": "MSM 03/2",
+            "startTime": "2006-11-20",
+            "endTime": "2006-11-20",
+            "maxDepth": "2977 m",
+            "dataVolume": "6.1 m penetration, 20% recovery",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Drilling at site near Logatchev"
+        },
+        "Station_957_RD": {
+            "class": "Mission",
+            "MissionID": "MSM 03/2",
+            "startTime": "2006-11-22",
+            "endTime": "2006-11-22",
+            "maxDepth": "3045 m",
+            "dataVolume": "7.0 m penetration, 81% recovery",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Drilling at site near Logatchev"
+        },
+        "Station_926RD": {
+            "class": "Station",
+            "stationID": "926RD",
+            "stationDate": "14.11.2006",
+            "stationTime": "17:00"
+        },
+        "Station_931RD": {
+            "class": "Station",
+            "stationID": "931RD",
+            "stationDate": "15.11.2006",
+            "stationTime": "12:58"
+        },
+        "Station_959RD": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2997"
+        },
+        "Station_962RD": {
+            "class": "Station",
+            "stationID": "962RD",
+            "stationDate": "25.11.2006",
+            "stationTime": "06:22"
+        },
+        "Logatchev_1": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045'N",
+            "longitude": "44\u00b054.473'W",
+            "seabedDepth": "3000 m"
+        },
+        "Logatchev_2": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b040.501'N",
+            "longitude": "44\u00b054.497'W",
+            "seabedDepth": "1763 m"
+        },
+        "Logatchev_3": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b040.509'N",
+            "longitude": "44\u00b054.525'W",
+            "seabedDepth": "1762 m"
+        },
+        "Logatchev_4": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.112'N",
+            "longitude": "44\u00b058.703'W",
+            "seabedDepth": "2977 m"
+        },
+        "Logatchev_5": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.192'N",
+            "longitude": "44\u00b058.772'W",
+            "seabedDepth": "3016 m"
+        },
+        "Logatchev_6": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.220'N",
+            "longitude": "44\u00b058.818'W",
+            "seabedDepth": "3045 m"
+        },
+        "Logatchev_7": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.199'N",
+            "longitude": "44\u00b058.637'W",
+            "seabedDepth": "2997 m"
+        },
+        "Logatchev_8": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14\u00b045.114'N",
+            "longitude": "44\u00b058.713'W",
+            "seabedDepth": "2983 m"
+        },
+        "Dive 954RD": {
+            "class": "Task",
+            "hasDuration": 7.0,
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Dive 955RD": {
+            "class": "Task",
+            "hasDuration": 9.0,
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Dive 957RD": {
+            "class": "Task",
+            "hasDuration": 8.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 959RD": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_954RD": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2977"
+        },
+        "Station_957RD": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "3045"
+        }
+    }
+}

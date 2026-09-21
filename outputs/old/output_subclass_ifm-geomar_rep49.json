@@ -1,0 +1,25 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [
+            {
+                "individual_name": "North Alex MV",
+                "seabedDepth": "500 m"
+            },
+            {
+                "individual_name": "Giza MV",
+                "seabedDepth": "500 m"
+            }
+        ],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "WND-V Cruise",
+                "hasDuration": "10 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

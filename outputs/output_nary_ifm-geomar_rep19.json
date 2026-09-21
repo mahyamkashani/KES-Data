@@ -1,0 +1,21 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "IFM_GEOMAR_4 hasTask Cruise_Report_1",
+                "Cruise_Report_1 hasAction Deployment_1",
+                "Deployment_1 hasVehicle RV_LATALANTE",
+                "Deployment_1 hasDestination Waypoint_1",
+                "Waypoint_1 goes_through Waypoint_2"
+            ],
+            "Individuals": [
+                "IFM_GEOMAR_4",
+                "Cruise_Report_1",
+                "Deployment_1",
+                "RV_LATALANTE",
+                "Waypoint_1",
+                "Waypoint_2"
+            ]
+        }
+    }
+}

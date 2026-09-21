@@ -1,0 +1,45 @@
+{
+    "Individuals": {
+        "Cruise_AL374": {
+            "class": "Mission",
+            "MissionID": "AL374",
+            "startTime": "29.05.2011 10:00",
+            "endTime": "13.06.2011 17:00",
+            "maxDepth": "1000 m",
+            "imageCount": "multiple",
+            "dataVolume": "various",
+            "hasStatus": "completed",
+            "remark": "First cruise conducted in the framework of the EU project ECO2"
+        },
+        "Salt_Dome_Juist": {
+            "class": "Station",
+            "stationID": "SDJ",
+            "stationDate": "30.05.2011",
+            "stationTime": "19:00"
+        },
+        "Sleipner": {
+            "class": "Station",
+            "stationID": "SLE",
+            "stationDate": "02.06.2011",
+            "stationTime": "19:00"
+        },
+        "Well_22_4b": {
+            "class": "Station",
+            "stationID": "W22",
+            "stationDate": "06.06.2011",
+            "stationTime": "19:00"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "latitude": "57\u00b055'N",
+            "longitude": "01\u00b038'E",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "latitude": "58.3851\u00b0N",
+            "longitude": "21.9356\u00b0E",
+            "seabedDepth": "unknown"
+        }
+    }
+}

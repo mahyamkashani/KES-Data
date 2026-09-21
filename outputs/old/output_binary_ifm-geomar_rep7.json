@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "DTS-1 Deep Tow Sidescan-Sonar"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "R/V METEOR hasSensor DTS-1 Deep Tow Sidescan-Sonar"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise M67/1",
+                "R/V METEOR"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "Cruise M67/1 usesVehicle R/V METEOR"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise M67/1",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Cruise M67/1 hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint onTerrain TerrainArea"
+        }
+    ]
+}

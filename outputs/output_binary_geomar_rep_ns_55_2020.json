@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Imagenex 837B Delta T"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "JAGO hasSensor Imagenex 837B Delta T"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "CoraMo MK2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor CoraMo MK2"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "AL533"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV ALKOR hasMission AL533"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "AL533_16-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask AL533_16-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533_16-2",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "AL533_16-2 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533_16-2",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "AL533_16-2 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533_16-2",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "AL533_16-2 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV ANTON",
+                "AL533_16-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask AUV ANTON"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Seabeam 3050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV Poseidon hasSensor Seabeam 3050"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Video CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV Poseidon hasSensor Video CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Oktopus"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV Poseidon hasSensor Oktopus"
+        }
+    ]
+}

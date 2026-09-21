@@ -1,0 +1,269 @@
+{
+    "Individuals": {
+        "ROV_1": {
+            "class": "Mission",
+            "MissionID": "ROV_1",
+            "startTime": "2007-02-04T19:50:00Z",
+            "endTime": "2007-02-04T20:00:00Z",
+            "maxDepth": "1200",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Successful dive detecting methane seeps."
+        },
+        "CTD_1": {
+            "class": "Mission",
+            "MissionID": "CTD_1",
+            "startTime": "2007-02-05T02:03:00Z",
+            "endTime": "2007-02-05T03:07:00Z",
+            "maxDepth": "644",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Water column sampling yielded methane maximum near the seafloor."
+        },
+        "CTD_2": {
+            "class": "Mission",
+            "MissionID": "CTD_2",
+            "startTime": "2007-02-08T06:20:00Z",
+            "endTime": "2007-02-08T08:10:00Z",
+            "maxDepth": "1122",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "CTD profiling conducted at LM9."
+        },
+        "SO191/001-1": {
+            "class": "Station",
+            "stationID": "SO191/001-1",
+            "stationDate": "11.01.07",
+            "stationTime": "22:16"
+        },
+        "SO191/004-1": {
+            "class": "Station",
+            "stationID": "SO191/004-1",
+            "stationDate": "13.01.07",
+            "stationTime": "17:33"
+        },
+        "SO191/006-1": {
+            "class": "Station",
+            "stationID": "SO191/006-1",
+            "stationDate": "15.01.07",
+            "stationTime": "07:56"
+        },
+        "SO191/007-1": {
+            "class": "Station",
+            "stationID": "SO191/007-1",
+            "stationDate": "16.01.07",
+            "stationTime": "12:48"
+        },
+        "SO191/010-1": {
+            "class": "Station",
+            "stationID": "SO191/010-1",
+            "stationDate": "19.01.07",
+            "stationTime": "09:38"
+        },
+        "SO191/012-1": {
+            "class": "Station",
+            "stationID": "SO191/012-1",
+            "stationDate": "20.01.07",
+            "stationTime": "22:46"
+        },
+        "SO191/013-1": {
+            "class": "Station",
+            "stationID": "SO191/013-1",
+            "stationDate": "21.01.07",
+            "stationTime": "09:08"
+        },
+        "SO191/014-1": {
+            "class": "Station",
+            "stationID": "SO191/014-1",
+            "stationDate": "22.01.07",
+            "stationTime": "03:00"
+        },
+        "SO191/017-1": {
+            "class": "Station",
+            "stationID": "SO191/017-1",
+            "stationDate": "23.01.07",
+            "stationTime": "09:39"
+        },
+        "SO191/018-1": {
+            "class": "Station",
+            "stationID": "SO191/018-1",
+            "stationDate": "24.01.07",
+            "stationTime": "05:29"
+        },
+        "SO191/019-1": {
+            "class": "Station",
+            "stationID": "SO191/019-1",
+            "stationDate": "24.01.07",
+            "stationTime": "08:38"
+        },
+        "SO191/021-1": {
+            "class": "Station",
+            "stationID": "SO191/021-1",
+            "stationDate": "25.01.07",
+            "stationTime": "13:06"
+        },
+        "SO191/022-1": {
+            "class": "Station",
+            "stationID": "SO191/022-1",
+            "stationDate": "25.01.07",
+            "stationTime": "15:25"
+        },
+        "SO191/023-1": {
+            "class": "Station",
+            "stationID": "SO191/023-1",
+            "stationDate": "26.01.07",
+            "stationTime": "19:26"
+        },
+        "SO191/024-1": {
+            "class": "Station",
+            "stationID": "SO191/024-1",
+            "stationDate": "27.01.07",
+            "stationTime": "02:07"
+        },
+        "SO191/025-1": {
+            "class": "Station",
+            "stationID": "SO191/025-1",
+            "stationDate": "27.01.07",
+            "stationTime": "08:36"
+        },
+        "SO191/030-1": {
+            "class": "Station",
+            "stationID": "SO191/030-1",
+            "stationDate": "29.01.07",
+            "stationTime": "21:46"
+        },
+        "SO191/031-1": {
+            "class": "Station",
+            "stationID": "SO191/031-1",
+            "stationDate": "30.01.07",
+            "stationTime": "03:55"
+        },
+        "SO191/032-1": {
+            "class": "Station",
+            "stationID": "SO191/032-1",
+            "stationDate": "30.01.07",
+            "stationTime": "07:47"
+        },
+        "SO191/035-1": {
+            "class": "Station",
+            "stationID": "SO191/035-1",
+            "stationDate": "31.01.07",
+            "stationTime": "12:43"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "locationName": "Wairarapa",
+            "latitude": "-40.0168",
+            "longitude": "177.8740",
+            "seabedDepth": "1182.8"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "locationName": "LM-9",
+            "latitude": "40\u00b001.079'",
+            "longitude": "177\u00b051.573'",
+            "seabedDepth": "1059"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint",
+            "locationName": "Bear's Paw",
+            "latitude": "40\u00b003.214'",
+            "longitude": "177\u00b049.238'",
+            "seabedDepth": "1111"
+        },
+        "Waypoint_4": {
+            "class": "Waypoint",
+            "locationName": "Kaka",
+            "latitude": "40\u00b002.152'",
+            "longitude": "177\u00b048.047'",
+            "seabedDepth": "1160"
+        },
+        "Waypoint_5": {
+            "class": "Waypoint",
+            "locationName": "Moa",
+            "latitude": "40\u00b003.291'",
+            "longitude": "177\u00b048.643'",
+            "seabedDepth": "1124"
+        },
+        "Dive 206": {
+            "class": "Task",
+            "hasDuration": 4.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 207": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 208": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive 209": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 210": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Dive 211": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 212": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 213": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "PartialFAILURE"
+        },
+        "Dive 214": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 215": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_6": {
+            "class": "State",
+            "has_Temperature": "103.5",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1059"
+        },
+        "CTD_12": {
+            "class": "State",
+            "has_Temperature": "164.1",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1106"
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Temperature": "155.6",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1101"
+        },
+        "CTD_39": {
+            "class": "State",
+            "has_Temperature": "247.3",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "1092"
+        },
+        "CTD_36": {
+            "class": "State",
+            "has_Temperature": "728.6",
+            "has_Conductivity": "0.0003",
+            "has_Depth": "830"
+        }
+    }
+}

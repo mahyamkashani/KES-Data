@@ -1,0 +1,51 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD/Rosette Hydro-Bios Kiel",
+                "hasDuration": "4.2",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "JAGO Dive 923",
+                "hasDuration": "2",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Lophelia coral sample"
+            },
+            {
+                "individual_name": "JAGO Dive 928",
+                "hasDuration": "7",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Plankton with net"
+            },
+            {
+                "individual_name": "JAGO Dive 929",
+                "hasDuration": "8",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Corals"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "JAGO",
+                "maxDepth": "400 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV POSEIDON",
+                "maxDepth": "5 tons"
+            },
+            {
+                "individual_name": "RV ALKOR",
+                "maxDepth": "5 tons"
+            }
+        ]
+    }
+}

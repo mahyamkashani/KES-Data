@@ -1,0 +1,134 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "ELAC multi-beam system"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "R.V. Poseidon hasSensor ELAC multi-beam system"
+        },
+        {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "Rocket Seamount"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R.V. Poseidon usesVehicle Rocket Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR1"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR2"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR3"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR4"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR5"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR6"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR7"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR8"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR9"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR10"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/2",
+                "DR21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/2 hasTask DR21"
+        }
+    ]
+}

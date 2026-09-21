@@ -1,0 +1,46 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SurveyNavigation hasMission M143",
+                "M143 usesVehicle RV METEOR",
+                "M143 hasGoal gas emission quantification",
+                "M143 hasInitialCondition Scenario of gas hydrate distribution",
+                "M143 hasTask Bathymetric mapping",
+                "Bathymetric mapping realisedByAction data acquisition",
+                "Scenario of gas hydrate distribution hasScenarioTask gas flare imaging"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M143",
+                "RV METEOR",
+                "gas emission quantification",
+                "Scenario of gas hydrate distribution",
+                "Bathymetric mapping",
+                "data acquisition",
+                "gas flare imaging"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SurveyNavigation hasMission M143",
+                "M143 usesVehicle RV METEOR",
+                "M143 hasGoal gas emission quantification",
+                "M143 hasInitialCondition Scenario of gas hydrate distribution",
+                "M143 hasTask Bathymetric mapping",
+                "Bathymetric mapping realisedByAction data acquisition",
+                "Scenario of gas hydrate distribution hasScenarioTask gas flare imaging"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M143",
+                "RV METEOR",
+                "gas emission quantification",
+                "Scenario of gas hydrate distribution",
+                "Bathymetric mapping",
+                "data acquisition",
+                "gas flare imaging"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "Mission_hasTask Task_01",
+                "Task_01_hasAction Action_01",
+                "Traversal_hasVehicle Vehicle_S\u00dcDFALL"
+            ],
+            "Individuals": [
+                "Mission",
+                "Task_01",
+                "Action_01",
+                "Traversal",
+                "Vehicle_S\u00dcDFALL"
+            ]
+        }
+    }
+}

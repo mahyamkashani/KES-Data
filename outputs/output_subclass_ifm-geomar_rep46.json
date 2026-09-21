@@ -1,0 +1,45 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV Poseidon Cruise P408-1",
+                "hasDuration": "215 hours",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "RV Poseidon Cruise P408-3",
+                "hasDuration": "unknown",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "RV Poseidon",
+                "maxDepth": "3000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon",
+                "maxDepth": "3000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Atlantis II Station",
+                "stationID": "unknown",
+                "stationName": "Atlantis II",
+                "stationDate": "01 March 2011",
+                "stationTime": "01:30 am"
+            }
+        ]
+    }
+}

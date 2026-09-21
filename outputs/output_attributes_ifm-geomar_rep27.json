@@ -1,0 +1,101 @@
+{
+    "Individuals": {
+        "Cruise_64PE298": {
+            "class": "Mission",
+            "MissionID": "64PE298",
+            "startTime": "2008-11-06T07:00:00",
+            "endTime": "2008-11-23T21:30:00",
+            "maxDepth": "2000m",
+            "dataVolume": "7 CAT meters installed",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Third expedition of the West-Nile Delta project"
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "64PE298",
+            "stationDate": "2008-11-09",
+            "stationTime": "21:15"
+        },
+        "Station_2": {
+            "class": "Station",
+            "stationID": "64PE298",
+            "stationDate": "2008-11-10",
+            "stationTime": "17:41"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "64PE298",
+            "stationDate": "2008-11-18",
+            "stationTime": "07:53"
+        },
+        "North_Alex": {
+            "class": "Waypoint",
+            "locationName": "North Alex",
+            "latitude": "31:58.062",
+            "longitude": "30:08.083",
+            "seabedDepth": "1 m"
+        },
+        "Giza": {
+            "class": "Waypoint",
+            "locationName": "Giza",
+            "latitude": "31:40.492",
+            "longitude": "29:45.372",
+            "seabedDepth": "1 m"
+        },
+        "CAT_Meter_1": {
+            "class": "Waypoint",
+            "locationName": "CAT Meter #1",
+            "latitude": "31:58.188",
+            "longitude": "30:08.153",
+            "seabedDepth": "1 m"
+        },
+        "Temperature_1": {
+            "class": "Waypoint",
+            "locationName": "Temperature #1",
+            "latitude": "31:58.109",
+            "longitude": "30:08.167",
+            "seabedDepth": "5 m"
+        },
+        "OBS_7": {
+            "class": "Waypoint",
+            "locationName": "OBS #7",
+            "latitude": "31:58.552",
+            "longitude": "30:07.312",
+            "seabedDepth": "1.5 m"
+        },
+        "OBS_8": {
+            "class": "Waypoint",
+            "locationName": "OBS #8",
+            "latitude": "31:58.793",
+            "longitude": "30:08.765",
+            "seabedDepth": "1.5 m"
+        },
+        "Dive 1": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 2": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Dive 3": {
+            "class": "Task",
+            "hasDuration": "4.5",
+            "hasStatus": "FAILED"
+        },
+        "North_Alex_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "50",
+            "has_Conductivity": "unknown",
+            "has_Depth": "4"
+        },
+        "Giza_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "17",
+            "has_Conductivity": "unknown",
+            "has_Depth": "6"
+        }
+    }
+}

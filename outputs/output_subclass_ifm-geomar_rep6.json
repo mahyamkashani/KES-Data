@@ -1,0 +1,40 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "SO186-3-01",
+                "hasDuration": "4 days",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-3-02",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-3-03",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Station": []
+    }
+}

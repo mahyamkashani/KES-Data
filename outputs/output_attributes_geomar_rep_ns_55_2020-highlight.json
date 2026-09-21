@@ -1,32 +1,155 @@
 {
     "Individuals": {
-        "Mission_AL533": {
-            "class": "Mission",
-            "MissionID": "AL533",
-            "startTime": "2020-02-05",
-            "endTime": "2020-02-18",
-            "maxDepth": "500",
-            "imageCount": "100000",
-            "dataVolume": "795 nm",
-            "hasStatus": "Completed",
-            "remark": "Mutual Field Trials of the Manned Submersible JAGO and the Hover-AUVs ANTON and LUISE"
+        "JAGO": {
+            "class": "State",
+            "has_Temperature": "15.0647",
+            "has_Conductivity": "4.61967",
+            "has_Depth": "310"
+        },
+        "ANTON": {
+            "class": "State",
+            "has_Temperature": "15.0647",
+            "has_Conductivity": "4.61967",
+            "has_Depth": "500"
         },
         "Station_1": {
             "class": "Station",
-            "stationID": "1",
-            "stationDate": "2020-02-05",
-            "stationTime": "10:40"
+            "stationID": "AL533_1-1",
+            "stationDate": "07.02.2020",
+            "stationTime": "11:29"
         },
-        "Waypoint_1": {
+        "Station_2": {
+            "class": "Station",
+            "stationID": "AL533_2-1",
+            "stationDate": "07.02.2020",
+            "stationTime": "11:49"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "AL533_3-1",
+            "stationDate": "07.02.2020",
+            "stationTime": "13:02"
+        },
+        "Station_4": {
+            "class": "Station",
+            "stationID": "AL533_9-2",
+            "stationDate": "10.02.2020",
+            "stationTime": "10:13"
+        },
+        "Station_5": {
+            "class": "Station",
+            "stationID": "AL533_10-1",
+            "stationDate": "10.02.2020",
+            "stationTime": "12:34"
+        },
+        "Station_6": {
+            "class": "Station",
+            "stationID": "AL533_11-1",
+            "stationDate": "12.02.2020",
+            "stationTime": "09:14"
+        },
+        "Station_7": {
+            "class": "Station",
+            "stationID": "AL533_12-1",
+            "stationDate": "12.02.2020",
+            "stationTime": "12:06"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "AL533_15-2",
+            "stationDate": "13.02.2020",
+            "stationTime": "12:08"
+        },
+        "Station_9": {
+            "class": "Station",
+            "stationID": "AL533_16-2",
+            "stationDate": "14.02.2020",
+            "stationTime": "05:22"
+        },
+        "Waypoint_01": {
             "class": "Waypoint",
+            "locationName": "Baia di Levante between Punta Roja and Punta Luccia of Vulcano island",
             "latitude": "38\u00b024.70'N",
             "longitude": "14\u00b058.56'E",
-            "seabedDepth": "310"
+            "seabedDepth": "unknown"
         },
-        "Task_1": {
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "off the east coast of Lipari Island",
+            "latitude": "38\u00b026.45'N",
+            "longitude": "14\u00b058.12'E",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_03": {
+            "class": "Waypoint",
+            "locationName": "off Panarea island",
+            "latitude": "38\u00b038.62'N",
+            "longitude": "15\u00b005.18'E",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_04": {
+            "class": "Waypoint",
+            "locationName": "off the Sciara del Fuoco, the northwest slope of the active Stromboli volcano",
+            "latitude": "38\u00b048.19'N",
+            "longitude": "15\u00b012.15'E",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_05": {
+            "class": "Waypoint",
+            "locationName": "Vulcano, La Fossa Caldera, Punta Roia lava flow",
+            "latitude": "38\u00b024.71'",
+            "longitude": "14\u00b058.70'",
+            "seabedDepth": "204 m"
+        },
+        "Waypoint_06": {
+            "class": "Waypoint",
+            "locationName": "Vulcano, La Fossa Caldera, Punte Nere lava flows",
+            "latitude": "38\u00b024.75'",
+            "longitude": "14\u00b058.50'",
+            "seabedDepth": "145 m"
+        },
+        "Waypoint_07": {
+            "class": "Waypoint",
+            "locationName": "Pillow lava field between Vulcanello and Lipari",
+            "latitude": "38\u00b026.45'",
+            "longitude": "14\u00b058.12'",
+            "seabedDepth": "288 m"
+        },
+        "Dive_1426": {
             "class": "Task",
-            "hasDuration": "11.5 days",
-            "hasStatus": "Completed"
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive_1427": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1428": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1429": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1430": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1431": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "LUISE": {
+            "class": "State",
+            "has_Temperature": "15.0647",
+            "has_Conductivity": "4.61967",
+            "has_Depth": "500"
         }
     }
 }

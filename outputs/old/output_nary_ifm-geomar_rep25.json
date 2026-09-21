@@ -1,0 +1,46 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SurveyNavigation hasMission M01",
+                "M01 usesVehicle RV_SONNE",
+                "M01 hasGoal G01",
+                "M01 hasInitialCondition SC01",
+                "M01 hasTask T01",
+                "T01 realisedByAction A01",
+                "SC01 hasScenarioTask T02"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M01",
+                "RV_SONNE",
+                "G01",
+                "SC01",
+                "T01",
+                "A01",
+                "T02"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SurveyNavigation hasMission M02",
+                "M02 usesVehicle RV_SONNE",
+                "M02 hasGoal G02",
+                "M02 hasInitialCondition SC02",
+                "M02 hasTask T03",
+                "T03 realisedByAction A02",
+                "SC02 hasScenarioTask T04"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "M02",
+                "RV_SONNE",
+                "G02",
+                "SC02",
+                "T03",
+                "A02",
+                "T04"
+            ]
+        }
+    }
+}

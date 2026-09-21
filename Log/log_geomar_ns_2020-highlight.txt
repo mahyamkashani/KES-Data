@@ -1,0 +1,13 @@
+skipped 12 excluded axioms:
+  - RV ALKOR deploysVehicle JAGO   [object property 'deploysVehicle' not in ontology]
+  - RV ALKOR deploysVehicle ANTON   [object property 'deploysVehicle' not in ontology]
+  - AL533 operatedFromShip RV ALKOR   [object property 'operatedFromShip' not in ontology]
+  - SurveyNavigation hasMission M1   [hasMission has no declared domain/range to type from]
+  - M1 hasInitialCondition CalmSea   [hasInitialCondition has no declared domain/range to type from]
+  - CalmSea hasScenarioTask WeatherCheck   [hasScenarioTask has no declared domain/range to type from]
+  - SurveyNavigation hasMission M2   [hasMission has no declared domain/range to type from]
+  - M2 hasInitialCondition RoughSea   [hasInitialCondition has no declared domain/range to type from]
+  - RoughSea hasScenarioTask SafetyCheck   [hasScenarioTask has no declared domain/range to type from]
+  - SurveyNavigation hasMission M3   [hasMission has no declared domain/range to type from]
+  - M3 hasInitialCondition NightDive   [hasInitialCondition has no declared domain/range to type from]
+  - NightDive hasScenarioTask LightAdjustment   [hasScenarioTask has no declared domain/range to type from]

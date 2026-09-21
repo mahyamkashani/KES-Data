@@ -1,0 +1,83 @@
+{
+    "Individuals": {
+        "Expedition_Report_Glider_Fleet": {
+            "class": "Mission",
+            "MissionID": "Glider fleet",
+            "startTime": "05.03.2010",
+            "endTime": "19.03.2010",
+            "maxDepth": "700 m",
+            "dataVolume": "6 gliders",
+            "hasStatus": "Completed",
+            "remark": "Expedition conducted in Cape Verde"
+        },
+        "IFM06": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.79",
+            "longitude": "25\u00b006.41",
+            "seabedDepth": "700 m"
+        },
+        "IFM03": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.32",
+            "longitude": "25\u00b005.49",
+            "seabedDepth": "700 m"
+        },
+        "IFM07": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.61",
+            "longitude": "25\u00b007.13",
+            "seabedDepth": "700 m"
+        },
+        "IFM09": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.46",
+            "longitude": "25\u00b006.05",
+            "seabedDepth": "700 m"
+        },
+        "IFM10": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.83",
+            "longitude": "25\u00b007.03",
+            "seabedDepth": "700 m"
+        },
+        "IFM11": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.42",
+            "longitude": "25\u00b008.34",
+            "seabedDepth": "700 m"
+        },
+        "Mindelo": {
+            "class": "Waypoint",
+            "island name": "S\u00e3o Vicente",
+            "latitude": "16\u00b046.79",
+            "longitude": "25\u00b006.41",
+            "seabedDepth": "700 m"
+        },
+        "Dive 1426": {
+            "class": "Task",
+            "hasDuration": "4.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1427": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 1428": {
+            "class": "Task",
+            "hasDuration": "3.0",
+            "hasStatus": "FAILED"
+        },
+        "Dive 1429": {
+            "class": "Task",
+            "hasDuration": "2.5",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

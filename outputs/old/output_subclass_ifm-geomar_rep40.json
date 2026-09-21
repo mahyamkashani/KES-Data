@@ -1,0 +1,41 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": [
+            {
+                "individual_name": "IFM06",
+                "seabedDepth": "700 m"
+            },
+            {
+                "individual_name": "IFM03",
+                "seabedDepth": "700 m"
+            },
+            {
+                "individual_name": "IFM09",
+                "seabedDepth": "700 m"
+            },
+            {
+                "individual_name": "IFM07",
+                "seabedDepth": "700 m"
+            },
+            {
+                "individual_name": "IFM10",
+                "seabedDepth": "700 m"
+            },
+            {
+                "individual_name": "IFM11",
+                "seabedDepth": "700 m"
+            }
+        ]
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "Expedition Report",
+                "hasDuration": "22 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

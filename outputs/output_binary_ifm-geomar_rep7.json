@@ -3,42 +3,52 @@
         {
             "INDIVIDUAL": [
                 "R/V METEOR",
-                "DTS-1 Deep Tow Sidescan-Sonar"
+                "DTS-1"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "R/V METEOR hasSensor DTS-1 Deep Tow Sidescan-Sonar"
+            "RANGE": "Sonar",
+            "AXIOM": "R/V METEOR hasSensor DTS-1"
         },
         {
             "INDIVIDUAL": [
-                "Cruise M67/1",
-                "R/V METEOR"
+                "R/V METEOR",
+                "EM120"
             ],
-            "OBJECT_PROPERTY": "usesVehicle",
-            "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "Cruise M67/1 usesVehicle R/V METEOR"
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor EM120"
         },
         {
             "INDIVIDUAL": [
-                "Cruise M67/1",
-                "Waypoint"
+                "R/V METEOR",
+                "EM710"
             ],
-            "OBJECT_PROPERTY": "hasDestination",
-            "DOMAIN": "Traversal",
-            "RANGE": "Waypoint",
-            "AXIOM": "Cruise M67/1 hasDestination Waypoint"
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V METEOR hasSensor EM710"
         },
         {
             "INDIVIDUAL": [
-                "Waypoint",
-                "TerrainArea"
+                "R/V METEOR",
+                "ATLAS PARASOUND"
             ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint onTerrain TerrainArea"
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor ATLAS PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "POSIDONIA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V METEOR hasSensor POSIDONIA"
         }
     ]
 }

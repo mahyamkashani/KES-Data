@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ALKOR",
+                "Sensor"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sensor",
+            "AXIOM": "ALKOR hasSensor Sensor"
+        },
+        {
+            "INDIVIDUAL": [
+                "ECO2",
+                "ALKOR"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "ECO2 usesVehicle ALKOR"
+        },
+        {
+            "INDIVIDUAL": [
+                "ALKOR",
+                "Waypoint"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "ALKOR hasDestination Waypoint"
+        },
+        {
+            "INDIVIDUAL": [
+                "Waypoint",
+                "TerrainArea"
+            ],
+            "OBJECT_PROPERTY": "onTerrain",
+            "DOMAIN": "Waypoint",
+            "RANGE": "TerrainArea",
+            "AXIOM": "Waypoint onTerrain TerrainArea"
+        }
+    ]
+}

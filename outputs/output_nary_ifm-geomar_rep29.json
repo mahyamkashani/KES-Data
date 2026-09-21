@@ -1,0 +1,49 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "MARRVi hasTask Task_01",
+                "Task_01 hasAction Action_01",
+                "Action_01 hasVehicle RV_POSEIDON",
+                "Action_01 hasDestination Rocket_Seamount"
+            ],
+            "Individuals": [
+                "MARRVi",
+                "Task_01",
+                "Action_01",
+                "RV_POSEIDON",
+                "Rocket_Seamount"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "MARRVi hasTask Task_02",
+                "Task_02 hasAction Action_02",
+                "Action_02 hasVehicle RV_POSEIDON",
+                "Action_02 hasDestination Vayda_Seamount"
+            ],
+            "Individuals": [
+                "MARRVi",
+                "Task_02",
+                "Action_02",
+                "RV_POSEIDON",
+                "Vayda_Seamount"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "MARRVi hasTask Task_03",
+                "Task_03 hasAction Action_03",
+                "Action_03 hasVehicle RV_POSEIDON",
+                "Action_03 hasDestination Frodo_Seamount"
+            ],
+            "Individuals": [
+                "MARRVi",
+                "Task_03",
+                "Action_03",
+                "RV_POSEIDON",
+                "Frodo_Seamount"
+            ]
+        }
+    }
+}

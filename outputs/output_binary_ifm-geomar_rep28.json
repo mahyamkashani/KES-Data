@@ -1,0 +1,154 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R.V. Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR1"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR2"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR3"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR4"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR5"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR6"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR7"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR8"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR9"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR10"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR11"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR12"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR13"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR14"
+        }
+    ]
+}

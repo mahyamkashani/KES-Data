@@ -1,0 +1,41 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": [
+            {
+                "individual_name": "PIES123",
+                "seabedDepth": "4959.4"
+            },
+            {
+                "individual_name": "PIES128",
+                "seabedDepth": "unknown"
+            },
+            {
+                "individual_name": "PIES127",
+                "seabedDepth": "unknown"
+            },
+            {
+                "individual_name": "PIES165",
+                "seabedDepth": "unknown"
+            },
+            {
+                "individual_name": "PIES005",
+                "seabedDepth": "unknown"
+            },
+            {
+                "individual_name": "PIES012",
+                "seabedDepth": "unknown"
+            }
+        ]
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "Cruise MSM04/1",
+                "hasDuration": "19 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

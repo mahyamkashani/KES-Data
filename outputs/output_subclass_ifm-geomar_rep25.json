@@ -1,25 +1,33 @@
 {
-    "Waypoint": {
-        "BottomLockSite": [],
-        "NavFixSite": [],
-        "UnconstrainedSite": [
+    "Task": {
+        "Bathymetric_Mission": [
             {
-                "individual_name": "Christmas Island Seamount Province",
-                "seabedDepth": "unknown"
-            },
+                "individual_name": "SO199",
+                "hasDuration": "August 3rd, 2008 to September 21st, 2008",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
             {
-                "individual_name": "Investigator Ridge",
-                "seabedDepth": "unknown"
+                "individual_name": "SO199",
+                "hasDuration": "August 3rd, 2008 to September 21st, 2008",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "70 dredges, 13 TV grabs, and nine multi corers"
             }
         ]
     },
-    "Task": {
-        "LongTask": [
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
             {
-                "individual_name": "SO199 CHRISP",
-                "hasDuration": "02.08.2008 - 22.09.2008",
-                "hasStatus": "completed"
+                "individual_name": "R/V SONNE",
+                "maxDepth": "3901 m"
             }
-        ]
+        ],
+        "Station": []
     }
 }

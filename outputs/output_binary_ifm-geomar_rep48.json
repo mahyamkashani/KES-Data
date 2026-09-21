@@ -3,42 +3,22 @@
         {
             "INDIVIDUAL": [
                 "R/V Poseidon",
-                "Sensor"
+                "CTD"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "R/V Poseidon hasSensor Sensor"
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor CTD"
         },
         {
             "INDIVIDUAL": [
-                "P399/2",
-                "R/V Poseidon"
-            ],
-            "OBJECT_PROPERTY": "usesVehicle",
-            "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "P399/2 usesVehicle R/V Poseidon"
-        },
-        {
-            "INDIVIDUAL": [
-                "P399/2",
-                "Waypoint"
+                "P399",
+                "ESTOC"
             ],
             "OBJECT_PROPERTY": "hasDestination",
             "DOMAIN": "Traversal",
             "RANGE": "Waypoint",
-            "AXIOM": "P399/2 hasDestination Waypoint"
-        },
-        {
-            "INDIVIDUAL": [
-                "Waypoint",
-                "TerrainArea"
-            ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint onTerrain TerrainArea"
+            "AXIOM": "P399 hasDestination ESTOC"
         }
     ]
 }

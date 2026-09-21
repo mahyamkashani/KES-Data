@@ -1,0 +1,46 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE",
+                "maxDepth": "up to 11000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "OBS_01",
+                "stationID": "OBS_01",
+                "stationName": "Omakere",
+                "stationDate": "12.03.11",
+                "stationTime": "N/A"
+            },
+            {
+                "individual_name": "OBS_02",
+                "stationID": "OBS_02",
+                "stationName": "Porangahau",
+                "stationDate": "20.03.11",
+                "stationTime": "N/A"
+            },
+            {
+                "individual_name": "OBS_01",
+                "stationID": "OBS_01",
+                "stationName": "Wairarapa",
+                "stationDate": "28.03.11",
+                "stationTime": "N/A"
+            }
+        ]
+    }
+}

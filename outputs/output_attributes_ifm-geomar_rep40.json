@@ -1,0 +1,146 @@
+{
+    "Individuals": {
+        "Mission_01": {
+            "class": "Mission",
+            "MissionID": "Glider fleet",
+            "startTime": "05.03.2010",
+            "endTime": "19.03.2010",
+            "maxDepth": "700 m",
+            "dataVolume": "Not specified",
+            "hasStatus": "Completed",
+            "remark": "Expedition conducted in Cape Verde"
+        },
+        "Mission_02": {
+            "class": "Mission",
+            "MissionID": "IFM 06",
+            "startTime": "11.03.2010",
+            "endTime": "11.03.2010",
+            "maxDepth": "200 m",
+            "dataVolume": "Not specified",
+            "hasStatus": "Deployed",
+            "remark": "First launch of IFM 06"
+        },
+        "Mission_03": {
+            "class": "Mission",
+            "MissionID": "IFM 03",
+            "startTime": "15.03.2010",
+            "endTime": "15.03.2010",
+            "maxDepth": "Not specified",
+            "dataVolume": "Not specified",
+            "hasStatus": "Deployed",
+            "remark": "Second launch of IFM 03"
+        },
+        "Mission_04": {
+            "class": "Mission",
+            "MissionID": "IFM 09",
+            "startTime": "15.03.2010",
+            "endTime": "15.03.2010",
+            "maxDepth": "Not specified",
+            "dataVolume": "Not specified",
+            "hasStatus": "Deployed",
+            "remark": "Second launch of IFM 09"
+        },
+        "Mission_05": {
+            "class": "Mission",
+            "MissionID": "IFM 07",
+            "startTime": "16.03.2010",
+            "endTime": "16.03.2010",
+            "maxDepth": "Not specified",
+            "dataVolume": "Not specified",
+            "hasStatus": "Re-deployed",
+            "remark": "Re-deployed after adjustments"
+        },
+        "Mission_06": {
+            "class": "Mission",
+            "MissionID": "IFM 06 Recovery",
+            "startTime": "16.03.2010",
+            "endTime": "16.03.2010",
+            "maxDepth": "Not specified",
+            "dataVolume": "Not specified",
+            "hasStatus": "Recovered",
+            "remark": "Recovered due to leakage detection"
+        },
+        "IFM03": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.32'",
+            "longitude": "25\u00b005.49'",
+            "seabedDepth": "700 m"
+        },
+        "IFM06": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.79'",
+            "longitude": "25\u00b006.41'",
+            "seabedDepth": "700 m"
+        },
+        "IFM07": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.61'",
+            "longitude": "25\u00b007.13'",
+            "seabedDepth": "700 m"
+        },
+        "IFM09": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.46'",
+            "longitude": "25\u00b006.05'",
+            "seabedDepth": "700 m"
+        },
+        "IFM10": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.83'",
+            "longitude": "25\u00b007.03'",
+            "seabedDepth": "700 m"
+        },
+        "IFM11": {
+            "class": "Waypoint",
+            "island name": "Sao Vicente",
+            "latitude": "16\u00b046.42'",
+            "longitude": "25\u00b008.34'",
+            "seabedDepth": "700 m"
+        },
+        "Dive 06": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 03": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 09": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 07": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive 10": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 11": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 03 (2nd launch)": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        },
+        "Dive 09 (2nd launch)": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "FAILED"
+        }
+    }
+}

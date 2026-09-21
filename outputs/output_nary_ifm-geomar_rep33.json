@@ -1,0 +1,82 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO203 hasTask Dive_012",
+                "Dive_012 goes_through DR_11",
+                "Dive_012 goes_through DR_12",
+                "Dive_012 goes_through DR_13",
+                "Dive_012 goes_through DR_14",
+                "Dive_012 goes_through DR_15",
+                "Dive_012 goes_through DR_16",
+                "Dive_012 goes_through DR_17",
+                "Dive_012 goes_through DR_18",
+                "Dive_012 goes_through DR_19",
+                "Dive_012 goes_through DR_20"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_012",
+                "DR_11",
+                "DR_12",
+                "DR_13",
+                "DR_14",
+                "DR_15",
+                "DR_16",
+                "DR_17",
+                "DR_18",
+                "DR_19",
+                "DR_20"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO203 hasTask Dive_013",
+                "Dive_013 goes_through DR_21",
+                "Dive_013 goes_through DR_22",
+                "Dive_013 goes_through DR_23",
+                "Dive_013 goes_through DR_24",
+                "Dive_013 goes_through DR_25",
+                "Dive_013 goes_through DR_26",
+                "Dive_013 goes_through DR_27",
+                "Dive_013 goes_through DR_28",
+                "Dive_013 goes_through DR_29",
+                "Dive_013 goes_through DR_30",
+                "Dive_013 goes_through DR_31",
+                "Dive_013 goes_through DR_32",
+                "Dive_013 goes_through DR_33",
+                "Dive_013 goes_through DR_34",
+                "Dive_013 goes_through DR_35",
+                "Dive_013 goes_through DR_36",
+                "Dive_013 goes_through DR_37",
+                "Dive_013 goes_through DR_38",
+                "Dive_013 goes_through DR_39",
+                "Dive_013 goes_through DR_40"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_013",
+                "DR_21",
+                "DR_22",
+                "DR_23",
+                "DR_24",
+                "DR_25",
+                "DR_26",
+                "DR_27",
+                "DR_28",
+                "DR_29",
+                "DR_30",
+                "DR_31",
+                "DR_32",
+                "DR_33",
+                "DR_34",
+                "DR_35",
+                "DR_36",
+                "DR_37",
+                "DR_38",
+                "DR_39",
+                "DR_40"
+            ]
+        }
+    }
+}

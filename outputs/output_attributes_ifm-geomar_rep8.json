@@ -1,0 +1,875 @@
+{
+    "Individuals": {
+        "OBH 154": {
+            "class": "Station",
+            "stationID": "OBH 154",
+            "stationDate": "07.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 155": {
+            "class": "Station",
+            "stationID": "OBH 155",
+            "stationDate": "07.12.06",
+            "stationTime": "09:00"
+        },
+        "OBH 156": {
+            "class": "Station",
+            "stationID": "OBH 156",
+            "stationDate": "07.12.06",
+            "stationTime": "20:00"
+        },
+        "OBH 157": {
+            "class": "Station",
+            "stationID": "OBH 157",
+            "stationDate": "07.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 158": {
+            "class": "Station",
+            "stationID": "OBS 158",
+            "stationDate": "07.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 159": {
+            "class": "Station",
+            "stationID": "OBS 159",
+            "stationDate": "07.12.06",
+            "stationTime": "10:00"
+        },
+        "OBH 181": {
+            "class": "Station",
+            "stationID": "OBH 181",
+            "stationDate": "07.12.06",
+            "stationTime": "11:00"
+        },
+        "OBH 182": {
+            "class": "Station",
+            "stationID": "OBH 182",
+            "stationDate": "07.12.06",
+            "stationTime": "02:00"
+        },
+        "OBH 183": {
+            "class": "Station",
+            "stationID": "OBH 183",
+            "stationDate": "07.12.06",
+            "stationTime": "12:00"
+        },
+        "OBH 184": {
+            "class": "Station",
+            "stationID": "OBH 184",
+            "stationDate": "09.12.06",
+            "stationTime": "05:00"
+        },
+        "OBH 185": {
+            "class": "Station",
+            "stationID": "OBH 185",
+            "stationDate": "09.12.06",
+            "stationTime": "08:00"
+        },
+        "OBH 186": {
+            "class": "Station",
+            "stationID": "OBH 186",
+            "stationDate": "09.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 01": {
+            "class": "Station",
+            "stationID": "OBH 01",
+            "stationDate": "14.11.06",
+            "stationTime": "00:00"
+        },
+        "OBH 02": {
+            "class": "Station",
+            "stationID": "OBH 02",
+            "stationDate": "14.11.06",
+            "stationTime": "05:00"
+        },
+        "OBH 03": {
+            "class": "Station",
+            "stationID": "OBH 03",
+            "stationDate": "14.11.06",
+            "stationTime": "02:00"
+        },
+        "OBH 04": {
+            "class": "Station",
+            "stationID": "OBH 04",
+            "stationDate": "14.11.06",
+            "stationTime": "04:00"
+        },
+        "OBH 05": {
+            "class": "Station",
+            "stationID": "OBH 05",
+            "stationDate": "14.11.06",
+            "stationTime": "08:00"
+        },
+        "OBH 06": {
+            "class": "Station",
+            "stationID": "OBH 06",
+            "stationDate": "14.11.06",
+            "stationTime": "00:00"
+        },
+        "OBH 07": {
+            "class": "Station",
+            "stationID": "OBH 07",
+            "stationDate": "14.11.06",
+            "stationTime": "05:00"
+        },
+        "OBH 200": {
+            "class": "Station",
+            "stationID": "OBH 200",
+            "stationDate": "12.12.06",
+            "stationTime": "02:00"
+        },
+        "OBH 201": {
+            "class": "Station",
+            "stationID": "OBH 201",
+            "stationDate": "12.12.06",
+            "stationTime": "10:00"
+        },
+        "OBH 202": {
+            "class": "Station",
+            "stationID": "OBH 202",
+            "stationDate": "12.12.06",
+            "stationTime": "05:00"
+        },
+        "OBH 203": {
+            "class": "Station",
+            "stationID": "OBH 203",
+            "stationDate": "12.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 204": {
+            "class": "Station",
+            "stationID": "OBH 204",
+            "stationDate": "12.12.06",
+            "stationTime": "08:00"
+        },
+        "OBH 205": {
+            "class": "Station",
+            "stationID": "OBH 205",
+            "stationDate": "12.12.06",
+            "stationTime": "05:00"
+        },
+        "OBH 219": {
+            "class": "Station",
+            "stationID": "OBH 219",
+            "stationDate": "12.12.06",
+            "stationTime": "01:00"
+        },
+        "OBH 220": {
+            "class": "Station",
+            "stationID": "OBH 220",
+            "stationDate": "12.12.06",
+            "stationTime": "12:00"
+        },
+        "OBH 221": {
+            "class": "Station",
+            "stationID": "OBH 221",
+            "stationDate": "12.12.06",
+            "stationTime": "02:00"
+        },
+        "OBS 222": {
+            "class": "Station",
+            "stationID": "OBS 222",
+            "stationDate": "12.12.06",
+            "stationTime": "07:00"
+        },
+        "OBS 223": {
+            "class": "Station",
+            "stationID": "OBS 223",
+            "stationDate": "12.12.06",
+            "stationTime": "15:00"
+        },
+        "OBS 224": {
+            "class": "Station",
+            "stationID": "OBS 224",
+            "stationDate": "12.12.06",
+            "stationTime": "07:00"
+        },
+        "OBS 225": {
+            "class": "Station",
+            "stationID": "OBS 225",
+            "stationDate": "12.12.06",
+            "stationTime": "19:00"
+        },
+        "OBS 226": {
+            "class": "Station",
+            "stationID": "OBS 226",
+            "stationDate": "12.12.06",
+            "stationTime": "16:00"
+        },
+        "OBS 227": {
+            "class": "Station",
+            "stationID": "OBS 227",
+            "stationDate": "12.12.06",
+            "stationTime": "14:00"
+        },
+        "OBS 228": {
+            "class": "Station",
+            "stationID": "OBS 228",
+            "stationDate": "12.12.06",
+            "stationTime": "06:00"
+        },
+        "OBS 229": {
+            "class": "Station",
+            "stationID": "OBS 229",
+            "stationDate": "12.12.06",
+            "stationTime": "18:00"
+        },
+        "OBS 22": {
+            "class": "Station",
+            "stationID": "OBS 22",
+            "stationDate": "17.11.06",
+            "stationTime": "07:00"
+        },
+        "OBH 23": {
+            "class": "Station",
+            "stationID": "OBH 23",
+            "stationDate": "17.11.06",
+            "stationTime": "16:00"
+        },
+        "OBS 24": {
+            "class": "Station",
+            "stationID": "OBS 24",
+            "stationDate": "17.11.06",
+            "stationTime": "13:00"
+        },
+        "OBS 25": {
+            "class": "Station",
+            "stationID": "OBS 25",
+            "stationDate": "17.11.06",
+            "stationTime": "04:00"
+        },
+        "OBH 27": {
+            "class": "Station",
+            "stationID": "OBH 27",
+            "stationDate": "17.11.06",
+            "stationTime": "10:00"
+        },
+        "OBS 28": {
+            "class": "Station",
+            "stationID": "OBS 28",
+            "stationDate": "17.11.06",
+            "stationTime": "06:00"
+        },
+        "OBH 29": {
+            "class": "Station",
+            "stationID": "OBH 29",
+            "stationDate": "17.11.06",
+            "stationTime": "20:00"
+        },
+        "OBH 30": {
+            "class": "Station",
+            "stationID": "OBH 30",
+            "stationDate": "17.11.06",
+            "stationTime": "05:00"
+        },
+        "OBS 31": {
+            "class": "Station",
+            "stationID": "OBS 31",
+            "stationDate": "17.11.06",
+            "stationTime": "03:00"
+        },
+        "OBH 32": {
+            "class": "Station",
+            "stationID": "OBH 32",
+            "stationDate": "17.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 33": {
+            "class": "Station",
+            "stationID": "OBH 33",
+            "stationDate": "17.11.06",
+            "stationTime": "05:00"
+        },
+        "OBS 34": {
+            "class": "Station",
+            "stationID": "OBS 34",
+            "stationDate": "17.11.06",
+            "stationTime": "15:00"
+        },
+        "OBH 36": {
+            "class": "Station",
+            "stationID": "OBH 36",
+            "stationDate": "17.11.06",
+            "stationTime": "00:00"
+        },
+        "OBH 130": {
+            "class": "Station",
+            "stationID": "OBH 130",
+            "stationDate": "03.12.06",
+            "stationTime": "04:00"
+        },
+        "OBH 131": {
+            "class": "Station",
+            "stationID": "OBH 131",
+            "stationDate": "03.12.06",
+            "stationTime": "04:00"
+        },
+        "OBH 132": {
+            "class": "Station",
+            "stationID": "OBH 132",
+            "stationDate": "03.12.06",
+            "stationTime": "05:00"
+        },
+        "OBH 133": {
+            "class": "Station",
+            "stationID": "OBH 133",
+            "stationDate": "03.12.06",
+            "stationTime": "08:00"
+        },
+        "OBH 134": {
+            "class": "Station",
+            "stationID": "OBH 134",
+            "stationDate": "03.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 135": {
+            "class": "Station",
+            "stationID": "OBH 135",
+            "stationDate": "04.12.06",
+            "stationTime": "05:00"
+        },
+        "OBH 136": {
+            "class": "Station",
+            "stationID": "OBH 136",
+            "stationDate": "04.12.06",
+            "stationTime": "10:00"
+        },
+        "OBS 142": {
+            "class": "Station",
+            "stationID": "OBS 142",
+            "stationDate": "04.12.06",
+            "stationTime": "10:00"
+        },
+        "OBS 143": {
+            "class": "Station",
+            "stationID": "OBS 143",
+            "stationDate": "04.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 144": {
+            "class": "Station",
+            "stationID": "OBS 144",
+            "stationDate": "04.12.06",
+            "stationTime": "19:00"
+        },
+        "OBS 145": {
+            "class": "Station",
+            "stationID": "OBS 145",
+            "stationDate": "04.12.06",
+            "stationTime": "15:00"
+        },
+        "OBS 146": {
+            "class": "Station",
+            "stationID": "OBS 146",
+            "stationDate": "04.12.06",
+            "stationTime": "18:00"
+        },
+        "OBS 147": {
+            "class": "Station",
+            "stationID": "OBS 147",
+            "stationDate": "04.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 148": {
+            "class": "Station",
+            "stationID": "OBS 148",
+            "stationDate": "04.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 149": {
+            "class": "Station",
+            "stationID": "OBS 149",
+            "stationDate": "04.12.06",
+            "stationTime": "01:00"
+        },
+        "OBH 150": {
+            "class": "Station",
+            "stationID": "OBH 150",
+            "stationDate": "04.12.06",
+            "stationTime": "20:00"
+        },
+        "OBH 151": {
+            "class": "Station",
+            "stationID": "OBH 151",
+            "stationDate": "04.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 152": {
+            "class": "Station",
+            "stationID": "OBH 152",
+            "stationDate": "04.12.06",
+            "stationTime": "09:00"
+        },
+        "OBS 153": {
+            "class": "Station",
+            "stationID": "OBS 153",
+            "stationDate": "04.12.06",
+            "stationTime": "07:00"
+        },
+        "OBH 230": {
+            "class": "Station",
+            "stationID": "OBH 230",
+            "stationDate": "15.12.06",
+            "stationTime": "00:00"
+        },
+        "OBH 231": {
+            "class": "Station",
+            "stationID": "OBH 231",
+            "stationDate": "15.12.06",
+            "stationTime": "09:00"
+        },
+        "OBS 232": {
+            "class": "Station",
+            "stationID": "OBS 232",
+            "stationDate": "15.12.06",
+            "stationTime": "13:00"
+        },
+        "OBS 233": {
+            "class": "Station",
+            "stationID": "OBS 233",
+            "stationDate": "15.12.06",
+            "stationTime": "10:00"
+        },
+        "OBS 234": {
+            "class": "Station",
+            "stationID": "OBS 234",
+            "stationDate": "15.12.06",
+            "stationTime": "01:00"
+        },
+        "OBS 235": {
+            "class": "Station",
+            "stationID": "OBS 235",
+            "stationDate": "15.12.06",
+            "stationTime": "04:00"
+        },
+        "OBS 241": {
+            "class": "Station",
+            "stationID": "OBS 241",
+            "stationDate": "15.12.06",
+            "stationTime": "07:00"
+        },
+        "OBS 242": {
+            "class": "Station",
+            "stationID": "OBS 242",
+            "stationDate": "15.12.06",
+            "stationTime": "19:00"
+        },
+        "OBS 243": {
+            "class": "Station",
+            "stationID": "OBS 243",
+            "stationDate": "15.12.06",
+            "stationTime": "16:00"
+        },
+        "OBH 244": {
+            "class": "Station",
+            "stationID": "OBH 244",
+            "stationDate": "15.12.06",
+            "stationTime": "11:00"
+        },
+        "OBH 245": {
+            "class": "Station",
+            "stationID": "OBH 245",
+            "stationDate": "15.12.06",
+            "stationTime": "02:00"
+        },
+        "OBS 57": {
+            "class": "Station",
+            "stationID": "OBS 57",
+            "stationDate": "23.11.06",
+            "stationTime": "19:00"
+        },
+        "OBS 58": {
+            "class": "Station",
+            "stationID": "OBS 58",
+            "stationDate": "23.11.06",
+            "stationTime": "23:00"
+        },
+        "OBS 59": {
+            "class": "Station",
+            "stationID": "OBS 59",
+            "stationDate": "23.11.06",
+            "stationTime": "07:00"
+        },
+        "OBS 60": {
+            "class": "Station",
+            "stationID": "OBS 60",
+            "stationDate": "23.11.06",
+            "stationTime": "16:00"
+        },
+        "OBS 61": {
+            "class": "Station",
+            "stationID": "OBS 61",
+            "stationDate": "23.11.06",
+            "stationTime": "15:00"
+        },
+        "OBS 62": {
+            "class": "Station",
+            "stationID": "OBS 62",
+            "stationDate": "23.11.06",
+            "stationTime": "03:00"
+        },
+        "OBS 63": {
+            "class": "Station",
+            "stationID": "OBS 63",
+            "stationDate": "23.11.06",
+            "stationTime": "12:00"
+        },
+        "OBS 64": {
+            "class": "Station",
+            "stationID": "OBS 64",
+            "stationDate": "23.11.06",
+            "stationTime": "01:00"
+        },
+        "OBS 65": {
+            "class": "Station",
+            "stationID": "OBS 65",
+            "stationDate": "23.11.06",
+            "stationTime": "16:00"
+        },
+        "OBS/M 66": {
+            "class": "Station",
+            "stationID": "OBS/M 66",
+            "stationDate": "23.11.06",
+            "stationTime": "01:00"
+        },
+        "OBS/M 67": {
+            "class": "Station",
+            "stationID": "OBS/M 67",
+            "stationDate": "23.11.06",
+            "stationTime": "13:00"
+        },
+        "OBS/M 68": {
+            "class": "Station",
+            "stationID": "OBS/M 68",
+            "stationDate": "23.11.06",
+            "stationTime": "09:00"
+        },
+        "OBS/M 69": {
+            "class": "Station",
+            "stationID": "OBS/M 69",
+            "stationDate": "23.11.06",
+            "stationTime": "14:00"
+        },
+        "OBS/M 70": {
+            "class": "Station",
+            "stationID": "OBS/M 70",
+            "stationDate": "23.11.06",
+            "stationTime": "23:00"
+        },
+        "OBS 71": {
+            "class": "Station",
+            "stationID": "OBS 71",
+            "stationDate": "23.11.06",
+            "stationTime": "04:00"
+        },
+        "OBH 72": {
+            "class": "Station",
+            "stationID": "OBH 72",
+            "stationDate": "23.11.06",
+            "stationTime": "02:00"
+        },
+        "OBH 73": {
+            "class": "Station",
+            "stationID": "OBH 73",
+            "stationDate": "23.11.06",
+            "stationTime": "05:00"
+        },
+        "OBH 74": {
+            "class": "Station",
+            "stationID": "OBH 74",
+            "stationDate": "23.11.06",
+            "stationTime": "08:00"
+        },
+        "OBS/M 78": {
+            "class": "Station",
+            "stationID": "OBS/M 78",
+            "stationDate": "25.11.06",
+            "stationTime": "09:00"
+        },
+        "OBS 79": {
+            "class": "Station",
+            "stationID": "OBS 79",
+            "stationDate": "25.11.06",
+            "stationTime": "07:00"
+        },
+        "OBS/M 80": {
+            "class": "Station",
+            "stationID": "OBS/M 80",
+            "stationDate": "25.11.06",
+            "stationTime": "23:00"
+        },
+        "OBS/M 81": {
+            "class": "Station",
+            "stationID": "OBS/M 81",
+            "stationDate": "25.11.06",
+            "stationTime": "14:00"
+        },
+        "OBS/M 82": {
+            "class": "Station",
+            "stationID": "OBS/M 82",
+            "stationDate": "25.11.06",
+            "stationTime": "13:00"
+        },
+        "OBS/M 83": {
+            "class": "Station",
+            "stationID": "OBS/M 83",
+            "stationDate": "25.11.06",
+            "stationTime": "10:00"
+        },
+        "OBH 84": {
+            "class": "Station",
+            "stationID": "OBH 84",
+            "stationDate": "25.11.06",
+            "stationTime": "10:00"
+        },
+        "OBH 85": {
+            "class": "Station",
+            "stationID": "OBH 85",
+            "stationDate": "25.11.06",
+            "stationTime": "05:00"
+        },
+        "OBH 86": {
+            "class": "Station",
+            "stationID": "OBH 86",
+            "stationDate": "25.11.06",
+            "stationTime": "00:00"
+        },
+        "OBS 87": {
+            "class": "Station",
+            "stationID": "OBS 87",
+            "stationDate": "25.11.06",
+            "stationTime": "01:00"
+        },
+        "OBS 88": {
+            "class": "Station",
+            "stationID": "OBS 88",
+            "stationDate": "25.11.06",
+            "stationTime": "04:00"
+        },
+        "OBH 89": {
+            "class": "Station",
+            "stationID": "OBH 89",
+            "stationDate": "25.11.06",
+            "stationTime": "08:00"
+        },
+        "OBS 102": {
+            "class": "Station",
+            "stationID": "OBS 102",
+            "stationDate": "26.11.06",
+            "stationTime": "06:00"
+        },
+        "OBH 103": {
+            "class": "Station",
+            "stationID": "OBH 103",
+            "stationDate": "26.11.06",
+            "stationTime": "09:00"
+        },
+        "OBH 104": {
+            "class": "Station",
+            "stationID": "OBH 104",
+            "stationDate": "26.11.06",
+            "stationTime": "02:00"
+        },
+        "OBH 105": {
+            "class": "Station",
+            "stationID": "OBH 105",
+            "stationDate": "26.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 106": {
+            "class": "Station",
+            "stationID": "OBH 106",
+            "stationDate": "26.11.06",
+            "stationTime": "18:00"
+        },
+        "OBH 107": {
+            "class": "Station",
+            "stationID": "OBH 107",
+            "stationDate": "26.11.06",
+            "stationTime": "18:00"
+        },
+        "OBH 108": {
+            "class": "Station",
+            "stationID": "OBH 108",
+            "stationDate": "29.11.06",
+            "stationTime": "20:00"
+        },
+        "OBH 109": {
+            "class": "Station",
+            "stationID": "OBH 109",
+            "stationDate": "29.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 110": {
+            "class": "Station",
+            "stationID": "OBH 110",
+            "stationDate": "29.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 111": {
+            "class": "Station",
+            "stationID": "OBH 111",
+            "stationDate": "29.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 112": {
+            "class": "Station",
+            "stationID": "OBH 112",
+            "stationDate": "29.11.06",
+            "stationTime": "11:00"
+        },
+        "OBH 113": {
+            "class": "Station",
+            "stationID": "OBH 113",
+            "stationDate": "29.11.06",
+            "stationTime": "11:00"
+        },
+        "OBS 114": {
+            "class": "Station",
+            "stationID": "OBS 114",
+            "stationDate": "29.11.06",
+            "stationTime": "10:00"
+        },
+        "OBH_154": {
+            "class": "Waypoint",
+            "locationName": "OBH 154",
+            "latitude": "12\u00b014,008' S",
+            "longitude": "120\u00b054,199' E",
+            "seabedDepth": 3584
+        },
+        "OBH_155": {
+            "class": "Waypoint",
+            "locationName": "OBH 155",
+            "latitude": "12\u00b010,790' S",
+            "longitude": "120\u00b054,661' E",
+            "seabedDepth": 3690
+        },
+        "OBH_156": {
+            "class": "Waypoint",
+            "locationName": "OBH 156",
+            "latitude": "12\u00b007,436' S",
+            "longitude": "120\u00b055,179' E",
+            "seabedDepth": 3877
+        },
+        "OBH_157": {
+            "class": "Waypoint",
+            "locationName": "OBH 157",
+            "latitude": "12\u00b004,019' S",
+            "longitude": "120\u00b055,695' E",
+            "seabedDepth": 3933
+        },
+        "OBS_158": {
+            "class": "Waypoint",
+            "locationName": "OBS 158",
+            "latitude": "12\u00b000,471' S",
+            "longitude": "120\u00b056,196' E",
+            "seabedDepth": 3978
+        },
+        "OBS_159": {
+            "class": "Waypoint",
+            "locationName": "OBS 159",
+            "latitude": "11\u00b057,031' S",
+            "longitude": "120\u00b056,743' E",
+            "seabedDepth": 3916
+        },
+        "OBS_193": {
+            "class": "Waypoint",
+            "locationName": "OBS 193",
+            "latitude": "10\u00b003,951' S",
+            "longitude": "121\u00b013,135' E",
+            "seabedDepth": 910
+        },
+        "OBS_194": {
+            "class": "Waypoint",
+            "locationName": "OBS 194",
+            "latitude": "10\u00b000,130' S",
+            "longitude": "121\u00b013,708' E",
+            "seabedDepth": 1246
+        },
+        "OBS_195": {
+            "class": "Waypoint",
+            "locationName": "OBS 195",
+            "latitude": "09\u00b056,791' S",
+            "longitude": "121\u00b014,186' E",
+            "seabedDepth": 1532
+        },
+        "OBH_196": {
+            "class": "Waypoint",
+            "locationName": "OBH 196",
+            "latitude": "09\u00b053,434' S",
+            "longitude": "121\u00b014,651' E",
+            "seabedDepth": 1779
+        },
+        "OBH_197": {
+            "class": "Waypoint",
+            "locationName": "OBH 197",
+            "latitude": "09\u00b050,015' S",
+            "longitude": "121\u00b015,100' E",
+            "seabedDepth": 1830
+        },
+        "OBH_198": {
+            "class": "Waypoint",
+            "locationName": "OBH 198",
+            "latitude": "09\u00b046,889' S",
+            "longitude": "121\u00b015,620' E",
+            "seabedDepth": 1956
+        },
+        "OBH_199": {
+            "class": "Waypoint",
+            "locationName": "OBH 199",
+            "latitude": "09\u00b043,475' S",
+            "longitude": "121\u00b016,114' E",
+            "seabedDepth": 2036
+        },
+        "SO190-2": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "SO190-1": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "1800"
+        },
+        "OBMT26": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.15",
+            "has_Depth": "4971"
+        },
+        "OBMT35": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.13",
+            "has_Depth": "5862"
+        },
+        "OBMT37": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.27",
+            "has_Depth": "5578"
+        },
+        "OBMT44": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.17",
+            "has_Depth": "3022"
+        },
+        "OBMT54": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.10",
+            "has_Depth": "4362"
+        },
+        "OBMT55": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "10.09",
+            "has_Depth": "4366"
+        }
+    }
+}

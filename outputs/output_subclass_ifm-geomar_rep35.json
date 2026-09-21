@@ -1,0 +1,47 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "SO201-2-01",
+                "hasDuration": "N/A",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO201-2-02",
+                "hasDuration": "N/A",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD",
+                "hasDuration": "N/A",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Multicorer",
+                "hasDuration": "N/A",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V SONNE",
+                "maxDepth": "N/A"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE",
+                "maxDepth": "N/A"
+            }
+        ]
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "Individuals": {
+        "Cruise_Report_P340": {
+            "class": "Mission",
+            "MissionID": "P340",
+            "startTime": "2006-07-06",
+            "endTime": "2006-07-17",
+            "maxDepth": "2400 m",
+            "dataVolume": "530 nautical miles",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for TYMAS in the Tyrrhenian Sea"
+        },
+        "Station_01": {
+            "class": "Station",
+            "stationID": "721CTD",
+            "stationDate": "06.07.2006",
+            "stationTime": "18:22 - 21:50"
+        },
+        "Station_02": {
+            "class": "Station",
+            "stationID": "722SBM",
+            "stationDate": "06.07.2006",
+            "stationTime": "22:00 - 06:30"
+        },
+        "Station_03": {
+            "class": "Station",
+            "stationID": "724DR",
+            "stationDate": "07.07.2006",
+            "stationTime": "09:20 - 10:20"
+        },
+        "Station_04": {
+            "class": "Station",
+            "stationID": "730DR",
+            "stationDate": "08.07.2006",
+            "stationTime": "10:40 - 11:55"
+        },
+        "Station_05": {
+            "class": "Station",
+            "stationID": "731DR",
+            "stationDate": "08.07.2006",
+            "stationTime": "12:40 - 13:45"
+        },
+        "Station_06": {
+            "class": "Station",
+            "stationID": "732DR",
+            "stationDate": "08.07.2006",
+            "stationTime": "14:10 - 15:10"
+        },
+        "Station_07": {
+            "class": "Station",
+            "stationID": "733SBM",
+            "stationDate": "09.07.2006",
+            "stationTime": "16:00 - 05:00"
+        },
+        "Station_08": {
+            "class": "Station",
+            "stationID": "734ROV",
+            "stationDate": "09.07.2006",
+            "stationTime": "06:30 - 06:35"
+        },
+        "Station_09": {
+            "class": "Station",
+            "stationID": "735DR",
+            "stationDate": "09.07.2006",
+            "stationTime": "07:15 - 08:45"
+        },
+        "Station_10": {
+            "class": "Station",
+            "stationID": "736DR",
+            "stationDate": "09.07.2006",
+            "stationTime": "09:15 - 10:40"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "738DR",
+            "stationDate": "09.07.2006",
+            "stationTime": "12:05 - 13:35"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "739SBM",
+            "stationDate": "09.07.2006",
+            "stationTime": "16:45 - 08:00"
+        },
+        "Station_13": {
+            "class": "Station",
+            "stationID": "740ROV",
+            "stationDate": "10.07.2006",
+            "stationTime": "08:15 - 09:00"
+        },
+        "Station_14": {
+            "class": "Station",
+            "stationID": "741ROV",
+            "stationDate": "10.07.2006",
+            "stationTime": "10:52 - 16:05"
+        },
+        "Station_15": {
+            "class": "Station",
+            "stationID": "743ROV",
+            "stationDate": "11.07.2006",
+            "stationTime": "07:20 - 14:50"
+        },
+        "Station_16": {
+            "class": "Station",
+            "stationID": "744CTD",
+            "stationDate": "11.07.2006",
+            "stationTime": "18:30 - 19:50"
+        },
+        "Station_17": {
+            "class": "Station",
+            "stationID": "746ROV",
+            "stationDate": "12.07.2006",
+            "stationTime": "06:45 - 14:45"
+        },
+        "Station_18": {
+            "class": "Station",
+            "stationID": "752ROV",
+            "stationDate": "14.07.2006",
+            "stationTime": "08:05 - 14:55"
+        },
+        "Station_19": {
+            "class": "Station",
+            "stationID": "754ROV",
+            "stationDate": "15.07.2006",
+            "stationTime": "06:55 - 15:00"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "756ROV",
+            "stationDate": "16.07.2006",
+            "stationTime": "09:00 - 15:00"
+        },
+        "Palinuro_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Palinuro Seamount",
+            "latitude": "39\u00b032.50'N",
+            "longitude": "14\u00b030.00'E",
+            "seabedDepth": "570 m"
+        },
+        "Marsili_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Marsili Seamount",
+            "latitude": "39\u00b016.967'N",
+            "longitude": "14\u00b023.909'E",
+            "seabedDepth": "2400 m"
+        },
+        "Panarea_Island": {
+            "class": "Waypoint",
+            "locationName": "Panarea Island",
+            "latitude": "38\u00b038.957'N",
+            "longitude": "15\u00b006.398'E",
+            "seabedDepth": "70 m"
+        },
+        "Dive 741ROV": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 743ROV": {
+            "class": "Task",
+            "hasDuration": 7.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 746ROV": {
+            "class": "Task",
+            "hasDuration": 8.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 749ROV": {
+            "class": "Task",
+            "hasDuration": 7.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 752ROV": {
+            "class": "Task",
+            "hasDuration": 7.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 754ROV": {
+            "class": "Task",
+            "hasDuration": 8.25,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 756ROV": {
+            "class": "Task",
+            "hasDuration": 8.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "721CTD": {
+            "class": "State",
+            "has_Temperature": "15.7",
+            "has_Conductivity": "unknown",
+            "has_Depth": "0"
+        },
+        "722SBM": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "0"
+        },
+        "723ROV": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "300"
+        },
+        "724DR": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "743ROV-1": {
+            "class": "State",
+            "has_Temperature": "15.8",
+            "has_Conductivity": "unknown",
+            "has_Depth": "641"
+        },
+        "749ROV-1": {
+            "class": "State",
+            "has_Temperature": "15.7",
+            "has_Conductivity": "unknown",
+            "has_Depth": "696"
+        },
+        "752ROV-1": {
+            "class": "State",
+            "has_Temperature": "15.6",
+            "has_Conductivity": "unknown",
+            "has_Depth": "71"
+        },
+        "754ROV-1": {
+            "class": "State",
+            "has_Temperature": "15.6",
+            "has_Conductivity": "unknown",
+            "has_Depth": "77"
+        },
+        "756ROV-3": {
+            "class": "State",
+            "has_Temperature": "15.7",
+            "has_Conductivity": "unknown",
+            "has_Depth": "57"
+        }
+    }
+}

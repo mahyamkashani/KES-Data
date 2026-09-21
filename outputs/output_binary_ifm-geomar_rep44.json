@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Parasound P70",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound P70"
+        },
+        {
+            "INDIVIDUAL": [
+                "Kongsberg EM120",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Kongsberg EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "KIEL 6000",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor KIEL 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 108",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 108 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 108",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 108 hasAction Act_DeepDive"
+        }
+    ]
+}

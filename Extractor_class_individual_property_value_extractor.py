@@ -1,9 +1,7 @@
-import Reader_pdf_reader
-import AI_gpt_caller
-import Reader_spreadsheet_reader
-import JSON_validator
+import Reader_vector_retriever
+import Validator_axiom_semantics
 
-def get_class_property_value(individuals,docpath,doc_type, pages, sheet_name):
+def get_class_property_value(individuals,docpath, pages=None):
     prompt = None  
     output_format = '''{
     "Individuals": {
@@ -21,53 +19,40 @@ def get_class_property_value(individuals,docpath,doc_type, pages, sheet_name):
 }
 '''
     
-    if doc_type == "pdf":
-        docdata = Reader_pdf_reader.pdfReadModullar(docpath, pages)
-        prompt = (
-            "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
-            "1. **USER_JSON**: This contains an attribute pattern. It contains classes and their associated data properties without values. "
-            "2. **TEXT_CONTENT**: This contains the text content from which you need to extract information. "
-            "3. **OUTPUT_JSON_FORMAT**: This specifies the format in which you should return your response. "
-            
-            "Your task is to read the USER_JSON and identify the individuals and their corresponding data properties."
-            "Then, extract values for data properties of each individual from the TEXT_CONTENT."
-            "Then, return the results formatted as specified in OUTPUT_JSON_FORMAT. "
-            "Do not include any additional messages or content in your response."
-            
-            f"\n\nUSER_JSON: {individuals}"
-            f"\nOUTPUT_JSON_FORMAT: {output_format}"
-            f"\nTEXT_CONTENT: {docdata}"
+    #the controller calls this once per class, so the single query built from the
+    #class name, its data properties and its note gets the whole chunk budget
+    docdata = Reader_vector_retriever.context_for_pattern(
+        individuals, docpath, pages)[0]
+
+    def build_prompt(reason, prior):
+        retry = ""
+        if reason:
+            retry = (
+                "\n\nYour PREVIOUS answer was rejected. Reason: " + reason +
+                "\nPrevious answer: " + (prior or "") +
+                "\nFix exactly these problems and return the corrected JSON. "
+                "Drop any individual you cannot correct rather than inventing a value.")
+        return (
+        "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
+        "1. **USER_JSON**: This contains an attribute pattern. It contains classes and their associated data properties without values. "
+        "2. **TEXT_CONTENT**: This contains excerpts of the source document from which you need to extract information. "
+        "Each excerpt is preceded by a [page N] marker giving its page in the report; the markers are provenance, never extract them as individuals. "
+        "The excerpts are not contiguous, so do not assume a fact is absent because the surrounding text is missing. "
+        "3. **OUTPUT_JSON_FORMAT**: This specifies the format in which you should return your response. "
+
+        "Your task is to read the USER_JSON and identify the individuals and their corresponding data properties."
+        "Then, extract values for data properties of each individual from the TEXT_CONTENT."
+        "Then, return the results formatted as specified in OUTPUT_JSON_FORMAT. "
+        "Do not include any additional messages or content in your response."
+
+        f"\n\nUSER_JSON: {individuals}"
+        f"\nOUTPUT_JSON_FORMAT: {output_format}"
+        f"\nTEXT_CONTENT: {docdata}"
+        + retry
         )
-    elif doc_type == "excel":
-        data = Reader_spreadsheet_reader.get_spreadsheet_data(docpath,sheet_name)
-        # Convert DataFrame to JSON
-        docdata = data.to_json(orient="records")
-       # docdata =''
-        prompt = (
-            "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
-            "1. **USER_JSON**: This contains class name, data properties of the class and individuals. "
-            "2. **TEXT_CONTENT**: This contains the text content from which you need to extract information. "
-            "3. **OUTPUT_JSON_FORMAT**: This specifies the format in which you should return your response. "
-            
-            "Your task is to read the USER_JSON and identify the individuals and data properties."
-            "Then, extract values for data properties of each individuals from the TEXT_CONTENT."
-            "Then, return the results formatted as specified in OUTPUT_JSON_FORMAT. "
-            "Do not include any additional messages or content in your response."
-            
-            f"\n\nUSER_JSON: {individuals}"
-            f"\nOUTPUT_JSON_FORMAT: {output_format}"
-            f"\nTEXT_CONTENT: {docdata}"
-        )
-    else:
-        raise ValueError(f"Unsupported doc_type: {doc_type}")
 
-    output = AI_gpt_caller.get_gpt_response(prompt)
-    # Extract the 'content' part
-    content_part = output.content
-
-    # Parse the JSON data
-    parsed_data = JSON_validator.validate_json(content_part)
-
+    parsed_data, attempts, ok = Validator_axiom_semantics.extract_with_retries(
+        build_prompt, label="attributes: ", docpath=docpath, pages_limit=pages)
     return parsed_data
 
 

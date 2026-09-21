@@ -3,82 +3,112 @@
         {
             "INDIVIDUAL": [
                 "JAGO",
-                "Sensor"
+                "Imagenex 837B Delta T"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "JAGO hasSensor Sensor"
+            "RANGE": "MBES",
+            "AXIOM": "JAGO hasSensor Imagenex 837B Delta T"
         },
         {
             "INDIVIDUAL": [
-                "Mission AL533",
-                "JAGO"
+                "JAGO",
+                "CoraMo MK2"
             ],
-            "OBJECT_PROPERTY": "usesVehicle",
-            "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "Mission AL533 usesVehicle JAGO"
-        },
-        {
-            "INDIVIDUAL": [
-                "Traversal 1",
-                "Waypoint 1"
-            ],
-            "OBJECT_PROPERTY": "hasDestination",
-            "DOMAIN": "Traversal",
-            "RANGE": "Waypoint",
-            "AXIOM": "Traversal 1 hasDestination Waypoint 1"
-        },
-        {
-            "INDIVIDUAL": [
-                "Waypoint 1",
-                "TerrainArea 1"
-            ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint 1 onTerrain TerrainArea 1"
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor CoraMo MK2"
         },
         {
             "INDIVIDUAL": [
                 "ANTON",
-                "Sensor"
+                "CoraMo MK2"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
-            "RANGE": "Sensor",
-            "AXIOM": "ANTON hasSensor Sensor"
+            "RANGE": "Camera",
+            "AXIOM": "ANTON hasSensor CoraMo MK2"
         },
         {
             "INDIVIDUAL": [
-                "Mission AL533",
-                "ANTON"
+                "ANTON",
+                "Dive 1427"
             ],
-            "OBJECT_PROPERTY": "usesVehicle",
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ANTON hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "Dive 1427"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ANTON hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Dive 1427"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "JAGO hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Dive 1427"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "JAGO hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "Station 5-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
             "DOMAIN": "Mission",
-            "RANGE": "Vehicle",
-            "AXIOM": "Mission AL533 usesVehicle ANTON"
+            "RANGE": "Task",
+            "AXIOM": "ANTON hasTask Station 5-1"
         },
         {
             "INDIVIDUAL": [
-                "Traversal 2",
-                "Waypoint 2"
+                "ANTON",
+                "Station 11-1"
             ],
-            "OBJECT_PROPERTY": "hasDestination",
-            "DOMAIN": "Traversal",
-            "RANGE": "Waypoint",
-            "AXIOM": "Traversal 2 hasDestination Waypoint 2"
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "ANTON hasTask Station 11-1"
         },
         {
             "INDIVIDUAL": [
-                "Waypoint 2",
-                "TerrainArea 2"
+                "ANTON",
+                "Station 14-1"
             ],
-            "OBJECT_PROPERTY": "onTerrain",
-            "DOMAIN": "Waypoint",
-            "RANGE": "TerrainArea",
-            "AXIOM": "Waypoint 2 onTerrain TerrainArea 2"
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "ANTON hasTask Station 14-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "Station 17-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "ANTON hasTask Station 17-1"
         }
     ]
 }

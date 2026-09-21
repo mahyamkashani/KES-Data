@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "FS Poseidon",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "FS Poseidon hasSensor ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "FS Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "FS Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "OBH01"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS Discovery hasSensor OBH01"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "MCS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "RRS Discovery hasSensor MCS"
+        }
+    ]
+}

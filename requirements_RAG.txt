@@ -1,0 +1,17 @@
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.25
+langchain-chroma 
+langchain-text-splitters 
+chromadb
+pypdf
+fonttools
+pandas
+openai
+python-dotenv
+langchain-anthropic
+langchain-huggingface 
+sentence-transformers
+
+
+

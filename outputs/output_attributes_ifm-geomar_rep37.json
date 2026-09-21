@@ -1,0 +1,388 @@
+{
+    "Individuals": {
+        "TransBrom_Sonne": {
+            "class": "Mission",
+            "MissionID": "TransBrom Sonne",
+            "startTime": "2009-10-09",
+            "endTime": "2009-10-24",
+            "maxDepth": "30 km",
+            "dataVolume": "variety of parameters",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "First oceanic-middle atmosphere campaign"
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "609",
+            "stationDate": "15.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_2": {
+            "class": "Station",
+            "stationID": "611",
+            "stationDate": "16.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "614",
+            "stationDate": "16.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_4": {
+            "class": "Station",
+            "stationID": "617",
+            "stationDate": "16.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_5": {
+            "class": "Station",
+            "stationID": "619",
+            "stationDate": "16.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_6": {
+            "class": "Station",
+            "stationID": "621",
+            "stationDate": "16.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_7": {
+            "class": "Station",
+            "stationID": "622",
+            "stationDate": "16.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "626",
+            "stationDate": "16.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_9": {
+            "class": "Station",
+            "stationID": "627",
+            "stationDate": "16.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_10": {
+            "class": "Station",
+            "stationID": "631",
+            "stationDate": "17.10.2009",
+            "stationTime": "00:45"
+        },
+        "Station_11": {
+            "class": "Station",
+            "stationID": "629",
+            "stationDate": "17.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "633",
+            "stationDate": "17.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_13": {
+            "class": "Station",
+            "stationID": "636",
+            "stationDate": "17.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_14": {
+            "class": "Station",
+            "stationID": "641",
+            "stationDate": "17.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_15": {
+            "class": "Station",
+            "stationID": "642",
+            "stationDate": "17.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_16": {
+            "class": "Station",
+            "stationID": "643",
+            "stationDate": "17.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_17": {
+            "class": "Station",
+            "stationID": "650",
+            "stationDate": "17.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_18": {
+            "class": "Station",
+            "stationID": "651",
+            "stationDate": "18.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_19": {
+            "class": "Station",
+            "stationID": "653",
+            "stationDate": "18.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "654",
+            "stationDate": "18.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "655",
+            "stationDate": "18.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_22": {
+            "class": "Station",
+            "stationID": "656",
+            "stationDate": "18.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_23": {
+            "class": "Station",
+            "stationID": "658",
+            "stationDate": "18.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_24": {
+            "class": "Station",
+            "stationID": "662",
+            "stationDate": "18.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_25": {
+            "class": "Station",
+            "stationID": "664",
+            "stationDate": "18.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_26": {
+            "class": "Station",
+            "stationID": "665",
+            "stationDate": "19.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_27": {
+            "class": "Station",
+            "stationID": "666",
+            "stationDate": "19.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_28": {
+            "class": "Station",
+            "stationID": "674",
+            "stationDate": "19.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_29": {
+            "class": "Station",
+            "stationID": "676",
+            "stationDate": "19.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_30": {
+            "class": "Station",
+            "stationID": "678",
+            "stationDate": "19.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_31": {
+            "class": "Station",
+            "stationID": "681",
+            "stationDate": "19.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_32": {
+            "class": "Station",
+            "stationID": "684",
+            "stationDate": "19.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_33": {
+            "class": "Station",
+            "stationID": "685",
+            "stationDate": "19.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_34": {
+            "class": "Station",
+            "stationID": "687",
+            "stationDate": "20.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_35": {
+            "class": "Station",
+            "stationID": "689",
+            "stationDate": "20.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_36": {
+            "class": "Station",
+            "stationID": "691",
+            "stationDate": "20.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_37": {
+            "class": "Station",
+            "stationID": "696",
+            "stationDate": "20.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_38": {
+            "class": "Station",
+            "stationID": "697",
+            "stationDate": "20.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_39": {
+            "class": "Station",
+            "stationID": "698",
+            "stationDate": "20.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_40": {
+            "class": "Station",
+            "stationID": "699",
+            "stationDate": "20.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_41": {
+            "class": "Station",
+            "stationID": "705",
+            "stationDate": "20.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_42": {
+            "class": "Station",
+            "stationID": "706",
+            "stationDate": "21.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_43": {
+            "class": "Station",
+            "stationID": "707",
+            "stationDate": "21.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_44": {
+            "class": "Station",
+            "stationID": "713",
+            "stationDate": "21.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_45": {
+            "class": "Station",
+            "stationID": "715",
+            "stationDate": "21.10.2009",
+            "stationTime": "11:00"
+        },
+        "Station_46": {
+            "class": "Station",
+            "stationID": "717",
+            "stationDate": "21.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_47": {
+            "class": "Station",
+            "stationID": "718",
+            "stationDate": "21.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_48": {
+            "class": "Station",
+            "stationID": "723",
+            "stationDate": "21.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_49": {
+            "class": "Station",
+            "stationID": "724",
+            "stationDate": "21.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_50": {
+            "class": "Station",
+            "stationID": "728",
+            "stationDate": "22.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_51": {
+            "class": "Station",
+            "stationID": "729",
+            "stationDate": "22.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_52": {
+            "class": "Station",
+            "stationID": "734",
+            "stationDate": "22.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_53": {
+            "class": "Station",
+            "stationID": "737",
+            "stationDate": "22.10.2009",
+            "stationTime": "14:00"
+        },
+        "Station_54": {
+            "class": "Station",
+            "stationID": "738",
+            "stationDate": "22.10.2009",
+            "stationTime": "17:00"
+        },
+        "Station_55": {
+            "class": "Station",
+            "stationID": "739",
+            "stationDate": "22.10.2009",
+            "stationTime": "20:00"
+        },
+        "Station_56": {
+            "class": "Station",
+            "stationID": "741",
+            "stationDate": "22.10.2009",
+            "stationTime": "23:00"
+        },
+        "Station_57": {
+            "class": "Station",
+            "stationID": "742",
+            "stationDate": "23.10.2009",
+            "stationTime": "02:00"
+        },
+        "Station_58": {
+            "class": "Station",
+            "stationID": "747",
+            "stationDate": "23.10.2009",
+            "stationTime": "05:00"
+        },
+        "Station_59": {
+            "class": "Station",
+            "stationID": "748",
+            "stationDate": "23.10.2009",
+            "stationTime": "08:00"
+        },
+        "Station_60": {
+            "class": "Station",
+            "stationID": "749",
+            "stationDate": "23.10.2009",
+            "stationTime": "11:00"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "Tomakomai, Japan",
+            "latitude": "42.38",
+            "longitude": "141.37",
+            "seabedDepth": null
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "Townsville, Australia",
+            "latitude": "19.11",
+            "longitude": "146.50",
+            "seabedDepth": null
+        }
+    }
+}

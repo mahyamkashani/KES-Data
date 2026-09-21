@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V MARIA S. MERIAN",
+                "PIES123"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "PIES",
+            "AXIOM": "R/V MARIA S. MERIAN hasSensor PIES123"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V MARIA S. MERIAN",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V MARIA S. MERIAN hasSensor ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "R/V MARIA S. MERIAN"
+            ],
+            "OBJECT_PROPERTY": "operatedFromShip",
+            "DOMAIN": "Mission",
+            "RANGE": "Ship",
+            "AXIOM": "MSM04/1 operatedFromShip R/V MARIA S. MERIAN"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "PIES123"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "MSM04/1 usesVehicle PIES123"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 967-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 967-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 967-1",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 967-1 realisedByAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 968-1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 968-1 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 970-1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 970-1 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 974-1",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 974-1 realisedByAction Act_Move"
+        }
+    ]
+}

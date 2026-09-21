@@ -1,0 +1,174 @@
+{
+    "Individuals": {
+        "Abyss0012": {
+            "class": "Mission",
+            "MissionID": "Abyss0012",
+            "startTime": "30.10.09 09:20",
+            "endTime": "30.10.09 10:17",
+            "maxDepth": "unknown",
+            "dataVolume": "unknown",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "re-deployment after reprogramming"
+        },
+        "Abyss0013": {
+            "class": "Mission",
+            "MissionID": "Abyss0013",
+            "startTime": "01.11.09 05:01",
+            "endTime": "01.11.09 05:06",
+            "maxDepth": "400 kHz",
+            "dataVolume": "unknown",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "deployment of the AUV for 400 kHz survey of Franklin Seamount"
+        },
+        "Abyss0014": {
+            "class": "Mission",
+            "MissionID": "Abyss0014",
+            "startTime": "01.11.09 11:16",
+            "endTime": "01.11.09 14:50",
+            "maxDepth": "unknown",
+            "dataVolume": "unknown",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "deployment of the AUV for 200 kHz survey of Franklin Seamount"
+        },
+        "Abyss0016": {
+            "class": "Mission",
+            "MissionID": "Abyss0016",
+            "startTime": "06.11.09 02:30",
+            "endTime": "06.11.09 04:45",
+            "maxDepth": "unknown",
+            "dataVolume": "unknown",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "deployment of the AUV for 400 kHz survey"
+        },
+        "Station_1": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "30.10.09",
+            "stationTime": "05:54"
+        },
+        "Station_2": {
+            "class": "Station",
+            "stationID": "2",
+            "stationDate": "29.10.09",
+            "stationTime": "12:30"
+        },
+        "Station_3": {
+            "class": "Station",
+            "stationID": "3",
+            "stationDate": "01.11.09",
+            "stationTime": "05:59"
+        },
+        "Station_4": {
+            "class": "Station",
+            "stationID": "4",
+            "stationDate": "06.11.09",
+            "stationTime": "05:23"
+        },
+        "Station_5": {
+            "class": "Station",
+            "stationID": "5",
+            "stationDate": "06.11.09",
+            "stationTime": "08:02"
+        },
+        "Station_6": {
+            "class": "Station",
+            "stationID": "6",
+            "stationDate": "06.11.09",
+            "stationTime": "10:40"
+        },
+        "Station_7": {
+            "class": "Station",
+            "stationID": "7",
+            "stationDate": "06.11.09",
+            "stationTime": "13:12"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "8",
+            "stationDate": "06.11.09",
+            "stationTime": "16:02"
+        },
+        "Station_9": {
+            "class": "Station",
+            "stationID": "9",
+            "stationDate": "18.11.09",
+            "stationTime": "00:55"
+        },
+        "Moresby_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Moresby Seamount",
+            "latitude": "9\u00b049'S",
+            "longitude": "155\u00b035'E",
+            "seabedDepth": "variable"
+        },
+        "Franklin_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Franklin Seamount",
+            "latitude": "9\u00b053.684'S",
+            "longitude": "151\u00b047.839'E",
+            "seabedDepth": "variable"
+        },
+        "Segment_1A": {
+            "class": "Waypoint",
+            "locationName": "Segment 1A",
+            "latitude": "9\u00b046.376'S",
+            "longitude": "151\u00b033.394'E",
+            "seabedDepth": "variable"
+        },
+        "Segment_1B": {
+            "class": "Waypoint",
+            "locationName": "Segment 1B",
+            "latitude": "9\u00b056.31'S",
+            "longitude": "151\u00b058.24'E",
+            "seabedDepth": "2699m"
+        },
+        "Segment_1C": {
+            "class": "Waypoint",
+            "locationName": "Segment 1C",
+            "latitude": "10\u00b001.69'S",
+            "longitude": "152\u00b011.99'E",
+            "seabedDepth": "2765m"
+        },
+        "Dive_012": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "PartialFAILURE"
+        },
+        "Dive_013": {
+            "class": "State",
+            "has_Temperature": "2100",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2100"
+        },
+        "Dive_014": {
+            "class": "State",
+            "has_Temperature": "2130",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2130"
+        },
+        "Dive_015": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "2600"
+        },
+        "Dive_016": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "Dive_019": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        },
+        "Dive_020": {
+            "class": "State",
+            "has_Temperature": "unknown",
+            "has_Conductivity": "unknown",
+            "has_Depth": "unknown"
+        }
+    }
+}

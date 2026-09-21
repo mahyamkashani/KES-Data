@@ -2,44 +2,28 @@
     "NaryPropertyAxiom": {
         "pattern01": {
             "Axioms": [
-                "SurveyNavigation hasMission M1",
-                "M1 usesVehicle V1",
-                "M1 hasGoal G1",
-                "M1 hasInitialCondition S1",
-                "M1 hasTask T1",
-                "T1 realisedByAction A1",
-                "S1 hasScenarioTask T2"
+                "P399_2 hasVehicle RV_Poseidon",
+                "P399_2 goes_through Waypoint_LasPalmas",
+                "P399_2 goes_through Waypoint_Mindelo"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M1",
-                "V1",
-                "G1",
-                "S1",
-                "T1",
-                "T2",
-                "A1"
+                "P399_2",
+                "RV_Poseidon",
+                "Waypoint_LasPalmas",
+                "Waypoint_Mindelo"
             ]
         },
         "pattern02": {
             "Axioms": [
-                "SurveyNavigation hasMission M2",
-                "M2 usesVehicle V2",
-                "M2 hasGoal G2",
-                "M2 hasInitialCondition S2",
-                "M2 hasTask T3",
-                "T3 realisedByAction A2",
-                "S2 hasScenarioTask T4"
+                "P399_3 hasVehicle RV_Poseidon",
+                "P399_3 goes_through Waypoint_ESTOC",
+                "P399_3 goes_through Waypoint_Vigo"
             ],
             "Individuals": [
-                "SurveyNavigation",
-                "M2",
-                "V2",
-                "G2",
-                "S2",
-                "T3",
-                "T4",
-                "A2"
+                "P399_3",
+                "RV_Poseidon",
+                "Waypoint_ESTOC",
+                "Waypoint_Vigo"
             ]
         }
     }

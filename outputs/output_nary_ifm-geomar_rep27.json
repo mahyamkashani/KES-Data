@@ -1,0 +1,29 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "Cruise_64PE298 hasTask WND_3",
+                "Traversal_1 hasVehicle RV_PELAGIA",
+                "Traversal_1 goes_through North_Alex",
+                "Traversal_1 goes_through Giza"
+            ],
+            "Individuals": [
+                "Cruise_64PE298",
+                "WND_3",
+                "Traversal_1",
+                "North_Alex",
+                "Giza",
+                "RV_PELAGIA"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "Traversal_2 hasVehicle ROV_Cherokee"
+            ],
+            "Individuals": [
+                "Traversal_2",
+                "ROV_Cherokee"
+            ]
+        }
+    }
+}

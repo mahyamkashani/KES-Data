@@ -1,11 +1,9 @@
-import  Reader_pdf_reader
-import Reader_spreadsheet_reader
-import AI_gpt_caller
-import JSON_validator
+import Reader_vector_retriever
+import Validator_axiom_semantics
 #import AI_geminiai_caller
 import re
 
-def get_individual_for_binary_relation(binary_relations,docpath,doc_type, pages, sheet_name):
+def get_individual_for_binary_relation(binary_relations,docpath, pages=None):
     prompt = None  
     jsonExample= '''
     {
@@ -28,48 +26,51 @@ def get_individual_for_binary_relation(binary_relations,docpath,doc_type, pages,
     }
     '''
 
-    if doc_type == "pdf":
-        docdata = Reader_pdf_reader.pdfReadModullar(docpath, pages)
-    elif doc_type == "excel":
-        data = Reader_spreadsheet_reader.get_spreadsheet_data(docpath,sheet_name)
-        # Convert DataFrame to JSON
-        docdata = data.to_json(orient="records")
-    else:
-        raise ValueError(f"Unsupported doc_type: {doc_type}")
+    #one retrieval query per axiom, built from its Binary_Relation + Annotation.
+    #"Mission has task Task" pulls the dive tables, "Vehicle has sensor MBES"
+    #pulls the instrument list, wherever in the report they happen to sit.
+    #retrieval returns a single window, so there is one prompt to build
+    docdata = Reader_vector_retriever.context_for_pattern(
+        binary_relations, docpath, pages)[0]
 
-    prompt = (
+    def build_prompt(reason, prior):
+        #the retry differs from the first ask only by the rejection reason, which
+        #is a checked fact about the T-box rather than a guess
+        retry = ""
+        if reason:
+            retry = (
+                "\n\nYour PREVIOUS answer was rejected. Reason: " + reason +
+                "\nPrevious answer: " + (prior or "") +
+                "\nFix exactly these problems and return the corrected JSON. "
+                "Drop any axiom you cannot correct rather than inventing a name.")
+        return (
     "You will be provided with three components: USER_JSON, TEXT_CONTENT, and OUTPUT_JSON_FORMAT. "
     "1. **USER_JSON**: This contains a binary pattern; it represents OBJECT_PROPERTY relations of the ontology with their DOMAINS and RANGES."
-    "2. **TEXT_CONTENT**: This contains the text content from which you need to extract individuals for ontology. "
+    "2. **TEXT_CONTENT**: This contains excerpts of the source document from which you need to extract individuals for ontology. "
+    "Each excerpt is preceded by a [page N] marker giving its page in the report; the markers are provenance, never extract them as individuals. "
+    "The excerpts are not contiguous, so do not assume a fact is absent because the surrounding text is missing. "
     "3. **OUTPUT_JSON_FORMAT**: This specifies the format in which you should return your response. "
     
     "Your task is to read the USER_JSON and identify the object properties with their domains and ranges. Then, identify the individuals those follows the given object properties from the TEXT_CONTENT."
     "Return the results formatted as specified in OUTPUT_JSON_FORMAT. "
     
+    "Each name you put in INDIVIDUAL must be a specific entity named in the TEXT_CONTENT - "
+    "an instrument model, a vehicle name, a station or dive number. "
+    "Never use a class name from the USER_JSON (Vehicle, Ship, Station, Mission, Task, Action, "
+    "Waypoint, Traversal, Terrain, State, MBES, Sonar, DVL, USBL, Camera, CTDSensor, "
+    "Echosounder, Hydrophone, ADCP) as an individual. "
+    "If the TEXT_CONTENT names no specific individual for a relation, omit that axiom entirely "
+    "rather than filling the slot with the class name. "
+    "Set RANGE to the most specific class from the USER_JSON that the individual belongs to. "
+
     "Do not include any additional messages or content in your response."
     
     f"\n\nUSER_JSON: {binary_relations}"
     f"\nOUTPUT_JSON_FORMAT: {jsonExample}"
     f"\nTEXT_CONTENT: {docdata}"
-    )
+    + retry
+        )
 
-    #print ("Here is the prompt: " + prompt)
-
-    """ 
-    #output = gpt_caller.get_gpt_response(prompt)
-    output = geminiai_caller.get_gemini_response(prompt)
-    #print (output)
-   
-    # Extract and print the text content
-    text_content = output.text
-    print(text_content)
-
-    """
-    output = AI_gpt_caller.get_gpt_response(prompt)
-    # Extract the 'content' part
-    content_part = output.content
-
-    # Parse the JSON data
-    parsed_data = JSON_validator.validate_json(content_part)
-
+    parsed_data, attempts, ok = Validator_axiom_semantics.extract_with_retries(
+        build_prompt, label="binary: ", docpath=docpath, pages_limit=pages)
     return parsed_data

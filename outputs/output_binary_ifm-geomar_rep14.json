@@ -1,0 +1,134 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Profile P02",
+                "OBH 206"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P02 hasDestination OBH 206"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P02",
+                "OBH 207"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P02 hasDestination OBH 207"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 220"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 220"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 221"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 221"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 222"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 222"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 223"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 223"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBS 224"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBS 224"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 225"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 225"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 226"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 226"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 227"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 227"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 228"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 228"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBH 229"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBH 229"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P03",
+                "OBS 230"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Profile P03 hasDestination OBS 230"
+        }
+    ]
+}

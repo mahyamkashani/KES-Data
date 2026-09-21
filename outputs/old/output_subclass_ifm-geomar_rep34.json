@@ -1,0 +1,16 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": []
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "Cruise Report MSM 03/2",
+                "hasDuration": "22 days",
+                "hasStatus": "Completed"
+            }
+        ]
+    }
+}

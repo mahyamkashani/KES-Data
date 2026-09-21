@@ -1,0 +1,25 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [],
+        "NavFixSite": [],
+        "UnconstrainedSite": [
+            {
+                "individual_name": "Christmas Island Seamount Province",
+                "seabedDepth": "unknown"
+            },
+            {
+                "individual_name": "Investigator Ridge",
+                "seabedDepth": "unknown"
+            }
+        ]
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "SO199 CHRISP",
+                "hasDuration": "02.08.2008 - 22.09.2008",
+                "hasStatus": "completed"
+            }
+        ]
+    }
+}

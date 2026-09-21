@@ -1,81 +1,381 @@
 {
     "Individuals": {
-        "MSM_04-2": {
+        "Cruise_MSM_04_2": {
             "class": "Mission",
             "MissionID": "MSM 04-2",
             "startTime": "03.01.2007",
             "endTime": "19.01.2007",
             "maxDepth": "6000 m",
-            "imageCount": "50",
-            "dataVolume": "High",
-            "hasStatus": "Completed",
-            "remark": "Cruise report for seismic profiling"
+            "dataVolume": "2500 km",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Seismic Wide-Angle Profiles Fort-de-France \u2013 Fort-de-France"
         },
-        "Fort-de-France": {
+        "Station_01": {
             "class": "Station",
-            "stationID": "Station 01",
+            "stationID": "OBH 01",
             "stationDate": "03.01.2007",
-            "stationTime": "10:30"
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_01": {
-            "class": "Waypoint",
-            "latitude": "15.17 N",
-            "longitude": "60.30 W",
-            "seabedDepth": "3040 m"
+        "Station_02": {
+            "class": "Station",
+            "stationID": "OBH 02",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_02": {
-            "class": "Waypoint",
-            "latitude": "15.19 N",
-            "longitude": "60.25 W",
-            "seabedDepth": "3380 m"
+        "Station_03": {
+            "class": "Station",
+            "stationID": "OBH 03",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_03": {
-            "class": "Waypoint",
-            "latitude": "15.23 N",
-            "longitude": "60.16 W",
-            "seabedDepth": "3568 m"
+        "Station_04": {
+            "class": "Station",
+            "stationID": "OBH 04",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_04": {
-            "class": "Waypoint",
-            "latitude": "15.39 N",
-            "longitude": "61.40 W",
-            "seabedDepth": "1885 m"
+        "Station_05": {
+            "class": "Station",
+            "stationID": "OBH 05",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_05": {
-            "class": "Waypoint",
-            "latitude": "15.43 N",
-            "longitude": "61.23 W",
-            "seabedDepth": "955 m"
+        "Station_06": {
+            "class": "Station",
+            "stationID": "OBS 06",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_06": {
-            "class": "Waypoint",
-            "latitude": "16.18 N",
-            "longitude": "60.17 W",
-            "seabedDepth": "4875 m"
+        "Station_07": {
+            "class": "Station",
+            "stationID": "OBS 07",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_07": {
-            "class": "Waypoint",
-            "latitude": "16.17 N",
-            "longitude": "60.17 W",
-            "seabedDepth": "4950 m"
+        "Station_08": {
+            "class": "Station",
+            "stationID": "OBS 08",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_08": {
-            "class": "Waypoint",
-            "latitude": "16.02 N",
-            "longitude": "60.49 W",
-            "seabedDepth": "1023 m"
+        "Station_09": {
+            "class": "Station",
+            "stationID": "OBS 09",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_09": {
-            "class": "Waypoint",
-            "latitude": "16.01 N",
-            "longitude": "60.50 W",
-            "seabedDepth": "1062 m"
+        "Station_10": {
+            "class": "Station",
+            "stationID": "OBS 10",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
         },
-        "Waypoint_10": {
+        "Station_11": {
+            "class": "Station",
+            "stationID": "OBS 11",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "OBS 12",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_13": {
+            "class": "Station",
+            "stationID": "OBS 13",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_14": {
+            "class": "Station",
+            "stationID": "OBS 14",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_15": {
+            "class": "Station",
+            "stationID": "OBS 15",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_16": {
+            "class": "Station",
+            "stationID": "OBS 16",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_17": {
+            "class": "Station",
+            "stationID": "OBS 17",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_18": {
+            "class": "Station",
+            "stationID": "OBS 18",
+            "stationDate": "03.01.2007",
+            "stationTime": "06.01.2007"
+        },
+        "Station_19": {
+            "class": "Station",
+            "stationID": "OBS 19",
+            "stationDate": "03.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "OBS 20",
+            "stationDate": "03.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "OBS 21",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_22": {
+            "class": "Station",
+            "stationID": "OBS 22",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_23": {
+            "class": "Station",
+            "stationID": "OBS 23",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_24": {
+            "class": "Station",
+            "stationID": "OBS 24",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_25": {
+            "class": "Station",
+            "stationID": "OBS 25",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_26": {
+            "class": "Station",
+            "stationID": "OBS 26",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_27": {
+            "class": "Station",
+            "stationID": "OBS 27",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_28": {
+            "class": "Station",
+            "stationID": "OBS 28",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_29": {
+            "class": "Station",
+            "stationID": "OBS 29",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_30": {
+            "class": "Station",
+            "stationID": "OBS 30",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_31": {
+            "class": "Station",
+            "stationID": "OBS 31",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_32": {
+            "class": "Station",
+            "stationID": "OBS 32",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_33": {
+            "class": "Station",
+            "stationID": "OBS 33",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_34": {
+            "class": "Station",
+            "stationID": "OBS 34-D2",
+            "stationDate": "04.01.2007",
+            "stationTime": "07.01.2007"
+        },
+        "Station_35": {
+            "class": "Station",
+            "stationID": "OBS 35",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_36": {
+            "class": "Station",
+            "stationID": "OBS 36",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_37": {
+            "class": "Station",
+            "stationID": "OBS 37-D3",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_38": {
+            "class": "Station",
+            "stationID": "OBS 38",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_39": {
+            "class": "Station",
+            "stationID": "OBS 39",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_40": {
+            "class": "Station",
+            "stationID": "OBS 40-D4",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_41": {
+            "class": "Station",
+            "stationID": "OBS 41-D5",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_42": {
+            "class": "Station",
+            "stationID": "OBS 42",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_43": {
+            "class": "Station",
+            "stationID": "OBS 43",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_44": {
+            "class": "Station",
+            "stationID": "OBS 44",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_45": {
+            "class": "Station",
+            "stationID": "OBS 45",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_46": {
+            "class": "Station",
+            "stationID": "OBS 46",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_47": {
+            "class": "Station",
+            "stationID": "OBS 47",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_48": {
+            "class": "Station",
+            "stationID": "OBS 48",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_49": {
+            "class": "Station",
+            "stationID": "OBS 49",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "Station_50": {
+            "class": "Station",
+            "stationID": "OBS 50",
+            "stationDate": "04.01.2007",
+            "stationTime": "08.01.2007"
+        },
+        "GCPP-01": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3040
+        },
+        "GCPP-02": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3380
+        },
+        "GCPP-03": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3568
+        },
+        "GCPP-04": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1885
+        },
+        "GCPP-05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 955
+        },
+        "PWPL": {
             "class": "Waypoint",
-            "latitude": "14.58 N",
-            "longitude": "60.23 W",
+            "locationName": "PWPL",
+            "latitude": "15.568 N",
+            "longitude": "75.000 W",
             "seabedDepth": "2685 m"
+        },
+        "GCPP-06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4875
+        },
+        "GCPP-07": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4950
+        },
+        "GCPP-08": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1023
+        },
+        "GCPP-09": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1062
+        },
+        "GCPP-10": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2685
         }
     }
 }

@@ -1,0 +1,30 @@
+{
+    "Waypoint": {
+        "BottomLockSite": [
+            {
+                "individual_name": "Salt Dome Juist",
+                "seabedDepth": "29 m"
+            }
+        ],
+        "NavFixSite": [],
+        "UnconstrainedSite": [
+            {
+                "individual_name": "Sleipner",
+                "seabedDepth": "1000 m"
+            },
+            {
+                "individual_name": "Well 22/4b",
+                "seabedDepth": "unknown"
+            }
+        ]
+    },
+    "Task": {
+        "LongTask": [
+            {
+                "individual_name": "ALKOR cruise 374",
+                "hasDuration": "16 days",
+                "hasStatus": "completed"
+            }
+        ]
+    }
+}

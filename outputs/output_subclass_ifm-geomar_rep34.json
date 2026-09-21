@@ -1,0 +1,45 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "MSM 03/2",
+                "hasDuration": "22 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Multibeam mapping",
+                "hasDuration": "32 hours",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Maria S Merian",
+                "maxDepth": "3100 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 920RD",
+                "stationID": "920RD",
+                "stationDate": "09.11.2006",
+                "stationTime": "18:22"
+            },
+            {
+                "individual_name": "Station 957RD",
+                "stationID": "957RD",
+                "stationDate": "22.11.2006",
+                "stationTime": "19:37"
+            }
+        ]
+    }
+}

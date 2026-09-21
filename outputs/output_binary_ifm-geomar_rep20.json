@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "JC23"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RRS JAMES COOK hasMission JC23"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "EM-710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RRS JAMES COOK hasSensor EM-710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "OBS805"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS JAMES COOK hasSensor OBS805"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "OBS806"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS JAMES COOK hasSensor OBS806"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "OBS807"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS JAMES COOK hasSensor OBS807"
+        }
+    ]
+}

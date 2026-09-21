@@ -1,0 +1,40 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO192-1 hasTask MANGO",
+                "MANGO hasAction RV_SONNE"
+            ],
+            "Individuals": [
+                "SO192-1",
+                "MANGO",
+                "RV_SONNE"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "RV_Sonne hasTask SO_176",
+                "RV_Sonne hasTask SO_181",
+                "RV_Poseidon hasTask POS_316",
+                "RV_Sonne hasTask SO_177",
+                "RV_Sonne hasTask SO_186",
+                "RV_Sonne hasTask SO_190",
+                "RV_Sonne hasTask SO_191",
+                "FS_ALKOR hasTask AL_275"
+            ],
+            "Individuals": [
+                "RV_Sonne",
+                "SO_176",
+                "SO_181",
+                "RV_Poseidon",
+                "POS_316",
+                "SO_177",
+                "SO_186",
+                "SO_190",
+                "SO_191",
+                "FS_ALKOR",
+                "AL_275"
+            ]
+        }
+    }
+}

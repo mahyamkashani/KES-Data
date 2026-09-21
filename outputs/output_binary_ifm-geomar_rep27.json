@@ -1,0 +1,64 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V PELAGIA",
+                "ROV Cherokee"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V PELAGIA usesVehicle ROV Cherokee"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #1"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #2"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #2"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #3"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #3"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #4"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #4"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #5"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #5"
+        }
+    ]
+}

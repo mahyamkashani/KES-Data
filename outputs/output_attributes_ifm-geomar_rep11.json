@@ -1,0 +1,438 @@
+{
+    "Individuals": {
+        "Mission_OBH01": {
+            "class": "Mission",
+            "MissionID": "OBH 01",
+            "startTime": "27.03.07",
+            "endTime": "30.03.07",
+            "maxDepth": 3625,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 88 gr. Kugel"
+        },
+        "Mission_OBH02": {
+            "class": "Mission",
+            "MissionID": "OBH 02",
+            "startTime": "27.03.07",
+            "endTime": "30.03.07",
+            "maxDepth": 3638,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 33 gr. Kugel"
+        },
+        "Mission_OBH03": {
+            "class": "Mission",
+            "MissionID": "OBH 03",
+            "startTime": "27.03.07",
+            "endTime": "30.03.07",
+            "maxDepth": 3653,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 79 kl. Kugel"
+        },
+        "Mission_OBH04": {
+            "class": "Mission",
+            "MissionID": "OBH 04",
+            "startTime": "27.03.07",
+            "endTime": "30.03.07",
+            "maxDepth": 3696,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 48 kl. Kugel"
+        },
+        "Mission_OBH90": {
+            "class": "Mission",
+            "MissionID": "OBH 90",
+            "startTime": "10.04.07",
+            "endTime": "13.04.07",
+            "maxDepth": 5703,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 33 gr. Kugel"
+        },
+        "Mission_OBH96": {
+            "class": "Mission",
+            "MissionID": "OBH 96",
+            "startTime": "10.04.07",
+            "endTime": "13.04.07",
+            "maxDepth": 5843,
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "HTI 48 kl. Kugel"
+        },
+        "OBH_01": {
+            "class": "Waypoint",
+            "locationName": "OBH 01",
+            "latitude": "37\u00b0 57,775' S",
+            "longitude": "179\u00b0 59,952' E",
+            "seabedDepth": 3625
+        },
+        "OBH_02": {
+            "class": "Waypoint",
+            "locationName": "OBH 02",
+            "latitude": "37\u00b0 56,095' S",
+            "longitude": "179\u00b0 56,535' E",
+            "seabedDepth": 3638
+        },
+        "OBH_03": {
+            "class": "Waypoint",
+            "locationName": "OBH 03",
+            "latitude": "37\u00b0 54,494' S",
+            "longitude": "179\u00b0 53,034' E",
+            "seabedDepth": 3653
+        },
+        "OBH_04": {
+            "class": "Waypoint",
+            "locationName": "OBH 04",
+            "latitude": "37\u00b0 52,860' S",
+            "longitude": "179\u00b0 49,524' E",
+            "seabedDepth": 3696
+        },
+        "OBS_05": {
+            "class": "Waypoint",
+            "locationName": "OBS 05",
+            "latitude": "37\u00b0 51,221' S",
+            "longitude": "179\u00b0 46,012' E",
+            "seabedDepth": 3755
+        },
+        "OBS_06": {
+            "class": "Waypoint",
+            "locationName": "OBS 06",
+            "latitude": "37\u00b0 49,609' S",
+            "longitude": "179\u00b0 42,471' E",
+            "seabedDepth": 3679
+        },
+        "OBS_07": {
+            "class": "Station",
+            "stationID": "OBS 07",
+            "stationDate": "27.03.07",
+            "stationTime": "30.03.07"
+        },
+        "OBS_08": {
+            "class": "Station",
+            "stationID": "OBS 08",
+            "stationDate": "27.03.07",
+            "stationTime": "30.03.07"
+        },
+        "OBS_09": {
+            "class": "Station",
+            "stationID": "OBS 09",
+            "stationDate": "27.03.07",
+            "stationTime": "30.03.07"
+        },
+        "OBS_10": {
+            "class": "Station",
+            "stationID": "OBS 10",
+            "stationDate": "27.03.07",
+            "stationTime": "30.03.07"
+        },
+        "OBS_11": {
+            "class": "Station",
+            "stationID": "OBS 11",
+            "stationDate": "27.03.07",
+            "stationTime": "30.03.07"
+        },
+        "OBS_23": {
+            "class": "Station",
+            "stationID": "OBS 23",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBS_24": {
+            "class": "Station",
+            "stationID": "OBS 24",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBS_25": {
+            "class": "Station",
+            "stationID": "OBS 25",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBH_26": {
+            "class": "Station",
+            "stationID": "OBH 26",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBH_27": {
+            "class": "Station",
+            "stationID": "OBH 27",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBH_28": {
+            "class": "Station",
+            "stationID": "OBH 28",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBH_29": {
+            "class": "Station",
+            "stationID": "OBH 29",
+            "stationDate": "27.03.07",
+            "stationTime": "31.04.07"
+        },
+        "OBH_30": {
+            "class": "Waypoint",
+            "locationName": "OBH 30",
+            "latitude": "34\u00b0 54,541' S",
+            "longitude": "178\u00b0 59,947' W",
+            "seabedDepth": 5892
+        },
+        "OBH_31": {
+            "class": "Waypoint",
+            "locationName": "OBH 31",
+            "latitude": "34\u00b0 52,389' S",
+            "longitude": "179\u00b0 03,480' W",
+            "seabedDepth": 5294
+        },
+        "OBS_32": {
+            "class": "Station",
+            "stationID": "OBS 32",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_33": {
+            "class": "Station",
+            "stationID": "OBS 33",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_34": {
+            "class": "Station",
+            "stationID": "OBS 34",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_35": {
+            "class": "Station",
+            "stationID": "OBS 35",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_36": {
+            "class": "Station",
+            "stationID": "OBS 36",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_37": {
+            "class": "Station",
+            "stationID": "OBS 37",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_38": {
+            "class": "Station",
+            "stationID": "OBS 38",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_39": {
+            "class": "Station",
+            "stationID": "OBS 39",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_40": {
+            "class": "Station",
+            "stationID": "OBS 40",
+            "stationDate": "01.04.07",
+            "stationTime": "03.04.07"
+        },
+        "OBS_60": {
+            "class": "Station",
+            "stationID": "OBS 60",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_61": {
+            "class": "Station",
+            "stationID": "OBS 61",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_62": {
+            "class": "Station",
+            "stationID": "OBS 62",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_63": {
+            "class": "Station",
+            "stationID": "OBS 63",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_64": {
+            "class": "Station",
+            "stationID": "OBS 64",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_65": {
+            "class": "Station",
+            "stationID": "OBS 65",
+            "stationDate": "05.04.07",
+            "stationTime": "09.04.07"
+        },
+        "OBS_71": {
+            "class": "Station",
+            "stationID": "OBS 71",
+            "stationDate": "05.04.07",
+            "stationTime": "08.04.07"
+        },
+        "OBS_72": {
+            "class": "Station",
+            "stationID": "OBS 72",
+            "stationDate": "05.04.07",
+            "stationTime": "08.04.07"
+        },
+        "OBS_73": {
+            "class": "Station",
+            "stationID": "OBS 73",
+            "stationDate": "05.04.07",
+            "stationTime": "08.04.07"
+        },
+        "OBS_74": {
+            "class": "Station",
+            "stationID": "OBS 74",
+            "stationDate": "05.04.07",
+            "stationTime": "08.04.07"
+        },
+        "OBS_75": {
+            "class": "Station",
+            "stationID": "OBS 75",
+            "stationDate": "05.04.07",
+            "stationTime": "07.04.07"
+        },
+        "OBS_76": {
+            "class": "Station",
+            "stationID": "OBS 76",
+            "stationDate": "05.04.07",
+            "stationTime": "07.04.07"
+        },
+        "OBH_88": {
+            "class": "Station",
+            "stationID": "OBH 88",
+            "stationDate": "05.04.07",
+            "stationTime": "07.04.07"
+        },
+        "OBH_89": {
+            "class": "Station",
+            "stationID": "OBH 89",
+            "stationDate": "05.04.07",
+            "stationTime": "07.04.07"
+        },
+        "OBH_90": {
+            "class": "Waypoint",
+            "locationName": "OBH 90",
+            "latitude": "29\u00b0 34,950' S",
+            "longitude": "175\u00b0 10,030' W",
+            "seabedDepth": 5703
+        },
+        "OBS_119": {
+            "class": "Station",
+            "stationID": "OBS 119",
+            "stationDate": "10.04.07",
+            "stationTime": "16.04.07"
+        },
+        "Landstation_01": {
+            "class": "Station",
+            "stationID": "Landstation 01",
+            "stationDate": "10.04.07",
+            "stationTime": "16.04.07"
+        },
+        "Landstation_02": {
+            "class": "Station",
+            "stationID": "Landstation 02",
+            "stationDate": "10.04.07",
+            "stationTime": "16.04.07"
+        },
+        "OBH_120": {
+            "class": "Station",
+            "stationID": "OBH 120",
+            "stationDate": "14.04.07",
+            "stationTime": "16.04.07"
+        },
+        "OBS_121": {
+            "class": "Station",
+            "stationID": "OBS 121",
+            "stationDate": "14.04.07",
+            "stationTime": "16.04.07"
+        },
+        "OBS_122": {
+            "class": "Station",
+            "stationID": "OBS 122",
+            "stationDate": "14.04.07",
+            "stationTime": "16.04.07"
+        },
+        "OBH_92": {
+            "class": "Waypoint",
+            "locationName": "OBH 92",
+            "latitude": "29\u00b0 33,893' S",
+            "longitude": "175\u00b0 15,002' W",
+            "seabedDepth": 5684
+        },
+        "OBH_93": {
+            "class": "Waypoint",
+            "locationName": "OBH 93",
+            "latitude": "29\u00b0 32,837' S",
+            "longitude": "175\u00b0 20,001' W",
+            "seabedDepth": 5714
+        },
+        "OBH_94": {
+            "class": "Waypoint",
+            "locationName": "OBH 94",
+            "latitude": "29\u00b0 31,813' S",
+            "longitude": "175\u00b0 25,023' W",
+            "seabedDepth": 5844
+        },
+        "OBH_95": {
+            "class": "Waypoint",
+            "locationName": "OBH 95",
+            "latitude": "29\u00b0 30,790' S",
+            "longitude": "175\u00b0 30,012' W",
+            "seabedDepth": 5775
+        },
+        "OBH_96": {
+            "class": "Waypoint",
+            "locationName": "OBH 96",
+            "latitude": "29\u00b0 29,724' S",
+            "longitude": "175\u00b0 35,002' W",
+            "seabedDepth": 5843
+        },
+        "SO192/001-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 31,00' S",
+            "has_Conductivity": "176\u00b0 4,46' E",
+            "has_Depth": "214"
+        },
+        "SO192/002-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 50,01' S",
+            "has_Conductivity": "177\u00b0 29,38' E",
+            "has_Depth": "19"
+        },
+        "SO192/003-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 23,05' S",
+            "has_Conductivity": "177\u00b0 20,23' E",
+            "has_Depth": "3100"
+        },
+        "SO192/004-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 39,93' S",
+            "has_Conductivity": "177\u00b0 25,98' E",
+            "has_Depth": "21"
+        },
+        "SO192/005-1": {
+            "class": "State",
+            "has_Temperature": "37\u00b0 57,72' S",
+            "has_Conductivity": "179\u00b0 59,88' W",
+            "has_Depth": "3624"
+        }
+    }
+}

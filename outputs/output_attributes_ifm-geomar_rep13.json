@@ -1,0 +1,187 @@
+{
+    "Individuals": {
+        "DR1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4063.3672
+        },
+        "DR2": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4063.639
+        },
+        "DR3": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3596.331
+        },
+        "DR20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3377.0
+        },
+        "DR21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3835.0
+        },
+        "DR22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3519.0
+        },
+        "DR23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4760.0
+        },
+        "DR24": {
+            "class": "Mission",
+            "MissionID": "DR24",
+            "startTime": "UTC 04/06/07 1344hrs",
+            "endTime": "UTC 04/06/07 1507hrs",
+            "maxDepth": 4236,
+            "dataVolume": "few rocks, sediment boulders light brown and red clay rich solidified sediments",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "Dredge damaged because of material weakness"
+        },
+        "DR25": {
+            "class": "Mission",
+            "MissionID": "DR25",
+            "startTime": "UTC 05/06/07 0243hrs",
+            "endTime": "UTC 05/06/07 0355hrs",
+            "maxDepth": 4737,
+            "dataVolume": "4 pieces, volcaniclastic material with clasts of volcanic rock, covered with Mn-crust",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "-"
+        },
+        "DR26": {
+            "class": "Mission",
+            "MissionID": "DR26",
+            "startTime": "UTC 05/06/07 1455hrs",
+            "endTime": "UTC 05/06/07 1635hrs",
+            "maxDepth": 4025,
+            "dataVolume": "full, basalt cobbles and two pillows",
+            "hasStatus": "PartialSUCCESSFUL",
+            "remark": "max. wire length: 4400m"
+        },
+        "DR32": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4550.0
+        },
+        "DR44": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3342.0
+        },
+        "DR59": {
+            "class": "Station",
+            "stationID": "DR59",
+            "stationDate": "15/06/2007",
+            "stationTime": "2213"
+        },
+        "DR_1": {
+            "class": "Waypoint",
+            "locationName": "Western Plateaus",
+            "latitude": "unknown",
+            "longitude": "unknown",
+            "seabedDepth": "4100 m"
+        },
+        "DR_25": {
+            "class": "Waypoint",
+            "locationName": "Danger Islands Troughs, southernmost trough",
+            "latitude": "9.615",
+            "longitude": "164.387",
+            "seabedDepth": "4737 m"
+        },
+        "DR_50": {
+            "class": "Waypoint",
+            "locationName": "Danger Islands Troughs, NE edge of Western Plateau",
+            "latitude": "6.827",
+            "longitude": "163.737",
+            "seabedDepth": "6827 m"
+        },
+        "DR_72": {
+            "class": "Waypoint",
+            "locationName": "High Plateau, southernmost of the three solitaire interior seamounts",
+            "latitude": "9.448",
+            "longitude": "162.122",
+            "seabedDepth": "9448 m"
+        },
+        "DR_96": {
+            "class": "Waypoint",
+            "locationName": "Samoan Basin, Seamount south of Nassau Atoll",
+            "latitude": "13.01",
+            "longitude": "165.15",
+            "seabedDepth": "5033 m"
+        },
+        "SO193-DR39": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO193-DR40": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR4": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2928.294
+        },
+        "DR5": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2861.244
+        },
+        "DR38": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3805.0
+        },
+        "DR39": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3555.0
+        },
+        "DR40": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3555.0
+        },
+        "DR50": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2978.0
+        },
+        "DR52": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5368.0
+        },
+        "DR53": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5485.0
+        }
+    }
+}

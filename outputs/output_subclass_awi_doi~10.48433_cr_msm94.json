@@ -1,0 +1,41 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Drifter deployment",
+                "hasDuration": "Not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "MSM94_0_Underway-1",
+                "stationID": "MSM94_0_Underway-1",
+                "stationName": "Weather-station",
+                "stationDate": "2020/07/30",
+                "stationTime": "10:05:31"
+            },
+            {
+                "individual_name": "MSM94_0_Underway-2",
+                "stationID": "MSM94_0_Underway-2",
+                "stationName": "TSG ADCP EM122",
+                "stationDate": "2020/08/05",
+                "stationTime": "18:00:00"
+            }
+        ]
+    }
+}

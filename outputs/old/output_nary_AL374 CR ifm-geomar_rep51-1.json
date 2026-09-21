@@ -1,0 +1,46 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SurveyNavigation hasMission AL374_Mission",
+                "AL374_Mission usesVehicle RV_ALKOR",
+                "AL374_Mission hasGoal Assess_CO2_Storage_Impact",
+                "AL374_Mission hasInitialCondition Salt_Dome_Juist_Scenario",
+                "AL374_Mission hasTask Geophysical_Measurements_Task",
+                "Geophysical_Measurements_Task realisedByAction Conduct_Geophysical_Survey_Action",
+                "Salt_Dome_Juist_Scenario hasScenarioTask Water_Gas_Sampling_Task"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "AL374_Mission",
+                "RV_ALKOR",
+                "Assess_CO2_Storage_Impact",
+                "Salt_Dome_Juist_Scenario",
+                "Geophysical_Measurements_Task",
+                "Conduct_Geophysical_Survey_Action",
+                "Water_Gas_Sampling_Task"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SurveyNavigation hasMission AL374_Mission",
+                "AL374_Mission usesVehicle RV_ALKOR",
+                "AL374_Mission hasGoal Assess_CO2_Storage_Impact",
+                "AL374_Mission hasInitialCondition Sleipner_Scenario",
+                "AL374_Mission hasTask Water_Gas_Sampling_Task",
+                "Water_Gas_Sampling_Task realisedByAction Conduct_Water_Sampling_Action",
+                "Sleipner_Scenario hasScenarioTask Geophysical_Measurements_Task"
+            ],
+            "Individuals": [
+                "SurveyNavigation",
+                "AL374_Mission",
+                "RV_ALKOR",
+                "Assess_CO2_Storage_Impact",
+                "Sleipner_Scenario",
+                "Water_Gas_Sampling_Task",
+                "Conduct_Water_Sampling_Action",
+                "Geophysical_Measurements_Task"
+            ]
+        }
+    }
+}

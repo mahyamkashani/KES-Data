@@ -1,0 +1,89 @@
+{
+    "Individuals": {
+        "Mission_AL533": {
+            "class": "Mission",
+            "MissionID": "AL533",
+            "startTime": "2020-02-05",
+            "endTime": "2020-02-18",
+            "maxDepth": "500",
+            "dataVolume": "795 nm",
+            "hasStatus": "Completed",
+            "remark": "Mutual Field Trials of the Manned Submersible JAGO and the Hover-AUVs ANTON and LUISE"
+        },
+        "Station_01": {
+            "class": "Station",
+            "stationID": "AL533",
+            "stationDate": "2020-02-05 to 2020-02-18",
+            "stationTime": "11.5 days"
+        },
+        "Station_02": {
+            "class": "Station",
+            "stationID": "AL533",
+            "stationDate": "2020-02-05 to 2020-02-18",
+            "stationTime": "11.5 days"
+        },
+        "Vulcano": {
+            "class": "Waypoint",
+            "island name": "Vulcano",
+            "latitude": "38\u00b024.70'N",
+            "longitude": "14\u00b058.56'E",
+            "seabedDepth": "50-310 meters"
+        },
+        "Lipari": {
+            "class": "Waypoint",
+            "island name": "Lipari",
+            "latitude": "38\u00b026.45'N",
+            "longitude": "14\u00b058.12'E",
+            "seabedDepth": "50-310 meters"
+        },
+        "Panarea": {
+            "class": "Waypoint",
+            "island name": "Panarea",
+            "latitude": "38\u00b038.62'N",
+            "longitude": "15\u00b005.18'E",
+            "seabedDepth": "15-200 meters"
+        },
+        "Stromboli": {
+            "class": "Waypoint",
+            "island name": "Stromboli",
+            "latitude": "38\u00b048.19'N",
+            "longitude": "15\u00b012.15'E",
+            "seabedDepth": "50-310 meters"
+        },
+        "Dive_1426": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1427": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1428": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1429": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1430": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1431": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1432": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

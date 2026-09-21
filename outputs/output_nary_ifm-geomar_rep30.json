@@ -1,0 +1,58 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "900RDV hasAction Coring_1",
+                "901RD hasAction Drilling_1",
+                "902RD hasAction Drilling_2",
+                "903RD hasAction Drilling_3",
+                "904RD hasAction Drilling_4",
+                "905RD hasAction Drilling_5",
+                "906RD hasAction Drilling_6",
+                "907RD hasAction Drilling_7",
+                "908RD hasAction Drilling_8",
+                "909RD hasAction Drilling_9",
+                "910RD hasAction Drilling_10",
+                "911RD hasAction Drilling_11",
+                "912RD hasAction Drilling_12",
+                "913RD hasAction Drilling_13",
+                "914RD hasAction Drilling_14",
+                "915RD hasAction Drilling_15"
+            ],
+            "Individuals": [
+                "900RDV",
+                "Coring_1",
+                "901RD",
+                "Drilling_1",
+                "902RD",
+                "Drilling_2",
+                "903RD",
+                "Drilling_3",
+                "904RD",
+                "Drilling_4",
+                "905RD",
+                "Drilling_5",
+                "906RD",
+                "Drilling_6",
+                "907RD",
+                "Drilling_7",
+                "908RD",
+                "Drilling_8",
+                "909RD",
+                "Drilling_9",
+                "910RD",
+                "Drilling_10",
+                "911RD",
+                "Drilling_11",
+                "912RD",
+                "Drilling_12",
+                "913RD",
+                "Drilling_13",
+                "914RD",
+                "Drilling_14",
+                "915RD",
+                "Drilling_15"
+            ]
+        }
+    }
+}

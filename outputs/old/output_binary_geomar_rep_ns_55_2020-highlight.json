@@ -1,0 +1,254 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "USBL"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "JAGO hasSensor USBL"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "CoraMo MK II"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor CoraMo MK II"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "CoraMo MK II"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "ANTON hasSensor CoraMo MK II"
+        },
+        {
+            "INDIVIDUAL": [
+                "ANTON",
+                "DVL"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "ANTON hasSensor DVL"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Imagenex 837B Delta T"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "JAGO hasSensor Imagenex 837B Delta T"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR deploysVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "ANTON"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR deploysVehicle ANTON"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "RV ALKOR"
+            ],
+            "OBJECT_PROPERTY": "operatedFromShip",
+            "DOMAIN": "Mission",
+            "RANGE": "Ship",
+            "AXIOM": "AL533 operatedFromShip RV ALKOR"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "AL533 usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "ANTON"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "AL533 usesVehicle ANTON"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1426"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1426"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1427"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1427"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1428"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1428"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1429"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1429"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1430"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1430"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1431"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1431"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Dive 1432"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Dive 1432"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1426",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1426 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1426",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1426 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1427",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1427 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1428",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1428 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1429",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1429 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1430",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1430 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1431",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1431 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1432",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1432 realisedByAction Act_TakePhoto"
+        }
+    ]
+}

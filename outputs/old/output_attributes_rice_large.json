@@ -1,0 +1,13 @@
+{
+    "Individuals": {
+        "Rice": {
+            "class": "Crop",
+            "scientific_name": "Oryza sativa"
+        },
+        "LoamySoil": {
+            "class": "SoilType",
+            "hasmaxphvalue": "9",
+            "hasminphvalue": "5"
+        }
+    }
+}

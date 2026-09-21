@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Aegaeo",
+                "North Alex"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V Aegaeo deploysVehicle North Alex"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Aegaeo",
+                "Giza"
+            ],
+            "OBJECT_PROPERTY": "deploysVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V Aegaeo deploysVehicle Giza"
+        },
+        {
+            "INDIVIDUAL": [
+                "WND-V",
+                "North Alex"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "WND-V usesVehicle North Alex"
+        },
+        {
+            "INDIVIDUAL": [
+                "WND-V",
+                "Giza"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Mission",
+            "RANGE": "Vehicle",
+            "AXIOM": "WND-V usesVehicle Giza"
+        },
+        {
+            "INDIVIDUAL": [
+                "WND-V",
+                "Dive 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "WND-V hasTask Dive 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1 realisedByAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "realisedByAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1 realisedByAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex",
+                "Waypoint 1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex hasDestination Waypoint 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Giza",
+                "Waypoint 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Giza hasDestination Waypoint 2"
+        }
+    ]
+}

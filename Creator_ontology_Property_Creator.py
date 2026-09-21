@@ -81,3 +81,34 @@ def createObjPropertyForIndividual (ontology, object_property_name, individual1,
                 values.append(individual_range)
 
     return ontology
+
+def createDataPropertyForIndividual (ontology, data_property_name, individual, value):
+    # Assert individual -data_property_name-> value.
+    # Mirrors createObjPropertyForIndividual: assigns for functional properties,
+    # appends for the rest. The value is coerced to the property's declared range
+    # so a decimal property does not end up holding the string "4.5".
+
+    individual_domain = getattr(ontology, individual, None)
+    if individual_domain is None:
+        raise ValueError(f"no individual named {individual!r} in {ontology.base_iri}")
+
+    data_property = getattr(ontology, data_property_name, None)
+    if data_property is None:
+        raise ValueError(f"no data property named {data_property_name!r} in {ontology.base_iri}")
+
+    if float in data_property.range:
+        value = float(value)
+    elif int in data_property.range:
+        value = int(value)
+    elif str in data_property.range:
+        value = str(value)
+
+    with ontology:
+        if FunctionalProperty in data_property.is_a:
+            setattr(individual_domain, data_property_name, value)
+        else:
+            values = getattr(individual_domain, data_property_name)
+            if value not in values:
+                values.append(value)
+
+    return ontology

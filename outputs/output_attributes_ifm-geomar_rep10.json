@@ -1,0 +1,176 @@
+{
+    "Individuals": {
+        "AL275": {
+            "class": "Mission",
+            "MissionID": "AL275",
+            "startTime": "24.03.2006",
+            "endTime": "30.03.2006",
+            "maxDepth": "400 m",
+            "dataVolume": "8 dives, 17.5 hours underwater",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Geobiological investigations and sampling of aphotic coral reef ecosystems in the NE-Skagerrak"
+        },
+        "Station_420-1": {
+            "class": "Station",
+            "stationID": "420-1",
+            "stationDate": "26.03.2006",
+            "stationTime": "08:36"
+        },
+        "Station_421-1": {
+            "class": "Station",
+            "stationID": "421-1",
+            "stationDate": "26.03.2006",
+            "stationTime": "17:26"
+        },
+        "Station_422": {
+            "class": "Station",
+            "stationID": "422",
+            "stationDate": "27.03.2006",
+            "stationTime": "08:53"
+        },
+        "Station_423": {
+            "class": "Station",
+            "stationID": "423",
+            "stationDate": "27.03.2006",
+            "stationTime": "14:20"
+        },
+        "Station_429": {
+            "class": "Station",
+            "stationID": "429",
+            "stationDate": "29.03.2006",
+            "stationTime": "08:42"
+        },
+        "Station_430": {
+            "class": "Station",
+            "stationID": "430",
+            "stationDate": "29.03.2006",
+            "stationTime": "13:43"
+        },
+        "Waypoint_01": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.70\u2019",
+            "longitude": "10\u00b047.89\u2019",
+            "seabedDepth": "111\u2013120 m"
+        },
+        "Waypoint_02": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.68\u2019",
+            "longitude": "10\u00b047.88\u2019",
+            "seabedDepth": "90\u2013125 m"
+        },
+        "Waypoint_03": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.55\u2019",
+            "longitude": "10\u00b047.82\u2019",
+            "seabedDepth": "161\u2013108 m"
+        },
+        "Waypoint_04": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.66\u2019",
+            "longitude": "10\u00b047.77\u2019",
+            "seabedDepth": "109\u2013101 m"
+        },
+        "Waypoint_05": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.60\u2019",
+            "longitude": "10\u00b047.77\u2019",
+            "seabedDepth": "123\u2013111 m"
+        },
+        "Waypoint_06": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.81\u2019",
+            "longitude": "10\u00b047.82\u2019",
+            "seabedDepth": "134\u201396 m"
+        },
+        "Waypoint_07": {
+            "class": "Waypoint",
+            "locationName": "East of S\u00f8ster Island",
+            "latitude": "59\u00b005.54\u2019",
+            "longitude": "10\u00b047.82\u2019",
+            "seabedDepth": "146\u2013120 m"
+        },
+        "Waypoint_08": {
+            "class": "Waypoint",
+            "locationName": "Western Trough of Oslo Fjord",
+            "latitude": "59\u00b004.51\u2019",
+            "longitude": "10\u00b044.088\u2019",
+            "seabedDepth": "118\u2013150 m"
+        },
+        "AL275-420-1": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-421-1": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-422": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-423": {
+            "class": "Task",
+            "hasDuration": 3.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-425-1": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-426-1": {
+            "class": "Task",
+            "hasDuration": 1.25,
+            "hasStatus": "FAILED"
+        },
+        "AL275-429": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "AL275-430": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Stat_420-1": {
+            "class": "State",
+            "has_Temperature": 6.7,
+            "has_Conductivity": null,
+            "has_Depth": 111
+        },
+        "Stat_421-1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 90
+        },
+        "Stat_425-1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 123
+        },
+        "Stat_429": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 146
+        },
+        "Stat_430": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 118
+        }
+    }
+}

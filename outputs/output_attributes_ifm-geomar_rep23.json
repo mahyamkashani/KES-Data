@@ -1,0 +1,148 @@
+{
+    "Individuals": {
+        "Mission_1": {
+            "class": "Mission",
+            "MissionID": "Atalante Leg 2",
+            "startTime": "07.01.2008",
+            "endTime": "31.01.2008",
+            "maxDepth": "4765m",
+            "dataVolume": "various samples collected",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Scientific cruise of RV Atalante"
+        },
+        "ATA-37ROV": {
+            "class": "Task",
+            "hasDuration": 6.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-42ROV": {
+            "class": "Task",
+            "hasDuration": 7.2,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-46ROV": {
+            "class": "Task",
+            "hasDuration": 6.75,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-50ROV": {
+            "class": "Task",
+            "hasDuration": 9.05,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-52ROV": {
+            "class": "Task",
+            "hasDuration": 8.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-63ROV": {
+            "class": "Task",
+            "hasDuration": 6.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-70ROV": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_33": {
+            "class": "Station",
+            "stationID": "33",
+            "stationDate": "14.01.2008",
+            "stationTime": "09:00"
+        },
+        "Station_41": {
+            "class": "Station",
+            "stationID": "41",
+            "stationDate": "16.01.2008",
+            "stationTime": "09:00"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "locationName": "Turtle Pits",
+            "latitude": "4\u00b048.566'S",
+            "longitude": "12\u00b022.4497'W",
+            "seabedDepth": "2988m"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "locationName": "Comfortless Cove",
+            "latitude": "4\u00b048.188'S",
+            "longitude": "12\u00b022.301'W",
+            "seabedDepth": "2996m"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint",
+            "locationName": "Inside Corner High #1",
+            "latitude": "5\u00b005.3771'S",
+            "longitude": "11\u00b039.393'W",
+            "seabedDepth": "3403m"
+        },
+        "Waypoint_4": {
+            "class": "Waypoint",
+            "locationName": "Red Lion",
+            "latitude": "4\u00b048.661'S",
+            "longitude": "12\u00b022.606'W",
+            "seabedDepth": "2995m"
+        },
+        "Waypoint_5": {
+            "class": "Waypoint",
+            "locationName": "Golden Valley",
+            "latitude": "4\u00b048.102'S",
+            "longitude": "12\u00b022.286'W",
+            "seabedDepth": "2992m"
+        },
+        "Waypoint_6": {
+            "class": "Waypoint",
+            "locationName": "NW of Comfortless Cove area",
+            "latitude": "4\u00b048.152'S",
+            "longitude": "12\u00b022.381'W",
+            "seabedDepth": "2995m"
+        },
+        "ATA-35ROV": {
+            "class": "Task",
+            "hasDuration": 6.45,
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "ATA-57ROV": {
+            "class": "Task",
+            "hasDuration": 11.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-67ROV": {
+            "class": "Task",
+            "hasDuration": 6.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Turtle_Pits_Two_Boats": {
+            "class": "State",
+            "has_Temperature": 451,
+            "has_Conductivity": null,
+            "has_Depth": 1
+        },
+        "Comfortless_Cove_Sisters_Peak": {
+            "class": "State",
+            "has_Temperature": 367,
+            "has_Conductivity": null,
+            "has_Depth": 1
+        },
+        "Red_Lion_Mephisto": {
+            "class": "State",
+            "has_Temperature": 364,
+            "has_Conductivity": null,
+            "has_Depth": 1
+        },
+        "Wideawake": {
+            "class": "State",
+            "has_Temperature": 4,
+            "has_Conductivity": null,
+            "has_Depth": 1
+        },
+        "Clueless": {
+            "class": "State",
+            "has_Temperature": 8.8,
+            "has_Conductivity": null,
+            "has_Depth": 1
+        }
+    }
+}

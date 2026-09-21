@@ -1,0 +1,84 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ATA10CTD",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "ATA10CTD hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "OBT"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "OceanBottomTiltmeter",
+            "AXIOM": "ATA21ROV hasSensor OBT"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "OBA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "OceanBottomAccelerometer",
+            "AXIOM": "ATA21ROV hasSensor OBA"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "OBP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "OceanBottomPressuremeter",
+            "AXIOM": "ATA21ROV hasSensor OBP"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "KIPS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "FluidSamplingSystem",
+            "AXIOM": "ATA21ROV hasSensor KIPS"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "He-sampler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "FluidSampler",
+            "AXIOM": "ATA21ROV hasSensor He-sampler"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "Push cores"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "SamplingTool",
+            "AXIOM": "ATA21ROV hasSensor Push cores"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "Nets for biological sampling"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "BiologicalSamplingTool",
+            "AXIOM": "ATA21ROV hasSensor Nets for biological sampling"
+        }
+    ]
+}

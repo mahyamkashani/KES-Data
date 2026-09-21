@@ -1,0 +1,193 @@
+{
+    "Individuals": {
+        "KPO_1021": {
+            "class": "Station",
+            "stationID": "KPO_1021",
+            "stationDate": "3-Mar-08",
+            "stationTime": "14:09"
+        },
+        "KPO_1022": {
+            "class": "Station",
+            "stationID": "KPO_1022",
+            "stationDate": "4-Mar-08",
+            "stationTime": "18:43"
+        },
+        "KPO_1023": {
+            "class": "Station",
+            "stationID": "KPO_1023",
+            "stationDate": "1-Mar-08",
+            "stationTime": "19:43"
+        },
+        "KPO_1024": {
+            "class": "Station",
+            "stationID": "KPO_1024",
+            "stationDate": "6-Mar-08",
+            "stationTime": "10:35"
+        },
+        "KPO_1025": {
+            "class": "Station",
+            "stationID": "KPO_1025",
+            "stationDate": "6-Mar-08",
+            "stationTime": "10:35"
+        },
+        "KPO_1026": {
+            "class": "Station",
+            "stationID": "KPO_1026",
+            "stationDate": "27-Feb-08",
+            "stationTime": "18:30"
+        },
+        "KPO_1027": {
+            "class": "Station",
+            "stationID": "KPO_1027",
+            "stationDate": "26-Feb-08",
+            "stationTime": "10:49"
+        },
+        "KPO_1028": {
+            "class": "Mission",
+            "MissionID": "KPO_1028",
+            "startTime": "2008-03-14T10:58:00Z",
+            "endTime": "N/A",
+            "maxDepth": "3598",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Deployment at V440."
+        },
+        "AO_01": {
+            "class": "Station",
+            "stationID": "AO_01",
+            "stationDate": "19-Jun-06",
+            "stationTime": "19:53"
+        },
+        "AO_02": {
+            "class": "Station",
+            "stationID": "AO_02",
+            "stationDate": "20-Jun-06",
+            "stationTime": "19:53"
+        },
+        "AO_03": {
+            "class": "Station",
+            "stationID": "AO_03",
+            "stationDate": "17-Jun-06",
+            "stationTime": "18:21"
+        },
+        "AO_04": {
+            "class": "Station",
+            "stationID": "AO_04",
+            "stationDate": "21-Jun-06",
+            "stationTime": "18:00"
+        },
+        "AO_05": {
+            "class": "Station",
+            "stationID": "AO_05",
+            "stationDate": "3-Jul-06",
+            "stationTime": "18:30"
+        },
+        "V440_1": {
+            "class": "Station",
+            "stationID": "V440_1",
+            "stationDate": "8-Jul-06",
+            "stationTime": "15:56"
+        },
+        "Waypoint_1": {
+            "class": "Waypoint",
+            "locationName": "5\u00b000.9'N, 23\u00b000'W",
+            "latitude": "5.0009",
+            "longitude": "23.0000",
+            "seabedDepth": "4800"
+        },
+        "Waypoint_2": {
+            "class": "Waypoint",
+            "locationName": "2\u00b002.5'N, 23\u00b002.0'W",
+            "latitude": "2.025",
+            "longitude": "23.020",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint",
+            "locationName": "0\u00b045'N, 22\u00b059.5'W",
+            "latitude": "0.750",
+            "longitude": "22.995",
+            "seabedDepth": "unknown"
+        },
+        "Waypoint_4": {
+            "class": "Waypoint",
+            "locationName": "1\u00b056.4'S, 22\u00b057'W",
+            "latitude": "-1.940",
+            "longitude": "22.950",
+            "seabedDepth": "4840"
+        },
+        "Waypoint_5": {
+            "class": "Waypoint",
+            "locationName": "17\u00b036.244'N, 24\u00b014.915'W",
+            "latitude": "17.604",
+            "longitude": "24.248",
+            "seabedDepth": "3600"
+        },
+        "Waypoint_6": {
+            "class": "Waypoint",
+            "locationName": "0\u00b045.17'N, 22\u00b059.28'W",
+            "latitude": "0.7528",
+            "longitude": "22.988",
+            "seabedDepth": "unknown"
+        },
+        "Mooring_Deployment_23W_2S": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_0:45S": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_0:00N": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_0:45N": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_2N": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_5N": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mooring_Deployment_23W_8N": {
+            "class": "Task",
+            "hasDuration": "0.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_Station_001": {
+            "class": "State",
+            "has_Temperature": "16.45",
+            "has_Conductivity": "0.001",
+            "has_Depth": "1644"
+        },
+        "CTD_Station_002": {
+            "class": "State",
+            "has_Temperature": "10.00",
+            "has_Conductivity": "0.001",
+            "has_Depth": "5037"
+        },
+        "CTD_Station_003": {
+            "class": "State",
+            "has_Temperature": "8.00",
+            "has_Conductivity": "0.001",
+            "has_Depth": "4419"
+        },
+        "CTD_Station_004": {
+            "class": "State",
+            "has_Temperature": "5.01",
+            "has_Conductivity": "0.001",
+            "has_Depth": "4219"
+        }
+    }
+}

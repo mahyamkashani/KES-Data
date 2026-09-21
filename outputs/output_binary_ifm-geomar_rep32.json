@@ -1,0 +1,454 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 3"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 4"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 5"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 6"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 7"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 8"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 9"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 10"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 11"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 12"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 13"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 14"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 15"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 15"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 16"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 16"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 17"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 17"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 18"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 19"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 20"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 20"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 21"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 22"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 22"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 23"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 23"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 24"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 24"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 25"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 25"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 26"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 26"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 27"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 27"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 28"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 28"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 29"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 29"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 30"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 30"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 31"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 31"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 32"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 32"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 33"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 33"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 34"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 34"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 35"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 35"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 36"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 36"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 37"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 37"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 38"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 39"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 40"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 41"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 41"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 42"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 42"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 43"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 43"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 44"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 44"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 45"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 45"
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "Individuals": {
+        "P348": {
+            "class": "Mission",
+            "MissionID": "P348",
+            "startTime": "2007-02-08",
+            "endTime": "2007-02-26",
+            "maxDepth": "2900",
+            "dataVolume": "N/A",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "SOPRAN: Mauritanian Upwelling Study 2007"
+        },
+        "Poseidon_Cruise_348": {
+            "class": "Station",
+            "stationID": "348",
+            "stationDate": "2007-02-08 to 2007-02-26",
+            "stationTime": "08:00 to 18:00"
+        },
+        "Test_Station_226": {
+            "class": "Station",
+            "stationID": "226",
+            "stationDate": "2007-02-12",
+            "stationTime": "08:30"
+        },
+        "CVTSS_Station_227": {
+            "class": "Station",
+            "stationID": "227",
+            "stationDate": "2007-02-13",
+            "stationTime": "14:47"
+        },
+        "Waypoint_226": {
+            "class": "Waypoint",
+            "locationName": "Test station",
+            "latitude": "17.26\u00b0N",
+            "longitude": "24.76\u00b0W",
+            "seabedDepth": "2900"
+        },
+        "Waypoint_227": {
+            "class": "Waypoint",
+            "locationName": "Cape Verde Time Series Station",
+            "latitude": "17.6\u00b0N",
+            "longitude": "24.3\u00b0W",
+            "seabedDepth": "3600"
+        },
+        "Waypoint_240": {
+            "class": "Waypoint",
+            "locationName": "Station 240",
+            "latitude": "19.00\u00b0N",
+            "longitude": "17.47\u00b0W",
+            "seabedDepth": "2400"
+        },
+        "Waypoint_241": {
+            "class": "Waypoint",
+            "locationName": "Station 241",
+            "latitude": "19.00\u00b0N",
+            "longitude": "17.30\u00b0W",
+            "seabedDepth": "2200"
+        },
+        "Waypoint_242": {
+            "class": "Waypoint",
+            "locationName": "Station 242",
+            "latitude": "19.00\u00b0N",
+            "longitude": "17.00\u00b0W",
+            "seabedDepth": "1200"
+        },
+        "Waypoint_243": {
+            "class": "Waypoint",
+            "locationName": "Station 243",
+            "latitude": "19.00\u00b0N",
+            "longitude": "16.33\u00b0W",
+            "seabedDepth": "60"
+        },
+        "Waypoint_244": {
+            "class": "Waypoint",
+            "locationName": "Station 244",
+            "latitude": "19.30\u00b0N",
+            "longitude": "17.30\u00b0W",
+            "seabedDepth": "100"
+        },
+        "Waypoint_246": {
+            "class": "Waypoint",
+            "locationName": "Station 246",
+            "latitude": "20.00\u00b0N",
+            "longitude": "18.00\u00b0W",
+            "seabedDepth": "1900"
+        },
+        "Waypoint_247": {
+            "class": "Waypoint",
+            "locationName": "Station 247",
+            "latitude": "20.00\u00b0N",
+            "longitude": "17.30\u00b0W",
+            "seabedDepth": "70"
+        },
+        "Waypoint_248": {
+            "class": "Waypoint",
+            "locationName": "Station 248",
+            "latitude": "20.00\u00b0N",
+            "longitude": "17.13\u00b0W",
+            "seabedDepth": "20"
+        },
+        "Waypoint_249": {
+            "class": "Waypoint",
+            "locationName": "Station 249",
+            "latitude": "20.29\u00b0N",
+            "longitude": "17.13\u00b0W",
+            "seabedDepth": "30"
+        },
+        "Dive 226": {
+            "class": "Task",
+            "hasDuration": 4.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 227": {
+            "class": "Task",
+            "hasDuration": 4.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 235": {
+            "class": "Task",
+            "hasDuration": 4.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 238": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 239": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 240": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 241": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 242": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 243": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 244": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 245": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 246": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 247": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 248": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 249": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Stat_226": {
+            "class": "State",
+            "has_Temperature": 17.15,
+            "has_Conductivity": 2900,
+            "has_Depth": 2926
+        },
+        "Stat_227": {
+            "class": "State",
+            "has_Temperature": 17.37,
+            "has_Conductivity": 3600,
+            "has_Depth": 3647
+        },
+        "Stat_228": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 3500,
+            "has_Depth": 3533
+        },
+        "Stat_229": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 3300,
+            "has_Depth": 762
+        },
+        "Stat_230": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 3000,
+            "has_Depth": 3099
+        },
+        "Stat_231": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 3200,
+            "has_Depth": 756
+        },
+        "Stat_232": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 3100,
+            "has_Depth": 3162
+        },
+        "Stat_233": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 2800,
+            "has_Depth": 2814
+        },
+        "Stat_234": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 2500,
+            "has_Depth": 2505
+        },
+        "Stat_235": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 1700,
+            "has_Depth": 1722
+        },
+        "Stat_236": {
+            "class": "State",
+            "has_Temperature": 18.0,
+            "has_Conductivity": 190,
+            "has_Depth": 186
+        },
+        "Stat_237": {
+            "class": "State",
+            "has_Temperature": 18.3,
+            "has_Conductivity": 100,
+            "has_Depth": 104
+        },
+        "Stat_238": {
+            "class": "State",
+            "has_Temperature": 18.3,
+            "has_Conductivity": 146,
+            "has_Depth": 1608
+        },
+        "Stat_239": {
+            "class": "State",
+            "has_Temperature": 18.3,
+            "has_Conductivity": 148,
+            "has_Depth": 2000
+        },
+        "Stat_240": {
+            "class": "State",
+            "has_Temperature": 19.0,
+            "has_Conductivity": 149,
+            "has_Depth": 2000
+        },
+        "Stat_241": {
+            "class": "State",
+            "has_Temperature": 19.0,
+            "has_Conductivity": 150,
+            "has_Depth": 2216
+        },
+        "Stat_242": {
+            "class": "State",
+            "has_Temperature": 19.0,
+            "has_Conductivity": 151,
+            "has_Depth": 1111
+        },
+        "Stat_243": {
+            "class": "State",
+            "has_Temperature": 19.0,
+            "has_Conductivity": 153,
+            "has_Depth": 60
+        },
+        "Stat_244": {
+            "class": "State",
+            "has_Temperature": 19.3,
+            "has_Conductivity": 154,
+            "has_Depth": 102
+        }
+    }
+}

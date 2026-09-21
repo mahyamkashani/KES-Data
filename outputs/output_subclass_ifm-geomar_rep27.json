@@ -1,0 +1,42 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "MUC",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "biogeochemical analysis"
+            },
+            {
+                "individual_name": "Pushcore",
+                "hasDuration": "not specified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "sediment"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "Genesis",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V PELAGIA",
+                "maxDepth": "not specified"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,226 @@
+{
+    "Individuals": {
+        "Mission_01": {
+            "class": "Mission",
+            "MissionID": "SO277",
+            "startTime": "2020-08-14T00:00:00Z",
+            "endTime": "2020-10-03T00:00:00Z",
+            "maxDepth": "2100",
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise SO277 conducted various oceanographic measurements."
+        },
+        "Mission_02": {
+            "class": "Mission",
+            "MissionID": "SO277_2-1",
+            "startTime": "2020-08-24T01:35:25Z",
+            "endTime": "2020-08-24T02:25:32Z",
+            "maxDepth": "1135.55",
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "CTD cast conducted at Etna."
+        },
+        "Mission_03": {
+            "class": "Mission",
+            "MissionID": "SO277_7-1",
+            "startTime": "2020-08-27T01:27:46Z",
+            "endTime": "2020-08-27T03:43:27Z",
+            "maxDepth": "258.66",
+            "dataVolume": "unknown",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "CTD measurements conducted off Gozo."
+        },
+        "VCTD_01": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 1118.6
+        },
+        "VCTD_02": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 184.2
+        },
+        "VCTD_03": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 67.7
+        },
+        "VCTD_04": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 116.6
+        },
+        "VCTD_05": {
+            "class": "Task",
+            "hasDuration": 6.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_06": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_07": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD1_1": {
+            "class": "Station",
+            "stationID": "VCTD1_1",
+            "stationDate": "14.09.2020",
+            "stationTime": "10:43:05"
+        },
+        "VCTD1_2": {
+            "class": "Station",
+            "stationID": "VCTD1_2",
+            "stationDate": "14.09.2020",
+            "stationTime": "14:27:04"
+        },
+        "VCTD1_3": {
+            "class": "Station",
+            "stationID": "VCTD1_3",
+            "stationDate": "14.09.2020",
+            "stationTime": "15:35:56"
+        },
+        "VCTD1_4A": {
+            "class": "Station",
+            "stationID": "VCTD1_4A",
+            "stationDate": "16.09.2020",
+            "stationTime": "13:39:11"
+        },
+        "VCTD1_5A": {
+            "class": "Station",
+            "stationID": "VCTD1_5A",
+            "stationDate": "17.09.2020",
+            "stationTime": "06:02:46"
+        },
+        "VCTD1_6": {
+            "class": "Station",
+            "stationID": "VCTD1_6",
+            "stationDate": "17.09.2020",
+            "stationTime": "10:19:21"
+        },
+        "VCTD1_7": {
+            "class": "Station",
+            "stationID": "VCTD1_7",
+            "stationDate": "18.09.2020",
+            "stationTime": "15:06:26"
+        },
+        "VCTD1_8": {
+            "class": "Station",
+            "stationID": "VCTD1_8",
+            "stationDate": "19.09.2020",
+            "stationTime": "07:02:02"
+        },
+        "VCTD1_9": {
+            "class": "Station",
+            "stationID": "VCTD1_9",
+            "stationDate": "19.09.2020",
+            "stationTime": "14:19:09"
+        },
+        "WP01": {
+            "class": "Waypoint",
+            "locationName": "WP01",
+            "latitude": 36.0416,
+            "longitude": 14.3521,
+            "seabedDepth": null
+        },
+        "WP02": {
+            "class": "Waypoint",
+            "locationName": "WP02",
+            "latitude": 36.0429,
+            "longitude": 14.3497,
+            "seabedDepth": null
+        },
+        "WP03": {
+            "class": "Waypoint",
+            "locationName": "WP03",
+            "latitude": 36.0441,
+            "longitude": 14.3474,
+            "seabedDepth": null
+        },
+        "WP04": {
+            "class": "Waypoint",
+            "locationName": "WP04",
+            "latitude": 36.0453,
+            "longitude": 14.3449,
+            "seabedDepth": null
+        },
+        "WP05": {
+            "class": "Waypoint",
+            "locationName": "WP05",
+            "latitude": 36.0465,
+            "longitude": 14.3424,
+            "seabedDepth": null
+        },
+        "WP06": {
+            "class": "Waypoint",
+            "locationName": "WP06",
+            "latitude": 36.0478,
+            "longitude": 14.34,
+            "seabedDepth": null
+        },
+        "WP29": {
+            "class": "Waypoint",
+            "locationName": "WP29",
+            "latitude": 36.0874,
+            "longitude": 14.3327,
+            "seabedDepth": null
+        },
+        "WP30": {
+            "class": "Waypoint",
+            "locationName": "WP30",
+            "latitude": 36.0884,
+            "longitude": 14.3312,
+            "seabedDepth": null
+        },
+        "WP31": {
+            "class": "Waypoint",
+            "locationName": "WP31",
+            "latitude": 36.0609,
+            "longitude": 14.3796,
+            "seabedDepth": null
+        },
+        "WP32": {
+            "class": "Waypoint",
+            "locationName": "WP32",
+            "latitude": 36.0599,
+            "longitude": 14.3827,
+            "seabedDepth": null
+        },
+        "WP33": {
+            "class": "Waypoint",
+            "locationName": "WP33",
+            "latitude": 36.0589,
+            "longitude": 14.3858,
+            "seabedDepth": null
+        },
+        "VCTD_08": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_09": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_10": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 34.5
+        },
+        "VCTD_12": {
+            "class": "State",
+            "has_Temperature": 27.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 63.4
+        }
+    }
+}

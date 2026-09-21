@@ -17,13 +17,45 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#goes_through">
-  <rdfs:domain rdf:resource="#Traversal"/>
-  <rdfs:range rdf:resource="#Waypoint"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Action"/>
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Traversal"/>
+        <rdf:Description rdf:about="#Waypoint"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Waypoint"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
+  <rdfs:label xml:lang="en">goes through</rdfs:label>
+  <core:definition xml:lang="en">The waypoints a route passes through. The route holder is a Traversal, or -- in reports where the leg is not reified -- the Mission itself, a planner Action, or the preceding Waypoint when stations are chained head-to-tail. The relata are Waypoints, or the survey sites modelled as sub-Missions. Domain and range are unions because Mission, Task and Waypoint are pairwise disjoint, so a single named class here would make any of those usages inconsistent rather than merely unintended.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasAction">
-  <rdfs:domain rdf:resource="#Task"/>
-  <rdfs:range rdf:resource="#Action"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Task"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Action"/>
+        <rdf:Description rdf:about="#Mission"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
   <owl:propertyChainAxiom>
     <rdf:Description>
       <rdf:first rdf:resource="#hasTask"/>
@@ -36,14 +68,30 @@
     </rdf:Description>
   </owl:propertyChainAxiom>
   <rdfs:label xml:lang="en">has action</rdfs:label>
-  <core:definition xml:lang="en">Derived: the primitive planner actions of a mission, via its tasks.</core:definition>
+  <core:definition xml:lang="en">Derived: the primitive planner actions of a mission, via its tasks. The domain must admit Mission as well as Task: the chain hasTask o realisedByAction starts at whatever holds hasTask, and that is a Mission in most reports, so a domain of Task alone contradicted the disjointness of Mission and Task.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasTask">
   <owl:inverseOf rdf:resource="#taskOf"/>
-  <rdfs:domain rdf:resource="#Mission"/>
-  <rdfs:range rdf:resource="#Task"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Platform"/>
+        <rdf:Description rdf:about="#Task"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Task"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
   <rdfs:label xml:lang="en">has task</rdfs:label>
+  <core:definition xml:lang="en">The units of work carried out under a mission. The holder is a Mission, a composite Task being decomposed, or the Platform the work is assigned to (a cruise report may hang dives off the vehicle rather than off the mission). The unit of work is a Task, or a station/profile sub-Mission -- cruise reports routinely model a station as a mission in its own right while it is also a task of the parent cruise. Domain and range are unions because Mission and Task are disjoint; a single named class here made the sub-mission pattern inconsistent.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#realisedByAction">
@@ -53,9 +101,25 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasDestination">
-  <rdfs:domain rdf:resource="#Traversal"/>
-  <rdfs:range rdf:resource="#Waypoint"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Action"/>
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Traversal"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Waypoint"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
   <rdfs:label xml:lang="en">has destination</rdfs:label>
+  <core:definition xml:lang="en">The end point of a route. Mirrors goes_through: the holder may be a Traversal, the Mission itself, or a planner Action, and the target may be a Waypoint or a survey site modelled as a sub-Mission.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasGoal">
@@ -105,28 +169,44 @@
 
 <owl:ObjectProperty rdf:about="#hasSensor">
   <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
-  <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:domain rdf:resource="#Platform"/>
+  <rdfs:range rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">has sensor</rdfs:label>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasSurface">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:domain rdf:resource="#Platform"/>
   <rdfs:range rdf:resource="#Terrain"/>
   <rdfs:label xml:lang="en">has surface</rdfs:label>
   <core:definition xml:lang="en">The ground class of a terrain area. Functional: one area has exactly one surface.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#taskOf">
-  <rdfs:domain rdf:resource="#Task"/>
-  <rdfs:range rdf:resource="#Action"/>
+  <rdfs:domain>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Task"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:domain>
+  <rdfs:range>
+    <owl:Class>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Mission"/>
+        <rdf:Description rdf:about="#Platform"/>
+        <rdf:Description rdf:about="#Task"/>
+      </owl:unionOf>
+    </owl:Class>
+  </rdfs:range>
   <rdfs:label xml:lang="en">task of</rdfs:label>
+  <core:definition xml:lang="en">Inverse of hasTask: the mission, parent task or platform this unit of work belongs to. Its range previously said Action, which contradicted the inverse and inferred every mission to be a planner Action; domain and range now mirror hasTask's range and domain.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#hasVehicle">
   <rdfs:domain rdf:resource="#Traversal"/>
-  <rdfs:range rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:range rdf:resource="#Platform"/>
   <rdfs:label xml:lang="en">has vehicle</rdfs:label>
 </owl:ObjectProperty>
 
@@ -134,6 +214,8 @@
   <rdfs:domain rdf:resource="#State"/>
   <rdfs:range rdf:resource="#Terrain"/>
 </owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#observes"/>
 
 <owl:ObjectProperty rdf:about="#onTerrain">
   <rdfs:domain rdf:resource="#Terrain"/>
@@ -151,27 +233,17 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#usesDevice">
-  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:domain rdf:resource="#Platform"/>
   <rdfs:range rdf:resource="#Vehicle"/>
   <rdfs:label xml:lang="en">uses device</rdfs:label>
   <core:definition xml:lang="en">Derived: the devices a mission uses, via the vehicles it uses (usesVehicle o hasDevice). Never asserted.</core:definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#usesVehicle">
-  <rdfs:domain rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:domain rdf:resource="#Platform"/>
   <rdfs:range rdf:resource="#Vehicle"/>
   <rdfs:label xml:lang="en">uses vehicle</rdfs:label>
 </owl:ObjectProperty>
-
-<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/hasResult"/>
-
-<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/madeBySensor"/>
-
-<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observedProperty"/>
-
-<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/observes"/>
-
-<owl:ObjectProperty rdf:about="http://www.w3.org/ns/sosa/usedProcedure"/>
 
 <owl:DatatypeProperty rdf:about="#MissionID">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
@@ -359,10 +431,17 @@
 
 <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
 
-<owl:AnnotationProperty rdf:about="http://www.w3.org/ns/sosa/resultTime"/>
-
 <owl:Class rdf:about="#Waypoint">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WayPoint</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Action">
+  <rdfs:label xml:lang="en">Action</rdfs:label>
+  <core:definition xml:lang="en">A primitive, executable vehicle operation - a durative-action schema in the PDDL planning domain (domain_55.pddl). Tasks are realised by sequences of Actions.</core:definition>
+</owl:Class>
+
+<owl:Class rdf:about="#Mission">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="#Traversal">
@@ -381,18 +460,13 @@
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Task</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#Action">
-  <rdfs:label xml:lang="en">Action</rdfs:label>
-  <core:definition xml:lang="en">A primitive, executable vehicle operation - a durative-action schema in the PDDL planning domain (domain_55.pddl). Tasks are realised by sequences of Actions.</core:definition>
+<owl:Class rdf:about="#Platform">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Platform</rdfs:label>
 </owl:Class>
 
-<owl:Class rdf:about="#Mission">
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mission</rdfs:label>
+<owl:Class rdf:about="#Sensor">
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensor</rdfs:label>
 </owl:Class>
-
-<owl:Class rdf:about="http://www.w3.org/ns/sosa/Platform"/>
-
-<owl:Class rdf:about="http://www.w3.org/ns/sosa/Sensor"/>
 
 <owl:Class rdf:about="#Terrain">
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terrain</rdfs:label>
@@ -403,13 +477,13 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Vehicle">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:subClassOf rdf:resource="#Platform"/>
   <rdfs:label xml:lang="en">Vehicle</rdfs:label>
   <core:definition xml:lang="en">A mobile or moored underwater platform used in a mission.</core:definition>
 </owl:Class>
 
 <owl:Class rdf:about="#ADCP">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">Acoustic Doppler Current Profiler</rdfs:label>
 </owl:Class>
 
@@ -419,16 +493,16 @@
 </owl:Class>
 
 <owl:Class rdf:about="#AcousticSensor">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">Acoustic Sensor</rdfs:label>
   <core:definition xml:lang="en">A sensor operating with sound (hydrophone, sonar, echosounder, sub-bottom profiler). Note: USBL/ADCP/DVL are acoustic too but are positioning/current instruments, deliberately NOT grouped here.</core:definition>
 </owl:Class>
 
 <owl:Class rdf:about="#BathymetricSensor">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:subClassOf>
     <owl:Restriction>
-      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:onProperty rdf:resource="#observes"/>
       <owl:hasValue rdf:resource="#Depth"/>
     </owl:Restriction>
   </rdfs:subClassOf>
@@ -447,22 +521,22 @@
 </owl:Class>
 
 <owl:Class rdf:about="#CTDSensor">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:subClassOf>
     <owl:Restriction>
-      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:onProperty rdf:resource="#observes"/>
       <owl:hasValue rdf:resource="#Conductivity"/>
     </owl:Restriction>
   </rdfs:subClassOf>
   <rdfs:subClassOf>
     <owl:Restriction>
-      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:onProperty rdf:resource="#observes"/>
       <owl:hasValue rdf:resource="#Depth"/>
     </owl:Restriction>
   </rdfs:subClassOf>
   <rdfs:subClassOf>
     <owl:Restriction>
-      <owl:onProperty rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+      <owl:onProperty rdf:resource="#observes"/>
       <owl:hasValue rdf:resource="#Temperature"/>
     </owl:Restriction>
   </rdfs:subClassOf>
@@ -476,13 +550,13 @@
 </owl:Class>
 
 <owl:Class rdf:about="#OpticalSensor">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">Optical Sensor</rdfs:label>
   <core:definition xml:lang="en">A sensor imaging with light (camera, hyperspectral, ...).</core:definition>
 </owl:Class>
 
 <owl:Class rdf:about="#DVL">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">Doppler Velocity Log</rdfs:label>
   <core:definition xml:lang="en">Bottom-lock sensor; locks only within dvl_range of the seabed.</core:definition>
 </owl:Class>
@@ -540,7 +614,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Ship">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:subClassOf rdf:resource="#Platform"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ship</rdfs:label>
 </owl:Class>
 
@@ -552,7 +626,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#Station">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+  <rdfs:subClassOf rdf:resource="#Platform"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station</rdfs:label>
 </owl:Class>
 
@@ -583,7 +657,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#USBL">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  <rdfs:subClassOf rdf:resource="#Sensor"/>
   <rdfs:label xml:lang="en">Ultra-Short BaseLine positioning</rdfs:label>
   <core:definition xml:lang="en">Acoustic position fix from the surface vessel; available anywhere in the water column.</core:definition>
 </owl:Class>
@@ -1004,23 +1078,6 @@
   <hasStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUCCESSFUL</hasStatus>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#SO201_1b">
-  <rdf:type rdf:resource="#Mission"/>
-  <hasTask rdf:resource="#KALMAR"/>
-  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO201-1b</stationID>
-  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.06.2009 - 06.07.2009</stationDate>
-  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:00 am</stationTime>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#KALMAR">
-  <rdf:type rdf:resource="#Task"/>
-  <hasAction rdf:resource="#Sampling"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sampling">
-  <rdf:type rdf:resource="#Action"/>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#SO201_Leg_1b">
   <rdf:type rdf:resource="#Bathymetric_Mission"/>
   <hasDurationText rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27 days</hasDurationText>
@@ -1266,6 +1323,13 @@
   <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR38</stationID>
   <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21.06.2009</stationDate>
   <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:47 hrs</stationTime>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#SO201_1b">
+  <rdf:type rdf:resource="#Station"/>
+  <stationID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO201-1b</stationID>
+  <stationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.06.2009 - 06.07.2009</stationDate>
+  <stationTime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:00 am</stationTime>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DR39">

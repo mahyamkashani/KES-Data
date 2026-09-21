@@ -13,6 +13,28 @@
         },
         "pattern02": {
             "Axioms": [
+                "SO277 hasTask SO277_4-1",
+                "SO277_4-1 hasAction AGSS"
+            ],
+            "Individuals": [
+                "SO277",
+                "SO277_4-1",
+                "AGSS"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO277 hasTask SO277_3-5",
+                "SO277_3-5 hasAction AGSS"
+            ],
+            "Individuals": [
+                "SO277",
+                "SO277_3-5",
+                "AGSS"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
                 "SO277 hasTask Station_06",
                 "Station_06 hasAction CTD_02",
                 "SO277 hasTask Station_13",

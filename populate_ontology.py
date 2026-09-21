@@ -19,7 +19,7 @@ _args = [a for a in sys.argv[1:] if not a.startswith("--")]
 _opts = dict(a[2:].split("=", 1) for a in sys.argv[1:] if a.startswith("--") and "=" in a)
 SOURCE = os.path.abspath(_opts.get(
     "source", os.path.join(HERE, "Ontology", "new", "marine_report.rdf")))
-_DEFAULT_DOC = "AL374 CR ifm-geomar_rep51-1"#"ifm-geomar_rep10"
+_DEFAULT_DOC = "geomar_rep_ns_57_2021_compressed"#"ifm-geomar_rep10"
 AXIOMS = _args if _args else [
     os.path.join(HERE, "outputs", "", f"output_{pattern}_{_DEFAULT_DOC}.json")
     for pattern in ("binary", "subclass", "attributes", "nary")

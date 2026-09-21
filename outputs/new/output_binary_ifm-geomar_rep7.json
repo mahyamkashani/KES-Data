@@ -23,22 +23,32 @@
         {
             "INDIVIDUAL": [
                 "R/V METEOR",
-                "EM710"
-            ],
-            "OBJECT_PROPERTY": "hasSensor",
-            "DOMAIN": "Vehicle",
-            "RANGE": "MBES",
-            "AXIOM": "R/V METEOR hasSensor EM710"
-        },
-        {
-            "INDIVIDUAL": [
-                "R/V METEOR",
-                "ATLAS PARASOUND"
+                "PARASOUND"
             ],
             "OBJECT_PROPERTY": "hasSensor",
             "DOMAIN": "Vehicle",
             "RANGE": "Echosounder",
-            "AXIOM": "R/V METEOR hasSensor ATLAS PARASOUND"
+            "AXIOM": "R/V METEOR hasSensor PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "KONGSBERG EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor KONGSBERG EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "KONGSBERG EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor KONGSBERG EM710"
         },
         {
             "INDIVIDUAL": [

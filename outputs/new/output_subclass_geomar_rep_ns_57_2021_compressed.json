@@ -2,7 +2,13 @@
     "Task": {
         "SurveyMission": [],
         "Bathymetric_Mission": [],
-        "CTDMission": [],
+        "CTDMission": [
+            {
+                "individual_name": "CTD",
+                "hasDuration": "00:15:27",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
         "Data_Sampling_Mission": [],
         "TrialMission": [],
         "Traversal": []
@@ -39,13 +45,6 @@
                 "stationTime": "01:35:25"
             },
             {
-                "individual_name": "SO277_3-1",
-                "stationID": "SO277_3-1",
-                "stationName": "AGSS",
-                "stationDate": "24.8.2020",
-                "stationTime": "06:30:30"
-            },
-            {
                 "individual_name": "SO277_7-1",
                 "stationID": "SO277_7-1",
                 "stationName": "CTD",
@@ -58,6 +57,13 @@
                 "stationName": "AUV_L",
                 "stationDate": "27.8.2020",
                 "stationTime": "05:52:48"
+            },
+            {
+                "individual_name": "SO277_18-1",
+                "stationID": "SO277_18-1",
+                "stationName": "AUV_L",
+                "stationDate": "09.9.2020",
+                "stationTime": "10:58:01"
             }
         ]
     }

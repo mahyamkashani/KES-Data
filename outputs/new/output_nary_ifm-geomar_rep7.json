@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "M67-1 hasTask Area_1"
+            ],
+            "Individuals": [
+                "M67-1",
+                "Area_1"
+            ]
+        }
+    }
+}

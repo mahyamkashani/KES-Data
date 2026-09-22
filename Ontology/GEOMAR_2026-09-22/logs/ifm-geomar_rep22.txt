@@ -1,0 +1,130 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 41
+
+created 26 individuals:
+  + ATA10CTD : Vehicle
+  + CTD : CTDSensor
+  + ATA13ROV : Task
+  + ATA15ROV : Task
+  + ATA17ROV : Task
+  + ATA21ROV : Task
+  + ATA24ROV : Task
+  + ATA27ROV : Task
+  + ATA30ROV : Task
+  + ATA08MAPR : Station
+  + ROV_KIEL_6000 : Remotely_Operated_Vehicle
+  + l_Atalante : Ship
+  + HYDROMAR_V : Mission
+  + ATA01CTD : Station
+  + ATA09ROV : Task
+  + ATA12CTD : Station
+  + ATA14CTD : Station
+  + ATA18CTD : State
+  + ATA25CTD : Station
+  + ATA28CTD : State
+  + ATA29CTD : Station
+  + Logatchev : Waypoint
+  + Irina_II : Waypoint
+  + Quest : Waypoint
+  + Anna_Louise : Waypoint
+  + ATA19CTD : State
+
+asserted 69 axioms:
+  + ATA10CTD hasSensor CTD
+  + ATA13ROV hasDuration 3.27
+  + ATA13ROV hasStatus SUCCESSFUL
+  + ATA15ROV hasDuration 6.49
+  + ATA15ROV hasStatus SUCCESSFUL
+  + ATA17ROV hasDuration 7.3
+  + ATA17ROV hasStatus SUCCESSFUL
+  + ATA21ROV hasDuration 8.25
+  + ATA21ROV hasStatus SUCCESSFUL
+  + ATA24ROV hasDuration 9.03
+  + ATA24ROV hasStatus SUCCESSFUL
+  + ATA27ROV hasDuration 9.2
+  + ATA27ROV hasStatus SUCCESSFUL
+  + ATA30ROV hasDuration 5.52
+  + ATA30ROV hasStatus SUCCESSFUL
+  + ATA08MAPR stationID ATA08MAPR
+  + ATA08MAPR stationDate 2007-12-17
+  + ATA08MAPR stationTime 00:57-09:09
+  + ROV_KIEL_6000 maxDepthText 6000m   [maxDepth could not take it]
+  + l_Atalante maxDepthText not specified   [maxDepth could not take it]
+  + HYDROMAR_V MissionID HYDROMAR V
+  + HYDROMAR_V startTime 04.12.2007
+  + HYDROMAR_V endTime 02.01.2008
+  + HYDROMAR_V maxDepthText 5300 m   [maxDepth could not take it]
+  + HYDROMAR_V dataVolume 170 l
+  + HYDROMAR_V hasStatus SUCCESSFUL
+  + HYDROMAR_V remark Cruise report of R/V l’Atalante
+  + ATA01CTD stationID ATA01CTD
+  + ATA01CTD stationDate 2007-12-16
+  + ATA01CTD stationTime 09:29-10:55
+  + ATA09ROV hasDuration 3.85
+  + ATA09ROV hasStatus SUCCESSFUL
+  + ATA10CTD stationID ATA10CTD
+  + ATA10CTD stationDate 2007-12-18
+  + ATA10CTD stationTime 20:39-00:18
+  + ATA12CTD stationID ATA12CTD
+  + ATA12CTD stationDate 2007-12-18
+  + ATA12CTD stationTime 07:03-09:11
+  + ATA14CTD stationID ATA14CTD
+  + ATA14CTD stationDate 2007-12-20
+  + ATA14CTD stationTime 21:37-09:00
+  + ATA18CTD has_Temperature 400
+  + ATA18CTD has_Depth 2200
+  + ATA25CTD stationID ATA25CTD
+  + ATA25CTD stationDate 2007-12-23
+  + ATA25CTD stationTime 23:55-02:40
+  + ATA28CTD has_Temperature 375
+  + ATA28CTD has_Depth 2200
+  + ATA29CTD stationID ATA29CTD
+  + ATA29CTD stationDate 2007-12-24
+  + ATA29CTD stationTime 04:37-07:01
+  + Logatchev locationName Logatchev hydrothermal field
+  + Logatchev latitude 14°45.30'N
+  + Logatchev longitude 44°58.80'W
+  + Logatchev seabedDepthText 1600m   [seabedDepth could not take it]
+  + Irina_II locationName Irina II
+  + Irina_II latitude 14°45.17'N
+  + Irina_II longitude 44°58.75'W
+  + Irina_II seabedDepthText 2928m   [seabedDepth could not take it]
+  + Quest locationName Quest
+  + Quest latitude 14°45.19'N
+  + Quest longitude 44°58.77'W
+  + Quest seabedDepthText 3035m   [seabedDepth could not take it]
+  + Anna_Louise locationName Anna Louise
+  + Anna_Louise latitude 14°45.06'N
+  + Anna_Louise longitude 44°58.64'W
+  + Anna_Louise seabedDepthText 2938m   [seabedDepth could not take it]
+  + ATA19CTD has_Temperature 375
+  + ATA19CTD has_Depth 2200
+
+skipped 24 excluded axioms:
+  - ATA21ROV hasSensor OBT   [class OceanBottomTiltmeter not in ontology]
+  - ATA21ROV hasSensor OBA   [class OceanBottomAccelerometer not in ontology]
+  - ATA21ROV hasSensor OBP   [class OceanBottomPressuremeter not in ontology]
+  - ATA21ROV hasSensor KIPS   [class FluidSamplingSystem not in ontology]
+  - ATA21ROV hasSensor He-sampler   [class FluidSampler not in ontology]
+  - ATA21ROV hasSensor Push cores   [class SamplingTool not in ontology]
+  - ATA21ROV hasSensor Nets for biological sampling   [class BiologicalSamplingTool not in ontology]
+  - HYDROMAR_V hasTask ATA09ROV   [hasTask has no single named domain/range to type from]
+  - ATA09ROV hasAction Dive   [hasAction has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA13ROV   [hasTask has no single named domain/range to type from]
+  - ATA13ROV hasAction Dive   [hasAction has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA15ROV   [hasTask has no single named domain/range to type from]
+  - ATA15ROV hasAction Dive   [hasAction has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA30ROV   [hasTask has no single named domain/range to type from]
+  - ATA30ROV hasAction Dive   [hasAction has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA09ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA13ROV   [hasTask has no single named domain/range to type from]
+  - ATA13ROV hasDestination Anna_Louise   [hasDestination has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA15ROV   [hasTask has no single named domain/range to type from]
+  - ATA15ROV hasDestination Quest   [hasDestination has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA17ROV   [hasTask has no single named domain/range to type from]
+  - ATA17ROV hasDestination Irina_II   [hasDestination has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA21ROV   [hasTask has no single named domain/range to type from]
+  - ATA21ROV hasDestination Quest   [hasDestination has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep22.rdf

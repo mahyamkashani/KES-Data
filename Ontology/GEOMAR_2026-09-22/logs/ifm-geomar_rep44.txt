@@ -1,0 +1,270 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 81
+
+created 66 individuals:
+  + Parasound_P70 : Vehicle
+  + RV_SONNE : Echosounder
+  + Kongsberg_EM120 : Vehicle
+  + KIEL_6000 : Vehicle
+  + Dive_108 : Task
+  + Kongsberg_EM120_Multibeam_Bathymetry_System : Bathymetric_Mission
+  + ROV_Operations : Data_Sampling_Mission
+  + Lander_Operations : Data_Sampling_Mission
+  + TV_Grab_Operations : Data_Sampling_Mission
+  + ROV_Deployment_and_Sampling : TrialMission
+  + CMSA_Box_1 : Station
+  + CMSA_Box_2 : Station
+  + CMSA_Box_4 : Station
+  + Mission_01 : Mission
+  + Station_1 : Station
+  + Station_2 : Station
+  + Station_3 : Station
+  + Station_4 : Station
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_7 : Station
+  + Station_8 : Station
+  + Station_9 : Station
+  + Station_10 : Station
+  + Station_11 : Station
+  + Station_12 : Station
+  + Station_13 : Station
+  + Station_14 : Station
+  + Station_15 : Station
+  + Station_16 : Station
+  + Station_17 : Station
+  + Station_18 : Station
+  + Station_19 : Station
+  + Station_20 : Station
+  + Station_21 : Station
+  + Station_22 : Station
+  + Station_23 : Station
+  + Station_24 : Station
+  + Station_25 : Station
+  + Station_26 : Station
+  + Station_27 : Station
+  + Station_28 : Station
+  + Station_29 : Station
+  + Station_30 : Station
+  + Station_31 : Station
+  + Station_32 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + ROV_1 : Task
+  + ROV_2 : Task
+  + ROV_5 : Task
+  + ROV_6 : Task
+  + ROV_7 : Task
+  + ROV_8 : Task
+  + ROV_9 : Task
+  + ROV_10 : Task
+  + GC_01 : State
+  + GC_04 : State
+  + GC_06 : State
+  + GC_07 : State
+  + MUC_01 : State
+  + ROV_02_PC02 : State
+  + ROV_02_PC05 : State
+  + ROV_02_PC16 : State
+  + GC_11 : State
+  + ROV_05_PC05 : State
+
+asserted 168 axioms:
+  + Parasound_P70 hasSensor RV_SONNE
+  + Kongsberg_EM120 hasSensor RV_SONNE
+  + KIEL_6000 hasSensor RV_SONNE
+  + Dive_108 hasAction Act_TakePhoto
+  + Dive_108 hasAction Act_DeepDive
+  + Kongsberg_EM120_Multibeam_Bathymetry_System hasDurationText not specified   [hasDuration could not take it]
+  + Kongsberg_EM120_Multibeam_Bathymetry_System hasStatus SUCCESSFUL
+  + ROV_Operations hasDurationText not specified   [hasDuration could not take it]
+  + ROV_Operations hasStatus SUCCESSFUL
+  + ROV_Operations collect_sample yes
+  + Lander_Operations hasDurationText not specified   [hasDuration could not take it]
+  + Lander_Operations hasStatus SUCCESSFUL
+  + Lander_Operations collect_sample yes
+  + TV_Grab_Operations hasDurationText not specified   [hasDuration could not take it]
+  + TV_Grab_Operations hasStatus SUCCESSFUL
+  + TV_Grab_Operations collect_sample yes
+  + ROV_Deployment_and_Sampling hasDurationText not specified   [hasDuration could not take it]
+  + ROV_Deployment_and_Sampling hasStatus SUCCESSFUL
+  + KIEL_6000 maxDepthText 6000 m   [maxDepth could not take it]
+  + CMSA_Box_1 stationID 1
+  + CMSA_Box_1 stationName CMSA Box 1
+  + CMSA_Box_1 stationDate 2010-10-03
+  + CMSA_Box_1 stationTime 17:00
+  + CMSA_Box_2 stationID 2
+  + CMSA_Box_2 stationName CMSA Box 2
+  + CMSA_Box_2 stationDate 2010-10-04
+  + CMSA_Box_2 stationTime 14:21
+  + CMSA_Box_4 stationID 4
+  + CMSA_Box_4 stationName CMSA Box 4
+  + CMSA_Box_4 stationDate 2010-10-05
+  + CMSA_Box_4 stationTime 12:45
+  + Mission_01 MissionID SO210
+  + Mission_01 startTime 26.09.2010
+  + Mission_01 endTime 28.10.2010
+  + Mission_01 maxDepthText 5988 m   [maxDepth could not take it]
+  + Mission_01 dataVolume large amounts of data
+  + Mission_01 hasStatus SUCCESSFUL
+  + Mission_01 remark Cruise report for SONNE 210/CHIFLUX
+  + Station_1 stationID 1
+  + Station_1 stationDate 26.09.10
+  + Station_1 stationTime 10:20
+  + Station_2 stationID 2
+  + Station_2 stationDate 26.09.10
+  + Station_2 stationTime 17:00
+  + Station_3 stationID 3
+  + Station_3 stationDate 27.09.10
+  + Station_3 stationTime 1:00
+  + Station_4 stationID 4
+  + Station_4 stationDate 28.09.10
+  + Station_4 stationTime 2:41
+  + Station_5 stationID 5
+  + Station_5 stationDate 28.09.10
+  + Station_5 stationTime 10:34
+  + Station_6 stationID 6
+  + Station_6 stationDate 01.10.10
+  + Station_6 stationTime 10:16
+  + Station_7 stationID 7
+  + Station_7 stationDate 01.10.10
+  + Station_7 stationTime 19:25
+  + Station_8 stationID 8
+  + Station_8 stationDate 05.10.10
+  + Station_8 stationTime 10:30
+  + Station_9 stationID 9
+  + Station_9 stationDate 06.10.10
+  + Station_9 stationTime 1:36
+  + Station_10 stationID 10
+  + Station_10 stationDate 06.10.10
+  + Station_10 stationTime 10:30
+  + Station_11 stationID 11
+  + Station_11 stationDate 07.10.10
+  + Station_11 stationTime 2:06
+  + Station_12 stationID 12
+  + Station_12 stationDate 07.10.10
+  + Station_12 stationTime 3:45
+  + Station_13 stationID 13
+  + Station_13 stationDate 07.10.10
+  + Station_13 stationTime 10:30
+  + Station_14 stationID 14
+  + Station_14 stationDate 07.10.10
+  + Station_14 stationTime 22:35
+  + Station_15 stationID 15
+  + Station_15 stationDate 08.10.10
+  + Station_15 stationTime 15:43
+  + Station_16 stationID 16
+  + Station_16 stationDate 08.10.10
+  + Station_16 stationTime 23:50
+  + Station_17 stationID 17
+  + Station_17 stationDate 13.10.10
+  + Station_17 stationTime 20:33
+  + Station_18 stationID 18
+  + Station_18 stationDate 14.10.10
+  + Station_18 stationTime 19:50
+  + Station_19 stationID 19
+  + Station_19 stationDate 14.10.10
+  + Station_19 stationTime 23:02
+  + Station_20 stationID 20
+  + Station_20 stationDate 17.10.10
+  + Station_20 stationTime 10:04
+  + Station_21 stationID 21
+  + Station_21 stationDate 19.10.10
+  + Station_21 stationTime 2:07
+  + Station_22 stationID 22
+  + Station_22 stationDate 19.10.10
+  + Station_22 stationTime 5:00
+  + Station_23 stationID 23
+  + Station_23 stationDate 23.10.10
+  + Station_23 stationTime 0:10
+  + Station_24 stationID 24
+  + Station_24 stationDate 23.10.10
+  + Station_24 stationTime 3:10
+  + Station_25 stationID 25
+  + Station_25 stationDate 24.10.10
+  + Station_25 stationTime 2:20
+  + Station_26 stationID 26
+  + Station_26 stationDate 24.10.10
+  + Station_26 stationTime 3:31
+  + Station_27 stationID 27
+  + Station_27 stationDate 24.10.10
+  + Station_27 stationTime 4:56
+  + Station_28 stationID 28
+  + Station_28 stationDate 24.10.10
+  + Station_28 stationTime 8:38
+  + Station_29 stationID 29
+  + Station_29 stationDate 24.10.10
+  + Station_29 stationTime 13:41
+  + Station_30 stationID 30
+  + Station_30 stationDate 25.10.10
+  + Station_30 stationTime 0:25
+  + Station_31 stationID 31
+  + Station_31 stationDate 28.10.10
+  + Station_31 stationTime 9:05
+  + Station_32 stationID 32
+  + Station_32 stationDate 28.10.10
+  + Station_32 stationTime 13:42
+  + Waypoint_01 locationName Concepcion Bay
+  + Waypoint_01 latitude -36.367
+  + Waypoint_01 longitude -73.617
+  + Waypoint_01 seabedDepthText 740-870 m   [seabedDepth could not take it]
+  + Waypoint_02 locationName CMSA Box 4
+  + Waypoint_02 latitude -36.381
+  + Waypoint_02 longitude -73.712
+  + Waypoint_02 seabedDepthText 680 m   [seabedDepth could not take it]
+  + ROV_1 hasDuration 0.5
+  + ROV_1 hasStatus SUCCESSFUL
+  + ROV_2 hasDuration 1.5
+  + ROV_2 hasStatus SUCCESSFUL
+  + ROV_5 hasDuration 1.5
+  + ROV_5 hasStatus SUCCESSFUL
+  + ROV_6 hasDuration 1.5
+  + ROV_6 hasStatus SUCCESSFUL
+  + ROV_7 hasDuration 1.5
+  + ROV_7 hasStatus SUCCESSFUL
+  + ROV_8 hasDuration 1.5
+  + ROV_8 hasStatus SUCCESSFUL
+  + ROV_9 hasDuration 1.5
+  + ROV_9 hasStatus SUCCESSFUL
+  + ROV_10 hasDuration 1.5
+  + ROV_10 hasStatus SUCCESSFUL
+  + GC_01 has_Depth 3785
+  + GC_04 has_Depth 4306
+  + GC_06 has_Depth 4387
+  + GC_07 has_Depth 4043
+  + MUC_01 has_Depth 700
+  + ROV_02_PC02 has_Depth 680
+  + ROV_02_PC05 has_Depth 682
+  + ROV_02_PC16 has_Depth 681
+  + GC_11 has_Depth 1448
+  + ROV_05_PC05 has_Depth 707
+
+skipped 25 excluded axioms:
+  - SO210 hasTask GC_8   [hasTask has no single named domain/range to type from]
+  - GC_8 hasAction ROV_3   [hasAction has no single named domain/range to type from]
+  - GC_8 hasDestination CMSA_BOX_2   [hasDestination has no single named domain/range to type from]
+  - SO210 hasTask GC_9   [hasTask has no single named domain/range to type from]
+  - GC_9 hasAction ROV_4   [hasAction has no single named domain/range to type from]
+  - GC_01 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - GC_01 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - GC_04 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - GC_04 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - GC_06 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - GC_06 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - GC_07 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - GC_07 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - MUC_01 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - MUC_01 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC02 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC02 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC05 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC05 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC16 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - ROV_02_PC16 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - GC_11 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - GC_11 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - ROV_05_PC05 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - ROV_05_PC05 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep44.rdf

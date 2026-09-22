@@ -1,0 +1,153 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 48
+
+created 33 individuals:
+  + JAGO : Vehicle
+  + Imagenex_837B_Delta_T : MBES
+  + CoraMo_MK2 : Camera
+  + ANTON : Vehicle
+  + Dive_1427 : Action
+  + Station_5_1 : Task
+  + Station_11_1 : Task
+  + Station_14_1 : Task
+  + Station_17_1 : Task
+  + Action_1 : Traversal
+  + LUISE : Platform
+  + FS_ALKOR : Ship
+  + Station_1 : Station
+  + Station_2 : Station
+  + Station_3 : Station
+  + Station_4 : Station
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_7 : Station
+  + Station_8 : Station
+  + Station_9 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + Waypoint_03 : Waypoint
+  + Waypoint_04 : Waypoint
+  + Waypoint_05 : Waypoint
+  + Waypoint_06 : Waypoint
+  + Waypoint_07 : Waypoint
+  + Dive_1426 : Task
+  + Dive_1428 : Task
+  + Dive_1429 : Task
+  + Dive_1430 : Task
+  + Dive_1431 : Task
+
+asserted 107 axioms:
+  + JAGO hasSensor Imagenex_837B_Delta_T
+  + JAGO hasSensor CoraMo_MK2
+  + ANTON hasSensor CoraMo_MK2
+  + ANTON hasAction Dive_1427
+  + ANTON hasAction Dive_1427
+  + JAGO hasAction Dive_1427
+  + JAGO hasAction Dive_1427
+  + ANTON hasTask Station_5_1
+  + ANTON hasTask Station_11_1
+  + ANTON hasTask Station_14_1
+  + ANTON hasTask Station_17_1
+  + Action_1 hasVehicle JAGO
+  + Action_1 hasVehicle ANTON
+  + Action_1 hasVehicle LUISE
+  + ANTON has_Temperature 15.0647
+  + ANTON has_Conductivity 4.61967
+  + ANTON has_Depth 500
+  + LUISE has_Temperature 15.0647
+  + LUISE has_Conductivity 4.61967
+  + LUISE has_Depth 500
+  + JAGO has_Temperature 15.0647
+  + JAGO has_Conductivity 4.61967
+  + JAGO has_Depth 310
+  + FS_ALKOR maxDepthText N/A   [maxDepth could not take it]
+  + Station_5_1 stationID AL533_5-1
+  + Station_5_1 stationName Panarea
+  + Station_5_1 stationDate 08.02.2020
+  + Station_5_1 stationTime 12:20
+  + Station_11_1 stationID AL533_11-1
+  + Station_11_1 stationName N/A
+  + Station_11_1 stationDate 12.02.2020
+  + Station_11_1 stationTime 12:29
+  + Station_14_1 stationID AL533_14-1
+  + Station_14_1 stationName N/A
+  + Station_14_1 stationDate 13.02.2020
+  + Station_14_1 stationTime N/A
+  + Station_17_1 stationID AL533_17-1
+  + Station_17_1 stationName N/A
+  + Station_17_1 stationDate 15.02.2020
+  + Station_17_1 stationTime 07:20
+  + Station_1 stationID AL533_1-1
+  + Station_1 stationDate 07.02.2020
+  + Station_1 stationTime 11:29
+  + Station_2 stationID AL533_2-1
+  + Station_2 stationDate 07.02.2020
+  + Station_2 stationTime 11:49
+  + Station_3 stationID AL533_3-1
+  + Station_3 stationDate 07.02.2020
+  + Station_3 stationTime 13:02
+  + Station_4 stationID AL533_9-2
+  + Station_4 stationDate 10.02.2020
+  + Station_4 stationTime 10:13
+  + Station_5 stationID AL533_10-1
+  + Station_5 stationDate 10.02.2020
+  + Station_5 stationTime 12:34
+  + Station_6 stationID AL533_11-1
+  + Station_6 stationDate 12.02.2020
+  + Station_6 stationTime 09:14
+  + Station_7 stationID AL533_12-1
+  + Station_7 stationDate 12.02.2020
+  + Station_7 stationTime 12:06
+  + Station_8 stationID AL533_15-2
+  + Station_8 stationDate 13.02.2020
+  + Station_8 stationTime 12:08
+  + Station_9 stationID AL533_16-2
+  + Station_9 stationDate 14.02.2020
+  + Station_9 stationTime 05:22
+  + Waypoint_01 locationName Baia di Levante between Punta Roja and Punta Luccia of Vulcano island
+  + Waypoint_01 latitude 38°24.70'N
+  + Waypoint_01 longitude 14°58.56'E
+  + Waypoint_01 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_02 locationName off the east coast of Lipari Island
+  + Waypoint_02 latitude 38°26.45'N
+  + Waypoint_02 longitude 14°58.12'E
+  + Waypoint_02 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_03 locationName off Panarea island
+  + Waypoint_03 latitude 38°38.62'N
+  + Waypoint_03 longitude 15°05.18'E
+  + Waypoint_03 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_04 locationName off the Sciara del Fuoco, the northwest slope of the active Stromboli volcano
+  + Waypoint_04 latitude 38°48.19'N
+  + Waypoint_04 longitude 15°12.15'E
+  + Waypoint_04 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_05 locationName Vulcano, La Fossa Caldera, Punta Roia lava flow
+  + Waypoint_05 latitude 38°24.71'
+  + Waypoint_05 longitude 14°58.70'
+  + Waypoint_05 seabedDepthText 204 m   [seabedDepth could not take it]
+  + Waypoint_06 locationName Vulcano, La Fossa Caldera, Punte Nere lava flows
+  + Waypoint_06 latitude 38°24.75'
+  + Waypoint_06 longitude 14°58.50'
+  + Waypoint_06 seabedDepthText 145 m   [seabedDepth could not take it]
+  + Waypoint_07 locationName Pillow lava field between Vulcanello and Lipari
+  + Waypoint_07 latitude 38°26.45'
+  + Waypoint_07 longitude 14°58.12'
+  + Waypoint_07 seabedDepthText 288 m   [seabedDepth could not take it]
+  + Dive_1426 hasDuration 1.0
+  + Dive_1426 hasStatus FAILED
+  + Dive_1427 hasDuration 1.0
+  + Dive_1427 hasStatus SUCCESSFUL
+  + Dive_1428 hasDuration 1.0
+  + Dive_1428 hasStatus SUCCESSFUL
+  + Dive_1429 hasDuration 1.0
+  + Dive_1429 hasStatus SUCCESSFUL
+  + Dive_1430 hasDuration 1.0
+  + Dive_1430 hasStatus SUCCESSFUL
+  + Dive_1431 hasDuration 1.0
+  + Dive_1431 hasStatus SUCCESSFUL
+
+skipped 2 excluded axioms:
+  - AL533 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_geomar_rep_ns_55_2020-highlight.rdf

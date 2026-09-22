@@ -1,0 +1,339 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 99
+
+created 84 individuals:
+  + RRS_JAMES_COOK : Ship
+  + JC23 : Mission
+  + EM_710 : MBES
+  + OBS805 : Hydrophone
+  + OBS806 : Hydrophone
+  + OBS807 : Hydrophone
+  + Bathymetric_Survey : Bathymetric_Mission
+  + RRS_James_Cook : Ship
+  + Mission_01 : Mission
+  + Mission_02 : Mission
+  + OBH102 : Station
+  + OBS103 : Station
+  + OBS104 : Station
+  + OBS105 : Station
+  + OBS106 : Station
+  + OBS107 : Station
+  + OBM108 : Station
+  + OBH122 : Station
+  + OBS123 : Station
+  + OBH202 : Station
+  + OBS203 : Station
+  + OBS204 : Station
+  + OBS205 : Station
+  + OBS206 : Station
+  + OBS207 : Station
+  + Core_Position_GC01 : Waypoint
+  + Core_Position_GC02 : Waypoint
+  + Core_Position_GC03 : Waypoint
+  + Core_Position_GC04 : Waypoint
+  + Core_Position_GC05 : Waypoint
+  + Core_Position_GC06 : Waypoint
+  + Core_Position_GC07 : Waypoint
+  + Core_Position_GC08 : Waypoint
+  + Core_Position_GC09 : Waypoint
+  + OBS_701 : Task
+  + OBS_702 : Task
+  + OBS_703 : Task
+  + OBS_704 : Task
+  + OBS_705 : Task
+  + OBS_706 : Task
+  + OBS_707 : Task
+  + OBS_708 : Task
+  + OBS_709 : Task
+  + OBS_710 : Task
+  + OBS_711 : Task
+  + OBS_712 : Task
+  + OBS_713 : Task
+  + OBS_714 : Task
+  + OBS_715 : Task
+  + OBS_716 : Task
+  + OBS_717 : Task
+  + OBS_718 : Task
+  + OBS_719 : Task
+  + OBS_720 : Task
+  + OBS_721 : Task
+  + OBS_722 : Task
+  + OBS_723 : Task
+  + OBS_724 : Task
+  + OBS_725 : Task
+  + OBS_726 : Task
+  + OBS_727 : Task
+  + OBS_728 : Task
+  + OBS_729 : Task
+  + OBS_730 : Task
+  + OBS_731 : Task
+  + OBS_732 : Task
+  + OBS_733 : Task
+  + OBS_734 : Task
+  + OBS_735 : Task
+  + OBS_736 : Task
+  + OBS_737 : Task
+  + OBS_738 : Task
+  + OBS_739 : Task
+  + OBS_740 : Task
+  + OBS_741 : Task
+  + OBS_742 : Task
+  + OBS_743 : Task
+  + OBS_744 : Task
+  + OBS_745 : Task
+  + OBS_746 : Task
+  + OBS_747 : Task
+  + OBS_748 : Task
+  + OBS_749 : Task
+  + OBS_750 : Task
+
+asserted 203 axioms:
+  + RRS_JAMES_COOK hasMission JC23
+  + RRS_JAMES_COOK hasSensor EM_710
+  + RRS_JAMES_COOK hasSensor OBS805
+  + RRS_JAMES_COOK hasSensor OBS806
+  + RRS_JAMES_COOK hasSensor OBS807
+  + Bathymetric_Survey hasDurationText From 30th March to 1st April   [hasDuration could not take it]
+  + Bathymetric_Survey hasStatus SUCCESSFUL
+  + RRS_James_Cook maxDepthText 2000 m   [maxDepth could not take it]
+  + Mission_01 MissionID JC23 - Profile 01
+  + Mission_01 startTime 2008-04-08T12:30:00Z
+  + Mission_01 endTime 2008-04-09T17:00:00Z
+  + Mission_01 maxDepth 1700
+  + Mission_01 dataVolume 5 parallel profiles
+  + Mission_01 hasStatus SUCCESSFUL
+  + Mission_01 remark Survey targeted a submarine landslide
+  + Mission_02 MissionID JC23 - Profile 02
+  + Mission_02 startTime 2008-03-11T00:00:00Z
+  + Mission_02 endTime 2008-03-15T00:00:00Z
+  + Mission_02 maxDepth 477
+  + Mission_02 dataVolume 7 profiles
+  + Mission_02 hasStatus SUCCESSFUL
+  + Mission_02 remark Survey conducted in various locations
+  + OBH102 stationID OBH102
+  + OBH102 stationDate 07.03.08
+  + OBH102 stationTime 01:00
+  + OBS103 stationID OBS103
+  + OBS103 stationDate 07.03.08
+  + OBS103 stationTime 08:30
+  + OBS104 stationID OBS104
+  + OBS104 stationDate 07.03.08
+  + OBS104 stationTime 14:00
+  + OBS105 stationID OBS105
+  + OBS105 stationDate 07.03.08
+  + OBS105 stationTime 12:00
+  + OBS106 stationID OBS106
+  + OBS106 stationDate 07.03.08
+  + OBS106 stationTime 10:30
+  + OBS107 stationID OBS107
+  + OBS107 stationDate 07.03.08
+  + OBS107 stationTime 13:30
+  + OBM108 stationID OBM108
+  + OBM108 stationDate 07.03.08
+  + OBM108 stationTime 12:30
+  + OBH122 stationID OBH122
+  + OBH122 stationDate 07.03.08
+  + OBH122 stationTime 19:30
+  + OBS123 stationID OBS123
+  + OBS123 stationDate 08.03.08
+  + OBS123 stationTime 18:00
+  + OBH202 stationID OBH202
+  + OBH202 stationDate 18.03.08
+  + OBH202 stationTime 01:00
+  + OBS203 stationID OBS203
+  + OBS203 stationDate 18.03.08
+  + OBS203 stationTime 02:00
+  + OBS204 stationID OBS204
+  + OBS204 stationDate 18.03.08
+  + OBS204 stationTime 01:00
+  + OBS205 stationID OBS205
+  + OBS205 stationDate 18.03.08
+  + OBS205 stationTime 03:00
+  + OBS206 stationID OBS206
+  + OBS206 stationDate 18.03.08
+  + OBS206 stationTime 04:00
+  + OBS207 stationID OBS207
+  + OBS207 stationDate 18.03.08
+  + OBS207 stationTime 05:00
+  + Core_Position_GC01 locationName GC01
+  + Core_Position_GC01 latitude -35.601833
+  + Core_Position_GC01 longitude -73.664833
+  + Core_Position_GC01 seabedDepthText -2889 m   [seabedDepth could not take it]
+  + Core_Position_GC02 locationName GC02
+  + Core_Position_GC02 latitude -35.602360
+  + Core_Position_GC02 longitude -73.676033
+  + Core_Position_GC02 seabedDepthText -3398 m   [seabedDepth could not take it]
+  + Core_Position_GC03 locationName GC03
+  + Core_Position_GC03 latitude -35.602070
+  + Core_Position_GC03 longitude -73.688130
+  + Core_Position_GC03 seabedDepthText -3916 m   [seabedDepth could not take it]
+  + Core_Position_GC04 locationName GC04
+  + Core_Position_GC04 latitude -34.618133
+  + Core_Position_GC04 longitude -74.530465
+  + Core_Position_GC04 seabedDepthText -4210 m   [seabedDepth could not take it]
+  + Core_Position_GC05 locationName GC05
+  + Core_Position_GC05 latitude -34.693000
+  + Core_Position_GC05 longitude -74.221500
+  + Core_Position_GC05 seabedDepthText -4156 m   [seabedDepth could not take it]
+  + Core_Position_GC06 locationName GC06
+  + Core_Position_GC06 latitude -34.243167
+  + Core_Position_GC06 longitude -74.086167
+  + Core_Position_GC06 seabedDepthText -4163 m   [seabedDepth could not take it]
+  + Core_Position_GC07 locationName GC07
+  + Core_Position_GC07 latitude -35.511647
+  + Core_Position_GC07 longitude -73.368972
+  + Core_Position_GC07 seabedDepthText -1357 m   [seabedDepth could not take it]
+  + Core_Position_GC08 locationName GC08
+  + Core_Position_GC08 latitude -35.521727
+  + Core_Position_GC08 longitude -73.381862
+  + Core_Position_GC08 seabedDepthText -1244 m   [seabedDepth could not take it]
+  + Core_Position_GC09 locationName GC09
+  + Core_Position_GC09 latitude -35.550998
+  + Core_Position_GC09 longitude -73.344153
+  + Core_Position_GC09 seabedDepthText -1600 m   [seabedDepth could not take it]
+  + OBS_701 hasDuration 0.5
+  + OBS_701 hasStatus SUCCESSFUL
+  + OBS_702 hasDuration 0.5
+  + OBS_702 hasStatus SUCCESSFUL
+  + OBS_703 hasDuration 0.5
+  + OBS_703 hasStatus SUCCESSFUL
+  + OBS_704 hasDuration 0.5
+  + OBS_704 hasStatus SUCCESSFUL
+  + OBS_705 hasDuration 0.5
+  + OBS_705 hasStatus SUCCESSFUL
+  + OBS_706 hasDuration 0.5
+  + OBS_706 hasStatus SUCCESSFUL
+  + OBS_707 hasDuration 0.5
+  + OBS_707 hasStatus SUCCESSFUL
+  + OBS_708 hasDuration 0.5
+  + OBS_708 hasStatus SUCCESSFUL
+  + OBS_709 hasDuration 0.5
+  + OBS_709 hasStatus SUCCESSFUL
+  + OBS_710 hasDuration 0.5
+  + OBS_710 hasStatus SUCCESSFUL
+  + OBS_711 hasDuration 0.5
+  + OBS_711 hasStatus SUCCESSFUL
+  + OBS_712 hasDuration 0.5
+  + OBS_712 hasStatus SUCCESSFUL
+  + OBS_713 hasDuration 0.5
+  + OBS_713 hasStatus SUCCESSFUL
+  + OBS_714 hasDuration 0.5
+  + OBS_714 hasStatus SUCCESSFUL
+  + OBS_715 hasDuration 0.5
+  + OBS_715 hasStatus SUCCESSFUL
+  + OBS_716 hasDuration 0.5
+  + OBS_716 hasStatus SUCCESSFUL
+  + OBS_717 hasDuration 0.5
+  + OBS_717 hasStatus SUCCESSFUL
+  + OBS_718 hasDuration 0.5
+  + OBS_718 hasStatus SUCCESSFUL
+  + OBS_719 hasDuration 0.5
+  + OBS_719 hasStatus SUCCESSFUL
+  + OBS_720 hasDuration 0.5
+  + OBS_720 hasStatus SUCCESSFUL
+  + OBS_721 hasDuration 0.5
+  + OBS_721 hasStatus SUCCESSFUL
+  + OBS_722 hasDuration 0.5
+  + OBS_722 hasStatus SUCCESSFUL
+  + OBS_723 hasDuration 0.5
+  + OBS_723 hasStatus SUCCESSFUL
+  + OBS_724 hasDuration 0.5
+  + OBS_724 hasStatus SUCCESSFUL
+  + OBS_725 hasDuration 0.5
+  + OBS_725 hasStatus SUCCESSFUL
+  + OBS_726 hasDuration 0.5
+  + OBS_726 hasStatus SUCCESSFUL
+  + OBS_727 hasDuration 0.5
+  + OBS_727 hasStatus SUCCESSFUL
+  + OBS_728 hasDuration 0.5
+  + OBS_728 hasStatus SUCCESSFUL
+  + OBS_729 hasDuration 0.5
+  + OBS_729 hasStatus SUCCESSFUL
+  + OBS_730 hasDuration 0.5
+  + OBS_730 hasStatus SUCCESSFUL
+  + OBS_731 hasDuration 0.5
+  + OBS_731 hasStatus SUCCESSFUL
+  + OBS_732 hasDuration 0.5
+  + OBS_732 hasStatus SUCCESSFUL
+  + OBS_733 hasDuration 0.5
+  + OBS_733 hasStatus SUCCESSFUL
+  + OBS_734 hasDuration 0.5
+  + OBS_734 hasStatus SUCCESSFUL
+  + OBS_735 hasDuration 0.5
+  + OBS_735 hasStatus SUCCESSFUL
+  + OBS_736 hasDuration 0.5
+  + OBS_736 hasStatus SUCCESSFUL
+  + OBS_737 hasDuration 0.5
+  + OBS_737 hasStatus SUCCESSFUL
+  + OBS_738 hasDuration 0.5
+  + OBS_738 hasStatus SUCCESSFUL
+  + OBS_739 hasDuration 0.5
+  + OBS_739 hasStatus SUCCESSFUL
+  + OBS_740 hasDuration 0.5
+  + OBS_740 hasStatus SUCCESSFUL
+  + OBS_741 hasDuration 0.5
+  + OBS_741 hasStatus SUCCESSFUL
+  + OBS_742 hasDuration 0.5
+  + OBS_742 hasStatus SUCCESSFUL
+  + OBS_743 hasDuration 0.5
+  + OBS_743 hasStatus SUCCESSFUL
+  + OBS_744 hasDuration 0.5
+  + OBS_744 hasStatus SUCCESSFUL
+  + OBS_745 hasDuration 0.5
+  + OBS_745 hasStatus SUCCESSFUL
+  + OBS_746 hasDuration 0.5
+  + OBS_746 hasStatus SUCCESSFUL
+  + OBS_747 hasDuration 0.5
+  + OBS_747 hasStatus SUCCESSFUL
+  + OBS_748 hasDuration 0.5
+  + OBS_748 hasStatus SUCCESSFUL
+  + OBS_749 hasDuration 0.5
+  + OBS_749 hasStatus SUCCESSFUL
+  + OBS_750 hasDuration 0.5
+  + OBS_750 hasStatus SUCCESSFUL
+
+skipped 41 excluded axioms:
+  - Cruise_JC23a hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction OBS_202   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_203   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_204   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_205   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_206   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_207   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_208   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_213   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_214   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_215   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_216   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_217   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_218   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_219   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_220   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_705   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_209   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_210   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_211   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_212   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1219   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1101   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1102   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1103   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1104   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1105   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1106   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1107   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1108   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1109   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1110   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1111   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1112   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1113   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1114   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1115   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1116   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1117   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1118   [hasAction has no single named domain/range to type from]
+  - Task_1 hasAction OBS_1119   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep20.rdf

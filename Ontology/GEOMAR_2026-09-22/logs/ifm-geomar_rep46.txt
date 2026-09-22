@@ -1,0 +1,68 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 31
+
+created 16 individuals:
+  + RV_Poseidon : Vehicle
+  + Seabeam_3050 : Echosounder
+  + Video_CTD : CTDSensor
+  + Oktopus : Camera
+  + RV_Poseidon_Cruise_P408_1 : Bathymetric_Mission
+  + RV_Poseidon_Cruise_P408_3 : Bathymetric_Mission
+  + Atlantis_II_Station : Station
+  + RVPoseidon_Cruise_408 : Mission
+  + Station_34 : Station
+  + Hatiba_Deep : Waypoint
+  + Port_Sudan_Deep : Waypoint
+  + Station_1 : Task
+  + Station_2 : Task
+  + Station_3 : Task
+  + Station_4 : Task
+  + Station_34_CTD : State
+
+asserted 40 axioms:
+  + RV_Poseidon hasSensor Seabeam_3050
+  + RV_Poseidon hasSensor Video_CTD
+  + RV_Poseidon hasSensor Oktopus
+  + RV_Poseidon_Cruise_P408_1 hasDurationText 215 hours   [hasDuration could not take it]
+  + RV_Poseidon_Cruise_P408_1 hasStatus SUCCESSFUL
+  + RV_Poseidon_Cruise_P408_3 hasDurationText unknown   [hasDuration could not take it]
+  + RV_Poseidon_Cruise_P408_3 hasStatus SUCCESSFUL
+  + RV_Poseidon maxDepthText 3000 m   [maxDepth could not take it]
+  + Atlantis_II_Station stationID unknown
+  + Atlantis_II_Station stationName Atlantis II
+  + Atlantis_II_Station stationDate 01 March 2011
+  + Atlantis_II_Station stationTime 01:30 am
+  + RVPoseidon_Cruise_408 MissionID 408-3
+  + RVPoseidon_Cruise_408 startTime 14 January 2011
+  + RVPoseidon_Cruise_408 endTime 31 January 2011
+  + RVPoseidon_Cruise_408 maxDepthText 3000 m   [maxDepth could not take it]
+  + RVPoseidon_Cruise_408 dataVolume 4500 km2
+  + RVPoseidon_Cruise_408 hasStatus SUCCESSFUL
+  + RVPoseidon_Cruise_408 remark Focused on geological development of Red Sea deeps.
+  + Station_34 stationID 34
+  + Station_34 stationDate 24.01.2011
+  + Station_34 stationTime ~7:45 - ~9:45
+  + Hatiba_Deep locationName Hatiba Deep
+  + Hatiba_Deep latitude 22° 03´N
+  + Hatiba_Deep longitude 37° 50.6'
+  + Hatiba_Deep seabedDepthText unknown   [seabedDepth could not take it]
+  + Port_Sudan_Deep locationName Port Sudan Deep
+  + Port_Sudan_Deep latitude 20° 4.61'
+  + Port_Sudan_Deep longitude 38° 30.73'
+  + Port_Sudan_Deep seabedDepthText 2698 m   [seabedDepth could not take it]
+  + Station_1 hasDuration 1.0
+  + Station_1 hasStatus SUCCESSFUL
+  + Station_2 hasDuration 1.0
+  + Station_2 hasStatus SUCCESSFUL
+  + Station_3 hasDuration 2.0
+  + Station_3 hasStatus SUCCESSFUL
+  + Station_4 hasDuration 1.5
+  + Station_4 hasStatus PartialSUCCESSFUL
+  + Station_34_CTD has_Temperature 36
+  + Station_34_CTD has_Conductivity 2000
+
+skipped 1 excluded axioms:
+  - Station_34_CTD has_Depth='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep46.rdf

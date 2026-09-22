@@ -1,0 +1,63 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 34
+
+created 19 individuals:
+  + R_V_METEOR : Vehicle
+  + DTS_1 : Sonar
+  + EM120 : Echosounder
+  + PARASOUND : Echosounder
+  + KONGSBERG_EM120 : Echosounder
+  + KONGSBERG_EM710 : Echosounder
+  + POSIDONIA : USBL
+  + DTS_1_System : SurveyMission
+  + Multibeam_Bathymetric_Mapping : Bathymetric_Mission
+  + Gravity_Cores : Data_Sampling_Mission
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_7 : State
+  + Station_8 : State
+  + Station_16 : State
+  + Station_17 : State
+  + Station_18 : State
+  + Station_19 : State
+  + Station_20 : State
+
+asserted 32 axioms:
+  + R_V_METEOR hasSensor DTS_1
+  + R_V_METEOR hasSensor EM120
+  + R_V_METEOR hasSensor PARASOUND
+  + R_V_METEOR hasSensor KONGSBERG_EM120
+  + R_V_METEOR hasSensor KONGSBERG_EM710
+  + R_V_METEOR hasSensor POSIDONIA
+  + DTS_1_System hasDurationText 2 days   [hasDuration could not take it]
+  + DTS_1_System hasStatus PartialFAILURE
+  + Multibeam_Bathymetric_Mapping hasDurationText not specified   [hasDuration could not take it]
+  + Multibeam_Bathymetric_Mapping hasStatus PartialFAILURE
+  + Gravity_Cores hasDurationText not specified   [hasDuration could not take it]
+  + Gravity_Cores hasStatus PartialSUCCESSFUL
+  + Gravity_Cores collect_sample 6 cores from 5 sites
+  + DTS_1 maxDepthText 300 m   [maxDepth could not take it]
+  + R_V_METEOR maxDepthText 6000 m   [maxDepth could not take it]
+  + Station_5 stationID 5
+  + Station_5 stationName Gravity Core Station
+  + Station_5 stationDate not specified
+  + Station_5 stationTime not specified
+  + Station_6 stationID 6
+  + Station_6 stationName Gravity Core Station
+  + Station_6 stationDate not specified
+  + Station_6 stationTime not specified
+  + Station_7 has_Depth 780
+  + Station_8 has_Depth 746
+  + Station_16 has_Depth 787
+  + Station_17 has_Depth 848
+  + Station_18 has_Depth 832
+  + Station_19 has_Depth 748
+  + Station_20 has_Depth 858
+  + Station_5 has_Depth 1170
+  + Station_6 has_Depth 1172
+
+skipped 1 excluded axioms:
+  - M67-1 hasTask Area_1   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep7.rdf

@@ -1,0 +1,130 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 45
+
+created 30 individuals:
+  + R_V_Poseidon : Vehicle
+  + CTD : CTDSensor
+  + POS_379_1 : Mission
+  + DR1 : Task
+  + DR2 : Task
+  + DR3 : Task
+  + DR4 : Task
+  + DR5 : Task
+  + DR6 : Task
+  + DR7 : Task
+  + DR8 : Task
+  + DR9 : Task
+  + DR10 : Task
+  + DR11 : Task
+  + DR12 : Task
+  + DR13 : Task
+  + DR14 : Task
+  + Traversal_1 : Traversal
+  + RV_POSEIDON : Platform
+  + Traversal_2 : Traversal
+  + Traversal_3 : Traversal
+  + CTD_sampling : CTDMission
+  + Dredging_at_Mt_Demenitskoy : Data_Sampling_Mission
+  + ROV : Remotely_Operated_Vehicle
+  + POS379_1 : Mission
+  + Mt_Demenitskoy : Waypoint
+  + Kane_Seamount : State
+  + Tolkien_Seamount : State
+  + Krylov_Seamount : State
+  + Krylov_Ridge : State
+
+asserted 71 axioms:
+  + R_V_Poseidon hasSensor CTD
+  + POS_379_1 hasTask DR1
+  + POS_379_1 hasTask DR2
+  + POS_379_1 hasTask DR3
+  + POS_379_1 hasTask DR4
+  + POS_379_1 hasTask DR5
+  + POS_379_1 hasTask DR6
+  + POS_379_1 hasTask DR7
+  + POS_379_1 hasTask DR8
+  + POS_379_1 hasTask DR9
+  + POS_379_1 hasTask DR10
+  + POS_379_1 hasTask DR11
+  + POS_379_1 hasTask DR12
+  + POS_379_1 hasTask DR13
+  + POS_379_1 hasTask DR14
+  + Traversal_1 hasVehicle RV_POSEIDON
+  + Traversal_2 hasVehicle RV_POSEIDON
+  + Traversal_3 hasVehicle RV_POSEIDON
+  + CTD_sampling hasDurationText 4 days   [hasDuration could not take it]
+  + CTD_sampling hasStatus SUCCESSFUL
+  + Dredging_at_Mt_Demenitskoy hasDurationText 1 day   [hasDuration could not take it]
+  + Dredging_at_Mt_Demenitskoy hasStatus SUCCESSFUL
+  + Dredging_at_Mt_Demenitskoy collect_sample rock samples
+  + ROV maxDepthText 1,770 m   [maxDepth could not take it]
+  + R_V_Poseidon maxDepthText 2,000 m   [maxDepth could not take it]
+  + POS379_1 MissionID POS379/1
+  + POS379_1 startTime 2009-01-25
+  + POS379_1 endTime 2009-02-12
+  + POS379_1 maxDepthText 3500 mbsl   [maxDepth could not take it]
+  + POS379_1 dataVolume various geological samples
+  + POS379_1 hasStatus SUCCESSFUL
+  + POS379_1 remark Cruise Report for the Canary-Cape Verde Basin
+  + DR1 hasDuration 1.93
+  + DR1 hasStatus SUCCESSFUL
+  + DR2 hasDuration 2.39
+  + DR2 hasStatus SUCCESSFUL
+  + DR3 stationID DR3
+  + DR3 stationDate 01.02.2009
+  + DR3 stationTime 15:40 - 18:57
+  + DR4 stationID DR4
+  + DR4 stationDate 02.02.2009
+  + DR4 stationTime 08:47 - 11:19
+  + DR5 stationID DR5
+  + DR5 stationDate 02.02.2009
+  + DR5 stationTime 12:10 - 14:56
+  + DR6 stationID DR6
+  + DR6 stationDate 05.02.2009
+  + DR6 stationTime 09:34 - 12:40
+  + DR7 stationID DR7
+  + DR7 stationDate 05.02.2009
+  + DR7 stationTime 13:43 - 19:10
+  + DR8 stationID DR8
+  + DR8 stationDate 08.02.2009
+  + DR8 stationTime 09:30 - 11:25
+  + DR9 stationID DR9
+  + DR9 stationDate 08.02.2009
+  + DR9 stationTime 12:50 - 15:00
+  + DR10 hasDuration 1.81
+  + DR10 hasStatus SUCCESSFUL
+  + DR11 hasDuration 2.18
+  + DR11 hasStatus SUCCESSFUL
+  + DR12 hasDuration 1.8
+  + DR12 hasStatus SUCCESSFUL
+  + DR13 hasDuration 1.8
+  + DR13 hasStatus SUCCESSFUL
+  + DR14 hasDuration 1.8
+  + DR14 hasStatus SUCCESSFUL
+  + Mt_Demenitskoy locationName Mt. Demenitskoy
+  + Mt_Demenitskoy latitude 25° 45´N
+  + Mt_Demenitskoy longitude 26° 15´W
+  + Mt_Demenitskoy seabedDepthText 1770 mbsl   [seabedDepth could not take it]
+
+skipped 18 excluded axioms:
+  - POS379_1 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - Traversal_1 hasDestination Mt_Demenitskoy   [hasDestination has no single named domain/range to type from]
+  - POS379_1 hasTask Task_2   [hasTask has no single named domain/range to type from]
+  - Traversal_2 hasDestination Tolkien_Seamount   [hasDestination has no single named domain/range to type from]
+  - Traversal_3 hasDestination Krylov_Seamount   [hasDestination has no single named domain/range to type from]
+  - Kane_Seamount has_Temperature='N/A'   [could not convert string to float: 'N/A']
+  - Kane_Seamount has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - Kane_Seamount has_Depth='3,700'   [could not convert string to float: '3,700']
+  - Tolkien_Seamount has_Temperature='N/A'   [could not convert string to float: 'N/A']
+  - Tolkien_Seamount has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - Tolkien_Seamount has_Depth='2,900'   [could not convert string to float: '2,900']
+  - Krylov_Seamount has_Temperature='1,950'   [could not convert string to float: '1,950']
+  - Krylov_Seamount has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - Krylov_Seamount has_Depth='1,950'   [could not convert string to float: '1,950']
+  - Krylov_Ridge has_Temperature='2,030'   [could not convert string to float: '2,030']
+  - Krylov_Ridge has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - Krylov_Ridge has_Depth='2,030'   [could not convert string to float: '2,030']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep28.rdf

@@ -1,0 +1,81 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 31
+
+created 16 individuals:
+  + R_V_Poseidon : Ship
+  + P362_2 : Mission
+  + Giza_MV : Task
+  + North_Alex_MV : Task
+  + GravityCorer : Traversal
+  + RVPoseidon : Platform
+  + P362_2_2 : Data_Sampling_Mission
+  + Giza_MV_Station_01 : Station
+  + Giza_MV_Station_02 : Station
+  + Giza_MV_Station_03 : Station
+  + Giza_MV_Station_04 : Station
+  + North_Alex_MV_Station_01 : Station
+  + North_Alex_MV_Station_02 : Station
+  + North_Alex_MV_Station_03 : Station
+  + North_Alex_MV_Station_04 : Station
+  + P362_2_2_2 : Task
+
+asserted 43 axioms:
+  + R_V_Poseidon hasMission P362_2
+  + P362_2 hasTask Giza_MV
+  + P362_2 hasTask North_Alex_MV
+  + Giza_MV hasVehicle R_V_Poseidon
+  + North_Alex_MV hasVehicle R_V_Poseidon
+  + GravityCorer hasVehicle RVPoseidon
+  + GravityCorer hasVehicle RVPoseidon
+  + P362_2_2 hasDurationText 2 weeks   [hasDuration could not take it]
+  + P362_2_2 hasStatus SUCCESSFUL
+  + P362_2_2 collect_sample sediment, pore water and gas
+  + R_V_Poseidon maxDepthText 6000 m   [maxDepth could not take it]
+  + Giza_MV has_Temperature 40
+  + Giza_MV has_Conductivity 0.86
+  + Giza_MV has_Depth 675
+  + North_Alex_MV has_Temperature 70
+  + North_Alex_MV has_Conductivity 0.89
+  + North_Alex_MV has_Depth 491
+  + Giza_MV_Station_01 stationID P362/2-2
+  + Giza_MV_Station_01 stationDate 13.02.2008
+  + Giza_MV_Station_01 stationTime 16:35
+  + Giza_MV_Station_02 stationID P362/2-5
+  + Giza_MV_Station_02 stationDate 15.02.2008
+  + Giza_MV_Station_02 stationTime 11:23
+  + Giza_MV_Station_03 stationID P362/2-6
+  + Giza_MV_Station_03 stationDate 15.02.2008
+  + Giza_MV_Station_03 stationTime 12:44
+  + Giza_MV_Station_04 stationID P362/2-7
+  + Giza_MV_Station_04 stationDate 15.02.2008
+  + Giza_MV_Station_04 stationTime 14:00
+  + North_Alex_MV_Station_01 stationID P362/2-36
+  + North_Alex_MV_Station_01 stationDate 20.02.2008
+  + North_Alex_MV_Station_01 stationTime 04:45
+  + North_Alex_MV_Station_02 stationID P362/2-37
+  + North_Alex_MV_Station_02 stationDate 20.02.2008
+  + North_Alex_MV_Station_02 stationTime 06:45
+  + North_Alex_MV_Station_03 stationID P362/2-38
+  + North_Alex_MV_Station_03 stationDate 20.02.2008
+  + North_Alex_MV_Station_03 stationTime 07:48
+  + North_Alex_MV_Station_04 stationID P362/2-100
+  + North_Alex_MV_Station_04 stationDate 22.02.2008
+  + North_Alex_MV_Station_04 stationTime 07:31
+  + P362_2_2_2 hasDuration 4.5
+  + P362_2_2_2 hasStatus SUCCESSFUL
+
+skipped 11 excluded axioms:
+  - P362-2 hasTask GizaMV   [hasTask has no single named domain/range to type from]
+  - GizaMV hasAction GravityCorer   [hasAction has no single named domain/range to type from]
+  - GravityCorer goes_through GizaOutflow   [goes_through has no single named domain/range to type from]
+  - GravityCorer goes_through GizaNW   [goes_through has no single named domain/range to type from]
+  - GravityCorer goes_through GizaNE   [goes_through has no single named domain/range to type from]
+  - P362-2 hasTask NorthAlexMV   [hasTask has no single named domain/range to type from]
+  - NorthAlexMV hasAction GravityCorer   [hasAction has no single named domain/range to type from]
+  - GravityCorer goes_through NorthAlexOutflow   [goes_through has no single named domain/range to type from]
+  - GravityCorer goes_through NorthAlexNW   [goes_through has no single named domain/range to type from]
+  - GravityCorer goes_through NorthAlexSE   [goes_through has no single named domain/range to type from]
+  - GravityCorer goes_through NorthAlexFarOutflow   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep15.rdf

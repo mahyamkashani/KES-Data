@@ -1,0 +1,138 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 41
+
+created 26 individuals:
+  + SO186_3_01 : Mission
+  + SO186_3_02 : Mission
+  + SO186_3_03 : Mission
+  + RV_SONNE : Ship
+  + SO186_3_04 : Mission
+  + OBM59 : Station
+  + OBM60 : Station
+  + OBM61 : Station
+  + OBM101 : Station
+  + OBM102 : Station
+  + OBM106 : Station
+  + OBM107 : Station
+  + OBH_19 : Station
+  + OBSTEST : Station
+  + OBS_01 : Waypoint
+  + OBS_02 : Waypoint
+  + OBS_03 : Waypoint
+  + OBS_04 : Waypoint
+  + OBH_05 : Waypoint
+  + OBH_39 : Waypoint
+  + OBH_40 : Waypoint
+  + TOBU_01 : Waypoint
+  + TOBS_01 : Waypoint
+  + CTD_Station_01 : State
+  + CTD_Station_02 : State
+  + CTD_Station_03 : State
+
+asserted 97 axioms:
+  + SO186_3_01 MissionID SO186-3-01
+  + SO186_3_01 startTime 02.03.2006 23:02
+  + SO186_3_01 endTime 04.03.2006 07:30
+  + SO186_3_01 maxDepth 1949
+  + SO186_3_01 dataVolume 150
+  + SO186_3_01 hasStatus SUCCESSFUL
+  + SO186_3_01 remark Profile SO186-3-01
+  + SO186_3_02 MissionID SO186-3-02
+  + SO186_3_02 startTime 07.03.2006 02:07
+  + SO186_3_02 endTime 07.03.2006 09:24
+  + SO186_3_02 maxDepth 335
+  + SO186_3_02 dataVolume 200
+  + SO186_3_02 hasStatus SUCCESSFUL
+  + SO186_3_02 remark Profile SO186-3-02
+  + SO186_3_03 MissionID SO186-3-03
+  + SO186_3_03 startTime 08.03.2006 18:50
+  + SO186_3_03 endTime 08.03.2006 20:17
+  + SO186_3_03 maxDepth 175
+  + SO186_3_03 dataVolume 250
+  + SO186_3_03 hasStatus SUCCESSFUL
+  + SO186_3_03 remark Profile SO186-3-03
+  + RV_SONNE maxDepthText 6000 m   [maxDepth could not take it]
+  + SO186_3_04 MissionID SO186-3-04
+  + SO186_3_04 startTime 10.03.2006 03:54
+  + SO186_3_04 endTime 10.03.2006 06:18
+  + SO186_3_04 maxDepth 289
+  + SO186_3_04 dataVolume 300
+  + SO186_3_04 hasStatus SUCCESSFUL
+  + SO186_3_04 remark Profile SO186-3-04
+  + OBM59 stationID OBM59
+  + OBM59 stationDate 01.03.06 – 04.03.06
+  + OBM59 stationTime 1min / 1min
+  + OBM60 stationID OBM60
+  + OBM60 stationDate 01.03.06 – 04.03.06
+  + OBM60 stationTime 1min / 1min
+  + OBM61 stationID OBM61
+  + OBM61 stationDate 01.03.06 – 04.03.06
+  + OBM61 stationTime 10min / 1min
+  + OBM101 stationID OBM101
+  + OBM101 stationDate 06.03.06 – 08.03.06
+  + OBM101 stationTime 1min / 1min
+  + OBM102 stationID OBM102
+  + OBM102 stationDate 06.03.06 – 08.03.06
+  + OBM102 stationTime 1min / 1min
+  + OBM106 stationID OBM106
+  + OBM106 stationDate 08.03.06 – 11.03.06
+  + OBM106 stationTime 1min / 1min
+  + OBM107 stationID OBM107
+  + OBM107 stationDate 08.03.06 – 11.03.06
+  + OBM107 stationTime 1min / 1min
+  + OBH_19 stationID OBH 19
+  + OBH_19 stationDate 16.10.05 – 01.03.06
+  + OBH_19 stationTime 1112
+  + OBSTEST stationID OBSTEST
+  + OBSTEST stationDate 18.11.05 – 20.11.05
+  + OBSTEST stationTime 5812
+  + OBS_01 locationName OBS 01
+  + OBS_01 latitude 2°48,024' N
+  + OBS_01 longitude 97°12,036' E
+  + OBS_01 seabedDepth 834
+  + OBS_02 locationName OBS 02
+  + OBS_02 latitude 2°42,008' N
+  + OBS_02 longitude 96°51,044' E
+  + OBS_02 seabedDepth 1123
+  + OBS_03 locationName OBS 03
+  + OBS_03 latitude 2°12,009' N
+  + OBS_03 longitude 96°18,012' E
+  + OBS_03 seabedDepth 1021
+  + OBS_04 locationName OBS 04
+  + OBS_04 latitude 1°57,987' N
+  + OBS_04 longitude 96°29,981' E
+  + OBS_04 seabedDepth 1155
+  + OBH_05 locationName OBH 05
+  + OBH_05 latitude 1°54,020' N
+  + OBH_05 longitude 96°12,004' E
+  + OBH_05 seabedDepth 2364
+  + OBH_39 locationName OBH 39
+  + OBH_39 latitude 2°42,040' N
+  + OBH_39 longitude 95°3,953' E
+  + OBH_39 seabedDepth 1104
+  + OBH_40 locationName OBH 40
+  + OBH_40 latitude 2°48,046' N
+  + OBH_40 longitude 94°55,986' E
+  + OBH_40 seabedDepth 865
+  + TOBU_01 locationName TOBU 01
+  + TOBU_01 latitude 3°43,900' S
+  + TOBU_01 longitude 99°13,800' E
+  + TOBU_01 seabedDepth 5290
+  + TOBS_01 locationName TOBS 01
+  + TOBS_01 latitude 3°43,000' S
+  + TOBS_01 longitude 99°14,050' E
+  + TOBS_01 seabedDepth 5228
+  + CTD_Station_01 has_Temperature 1498
+  + CTD_Station_01 has_Depth 1800
+  + CTD_Station_02 has_Temperature 1487
+  + CTD_Station_02 has_Depth 1000
+  + CTD_Station_03 has_Depth 2186
+
+skipped 4 excluded axioms:
+  - CTD_Station_01 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Station_02 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Station_03 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Station_03 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep6.rdf

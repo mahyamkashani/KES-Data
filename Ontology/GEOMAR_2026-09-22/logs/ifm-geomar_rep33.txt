@@ -1,0 +1,190 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 44
+
+created 29 individuals:
+  + R_V_SONNE : Ship
+  + ABYSS : Vehicle
+  + SO203 : Mission
+  + Dive_012 : Task
+  + Dive_013 : Task
+  + Dive_015 : Task
+  + Dive_016 : Task
+  + Dive_019 : Task
+  + Dive_020 : Task
+  + Dive_014 : SurveyMission
+  + TV_grab : Data_Sampling_Mission
+  + Abyss0012 : Mission
+  + Abyss0013 : Mission
+  + Abyss0014 : Mission
+  + Abyss0016 : Mission
+  + Station_1 : Station
+  + Station_2 : Station
+  + Station_3 : Station
+  + Station_4 : Station
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_7 : Station
+  + Station_8 : Station
+  + Station_9 : Station
+  + Moresby_Seamount : Waypoint
+  + Franklin_Seamount : Waypoint
+  + Segment_1A : Waypoint
+  + Segment_1B : Waypoint
+  + Segment_1C : Waypoint
+
+asserted 105 axioms:
+  + R_V_SONNE usesVehicle ABYSS
+  + SO203 hasTask Dive_012
+  + Dive_013 hasAction Act_TakePhoto
+  + Dive_013 hasAction Act_DeepDive
+  + Dive_015 hasAction Act_TakePhoto
+  + Dive_015 hasAction Act_DeepDive
+  + Dive_016 hasAction Act_TakePhoto
+  + Dive_016 hasAction Act_DeepDive
+  + Dive_019 hasAction Act_TakePhoto
+  + Dive_020 hasAction Act_TakePhoto
+  + Dive_012 hasDurationText unknown   [hasDuration could not take it]
+  + Dive_012 hasStatus SUCCESSFUL
+  + Dive_013 hasDurationText unknown   [hasDuration could not take it]
+  + Dive_013 hasStatus SUCCESSFUL
+  + Dive_014 hasDurationText unknown   [hasDuration could not take it]
+  + Dive_014 hasStatus SUCCESSFUL
+  + Dive_015 hasDurationText unknown   [hasDuration could not take it]
+  + Dive_015 hasStatus SUCCESSFUL
+  + TV_grab hasDurationText unknown   [hasDuration could not take it]
+  + TV_grab hasStatus SUCCESSFUL
+  + TV_grab collect_sample small basaltic glass chips
+  + ABYSS maxDepthText 6000 m   [maxDepth could not take it]
+  + R_V_SONNE maxDepthText unknown   [maxDepth could not take it]
+  + Abyss0012 MissionID Abyss0012
+  + Abyss0012 startTime 30.10.09 09:20
+  + Abyss0012 endTime 30.10.09 10:17
+  + Abyss0012 maxDepthText unknown   [maxDepth could not take it]
+  + Abyss0012 dataVolume unknown
+  + Abyss0012 hasStatus PartialSUCCESSFUL
+  + Abyss0012 remark re-deployment after reprogramming
+  + Abyss0013 MissionID Abyss0013
+  + Abyss0013 startTime 01.11.09 05:01
+  + Abyss0013 endTime 01.11.09 05:06
+  + Abyss0013 maxDepthText 400 kHz   [maxDepth could not take it]
+  + Abyss0013 dataVolume unknown
+  + Abyss0013 hasStatus PartialSUCCESSFUL
+  + Abyss0013 remark deployment of the AUV for 400 kHz survey of Franklin Seamount
+  + Abyss0014 MissionID Abyss0014
+  + Abyss0014 startTime 01.11.09 11:16
+  + Abyss0014 endTime 01.11.09 14:50
+  + Abyss0014 maxDepthText unknown   [maxDepth could not take it]
+  + Abyss0014 dataVolume unknown
+  + Abyss0014 hasStatus PartialSUCCESSFUL
+  + Abyss0014 remark deployment of the AUV for 200 kHz survey of Franklin Seamount
+  + Abyss0016 MissionID Abyss0016
+  + Abyss0016 startTime 06.11.09 02:30
+  + Abyss0016 endTime 06.11.09 04:45
+  + Abyss0016 maxDepthText unknown   [maxDepth could not take it]
+  + Abyss0016 dataVolume unknown
+  + Abyss0016 hasStatus PartialSUCCESSFUL
+  + Abyss0016 remark deployment of the AUV for 400 kHz survey
+  + Station_1 stationID 1
+  + Station_1 stationDate 30.10.09
+  + Station_1 stationTime 05:54
+  + Station_2 stationID 2
+  + Station_2 stationDate 29.10.09
+  + Station_2 stationTime 12:30
+  + Station_3 stationID 3
+  + Station_3 stationDate 01.11.09
+  + Station_3 stationTime 05:59
+  + Station_4 stationID 4
+  + Station_4 stationDate 06.11.09
+  + Station_4 stationTime 05:23
+  + Station_5 stationID 5
+  + Station_5 stationDate 06.11.09
+  + Station_5 stationTime 08:02
+  + Station_6 stationID 6
+  + Station_6 stationDate 06.11.09
+  + Station_6 stationTime 10:40
+  + Station_7 stationID 7
+  + Station_7 stationDate 06.11.09
+  + Station_7 stationTime 13:12
+  + Station_8 stationID 8
+  + Station_8 stationDate 06.11.09
+  + Station_8 stationTime 16:02
+  + Station_9 stationID 9
+  + Station_9 stationDate 18.11.09
+  + Station_9 stationTime 00:55
+  + Moresby_Seamount locationName Moresby Seamount
+  + Moresby_Seamount latitude 9°49'S
+  + Moresby_Seamount longitude 155°35'E
+  + Moresby_Seamount seabedDepthText variable   [seabedDepth could not take it]
+  + Franklin_Seamount locationName Franklin Seamount
+  + Franklin_Seamount latitude 9°53.684'S
+  + Franklin_Seamount longitude 151°47.839'E
+  + Franklin_Seamount seabedDepthText variable   [seabedDepth could not take it]
+  + Segment_1A locationName Segment 1A
+  + Segment_1A latitude 9°46.376'S
+  + Segment_1A longitude 151°33.394'E
+  + Segment_1A seabedDepthText variable   [seabedDepth could not take it]
+  + Segment_1B locationName Segment 1B
+  + Segment_1B latitude 9°56.31'S
+  + Segment_1B longitude 151°58.24'E
+  + Segment_1B seabedDepthText 2699m   [seabedDepth could not take it]
+  + Segment_1C locationName Segment 1C
+  + Segment_1C latitude 10°01.69'S
+  + Segment_1C longitude 152°11.99'E
+  + Segment_1C seabedDepthText 2765m   [seabedDepth could not take it]
+  + Dive_012 hasDuration 2.5
+  + Dive_012 hasStatus PartialFAILURE
+  + Dive_013 has_Temperature 2100
+  + Dive_013 has_Depth 2100
+  + Dive_014 has_Temperature 2130
+  + Dive_014 has_Depth 2130
+  + Dive_015 has_Depth 2600
+
+skipped 45 excluded axioms:
+  - SO203 hasTask Dive_012   [hasTask has no single named domain/range to type from]
+  - Dive_012 goes_through DR_11   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_12   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_13   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_14   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_15   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_16   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_17   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_18   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_19   [goes_through has no single named domain/range to type from]
+  - Dive_012 goes_through DR_20   [goes_through has no single named domain/range to type from]
+  - SO203 hasTask Dive_013   [hasTask has no single named domain/range to type from]
+  - Dive_013 goes_through DR_21   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_22   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_23   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_24   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_25   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_26   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_27   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_28   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_29   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_30   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_31   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_32   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_33   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_34   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_35   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_36   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_37   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_38   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_39   [goes_through has no single named domain/range to type from]
+  - Dive_013 goes_through DR_40   [goes_through has no single named domain/range to type from]
+  - Dive_013 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_014 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_015 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Dive_015 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_016 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Dive_016 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_016 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - Dive_019 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Dive_019 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_019 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - Dive_020 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Dive_020 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Dive_020 has_Depth='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep33.rdf

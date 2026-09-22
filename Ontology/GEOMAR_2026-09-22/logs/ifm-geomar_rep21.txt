@@ -1,0 +1,252 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 74
+
+created 59 individuals:
+  + R_V_Poseidon : Vehicle
+  + SEABEAM_1050 : MBES
+  + R_V_Sonne : Vehicle
+  + Rockdrill_1 : DVL
+  + Dive_743ROV : Mission
+  + Palinuro_Seamount : Task
+  + Dive_752ROV : Mission
+  + Panarea_Island : Task
+  + Dive_754ROV : Mission
+  + Dive_756ROV : Mission
+  + Lisca_Bianca : Task
+  + 745SBM : Bathymetric_Mission
+  + 742SBM : Bathymetric_Mission
+  + 739SBM : Bathymetric_Mission
+  + 748SBM : Bathymetric_Mission
+  + 747SBM : Bathymetric_Mission
+  + 733SBM : Bathymetric_Mission
+  + 744CTD : CTDMission
+  + 740ROV : Remotely_Operated_Vehicle
+  + 741ROV : Remotely_Operated_Vehicle
+  + 743ROV : Remotely_Operated_Vehicle
+  + 746ROV : Remotely_Operated_Vehicle
+  + 749ROV : Remotely_Operated_Vehicle
+  + 752ROV : Remotely_Operated_Vehicle
+  + 754ROV : Remotely_Operated_Vehicle
+  + Cruise_Report_P340 : Mission
+  + Station_01 : Station
+  + Station_02 : Station
+  + Station_03 : Station
+  + Station_04 : Station
+  + Station_05 : Station
+  + Station_06 : Station
+  + Station_07 : Station
+  + Station_08 : Station
+  + Station_09 : Station
+  + Station_10 : Station
+  + Station_11 : Station
+  + Station_12 : Station
+  + Station_13 : Station
+  + Station_14 : Station
+  + Station_15 : Station
+  + Station_16 : Station
+  + Station_17 : Station
+  + Station_18 : Station
+  + Station_19 : Station
+  + Station_20 : Station
+  + Marsili_Seamount : Waypoint
+  + Dive_741ROV : Task
+  + Dive_746ROV : Task
+  + Dive_749ROV : Task
+  + 721CTD : State
+  + 722SBM : State
+  + 723ROV : State
+  + 724DR : State
+  + 743ROV_1 : State
+  + 749ROV_1 : State
+  + 752ROV_1 : State
+  + 754ROV_1 : State
+  + 756ROV_3 : State
+
+asserted 135 axioms:
+  + R_V_Poseidon hasSensor SEABEAM_1050
+  + R_V_Sonne hasSensor Rockdrill_1
+  + Dive_743ROV hasTask Palinuro_Seamount
+  + Dive_752ROV hasTask Panarea_Island
+  + Dive_754ROV hasTask Panarea_Island
+  + Dive_756ROV hasTask Lisca_Bianca
+  + 745SBM hasDurationText 21:15 – 04:55   [hasDuration could not take it]
+  + 745SBM hasStatus SUCCESSFUL
+  + 742SBM hasDurationText 17:40 – 06:25   [hasDuration could not take it]
+  + 742SBM hasStatus SUCCESSFUL
+  + 739SBM hasDurationText 16:45 – 08:00   [hasDuration could not take it]
+  + 739SBM hasStatus SUCCESSFUL
+  + 748SBM hasDurationText 22:20 – 01:30   [hasDuration could not take it]
+  + 748SBM hasStatus SUCCESSFUL
+  + 747SBM hasDurationText 15:50 – 19:05   [hasDuration could not take it]
+  + 747SBM hasStatus SUCCESSFUL
+  + 733SBM hasDurationText 09.07.06/08.07.06 16:00 – 05:00   [hasDuration could not take it]
+  + 733SBM hasStatus SUCCESSFUL
+  + 744CTD hasDurationText 11.07.06/18:30 – 19:50   [hasDuration could not take it]
+  + 744CTD hasStatus SUCCESSFUL
+  + 740ROV maxDepthText ca. 600 m   [maxDepth could not take it]
+  + 741ROV maxDepthText ca. 580 m   [maxDepth could not take it]
+  + 743ROV maxDepthText ca. 690 m   [maxDepth could not take it]
+  + 746ROV maxDepthText 545 m   [maxDepth could not take it]
+  + 749ROV maxDepthText 777 m   [maxDepth could not take it]
+  + 752ROV maxDepthText 74 m   [maxDepth could not take it]
+  + 754ROV maxDepthText 73 m   [maxDepth could not take it]
+  + R_V_Poseidon maxDepthText 800 m   [maxDepth could not take it]
+  + Cruise_Report_P340 MissionID P340
+  + Cruise_Report_P340 startTime 2006-07-06
+  + Cruise_Report_P340 endTime 2006-07-17
+  + Cruise_Report_P340 maxDepthText 2400 m   [maxDepth could not take it]
+  + Cruise_Report_P340 dataVolume 530 nautical miles
+  + Cruise_Report_P340 hasStatus SUCCESSFUL
+  + Cruise_Report_P340 remark Cruise report for TYMAS in the Tyrrhenian Sea
+  + Station_01 stationID 721CTD
+  + Station_01 stationDate 06.07.2006
+  + Station_01 stationTime 18:22 - 21:50
+  + Station_02 stationID 722SBM
+  + Station_02 stationDate 06.07.2006
+  + Station_02 stationTime 22:00 - 06:30
+  + Station_03 stationID 724DR
+  + Station_03 stationDate 07.07.2006
+  + Station_03 stationTime 09:20 - 10:20
+  + Station_04 stationID 730DR
+  + Station_04 stationDate 08.07.2006
+  + Station_04 stationTime 10:40 - 11:55
+  + Station_05 stationID 731DR
+  + Station_05 stationDate 08.07.2006
+  + Station_05 stationTime 12:40 - 13:45
+  + Station_06 stationID 732DR
+  + Station_06 stationDate 08.07.2006
+  + Station_06 stationTime 14:10 - 15:10
+  + Station_07 stationID 733SBM
+  + Station_07 stationDate 09.07.2006
+  + Station_07 stationTime 16:00 - 05:00
+  + Station_08 stationID 734ROV
+  + Station_08 stationDate 09.07.2006
+  + Station_08 stationTime 06:30 - 06:35
+  + Station_09 stationID 735DR
+  + Station_09 stationDate 09.07.2006
+  + Station_09 stationTime 07:15 - 08:45
+  + Station_10 stationID 736DR
+  + Station_10 stationDate 09.07.2006
+  + Station_10 stationTime 09:15 - 10:40
+  + Station_11 stationID 738DR
+  + Station_11 stationDate 09.07.2006
+  + Station_11 stationTime 12:05 - 13:35
+  + Station_12 stationID 739SBM
+  + Station_12 stationDate 09.07.2006
+  + Station_12 stationTime 16:45 - 08:00
+  + Station_13 stationID 740ROV
+  + Station_13 stationDate 10.07.2006
+  + Station_13 stationTime 08:15 - 09:00
+  + Station_14 stationID 741ROV
+  + Station_14 stationDate 10.07.2006
+  + Station_14 stationTime 10:52 - 16:05
+  + Station_15 stationID 743ROV
+  + Station_15 stationDate 11.07.2006
+  + Station_15 stationTime 07:20 - 14:50
+  + Station_16 stationID 744CTD
+  + Station_16 stationDate 11.07.2006
+  + Station_16 stationTime 18:30 - 19:50
+  + Station_17 stationID 746ROV
+  + Station_17 stationDate 12.07.2006
+  + Station_17 stationTime 06:45 - 14:45
+  + Station_18 stationID 752ROV
+  + Station_18 stationDate 14.07.2006
+  + Station_18 stationTime 08:05 - 14:55
+  + Station_19 stationID 754ROV
+  + Station_19 stationDate 15.07.2006
+  + Station_19 stationTime 06:55 - 15:00
+  + Station_20 stationID 756ROV
+  + Station_20 stationDate 16.07.2006
+  + Station_20 stationTime 09:00 - 15:00
+  + Palinuro_Seamount locationName Palinuro Seamount
+  + Palinuro_Seamount latitude 39°32.50'N
+  + Palinuro_Seamount longitude 14°30.00'E
+  + Palinuro_Seamount seabedDepthText 570 m   [seabedDepth could not take it]
+  + Marsili_Seamount locationName Marsili Seamount
+  + Marsili_Seamount latitude 39°16.967'N
+  + Marsili_Seamount longitude 14°23.909'E
+  + Marsili_Seamount seabedDepthText 2400 m   [seabedDepth could not take it]
+  + Panarea_Island locationName Panarea Island
+  + Panarea_Island latitude 38°38.957'N
+  + Panarea_Island longitude 15°06.398'E
+  + Panarea_Island seabedDepthText 70 m   [seabedDepth could not take it]
+  + Dive_741ROV hasDuration 5.0
+  + Dive_741ROV hasStatus SUCCESSFUL
+  + Dive_743ROV hasDuration 7.5
+  + Dive_743ROV hasStatus SUCCESSFUL
+  + Dive_746ROV hasDuration 8.0
+  + Dive_746ROV hasStatus SUCCESSFUL
+  + Dive_749ROV hasDuration 7.0
+  + Dive_749ROV hasStatus SUCCESSFUL
+  + Dive_752ROV hasDuration 7.5
+  + Dive_752ROV hasStatus SUCCESSFUL
+  + Dive_754ROV hasDuration 8.25
+  + Dive_754ROV hasStatus SUCCESSFUL
+  + Dive_756ROV hasDuration 8.0
+  + Dive_756ROV hasStatus SUCCESSFUL
+  + 721CTD has_Temperature 15.7
+  + 721CTD has_Depth 0
+  + 722SBM has_Depth 0
+  + 723ROV has_Depth 300
+  + 743ROV_1 has_Temperature 15.8
+  + 743ROV_1 has_Depth 641
+  + 749ROV_1 has_Temperature 15.7
+  + 749ROV_1 has_Depth 696
+  + 752ROV_1 has_Temperature 15.6
+  + 752ROV_1 has_Depth 71
+  + 754ROV_1 has_Temperature 15.6
+  + 754ROV_1 has_Depth 77
+  + 756ROV_3 has_Temperature 15.7
+  + 756ROV_3 has_Depth 57
+
+skipped 47 excluded axioms:
+  - R/V Poseidon hasSensor Cherokee   [class ROV not in ontology]
+  - P340 hasTask 1   [hasTask has no single named domain/range to type from]
+  - 1 hasAction 721CTD   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 722SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 724DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 725DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 726DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 727SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 730DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 731DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 732DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 733SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 740ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 741ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 743ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 752ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 754ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 756ROV   [hasAction has no single named domain/range to type from]
+  - P340 hasTask 1   [hasTask has no single named domain/range to type from]
+  - 1 hasAction 721CTD   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 722SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 724DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 725DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 726DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 727SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 730DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 731DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 732DR   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 733SBM   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 740ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 741ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 743ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 752ROV   [hasAction has no single named domain/range to type from]
+  - 1 hasAction 754ROV   [hasAction has no single named domain/range to type from]
+  - 721CTD has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 722SBM has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - 722SBM has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 723ROV has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - 723ROV has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 724DR has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - 724DR has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 724DR has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - 743ROV-1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 749ROV-1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 752ROV-1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 754ROV-1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - 756ROV-3 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep21.rdf

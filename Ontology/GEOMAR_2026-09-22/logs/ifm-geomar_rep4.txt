@@ -1,0 +1,546 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 135
+
+created 120 individuals:
+  + RV_SONNE : Vehicle
+  + EM120 : MBES
+  + Parasound : Echosounder
+  + CTD : CTDSensor
+  + OFOS : Camera
+  + TVG : Camera
+  + TV_MUC : Camera
+  + DAPC : DVL
+  + GC : DVL
+  + MUC : DVL
+  + Haiyang_4 : Vehicle
+  + CTD_4 : CTDMission
+  + CTD_10 : CTDMission
+  + CTD_11 : CTDMission
+  + CTD_12 : CTDMission
+  + CTD_18 : CTDMission
+  + CTD_19 : CTDMission
+  + TVG_6 : Data_Sampling_Mission
+  + TVG_7 : Data_Sampling_Mission
+  + TVG_8 : Data_Sampling_Mission
+  + Mission_01 : Mission
+  + Mission_02 : Mission
+  + Station_11 : Station
+  + Station_12 : Station
+  + Station_20 : Station
+  + Station_21 : Station
+  + Station_38 : Station
+  + Station_42 : Station
+  + Station_44 : Station
+  + Station_46 : Station
+  + Station_47 : Station
+  + Station_48 : Station
+  + Station_61 : Station
+  + Station_62 : Station
+  + Station_63 : Station
+  + Station_64 : Station
+  + Station_65 : Station
+  + Station_66 : Station
+  + Station_67 : Station
+  + Station_68 : Station
+  + Station_69 : Station
+  + Station_70 : Station
+  + Station_71 : Station
+  + Station_72 : Station
+  + Station_73 : Station
+  + Station_74 : Station
+  + Station_75 : Station
+  + Station_76 : Station
+  + Station_77 : Station
+  + Station_78 : Station
+  + Station_79 : Station
+  + Station_80 : Station
+  + Station_81 : Station
+  + Station_82 : Station
+  + Station_83 : Station
+  + Station_84 : Station
+  + Station_85 : Station
+  + Station_86 : Station
+  + Station_87 : Station
+  + OFOS_02 : Waypoint
+  + OFOS_03 : Waypoint
+  + OFOS_04 : Waypoint
+  + OFOS_05 : Waypoint
+  + OFOS_06 : Waypoint
+  + OFOS_07 : Waypoint
+  + OFOS_08 : Waypoint
+  + OFOS_09 : Waypoint
+  + OFOS_10 : Waypoint
+  + OFOS_11 : Waypoint
+  + OFOS_12 : Waypoint
+  + OFOS_13 : Waypoint
+  + OFOS_14 : Waypoint
+  + OFOS_15 : Waypoint
+  + OFOS_16 : Waypoint
+  + OFOS_17 : Waypoint
+  + OFOS_18 : Waypoint
+  + OFOS_19 : Waypoint
+  + OFOS_20 : Waypoint
+  + OFOS_21 : Waypoint
+  + OFOS_22 : Waypoint
+  + OFOS_23 : Waypoint
+  + OFOS_24 : Waypoint
+  + OFOS_25 : Waypoint
+  + OFOS_26 : Waypoint
+  + OFOS_27 : Waypoint
+  + OFOS_28 : Waypoint
+  + OFOS_29 : Waypoint
+  + OFOS_30 : Waypoint
+  + OFOS_31 : Waypoint
+  + OFOS_32 : Waypoint
+  + OFOS_33 : Waypoint
+  + OFOS_1 : Task
+  + OFOS_2 : Task
+  + OFOS_3 : Task
+  + OFOS_4 : Task
+  + OFOS_5 : Task
+  + OFOS_6 : Task
+  + OFOS_7 : Task
+  + OFOS_8 : Task
+  + OFOS_9 : Task
+  + CTD_01 : State
+  + CTD_02 : State
+  + CTD_03 : State
+  + CTD_04 : State
+  + CTD_05 : State
+  + CTD_06 : State
+  + CTD_07 : State
+  + CTD_08 : State
+  + CTD_09 : State
+  + CTD_13 : State
+  + CTD_14 : State
+  + CTD_15 : State
+  + CTD_16 : State
+  + CTD_17 : State
+  + CTD_20 : State
+  + CTD_21 : State
+  + CTD_22 : State
+  + CTD_23 : State
+  + CTD_24 : State
+  + CTD_25 : State
+
+asserted 380 axioms:
+  + RV_SONNE hasSensor EM120
+  + RV_SONNE hasSensor Parasound
+  + RV_SONNE hasSensor CTD
+  + RV_SONNE hasSensor OFOS
+  + RV_SONNE hasSensor TVG
+  + RV_SONNE hasSensor TV_MUC
+  + RV_SONNE hasSensor DAPC
+  + RV_SONNE hasSensor GC
+  + RV_SONNE hasSensor MUC
+  + RV_SONNE usesVehicle Haiyang_4
+  + RV_SONNE maxDepthText 3000 m   [maxDepth could not take it]
+  + CTD_4 hasDurationText 1 hour 26 minutes   [hasDuration could not take it]
+  + CTD_4 hasStatus SUCCESSFUL
+  + CTD_10 hasDurationText 1 hour 3 minutes   [hasDuration could not take it]
+  + CTD_10 hasStatus SUCCESSFUL
+  + CTD_11 hasDurationText 1 hour 47 minutes   [hasDuration could not take it]
+  + CTD_11 hasStatus SUCCESSFUL
+  + CTD_12 hasDurationText 2 hours 49 minutes   [hasDuration could not take it]
+  + CTD_12 hasStatus SUCCESSFUL
+  + CTD_18 hasDurationText 1 hour 17 minutes   [hasDuration could not take it]
+  + CTD_18 hasStatus SUCCESSFUL
+  + CTD_19 hasDurationText 2 hours 13 minutes   [hasDuration could not take it]
+  + CTD_19 hasStatus SUCCESSFUL
+  + TVG_6 hasDurationText 1 hour 53 minutes   [hasDuration could not take it]
+  + TVG_6 hasStatus SUCCESSFUL
+  + TVG_6 collect_sample Clam field from OFOS-2
+  + TVG_7 hasDurationText 2 hours 2 minutes   [hasDuration could not take it]
+  + TVG_7 hasStatus SUCCESSFUL
+  + TVG_7 collect_sample Jiu Long Chemoherm
+  + TVG_8 hasDurationText 1 hour 31 minutes   [hasDuration could not take it]
+  + TVG_8 hasStatus SUCCESSFUL
+  + TVG_8 collect_sample Jiu Long Chemoherm
+  + Haiyang_4 stationID 4
+  + Haiyang_4 stationName Haiyang 4
+  + Haiyang_4 stationDate June 2004
+  + Haiyang_4 stationTime N/A
+  + Mission_01 MissionID SO177/1
+  + Mission_01 startTime 2004-06-05T00:00:00Z
+  + Mission_01 endTime 2004-06-21T00:00:00Z
+  + Mission_01 maxDepth 3360
+  + Mission_01 dataVolume 9 GB
+  + Mission_01 hasStatus SUCCESSFUL
+  + Mission_01 remark Survey conducted in areas A and B
+  + Mission_02 MissionID SO177/2
+  + Mission_02 startTime 2004-06-25T00:00:00Z
+  + Mission_02 endTime 2004-07-09T00:00:00Z
+  + Mission_02 maxDepth 3329
+  + Mission_02 dataVolume Data collected from multiple CTD stations
+  + Mission_02 hasStatus SUCCESSFUL
+  + Mission_02 remark Follow-up survey in area B
+  + Station_11 stationID SO177/1, STATION 11 OFOS 02
+  + Station_11 stationDate 06.06.2004/07.06.2004
+  + Station_11 stationTime 23:00
+  + Station_12 stationID SO177/1, STATION 12 OFOS 03
+  + Station_12 stationDate 07.06.2004
+  + Station_12 stationTime 06:27
+  + Station_20 stationID SO177/1, STATION 20 OFOS 05
+  + Station_20 stationDate 09.06.2004
+  + Station_20 stationTime 13:55
+  + Station_21 stationID SO177/1, STATION 21 OFOS 06
+  + Station_21 stationDate 09.06.2004
+  + Station_21 stationTime 18:21
+  + Station_38 stationID SO177/1, STATION 38 OFOS-11
+  + Station_38 stationDate 13.06.2004
+  + Station_38 stationTime 12:51
+  + Station_42 stationID SO177/1, STATION 42 GC-1
+  + Station_42 stationDate 14.06.2004
+  + Station_42 stationTime 06:07
+  + Station_44 stationID SO177/1, STATION 44 CTD-9
+  + Station_44 stationDate 14.06.2004
+  + Station_44 stationTime 13:03
+  + Station_46 stationID SO177/1, STATION 46 OFOS-12
+  + Station_46 stationDate 14.06.2004
+  + Station_46 stationTime 23:26
+  + Station_47 stationID SO177/1, STATION 47 CTD-10
+  + Station_47 stationDate 15.06.2004
+  + Station_47 stationTime 05:22
+  + Station_48 stationID SO177/1, STATION 48 OFOS-13
+  + Station_48 stationDate 15.06.2004
+  + Station_48 stationTime 07:08
+  + Station_61 stationID SO177/1, STATION 61 CTD-11
+  + Station_61 stationDate 17.06.2004
+  + Station_61 stationTime 22:24
+  + Station_62 stationID SO177/1, STATION 62 OFOS-14
+  + Station_62 stationDate 18.06.2004
+  + Station_62 stationTime 00:49
+  + Station_63 stationID SO177/1, STATION 63 OFOS-15
+  + Station_63 stationDate 18.06.2004
+  + Station_63 stationTime 08:32
+  + Station_64 stationID SO177/1, STATION 64 PS-19
+  + Station_64 stationDate 19.06.2004
+  + Station_64 stationTime 13:40
+  + Station_65 stationID SO177/1, STATION 65 GC-6
+  + Station_65 stationDate 19.06.2004
+  + Station_65 stationTime 01:57
+  + Station_66 stationID SO177/1, STATION 66 GC-7
+  + Station_66 stationDate 19.06.2004
+  + Station_66 stationTime 04:58
+  + Station_67 stationID SO177/1, STATION 67 GC-8
+  + Station_67 stationDate 19.06.2004
+  + Station_67 stationTime 07:40
+  + Station_68 stationID SO177/1, STATION 68 CTD-12
+  + Station_68 stationDate 19.06.2004
+  + Station_68 stationTime 11:26
+  + Station_69 stationID SO177/1, STATION 69 PS-20
+  + Station_69 stationDate 19.06.2004
+  + Station_69 stationTime 14:21
+  + Station_70 stationID SO177/1, STATION 70 GC-9
+  + Station_70 stationDate 20.06.2004
+  + Station_70 stationTime 00:59
+  + Station_71 stationID SO177/1, STATION 71 PS-21
+  + Station_71 stationDate 20.06.2004
+  + Station_71 stationTime 03:37
+  + Station_72 stationID SO177/1, STATION 72 TVG-11
+  + Station_72 stationDate 20.06.2004
+  + Station_72 stationTime 08:03
+  + Station_73 stationID SO177/1, STATION 73 TV-MUC 5
+  + Station_73 stationDate 20.06.2004
+  + Station_73 stationTime 12:13
+  + Station_74 stationID SO177/1, STATION 74 OFOS-16
+  + Station_74 stationDate 20.06.2004
+  + Station_74 stationTime 16:25
+  + Station_75 stationID SO177/1, STATION 75 CTD-13
+  + Station_75 stationDate 20.06.2004
+  + Station_75 stationTime 23:13
+  + Station_76 stationID SO177/1, STATION 76 PS-22
+  + Station_76 stationDate 21.06.2004
+  + Station_76 stationTime 01:00
+  + Station_77 stationID SO177/2, STATION 82 OFOS 17
+  + Station_77 stationDate 25-26.06.2004
+  + Station_77 stationTime 23:50
+  + Station_78 stationID SO177/2, STATION 88 OFOS 18
+  + Station_78 stationDate 27.06.2004
+  + Station_78 stationTime 03:07
+  + Station_79 stationID SO177/2, STATION 89 OFOS 19
+  + Station_79 stationDate 27.06.2004
+  + Station_79 stationTime 08:23
+  + Station_80 stationID SO177/2, STATION 95 OFOS 20
+  + Station_80 stationDate 28.06.2004
+  + Station_80 stationTime 01:14
+  + Station_81 stationID SO177/2, STATION 99 OFOS 21
+  + Station_81 stationDate 29.06.2004
+  + Station_81 stationTime 02:35
+  + Station_82 stationID SO177/2, STATION 103 OFOS 22
+  + Station_82 stationDate 01.07.2004
+  + Station_82 stationTime 03:36
+  + Station_83 stationID SO177/2, STATION 107 OFOS 23
+  + Station_83 stationDate 02.07.2004
+  + Station_83 stationTime 00:16
+  + Station_84 stationID SO177/2, STATION 111 OFOS 24
+  + Station_84 stationDate 04.07.2004
+  + Station_84 stationTime 00:16
+  + Station_85 stationID SO177/2, STATION 112 OFOS 25
+  + Station_85 stationDate 04.07.2004
+  + Station_85 stationTime 11:08
+  + Station_86 stationID SO177/2, STATION 113 OFOS 26
+  + Station_86 stationDate 04.07.2004
+  + Station_86 stationTime 15:59
+  + Station_87 stationID SO177/2, STATION 114 OFOS 27
+  + Station_87 stationDate 04.07.2004
+  + Station_87 stationTime 18:47
+  + OFOS_02 locationName Area A
+  + OFOS_02 latitude 22° 08.14'
+  + OFOS_02 longitude 118° 54.23'
+  + OFOS_02 seabedDepth 625
+  + OFOS_03 locationName Area A
+  + OFOS_03 latitude 22° 06.39'
+  + OFOS_03 longitude 118° 54.73'
+  + OFOS_03 seabedDepth 899
+  + OFOS_04 locationName Area A
+  + OFOS_04 latitude 21° 18.79'
+  + OFOS_04 longitude 119° 11.98'
+  + OFOS_04 seabedDepth 2987
+  + OFOS_05 locationName Area A
+  + OFOS_05 latitude 21° 18.16'
+  + OFOS_05 longitude 119° 20.84'
+  + OFOS_05 seabedDepth 3037
+  + OFOS_06 locationName Area A
+  + OFOS_06 latitude 21° 18.19'
+  + OFOS_06 longitude 119° 14.90'
+  + OFOS_06 seabedDepth 2994
+  + OFOS_07 locationName Area A
+  + OFOS_07 latitude 22° 10.54'
+  + OFOS_07 longitude 118° 52.56'
+  + OFOS_07 seabedDepth 484
+  + OFOS_08 locationName Area A
+  + OFOS_08 latitude 22° 02.98'
+  + OFOS_08 longitude 118° 46.01'
+  + OFOS_08 seabedDepth 955
+  + OFOS_09 locationName Area A
+  + OFOS_09 latitude 21° 59.35'
+  + OFOS_09 longitude 118° 39.00'
+  + OFOS_09 seabedDepth 1160
+  + OFOS_10 locationName Area A
+  + OFOS_10 latitude 21° 18.51'
+  + OFOS_10 longitude 119° 25.90'
+  + OFOS_10 seabedDepth 3056
+  + OFOS_11 locationName Area A
+  + OFOS_11 latitude 21° 18.13'
+  + OFOS_11 longitude 119° 25.76'
+  + OFOS_11 seabedDepth 3119
+  + OFOS_12 locationName Area A
+  + OFOS_12 latitude 22° 03.20'
+  + OFOS_12 longitude 118° 45.78'
+  + OFOS_12 seabedDepth 744
+  + OFOS_13 locationName Area A
+  + OFOS_13 latitude 22° 03.03'
+  + OFOS_13 longitude 118° 46.49'
+  + OFOS_13 seabedDepth 803
+  + OFOS_14 locationName Area A
+  + OFOS_14 latitude 22° 00.79'
+  + OFOS_14 longitude 118° 45.21'
+  + OFOS_14 seabedDepth 913
+  + OFOS_15 locationName Area A
+  + OFOS_15 latitude 22° 05.35'
+  + OFOS_15 longitude 118° 42.10'
+  + OFOS_15 seabedDepth 826
+  + OFOS_16 locationName Area A
+  + OFOS_16 latitude 21° 55.89'
+  + OFOS_16 longitude 118° 46.31'
+  + OFOS_16 seabedDepth 1355
+  + OFOS_17 locationName Area B
+  + OFOS_17 latitude 21° 18.68'
+  + OFOS_17 longitude 119° 27.60'
+  + OFOS_17 seabedDepth 3058
+  + OFOS_18 locationName Area B
+  + OFOS_18 latitude 22° 10.748'
+  + OFOS_18 longitude 118° 52.5318'
+  + OFOS_18 seabedDepth 512
+  + OFOS_19 locationName Area B
+  + OFOS_19 latitude 22° 08.587'
+  + OFOS_19 longitude 118° 43.478'
+  + OFOS_19 seabedDepth 569
+  + OFOS_20 locationName Area B
+  + OFOS_20 latitude 21° 18.926'
+  + OFOS_20 longitude 119° 12.288'
+  + OFOS_20 seabedDepth 3016
+  + OFOS_21 locationName Area B
+  + OFOS_21 latitude 21° 24.939'
+  + OFOS_21 longitude 118° 31.669'
+  + OFOS_21 seabedDepth 2429
+  + OFOS_22 locationName Area B
+  + OFOS_22 latitude 18° 25.311'
+  + OFOS_22 longitude 112° 19.193'
+  + OFOS_22 seabedDepth 1073
+  + OFOS_23 locationName Area B
+  + OFOS_23 latitude 18° 27.526'
+  + OFOS_23 longitude 112° 18.959'
+  + OFOS_23 seabedDepth 884
+  + OFOS_24 locationName Area B
+  + OFOS_24 latitude 21° 18.553'
+  + OFOS_24 longitude 119° 11.978'
+  + OFOS_24 seabedDepth 3007
+  + OFOS_25 locationName Area B
+  + OFOS_25 latitude 21° 18.570'
+  + OFOS_25 longitude 119° 11.963'
+  + OFOS_25 seabedDepth 2999
+  + OFOS_26 locationName Area B
+  + OFOS_26 latitude 21° 18.520'
+  + OFOS_26 longitude 119° 26.050'
+  + OFOS_26 seabedDepth 3072
+  + OFOS_27 locationName Area B
+  + OFOS_27 latitude 21° 18.450'
+  + OFOS_27 longitude 119° 26.140'
+  + OFOS_27 seabedDepth 3094
+  + OFOS_28 locationName Area B
+  + OFOS_28 latitude 22° 02.083'
+  + OFOS_28 longitude 118° 25.972'
+  + OFOS_28 seabedDepth 744
+  + OFOS_29 locationName Area B
+  + OFOS_29 latitude 22° 02.426'
+  + OFOS_29 longitude 118° 26.210'
+  + OFOS_29 seabedDepth 815
+  + OFOS_30 locationName Area B
+  + OFOS_30 latitude 22° 08.362'
+  + OFOS_30 longitude 118° 43.414'
+  + OFOS_30 seabedDepth 528
+  + OFOS_31 locationName Area B
+  + OFOS_31 latitude 21° 08.948'
+  + OFOS_31 longitude 119° 11.912'
+  + OFOS_31 seabedDepth 1896
+  + OFOS_32 locationName Area B
+  + OFOS_32 latitude 21° 19.538'
+  + OFOS_32 longitude 119° 14.924'
+  + OFOS_32 seabedDepth 2924
+  + OFOS_33 locationName Area B
+  + OFOS_33 latitude 21° 07.697'
+  + OFOS_33 longitude 119° 13.081'
+  + OFOS_33 seabedDepth 1504
+  + OFOS_1 hasDuration 7.24
+  + OFOS_1 hasStatus SUCCESSFUL
+  + OFOS_2 hasDuration 5.32
+  + OFOS_2 hasStatus SUCCESSFUL
+  + OFOS_3 hasDuration 3.12
+  + OFOS_3 hasStatus SUCCESSFUL
+  + OFOS_4 hasDuration 1.3
+  + OFOS_4 hasStatus SUCCESSFUL
+  + OFOS_5 hasDuration 3.27
+  + OFOS_5 hasStatus SUCCESSFUL
+  + OFOS_6 hasDuration 3.54
+  + OFOS_6 hasStatus SUCCESSFUL
+  + OFOS_7 hasDuration 1.3
+  + OFOS_7 hasStatus SUCCESSFUL
+  + OFOS_8 hasDuration 2.56
+  + OFOS_8 hasStatus SUCCESSFUL
+  + OFOS_9 hasDuration 3.3
+  + OFOS_9 hasStatus SUCCESSFUL
+  + OFOS_10 hasDuration 13.26
+  + OFOS_10 hasStatus SUCCESSFUL
+  + OFOS_11 hasDuration 2.53
+  + OFOS_11 hasStatus SUCCESSFUL
+  + OFOS_12 hasDuration 4.31
+  + OFOS_12 hasStatus SUCCESSFUL
+  + OFOS_13 hasDuration 4.44
+  + OFOS_13 hasStatus SUCCESSFUL
+  + OFOS_14 hasDuration 7.3
+  + OFOS_14 hasStatus SUCCESSFUL
+  + OFOS_15 hasDuration 4.59
+  + OFOS_15 hasStatus SUCCESSFUL
+  + OFOS_16 hasDuration 6.25
+  + OFOS_16 hasStatus SUCCESSFUL
+  + OFOS_17 hasDuration 4.1
+  + OFOS_17 hasStatus SUCCESSFUL
+  + OFOS_18 hasDuration 4.25
+  + OFOS_18 hasStatus SUCCESSFUL
+  + OFOS_19 hasDuration 4.25
+  + OFOS_19 hasStatus SUCCESSFUL
+  + OFOS_20 hasDuration 4.35
+  + OFOS_20 hasStatus SUCCESSFUL
+  + OFOS_21 hasDuration 4.35
+  + OFOS_21 hasStatus SUCCESSFUL
+  + OFOS_22 hasDuration 5.0
+  + OFOS_22 hasStatus SUCCESSFUL
+  + OFOS_23 hasDuration 4.49
+  + OFOS_23 hasStatus SUCCESSFUL
+  + OFOS_24 hasDuration 2.44
+  + OFOS_24 hasStatus SUCCESSFUL
+  + OFOS_25 hasDuration 2.51
+  + OFOS_25 hasStatus SUCCESSFUL
+  + OFOS_26 hasDuration 2.31
+  + OFOS_26 hasStatus SUCCESSFUL
+  + OFOS_27 hasDuration 2.31
+  + OFOS_27 hasStatus SUCCESSFUL
+  + OFOS_28 hasDuration 2.31
+  + OFOS_28 hasStatus SUCCESSFUL
+  + OFOS_29 hasDuration 2.31
+  + OFOS_29 hasStatus SUCCESSFUL
+  + OFOS_30 hasDuration 2.31
+  + OFOS_30 hasStatus SUCCESSFUL
+  + OFOS_31 hasDuration 4.39
+  + OFOS_31 hasStatus SUCCESSFUL
+  + OFOS_32 hasDuration 3.46
+  + OFOS_32 hasStatus SUCCESSFUL
+  + OFOS_33 hasDuration 6.57
+  + OFOS_33 hasStatus SUCCESSFUL
+  + CTD_01 has_Depth 2199
+  + CTD_02 has_Depth 3360
+  + CTD_03 has_Depth 3163
+  + CTD_04 has_Depth 911
+  + CTD_05 has_Depth 3011
+  + CTD_06 has_Depth 919
+  + CTD_07 has_Depth 402
+  + CTD_08 has_Depth 2205
+  + CTD_09 has_Depth 768
+  + CTD_10 has_Depth 769
+  + CTD_11 has_Depth 1357
+  + CTD_12 has_Depth 3283
+  + CTD_13 has_Depth 1747
+  + CTD_14 has_Depth 3329
+  + CTD_15 has_Depth 3252
+  + CTD_16 has_Depth 3247
+  + CTD_17 has_Depth 762
+  + CTD_18 has_Depth 1183
+  + CTD_19 has_Depth 2555
+  + CTD_20 has_Depth 1651
+  + CTD_21 has_Depth 3013
+  + CTD_22 has_Depth 630
+  + CTD_23 has_Depth 2850
+  + CTD_24 has_Depth 3019
+  + CTD_25 has_Depth 2983
+
+skipped 35 excluded axioms:
+  - GC-1 hasAction TVG-6   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-7   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-8   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-9   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-10   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-11   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-12   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-13   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-14   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-15   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-16   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-17   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-18   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-19   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-20   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-21   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-22   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-23   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-24   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-25   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-26   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-27   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-28   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-29   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-30   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-31   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-32   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-33   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-34   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-35   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-36   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-37   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-38   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-39   [hasAction has no single named domain/range to type from]
+  - GC-1 hasAction TVG-40   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep4.rdf

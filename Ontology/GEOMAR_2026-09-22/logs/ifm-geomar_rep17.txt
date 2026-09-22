@@ -1,0 +1,313 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 102
+
+created 87 individuals:
+  + R_V_MARIA_S_MERIAN : Ship
+  + MSM04_1 : Mission
+  + 967_1 : Task
+  + 968_1 : Task
+  + 970_1 : Task
+  + 970_2 : Task
+  + 972_1 : Task
+  + 973_1 : Task
+  + 976_1 : Task
+  + 978_1 : Task
+  + 979_1 : Task
+  + 980_1 : Task
+  + 981_1 : Task
+  + 985_1 : Task
+  + 986_1 : Task
+  + 987_1 : Task
+  + 988_1 : Task
+  + 989_1 : Task
+  + 990_1 : Task
+  + 991_1 : Task
+  + 992_1 : Task
+  + 993_1 : Task
+  + 994_1 : Task
+  + 995_1 : Task
+  + 996_1 : Task
+  + 998_1 : Task
+  + 999_1 : Task
+  + 1000_1 : Task
+  + 1001_1 : Task
+  + 1002_1 : Task
+  + 1003_1 : Task
+  + MOVE : CTDMission
+  + Station_967_1 : Station
+  + Station_968_1 : State
+  + Station_968_2 : State
+  + Station_970_1 : Station
+  + Station_970_2 : Station
+  + Station_972_1 : Station
+  + Station_973_1 : Station
+  + Station_974_1 : Station
+  + Station_975_1 : Station
+  + Station_976_1 : Station
+  + Station_977_1 : Station
+  + Station_978_1 : Station
+  + Station_979_1 : Station
+  + Station_980_1 : Station
+  + Station_981_1 : Station
+  + Station_982_1 : Station
+  + Station_983_1 : Station
+  + Station_984_1 : Station
+  + Station_985_1 : Station
+  + Station_986_1 : Station
+  + Station_987_1 : Station
+  + Station_988_1 : Station
+  + Station_989_1 : Station
+  + Station_990_1 : Station
+  + Station_991_1 : Station
+  + Station_992_1 : Station
+  + Station_993_1 : Station
+  + Station_994_1 : Station
+  + Station_995_1 : Station
+  + Station_996_1 : Station
+  + Station_997_1 : Station
+  + Station_998_1 : Station
+  + Station_999_1 : Station
+  + Station_1000_1 : Station
+  + Station_1001_1 : State
+  + Station_1002_1 : Station
+  + Station_1003_1 : Station
+  + Station_1004_1 : Station
+  + Station_1005_1 : State
+  + Station_1006_1 : Station
+  + Station_1007_1 : Station
+  + Station_1008_1 : Station
+  + Station_1009_1 : Station
+  + Station_1009_2 : Station
+  + Station_1010_1 : Station
+  + Station_1011_1 : Station
+  + Station_1012_1 : Station
+  + Station_1013_1 : Station
+  + Station_1014_1 : Station
+  + Station_1016_1 : Station
+  + PIES123 : Waypoint
+  + PIES128 : Waypoint
+  + PIES127 : Waypoint
+  + PIES165 : Waypoint
+  + PIES005 : Waypoint
+
+asserted 206 axioms:
+  + R_V_MARIA_S_MERIAN hasMission MSM04_1
+  + MSM04_1 hasTask 967_1
+  + MSM04_1 hasTask 968_1
+  + MSM04_1 hasTask 970_1
+  + MSM04_1 hasTask 970_2
+  + MSM04_1 hasTask 972_1
+  + MSM04_1 hasTask 973_1
+  + MSM04_1 hasTask 976_1
+  + MSM04_1 hasTask 978_1
+  + MSM04_1 hasTask 979_1
+  + MSM04_1 hasTask 980_1
+  + MSM04_1 hasTask 981_1
+  + MSM04_1 hasTask 985_1
+  + MSM04_1 hasTask 986_1
+  + MSM04_1 hasTask 987_1
+  + MSM04_1 hasTask 988_1
+  + MSM04_1 hasTask 989_1
+  + MSM04_1 hasTask 990_1
+  + MSM04_1 hasTask 991_1
+  + MSM04_1 hasTask 992_1
+  + MSM04_1 hasTask 993_1
+  + MSM04_1 hasTask 994_1
+  + MSM04_1 hasTask 995_1
+  + MSM04_1 hasTask 996_1
+  + MSM04_1 hasTask 998_1
+  + MSM04_1 hasTask 999_1
+  + MSM04_1 hasTask 1000_1
+  + MSM04_1 hasTask 1001_1
+  + MSM04_1 hasTask 1002_1
+  + MSM04_1 hasTask 1003_1
+  + MOVE hasDurationText 02.12. – 21.12.2006   [hasDuration could not take it]
+  + MOVE hasStatus PartialSUCCESSFUL
+  + R_V_MARIA_S_MERIAN maxDepthText not specified   [maxDepth could not take it]
+  + MSM04_1 stationID MSM04/1
+  + MSM04_1 stationName MSM04/1
+  + MSM04_1 stationDate 02.12.2006
+  + MSM04_1 stationTime not specified
+  + MSM04_1 MissionID MSM04/1
+  + MSM04_1 startTime 02.12.2006
+  + MSM04_1 endTime 21.12.2006
+  + MSM04_1 maxDepthText 5000 m   [maxDepth could not take it]
+  + MSM04_1 dataVolume High
+  + MSM04_1 hasStatus SUCCESSFUL
+  + MSM04_1 remark Cruise report for the Meridional Overturning Variability Experiment
+  + Station_967_1 stationID 967-1
+  + Station_967_1 stationDate 03.12.2006
+  + Station_967_1 stationTime 20:53
+  + Station_968_1 has_Depth 4959.4
+  + Station_968_2 has_Depth 328.5
+  + Station_970_1 stationID 970-1
+  + Station_970_1 stationDate 05.12.2006
+  + Station_970_1 stationTime 00:28
+  + Station_970_2 stationID 970-2
+  + Station_970_2 stationDate 05.12.2006
+  + Station_970_2 stationTime 12:26
+  + Station_972_1 stationID 972-1
+  + Station_972_1 stationDate 05.12.2006
+  + Station_972_1 stationTime 17:58
+  + Station_973_1 stationID 973-1
+  + Station_973_1 stationDate 05.12.2006
+  + Station_973_1 stationTime 20:09
+  + Station_974_1 stationID 974-1
+  + Station_974_1 stationDate 06.12.2006
+  + Station_974_1 stationTime 22:03
+  + Station_975_1 stationID 975-1
+  + Station_975_1 stationDate 06.12.2006
+  + Station_975_1 stationTime 02:45
+  + Station_976_1 stationID 976-1
+  + Station_976_1 stationDate 06.12.2006
+  + Station_976_1 stationTime 12:29
+  + Station_977_1 stationID 977-1
+  + Station_977_1 stationDate 06.12.2006
+  + Station_977_1 stationTime 17:34
+  + Station_978_1 stationID 978-1
+  + Station_978_1 stationDate 07.12.2006
+  + Station_978_1 stationTime 02:45
+  + Station_979_1 stationID 979-1
+  + Station_979_1 stationDate 07.12.2006
+  + Station_979_1 stationTime 10:20
+  + Station_980_1 stationID 980-1
+  + Station_980_1 stationDate 09.12.2006
+  + Station_980_1 stationTime 01:05
+  + Station_981_1 stationID 981-1
+  + Station_981_1 stationDate 09.12.2006
+  + Station_981_1 stationTime 06:26
+  + Station_982_1 stationID 982-1
+  + Station_982_1 stationDate 09.12.2006
+  + Station_982_1 stationTime 13:15
+  + Station_983_1 stationID 983-1
+  + Station_983_1 stationDate 11.12.2006
+  + Station_983_1 stationTime 11:12
+  + Station_984_1 stationID 984-1
+  + Station_984_1 stationDate 11.12.2006
+  + Station_984_1 stationTime 17:09
+  + Station_985_1 stationID 985-1
+  + Station_985_1 stationDate 11.12.2006
+  + Station_985_1 stationTime 19:23
+  + Station_986_1 stationID 986-1
+  + Station_986_1 stationDate 12.12.2006
+  + Station_986_1 stationTime 02:11
+  + Station_987_1 stationID 987-1
+  + Station_987_1 stationDate 12.12.2006
+  + Station_987_1 stationTime 02:11
+  + Station_988_1 stationID 988-1
+  + Station_988_1 stationDate 12.12.2006
+  + Station_988_1 stationTime 10:03
+  + Station_989_1 stationID 989-1
+  + Station_989_1 stationDate 12.12.2006
+  + Station_989_1 stationTime 11:55
+  + Station_990_1 stationID 990-1
+  + Station_990_1 stationDate 12.12.2006
+  + Station_990_1 stationTime 14:10
+  + Station_991_1 stationID 991-1
+  + Station_991_1 stationDate 12.12.2006
+  + Station_991_1 stationTime 17:04
+  + Station_992_1 stationID 992-1
+  + Station_992_1 stationDate 13.12.2006
+  + Station_992_1 stationTime 02:15
+  + Station_993_1 stationID 993-1
+  + Station_993_1 stationDate 13.12.2006
+  + Station_993_1 stationTime 08:34
+  + Station_994_1 stationID 994-1
+  + Station_994_1 stationDate 13.12.2006
+  + Station_994_1 stationTime 15:32
+  + Station_995_1 stationID 995-1
+  + Station_995_1 stationDate 14.12.2006
+  + Station_995_1 stationTime 04:07
+  + Station_996_1 stationID 996-1
+  + Station_996_1 stationDate 14.12.2006
+  + Station_996_1 stationTime 10:56
+  + Station_997_1 stationID 997-1
+  + Station_997_1 stationDate 14.12.2006
+  + Station_997_1 stationTime 20:41
+  + Station_998_1 stationID 998-1
+  + Station_998_1 stationDate 15.12.2006
+  + Station_998_1 stationTime 03:04
+  + Station_999_1 stationID 999-1
+  + Station_999_1 stationDate 15.12.2006
+  + Station_999_1 stationTime 10:27
+  + Station_1000_1 stationID 1000-1
+  + Station_1000_1 stationDate 15.12.2006
+  + Station_1000_1 stationTime 19:05
+  + Station_1001_1 has_Depth 5190.9
+  + Station_1002_1 stationID 1002-1
+  + Station_1002_1 stationDate 16.12.2006
+  + Station_1002_1 stationTime 10:30
+  + Station_1003_1 stationID 1003-1
+  + Station_1003_1 stationDate 16.12.2006
+  + Station_1003_1 stationTime 17:40
+  + Station_1004_1 stationID 1004-1
+  + Station_1004_1 stationDate 17.12.2006
+  + Station_1004_1 stationTime 03:59
+  + Station_1005_1 has_Depth 4928
+  + Station_1006_1 stationID 1006-1
+  + Station_1006_1 stationDate 17.12.2006
+  + Station_1006_1 stationTime 20:18
+  + Station_1007_1 stationID 1007-1
+  + Station_1007_1 stationDate 18.12.2006
+  + Station_1007_1 stationTime 00:49
+  + Station_1008_1 stationID 1008-1
+  + Station_1008_1 stationDate 18.12.2006
+  + Station_1008_1 stationTime 08:25
+  + Station_1009_1 stationID 1009-1
+  + Station_1009_1 stationDate 18.12.2006
+  + Station_1009_1 stationTime 12:54
+  + Station_1009_2 stationID 1009-2
+  + Station_1009_2 stationDate 18.12.2006
+  + Station_1009_2 stationTime 13:49
+  + Station_1010_1 stationID 1010-1
+  + Station_1010_1 stationDate 18.12.2006
+  + Station_1010_1 stationTime 19:54
+  + Station_1011_1 stationID 1011-1
+  + Station_1011_1 stationDate 19.12.2006
+  + Station_1011_1 stationTime 00:42
+  + Station_1012_1 stationID 1012-1
+  + Station_1012_1 stationDate 19.12.2006
+  + Station_1012_1 stationTime 06:08
+  + Station_1013_1 stationID 1013-1
+  + Station_1013_1 stationDate 19.12.2006
+  + Station_1013_1 stationTime 13:23
+  + Station_1014_1 stationID 1014-1
+  + Station_1014_1 stationDate 19.12.2006
+  + Station_1014_1 stationTime 14:43
+  + Station_1016_1 stationID 1016-1
+  + Station_1016_1 stationDate 19.12.2006
+  + Station_1016_1 stationTime 20:45
+  + PIES123 locationName Fort de France
+  + PIES123 latitude 16° 21.30’
+  + PIES123 longitude 60° 29.25’
+  + PIES123 seabedDepth 4959.4
+  + PIES128 locationName Fort de France
+  + PIES128 latitude 20° 36.50’
+  + PIES128 longitude 56° 41.36’
+  + PIES128 seabedDepth 5060
+  + PIES127 locationName Fort de France
+  + PIES127 latitude 15° 26.86’
+  + PIES127 longitude 51° 31.44’
+  + PIES127 seabedDepth 4900
+  + PIES165 locationName Fort de France
+  + PIES165 latitude 15° 59.21’
+  + PIES165 longitude 56° 57.06’
+  + PIES165 seabedDepth 5001.1
+  + PIES005 locationName Fort de France
+  + PIES005 latitude 16° 10.02’
+  + PIES005 longitude 58° 43.12’
+  + PIES005 seabedDepth 0
+
+skipped 9 excluded axioms:
+  - MSM04_1 hasTask Participants   [hasTask has no single named domain/range to type from]
+  - Station_968_1 has_Temperature='0.002 K'   [could not convert string to float: '0.002 K']
+  - Station_968_1 has_Conductivity='0.003 psu'   [could not convert string to float: '0.003 psu']
+  - Station_968_2 has_Temperature='0.002 K'   [could not convert string to float: '0.002 K']
+  - Station_968_2 has_Conductivity='0.003 psu'   [could not convert string to float: '0.003 psu']
+  - Station_1001_1 has_Temperature='0.002 K'   [could not convert string to float: '0.002 K']
+  - Station_1001_1 has_Conductivity='0.003 psu'   [could not convert string to float: '0.003 psu']
+  - Station_1005_1 has_Temperature='0.002 K'   [could not convert string to float: '0.002 K']
+  - Station_1005_1 has_Conductivity='0.003 psu'   [could not convert string to float: '0.003 psu']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep17.rdf

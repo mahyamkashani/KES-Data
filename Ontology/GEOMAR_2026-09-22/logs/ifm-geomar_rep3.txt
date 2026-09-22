@@ -1,0 +1,462 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 131
+
+created 116 individuals:
+  + POSEIDON_No_316 : Mission
+  + Stat_486 : Task
+  + Stat_487 : Task
+  + Stat_488 : Task
+  + Stat_489 : Task
+  + Stat_506 : Task
+  + Stat_507 : Task
+  + Stat_508 : Task
+  + Stat_530 : Task
+  + Stat_531 : Task
+  + Stat_532 : Task
+  + Stat_533 : Task
+  + Stat_534 : Task
+  + Stat_535 : Task
+  + Stat_536 : Task
+  + Stat_537 : Task
+  + Stat_538 : Task
+  + POSEIDON_Cruise_316 : CTDMission
+  + CTD_RO : Remotely_Operated_Vehicle
+  + Galway_Mound : Station
+  + Challenger_Mound : Station
+  + POS316 : Mission
+  + Station_486 : Station
+  + Station_487 : Station
+  + Station_488 : Station
+  + Station_489 : Station
+  + Station_490 : Station
+  + Station_491 : Station
+  + Station_492 : Station
+  + Station_493 : Station
+  + Station_494 : Station
+  + Station_495 : Station
+  + Station_496 : Station
+  + Station_497 : Station
+  + Station_506 : Station
+  + Station_507 : Station
+  + Station_508 : Station
+  + Station_509 : Station
+  + Station_510 : Station
+  + Station_511 : Station
+  + Station_512 : Station
+  + Station_513 : Station
+  + Station_514 : Station
+  + Station_515 : Station
+  + Station_516 : Station
+  + Station_517 : Station
+  + Station_518 : Station
+  + Station_519 : Station
+  + Station_520 : Station
+  + Station_521 : Station
+  + Station_522 : Station
+  + Station_523 : Station
+  + Station_524 : Station
+  + Station_525 : Station
+  + Station_526 : Station
+  + Station_527 : Station
+  + Station_528 : Station
+  + Station_529 : Station
+  + Station_530 : Station
+  + Station_531 : Station
+  + Station_532 : Station
+  + Station_533 : Station
+  + Station_534 : Station
+  + Station_535 : Station
+  + Station_536 : Station
+  + Station_537 : Station
+  + Station_538 : Station
+  + Poseidon_Mound : Waypoint
+  + Kiel_Mount : Waypoint
+  + Dive_489 : Task
+  + Dive_490 : Task
+  + Dive_491 : Task
+  + Dive_492 : Task
+  + Dive_493 : Task
+  + Dive_494 : Task
+  + Dive_495 : Task
+  + Dive_506 : Task
+  + Dive_507 : Task
+  + Dive_508 : Task
+  + Dive_509 : Task
+  + Dive_510 : Task
+  + Dive_511 : Task
+  + Dive_512 : Task
+  + Dive_513 : Task
+  + Dive_514 : Task
+  + Dive_515 : Task
+  + Dive_516 : Task
+  + Dive_517 : Task
+  + Dive_518 : Task
+  + Dive_519 : Task
+  + Dive_520 : Task
+  + Dive_521 : Task
+  + Dive_522 : Task
+  + Dive_523 : Task
+  + Dive_524 : Task
+  + Dive_525 : Task
+  + Dive_526 : Task
+  + Dive_527 : Task
+  + Dive_528 : Task
+  + Dive_529 : Task
+  + Dive_530 : Task
+  + Dive_531 : Task
+  + Dive_532 : Task
+  + Dive_533 : Task
+  + Dive_534 : Task
+  + Dive_535 : Task
+  + Dive_536 : Task
+  + Dive_537 : Task
+  + Dive_538 : Task
+  + CTD_1 : State
+  + CTD_2 : State
+  + CTD_3 : State
+  + CTD_4 : State
+  + CTD_5 : State
+  + CTD_6 : State
+  + CTD_7 : State
+
+asserted 275 axioms:
+  + POSEIDON_No_316 hasTask Stat_486
+  + POSEIDON_No_316 hasTask Stat_487
+  + POSEIDON_No_316 hasTask Stat_488
+  + POSEIDON_No_316 hasTask Stat_489
+  + POSEIDON_No_316 hasTask Stat_506
+  + POSEIDON_No_316 hasTask Stat_507
+  + POSEIDON_No_316 hasTask Stat_508
+  + POSEIDON_No_316 hasTask Stat_530
+  + POSEIDON_No_316 hasTask Stat_531
+  + POSEIDON_No_316 hasTask Stat_532
+  + POSEIDON_No_316 hasTask Stat_533
+  + POSEIDON_No_316 hasTask Stat_534
+  + POSEIDON_No_316 hasTask Stat_535
+  + POSEIDON_No_316 hasTask Stat_536
+  + POSEIDON_No_316 hasTask Stat_537
+  + POSEIDON_No_316 hasTask Stat_538
+  + POSEIDON_Cruise_316 hasDurationText April 2004 to August 2004   [hasDuration could not take it]
+  + POSEIDON_Cruise_316 hasStatus SUCCESSFUL
+  + CTD_RO maxDepthText Unknown   [maxDepth could not take it]
+  + Galway_Mound stationID Stat. 506
+  + Galway_Mound stationName Galway Mound
+  + Galway_Mound stationDate 10-08-2004
+  + Galway_Mound stationTime 09:45:00
+  + Challenger_Mound stationID Stat. 507
+  + Challenger_Mound stationName Challenger Mound
+  + Challenger_Mound stationDate 10-08-2004
+  + Challenger_Mound stationTime 13:18:50
+  + POS316 MissionID POS 316
+  + POS316 startTime 03.08.2004
+  + POS316 endTime 17.08.2004
+  + POS316 maxDepthText 1806 m   [maxDepth could not take it]
+  + POS316 dataVolume Not specified
+  + POS316 hasStatus SUCCESSFUL
+  + POS316 remark Multidisciplinary cruise addressing biological, geological and hydrographical scientific objectives.
+  + Station_486 stationID 486
+  + Station_486 stationDate 04.08.04
+  + Station_486 stationTime 09:55:00
+  + Station_487 stationID 487
+  + Station_487 stationDate 05.08.04
+  + Station_487 stationTime 08:41:53
+  + Station_488 stationID 488
+  + Station_488 stationDate 06.08.04
+  + Station_488 stationTime 06:30:00
+  + Station_489 stationID 489
+  + Station_489 stationDate 06.08.04
+  + Station_489 stationTime 17:40:00
+  + Station_490 stationID 490
+  + Station_490 stationDate 06.08.04
+  + Station_490 stationTime 19:00:00
+  + Station_491 stationID 491
+  + Station_491 stationDate 06.08.04
+  + Station_491 stationTime 20:45:00
+  + Station_492 stationID 492
+  + Station_492 stationDate 06.08.04
+  + Station_492 stationTime 22:01:00
+  + Station_493 stationID 493
+  + Station_493 stationDate 06.08.04
+  + Station_493 stationTime 23:02:00
+  + Station_494 stationID 494
+  + Station_494 stationDate 07.08.04
+  + Station_494 stationTime 00:15:00
+  + Station_495 stationID 495
+  + Station_495 stationDate 07.08.04
+  + Station_495 stationTime 01:32:00
+  + Station_496 stationID 496
+  + Station_496 stationDate 07.08.04
+  + Station_496 stationTime 03:07:00
+  + Station_497 stationID 497
+  + Station_497 stationDate 07.08.04
+  + Station_497 stationTime 04:20:00
+  + Station_506 stationID 506
+  + Station_506 stationDate 10.08.04
+  + Station_506 stationTime 09:45:00
+  + Station_507 stationID 507
+  + Station_507 stationDate 10.08.04
+  + Station_507 stationTime 13:18:50
+  + Station_508 stationID 508
+  + Station_508 stationDate 10.08.04
+  + Station_508 stationTime 14:22:30
+  + Station_509 stationID 509
+  + Station_509 stationDate 10.08.04
+  + Station_509 stationTime 17:00:00
+  + Station_510 stationID 510
+  + Station_510 stationDate 10.08.04
+  + Station_510 stationTime 17:59:54
+  + Station_511 stationID 511
+  + Station_511 stationDate 10.08.04
+  + Station_511 stationTime 18:46:00
+  + Station_512 stationID 512
+  + Station_512 stationDate 10.08.04
+  + Station_512 stationTime 20:10:00
+  + Station_513 stationID 513
+  + Station_513 stationDate 10.08.04
+  + Station_513 stationTime 21:23:00
+  + Station_514 stationID 514
+  + Station_514 stationDate 10.08.04
+  + Station_514 stationTime 22:12:00
+  + Station_515 stationID 515
+  + Station_515 stationDate 10.08.04
+  + Station_515 stationTime 23:04:00
+  + Station_516 stationID 516
+  + Station_516 stationDate 11.08.04
+  + Station_516 stationTime 00:38:00
+  + Station_517 stationID 517
+  + Station_517 stationDate 11.08.04
+  + Station_517 stationTime 01:32:00
+  + Station_518 stationID 518
+  + Station_518 stationDate 11.08.04
+  + Station_518 stationTime 02:26:00
+  + Station_519 stationID 519
+  + Station_519 stationDate 11.08.04
+  + Station_519 stationTime 03:48:00
+  + Station_520 stationID 520
+  + Station_520 stationDate 11.08.04
+  + Station_520 stationTime 05:13:00
+  + Station_521 stationID 521
+  + Station_521 stationDate 11.08.04
+  + Station_521 stationTime 06:20:00
+  + Station_522 stationID 522
+  + Station_522 stationDate 11.08.04
+  + Station_522 stationTime 08:15:00
+  + Station_523 stationID 523
+  + Station_523 stationDate 11.08.04
+  + Station_523 stationTime 09:44:00
+  + Station_524 stationID 524
+  + Station_524 stationDate 11.08.04
+  + Station_524 stationTime 13:03:00
+  + Station_525 stationID 525
+  + Station_525 stationDate 11.08.04
+  + Station_525 stationTime 14:11:00
+  + Station_526 stationID 526
+  + Station_526 stationDate 11.08.04
+  + Station_526 stationTime 15:22:00
+  + Station_527 stationID 527
+  + Station_527 stationDate 11.08.04
+  + Station_527 stationTime 16:14:00
+  + Station_528 stationID 528
+  + Station_528 stationDate 11.08.04
+  + Station_528 stationTime 17:14:55
+  + Station_529 stationID 529
+  + Station_529 stationDate 11.08.04
+  + Station_529 stationTime 18:33:00
+  + Station_530 stationID 530
+  + Station_530 stationDate 11.08.04
+  + Station_530 stationTime 19:40:00
+  + Station_531 stationID 531
+  + Station_531 stationDate 11.08.04
+  + Station_531 stationTime 20:51:00
+  + Station_532 stationID 532
+  + Station_532 stationDate 11.08.04
+  + Station_532 stationTime 22:03:00
+  + Station_533 stationID 533
+  + Station_533 stationDate 12.08.04
+  + Station_533 stationTime 23:38:00
+  + Station_534 stationID 534
+  + Station_534 stationDate 12.08.04
+  + Station_534 stationTime 00:26:00
+  + Station_535 stationID 535
+  + Station_535 stationDate 12.08.04
+  + Station_535 stationTime 01:10:00
+  + Station_536 stationID 536
+  + Station_536 stationDate 12.08.04
+  + Station_536 stationTime 01:57:00
+  + Station_537 stationID 537
+  + Station_537 stationDate 12.08.04
+  + Station_537 stationTime 02:59:00
+  + Station_538 stationID 538
+  + Station_538 stationDate 12.08.04
+  + Station_538 stationTime 03:51:00
+  + Galway_Mound locationName Galway Mound
+  + Galway_Mound latitude 51°27.182N
+  + Galway_Mound longitude 11°44.026W
+  + Galway_Mound seabedDepthText 870 m   [seabedDepth could not take it]
+  + Poseidon_Mound locationName Poseidon Mound
+  + Poseidon_Mound latitude 51°27.35N
+  + Poseidon_Mound longitude 11°42.044W
+  + Poseidon_Mound seabedDepthText 679 m   [seabedDepth could not take it]
+  + Kiel_Mount locationName Kiel Mount
+  + Kiel_Mount latitude 56°41.41N
+  + Kiel_Mount longitude 17°27.91W
+  + Kiel_Mount seabedDepthText 940 m   [seabedDepth could not take it]
+  + Dive_489 hasDuration 0.5
+  + Dive_489 hasStatus SUCCESSFUL
+  + Dive_490 hasDuration 0.5
+  + Dive_490 hasStatus SUCCESSFUL
+  + Dive_491 hasDuration 0.5
+  + Dive_491 hasStatus SUCCESSFUL
+  + Dive_492 hasDuration 0.5
+  + Dive_492 hasStatus SUCCESSFUL
+  + Dive_493 hasDuration 0.5
+  + Dive_493 hasStatus SUCCESSFUL
+  + Dive_494 hasDuration 0.5
+  + Dive_494 hasStatus SUCCESSFUL
+  + Dive_495 hasDuration 0.5
+  + Dive_495 hasStatus SUCCESSFUL
+  + Dive_506 hasDuration 0.5
+  + Dive_506 hasStatus SUCCESSFUL
+  + Dive_507 hasDuration 0.5
+  + Dive_507 hasStatus SUCCESSFUL
+  + Dive_508 hasDuration 0.5
+  + Dive_508 hasStatus SUCCESSFUL
+  + Dive_509 hasDuration 0.5
+  + Dive_509 hasStatus SUCCESSFUL
+  + Dive_510 hasDuration 0.5
+  + Dive_510 hasStatus SUCCESSFUL
+  + Dive_511 hasDuration 0.5
+  + Dive_511 hasStatus SUCCESSFUL
+  + Dive_512 hasDuration 0.5
+  + Dive_512 hasStatus SUCCESSFUL
+  + Dive_513 hasDuration 0.5
+  + Dive_513 hasStatus SUCCESSFUL
+  + Dive_514 hasDuration 0.5
+  + Dive_514 hasStatus SUCCESSFUL
+  + Dive_515 hasDuration 0.5
+  + Dive_515 hasStatus SUCCESSFUL
+  + Dive_516 hasDuration 0.5
+  + Dive_516 hasStatus SUCCESSFUL
+  + Dive_517 hasDuration 0.5
+  + Dive_517 hasStatus SUCCESSFUL
+  + Dive_518 hasDuration 0.5
+  + Dive_518 hasStatus SUCCESSFUL
+  + Dive_519 hasDuration 0.5
+  + Dive_519 hasStatus SUCCESSFUL
+  + Dive_520 hasDuration 0.5
+  + Dive_520 hasStatus SUCCESSFUL
+  + Dive_521 hasDuration 0.5
+  + Dive_521 hasStatus SUCCESSFUL
+  + Dive_522 hasDuration 0.5
+  + Dive_522 hasStatus SUCCESSFUL
+  + Dive_523 hasDuration 0.5
+  + Dive_523 hasStatus SUCCESSFUL
+  + Dive_524 hasDuration 0.5
+  + Dive_524 hasStatus SUCCESSFUL
+  + Dive_525 hasDuration 0.5
+  + Dive_525 hasStatus SUCCESSFUL
+  + Dive_526 hasDuration 0.5
+  + Dive_526 hasStatus SUCCESSFUL
+  + Dive_527 hasDuration 0.5
+  + Dive_527 hasStatus SUCCESSFUL
+  + Dive_528 hasDuration 0.5
+  + Dive_528 hasStatus SUCCESSFUL
+  + Dive_529 hasDuration 0.5
+  + Dive_529 hasStatus SUCCESSFUL
+  + Dive_530 hasDuration 0.5
+  + Dive_530 hasStatus SUCCESSFUL
+  + Dive_531 hasDuration 0.5
+  + Dive_531 hasStatus SUCCESSFUL
+  + Dive_532 hasDuration 0.5
+  + Dive_532 hasStatus SUCCESSFUL
+  + Dive_533 hasDuration 0.5
+  + Dive_533 hasStatus SUCCESSFUL
+  + Dive_534 hasDuration 0.5
+  + Dive_534 hasStatus SUCCESSFUL
+  + Dive_535 hasDuration 0.5
+  + Dive_535 hasStatus SUCCESSFUL
+  + Dive_536 hasDuration 0.5
+  + Dive_536 hasStatus SUCCESSFUL
+  + Dive_537 hasDuration 0.5
+  + Dive_537 hasStatus SUCCESSFUL
+  + Dive_538 hasDuration 0.5
+  + Dive_538 hasStatus SUCCESSFUL
+  + CTD_1 has_Temperature 7.6
+  + CTD_1 has_Depth 906
+  + CTD_2 has_Temperature 8
+  + CTD_2 has_Depth 824
+  + CTD_3 has_Temperature 12.4
+  + CTD_3 has_Depth 878
+  + CTD_4 has_Temperature 11
+  + CTD_4 has_Depth 993
+  + CTD_5 has_Temperature 9.3
+  + CTD_5 has_Depth 1039
+  + CTD_6 has_Temperature 11.8
+  + CTD_6 has_Depth 1077
+  + CTD_7 has_Temperature 13.5
+  + CTD_7 has_Depth 1079
+
+skipped 60 excluded axioms:
+  - POS316 goes_through Station_486   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_487   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_488   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_489   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_490   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_491   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_492   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_493   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_494   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_495   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_496   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_497   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_498   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_499   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_500   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_501   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_502   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_503   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_504   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_505   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_506   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_507   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_508   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_509   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_510   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_511   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_512   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_513   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_514   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_515   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_516   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_517   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_518   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_519   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_520   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_521   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_522   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_523   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_524   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_525   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_526   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_527   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_528   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_529   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_530   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_531   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_532   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_533   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_534   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_535   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_536   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_537   [goes_through has no single named domain/range to type from]
+  - POS316 goes_through Station_538   [goes_through has no single named domain/range to type from]
+  - CTD_1 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_2 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_3 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_4 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_5 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_6 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+  - CTD_7 has_Conductivity='N/A'   [could not convert string to float: 'N/A']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep3.rdf

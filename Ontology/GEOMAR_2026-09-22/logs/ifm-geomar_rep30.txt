@@ -1,0 +1,427 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 126
+
+created 111 individuals:
+  + R_V_Meteor : Ship
+  + M73_2 : Mission
+  + R_V_Poseidon : Ship
+  + POS340 : Mission
+  + Kongsberg_Simrad_EM120 : Vehicle
+  + R_V_Meteor_cruise_M73_2 : Bathymetric_Mission
+  + Station_861GC : Station
+  + Station_866TVG : Station
+  + Mission_1 : Mission
+  + station_852RD : Station
+  + station_853RD : Station
+  + station_856SB : Station
+  + station_857RD : Station
+  + station_858RD : Station
+  + station_860RD : Station
+  + station_861GC : Station
+  + station_862GC : Station
+  + station_863GC : Station
+  + station_864SB : Station
+  + station_865RD : Station
+  + station_866TVG : Station
+  + station_867TVG : Station
+  + station_868SB : Station
+  + station_870SB : Station
+  + station_875RD : Station
+  + station_876RD : Station
+  + station_878RD : Station
+  + station_879RD : Station
+  + station_881RD : Station
+  + station_882RD : Station
+  + station_886RD : Station
+  + station_887RDV : Station
+  + station_889RD : Station
+  + station_890RDV : Station
+  + station_894RDV : Station
+  + station_895RD : Station
+  + station_896RD : Station
+  + station_899RD : Station
+  + station_900RDV : Station
+  + station_902RD : Station
+  + station_903RD : Station
+  + station_904RD : Station
+  + station_905RD : Station
+  + station_907RDV : Station
+  + station_908RD : Station
+  + station_912SB : Station
+  + station_913RD : Station
+  + station_914RD : Station
+  + station_917RD : Station
+  + station_918RD : Station
+  + station_919TVG : Station
+  + station_920RD : Station
+  + station_921RD : Station
+  + station_922TVG : Station
+  + station_923SB : Station
+  + station_924SB : Station
+  + station_925RD : Station
+  + station_927RD : Station
+  + station_930RD : Station
+  + station_931RD : Station
+  + station_932RD : Station
+  + station_933SB : Station
+  + station_934SB : Station
+  + station_935SB : Station
+  + Palinuro_849SP : Waypoint
+  + Panarea_875RD : Waypoint
+  + Marsili_917RD : Waypoint
+  + 855RD : Task
+  + 856SB : Task
+  + 857RD : Task
+  + 858RD : Task
+  + 859RD : Task
+  + 860RD : Task
+  + 861GC : Task
+  + 862GC : Task
+  + 863GC : Task
+  + 864SB : Task
+  + 865RD : Task
+  + 866TVG : Task
+  + 867TVG : Task
+  + 868SB : Task
+  + 869TVG : Task
+  + 870SB : Task
+  + 871GC : Task
+  + 872GC : Task
+  + 873SB : Task
+  + 874SB : Task
+  + 875RD : Task
+  + 876RD : Task
+  + 878RD : Task
+  + 879RD : Task
+  + 880RD : Task
+  + 881RD : Task
+  + 882RD : Task
+  + 883RD : Task
+  + 884RD : Task
+  + 885RD : Task
+  + 886RD : Task
+  + 888SB : Task
+  + 889RD : Task
+  + 891RD : Task
+  + 892RD : Task
+  + 893RD : Task
+  + 896RD : Task
+  + 901RD : Task
+  + 902RD : Task
+  + 903RD : Task
+  + 904RD : Task
+  + 905RD : Task
+  + 906RD : Task
+  + 911RD : Task
+
+asserted 288 axioms:
+  + R_V_Meteor hasMission M73_2
+  + R_V_Poseidon hasMission POS340
+  + Kongsberg_Simrad_EM120 hasSensor R_V_Meteor
+  + R_V_Meteor_cruise_M73_2 hasDurationText August 14-30, 2007   [hasDuration could not take it]
+  + R_V_Meteor_cruise_M73_2 hasStatus SUCCESSFUL
+  + Station_861GC stationID 861GC
+  + Station_861GC stationName Gravity Corer Station
+  + Station_861GC stationDate August 17, 2007
+  + Station_861GC stationTime 20:36-21:08 UTC
+  + Station_866TVG stationID 866TVG
+  + Station_866TVG stationName TV-guided Grab Station
+  + Station_866TVG stationDate August 17, 2007
+  + Station_866TVG stationTime 14:30-16:18 UTC
+  + R_V_Meteor maxDepthText 2500 m   [maxDepth could not take it]
+  + Mission_1 MissionID M73/2
+  + Mission_1 startTime 14.08.2007
+  + Mission_1 endTime 30.08.2007
+  + Mission_1 maxDepthText 5 m   [maxDepth could not take it]
+  + Mission_1 dataVolume 31.91 m
+  + Mission_1 hasStatus SUCCESSFUL
+  + Mission_1 remark Shallow drilling of hydrothermal sites in the Tyrrhenian Sea
+  + station_852RD stationID 852RD
+  + station_852RD stationDate 16.08.07
+  + station_852RD stationTime 10:53-13:46 UTC
+  + station_853RD stationID 853RD
+  + station_853RD stationDate 16.08.07
+  + station_853RD stationTime 14:23-16:16 UTC
+  + station_856SB stationID 856SB
+  + station_856SB stationDate 16.08.07
+  + station_856SB stationTime 21:13-23:06 UTC
+  + station_857RD stationID 857RD
+  + station_857RD stationDate 17.08.07
+  + station_857RD stationTime 11:50-13:27 UTC
+  + station_858RD stationID 858RD
+  + station_858RD stationDate 17.08.07
+  + station_858RD stationTime 14:13-15:39 UTC
+  + station_860RD stationID 860RD
+  + station_860RD stationDate 17.08.07
+  + station_860RD stationTime 18:13-20:21 UTC
+  + station_861GC stationID 861GC
+  + station_861GC stationDate 17.08.07
+  + station_861GC stationTime 20:36-21:08 UTC
+  + station_862GC stationID 862GC
+  + station_862GC stationDate 17.08.07
+  + station_862GC stationTime 22:25-23:00 UTC
+  + station_863GC stationID 863GC
+  + station_863GC stationDate 17.08.07
+  + station_863GC stationTime 23:43-00:33 UTC
+  + station_864SB stationID 864SB
+  + station_864SB stationDate 18.08.07
+  + station_864SB stationTime 00:53-05:26 UTC
+  + station_865RD stationID 865RD
+  + station_865RD stationDate 18.08.07
+  + station_865RD stationTime 06:02-08:21 UTC
+  + station_866TVG stationID 866TVG
+  + station_866TVG stationDate 18.08.07
+  + station_866TVG stationTime 14:30-16:18 UTC
+  + station_867TVG stationID 867TVG
+  + station_867TVG stationDate 18.08.07
+  + station_867TVG stationTime 18:29-20:07 UTC
+  + station_868SB stationID 868SB
+  + station_868SB stationDate 18.08.07
+  + station_868SB stationTime 21:35-05:27 UTC
+  + station_870SB stationID 870SB
+  + station_870SB stationDate 19.08.07
+  + station_870SB stationTime 12:00-13:00 UTC
+  + station_875RD stationID 875RD
+  + station_875RD stationDate 20.08.07
+  + station_875RD stationTime 11:21-12:35 UTC
+  + station_876RD stationID 876RD
+  + station_876RD stationDate 20.08.07
+  + station_876RD stationTime 12:56-14:09 UTC
+  + station_878RD stationID 878RD
+  + station_878RD stationDate 20.08.07
+  + station_878RD stationTime 16:12-17:44 UTC
+  + station_879RD stationID 879RD
+  + station_879RD stationDate 20.08.07
+  + station_879RD stationTime 18:06-19:07 UTC
+  + station_881RD stationID 881RD
+  + station_881RD stationDate 20.08.07
+  + station_881RD stationTime 22:00-00:13 UTC
+  + station_882RD stationID 882RD
+  + station_882RD stationDate 21.08.07
+  + station_882RD stationTime 00:46-02:06 UTC
+  + station_886RD stationID 886RD
+  + station_886RD stationDate 21.08.07
+  + station_886RD stationTime 08:49-09:47 UTC
+  + station_887RDV stationID 887RDV
+  + station_887RDV stationDate 21.08.07
+  + station_887RDV stationTime 10:07-10:49 UTC
+  + station_889RD stationID 889RD
+  + station_889RD stationDate 21.08.07
+  + station_889RD stationTime 15:58-16:45 UTC
+  + station_890RDV stationID 890RDV
+  + station_890RDV stationDate 21.08.07
+  + station_890RDV stationTime 17:46-18:07 UTC
+  + station_894RDV stationID 894RDV
+  + station_894RDV stationDate 21.08.07
+  + station_894RDV stationTime 22:13-22:52 UTC
+  + station_895RD stationID 895RD
+  + station_895RD stationDate 22.08.07
+  + station_895RD stationTime 00:16-02:47 UTC
+  + station_896RD stationID 896RD
+  + station_896RD stationDate 22.08.07
+  + station_896RD stationTime 03:14-06:25 UTC
+  + station_899RD stationID 899RD
+  + station_899RD stationDate 22.08.07
+  + station_899RD stationTime 11:50-12:39 UTC
+  + station_900RDV stationID 900RDV
+  + station_900RDV stationDate 22.08.07
+  + station_900RDV stationTime 13:00-13:29 UTC
+  + station_902RD stationID 902RD
+  + station_902RD stationDate 22.08.07
+  + station_902RD stationTime 15:48-16:59 UTC
+  + station_903RD stationID 903RD
+  + station_903RD stationDate 22.08.07
+  + station_903RD stationTime 17:13-18:20 UTC
+  + station_904RD stationID 904RD
+  + station_904RD stationDate 22.08.07
+  + station_904RD stationTime 18:30-21:13 UTC
+  + station_905RD stationID 905RD
+  + station_905RD stationDate 22.08.07
+  + station_905RD stationTime 21:52-23:04 UTC
+  + station_907RDV stationID 907RDV
+  + station_907RDV stationDate 23.08.07
+  + station_907RDV stationTime 00:13-00:57 UTC
+  + station_908RD stationID 908RD
+  + station_908RD stationDate 23.08.07
+  + station_908RD stationTime 01:25-03:09 UTC
+  + station_912SB stationID 912SB
+  + station_912SB stationDate 23.08.07
+  + station_912SB stationTime 07:05-08:54 UTC
+  + station_913RD stationID 913RD
+  + station_913RD stationDate 23.08.07
+  + station_913RD stationTime 10:00-10:49 UTC
+  + station_914RD stationID 914RD
+  + station_914RD stationDate 23.08.07
+  + station_914RD stationTime 11:06-13:14 UTC
+  + station_917RD stationID 917RD
+  + station_917RD stationDate 24.08.07
+  + station_917RD stationTime 07:21-09:59 UTC
+  + station_918RD stationID 918RD
+  + station_918RD stationDate 24.08.07
+  + station_918RD stationTime 10:06-12:38 UTC
+  + station_919TVG stationID 919TVG
+  + station_919TVG stationDate 24.08.07
+  + station_919TVG stationTime 13:10-13:48 UTC
+  + station_920RD stationID 920RD
+  + station_920RD stationDate 24.08.07
+  + station_920RD stationTime 15:49-18:14 UTC
+  + station_921RD stationID 921RD
+  + station_921RD stationDate 24.08.07
+  + station_921RD stationTime 18:51-20:59 UTC
+  + station_922TVG stationID 922TVG
+  + station_922TVG stationDate 24.08.07
+  + station_922TVG stationTime 21:16-21:53 UTC
+  + station_923SB stationID 923SB
+  + station_923SB stationDate 24.08.07
+  + station_923SB stationTime 22:28-14:20 UTC
+  + station_924SB stationID 924SB
+  + station_924SB stationDate 25.08.07
+  + station_924SB stationTime 14:39-07:44 UTC
+  + station_925RD stationID 925RD
+  + station_925RD stationDate 26.08.07
+  + station_925RD stationTime 10:25-13:25 UTC
+  + station_927RD stationID 927RD
+  + station_927RD stationDate 26.08.07
+  + station_927RD stationTime 16:46-19:20 UTC
+  + station_930RD stationID 930RD
+  + station_930RD stationDate 26.08.07
+  + station_930RD stationTime 23:52-02:13 UTC
+  + station_931RD stationID 931RD
+  + station_931RD stationDate 27.08.07
+  + station_931RD stationTime 02:38-05:43 UTC
+  + station_932RD stationID 932RD
+  + station_932RD stationDate 27.08.07
+  + station_932RD stationTime 06:03-07:57 UTC
+  + station_933SB stationID 933SB
+  + station_933SB stationDate 27.08.07
+  + station_933SB stationTime 08:46-09:44 UTC
+  + station_934SB stationID 934SB
+  + station_934SB stationDate 27.08.07
+  + station_934SB stationTime 14:12-19:10 UTC
+  + station_935SB stationID 935SB
+  + station_935SB stationDate 27.08.07
+  + station_935SB stationTime 22:00-02:41 UTC
+  + Palinuro_849SP locationName Palinuro
+  + Palinuro_849SP latitude 39°34.00'N
+  + Palinuro_849SP longitude 14°38.00'E
+  + Palinuro_849SP seabedDepth 1732
+  + Panarea_875RD locationName Panarea
+  + Panarea_875RD latitude 38°38.854'N
+  + Panarea_875RD longitude 15°06.728'E
+  + Panarea_875RD seabedDepth 56
+  + Marsili_917RD locationName Marsili
+  + Marsili_917RD latitude 39°17.022'N
+  + Marsili_917RD longitude 14°23.767'E
+  + Marsili_917RD seabedDepth 500
+  + 855RD hasDuration 1.38
+  + 855RD hasStatus SUCCESSFUL
+  + 856SB hasDuration 1.88
+  + 856SB hasStatus SUCCESSFUL
+  + 857RD hasDuration 1.62
+  + 857RD hasStatus SUCCESSFUL
+  + 858RD hasDuration 1.43
+  + 858RD hasStatus SUCCESSFUL
+  + 859RD hasDuration 1.47
+  + 859RD hasStatus SUCCESSFUL
+  + 860RD hasDuration 2.03
+  + 860RD hasStatus FAILED
+  + 861GC hasDuration 0.53
+  + 861GC hasStatus SUCCESSFUL
+  + 862GC hasDuration 0.58
+  + 862GC hasStatus SUCCESSFUL
+  + 863GC hasDuration 0.83
+  + 863GC hasStatus SUCCESSFUL
+  + 864SB hasDuration 4.55
+  + 864SB hasStatus SUCCESSFUL
+  + 865RD hasDuration 2.32
+  + 865RD hasStatus SUCCESSFUL
+  + 866TVG hasDuration 1.47
+  + 866TVG hasStatus SUCCESSFUL
+  + 867TVG hasDuration 1.63
+  + 867TVG hasStatus SUCCESSFUL
+  + 868SB hasDuration 7.03
+  + 868SB hasStatus SUCCESSFUL
+  + 869TVG hasDuration 4.51
+  + 869TVG hasStatus FAILED
+  + 870SB hasDuration 1.0
+  + 870SB hasStatus SUCCESSFUL
+  + 871GC hasDuration 0.68
+  + 871GC hasStatus SUCCESSFUL
+  + 872GC hasDuration 0.67
+  + 872GC hasStatus SUCCESSFUL
+  + 873SB hasDuration 10.32
+  + 873SB hasStatus SUCCESSFUL
+  + 874SB hasDuration 1.95
+  + 874SB hasStatus SUCCESSFUL
+  + 875RD hasDuration 2.12
+  + 875RD hasStatus SUCCESSFUL
+  + 876RD hasDuration 1.5
+  + 876RD hasStatus SUCCESSFUL
+  + 878RD hasDuration 1.57
+  + 878RD hasStatus SUCCESSFUL
+  + 879RD hasDuration 1.02
+  + 879RD hasStatus SUCCESSFUL
+  + 880RD hasDuration 2.12
+  + 880RD hasStatus SUCCESSFUL
+  + 881RD hasDuration 1.0
+  + 881RD hasStatus SUCCESSFUL
+  + 882RD hasDuration 1.0
+  + 882RD hasStatus SUCCESSFUL
+  + 883RD hasDuration 1.0
+  + 883RD hasStatus SUCCESSFUL
+  + 884RD hasDuration 1.0
+  + 884RD hasStatus SUCCESSFUL
+  + 885RD hasDuration 1.0
+  + 885RD hasStatus SUCCESSFUL
+  + 886RD hasDuration 1.0
+  + 886RD hasStatus SUCCESSFUL
+  + 888SB hasDuration 4.0
+  + 888SB hasStatus SUCCESSFUL
+  + 889RD hasDuration 1.0
+  + 889RD hasStatus SUCCESSFUL
+  + 891RD hasDuration 1.0
+  + 891RD hasStatus SUCCESSFUL
+  + 892RD hasDuration 1.0
+  + 892RD hasStatus SUCCESSFUL
+  + 893RD hasDuration 1.0
+  + 893RD hasStatus SUCCESSFUL
+  + 896RD hasDuration 1.0
+  + 896RD hasStatus SUCCESSFUL
+  + 901RD hasDuration 1.0
+  + 901RD hasStatus SUCCESSFUL
+  + 902RD hasDuration 1.0
+  + 902RD hasStatus SUCCESSFUL
+  + 903RD hasDuration 1.0
+  + 903RD hasStatus SUCCESSFUL
+  + 904RD hasDuration 1.0
+  + 904RD hasStatus SUCCESSFUL
+  + 905RD hasDuration 1.0
+  + 905RD hasStatus SUCCESSFUL
+  + 906RD hasDuration 1.0
+  + 906RD hasStatus SUCCESSFUL
+  + 911RD hasDuration 1.0
+  + 911RD hasStatus SUCCESSFUL
+  + Station_866TVG has_Temperature 60
+  + Station_866TVG has_Depth 622
+
+skipped 17 excluded axioms:
+  - 900RDV hasAction Coring_1   [hasAction has no single named domain/range to type from]
+  - 901RD hasAction Drilling_1   [hasAction has no single named domain/range to type from]
+  - 902RD hasAction Drilling_2   [hasAction has no single named domain/range to type from]
+  - 903RD hasAction Drilling_3   [hasAction has no single named domain/range to type from]
+  - 904RD hasAction Drilling_4   [hasAction has no single named domain/range to type from]
+  - 905RD hasAction Drilling_5   [hasAction has no single named domain/range to type from]
+  - 906RD hasAction Drilling_6   [hasAction has no single named domain/range to type from]
+  - 907RD hasAction Drilling_7   [hasAction has no single named domain/range to type from]
+  - 908RD hasAction Drilling_8   [hasAction has no single named domain/range to type from]
+  - 909RD hasAction Drilling_9   [hasAction has no single named domain/range to type from]
+  - 910RD hasAction Drilling_10   [hasAction has no single named domain/range to type from]
+  - 911RD hasAction Drilling_11   [hasAction has no single named domain/range to type from]
+  - 912RD hasAction Drilling_12   [hasAction has no single named domain/range to type from]
+  - 913RD hasAction Drilling_13   [hasAction has no single named domain/range to type from]
+  - 914RD hasAction Drilling_14   [hasAction has no single named domain/range to type from]
+  - 915RD hasAction Drilling_15   [hasAction has no single named domain/range to type from]
+  - Station_866TVG has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep30.rdf

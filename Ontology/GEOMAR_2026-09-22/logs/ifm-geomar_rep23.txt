@@ -1,0 +1,133 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 46
+
+created 31 individuals:
+  + ATA_35ROV : Traversal
+  + Two_Boats : Waypoint
+  + Sample_from_chimney : Data_Sampling_Mission
+  + Rock_sample : Data_Sampling_Mission
+  + ROV_dive : Traversal
+  + KIEL_ROV_6000 : Remotely_Operated_Vehicle
+  + ROV_57 : Remotely_Operated_Vehicle
+  + Atalante : Ship
+  + Mission_1 : Mission
+  + ATA_37ROV : Task
+  + ATA_42ROV : Task
+  + ATA_46ROV : Task
+  + ATA_50ROV : Task
+  + ATA_52ROV : Task
+  + ATA_63ROV : Task
+  + ATA_70ROV : Task
+  + Station_33 : Station
+  + Station_41 : Station
+  + Waypoint_1 : Waypoint
+  + Waypoint_2 : Waypoint
+  + Waypoint_3 : Waypoint
+  + Waypoint_4 : Waypoint
+  + Waypoint_5 : Waypoint
+  + Waypoint_6 : Waypoint
+  + ATA_57ROV : Task
+  + ATA_67ROV : Task
+  + Turtle_Pits_Two_Boats : State
+  + Comfortless_Cove_Sisters_Peak : State
+  + Red_Lion_Mephisto : State
+  + Wideawake : State
+  + Clueless : State
+
+asserted 79 axioms:
+  + ATA_35ROV goes_through Two_Boats
+  + Sample_from_chimney hasDurationText not specified   [hasDuration could not take it]
+  + Sample_from_chimney hasStatus PartialSUCCESSFUL
+  + Sample_from_chimney collect_sample 42 ROV-1
+  + Rock_sample hasDurationText not specified   [hasDuration could not take it]
+  + Rock_sample hasStatus PartialSUCCESSFUL
+  + Rock_sample collect_sample 50ROV1
+  + ROV_dive hasDurationText 102 h   [hasDuration could not take it]
+  + ROV_dive hasStatus SUCCESSFUL
+  + KIEL_ROV_6000 maxDepthText 4890 m   [maxDepth could not take it]
+  + ROV_57 maxDepthText 2989 m   [maxDepth could not take it]
+  + Atalante maxDepthText not specified   [maxDepth could not take it]
+  + Mission_1 MissionID Atalante Leg 2
+  + Mission_1 startTime 07.01.2008
+  + Mission_1 endTime 31.01.2008
+  + Mission_1 maxDepthText 4765m   [maxDepth could not take it]
+  + Mission_1 dataVolume various samples collected
+  + Mission_1 hasStatus SUCCESSFUL
+  + Mission_1 remark Scientific cruise of RV Atalante
+  + ATA_37ROV hasDuration 6.5
+  + ATA_37ROV hasStatus SUCCESSFUL
+  + ATA_42ROV hasDuration 7.2
+  + ATA_42ROV hasStatus SUCCESSFUL
+  + ATA_46ROV hasDuration 6.75
+  + ATA_46ROV hasStatus SUCCESSFUL
+  + ATA_50ROV hasDuration 9.05
+  + ATA_50ROV hasStatus SUCCESSFUL
+  + ATA_52ROV hasDuration 8.5
+  + ATA_52ROV hasStatus SUCCESSFUL
+  + ATA_63ROV hasDuration 6.5
+  + ATA_63ROV hasStatus SUCCESSFUL
+  + ATA_70ROV hasDuration 2.5
+  + ATA_70ROV hasStatus SUCCESSFUL
+  + Station_33 stationID 33
+  + Station_33 stationDate 14.01.2008
+  + Station_33 stationTime 09:00
+  + Station_41 stationID 41
+  + Station_41 stationDate 16.01.2008
+  + Station_41 stationTime 09:00
+  + Waypoint_1 locationName Turtle Pits
+  + Waypoint_1 latitude 4°48.566'S
+  + Waypoint_1 longitude 12°22.4497'W
+  + Waypoint_1 seabedDepthText 2988m   [seabedDepth could not take it]
+  + Waypoint_2 locationName Comfortless Cove
+  + Waypoint_2 latitude 4°48.188'S
+  + Waypoint_2 longitude 12°22.301'W
+  + Waypoint_2 seabedDepthText 2996m   [seabedDepth could not take it]
+  + Waypoint_3 locationName Inside Corner High #1
+  + Waypoint_3 latitude 5°05.3771'S
+  + Waypoint_3 longitude 11°39.393'W
+  + Waypoint_3 seabedDepthText 3403m   [seabedDepth could not take it]
+  + Waypoint_4 locationName Red Lion
+  + Waypoint_4 latitude 4°48.661'S
+  + Waypoint_4 longitude 12°22.606'W
+  + Waypoint_4 seabedDepthText 2995m   [seabedDepth could not take it]
+  + Waypoint_5 locationName Golden Valley
+  + Waypoint_5 latitude 4°48.102'S
+  + Waypoint_5 longitude 12°22.286'W
+  + Waypoint_5 seabedDepthText 2992m   [seabedDepth could not take it]
+  + Waypoint_6 locationName NW of Comfortless Cove area
+  + Waypoint_6 latitude 4°48.152'S
+  + Waypoint_6 longitude 12°22.381'W
+  + Waypoint_6 seabedDepthText 2995m   [seabedDepth could not take it]
+  + ATA_35ROV hasDuration 6.45
+  + ATA_35ROV hasStatus PartialSUCCESSFUL
+  + ATA_57ROV hasDuration 11.5
+  + ATA_57ROV hasStatus SUCCESSFUL
+  + ATA_67ROV hasDuration 6.5
+  + ATA_67ROV hasStatus SUCCESSFUL
+  + Turtle_Pits_Two_Boats has_Temperature 451
+  + Turtle_Pits_Two_Boats has_Depth 1
+  + Comfortless_Cove_Sisters_Peak has_Temperature 367
+  + Comfortless_Cove_Sisters_Peak has_Depth 1
+  + Red_Lion_Mephisto has_Temperature 364
+  + Red_Lion_Mephisto has_Depth 1
+  + Wideawake has_Temperature 4
+  + Wideawake has_Depth 1
+  + Clueless has_Temperature 8.8
+  + Clueless has_Depth 1
+
+skipped 12 excluded axioms:
+  - MARSUEDIV hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_1 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_2 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_3 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_4 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_5 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_6 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_7 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_8 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_9 hasAction KIPS   [hasAction has no single named domain/range to type from]
+  - ATA-35ROV_10 hasAction KIPS   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep23.rdf

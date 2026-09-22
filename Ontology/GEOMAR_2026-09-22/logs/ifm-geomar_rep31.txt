@@ -1,0 +1,87 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 51
+
+created 36 individuals:
+  + R_V_POSEIDON : Vehicle
+  + ELAC_Bottomchart_Mk_II : MBES
+  + GI_airgun : Sonar
+  + CAT_Meter_1 : CTDSensor
+  + CAT_Meter_3 : CTDSensor
+  + Tiltmeter : CTDSensor
+  + OBS_18 : USBL
+  + OBS_19 : USBL
+  + OBS_20 : USBL
+  + OBS_21 : USBL
+  + OBS_22 : USBL
+  + OBS_23 : USBL
+  + OBS_24 : USBL
+  + RV_POSEIDON : Ship
+  + West_Nile_Delta_Project : Mission
+  + Station_01 : Station
+  + Station_02 : Station
+  + North_Alex : Waypoint
+  + Giza : Waypoint
+  + OBS_13 : State
+  + OBS_14 : State
+  + OBS_15 : State
+  + OBS_16 : State
+  + OBS_17 : State
+  + OBT_4 : State
+  + OBT_6 : State
+  + SP_25 : State
+  + SP_27 : State
+  + SP_28 : State
+  + SP_29 : State
+  + SP_30 : State
+  + SP_31 : State
+  + SP_32 : State
+  + SP_34 : State
+  + SP_35 : State
+  + SP_36 : State
+
+asserted 34 axioms:
+  + R_V_POSEIDON hasSensor ELAC_Bottomchart_Mk_II
+  + R_V_POSEIDON hasSensor GI_airgun
+  + R_V_POSEIDON hasSensor CAT_Meter_1
+  + R_V_POSEIDON hasSensor CAT_Meter_3
+  + R_V_POSEIDON hasSensor Tiltmeter
+  + R_V_POSEIDON hasSensor OBS_18
+  + R_V_POSEIDON hasSensor OBS_19
+  + R_V_POSEIDON hasSensor OBS_20
+  + R_V_POSEIDON hasSensor OBS_21
+  + R_V_POSEIDON hasSensor OBS_22
+  + R_V_POSEIDON hasSensor OBS_23
+  + R_V_POSEIDON hasSensor OBS_24
+  + RV_POSEIDON maxDepthText unknown   [maxDepth could not take it]
+  + West_Nile_Delta_Project MissionID WND-4
+  + West_Nile_Delta_Project startTime 2009-07-13
+  + West_Nile_Delta_Project endTime 2009-08-04
+  + West_Nile_Delta_Project maxDepthText unknown   [maxDepth could not take it]
+  + West_Nile_Delta_Project dataVolume unknown
+  + West_Nile_Delta_Project hasStatus SUCCESSFUL
+  + West_Nile_Delta_Project remark Cruise report P388
+  + Station_01 stationID P388
+  + Station_01 stationDate 13.07.2009 - 04.08.2009
+  + Station_01 stationTime 21:00
+  + Station_02 stationID North Alex mud volcano
+  + Station_02 stationDate 19.07.2009
+  + Station_02 stationTime N/A
+  + North_Alex locationName North Alex mud volcano
+  + North_Alex latitude 31.58.0390
+  + North_Alex longitude 30.7.8650
+  + North_Alex seabedDepthText unknown   [seabedDepth could not take it]
+  + Giza locationName Giza mud volcano
+  + Giza latitude 31.57.9350
+  + Giza longitude 30.8.3040
+  + Giza seabedDepthText unknown   [seabedDepth could not take it]
+
+skipped 6 excluded axioms:
+  - P388 hasAction OBS_Deployments   [hasAction has no single named domain/range to type from]
+  - P388 hasAction Sidescan_Sonar   [hasAction has no single named domain/range to type from]
+  - P388 hasAction CAT_Meters   [hasAction has no single named domain/range to type from]
+  - P388 hasAction Temperature_Monitoring   [hasAction has no single named domain/range to type from]
+  - P388 hasAction Piezometers   [hasAction has no single named domain/range to type from]
+  - P388 hasAction Tiltmeters   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep31.rdf

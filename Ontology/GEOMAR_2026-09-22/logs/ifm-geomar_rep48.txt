@@ -1,0 +1,208 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 59
+
+created 44 individuals:
+  + R_V_Poseidon : Vehicle
+  + CTD : CTDSensor
+  + P399 : Traversal
+  + ESTOC : Waypoint
+  + P399_2 : Traversal
+  + RV_Poseidon : Platform
+  + P399_3 : Traversal
+  + CTD_2 : CTDMission
+  + CTD_3 : CTDMission
+  + CTD_4 : CTDMission
+  + CTD_5 : CTDMission
+  + CTD_6 : CTDMission
+  + CTD_7 : CTDMission
+  + CTD_8 : CTDMission
+  + CTD_9 : CTDMission
+  + CTD_10 : CTDMission
+  + CTD_11 : CTDMission
+  + CTD_12 : CTDMission
+  + CTD_13 : CTDMission
+  + CTD_14 : CTDMission
+  + CTD_15 : CTDMission
+  + CTD_16 : CTDMission
+  + CTD_17 : CTDMission
+  + CTD_18 : CTDMission
+  + CTD_19 : CTDMission
+  + CTD_20 : CTDMission
+  + CTD_21 : CTDMission
+  + CTD_22 : CTDMission
+  + CTD_23 : CTDMission
+  + CVOO : Station
+  + P399_leg_2 : Mission
+  + Station_305 : Station
+  + Station_307 : Station
+  + Station_308 : Station
+  + Station_312 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + Waypoint_03 : Waypoint
+  + CTD_1 : Task
+  + CTD_Station_305 : State
+  + CTD_Station_307 : State
+  + CTD_Station_311 : State
+  + CTD_Station_317 : State
+  + CTD_Station_319 : State
+
+asserted 149 axioms:
+  + R_V_Poseidon hasSensor CTD
+  + P399 hasDestination ESTOC
+  + P399_2 hasVehicle RV_Poseidon
+  + P399_3 hasVehicle RV_Poseidon
+  + CTD_2 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_2 hasStatus SUCCESSFUL
+  + CTD_3 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_3 hasStatus SUCCESSFUL
+  + CTD_4 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_4 hasStatus SUCCESSFUL
+  + CTD_5 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_5 hasStatus SUCCESSFUL
+  + CTD_6 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_6 hasStatus SUCCESSFUL
+  + CTD_7 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_7 hasStatus SUCCESSFUL
+  + CTD_8 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_8 hasStatus SUCCESSFUL
+  + CTD_9 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_9 hasStatus SUCCESSFUL
+  + CTD_10 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_10 hasStatus SUCCESSFUL
+  + CTD_11 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_11 hasStatus SUCCESSFUL
+  + CTD_12 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_12 hasStatus SUCCESSFUL
+  + CTD_13 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_13 hasStatus SUCCESSFUL
+  + CTD_14 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_14 hasStatus SUCCESSFUL
+  + CTD_15 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_15 hasStatus SUCCESSFUL
+  + CTD_16 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_16 hasStatus SUCCESSFUL
+  + CTD_17 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_17 hasStatus SUCCESSFUL
+  + CTD_18 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_18 hasStatus SUCCESSFUL
+  + CTD_19 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_19 hasStatus SUCCESSFUL
+  + CTD_20 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_20 hasStatus SUCCESSFUL
+  + CTD_21 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_21 hasStatus SUCCESSFUL
+  + CTD_22 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_22 hasStatus SUCCESSFUL
+  + CTD_23 hasDurationText 24h   [hasDuration could not take it]
+  + CTD_23 hasStatus SUCCESSFUL
+  + R_V_Poseidon maxDepthText 600m   [maxDepth could not take it]
+  + ESTOC stationID P399/3
+  + ESTOC stationName European Station for Time Series in the Ocean
+  + ESTOC stationDate 19 June 2010
+  + ESTOC stationTime 04:40
+  + CVOO stationID P399/2
+  + CVOO stationName Cape Verde Ocean Observatory
+  + CVOO stationDate 3 June 2010
+  + CVOO stationTime N/A
+  + P399_leg_2 MissionID P399/2
+  + P399_leg_2 startTime 31.05.2010
+  + P399_leg_2 endTime 17.06.2010
+  + P399_leg_2 maxDepth 4328
+  + P399_leg_2 dataVolume N/A
+  + P399_leg_2 hasStatus SUCCESSFUL
+  + P399_leg_2 remark Cruise report for leg 2
+  + Station_305 stationID 305
+  + Station_305 stationDate 02.06.2010
+  + Station_305 stationTime 11:26
+  + Station_307 stationID 307
+  + Station_307 stationDate 03.06.2010
+  + Station_307 stationTime 21:56
+  + Station_308 stationID 308
+  + Station_308 stationDate 06.06.2010
+  + Station_308 stationTime 17:06
+  + Station_312 stationID 312
+  + Station_312 stationDate 09.06.2010
+  + Station_312 stationTime 20:38
+  + Waypoint_01 locationName CVOO (Cape Verde Ocean Observatory)
+  + Waypoint_01 latitude 17°N
+  + Waypoint_01 longitude 24°W
+  + Waypoint_01 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_02 locationName Mindelo (Cape Verde Islands)
+  + Waypoint_02 latitude 17°N
+  + Waypoint_02 longitude 24°W
+  + Waypoint_02 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_03 locationName Las Palmas (Canary Islands)
+  + Waypoint_03 latitude 28°N
+  + Waypoint_03 longitude 15°W
+  + Waypoint_03 seabedDepthText unknown   [seabedDepth could not take it]
+  + CTD_1 hasDuration 24.0
+  + CTD_1 hasStatus SUCCESSFUL
+  + CTD_2 hasDuration 24.0
+  + CTD_2 hasStatus SUCCESSFUL
+  + CTD_3 hasDuration 24.0
+  + CTD_3 hasStatus SUCCESSFUL
+  + CTD_4 hasDuration 24.0
+  + CTD_4 hasStatus SUCCESSFUL
+  + CTD_5 hasDuration 24.0
+  + CTD_5 hasStatus SUCCESSFUL
+  + CTD_6 hasDuration 24.0
+  + CTD_6 hasStatus SUCCESSFUL
+  + CTD_7 hasDuration 24.0
+  + CTD_7 hasStatus SUCCESSFUL
+  + CTD_8 hasDuration 24.0
+  + CTD_8 hasStatus SUCCESSFUL
+  + CTD_9 hasDuration 24.0
+  + CTD_9 hasStatus SUCCESSFUL
+  + CTD_10 hasDuration 24.0
+  + CTD_10 hasStatus SUCCESSFUL
+  + CTD_11 hasDuration 24.0
+  + CTD_11 hasStatus SUCCESSFUL
+  + CTD_12 hasDuration 24.0
+  + CTD_12 hasStatus SUCCESSFUL
+  + CTD_13 hasDuration 24.0
+  + CTD_13 hasStatus SUCCESSFUL
+  + CTD_14 hasDuration 24.0
+  + CTD_14 hasStatus SUCCESSFUL
+  + CTD_15 hasDuration 24.0
+  + CTD_15 hasStatus SUCCESSFUL
+  + CTD_16 hasDuration 24.0
+  + CTD_16 hasStatus SUCCESSFUL
+  + CTD_17 hasDuration 24.0
+  + CTD_17 hasStatus SUCCESSFUL
+  + CTD_18 hasDuration 24.0
+  + CTD_18 hasStatus SUCCESSFUL
+  + CTD_19 hasDuration 24.0
+  + CTD_19 hasStatus SUCCESSFUL
+  + CTD_20 hasDuration 24.0
+  + CTD_20 hasStatus SUCCESSFUL
+  + CTD_21 hasDuration 24.0
+  + CTD_21 hasStatus SUCCESSFUL
+  + CTD_22 hasDuration 24.0
+  + CTD_22 hasStatus SUCCESSFUL
+  + CTD_23 hasDuration 24.0
+  + CTD_23 hasStatus SUCCESSFUL
+  + CTD_Station_305 has_Temperature 26.0
+  + CTD_Station_305 has_Conductivity 0.0
+  + CTD_Station_305 has_Depth 4328
+  + CTD_Station_307 has_Temperature 18.0
+  + CTD_Station_307 has_Conductivity 0.0
+  + CTD_Station_307 has_Depth 3598
+  + CTD_Station_311 has_Temperature 0.0
+  + CTD_Station_311 has_Conductivity 0.0
+  + CTD_Station_311 has_Depth 2801
+  + CTD_Station_317 has_Temperature 34.1
+  + CTD_Station_317 has_Conductivity 0.0
+  + CTD_Station_317 has_Depth 64
+  + CTD_Station_319 has_Temperature 15.0
+  + CTD_Station_319 has_Conductivity 0.0
+  + CTD_Station_319 has_Depth 25
+
+skipped 4 excluded axioms:
+  - P399_2 goes_through Waypoint_LasPalmas   [goes_through has no single named domain/range to type from]
+  - P399_2 goes_through Waypoint_Mindelo   [goes_through has no single named domain/range to type from]
+  - P399_3 goes_through Waypoint_ESTOC   [goes_through has no single named domain/range to type from]
+  - P399_3 goes_through Waypoint_Vigo   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep48.rdf

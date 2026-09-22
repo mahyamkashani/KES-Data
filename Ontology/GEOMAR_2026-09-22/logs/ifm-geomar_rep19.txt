@@ -1,0 +1,176 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 58
+
+created 43 individuals:
+  + R_V_L_A_TALANTE : Ship
+  + Microcat_2252 : CTDSensor
+  + Microcat_2255 : CTDSensor
+  + Microcat_3754 : CTDSensor
+  + Oxygen_Logger : CTDSensor
+  + Thermosalinograph : CTDSensor
+  + KPO_1006 : Ship
+  + KPO_1021 : Ship
+  + KPO_1022 : Ship
+  + KPO_1023 : Ship
+  + KPO_1024 : Ship
+  + KPO_1025 : Ship
+  + KPO_1026 : Ship
+  + KPO_1027 : Ship
+  + KPO_1028 : Ship
+  + Deployment_1 : Traversal
+  + RV_LATALANTE : Platform
+  + CTD_O_2_station : CTDMission
+  + CTD_O_2_rosette : Data_Sampling_Mission
+  + glider : AUV
+  + AO_01 : Station
+  + AO_02 : Station
+  + AO_03 : Station
+  + AO_04 : Station
+  + AO_05 : Station
+  + V440_1 : Station
+  + Waypoint_1 : Waypoint
+  + Waypoint_2 : Waypoint
+  + Waypoint_3 : Waypoint
+  + Waypoint_4 : Waypoint
+  + Waypoint_5 : Waypoint
+  + Waypoint_6 : Waypoint
+  + Mooring_Deployment_23W_2S : Task
+  + Mooring_Deployment_23W_0_45S : Task
+  + Mooring_Deployment_23W_0_00N : Task
+  + Mooring_Deployment_23W_0_45N : Task
+  + Mooring_Deployment_23W_2N : Task
+  + Mooring_Deployment_23W_5N : Task
+  + Mooring_Deployment_23W_8N : Task
+  + CTD_Station_001 : State
+  + CTD_Station_002 : State
+  + CTD_Station_003 : State
+  + CTD_Station_004 : State
+
+asserted 118 axioms:
+  + R_V_L_A_TALANTE hasSensor Microcat_2252
+  + R_V_L_A_TALANTE hasSensor Microcat_2255
+  + R_V_L_A_TALANTE hasSensor Microcat_3754
+  + R_V_L_A_TALANTE hasSensor Oxygen_Logger
+  + R_V_L_A_TALANTE hasSensor Thermosalinograph
+  + KPO_1006 hasMission R_V_L_A_TALANTE
+  + KPO_1021 hasMission R_V_L_A_TALANTE
+  + KPO_1022 hasMission R_V_L_A_TALANTE
+  + KPO_1023 hasMission R_V_L_A_TALANTE
+  + KPO_1024 hasMission R_V_L_A_TALANTE
+  + KPO_1025 hasMission R_V_L_A_TALANTE
+  + KPO_1026 hasMission R_V_L_A_TALANTE
+  + KPO_1027 hasMission R_V_L_A_TALANTE
+  + KPO_1028 hasMission R_V_L_A_TALANTE
+  + Deployment_1 hasVehicle RV_LATALANTE
+  + CTD_O_2_station hasDurationText 45 days   [hasDuration could not take it]
+  + CTD_O_2_station hasStatus SUCCESSFUL
+  + CTD_O_2_rosette hasDurationText 3 hours   [hasDuration could not take it]
+  + CTD_O_2_rosette hasStatus SUCCESSFUL
+  + CTD_O_2_rosette collect_sample water samples for oxygen determination
+  + glider maxDepthText 100m   [maxDepth could not take it]
+  + R_V_L_A_TALANTE maxDepthText not specified   [maxDepth could not take it]
+  + KPO_1021 stationID KPO_1021
+  + KPO_1021 stationDate 3-Mar-08
+  + KPO_1021 stationTime 14:09
+  + KPO_1022 stationID KPO_1022
+  + KPO_1022 stationDate 4-Mar-08
+  + KPO_1022 stationTime 18:43
+  + KPO_1023 stationID KPO_1023
+  + KPO_1023 stationDate 1-Mar-08
+  + KPO_1023 stationTime 19:43
+  + KPO_1024 stationID KPO_1024
+  + KPO_1024 stationDate 6-Mar-08
+  + KPO_1024 stationTime 10:35
+  + KPO_1025 stationID KPO_1025
+  + KPO_1025 stationDate 6-Mar-08
+  + KPO_1025 stationTime 10:35
+  + KPO_1026 stationID KPO_1026
+  + KPO_1026 stationDate 27-Feb-08
+  + KPO_1026 stationTime 18:30
+  + KPO_1027 stationID KPO_1027
+  + KPO_1027 stationDate 26-Feb-08
+  + KPO_1027 stationTime 10:49
+  + KPO_1028 MissionID KPO_1028
+  + KPO_1028 startTime 2008-03-14T10:58:00Z
+  + KPO_1028 endTime N/A
+  + KPO_1028 maxDepth 3598
+  + KPO_1028 dataVolume N/A
+  + KPO_1028 hasStatus SUCCESSFUL
+  + KPO_1028 remark Deployment at V440.
+  + AO_01 stationID AO_01
+  + AO_01 stationDate 19-Jun-06
+  + AO_01 stationTime 19:53
+  + AO_02 stationID AO_02
+  + AO_02 stationDate 20-Jun-06
+  + AO_02 stationTime 19:53
+  + AO_03 stationID AO_03
+  + AO_03 stationDate 17-Jun-06
+  + AO_03 stationTime 18:21
+  + AO_04 stationID AO_04
+  + AO_04 stationDate 21-Jun-06
+  + AO_04 stationTime 18:00
+  + AO_05 stationID AO_05
+  + AO_05 stationDate 3-Jul-06
+  + AO_05 stationTime 18:30
+  + V440_1 stationID V440_1
+  + V440_1 stationDate 8-Jul-06
+  + V440_1 stationTime 15:56
+  + Waypoint_1 locationName 5°00.9'N, 23°00'W
+  + Waypoint_1 latitude 5.0009
+  + Waypoint_1 longitude 23.0000
+  + Waypoint_1 seabedDepth 4800
+  + Waypoint_2 locationName 2°02.5'N, 23°02.0'W
+  + Waypoint_2 latitude 2.025
+  + Waypoint_2 longitude 23.020
+  + Waypoint_2 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_3 locationName 0°45'N, 22°59.5'W
+  + Waypoint_3 latitude 0.750
+  + Waypoint_3 longitude 22.995
+  + Waypoint_3 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_4 locationName 1°56.4'S, 22°57'W
+  + Waypoint_4 latitude -1.940
+  + Waypoint_4 longitude 22.950
+  + Waypoint_4 seabedDepth 4840
+  + Waypoint_5 locationName 17°36.244'N, 24°14.915'W
+  + Waypoint_5 latitude 17.604
+  + Waypoint_5 longitude 24.248
+  + Waypoint_5 seabedDepth 3600
+  + Waypoint_6 locationName 0°45.17'N, 22°59.28'W
+  + Waypoint_6 latitude 0.7528
+  + Waypoint_6 longitude 22.988
+  + Waypoint_6 seabedDepthText unknown   [seabedDepth could not take it]
+  + Mooring_Deployment_23W_2S hasDuration 0.5
+  + Mooring_Deployment_23W_2S hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_0_45S hasDuration 0.5
+  + Mooring_Deployment_23W_0_45S hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_0_00N hasDuration 0.5
+  + Mooring_Deployment_23W_0_00N hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_0_45N hasDuration 0.5
+  + Mooring_Deployment_23W_0_45N hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_2N hasDuration 0.5
+  + Mooring_Deployment_23W_2N hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_5N hasDuration 0.5
+  + Mooring_Deployment_23W_5N hasStatus SUCCESSFUL
+  + Mooring_Deployment_23W_8N hasDuration 0.5
+  + Mooring_Deployment_23W_8N hasStatus SUCCESSFUL
+  + CTD_Station_001 has_Temperature 16.45
+  + CTD_Station_001 has_Conductivity 0.001
+  + CTD_Station_001 has_Depth 1644
+  + CTD_Station_002 has_Temperature 10.00
+  + CTD_Station_002 has_Conductivity 0.001
+  + CTD_Station_002 has_Depth 5037
+  + CTD_Station_003 has_Temperature 8.00
+  + CTD_Station_003 has_Conductivity 0.001
+  + CTD_Station_003 has_Depth 4419
+  + CTD_Station_004 has_Temperature 5.01
+  + CTD_Station_004 has_Conductivity 0.001
+  + CTD_Station_004 has_Depth 4219
+
+skipped 4 excluded axioms:
+  - IFM_GEOMAR_4 hasTask Cruise_Report_1   [hasTask has no single named domain/range to type from]
+  - Cruise_Report_1 hasAction Deployment_1   [hasAction has no single named domain/range to type from]
+  - Deployment_1 hasDestination Waypoint_1   [hasDestination has no single named domain/range to type from]
+  - Waypoint_1 goes_through Waypoint_2   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep19.rdf

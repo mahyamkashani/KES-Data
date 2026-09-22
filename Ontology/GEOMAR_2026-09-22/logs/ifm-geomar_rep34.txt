@@ -1,0 +1,204 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 68
+
+created 53 individuals:
+  + Station_921RD : Task
+  + Station_922RD : Task
+  + Station_926RD : Task
+  + Station_928DR : Task
+  + Station_930MB : Task
+  + Station_931RD : Task
+  + Station_932RD : Task
+  + Station_940RD : Task
+  + Station_941DR : Task
+  + Station_942DR : Task
+  + Station_943DR : Task
+  + Station_944DR : Task
+  + Station_945DR : Task
+  + Station_946DR : Task
+  + Station_947GC : Task
+  + Station_948GC : Task
+  + Station_949GC : Task
+  + Station_950RD : Task
+  + Station_951DR : Task
+  + Station_952MB : Task
+  + Station_953GC : Task
+  + Station_954RD : Task
+  + Station_955RD : Task
+  + Station_956MB : Task
+  + Station_957RD : Task
+  + Station_958GC : Task
+  + Station_959RD : Task
+  + Station_960GC : Task
+  + Station_961MB : Task
+  + Station_962RD : Task
+  + Action_1 : Traversal
+  + RV_MariaS_Merian : Platform
+  + MSM_03_2 : SurveyMission
+  + Multibeam_mapping : Bathymetric_Mission
+  + RV_Maria_S_Merian : Ship
+  + Station_920RD : Station
+  + Mission_01 : Mission
+  + Station_926_RD : Mission
+  + Station_931_RD : Mission
+  + Station_954_RD : Mission
+  + Station_957_RD : Mission
+  + Logatchev_1 : Waypoint
+  + Logatchev_2 : Waypoint
+  + Logatchev_3 : Waypoint
+  + Logatchev_4 : Waypoint
+  + Logatchev_5 : Waypoint
+  + Logatchev_6 : Waypoint
+  + Logatchev_7 : Waypoint
+  + Logatchev_8 : Waypoint
+  + Dive_954RD : Task
+  + Dive_955RD : Task
+  + Dive_957RD : Task
+  + Dive_959RD : Task
+
+asserted 129 axioms:
+  + Station_921RD hasAction Act_AcquireDVLLock
+  + Station_922RD hasAction Act_EstablishUSBLFix
+  + Station_926RD hasAction Act_DeepDive
+  + Station_928DR hasAction Act_Move
+  + Station_930MB hasAction Act_Move
+  + Station_931RD hasAction Act_DeepDive
+  + Station_932RD hasAction Act_EstablishUSBLFix
+  + Station_940RD hasAction Act_DeepDive
+  + Station_941DR hasAction Act_Move
+  + Station_942DR hasAction Act_TakePhoto
+  + Station_943DR hasAction Act_Move
+  + Station_944DR hasAction Act_TakePhoto
+  + Station_945DR hasAction Act_Move
+  + Station_946DR hasAction Act_TakePhoto
+  + Station_947GC hasAction Act_Move
+  + Station_948GC hasAction Act_TakePhoto
+  + Station_949GC hasAction Act_Move
+  + Station_950RD hasAction Act_TakePhoto
+  + Station_951DR hasAction Act_Move
+  + Station_952MB hasAction Act_TakePhoto
+  + Station_953GC hasAction Act_Move
+  + Station_954RD hasAction Act_TakePhoto
+  + Station_955RD hasAction Act_Move
+  + Station_956MB hasAction Act_TakePhoto
+  + Station_957RD hasAction Act_Move
+  + Station_958GC hasAction Act_TakePhoto
+  + Station_959RD hasAction Act_Move
+  + Station_960GC hasAction Act_TakePhoto
+  + Station_961MB hasAction Act_Move
+  + Station_962RD hasAction Act_TakePhoto
+  + Action_1 hasVehicle RV_MariaS_Merian
+  + MSM_03_2 hasDurationText 22 days   [hasDuration could not take it]
+  + MSM_03_2 hasStatus SUCCESSFUL
+  + Multibeam_mapping hasDurationText 32 hours   [hasDuration could not take it]
+  + Multibeam_mapping hasStatus SUCCESSFUL
+  + RV_Maria_S_Merian maxDepthText 3100 m   [maxDepth could not take it]
+  + Station_920RD stationID 920RD
+  + Station_920RD stationDate 09.11.2006
+  + Station_920RD stationTime 18:22
+  + Station_957RD stationID 957RD
+  + Station_957RD stationDate 22.11.2006
+  + Station_957RD stationTime 19:37
+  + Mission_01 MissionID MSM 03/2
+  + Mission_01 startTime 2006-11-08
+  + Mission_01 endTime 2006-11-30
+  + Mission_01 maxDepthText 3045 m   [maxDepth could not take it]
+  + Mission_01 dataVolume 2.6 million data points
+  + Mission_01 hasStatus SUCCESSFUL
+  + Mission_01 remark Cruise report for the Logatchev hydrothermal field
+  + Station_926_RD MissionID MSM 03/2
+  + Station_926_RD startTime 2006-11-14
+  + Station_926_RD endTime 2006-11-14
+  + Station_926_RD maxDepthText 1763 m   [maxDepth could not take it]
+  + Station_926_RD dataVolume 1.0 m penetration, 25% recovery
+  + Station_926_RD hasStatus FAILED
+  + Station_926_RD remark Test of the Rockdrill in shallow water
+  + Station_931_RD MissionID MSM 03/2
+  + Station_931_RD startTime 2006-11-15
+  + Station_931_RD endTime 2006-11-15
+  + Station_931_RD maxDepthText 1762 m   [maxDepth could not take it]
+  + Station_931_RD dataVolume 1.8 m penetration, 95% recovery
+  + Station_931_RD hasStatus SUCCESSFUL
+  + Station_931_RD remark Repetition of station 925
+  + Station_954_RD MissionID MSM 03/2
+  + Station_954_RD startTime 2006-11-20
+  + Station_954_RD endTime 2006-11-20
+  + Station_954_RD maxDepthText 2977 m   [maxDepth could not take it]
+  + Station_954_RD dataVolume 6.1 m penetration, 20% recovery
+  + Station_954_RD hasStatus SUCCESSFUL
+  + Station_954_RD remark Drilling at site near Logatchev
+  + Station_957_RD MissionID MSM 03/2
+  + Station_957_RD startTime 2006-11-22
+  + Station_957_RD endTime 2006-11-22
+  + Station_957_RD maxDepthText 3045 m   [maxDepth could not take it]
+  + Station_957_RD dataVolume 7.0 m penetration, 81% recovery
+  + Station_957_RD hasStatus SUCCESSFUL
+  + Station_957_RD remark Drilling at site near Logatchev
+  + Station_926RD stationID 926RD
+  + Station_926RD stationDate 14.11.2006
+  + Station_926RD stationTime 17:00
+  + Station_931RD stationID 931RD
+  + Station_931RD stationDate 15.11.2006
+  + Station_931RD stationTime 12:58
+  + Station_959RD has_Depth 2997
+  + Station_962RD stationID 962RD
+  + Station_962RD stationDate 25.11.2006
+  + Station_962RD stationTime 06:22
+  + Logatchev_1 locationName Logatchev hydrothermal field
+  + Logatchev_1 latitude 14°45'N
+  + Logatchev_1 longitude 44°54.473'W
+  + Logatchev_1 seabedDepthText 3000 m   [seabedDepth could not take it]
+  + Logatchev_2 locationName Logatchev hydrothermal field
+  + Logatchev_2 latitude 14°40.501'N
+  + Logatchev_2 longitude 44°54.497'W
+  + Logatchev_2 seabedDepthText 1763 m   [seabedDepth could not take it]
+  + Logatchev_3 locationName Logatchev hydrothermal field
+  + Logatchev_3 latitude 14°40.509'N
+  + Logatchev_3 longitude 44°54.525'W
+  + Logatchev_3 seabedDepthText 1762 m   [seabedDepth could not take it]
+  + Logatchev_4 locationName Logatchev hydrothermal field
+  + Logatchev_4 latitude 14°45.112'N
+  + Logatchev_4 longitude 44°58.703'W
+  + Logatchev_4 seabedDepthText 2977 m   [seabedDepth could not take it]
+  + Logatchev_5 locationName Logatchev hydrothermal field
+  + Logatchev_5 latitude 14°45.192'N
+  + Logatchev_5 longitude 44°58.772'W
+  + Logatchev_5 seabedDepthText 3016 m   [seabedDepth could not take it]
+  + Logatchev_6 locationName Logatchev hydrothermal field
+  + Logatchev_6 latitude 14°45.220'N
+  + Logatchev_6 longitude 44°58.818'W
+  + Logatchev_6 seabedDepthText 3045 m   [seabedDepth could not take it]
+  + Logatchev_7 locationName Logatchev hydrothermal field
+  + Logatchev_7 latitude 14°45.199'N
+  + Logatchev_7 longitude 44°58.637'W
+  + Logatchev_7 seabedDepthText 2997 m   [seabedDepth could not take it]
+  + Logatchev_8 locationName Logatchev hydrothermal field
+  + Logatchev_8 latitude 14°45.114'N
+  + Logatchev_8 longitude 44°58.713'W
+  + Logatchev_8 seabedDepthText 2983 m   [seabedDepth could not take it]
+  + Dive_954RD hasDuration 7.0
+  + Dive_954RD hasStatus PartialSUCCESSFUL
+  + Dive_955RD hasDuration 9.0
+  + Dive_955RD hasStatus PartialSUCCESSFUL
+  + Dive_957RD hasDuration 8.0
+  + Dive_957RD hasStatus SUCCESSFUL
+  + Dive_959RD hasDuration 6.0
+  + Dive_959RD hasStatus SUCCESSFUL
+  + Station_954RD has_Depth 2977
+  + Station_957RD has_Depth 3045
+
+skipped 11 excluded axioms:
+  - MSM03-2 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - Action_1 goes_through Waypoint_Quest   [goes_through has no single named domain/range to type from]
+  - Action_1 goes_through Waypoint_Irina1   [goes_through has no single named domain/range to type from]
+  - Action_1 goes_through Waypoint_B   [goes_through has no single named domain/range to type from]
+  - Station_959RD has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Station_959RD has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Station_954RD has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Station_954RD has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Station_957RD has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - Station_957RD has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep34.rdf

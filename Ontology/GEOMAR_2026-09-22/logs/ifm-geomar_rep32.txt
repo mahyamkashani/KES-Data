@@ -1,0 +1,396 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 115
+
+created 100 individuals:
+  + RV_SONNE : Mission
+  + DR_1 : Task
+  + DR_2 : Task
+  + DR_3 : Task
+  + DR_4 : Task
+  + DR_5 : Task
+  + DR_6 : Task
+  + DR_7 : Task
+  + DR_8 : Task
+  + DR_9 : Task
+  + DR_10 : Task
+  + DR_11 : Task
+  + DR_12 : Task
+  + DR_13 : Task
+  + DR_14 : Task
+  + DR_15 : Task
+  + DR_16 : Task
+  + DR_17 : Task
+  + DR_18 : Task
+  + DR_19 : Task
+  + DR_20 : Task
+  + DR_21 : Task
+  + DR_22 : Task
+  + DR_23 : Task
+  + DR_24 : Task
+  + DR_25 : Task
+  + DR_26 : Task
+  + DR_27 : Task
+  + DR_28 : Task
+  + DR_29 : Task
+  + DR_30 : Task
+  + DR_31 : Task
+  + DR_32 : Task
+  + DR_33 : Task
+  + DR_34 : Task
+  + DR_35 : Task
+  + DR_36 : Task
+  + DR_37 : Task
+  + DR_38 : Task
+  + DR_39 : Task
+  + DR_40 : Task
+  + DR_41 : Task
+  + DR_42 : Task
+  + DR_43 : Task
+  + DR_44 : Task
+  + DR_45 : Task
+  + SO201_Leg_1b : Bathymetric_Mission
+  + R_V_SONNE : Ship
+  + DR1 : State
+  + DR2 : State
+  + DR3 : State
+  + DR4 : State
+  + DR5 : State
+  + DR6 : State
+  + DR7 : State
+  + DR8 : State
+  + DR9 : State
+  + DR10 : State
+  + DR11 : State
+  + DR12 : State
+  + DR13 : State
+  + DR14 : State
+  + DR15 : State
+  + DR16 : Station
+  + DR17 : Station
+  + DR18 : Station
+  + DR19 : Station
+  + DR20 : Station
+  + DR21 : Station
+  + DR22 : Station
+  + DR23 : Station
+  + DR24 : Station
+  + DR25 : Station
+  + DR26 : Station
+  + DR27 : Station
+  + DR28 : Station
+  + DR29 : Station
+  + DR30 : Station
+  + DR31 : Station
+  + DR32 : Station
+  + DR33 : Station
+  + DR34 : Station
+  + DR35 : Station
+  + DR36 : Station
+  + DR37 : Station
+  + DR38 : Station
+  + SO201_1b : Station
+  + DR39 : Station
+  + DR40 : Station
+  + DR41 : State
+  + DR42 : State
+  + DR43 : State
+  + DR44 : State
+  + DR45 : State
+  + TVG46 : Station
+  + Emperor_Seamounts : Waypoint
+  + Bowers_Ridge : Waypoint
+  + Ingenstrem_Depression : Waypoint
+  + Stalemate_Fracture_Zone : Waypoint
+  + Aleutian_Arc : Waypoint
+
+asserted 283 axioms:
+  + RV_SONNE hasTask DR_1
+  + RV_SONNE hasTask DR_2
+  + RV_SONNE hasTask DR_3
+  + RV_SONNE hasTask DR_4
+  + RV_SONNE hasTask DR_5
+  + RV_SONNE hasTask DR_6
+  + RV_SONNE hasTask DR_7
+  + RV_SONNE hasTask DR_8
+  + RV_SONNE hasTask DR_9
+  + RV_SONNE hasTask DR_10
+  + RV_SONNE hasTask DR_11
+  + RV_SONNE hasTask DR_12
+  + RV_SONNE hasTask DR_13
+  + RV_SONNE hasTask DR_14
+  + RV_SONNE hasTask DR_15
+  + RV_SONNE hasTask DR_16
+  + RV_SONNE hasTask DR_17
+  + RV_SONNE hasTask DR_18
+  + RV_SONNE hasTask DR_19
+  + RV_SONNE hasTask DR_20
+  + RV_SONNE hasTask DR_21
+  + RV_SONNE hasTask DR_22
+  + RV_SONNE hasTask DR_23
+  + RV_SONNE hasTask DR_24
+  + RV_SONNE hasTask DR_25
+  + RV_SONNE hasTask DR_26
+  + RV_SONNE hasTask DR_27
+  + RV_SONNE hasTask DR_28
+  + RV_SONNE hasTask DR_29
+  + RV_SONNE hasTask DR_30
+  + RV_SONNE hasTask DR_31
+  + RV_SONNE hasTask DR_32
+  + RV_SONNE hasTask DR_33
+  + RV_SONNE hasTask DR_34
+  + RV_SONNE hasTask DR_35
+  + RV_SONNE hasTask DR_36
+  + RV_SONNE hasTask DR_37
+  + RV_SONNE hasTask DR_38
+  + RV_SONNE hasTask DR_39
+  + RV_SONNE hasTask DR_40
+  + RV_SONNE hasTask DR_41
+  + RV_SONNE hasTask DR_42
+  + RV_SONNE hasTask DR_43
+  + RV_SONNE hasTask DR_44
+  + RV_SONNE hasTask DR_45
+  + SO201_Leg_1b hasDurationText 27 days   [hasDuration could not take it]
+  + SO201_Leg_1b hasStatus SUCCESSFUL
+  + DR_1 hasDurationText N/A   [hasDuration could not take it]
+  + DR_1 hasStatus SUCCESSFUL
+  + DR_1 collect_sample lavas, volcaniclastics, Mn crusts, dropstones
+  + DR_2 hasDurationText N/A   [hasDuration could not take it]
+  + DR_2 hasStatus SUCCESSFUL
+  + DR_2 collect_sample lavas, volcaniclastics, Mn crusts
+  + DR_4 hasDurationText N/A   [hasDuration could not take it]
+  + DR_4 hasStatus SUCCESSFUL
+  + DR_4 collect_sample lavas, Mn crusts, dropstones
+  + DR_5 hasDurationText N/A   [hasDuration could not take it]
+  + DR_5 hasStatus SUCCESSFUL
+  + DR_5 collect_sample lavas, Mn crusts, dropstones
+  + DR_6 hasDurationText N/A   [hasDuration could not take it]
+  + DR_6 hasStatus SUCCESSFUL
+  + DR_6 collect_sample lavas, Mn crusts
+  + DR_40 hasDurationText N/A   [hasDuration could not take it]
+  + DR_40 hasStatus SUCCESSFUL
+  + DR_40 collect_sample lavas, intrusiva, breccias
+  + DR_41 hasDurationText N/A   [hasDuration could not take it]
+  + DR_41 hasStatus SUCCESSFUL
+  + DR_41 collect_sample pillow lavas, volcaniclastic rocks (hyaloclastite), Mn crusts
+  + DR_44 hasDurationText N/A   [hasDuration could not take it]
+  + DR_44 hasStatus SUCCESSFUL
+  + DR_44 collect_sample lava, volcaniclastic rocks, chert, Mn crusts
+  + R_V_SONNE maxDepthText 6000 meters   [maxDepth could not take it]
+  + DR1 has_Depth 2962
+  + DR2 has_Depth 3720
+  + DR3 has_Depth 4400
+  + DR4 has_Depth 5971
+  + DR5 has_Depth 3832
+  + DR6 has_Depth 3890
+  + DR7 has_Depth 3340
+  + DR8 has_Depth 3514
+  + DR9 has_Depth 1083
+  + DR10 has_Depth 1191
+  + DR11 has_Depth 1242
+  + DR12 has_Depth 1104
+  + DR13 has_Depth 1076
+  + DR14 has_Depth 1512
+  + DR15 has_Depth 1097
+  + DR16 stationID DR16
+  + DR16 stationDate 21.06.2009
+  + DR16 stationTime 8:47 hrs
+  + DR17 stationID DR17
+  + DR17 stationDate 21.06.2009
+  + DR17 stationTime 8:47 hrs
+  + DR18 stationID DR18
+  + DR18 stationDate 21.06.2009
+  + DR18 stationTime 8:47 hrs
+  + DR19 stationID DR19
+  + DR19 stationDate 21.06.2009
+  + DR19 stationTime 8:47 hrs
+  + DR20 stationID DR20
+  + DR20 stationDate 21.06.2009
+  + DR20 stationTime 8:47 hrs
+  + DR21 stationID DR21
+  + DR21 stationDate 21.06.2009
+  + DR21 stationTime 8:47 hrs
+  + DR22 stationID DR22
+  + DR22 stationDate 21.06.2009
+  + DR22 stationTime 8:47 hrs
+  + DR23 stationID DR23
+  + DR23 stationDate 21.06.2009
+  + DR23 stationTime 8:47 hrs
+  + DR24 stationID DR24
+  + DR24 stationDate 21.06.2009
+  + DR24 stationTime 8:47 hrs
+  + DR25 stationID DR25
+  + DR25 stationDate 21.06.2009
+  + DR25 stationTime 8:47 hrs
+  + DR26 stationID DR26
+  + DR26 stationDate 21.06.2009
+  + DR26 stationTime 8:47 hrs
+  + DR27 stationID DR27
+  + DR27 stationDate 21.06.2009
+  + DR27 stationTime 8:47 hrs
+  + DR28 stationID DR28
+  + DR28 stationDate 21.06.2009
+  + DR28 stationTime 8:47 hrs
+  + DR29 stationID DR29
+  + DR29 stationDate 21.06.2009
+  + DR29 stationTime 8:47 hrs
+  + DR30 stationID DR30
+  + DR30 stationDate 21.06.2009
+  + DR30 stationTime 8:47 hrs
+  + DR31 stationID DR31
+  + DR31 stationDate 21.06.2009
+  + DR31 stationTime 8:47 hrs
+  + DR32 stationID DR32
+  + DR32 stationDate 21.06.2009
+  + DR32 stationTime 8:47 hrs
+  + DR33 stationID DR33
+  + DR33 stationDate 21.06.2009
+  + DR33 stationTime 8:47 hrs
+  + DR34 stationID DR34
+  + DR34 stationDate 21.06.2009
+  + DR34 stationTime 8:47 hrs
+  + DR35 stationID DR35
+  + DR35 stationDate 21.06.2009
+  + DR35 stationTime 8:47 hrs
+  + DR36 stationID DR36
+  + DR36 stationDate 21.06.2009
+  + DR36 stationTime 8:47 hrs
+  + DR37 stationID DR37
+  + DR37 stationDate 21.06.2009
+  + DR37 stationTime 8:47 hrs
+  + DR38 stationID DR38
+  + DR38 stationDate 21.06.2009
+  + DR38 stationTime 8:47 hrs
+  + SO201_1b stationID SO201-1b
+  + SO201_1b stationDate 10.06.2009 - 06.07.2009
+  + SO201_1b stationTime 8:00 am
+  + DR39 stationID DR39
+  + DR39 stationDate 21.06.2009
+  + DR39 stationTime 8:47 hrs
+  + DR40 stationID DR40
+  + DR40 stationDate 21.06.2009
+  + DR40 stationTime 8:47 hrs
+  + DR41 has_Depth 4334
+  + DR42 has_Depth 3615
+  + DR43 has_Depth 4014
+  + DR44 has_Depth 3117
+  + DR45 has_Depth 4870
+  + TVG46 stationID TVG46
+  + TVG46 stationDate 29.06.2009
+  + TVG46 stationTime 23:20 hrs
+  + Emperor_Seamounts locationName Emperor Seamounts
+  + Emperor_Seamounts latitude 48°10'N to 50°10'N
+  + Emperor_Seamounts longitude 168°30'E
+  + Emperor_Seamounts seabedDepthText 3,030 to 2,375 mbsl   [seabedDepth could not take it]
+  + Bowers_Ridge locationName Bowers Ridge
+  + Bowers_Ridge latitude 53°58,30'N
+  + Bowers_Ridge longitude 172°51,24'E
+  + Bowers_Ridge seabedDepthText 3,900 m to nearly sea level   [seabedDepth could not take it]
+  + Ingenstrem_Depression locationName Ingenstrem Depression
+  + Ingenstrem_Depression latitude 52°29,83'N
+  + Ingenstrem_Depression longitude 175°14,43'E
+  + Ingenstrem_Depression seabedDepthText 10-15 km wide   [seabedDepth could not take it]
+  + Stalemate_Fracture_Zone locationName Stalemate Fracture Zone
+  + Stalemate_Fracture_Zone latitude 51°40'N
+  + Stalemate_Fracture_Zone longitude 171°00'E
+  + Stalemate_Fracture_Zone seabedDepthText 4,800 m to 5,500 m   [seabedDepth could not take it]
+  + Aleutian_Arc locationName Aleutian Arc
+  + Aleutian_Arc latitude 52°27,57'N
+  + Aleutian_Arc longitude 175°21,13'E
+  + Aleutian_Arc seabedDepthText 3,500 m   [seabedDepth could not take it]
+  + DR_1 hasDuration 0.25
+  + DR_1 hasStatus SUCCESSFUL
+  + DR_2 hasDuration 0.25
+  + DR_2 hasStatus SUCCESSFUL
+  + DR_3 hasDuration 0.25
+  + DR_3 hasStatus PartialSUCCESSFUL
+  + DR_4 hasDuration 0.25
+  + DR_4 hasStatus SUCCESSFUL
+  + DR_5 hasDuration 0.25
+  + DR_5 hasStatus SUCCESSFUL
+  + DR_6 hasDuration 0.25
+  + DR_6 hasStatus SUCCESSFUL
+  + DR_7 hasDuration 0.5
+  + DR_7 hasStatus SUCCESSFUL
+  + DR_8 hasDuration 0.5
+  + DR_8 hasStatus SUCCESSFUL
+  + DR_9 hasDuration 0.5
+  + DR_9 hasStatus SUCCESSFUL
+  + DR_10 hasDuration 0.5
+  + DR_10 hasStatus SUCCESSFUL
+  + DR_11 hasDuration 0.5
+  + DR_11 hasStatus SUCCESSFUL
+  + DR_12 hasDuration 0.5
+  + DR_12 hasStatus SUCCESSFUL
+  + DR_13 hasDuration 0.5
+  + DR_13 hasStatus SUCCESSFUL
+  + DR_14 hasDuration 0.5
+  + DR_14 hasStatus SUCCESSFUL
+  + DR_15 hasDuration 0.5
+  + DR_15 hasStatus SUCCESSFUL
+  + DR_16 hasDuration 0.5
+  + DR_16 hasStatus SUCCESSFUL
+  + DR_17 hasDuration 0.5
+  + DR_17 hasStatus SUCCESSFUL
+  + DR_18 hasDuration 0.5
+  + DR_18 hasStatus SUCCESSFUL
+  + DR_19 hasDuration 0.5
+  + DR_19 hasStatus SUCCESSFUL
+  + DR_20 hasDuration 0.5
+  + DR_20 hasStatus SUCCESSFUL
+  + DR_21 hasDuration 0.5
+  + DR_21 hasStatus SUCCESSFUL
+  + DR_22 hasDuration 0.5
+  + DR_22 hasStatus SUCCESSFUL
+  + DR_23 hasDuration 0.5
+  + DR_23 hasStatus SUCCESSFUL
+  + DR_24 hasDuration 0.5
+  + DR_24 hasStatus SUCCESSFUL
+  + DR_25 hasDuration 0.5
+  + DR_25 hasStatus SUCCESSFUL
+  + DR_26 hasDuration 0.5
+  + DR_26 hasStatus SUCCESSFUL
+  + DR_27 hasDuration 0.5
+  + DR_27 hasStatus SUCCESSFUL
+  + DR_28 hasDuration 0.5
+  + DR_28 hasStatus SUCCESSFUL
+  + DR_29 hasDuration 0.5
+  + DR_29 hasStatus SUCCESSFUL
+  + DR_30 hasDuration 0.5
+  + DR_30 hasStatus SUCCESSFUL
+  + DR_31 hasDuration 0.5
+  + DR_31 hasStatus SUCCESSFUL
+  + DR_32 hasDuration 0.5
+  + DR_32 hasStatus SUCCESSFUL
+  + DR_33 hasDuration 0.5
+  + DR_33 hasStatus SUCCESSFUL
+  + DR_34 hasDuration 0.5
+  + DR_34 hasStatus SUCCESSFUL
+  + DR_35 hasDuration 0.5
+  + DR_35 hasStatus SUCCESSFUL
+  + DR_36 hasDuration 0.5
+  + DR_36 hasStatus SUCCESSFUL
+  + DR_37 hasDuration 0.5
+  + DR_37 hasStatus SUCCESSFUL
+  + DR_38 hasDuration 0.5
+  + DR_38 hasStatus SUCCESSFUL
+  + DR_39 hasDuration 0.5
+  + DR_39 hasStatus SUCCESSFUL
+  + DR_40 hasDuration 0.5
+  + DR_40 hasStatus SUCCESSFUL
+  + DR_41 hasDuration 0.5
+  + DR_41 hasStatus SUCCESSFUL
+  + DR_42 hasDuration 0.5
+  + DR_42 hasStatus SUCCESSFUL
+  + DR_43 hasDuration 0.5
+  + DR_43 hasStatus SUCCESSFUL
+  + DR_44 hasDuration 0.5
+  + DR_44 hasStatus SUCCESSFUL
+  + DR_45 hasDuration 0.5
+  + DR_45 hasStatus SUCCESSFUL
+
+skipped 2 excluded axioms:
+  - SO201-1b hasTask KALMAR   [hasTask has no single named domain/range to type from]
+  - KALMAR hasAction Sampling   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep32.rdf

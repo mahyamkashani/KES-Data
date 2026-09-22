@@ -1,0 +1,527 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 170
+
+created 155 individuals:
+  + RV_SONNE : Ship
+  + Simrad_EM120_Multibeam : MBES
+  + ROV_GENESIS : Vehicle
+  + OFOS : Camera
+  + Stat_212 : Task
+  + Stat_213 : Task
+  + Stat_220 : Task
+  + Stat_221 : Task
+  + Stat_222 : Task
+  + Stat_223 : Task
+  + Stat_224 : Task
+  + Stat_225 : Task
+  + Stat_226 : Task
+  + Stat_227 : Task
+  + Stat_228 : Task
+  + Stat_229 : Task
+  + Stat_230 : Task
+  + Stat_231 : Task
+  + Stat_232 : Task
+  + Stat_233 : Task
+  + Stat_234 : Task
+  + Stat_235 : Task
+  + Stat_236 : Task
+  + Stat_237 : Task
+  + Stat_238 : Task
+  + Stat_239 : Task
+  + Stat_240 : Task
+  + Stat_241 : Task
+  + Stat_242 : Task
+  + Stat_243 : Task
+  + Stat_244 : Task
+  + Stat_245 : Task
+  + Stat_246 : Task
+  + Stat_247 : Task
+  + Stat_248 : Task
+  + Stat_249 : Task
+  + Stat_250 : Task
+  + Stat_251 : Task
+  + Stat_252 : Task
+  + Stat_253 : Task
+  + Stat_254 : Task
+  + Stat_255 : Task
+  + Stat_256 : Task
+  + Stat_257 : Task
+  + Stat_258 : Task
+  + Stat_259 : Task
+  + Stat_260 : Task
+  + Stat_261 : Task
+  + Stat_262 : Task
+  + Stat_263 : Task
+  + Stat_264 : Task
+  + Stat_265 : Task
+  + Stat_266 : Task
+  + Stat_267 : Task
+  + Stat_268 : Task
+  + Stat_269 : Task
+  + Stat_270 : Task
+  + Stat_271 : Task
+  + Stat_272 : Task
+  + Stat_273 : Task
+  + Stat_274 : Task
+  + Stat_275 : Task
+  + Stat_276 : Task
+  + Stat_277 : Task
+  + Stat_278 : Task
+  + Stat_279 : Task
+  + Stat_280 : Task
+  + Stat_281 : Task
+  + Stat_282 : Task
+  + Stat_283 : Task
+  + Stat_284 : Task
+  + Stat_285 : Task
+  + Stat_286 : Task
+  + Stat_287 : Task
+  + Stat_288 : Task
+  + Stat_289 : Task
+  + Stat_290 : Task
+  + Stat_291 : Task
+  + Stat_292 : Task
+  + Stat_293 : Task
+  + Stat_294 : Task
+  + Stat_295 : Task
+  + Stat_296 : Task
+  + Stat_297 : Task
+  + Stat_298 : Task
+  + Stat_299 : Task
+  + Stat_300 : Task
+  + Stat_301 : Task
+  + Stat_302 : Task
+  + Stat_303 : Task
+  + Stat_304 : Task
+  + Stat_305 : Task
+  + Stat_306 : Task
+  + Stat_307 : Task
+  + Stat_308 : Task
+  + Stat_309 : Task
+  + Stat_310 : Task
+  + Stat_311 : Task
+  + Stat_312 : Task
+  + Stat_313 : Task
+  + Stat_314 : Task
+  + Stat_315 : Task
+  + Stat_316 : Task
+  + Stat_317 : Task
+  + Stat_318 : Task
+  + Stat_319 : Task
+  + SeismicStudies : Traversal
+  + Sampling : Traversal
+  + ROVDeployments : Traversal
+  + Deployment : Traversal
+  + ROV_Deployments : SurveyMission
+  + CTD_operations : Data_Sampling_Mission
+  + ROV_1 : Mission
+  + CTD_1 : Mission
+  + CTD_2 : Mission
+  + SO191_001_1 : Station
+  + SO191_004_1 : Station
+  + SO191_006_1 : Station
+  + SO191_007_1 : Station
+  + SO191_010_1 : Station
+  + SO191_012_1 : Station
+  + SO191_013_1 : Station
+  + SO191_014_1 : Station
+  + SO191_017_1 : Station
+  + SO191_018_1 : Station
+  + SO191_019_1 : Station
+  + SO191_021_1 : Station
+  + SO191_022_1 : Station
+  + SO191_023_1 : Station
+  + SO191_024_1 : Station
+  + SO191_025_1 : Station
+  + SO191_030_1 : Station
+  + SO191_031_1 : Station
+  + SO191_032_1 : Station
+  + SO191_035_1 : Station
+  + Waypoint_1 : Waypoint
+  + Waypoint_2 : Waypoint
+  + Waypoint_3 : Waypoint
+  + Waypoint_4 : Waypoint
+  + Waypoint_5 : Waypoint
+  + Dive_206 : Task
+  + Dive_207 : Task
+  + Dive_208 : Task
+  + Dive_209 : Task
+  + Dive_210 : Task
+  + Dive_211 : Task
+  + Dive_212 : Task
+  + Dive_213 : Task
+  + Dive_214 : Task
+  + Dive_215 : Task
+  + CTD_6 : State
+  + CTD_12 : State
+  + CTD_19 : State
+  + CTD_39 : State
+  + CTD_36 : State
+
+asserted 249 axioms:
+  + RV_SONNE hasSensor Simrad_EM120_Multibeam
+  + ROV_GENESIS hasSensor OFOS
+  + Stat_212 hasAction Act_DeepDive
+  + Stat_213 hasAction Act_DeepDive
+  + Stat_220 hasAction Act_TakePhoto
+  + Stat_221 hasAction Act_TakePhoto
+  + Stat_222 hasAction Act_TakePhoto
+  + Stat_223 hasAction Act_TakePhoto
+  + Stat_224 hasAction Act_TakePhoto
+  + Stat_225 hasAction Act_TakePhoto
+  + Stat_226 hasAction Act_TakePhoto
+  + Stat_227 hasAction Act_TakePhoto
+  + Stat_228 hasAction Act_TakePhoto
+  + Stat_229 hasAction Act_TakePhoto
+  + Stat_230 hasAction Act_TakePhoto
+  + Stat_231 hasAction Act_TakePhoto
+  + Stat_232 hasAction Act_TakePhoto
+  + Stat_233 hasAction Act_TakePhoto
+  + Stat_234 hasAction Act_TakePhoto
+  + Stat_235 hasAction Act_TakePhoto
+  + Stat_236 hasAction Act_TakePhoto
+  + Stat_237 hasAction Act_TakePhoto
+  + Stat_238 hasAction Act_TakePhoto
+  + Stat_239 hasAction Act_TakePhoto
+  + Stat_240 hasAction Act_TakePhoto
+  + Stat_241 hasAction Act_TakePhoto
+  + Stat_242 hasAction Act_TakePhoto
+  + Stat_243 hasAction Act_TakePhoto
+  + Stat_244 hasAction Act_TakePhoto
+  + Stat_245 hasAction Act_TakePhoto
+  + Stat_246 hasAction Act_TakePhoto
+  + Stat_247 hasAction Act_TakePhoto
+  + Stat_248 hasAction Act_TakePhoto
+  + Stat_249 hasAction Act_TakePhoto
+  + Stat_250 hasAction Act_TakePhoto
+  + Stat_251 hasAction Act_TakePhoto
+  + Stat_252 hasAction Act_TakePhoto
+  + Stat_253 hasAction Act_TakePhoto
+  + Stat_254 hasAction Act_TakePhoto
+  + Stat_255 hasAction Act_TakePhoto
+  + Stat_256 hasAction Act_TakePhoto
+  + Stat_257 hasAction Act_TakePhoto
+  + Stat_258 hasAction Act_TakePhoto
+  + Stat_259 hasAction Act_TakePhoto
+  + Stat_260 hasAction Act_TakePhoto
+  + Stat_261 hasAction Act_TakePhoto
+  + Stat_262 hasAction Act_TakePhoto
+  + Stat_263 hasAction Act_TakePhoto
+  + Stat_264 hasAction Act_TakePhoto
+  + Stat_265 hasAction Act_TakePhoto
+  + Stat_266 hasAction Act_TakePhoto
+  + Stat_267 hasAction Act_TakePhoto
+  + Stat_268 hasAction Act_TakePhoto
+  + Stat_269 hasAction Act_TakePhoto
+  + Stat_270 hasAction Act_TakePhoto
+  + Stat_271 hasAction Act_TakePhoto
+  + Stat_272 hasAction Act_TakePhoto
+  + Stat_273 hasAction Act_TakePhoto
+  + Stat_274 hasAction Act_TakePhoto
+  + Stat_275 hasAction Act_TakePhoto
+  + Stat_276 hasAction Act_TakePhoto
+  + Stat_277 hasAction Act_TakePhoto
+  + Stat_278 hasAction Act_TakePhoto
+  + Stat_279 hasAction Act_TakePhoto
+  + Stat_280 hasAction Act_TakePhoto
+  + Stat_281 hasAction Act_TakePhoto
+  + Stat_282 hasAction Act_TakePhoto
+  + Stat_283 hasAction Act_TakePhoto
+  + Stat_284 hasAction Act_TakePhoto
+  + Stat_285 hasAction Act_TakePhoto
+  + Stat_286 hasAction Act_TakePhoto
+  + Stat_287 hasAction Act_TakePhoto
+  + Stat_288 hasAction Act_TakePhoto
+  + Stat_289 hasAction Act_TakePhoto
+  + Stat_290 hasAction Act_TakePhoto
+  + Stat_291 hasAction Act_TakePhoto
+  + Stat_292 hasAction Act_TakePhoto
+  + Stat_293 hasAction Act_TakePhoto
+  + Stat_294 hasAction Act_TakePhoto
+  + Stat_295 hasAction Act_TakePhoto
+  + Stat_296 hasAction Act_TakePhoto
+  + Stat_297 hasAction Act_TakePhoto
+  + Stat_298 hasAction Act_TakePhoto
+  + Stat_299 hasAction Act_TakePhoto
+  + Stat_300 hasAction Act_TakePhoto
+  + Stat_301 hasAction Act_TakePhoto
+  + Stat_302 hasAction Act_TakePhoto
+  + Stat_303 hasAction Act_TakePhoto
+  + Stat_304 hasAction Act_TakePhoto
+  + Stat_305 hasAction Act_TakePhoto
+  + Stat_306 hasAction Act_TakePhoto
+  + Stat_307 hasAction Act_TakePhoto
+  + Stat_308 hasAction Act_TakePhoto
+  + Stat_309 hasAction Act_TakePhoto
+  + Stat_310 hasAction Act_TakePhoto
+  + Stat_311 hasAction Act_TakePhoto
+  + Stat_312 hasAction Act_TakePhoto
+  + Stat_313 hasAction Act_TakePhoto
+  + Stat_314 hasAction Act_TakePhoto
+  + Stat_315 hasAction Act_TakePhoto
+  + Stat_316 hasAction Act_TakePhoto
+  + Stat_317 hasAction Act_TakePhoto
+  + Stat_318 hasAction Act_TakePhoto
+  + Stat_319 hasAction Act_TakePhoto
+  + SeismicStudies hasVehicle RV_SONNE
+  + Sampling hasVehicle RV_SONNE
+  + ROVDeployments hasVehicle ROV_GENESIS
+  + Deployment hasVehicle RV_SONNE
+  + ROV_Deployments hasDurationText Not specified   [hasDuration could not take it]
+  + ROV_Deployments hasStatus SUCCESSFUL
+  + CTD_operations hasDurationText 72 CTD stations   [hasDuration could not take it]
+  + CTD_operations hasStatus SUCCESSFUL
+  + CTD_operations collect_sample Water samples for various analysis
+  + ROV_1 MissionID ROV_1
+  + ROV_1 startTime 2007-02-04T19:50:00Z
+  + ROV_1 endTime 2007-02-04T20:00:00Z
+  + ROV_1 maxDepth 1200
+  + ROV_1 dataVolume N/A
+  + ROV_1 hasStatus SUCCESSFUL
+  + ROV_1 remark Successful dive detecting methane seeps.
+  + CTD_1 MissionID CTD_1
+  + CTD_1 startTime 2007-02-05T02:03:00Z
+  + CTD_1 endTime 2007-02-05T03:07:00Z
+  + CTD_1 maxDepth 644
+  + CTD_1 dataVolume N/A
+  + CTD_1 hasStatus SUCCESSFUL
+  + CTD_1 remark Water column sampling yielded methane maximum near the seafloor.
+  + CTD_2 MissionID CTD_2
+  + CTD_2 startTime 2007-02-08T06:20:00Z
+  + CTD_2 endTime 2007-02-08T08:10:00Z
+  + CTD_2 maxDepth 1122
+  + CTD_2 dataVolume N/A
+  + CTD_2 hasStatus SUCCESSFUL
+  + CTD_2 remark CTD profiling conducted at LM9.
+  + SO191_001_1 stationID SO191/001-1
+  + SO191_001_1 stationDate 11.01.07
+  + SO191_001_1 stationTime 22:16
+  + SO191_004_1 stationID SO191/004-1
+  + SO191_004_1 stationDate 13.01.07
+  + SO191_004_1 stationTime 17:33
+  + SO191_006_1 stationID SO191/006-1
+  + SO191_006_1 stationDate 15.01.07
+  + SO191_006_1 stationTime 07:56
+  + SO191_007_1 stationID SO191/007-1
+  + SO191_007_1 stationDate 16.01.07
+  + SO191_007_1 stationTime 12:48
+  + SO191_010_1 stationID SO191/010-1
+  + SO191_010_1 stationDate 19.01.07
+  + SO191_010_1 stationTime 09:38
+  + SO191_012_1 stationID SO191/012-1
+  + SO191_012_1 stationDate 20.01.07
+  + SO191_012_1 stationTime 22:46
+  + SO191_013_1 stationID SO191/013-1
+  + SO191_013_1 stationDate 21.01.07
+  + SO191_013_1 stationTime 09:08
+  + SO191_014_1 stationID SO191/014-1
+  + SO191_014_1 stationDate 22.01.07
+  + SO191_014_1 stationTime 03:00
+  + SO191_017_1 stationID SO191/017-1
+  + SO191_017_1 stationDate 23.01.07
+  + SO191_017_1 stationTime 09:39
+  + SO191_018_1 stationID SO191/018-1
+  + SO191_018_1 stationDate 24.01.07
+  + SO191_018_1 stationTime 05:29
+  + SO191_019_1 stationID SO191/019-1
+  + SO191_019_1 stationDate 24.01.07
+  + SO191_019_1 stationTime 08:38
+  + SO191_021_1 stationID SO191/021-1
+  + SO191_021_1 stationDate 25.01.07
+  + SO191_021_1 stationTime 13:06
+  + SO191_022_1 stationID SO191/022-1
+  + SO191_022_1 stationDate 25.01.07
+  + SO191_022_1 stationTime 15:25
+  + SO191_023_1 stationID SO191/023-1
+  + SO191_023_1 stationDate 26.01.07
+  + SO191_023_1 stationTime 19:26
+  + SO191_024_1 stationID SO191/024-1
+  + SO191_024_1 stationDate 27.01.07
+  + SO191_024_1 stationTime 02:07
+  + SO191_025_1 stationID SO191/025-1
+  + SO191_025_1 stationDate 27.01.07
+  + SO191_025_1 stationTime 08:36
+  + SO191_030_1 stationID SO191/030-1
+  + SO191_030_1 stationDate 29.01.07
+  + SO191_030_1 stationTime 21:46
+  + SO191_031_1 stationID SO191/031-1
+  + SO191_031_1 stationDate 30.01.07
+  + SO191_031_1 stationTime 03:55
+  + SO191_032_1 stationID SO191/032-1
+  + SO191_032_1 stationDate 30.01.07
+  + SO191_032_1 stationTime 07:47
+  + SO191_035_1 stationID SO191/035-1
+  + SO191_035_1 stationDate 31.01.07
+  + SO191_035_1 stationTime 12:43
+  + Waypoint_1 locationName Wairarapa
+  + Waypoint_1 latitude -40.0168
+  + Waypoint_1 longitude 177.8740
+  + Waypoint_1 seabedDepth 1182.8
+  + Waypoint_2 locationName LM-9
+  + Waypoint_2 latitude 40°01.079'
+  + Waypoint_2 longitude 177°51.573'
+  + Waypoint_2 seabedDepth 1059
+  + Waypoint_3 locationName Bear's Paw
+  + Waypoint_3 latitude 40°03.214'
+  + Waypoint_3 longitude 177°49.238'
+  + Waypoint_3 seabedDepth 1111
+  + Waypoint_4 locationName Kaka
+  + Waypoint_4 latitude 40°02.152'
+  + Waypoint_4 longitude 177°48.047'
+  + Waypoint_4 seabedDepth 1160
+  + Waypoint_5 locationName Moa
+  + Waypoint_5 latitude 40°03.291'
+  + Waypoint_5 longitude 177°48.643'
+  + Waypoint_5 seabedDepth 1124
+  + Dive_206 hasDuration 4.5
+  + Dive_206 hasStatus SUCCESSFUL
+  + Dive_207 hasDuration 3.5
+  + Dive_207 hasStatus SUCCESSFUL
+  + Dive_208 hasDuration 2.0
+  + Dive_208 hasStatus FAILED
+  + Dive_209 hasDuration 1.5
+  + Dive_209 hasStatus SUCCESSFUL
+  + Dive_210 hasDuration 2.0
+  + Dive_210 hasStatus PartialSUCCESSFUL
+  + Dive_211 hasDuration 3.0
+  + Dive_211 hasStatus SUCCESSFUL
+  + Dive_212 hasDuration 2.5
+  + Dive_212 hasStatus SUCCESSFUL
+  + Dive_213 hasDuration 1.0
+  + Dive_213 hasStatus PartialFAILURE
+  + Dive_214 hasDuration 2.0
+  + Dive_214 hasStatus SUCCESSFUL
+  + Dive_215 hasDuration 1.5
+  + Dive_215 hasStatus SUCCESSFUL
+  + CTD_6 has_Temperature 103.5
+  + CTD_6 has_Conductivity 0.0003
+  + CTD_6 has_Depth 1059
+  + CTD_12 has_Temperature 164.1
+  + CTD_12 has_Conductivity 0.0003
+  + CTD_12 has_Depth 1106
+  + CTD_19 has_Temperature 155.6
+  + CTD_19 has_Conductivity 0.0003
+  + CTD_19 has_Depth 1101
+  + CTD_39 has_Temperature 247.3
+  + CTD_39 has_Conductivity 0.0003
+  + CTD_39 has_Depth 1092
+  + CTD_36 has_Temperature 728.6
+  + CTD_36 has_Conductivity 0.0003
+  + CTD_36 has_Depth 830
+
+skipped 112 excluded axioms:
+  - SO191 hasTask Leg1   [hasTask has no single named domain/range to type from]
+  - Leg1 hasAction SeismicStudies   [hasAction has no single named domain/range to type from]
+  - SeismicStudies hasDestination Wairarapa   [hasDestination has no single named domain/range to type from]
+  - SO191 hasTask Leg2   [hasTask has no single named domain/range to type from]
+  - Leg2 hasAction Sampling   [hasAction has no single named domain/range to type from]
+  - Sampling hasDestination LM9   [hasDestination has no single named domain/range to type from]
+  - SO191 hasTask Leg3   [hasTask has no single named domain/range to type from]
+  - Leg3 hasAction ROVDeployments   [hasAction has no single named domain/range to type from]
+  - ROVDeployments hasDestination RockGarden   [hasDestination has no single named domain/range to type from]
+  - SO191 hasTask CSEM_Wairarapa   [hasTask has no single named domain/range to type from]
+  - CSEM_Wairarapa hasAction Deployment   [hasAction has no single named domain/range to type from]
+  - Mission_hasTask Task_1   [not a subject/property/object triple]
+  - Task_1_hasAction OFOS_16   [not a subject/property/object triple]
+  - Task_1_hasAction OFOS_17   [not a subject/property/object triple]
+  - Task_1_hasAction GC_14   [not a subject/property/object triple]
+  - Task_1_hasAction GC_15   [not a subject/property/object triple]
+  - Task_1_hasAction GC_16   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_39   [not a subject/property/object triple]
+  - Task_1_hasAction BWS_4   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_18   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_11   [not a subject/property/object triple]
+  - Task_1_hasAction OFOS_18   [not a subject/property/object triple]
+  - Task_1_hasAction OFOS_19   [not a subject/property/object triple]
+  - Task_1_hasAction TM_4   [not a subject/property/object triple]
+  - Task_1_hasAction TM_5   [not a subject/property/object triple]
+  - Task_1_hasAction FLUFO_3   [not a subject/property/object triple]
+  - Task_1_hasAction OBMT_4   [not a subject/property/object triple]
+  - Task_1_hasAction OBMT_5   [not a subject/property/object triple]
+  - Task_1_hasAction OBMT_6   [not a subject/property/object triple]
+  - Task_1_hasAction Multibeam_4   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_19   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_20   [not a subject/property/object triple]
+  - Task_1_hasAction BIGO_Depl_3   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_41   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_42   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_43   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_1   [not a subject/property/object triple]
+  - Task_1_hasAction GC_17   [not a subject/property/object triple]
+  - Task_1_hasAction GC_18   [not a subject/property/object triple]
+  - Task_1_hasAction GC_19   [not a subject/property/object triple]
+  - Task_1_hasAction GC_20   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_21   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_22   [not a subject/property/object triple]
+  - Task_1_hasAction OFOS_20   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_44   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_45   [not a subject/property/object triple]
+  - Task_1_hasAction FLUFO_Retr_3   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_23   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_24   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_2   [not a subject/property/object triple]
+  - Task_1_hasAction BIGO_Retr_3   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_25   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_26   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_27   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_28   [not a subject/property/object triple]
+  - Task_1_hasAction GC_21   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_12   [not a subject/property/object triple]
+  - Task_1_hasAction GQ_Retr_2   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_29   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_30   [not a subject/property/object triple]
+  - Task_1_hasAction FLUFO_Depl_4   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_13   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_5   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_48   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_14   [not a subject/property/object triple]
+  - Task_1_hasAction BIGO_Depl_4   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_15   [not a subject/property/object triple]
+  - Task_1_hasAction TV-G_16   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_31   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_32   [not a subject/property/object triple]
+  - Task_1_hasAction GC_22   [not a subject/property/object triple]
+  - Task_1_hasAction GC_23   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_49   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_50   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_3   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_4   [not a subject/property/object triple]
+  - Task_1_hasAction GC_24   [not a subject/property/object triple]
+  - Task_1_hasAction GC_25   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_51   [not a subject/property/object triple]
+  - Task_1_hasAction ROV_6   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_52   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_53   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_54   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_55   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_56   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_57   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_58   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_59   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_60   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_61   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_62   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_63   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_64   [not a subject/property/object triple]
+  - Task_1_hasAction GC_40   [not a subject/property/object triple]
+  - Task_1_hasAction GC_41   [not a subject/property/object triple]
+  - Task_1_hasAction GC_42   [not a subject/property/object triple]
+  - Task_1_hasAction GC_43   [not a subject/property/object triple]
+  - Task_1_hasAction GC_44   [not a subject/property/object triple]
+  - Task_1_hasAction GC_45   [not a subject/property/object triple]
+  - Task_1_hasAction BIGO_Depl_6   [not a subject/property/object triple]
+  - Task_1_hasAction Profiler_2   [not a subject/property/object triple]
+  - Task_1_hasAction Profiler_Retr_2   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_45   [not a subject/property/object triple]
+  - Task_1_hasAction TV-MUC_46   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_66   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_67   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_68   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_69   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_70   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_71   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_72   [not a subject/property/object triple]
+  - Task_1_hasAction CTD_73   [not a subject/property/object triple]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep9.rdf

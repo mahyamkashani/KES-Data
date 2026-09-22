@@ -1,0 +1,98 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 36
+
+created 21 individuals:
+  + RV_Poseidon : Vehicle
+  + Seabeam_1050 : MBES
+  + P395 : Traversal
+  + RV_POSEIDON : Platform
+  + Sediment_Sampling : Data_Sampling_Mission
+  + P395_02_1 : Station
+  + P395_03_1 : Station
+  + P395_03_2 : Station
+  + P395_04_1 : Station
+  + P395_05_1 : Station
+  + P395_06_1 : Station
+  + P395_07_1 : Station
+  + P395_08_1 : Station
+  + P395_09_1 : Station
+  + P395_10_1 : Station
+  + P395_11_1 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + Waypoint_03 : Waypoint
+  + Waypoint_04 : Waypoint
+  + Poseidon_Cruise_P395 : Task
+
+asserted 65 axioms:
+  + RV_Poseidon hasSensor Seabeam_1050
+  + P395 hasVehicle RV_POSEIDON
+  + P395 MissionID P395
+  + P395 startTime 04.02.2010
+  + P395 endTime 19.02.2010
+  + P395 maxDepth 2700
+  + P395 dataVolume 10 cores
+  + P395 hasStatus SUCCESSFUL
+  + P395 remark Cruise report on the Sahara Slide Complex
+  + Sediment_Sampling hasDurationText Ongoing   [hasDuration could not take it]
+  + Sediment_Sampling hasStatus SUCCESSFUL
+  + Sediment_Sampling collect_sample Gravity cores
+  + Seabeam_1050 maxDepthText 2000 m   [maxDepth could not take it]
+  + RV_Poseidon maxDepthText 3000 m   [maxDepth could not take it]
+  + P395_02_1 stationID P395/02-1
+  + P395_02_1 stationDate 04.02.2010
+  + P395_02_1 stationTime N/A
+  + P395_03_1 stationID P395/03-1
+  + P395_03_1 stationDate 04.02.2010
+  + P395_03_1 stationTime N/A
+  + P395_03_2 stationID P395/03-2
+  + P395_03_2 stationDate 04.02.2010
+  + P395_03_2 stationTime N/A
+  + P395_04_1 stationID P395/04-1
+  + P395_04_1 stationDate 04.02.2010
+  + P395_04_1 stationTime N/A
+  + P395_05_1 stationID P395/05-1
+  + P395_05_1 stationDate 04.02.2010
+  + P395_05_1 stationTime N/A
+  + P395_06_1 stationID P395/06-1
+  + P395_06_1 stationDate 04.02.2010
+  + P395_06_1 stationTime N/A
+  + P395_07_1 stationID P395/07-1
+  + P395_07_1 stationDate 04.02.2010
+  + P395_07_1 stationTime N/A
+  + P395_08_1 stationID P395/08-1
+  + P395_08_1 stationDate 04.02.2010
+  + P395_08_1 stationTime N/A
+  + P395_09_1 stationID P395/09-1
+  + P395_09_1 stationDate 04.02.2010
+  + P395_09_1 stationTime N/A
+  + P395_10_1 stationID P395/10-1
+  + P395_10_1 stationDate 04.02.2010
+  + P395_10_1 stationTime N/A
+  + P395_11_1 stationID P395/11-1
+  + P395_11_1 stationDate 04.02.2010
+  + P395_11_1 stationTime N/A
+  + Waypoint_01 locationName 25°11'N, 16°50'W
+  + Waypoint_01 latitude 25.1833
+  + Waypoint_01 longitude -16.8333
+  + Waypoint_01 seabedDepth 2000
+  + Waypoint_02 locationName 24°22'N, 16°30'W
+  + Waypoint_02 latitude 24.3667
+  + Waypoint_02 longitude -16.5000
+  + Waypoint_02 seabedDepth 2700
+  + Waypoint_03 locationName 24°20.93'N, 17°09.87'W
+  + Waypoint_03 latitude 24.3485
+  + Waypoint_03 longitude -17.1645
+  + Waypoint_03 seabedDepth 2039
+  + Waypoint_04 locationName 24°20.57'N, 17°10.05'W
+  + Waypoint_04 latitude 24.3428
+  + Waypoint_04 longitude -17.1685
+  + Waypoint_04 seabedDepth 2036
+  + Poseidon_Cruise_P395 hasDuration 16.0
+  + Poseidon_Cruise_P395 hasStatus SUCCESSFUL
+
+skipped 1 excluded axioms:
+  - P395 goes_through SaharaSlideComplex   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep50-red.rdf

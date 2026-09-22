@@ -1,0 +1,256 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 83
+
+created 68 individuals:
+  + FS_Maria_S_Merian : Vehicle
+  + EM120 : MBES
+  + Dive_01 : Traversal
+  + RV_MariaSMerian : Platform
+  + MSM04_2 : SurveyMission
+  + GCPP_04 : State
+  + Maria_S_Merian : Ship
+  + Cruise_MSM_04_2 : Mission
+  + Station_01 : Station
+  + Station_02 : Station
+  + Station_03 : Station
+  + Station_04 : Station
+  + Station_05 : Station
+  + Station_06 : Station
+  + Station_07 : Station
+  + Station_08 : Station
+  + Station_09 : Station
+  + Station_10 : Station
+  + Station_11 : Station
+  + Station_12 : Station
+  + Station_13 : Station
+  + Station_14 : Station
+  + Station_15 : Station
+  + Station_16 : Station
+  + Station_17 : Station
+  + Station_18 : Station
+  + Station_19 : Station
+  + Station_20 : Station
+  + Station_21 : Station
+  + Station_22 : Station
+  + Station_23 : Station
+  + Station_24 : Station
+  + Station_25 : Station
+  + Station_26 : Station
+  + Station_27 : Station
+  + Station_28 : Station
+  + Station_29 : Station
+  + Station_30 : Station
+  + Station_31 : Station
+  + Station_32 : Station
+  + Station_33 : Station
+  + Station_34 : Station
+  + Station_35 : Station
+  + Station_36 : Station
+  + Station_37 : Station
+  + Station_38 : Station
+  + Station_39 : Station
+  + Station_40 : Station
+  + Station_41 : Station
+  + Station_42 : Station
+  + Station_43 : Station
+  + Station_44 : Station
+  + Station_45 : Station
+  + Station_46 : Station
+  + Station_47 : Station
+  + Station_48 : Station
+  + Station_49 : Station
+  + Station_50 : Station
+  + GCPP_01 : State
+  + GCPP_02 : State
+  + GCPP_03 : State
+  + GCPP_05 : State
+  + PWPL : Waypoint
+  + GCPP_06 : State
+  + GCPP_07 : State
+  + GCPP_08 : State
+  + GCPP_09 : State
+  + GCPP_10 : State
+
+asserted 176 axioms:
+  + FS_Maria_S_Merian hasSensor EM120
+  + Dive_01 hasVehicle RV_MariaSMerian
+  + MSM04_2 hasDurationText 11 days   [hasDuration could not take it]
+  + MSM04_2 hasStatus SUCCESSFUL
+  + GCPP_04 has_Depth 1885
+  + Maria_S_Merian maxDepthText 6000 m   [maxDepth could not take it]
+  + Cruise_MSM_04_2 MissionID MSM 04-2
+  + Cruise_MSM_04_2 startTime 03.01.2007
+  + Cruise_MSM_04_2 endTime 19.01.2007
+  + Cruise_MSM_04_2 maxDepthText 6000 m   [maxDepth could not take it]
+  + Cruise_MSM_04_2 dataVolume 2500 km
+  + Cruise_MSM_04_2 hasStatus SUCCESSFUL
+  + Cruise_MSM_04_2 remark Seismic Wide-Angle Profiles Fort-de-France – Fort-de-France
+  + Station_01 stationID OBH 01
+  + Station_01 stationDate 03.01.2007
+  + Station_01 stationTime 06.01.2007
+  + Station_02 stationID OBH 02
+  + Station_02 stationDate 03.01.2007
+  + Station_02 stationTime 06.01.2007
+  + Station_03 stationID OBH 03
+  + Station_03 stationDate 03.01.2007
+  + Station_03 stationTime 06.01.2007
+  + Station_04 stationID OBH 04
+  + Station_04 stationDate 03.01.2007
+  + Station_04 stationTime 06.01.2007
+  + Station_05 stationID OBH 05
+  + Station_05 stationDate 03.01.2007
+  + Station_05 stationTime 06.01.2007
+  + Station_06 stationID OBS 06
+  + Station_06 stationDate 03.01.2007
+  + Station_06 stationTime 06.01.2007
+  + Station_07 stationID OBS 07
+  + Station_07 stationDate 03.01.2007
+  + Station_07 stationTime 06.01.2007
+  + Station_08 stationID OBS 08
+  + Station_08 stationDate 03.01.2007
+  + Station_08 stationTime 06.01.2007
+  + Station_09 stationID OBS 09
+  + Station_09 stationDate 03.01.2007
+  + Station_09 stationTime 06.01.2007
+  + Station_10 stationID OBS 10
+  + Station_10 stationDate 03.01.2007
+  + Station_10 stationTime 06.01.2007
+  + Station_11 stationID OBS 11
+  + Station_11 stationDate 03.01.2007
+  + Station_11 stationTime 06.01.2007
+  + Station_12 stationID OBS 12
+  + Station_12 stationDate 03.01.2007
+  + Station_12 stationTime 06.01.2007
+  + Station_13 stationID OBS 13
+  + Station_13 stationDate 03.01.2007
+  + Station_13 stationTime 06.01.2007
+  + Station_14 stationID OBS 14
+  + Station_14 stationDate 03.01.2007
+  + Station_14 stationTime 06.01.2007
+  + Station_15 stationID OBS 15
+  + Station_15 stationDate 03.01.2007
+  + Station_15 stationTime 06.01.2007
+  + Station_16 stationID OBS 16
+  + Station_16 stationDate 03.01.2007
+  + Station_16 stationTime 06.01.2007
+  + Station_17 stationID OBS 17
+  + Station_17 stationDate 03.01.2007
+  + Station_17 stationTime 06.01.2007
+  + Station_18 stationID OBS 18
+  + Station_18 stationDate 03.01.2007
+  + Station_18 stationTime 06.01.2007
+  + Station_19 stationID OBS 19
+  + Station_19 stationDate 03.01.2007
+  + Station_19 stationTime 07.01.2007
+  + Station_20 stationID OBS 20
+  + Station_20 stationDate 03.01.2007
+  + Station_20 stationTime 07.01.2007
+  + Station_21 stationID OBS 21
+  + Station_21 stationDate 04.01.2007
+  + Station_21 stationTime 07.01.2007
+  + Station_22 stationID OBS 22
+  + Station_22 stationDate 04.01.2007
+  + Station_22 stationTime 07.01.2007
+  + Station_23 stationID OBS 23
+  + Station_23 stationDate 04.01.2007
+  + Station_23 stationTime 07.01.2007
+  + Station_24 stationID OBS 24
+  + Station_24 stationDate 04.01.2007
+  + Station_24 stationTime 07.01.2007
+  + Station_25 stationID OBS 25
+  + Station_25 stationDate 04.01.2007
+  + Station_25 stationTime 07.01.2007
+  + Station_26 stationID OBS 26
+  + Station_26 stationDate 04.01.2007
+  + Station_26 stationTime 07.01.2007
+  + Station_27 stationID OBS 27
+  + Station_27 stationDate 04.01.2007
+  + Station_27 stationTime 07.01.2007
+  + Station_28 stationID OBS 28
+  + Station_28 stationDate 04.01.2007
+  + Station_28 stationTime 07.01.2007
+  + Station_29 stationID OBS 29
+  + Station_29 stationDate 04.01.2007
+  + Station_29 stationTime 07.01.2007
+  + Station_30 stationID OBS 30
+  + Station_30 stationDate 04.01.2007
+  + Station_30 stationTime 07.01.2007
+  + Station_31 stationID OBS 31
+  + Station_31 stationDate 04.01.2007
+  + Station_31 stationTime 07.01.2007
+  + Station_32 stationID OBS 32
+  + Station_32 stationDate 04.01.2007
+  + Station_32 stationTime 07.01.2007
+  + Station_33 stationID OBS 33
+  + Station_33 stationDate 04.01.2007
+  + Station_33 stationTime 07.01.2007
+  + Station_34 stationID OBS 34-D2
+  + Station_34 stationDate 04.01.2007
+  + Station_34 stationTime 07.01.2007
+  + Station_35 stationID OBS 35
+  + Station_35 stationDate 04.01.2007
+  + Station_35 stationTime 08.01.2007
+  + Station_36 stationID OBS 36
+  + Station_36 stationDate 04.01.2007
+  + Station_36 stationTime 08.01.2007
+  + Station_37 stationID OBS 37-D3
+  + Station_37 stationDate 04.01.2007
+  + Station_37 stationTime 08.01.2007
+  + Station_38 stationID OBS 38
+  + Station_38 stationDate 04.01.2007
+  + Station_38 stationTime 08.01.2007
+  + Station_39 stationID OBS 39
+  + Station_39 stationDate 04.01.2007
+  + Station_39 stationTime 08.01.2007
+  + Station_40 stationID OBS 40-D4
+  + Station_40 stationDate 04.01.2007
+  + Station_40 stationTime 08.01.2007
+  + Station_41 stationID OBS 41-D5
+  + Station_41 stationDate 04.01.2007
+  + Station_41 stationTime 08.01.2007
+  + Station_42 stationID OBS 42
+  + Station_42 stationDate 04.01.2007
+  + Station_42 stationTime 08.01.2007
+  + Station_43 stationID OBS 43
+  + Station_43 stationDate 04.01.2007
+  + Station_43 stationTime 08.01.2007
+  + Station_44 stationID OBS 44
+  + Station_44 stationDate 04.01.2007
+  + Station_44 stationTime 08.01.2007
+  + Station_45 stationID OBS 45
+  + Station_45 stationDate 04.01.2007
+  + Station_45 stationTime 08.01.2007
+  + Station_46 stationID OBS 46
+  + Station_46 stationDate 04.01.2007
+  + Station_46 stationTime 08.01.2007
+  + Station_47 stationID OBS 47
+  + Station_47 stationDate 04.01.2007
+  + Station_47 stationTime 08.01.2007
+  + Station_48 stationID OBS 48
+  + Station_48 stationDate 04.01.2007
+  + Station_48 stationTime 08.01.2007
+  + Station_49 stationID OBS 49
+  + Station_49 stationDate 04.01.2007
+  + Station_49 stationTime 08.01.2007
+  + Station_50 stationID OBS 50
+  + Station_50 stationDate 04.01.2007
+  + Station_50 stationTime 08.01.2007
+  + GCPP_01 has_Depth 3040
+  + GCPP_02 has_Depth 3380
+  + GCPP_03 has_Depth 3568
+  + GCPP_05 has_Depth 955
+  + PWPL locationName PWPL
+  + PWPL latitude 15.568 N
+  + PWPL longitude 75.000 W
+  + PWPL seabedDepthText 2685 m   [seabedDepth could not take it]
+  + GCPP_06 has_Depth 4875
+  + GCPP_07 has_Depth 4950
+  + GCPP_08 has_Depth 1023
+  + GCPP_09 has_Depth 1062
+  + GCPP_10 has_Depth 2685
+
+skipped 1 excluded axioms:
+  - MSM04-2 goes_through Dive_01   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep12.rdf

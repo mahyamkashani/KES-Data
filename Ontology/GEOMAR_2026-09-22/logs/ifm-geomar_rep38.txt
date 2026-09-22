@@ -1,0 +1,300 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 88
+
+created 73 individuals:
+  + AUV_Abyss : Vehicle
+  + MicroRider_6000 : CTDSensor
+  + R_V_Poseidon : Ship
+  + P403 : Mission
+  + M1 : Waypoint
+  + M2 : Waypoint
+  + M1_2 : Waypoint
+  + R_V_POSEIDON : Ship
+  + Mission_041 : Mission
+  + Mission_045 : Mission
+  + Mission_049 : Mission
+  + Mission_050 : Mission
+  + Mooring_M1 : Waypoint
+  + Mooring_M2 : Waypoint
+  + Mooring_M1_2 : Waypoint
+  + Dive_1 : Task
+  + Dive_2 : Task
+  + Dive_3 : Task
+  + Dive_4 : Task
+  + Dive_5 : Task
+  + Dive_6 : Task
+  + Dive_7 : Task
+  + CTD_Cast_1 : State
+  + CTD_Cast_2 : State
+  + CTD_Cast_3 : State
+  + CTD_Cast_4 : State
+  + CTD_Cast_5 : State
+  + CTD_Cast_6 : State
+  + CTD_Cast_7 : State
+  + CTD_Cast_8 : State
+  + CTD_Cast_9 : State
+  + CTD_Cast_10 : State
+  + CTD_Cast_11 : State
+  + CTD_Cast_12 : State
+  + CTD_Cast_13 : State
+  + CTD_Cast_14 : State
+  + CTD_Cast_15 : State
+  + CTD_Cast_16 : State
+  + CTD_Cast_17 : State
+  + CTD_Cast_18 : State
+  + CTD_Cast_19 : State
+  + CTD_Cast_20 : State
+  + CTD_Cast_21 : State
+  + CTD_Cast_22 : State
+  + CTD_Cast_23 : State
+  + CTD_Cast_24 : State
+  + CTD_Cast_25 : State
+  + CTD_Cast_26 : State
+  + CTD_Cast_27 : State
+  + CTD_Cast_28 : State
+  + CTD_Cast_29 : State
+  + CTD_Cast_30 : State
+  + CTD_Cast_31 : State
+  + CTD_Cast_32 : State
+  + CTD_Cast_33 : State
+  + CTD_Cast_34 : State
+  + CTD_Cast_35 : State
+  + CTD_Cast_36 : State
+  + CTD_Cast_37 : State
+  + CTD_Cast_38 : State
+  + CTD_Cast_39 : State
+  + CTD_Cast_40 : State
+  + CTD_Cast_41 : State
+  + CTD_Cast_42 : State
+  + CTD_Cast_43 : State
+  + CTD_Cast_44 : State
+  + CTD_Cast_45 : State
+  + CTD_Cast_46 : State
+  + CTD_Cast_47 : State
+  + CTD_Cast_48 : State
+  + CTD_Cast_49 : State
+  + CTD_Cast_50 : State
+  + CTD_Cast_51 : State
+
+asserted 63 axioms:
+  + AUV_Abyss hasSensor MicroRider_6000
+  + R_V_Poseidon usesVehicle AUV_Abyss
+  + R_V_Poseidon hasMission P403
+  + M1 before M2
+  + M1 before M1_2
+  + AUV_Abyss maxDepthText 6000 m   [maxDepth could not take it]
+  + R_V_POSEIDON maxDepthText unknown   [maxDepth could not take it]
+  + Mission_041 MissionID 041
+  + Mission_041 startTime 16.08.10 14:05
+  + Mission_041 endTime 16.08.10 15:21
+  + Mission_041 maxDepth 100
+  + Mission_041 dataVolume unknown
+  + Mission_041 hasStatus SUCCESSFUL
+  + Mission_041 remark 4 short dives to test floatability
+  + Mission_045 MissionID 045
+  + Mission_045 startTime 19.08.10 15:50
+  + Mission_045 endTime 19.08.10 18:50
+  + Mission_045 maxDepthText unknown   [maxDepth could not take it]
+  + Mission_045 dataVolume unknown
+  + Mission_045 hasStatus SUCCESSFUL
+  + Mission_045 remark Short term mission to test MR
+  + Mission_049 MissionID 049
+  + Mission_049 startTime 24.08.10 14:50
+  + Mission_049 endTime 24.08.10 10:02
+  + Mission_049 maxDepthText unknown   [maxDepth could not take it]
+  + Mission_049 dataVolume unknown
+  + Mission_049 hasStatus FAILED
+  + Mission_049 remark Mission aborted due to battery capacity
+  + Mission_050 MissionID 050
+  + Mission_050 startTime 26.08.10 11:27
+  + Mission_050 endTime 26.08.10 16:02
+  + Mission_050 maxDepthText unknown   [maxDepth could not take it]
+  + Mission_050 dataVolume unknown
+  + Mission_050 hasStatus FAILED
+  + Mission_050 remark Mission had to be aborted due to rough sea
+  + Mooring_M1 locationName Mooring M1
+  + Mooring_M1 latitude 37°17.82
+  + Mooring_M1 longitude 32°13.88
+  + Mooring_M1 seabedDepth 2140
+  + Mooring_M2 locationName Mooring M2
+  + Mooring_M2 latitude 37°14.98
+  + Mooring_M2 longitude 32°25.00
+  + Mooring_M2 seabedDepth 2165
+  + Mooring_M1_2 locationName Mooring M1_2
+  + Mooring_M1_2 latitude 37°17.40
+  + Mooring_M1_2 longitude 32°13.89
+  + Mooring_M1_2 seabedDepth 2120
+  + Dive_1 hasDuration 4.93
+  + Dive_1 hasStatus SUCCESSFUL
+  + Dive_2 hasDuration 0.9
+  + Dive_2 hasStatus FAILED
+  + Dive_3 hasDuration 4.78
+  + Dive_3 hasStatus SUCCESSFUL
+  + Dive_4 hasDuration 15.28
+  + Dive_4 hasStatus FAILED
+  + Dive_5 hasDuration 0.25
+  + Dive_5 hasStatus SUCCESSFUL
+  + Dive_6 hasDuration 5
+  + Dive_6 hasStatus SUCCESSFUL
+  + Dive_7 hasDuration 19
+  + Dive_7 hasStatus SUCCESSFUL
+  + CTD_Cast_1 has_Depth 2346
+  + CTD_Cast_2 has_Depth 2065
+
+skipped 153 excluded axioms:
+  - POS403 hasTask M1   [hasTask has no single named domain/range to type from]
+  - M1 hasAction AUV_Abyss   [hasAction has no single named domain/range to type from]
+  - CTD_Cast_1 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_2 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_2 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_3 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_3 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_3 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_4 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_4 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_4 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_5 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_5 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_5 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_6 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_6 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_6 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_7 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_7 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_7 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_8 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_8 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_8 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_9 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_9 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_9 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_10 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_10 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_10 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_11 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_11 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_11 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_12 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_12 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_12 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_13 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_13 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_13 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_14 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_14 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_14 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_15 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_15 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_15 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_16 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_16 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_16 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_17 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_17 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_17 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_18 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_18 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_18 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_19 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_19 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_19 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_20 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_20 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_20 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_21 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_21 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_21 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_22 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_22 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_22 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_23 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_23 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_23 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_24 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_24 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_24 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_25 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_25 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_25 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_26 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_26 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_26 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_27 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_27 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_27 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_28 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_28 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_28 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_29 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_29 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_29 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_30 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_30 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_30 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_31 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_31 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_31 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_32 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_32 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_32 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_33 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_33 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_33 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_34 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_34 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_34 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_35 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_35 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_35 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_36 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_36 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_36 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_37 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_37 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_37 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_38 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_38 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_38 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_39 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_39 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_39 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_40 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_40 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_40 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_41 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_41 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_41 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_42 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_42 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_42 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_43 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_43 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_43 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_44 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_44 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_44 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_45 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_45 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_45 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_46 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_46 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_46 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_47 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_47 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_47 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_48 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_48 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_48 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_49 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_49 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_49 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_50 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_50 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_50 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_51 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_51 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_51 has_Depth='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep38.rdf

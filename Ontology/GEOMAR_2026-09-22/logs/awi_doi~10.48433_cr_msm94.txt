@@ -1,0 +1,557 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 180
+
+created 165 individuals:
+  + MARIA_S_MERIAN : Ship
+  + Lowered_ADCP : DVL
+  + Ship_mounted_ADCP : ADCP
+  + Acoustic_Doppler_Current_Profiler : ADCP
+  + POZ_Bottom_Lander : Vehicle
+  + Drifter_deployment : Data_Sampling_Mission
+  + MSM94_0_Underway_1 : Station
+  + MSM94_0_Underway_2 : Station
+  + MSM94 : Mission
+  + Station_27 : Station
+  + KPO_1187 : Waypoint
+  + KPO_1188 : Waypoint
+  + KPO_1189 : Waypoint
+  + KPO_1186 : Waypoint
+  + KPO_1190 : Waypoint
+  + KPO_1191 : Waypoint
+  + KPO_1192 : Waypoint
+  + KPO_1193 : Waypoint
+  + KPO_1194 : Waypoint
+  + KPO_1206 : Station
+  + KPO_1223 : Waypoint
+  + KPO_1224 : Station
+  + KPO_1225 : Station
+  + KPO_1226 : Station
+  + KPO_1227 : Station
+  + KPO_1229 : Station
+  + KPO_1222 : Waypoint
+  + KPO_1210 : Waypoint
+  + MSM94_1_1 : Task
+  + MSM94_2_1 : Task
+  + MSM94_3_1 : Task
+  + MSM94_4_1 : Task
+  + MSM94_5_1 : Task
+  + MSM94_6_1 : Task
+  + MSM94_7_1 : Task
+  + MSM94_8_1 : Task
+  + MSM94_9_1 : Task
+  + MSM94_10_1 : Task
+  + MSM94_11_1 : Task
+  + MSM94_12_1 : Task
+  + MSM94_13_1 : Task
+  + MSM94_14_1 : Task
+  + MSM94_15_1 : Task
+  + MSM94_16_1 : Task
+  + MSM94_17_1 : Task
+  + MSM94_18_1 : Task
+  + MSM94_19_1 : Task
+  + MSM94_20_1 : Task
+  + MSM94_21_1 : Task
+  + MSM94_22_1 : Task
+  + MSM94_23_1 : Task
+  + MSM94_24_1 : Task
+  + MSM94_25_1 : Task
+  + MSM94_26_1 : Task
+  + MSM94_27_1 : Task
+  + MSM94_28_1 : Task
+  + MSM94_29_1 : Task
+  + MSM94_30_1 : Task
+  + MSM94_31_1 : Task
+  + MSM94_32_1 : Task
+  + MSM94_33_1 : Task
+  + MSM94_34_1 : Task
+  + MSM94_35_1 : Task
+  + MSM94_36_1 : Task
+  + MSM94_37_1 : Task
+  + MSM94_38_1 : Task
+  + MSM94_39_1 : Task
+  + MSM94_40_1 : Task
+  + MSM94_41_1 : Task
+  + MSM94_42_1 : Task
+  + MSM94_43_1 : Task
+  + MSM94_44_1 : Task
+  + MSM94_45_1 : Task
+  + MSM94_46_1 : Task
+  + MSM94_47_1 : Task
+  + MSM94_48_1 : Task
+  + MSM94_49_1 : Task
+  + MSM94_50_1 : Task
+  + MSM94_51_1 : Task
+  + MSM94_52_1 : Task
+  + MSM94_53_1 : Task
+  + MSM94_54_1 : Task
+  + MSM94_55_1 : Task
+  + MSM94_56_1 : Task
+  + MSM94_57_1 : Task
+  + MSM94_58_1 : Task
+  + MSM94_59_1 : Task
+  + MSM94_60_1 : Task
+  + MSM94_61_1 : Task
+  + MSM94_62_1 : Task
+  + MSM94_63_1 : Task
+  + MSM94_64_1 : Task
+  + MSM94_65_1 : Task
+  + MSM94_66_1 : Task
+  + MSM94_67_1 : Task
+  + MSM94_68_1 : Task
+  + MSM94_69_1 : Task
+  + MSM94_70_1 : Task
+  + MSM94_71_1 : Task
+  + MSM94_72_1 : Task
+  + MSM94_73_1 : Task
+  + MSM94_74_1 : Task
+  + MSM94_75_1 : Task
+  + MSM94_76_1 : Task
+  + MSM94_77_1 : Task
+  + MSM94_78_1 : Task
+  + MSM94_79_1 : Task
+  + MSM94_80_1 : Task
+  + MSM94_81_1 : Task
+  + MSM94_82_1 : Task
+  + MSM94_83_1 : Task
+  + MSM94_84_1 : Task
+  + MSM94_85_1 : Task
+  + MSM94_86_1 : Task
+  + MSM94_87_1 : Task
+  + MSM94_88_1 : Task
+  + MSM94_89_1 : Task
+  + MSM94_90_1 : Task
+  + MSM94_91_1 : Task
+  + MSM94_92_1 : Task
+  + MSM94_93_1 : Task
+  + MSM94_94_1 : Task
+  + MSM94_95_1 : Task
+  + MSM94_96_1 : Task
+  + MSM94_97_1 : Task
+  + MSM94_98_1 : Task
+  + MSM94_99_1 : Task
+  + MSM94_100_1 : Task
+  + MSM94_101_1 : Task
+  + MSM94_102_1 : Task
+  + MSM94_103_1 : Task
+  + MSM94_104_1 : Task
+  + MSM94_105_1 : Task
+  + MSM94_106_1 : Task
+  + MSM94_107_1 : Task
+  + MSM94_108_1 : Task
+  + MSM94_109_1 : Task
+  + MSM94_110_1 : Task
+  + MSM94_111_1 : Task
+  + MSM94_112_1 : Task
+  + MSM94_113_1 : Task
+  + MSM94_114_1 : Task
+  + MSM94_115_1 : Task
+  + MSM94_116_1 : Task
+  + MSM94_117_1 : Task
+  + MSM94_118_1 : Task
+  + MSM94_119_1 : Task
+  + MSM94_120_1 : Task
+  + MSM94_121_1 : Task
+  + MSM94_122_1 : Task
+  + MSM94_123_1 : Task
+  + MSM94_124_1 : Task
+  + MSM94_125_1 : Task
+  + MSM94_126_1 : Task
+  + MSM94_127_1 : Task
+  + MSM94_128_1 : Task
+  + MSM94_129_1 : Task
+  + MSM94_130_1 : Task
+  + MSM94_131_1 : Task
+  + MSM94_132_1 : Task
+  + MSM94_133_1 : Task
+  + MSM94_134_1 : Task
+  + MSM94_135_1 : Task
+  + MSM94_136_1 : Task
+  + MSM94_137_1 : Task
+
+asserted 365 axioms:
+  + MARIA_S_MERIAN hasSensor Lowered_ADCP
+  + MARIA_S_MERIAN hasSensor Ship_mounted_ADCP
+  + MARIA_S_MERIAN hasSensor Acoustic_Doppler_Current_Profiler
+  + MARIA_S_MERIAN hasSensor POZ_Bottom_Lander
+  + Drifter_deployment hasDurationText Not specified   [hasDuration could not take it]
+  + Drifter_deployment hasStatus SUCCESSFUL
+  + Drifter_deployment collect_sample Yes
+  + MSM94_0_Underway_1 stationID MSM94_0_Underway-1
+  + MSM94_0_Underway_1 stationName Weather-station
+  + MSM94_0_Underway_1 stationDate 2020/07/30
+  + MSM94_0_Underway_1 stationTime 10:05:31
+  + MSM94_0_Underway_2 stationID MSM94_0_Underway-2
+  + MSM94_0_Underway_2 stationName TSG ADCP EM122
+  + MSM94_0_Underway_2 stationDate 2020/08/05
+  + MSM94_0_Underway_2 stationTime 18:00:00
+  + MSM94 MissionID MSM94
+  + MSM94 startTime 02. August 2020
+  + MSM94 endTime 06. September 2020
+  + MSM94 maxDepth 3604
+  + MSM94 dataVolume N/A
+  + MSM94 hasStatus SUCCESSFUL
+  + MSM94 remark Conducted during COVID-19 pandemic with modifications
+  + Station_27 stationID 27
+  + Station_27 stationDate 2020-08-12
+  + Station_27 stationTime 07:00
+  + KPO_1187 locationName KPO 1187
+  + KPO_1187 latitude 53° 02.320'N
+  + KPO_1187 longitude 051° 04.429'W
+  + KPO_1187 seabedDepth 2567
+  + KPO_1188 locationName KPO 1188
+  + KPO_1188 latitude 53° 07.738'N
+  + KPO_1188 longitude 050° 51.918'W
+  + KPO_1188 seabedDepth 2877
+  + KPO_1189 locationName KPO 1189
+  + KPO_1189 latitude 53° 14.934'N
+  + KPO_1189 longitude 050° 32.951'W
+  + KPO_1189 seabedDepth 3151
+  + KPO_1186 locationName KPO 1186
+  + KPO_1186 latitude 52° 57.074'N
+  + KPO_1186 longitude 051° 17.855'W
+  + KPO_1186 seabedDepth 3513
+  + KPO_1190 locationName KPO 1190
+  + KPO_1190 latitude 53° 22.965'N
+  + KPO_1190 longitude 050° 14.436'W
+  + KPO_1190 seabedDepth 3385
+  + KPO_1191 locationName KPO 1191
+  + KPO_1191 latitude 53° 35.222'N
+  + KPO_1191 longitude 049° 46.342'W
+  + KPO_1191 seabedDepth 3602
+  + KPO_1192 locationName KPO 1192
+  + KPO_1192 latitude 59° 00.309'N
+  + KPO_1192 longitude 047° 34.741'W
+  + KPO_1192 seabedDepth 3112
+  + KPO_1193 locationName KPO 1193
+  + KPO_1193 latitude 59° 12.412'N
+  + KPO_1193 longitude 047° 05.223'W
+  + KPO_1193 seabedDepth 2942
+  + KPO_1194 locationName KPO 1194
+  + KPO_1194 latitude 56° 33.654'N
+  + KPO_1194 longitude 052° 40.245'W
+  + KPO_1194 seabedDepth 3495
+  + KPO_1206 stationID KPO_1206
+  + KPO_1206 stationDate 2020-08-26
+  + KPO_1206 stationTime 11:03
+  + KPO_1223 locationName KPO 1223
+  + KPO_1223 latitude 53° 08.039'N
+  + KPO_1223 longitude 050° 52.015'W
+  + KPO_1223 seabedDepth 2896
+  + KPO_1224 stationID KPO_1224
+  + KPO_1224 stationDate 2020-08-17
+  + KPO_1224 stationTime 20:31
+  + KPO_1225 stationID KPO_1225
+  + KPO_1225 stationDate 2020-08-19
+  + KPO_1225 stationTime 11:56
+  + KPO_1226 stationID KPO_1226
+  + KPO_1226 stationDate 2020-08-22
+  + KPO_1226 stationTime 12:43
+  + KPO_1227 stationID KPO_1227
+  + KPO_1227 stationDate 2020-08-25
+  + KPO_1227 stationTime 22:09
+  + KPO_1229 stationID KPO_1229
+  + KPO_1229 stationDate 2020-08-21
+  + KPO_1229 stationTime 22:53
+  + KPO_1222 locationName KPO 1222
+  + KPO_1222 latitude 53° 02.884'N
+  + KPO_1222 longitude 051° 04.877'W
+  + KPO_1222 seabedDepth 2605
+  + KPO_1210 locationName KPO 1210
+  + KPO_1210 latitude 60° 22.725'N
+  + KPO_1210 longitude 048° 27.871'W
+  + KPO_1210 seabedDepth 628
+  + MSM94_1_1 hasDuration 1.5
+  + MSM94_1_1 hasStatus SUCCESSFUL
+  + MSM94_2_1 hasDuration 1.5
+  + MSM94_2_1 hasStatus PartialFAILURE
+  + MSM94_3_1 hasDuration 1.5
+  + MSM94_3_1 hasStatus SUCCESSFUL
+  + MSM94_4_1 hasDuration 1.5
+  + MSM94_4_1 hasStatus SUCCESSFUL
+  + MSM94_5_1 hasDuration 1.5
+  + MSM94_5_1 hasStatus SUCCESSFUL
+  + MSM94_6_1 hasDuration 1.5
+  + MSM94_6_1 hasStatus SUCCESSFUL
+  + MSM94_7_1 hasDuration 1.5
+  + MSM94_7_1 hasStatus SUCCESSFUL
+  + MSM94_8_1 hasDuration 1.5
+  + MSM94_8_1 hasStatus SUCCESSFUL
+  + MSM94_9_1 hasDuration 1.5
+  + MSM94_9_1 hasStatus SUCCESSFUL
+  + MSM94_10_1 hasDuration 1.5
+  + MSM94_10_1 hasStatus SUCCESSFUL
+  + MSM94_11_1 hasDuration 1.5
+  + MSM94_11_1 hasStatus SUCCESSFUL
+  + MSM94_12_1 hasDuration 1.5
+  + MSM94_12_1 hasStatus SUCCESSFUL
+  + MSM94_13_1 hasDuration 1.5
+  + MSM94_13_1 hasStatus SUCCESSFUL
+  + MSM94_14_1 hasDuration 1.5
+  + MSM94_14_1 hasStatus SUCCESSFUL
+  + MSM94_15_1 hasDuration 1.5
+  + MSM94_15_1 hasStatus SUCCESSFUL
+  + MSM94_16_1 hasDuration 1.5
+  + MSM94_16_1 hasStatus SUCCESSFUL
+  + MSM94_17_1 hasDuration 1.5
+  + MSM94_17_1 hasStatus SUCCESSFUL
+  + MSM94_18_1 hasDuration 1.5
+  + MSM94_18_1 hasStatus SUCCESSFUL
+  + MSM94_19_1 hasDuration 1.5
+  + MSM94_19_1 hasStatus SUCCESSFUL
+  + MSM94_20_1 hasDuration 1.5
+  + MSM94_20_1 hasStatus SUCCESSFUL
+  + MSM94_21_1 hasDuration 1.5
+  + MSM94_21_1 hasStatus SUCCESSFUL
+  + MSM94_22_1 hasDuration 1.5
+  + MSM94_22_1 hasStatus SUCCESSFUL
+  + MSM94_23_1 hasDuration 1.5
+  + MSM94_23_1 hasStatus SUCCESSFUL
+  + MSM94_24_1 hasDuration 1.5
+  + MSM94_24_1 hasStatus SUCCESSFUL
+  + MSM94_25_1 hasDuration 1.5
+  + MSM94_25_1 hasStatus SUCCESSFUL
+  + MSM94_26_1 hasDuration 1.5
+  + MSM94_26_1 hasStatus SUCCESSFUL
+  + MSM94_27_1 hasDuration 1.5
+  + MSM94_27_1 hasStatus SUCCESSFUL
+  + MSM94_28_1 hasDuration 1.5
+  + MSM94_28_1 hasStatus SUCCESSFUL
+  + MSM94_29_1 hasDuration 1.5
+  + MSM94_29_1 hasStatus SUCCESSFUL
+  + MSM94_30_1 hasDuration 1.5
+  + MSM94_30_1 hasStatus SUCCESSFUL
+  + MSM94_31_1 hasDuration 1.5
+  + MSM94_31_1 hasStatus SUCCESSFUL
+  + MSM94_32_1 hasDuration 1.5
+  + MSM94_32_1 hasStatus SUCCESSFUL
+  + MSM94_33_1 hasDuration 1.5
+  + MSM94_33_1 hasStatus SUCCESSFUL
+  + MSM94_34_1 hasDuration 1.5
+  + MSM94_34_1 hasStatus SUCCESSFUL
+  + MSM94_35_1 hasDuration 1.5
+  + MSM94_35_1 hasStatus SUCCESSFUL
+  + MSM94_36_1 hasDuration 1.5
+  + MSM94_36_1 hasStatus SUCCESSFUL
+  + MSM94_37_1 hasDuration 1.5
+  + MSM94_37_1 hasStatus SUCCESSFUL
+  + MSM94_38_1 hasDuration 1.5
+  + MSM94_38_1 hasStatus SUCCESSFUL
+  + MSM94_39_1 hasDuration 1.5
+  + MSM94_39_1 hasStatus SUCCESSFUL
+  + MSM94_40_1 hasDuration 1.5
+  + MSM94_40_1 hasStatus SUCCESSFUL
+  + MSM94_41_1 hasDuration 1.5
+  + MSM94_41_1 hasStatus SUCCESSFUL
+  + MSM94_42_1 hasDuration 1.5
+  + MSM94_42_1 hasStatus SUCCESSFUL
+  + MSM94_43_1 hasDuration 1.5
+  + MSM94_43_1 hasStatus SUCCESSFUL
+  + MSM94_44_1 hasDuration 1.5
+  + MSM94_44_1 hasStatus SUCCESSFUL
+  + MSM94_45_1 hasDuration 1.5
+  + MSM94_45_1 hasStatus SUCCESSFUL
+  + MSM94_46_1 hasDuration 1.5
+  + MSM94_46_1 hasStatus SUCCESSFUL
+  + MSM94_47_1 hasDuration 1.5
+  + MSM94_47_1 hasStatus SUCCESSFUL
+  + MSM94_48_1 hasDuration 1.5
+  + MSM94_48_1 hasStatus SUCCESSFUL
+  + MSM94_49_1 hasDuration 1.5
+  + MSM94_49_1 hasStatus SUCCESSFUL
+  + MSM94_50_1 hasDuration 1.5
+  + MSM94_50_1 hasStatus SUCCESSFUL
+  + MSM94_51_1 hasDuration 1.5
+  + MSM94_51_1 hasStatus SUCCESSFUL
+  + MSM94_52_1 hasDuration 1.5
+  + MSM94_52_1 hasStatus SUCCESSFUL
+  + MSM94_53_1 hasDuration 1.5
+  + MSM94_53_1 hasStatus SUCCESSFUL
+  + MSM94_54_1 hasDuration 1.5
+  + MSM94_54_1 hasStatus SUCCESSFUL
+  + MSM94_55_1 hasDuration 1.5
+  + MSM94_55_1 hasStatus SUCCESSFUL
+  + MSM94_56_1 hasDuration 1.5
+  + MSM94_56_1 hasStatus SUCCESSFUL
+  + MSM94_57_1 hasDuration 1.5
+  + MSM94_57_1 hasStatus SUCCESSFUL
+  + MSM94_58_1 hasDuration 1.5
+  + MSM94_58_1 hasStatus SUCCESSFUL
+  + MSM94_59_1 hasDuration 1.5
+  + MSM94_59_1 hasStatus SUCCESSFUL
+  + MSM94_60_1 hasDuration 1.5
+  + MSM94_60_1 hasStatus SUCCESSFUL
+  + MSM94_61_1 hasDuration 1.5
+  + MSM94_61_1 hasStatus SUCCESSFUL
+  + MSM94_62_1 hasDuration 1.5
+  + MSM94_62_1 hasStatus SUCCESSFUL
+  + MSM94_63_1 hasDuration 1.5
+  + MSM94_63_1 hasStatus SUCCESSFUL
+  + MSM94_64_1 hasDuration 1.5
+  + MSM94_64_1 hasStatus SUCCESSFUL
+  + MSM94_65_1 hasDuration 1.5
+  + MSM94_65_1 hasStatus SUCCESSFUL
+  + MSM94_66_1 hasDuration 1.5
+  + MSM94_66_1 hasStatus SUCCESSFUL
+  + MSM94_67_1 hasDuration 1.5
+  + MSM94_67_1 hasStatus SUCCESSFUL
+  + MSM94_68_1 hasDuration 1.5
+  + MSM94_68_1 hasStatus SUCCESSFUL
+  + MSM94_69_1 hasDuration 1.5
+  + MSM94_69_1 hasStatus SUCCESSFUL
+  + MSM94_70_1 hasDuration 1.5
+  + MSM94_70_1 hasStatus SUCCESSFUL
+  + MSM94_71_1 hasDuration 1.5
+  + MSM94_71_1 hasStatus SUCCESSFUL
+  + MSM94_72_1 hasDuration 1.5
+  + MSM94_72_1 hasStatus SUCCESSFUL
+  + MSM94_73_1 hasDuration 1.5
+  + MSM94_73_1 hasStatus SUCCESSFUL
+  + MSM94_74_1 hasDuration 1.5
+  + MSM94_74_1 hasStatus SUCCESSFUL
+  + MSM94_75_1 hasDuration 1.5
+  + MSM94_75_1 hasStatus SUCCESSFUL
+  + MSM94_76_1 hasDuration 1.5
+  + MSM94_76_1 hasStatus SUCCESSFUL
+  + MSM94_77_1 hasDuration 1.5
+  + MSM94_77_1 hasStatus SUCCESSFUL
+  + MSM94_78_1 hasDuration 1.5
+  + MSM94_78_1 hasStatus SUCCESSFUL
+  + MSM94_79_1 hasDuration 1.5
+  + MSM94_79_1 hasStatus SUCCESSFUL
+  + MSM94_80_1 hasDuration 1.5
+  + MSM94_80_1 hasStatus SUCCESSFUL
+  + MSM94_81_1 hasDuration 1.5
+  + MSM94_81_1 hasStatus SUCCESSFUL
+  + MSM94_82_1 hasDuration 1.5
+  + MSM94_82_1 hasStatus SUCCESSFUL
+  + MSM94_83_1 hasDuration 1.5
+  + MSM94_83_1 hasStatus SUCCESSFUL
+  + MSM94_84_1 hasDuration 1.5
+  + MSM94_84_1 hasStatus SUCCESSFUL
+  + MSM94_85_1 hasDuration 1.5
+  + MSM94_85_1 hasStatus SUCCESSFUL
+  + MSM94_86_1 hasDuration 1.5
+  + MSM94_86_1 hasStatus SUCCESSFUL
+  + MSM94_87_1 hasDuration 1.5
+  + MSM94_87_1 hasStatus SUCCESSFUL
+  + MSM94_88_1 hasDuration 1.5
+  + MSM94_88_1 hasStatus SUCCESSFUL
+  + MSM94_89_1 hasDuration 1.5
+  + MSM94_89_1 hasStatus SUCCESSFUL
+  + MSM94_90_1 hasDuration 1.5
+  + MSM94_90_1 hasStatus SUCCESSFUL
+  + MSM94_91_1 hasDuration 1.5
+  + MSM94_91_1 hasStatus SUCCESSFUL
+  + MSM94_92_1 hasDuration 1.5
+  + MSM94_92_1 hasStatus SUCCESSFUL
+  + MSM94_93_1 hasDuration 1.5
+  + MSM94_93_1 hasStatus SUCCESSFUL
+  + MSM94_94_1 hasDuration 1.5
+  + MSM94_94_1 hasStatus SUCCESSFUL
+  + MSM94_95_1 hasDuration 1.5
+  + MSM94_95_1 hasStatus SUCCESSFUL
+  + MSM94_96_1 hasDuration 1.5
+  + MSM94_96_1 hasStatus SUCCESSFUL
+  + MSM94_97_1 hasDuration 1.5
+  + MSM94_97_1 hasStatus SUCCESSFUL
+  + MSM94_98_1 hasDuration 1.5
+  + MSM94_98_1 hasStatus SUCCESSFUL
+  + MSM94_99_1 hasDuration 1.5
+  + MSM94_99_1 hasStatus SUCCESSFUL
+  + MSM94_100_1 hasDuration 1.5
+  + MSM94_100_1 hasStatus SUCCESSFUL
+  + MSM94_101_1 hasDuration 1.5
+  + MSM94_101_1 hasStatus SUCCESSFUL
+  + MSM94_102_1 hasDuration 1.5
+  + MSM94_102_1 hasStatus SUCCESSFUL
+  + MSM94_103_1 hasDuration 1.5
+  + MSM94_103_1 hasStatus SUCCESSFUL
+  + MSM94_104_1 hasDuration 1.5
+  + MSM94_104_1 hasStatus SUCCESSFUL
+  + MSM94_105_1 hasDuration 1.5
+  + MSM94_105_1 hasStatus SUCCESSFUL
+  + MSM94_106_1 hasDuration 1.5
+  + MSM94_106_1 hasStatus SUCCESSFUL
+  + MSM94_107_1 hasDuration 1.5
+  + MSM94_107_1 hasStatus SUCCESSFUL
+  + MSM94_108_1 hasDuration 1.5
+  + MSM94_108_1 hasStatus SUCCESSFUL
+  + MSM94_109_1 hasDuration 1.5
+  + MSM94_109_1 hasStatus SUCCESSFUL
+  + MSM94_110_1 hasDuration 1.5
+  + MSM94_110_1 hasStatus SUCCESSFUL
+  + MSM94_111_1 hasDuration 1.5
+  + MSM94_111_1 hasStatus SUCCESSFUL
+  + MSM94_112_1 hasDuration 1.5
+  + MSM94_112_1 hasStatus SUCCESSFUL
+  + MSM94_113_1 hasDuration 1.5
+  + MSM94_113_1 hasStatus SUCCESSFUL
+  + MSM94_114_1 hasDuration 1.5
+  + MSM94_114_1 hasStatus SUCCESSFUL
+  + MSM94_115_1 hasDuration 1.5
+  + MSM94_115_1 hasStatus SUCCESSFUL
+  + MSM94_116_1 hasDuration 1.5
+  + MSM94_116_1 hasStatus SUCCESSFUL
+  + MSM94_117_1 hasDuration 1.5
+  + MSM94_117_1 hasStatus SUCCESSFUL
+  + MSM94_118_1 hasDuration 1.5
+  + MSM94_118_1 hasStatus SUCCESSFUL
+  + MSM94_119_1 hasDuration 1.5
+  + MSM94_119_1 hasStatus SUCCESSFUL
+  + MSM94_120_1 hasDuration 1.5
+  + MSM94_120_1 hasStatus SUCCESSFUL
+  + MSM94_121_1 hasDuration 1.5
+  + MSM94_121_1 hasStatus SUCCESSFUL
+  + MSM94_122_1 hasDuration 1.5
+  + MSM94_122_1 hasStatus SUCCESSFUL
+  + MSM94_123_1 hasDuration 1.5
+  + MSM94_123_1 hasStatus SUCCESSFUL
+  + MSM94_124_1 hasDuration 1.5
+  + MSM94_124_1 hasStatus SUCCESSFUL
+  + MSM94_125_1 hasDuration 1.5
+  + MSM94_125_1 hasStatus SUCCESSFUL
+  + MSM94_126_1 hasDuration 1.5
+  + MSM94_126_1 hasStatus SUCCESSFUL
+  + MSM94_127_1 hasDuration 1.5
+  + MSM94_127_1 hasStatus SUCCESSFUL
+  + MSM94_128_1 hasDuration 1.5
+  + MSM94_128_1 hasStatus SUCCESSFUL
+  + MSM94_129_1 hasDuration 1.5
+  + MSM94_129_1 hasStatus SUCCESSFUL
+  + MSM94_130_1 hasDuration 1.5
+  + MSM94_130_1 hasStatus SUCCESSFUL
+  + MSM94_131_1 hasDuration 1.5
+  + MSM94_131_1 hasStatus SUCCESSFUL
+  + MSM94_132_1 hasDuration 1.5
+  + MSM94_132_1 hasStatus SUCCESSFUL
+  + MSM94_133_1 hasDuration 1.5
+  + MSM94_133_1 hasStatus SUCCESSFUL
+  + MSM94_134_1 hasDuration 1.5
+  + MSM94_134_1 hasStatus SUCCESSFUL
+  + MSM94_135_1 hasDuration 1.5
+  + MSM94_135_1 hasStatus SUCCESSFUL
+  + MSM94_136_1 hasDuration 1.5
+  + MSM94_136_1 hasStatus SUCCESSFUL
+  + MSM94_137_1 hasDuration 1.5
+  + MSM94_137_1 hasStatus SUCCESSFUL
+
+skipped 16 excluded axioms:
+  - MSM94 hasTask KPO_1185   [hasTask has no single named domain/range to type from]
+  - KPO_1185 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1186   [hasTask has no single named domain/range to type from]
+  - KPO_1186 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1188   [hasTask has no single named domain/range to type from]
+  - KPO_1188 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1189   [hasTask has no single named domain/range to type from]
+  - KPO_1189 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1190   [hasTask has no single named domain/range to type from]
+  - KPO_1190 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1192   [hasTask has no single named domain/range to type from]
+  - KPO_1192 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1193   [hasTask has no single named domain/range to type from]
+  - KPO_1193 hasAction Mooring   [hasAction has no single named domain/range to type from]
+  - MSM94 hasTask KPO_1194   [hasTask has no single named domain/range to type from]
+  - KPO_1194 hasAction Mooring   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_awi_doi~10.48433_cr_msm94.rdf

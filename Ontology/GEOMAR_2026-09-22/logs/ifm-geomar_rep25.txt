@@ -1,0 +1,386 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 104
+
+created 89 individuals:
+  + R_V_SONNE : Ship
+  + SO199 : Vehicle
+  + DR_8 : Task
+  + DR_10 : Task
+  + DR_11 : Task
+  + DR_12 : Task
+  + DR_13 : Task
+  + DR_35 : Task
+  + DR_36 : Task
+  + DR_88 : Task
+  + SIMRAD_EM120 : MBES
+  + Parasound : Echosounder
+  + DR1 : State
+  + DR2 : State
+  + DR3 : State
+  + DR5 : Station
+  + DR6 : State
+  + DR9 : Mission
+  + DR10 : Mission
+  + DR28 : Station
+  + DR29 : Station
+  + DR31 : Station
+  + DR52 : Station
+  + DR61 : Station
+  + Outsider_Seamount : Waypoint
+  + Investigator_Ridge : Waypoint
+  + Sherbakov_Seamount : Waypoint
+  + DR_1 : Task
+  + DR_2 : Task
+  + DR_5 : Task
+  + DR_16 : Task
+  + DR_19 : Task
+  + DR_20 : Task
+  + DR_21 : Task
+  + DR_22 : Task
+  + DR_23 : Task
+  + DR_26 : Task
+  + DR_28 : Task
+  + DR_31 : Task
+  + DR_37 : Task
+  + DR_38 : Task
+  + DR_39 : Task
+  + DR_40 : Task
+  + DR_42 : Task
+  + DR_44 : Task
+  + DR_45 : Task
+  + DR_46 : Task
+  + DR_48 : Task
+  + DR_49 : Task
+  + DR_50 : Task
+  + DR_52 : Task
+  + DR_56 : Task
+  + DR_57 : Task
+  + DR_58 : Task
+  + DR_59 : Task
+  + DR_61 : Task
+  + DR_62 : Task
+  + DR_63 : Task
+  + DR_64 : Task
+  + DR_65 : Task
+  + DR_66 : Task
+  + DR_67 : Task
+  + DR_68 : Task
+  + DR_69 : Task
+  + DR_71 : Task
+  + DR_72 : Task
+  + DR_73 : Task
+  + DR_75 : Task
+  + DR_76 : Task
+  + DR_77 : Task
+  + DR_78 : Task
+  + DR_79 : Task
+  + DR_80 : Task
+  + DR_81 : Task
+  + DR_82 : Task
+  + DR_84 : Task
+  + DR_87 : Task
+  + DR_89 : Task
+  + DR_90 : Task
+  + DR8 : State
+  + DR36 : State
+  + DR39 : State
+  + DR40 : State
+  + DR41 : State
+  + DR44 : State
+  + DR78 : State
+  + DR79 : State
+  + DR80 : State
+  + DR81 : State
+
+asserted 205 axioms:
+  + R_V_SONNE usesVehicle SO199
+  + SO199 hasTask DR_8
+  + SO199 hasTask DR_10
+  + SO199 hasTask DR_11
+  + SO199 hasTask DR_12
+  + SO199 hasTask DR_13
+  + SO199 hasTask DR_35
+  + SO199 hasTask DR_36
+  + SO199 hasTask DR_88
+  + R_V_SONNE hasSensor SIMRAD_EM120
+  + R_V_SONNE hasSensor Parasound
+  + DR_8 hasAction Act_DeepDive
+  + DR_8 hasAction Act_TakePhoto
+  + DR_10 hasAction Act_DeepDive
+  + DR_10 hasAction Act_TakePhoto
+  + DR_11 hasAction Act_DeepDive
+  + DR_11 hasAction Act_TakePhoto
+  + DR_12 hasAction Act_DeepDive
+  + DR_12 hasAction Act_TakePhoto
+  + DR_35 hasAction Act_DeepDive
+  + DR_35 hasAction Act_TakePhoto
+  + DR_36 hasAction Act_DeepDive
+  + DR_36 hasAction Act_TakePhoto
+  + DR_88 hasAction Act_DeepDive
+  + DR_88 hasAction Act_TakePhoto
+  + SO199 stationID SO199
+  + SO199 stationDate 02.08.2008 - 22.09.2008
+  + SO199 stationTime Various times during the cruise
+  + R_V_SONNE maxDepthText 3901 m   [maxDepth could not take it]
+  + DR1 has_Depth 4036
+  + DR2 has_Depth 4602
+  + DR3 has_Depth 4789
+  + DR5 stationID DR5
+  + DR5 stationDate 07.08.2008
+  + DR5 stationTime 12:58
+  + DR6 has_Depth 4135
+  + DR9 MissionID DR9
+  + DR9 startTime UTC 09/08/08 01:30
+  + DR9 endTime UTC 09/08/08 04:45
+  + DR9 maxDepth 4420
+  + DR9 dataVolume few rocks
+  + DR9 hasStatus SUCCESSFUL
+  + DR9 remark dredge on bottom
+  + DR10 MissionID DR10
+  + DR10 startTime UTC 09/08/08 10:51
+  + DR10 endTime UTC 09/08/08 12:12
+  + DR10 maxDepth 4060
+  + DR10 dataVolume few rocks
+  + DR10 hasStatus SUCCESSFUL
+  + DR10 remark dredge on bottom
+  + DR28 stationID DR28
+  + DR28 stationDate 16.08.2008
+  + DR28 stationTime 08:40
+  + DR29 stationID DR29
+  + DR29 stationDate 16.08.2008
+  + DR29 stationTime 19:46
+  + DR31 stationID DR31
+  + DR31 stationDate 17.08.2008
+  + DR31 stationTime 21:01
+  + DR52 stationID DR52
+  + DR52 stationDate 27.08.2008
+  + DR52 stationTime 12:30
+  + DR61 stationID DR61
+  + DR61 stationDate 30.08.2008
+  + DR61 stationTime 15:52
+  + Outsider_Seamount locationName Outsider Seamount
+  + Outsider_Seamount latitude 6°15'S
+  + Outsider_Seamount longitude 45 nm west of the Investigator Ridge
+  + Outsider_Seamount seabedDepthText >5,000 m to ~3,300 m   [seabedDepth could not take it]
+  + Investigator_Ridge locationName Investigator Ridge
+  + Investigator_Ridge latitude 16°00'S
+  + Investigator_Ridge longitude between 4,649 and 4,290 m
+  + Investigator_Ridge seabedDepthText 4,938 to 4,575 m   [seabedDepth could not take it]
+  + Sherbakov_Seamount locationName Sherbakov Seamount
+  + Sherbakov_Seamount latitude 10°54.49'S
+  + Sherbakov_Seamount longitude 104°32.04'E
+  + Sherbakov_Seamount seabedDepthText 2,820 to 2,229 m   [seabedDepth could not take it]
+  + DR_1 hasDuration 1.5
+  + DR_1 hasStatus SUCCESSFUL
+  + DR_2 hasDuration 1.5
+  + DR_2 hasStatus FAILED
+  + DR_5 hasDuration 1.5
+  + DR_5 hasStatus SUCCESSFUL
+  + DR_8 hasDuration 1.5
+  + DR_8 hasStatus SUCCESSFUL
+  + DR_10 hasDuration 1.5
+  + DR_10 hasStatus SUCCESSFUL
+  + DR_11 hasDuration 1.5
+  + DR_11 hasStatus SUCCESSFUL
+  + DR_12 hasDuration 1.5
+  + DR_12 hasStatus SUCCESSFUL
+  + DR_16 hasDuration 1.5
+  + DR_16 hasStatus SUCCESSFUL
+  + DR_19 hasDuration 1.5
+  + DR_19 hasStatus SUCCESSFUL
+  + DR_20 hasDuration 1.5
+  + DR_20 hasStatus SUCCESSFUL
+  + DR_21 hasDuration 1.5
+  + DR_21 hasStatus FAILED
+  + DR_22 hasDuration 1.5
+  + DR_22 hasStatus SUCCESSFUL
+  + DR_23 hasDuration 1.5
+  + DR_23 hasStatus SUCCESSFUL
+  + DR_26 hasDuration 1.5
+  + DR_26 hasStatus SUCCESSFUL
+  + DR_28 hasDuration 1.5
+  + DR_28 hasStatus SUCCESSFUL
+  + DR_31 hasDuration 1.5
+  + DR_31 hasStatus SUCCESSFUL
+  + DR_35 hasDuration 1.5
+  + DR_35 hasStatus SUCCESSFUL
+  + DR_36 hasDuration 1.5
+  + DR_36 hasStatus SUCCESSFUL
+  + DR_37 hasDuration 1.5
+  + DR_37 hasStatus SUCCESSFUL
+  + DR_38 hasDuration 1.5
+  + DR_38 hasStatus SUCCESSFUL
+  + DR_39 hasDuration 1.5
+  + DR_39 hasStatus SUCCESSFUL
+  + DR_40 hasDuration 1.5
+  + DR_40 hasStatus SUCCESSFUL
+  + DR_42 hasDuration 1.5
+  + DR_42 hasStatus SUCCESSFUL
+  + DR_44 hasDuration 1.5
+  + DR_44 hasStatus SUCCESSFUL
+  + DR_45 hasDuration 1.5
+  + DR_45 hasStatus SUCCESSFUL
+  + DR_46 hasDuration 1.5
+  + DR_46 hasStatus SUCCESSFUL
+  + DR_48 hasDuration 1.5
+  + DR_48 hasStatus SUCCESSFUL
+  + DR_49 hasDuration 1.5
+  + DR_49 hasStatus SUCCESSFUL
+  + DR_50 hasDuration 1.5
+  + DR_50 hasStatus SUCCESSFUL
+  + DR_52 hasDuration 1.5
+  + DR_52 hasStatus SUCCESSFUL
+  + DR_56 hasDuration 1.5
+  + DR_56 hasStatus SUCCESSFUL
+  + DR_57 hasDuration 1.5
+  + DR_57 hasStatus SUCCESSFUL
+  + DR_58 hasDuration 1.5
+  + DR_58 hasStatus SUCCESSFUL
+  + DR_59 hasDuration 1.5
+  + DR_59 hasStatus SUCCESSFUL
+  + DR_61 hasDuration 1.5
+  + DR_61 hasStatus SUCCESSFUL
+  + DR_62 hasDuration 1.5
+  + DR_62 hasStatus SUCCESSFUL
+  + DR_63 hasDuration 1.5
+  + DR_63 hasStatus SUCCESSFUL
+  + DR_64 hasDuration 1.5
+  + DR_64 hasStatus SUCCESSFUL
+  + DR_65 hasDuration 1.5
+  + DR_65 hasStatus SUCCESSFUL
+  + DR_66 hasDuration 1.5
+  + DR_66 hasStatus SUCCESSFUL
+  + DR_67 hasDuration 1.5
+  + DR_67 hasStatus SUCCESSFUL
+  + DR_68 hasDuration 1.5
+  + DR_68 hasStatus SUCCESSFUL
+  + DR_69 hasDuration 1.5
+  + DR_69 hasStatus SUCCESSFUL
+  + DR_71 hasDuration 1.5
+  + DR_71 hasStatus SUCCESSFUL
+  + DR_72 hasDuration 1.5
+  + DR_72 hasStatus SUCCESSFUL
+  + DR_73 hasDuration 1.5
+  + DR_73 hasStatus SUCCESSFUL
+  + DR_75 hasDuration 1.5
+  + DR_75 hasStatus SUCCESSFUL
+  + DR_76 hasDuration 1.5
+  + DR_76 hasStatus FAILED
+  + DR_77 hasDuration 1.5
+  + DR_77 hasStatus SUCCESSFUL
+  + DR_78 hasDuration 1.5
+  + DR_78 hasStatus SUCCESSFUL
+  + DR_79 hasDuration 1.5
+  + DR_79 hasStatus SUCCESSFUL
+  + DR_80 hasDuration 1.5
+  + DR_80 hasStatus SUCCESSFUL
+  + DR_81 hasDuration 1.5
+  + DR_81 hasStatus SUCCESSFUL
+  + DR_82 hasDuration 1.5
+  + DR_82 hasStatus SUCCESSFUL
+  + DR_84 hasDuration 1.5
+  + DR_84 hasStatus SUCCESSFUL
+  + DR_87 hasDuration 1.5
+  + DR_87 hasStatus SUCCESSFUL
+  + DR_88 hasDuration 1.5
+  + DR_88 hasStatus SUCCESSFUL
+  + DR_89 hasDuration 1.5
+  + DR_89 hasStatus SUCCESSFUL
+  + DR_90 hasDuration 1.5
+  + DR_90 hasStatus SUCCESSFUL
+  + DR8 has_Depth 4000
+  + DR36 has_Depth 2548
+  + DR39 has_Depth 3100
+  + DR40 has_Depth 4306
+  + DR41 has_Depth 3754
+  + DR44 has_Depth 2525
+  + DR78 has_Depth 5088
+  + DR79 has_Depth 3787
+  + DR80 has_Depth 3220
+  + DR81 has_Depth 4400
+
+skipped 81 excluded axioms:
+  - SO199_CHRISP hasTask SO199_CHRISP   [hasTask has no single named domain/range to type from]
+  - SO199_CHRISP hasAction SO199_CHRISP   [hasAction has no single named domain/range to type from]
+  - BGR08-203 hasTask BGR08-203   [hasTask has no single named domain/range to type from]
+  - BGR08-203 hasAction BGR08-203   [hasAction has no single named domain/range to type from]
+  - BGR08-204 hasTask BGR08-204   [hasTask has no single named domain/range to type from]
+  - BGR08-204 hasAction BGR08-204   [hasAction has no single named domain/range to type from]
+  - BGR08-205 hasTask BGR08-205   [hasTask has no single named domain/range to type from]
+  - BGR08-205 hasAction BGR08-205   [hasAction has no single named domain/range to type from]
+  - BGR08-205A hasTask BGR08-205A   [hasTask has no single named domain/range to type from]
+  - BGR08-205A hasAction BGR08-205A   [hasAction has no single named domain/range to type from]
+  - BGR08-205B hasTask BGR08-205B   [hasTask has no single named domain/range to type from]
+  - BGR08-205B hasAction BGR08-205B   [hasAction has no single named domain/range to type from]
+  - BGR08-205C hasTask BGR08-205C   [hasTask has no single named domain/range to type from]
+  - BGR08-205C hasAction BGR08-205C   [hasAction has no single named domain/range to type from]
+  - BGR08-206 hasTask BGR08-206   [hasTask has no single named domain/range to type from]
+  - BGR08-206 hasAction BGR08-206   [hasAction has no single named domain/range to type from]
+  - BGR08-207 hasTask BGR08-207   [hasTask has no single named domain/range to type from]
+  - BGR08-207 hasAction BGR08-207   [hasAction has no single named domain/range to type from]
+  - BGR08-208 hasTask BGR08-208   [hasTask has no single named domain/range to type from]
+  - BGR08-208 hasAction BGR08-208   [hasAction has no single named domain/range to type from]
+  - BGR08-209 hasTask BGR08-209   [hasTask has no single named domain/range to type from]
+  - BGR08-209 hasAction BGR08-209   [hasAction has no single named domain/range to type from]
+  - BGR08-210 hasTask BGR08-210   [hasTask has no single named domain/range to type from]
+  - BGR08-210 hasAction BGR08-210   [hasAction has no single named domain/range to type from]
+  - BGR08-211 hasTask BGR08-211   [hasTask has no single named domain/range to type from]
+  - BGR08-211 hasAction BGR08-211   [hasAction has no single named domain/range to type from]
+  - BGR08-212 hasTask BGR08-212   [hasTask has no single named domain/range to type from]
+  - BGR08-212 hasAction BGR08-212   [hasAction has no single named domain/range to type from]
+  - BGR08-213 hasTask BGR08-213   [hasTask has no single named domain/range to type from]
+  - BGR08-213 hasAction BGR08-213   [hasAction has no single named domain/range to type from]
+  - BGR08-214 hasTask BGR08-214   [hasTask has no single named domain/range to type from]
+  - BGR08-214 hasAction BGR08-214   [hasAction has no single named domain/range to type from]
+  - BGR08-215 hasTask BGR08-215   [hasTask has no single named domain/range to type from]
+  - BGR08-215 hasAction BGR08-215   [hasAction has no single named domain/range to type from]
+  - BGR08-216 hasTask BGR08-216   [hasTask has no single named domain/range to type from]
+  - BGR08-216 hasAction BGR08-216   [hasAction has no single named domain/range to type from]
+  - BGR08-217 hasTask BGR08-217   [hasTask has no single named domain/range to type from]
+  - BGR08-217 hasAction BGR08-217   [hasAction has no single named domain/range to type from]
+  - BGR08-218 hasTask BGR08-218   [hasTask has no single named domain/range to type from]
+  - BGR08-218 hasAction BGR08-218   [hasAction has no single named domain/range to type from]
+  - BGR08-218A hasTask BGR08-218A   [hasTask has no single named domain/range to type from]
+  - BGR08-218A hasAction BGR08-218A   [hasAction has no single named domain/range to type from]
+  - DR29-17X hasTask DR29-17X   [hasTask has no single named domain/range to type from]
+  - DR29-19X hasTask DR29-19X   [hasTask has no single named domain/range to type from]
+  - DR29-21X hasTask DR29-21X   [hasTask has no single named domain/range to type from]
+  - SO199-DR30 hasTask SO199-DR30   [hasTask has no single named domain/range to type from]
+  - SO199-DR35 hasTask SO199-DR35   [hasTask has no single named domain/range to type from]
+  - SO199-DR36 hasTask SO199-DR36   [hasTask has no single named domain/range to type from]
+  - SO199-DR39 hasTask SO199-DR39   [hasTask has no single named domain/range to type from]
+  - SO199-DR40 hasTask SO199-DR40   [hasTask has no single named domain/range to type from]
+  - SO199-DR41 hasTask SO199-DR41   [hasTask has no single named domain/range to type from]
+  - SO199-DR42 hasTask SO199-DR42   [hasTask has no single named domain/range to type from]
+  - SO199-DR44 hasTask SO199-DR44   [hasTask has no single named domain/range to type from]
+  - SO199-DR45 hasTask SO199-DR45   [hasTask has no single named domain/range to type from]
+  - SO199-DR46 hasTask SO199-DR46   [hasTask has no single named domain/range to type from]
+  - SO199-DR48 hasTask SO199-DR48   [hasTask has no single named domain/range to type from]
+  - SO199-DR49 hasTask SO199-DR49   [hasTask has no single named domain/range to type from]
+  - SO199-DR50 hasTask SO199-DR50   [hasTask has no single named domain/range to type from]
+  - SO199-DR52 hasTask SO199-DR52   [hasTask has no single named domain/range to type from]
+  - SO199-DR54 hasTask SO199-DR54   [hasTask has no single named domain/range to type from]
+  - SO199-DR55 hasTask SO199-DR55   [hasTask has no single named domain/range to type from]
+  - SO199-DR56 hasTask SO199-DR56   [hasTask has no single named domain/range to type from]
+  - SO199-DR57 hasTask SO199-DR57   [hasTask has no single named domain/range to type from]
+  - SO199-DR58 hasTask SO199-DR58   [hasTask has no single named domain/range to type from]
+  - SO199-DR59 hasTask SO199-DR59   [hasTask has no single named domain/range to type from]
+  - SO199-DR62 hasTask SO199-DR62   [hasTask has no single named domain/range to type from]
+  - SO199-DR66 hasTask SO199-DR66   [hasTask has no single named domain/range to type from]
+  - SO199-DR67 hasTask SO199-DR67   [hasTask has no single named domain/range to type from]
+  - SO199-DR68 hasTask SO199-DR68   [hasTask has no single named domain/range to type from]
+  - SO199-DR71 hasTask SO199-DR71   [hasTask has no single named domain/range to type from]
+  - SO199-DR73 hasTask SO199-DR73   [hasTask has no single named domain/range to type from]
+  - SO199-DR75 hasTask SO199-DR75   [hasTask has no single named domain/range to type from]
+  - SO199-DR78 hasTask SO199-DR78   [hasTask has no single named domain/range to type from]
+  - SO199-DR79 hasTask SO199-DR79   [hasTask has no single named domain/range to type from]
+  - SO199-DR80 hasTask SO199-DR80   [hasTask has no single named domain/range to type from]
+  - SO199-DR81 hasTask SO199-DR81   [hasTask has no single named domain/range to type from]
+  - SO199-DR82 hasTask SO199-DR82   [hasTask has no single named domain/range to type from]
+  - SO199-DR84 hasTask SO199-DR84   [hasTask has no single named domain/range to type from]
+  - SO199-DR87 hasTask SO199-DR87   [hasTask has no single named domain/range to type from]
+  - SO199-DR88 hasTask SO199-DR88   [hasTask has no single named domain/range to type from]
+  - SO199-DR89 hasTask SO199-DR89   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep25.rdf

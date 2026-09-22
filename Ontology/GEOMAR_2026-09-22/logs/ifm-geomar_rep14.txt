@@ -1,0 +1,414 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 124
+
+created 109 individuals:
+  + Profile_P02 : Traversal
+  + OBH_206 : Waypoint
+  + OBH_207 : Waypoint
+  + Profile_P03 : Traversal
+  + OBH_220 : Waypoint
+  + OBH_221 : Waypoint
+  + OBH_222 : Waypoint
+  + OBH_223 : Waypoint
+  + OBS_224 : Waypoint
+  + OBH_225 : Waypoint
+  + OBH_226 : Waypoint
+  + OBH_227 : Waypoint
+  + OBH_228 : Waypoint
+  + OBH_229 : Waypoint
+  + OBS_230 : Waypoint
+  + P01 : Waypoint
+  + P02 : Waypoint
+  + P03_1 : Waypoint
+  + P03_2 : Waypoint
+  + R_V_Sonne : Ship
+  + Mission_SO195 : Mission
+  + OBS_118 : Station
+  + OBH_130 : Station
+  + OBH_131 : Station
+  + OBH_117 : Station
+  + OBH_132 : Station
+  + OBH_133 : Station
+  + OBH_134 : Station
+  + OBH_135 : Station
+  + OBH_136 : Station
+  + OBH_137 : Station
+  + OBH_138 : Station
+  + OBH_139 : Station
+  + OBS_105 : Station
+  + OBH_140 : Station
+  + OBH_141 : Station
+  + OBH_142 : Station
+  + OBH_143 : Station
+  + OBS_109 : Station
+  + OBH_144 : Station
+  + OBH_145 : Station
+  + OBH_146 : Station
+  + OBH_147 : Station
+  + OBH_148 : Station
+  + OBH_149 : Station
+  + OBS_177 : Station
+  + OBS_178 : Station
+  + OBS_179 : Station
+  + OBS_180 : Station
+  + OBS_181 : Station
+  + OBS_182 : Station
+  + OBS_183 : Station
+  + OBS_184 : Station
+  + OBS_185 : Station
+  + OBS_186 : Station
+  + OBS_187 : Station
+  + OBS_188 : Station
+  + OBS_189 : Station
+  + OBH_190 : Station
+  + OBH_191 : Station
+  + OBH_192 : Station
+  + OBH_193 : Station
+  + OBH_194 : Station
+  + OBH_195 : Station
+  + OBH_196 : Station
+  + OBH_197 : Station
+  + OBH_198 : Station
+  + OBH_208 : Station
+  + OBH_209 : Station
+  + OBH_210 : Station
+  + OBH_211 : Station
+  + OBH_212 : Station
+  + OBH_213 : Station
+  + OBH_214 : Station
+  + OBH_215 : Station
+  + OBH_216 : Station
+  + OBH_230 : Station
+  + OBH_231 : Station
+  + OBH_232 : Station
+  + OBH_233 : Station
+  + OBH_234 : Station
+  + OBH_235 : Station
+  + OBH_236 : Station
+  + OBH_237 : Station
+  + OBH_238 : Station
+  + OBH_239 : Station
+  + OBH_240 : Station
+  + OBH_241 : Station
+  + OBH_251 : Station
+  + OBH_252 : Station
+  + OBH_253 : Station
+  + OBH_254 : Station
+  + H0801P01 : State
+  + H0801P02 : State
+  + H0801P03 : State
+  + H0801P04 : State
+  + H0801P05 : State
+  + H0801P06 : State
+  + H0801P07 : State
+  + H0802P01 : State
+  + H0802P02 : State
+  + H0802P03 : State
+  + H0802P04 : State
+  + H0802P05 : State
+  + H0802P06 : State
+  + H0803P01 : State
+  + H0803P02 : State
+  + H0803P03 : State
+  + H0803P04 : State
+
+asserted 293 axioms:
+  + Profile_P02 hasDestination OBH_206
+  + Profile_P02 hasDestination OBH_207
+  + Profile_P03 hasDestination OBH_220
+  + Profile_P03 hasDestination OBH_221
+  + Profile_P03 hasDestination OBH_222
+  + Profile_P03 hasDestination OBH_223
+  + Profile_P03 hasDestination OBS_224
+  + Profile_P03 hasDestination OBH_225
+  + Profile_P03 hasDestination OBH_226
+  + Profile_P03 hasDestination OBH_227
+  + Profile_P03 hasDestination OBH_228
+  + Profile_P03 hasDestination OBH_229
+  + Profile_P03 hasDestination OBS_230
+  + P01 locationName P01
+  + P01 latitude 27° 07.561' S
+  + P01 longitude 176° 07.209' W
+  + P01 seabedDepthText 4445 m   [seabedDepth could not take it]
+  + P02 locationName P02
+  + P02 latitude 24° 26.483' S
+  + P02 longitude 177° 43.354' W
+  + P02 seabedDepthText 6092 m   [seabedDepth could not take it]
+  + P03_1 locationName P03-1
+  + P03_1 latitude 25° 50.753' S
+  + P03_1 longitude 173° 42.210' W
+  + P03_1 seabedDepthText 1760 m   [seabedDepth could not take it]
+  + P03_2 locationName P03-2
+  + P03_2 latitude 27° 46.337' S
+  + P03_2 longitude 174° 16.558' W
+  + P03_2 seabedDepthText 829 m   [seabedDepth could not take it]
+  + R_V_Sonne maxDepthText unknown   [maxDepth could not take it]
+  + Mission_SO195 MissionID SO195
+  + Mission_SO195 startTime 2007-07-07
+  + Mission_SO195 endTime 2008-02-11
+  + Mission_SO195 maxDepthText 8000 m   [maxDepth could not take it]
+  + Mission_SO195 dataVolume unknown
+  + Mission_SO195 remark Seismic profiling and oceanographic measurements
+  + OBS_118 stationID OBS 118
+  + OBS_118 stationDate 10.07.07
+  + OBS_118 stationTime 18.01.08
+  + OBH_130 stationID OBH 130
+  + OBH_130 stationDate 16.01.08
+  + OBH_130 stationTime 18.01.08
+  + OBH_131 stationID OBH 131
+  + OBH_131 stationDate 16.01.08
+  + OBH_131 stationTime 18.01.08
+  + OBH_117 stationID OBH 117
+  + OBH_117 stationDate 11.07.07
+  + OBH_117 stationTime 18.01.08
+  + OBH_132 stationID OBH 132
+  + OBH_132 stationDate 16.01.08
+  + OBH_132 stationTime 18.01.08
+  + OBH_133 stationID OBH 133
+  + OBH_133 stationDate 16.01.08
+  + OBH_133 stationTime 18.01.08
+  + OBH_134 stationID OBH 134
+  + OBH_134 stationDate 16.01.08
+  + OBH_134 stationTime 18.01.08
+  + OBH_135 stationID OBH 135
+  + OBH_135 stationDate 16.01.08
+  + OBH_135 stationTime 18.01.08
+  + OBH_136 stationID OBH 136
+  + OBH_136 stationDate 16.01.08
+  + OBH_136 stationTime 18.01.08
+  + OBH_137 stationID OBH 137
+  + OBH_137 stationDate 16.01.08
+  + OBH_137 stationTime 18.01.08
+  + OBH_138 stationID OBH 138
+  + OBH_138 stationDate 16.01.08
+  + OBH_138 stationTime 18.01.08
+  + OBH_139 stationID OBH 139
+  + OBH_139 stationDate 16.01.08
+  + OBH_139 stationTime 18.01.08
+  + OBS_105 stationID OBS 105
+  + OBS_105 stationDate 07.07.07
+  + OBS_105 stationTime 18.01.08
+  + OBH_140 stationID OBH 140
+  + OBH_140 stationDate 16.01.08
+  + OBH_140 stationTime 18.01.08
+  + OBH_141 stationID OBH 141
+  + OBH_141 stationDate 16.01.08
+  + OBH_141 stationTime 18.01.08
+  + OBH_142 stationID OBH 142
+  + OBH_142 stationDate 16.01.08
+  + OBH_142 stationTime 19.01.08
+  + OBH_143 stationID OBH 143
+  + OBH_143 stationDate 16.01.08
+  + OBH_143 stationTime 19.01.08
+  + OBS_109 stationID OBS 109
+  + OBS_109 stationDate 07.07.07
+  + OBS_109 stationTime 19.01.08
+  + OBH_144 stationID OBH 144
+  + OBH_144 stationDate 16.01.08
+  + OBH_144 stationTime 19.01.08
+  + OBH_145 stationID OBH 145
+  + OBH_145 stationDate 16.01.08
+  + OBH_145 stationTime 19.01.08
+  + OBH_146 stationID OBH 146
+  + OBH_146 stationDate 16.01.08
+  + OBH_146 stationTime 19.01.08
+  + OBH_147 stationID OBH 147
+  + OBH_147 stationDate 16.01.08
+  + OBH_147 stationTime 19.01.08
+  + OBH_148 stationID OBH 148
+  + OBH_148 stationDate 16.01.08
+  + OBH_148 stationTime 19.01.08
+  + OBH_149 stationID OBH 149
+  + OBH_149 stationDate 16.01.08
+  + OBH_149 stationTime 19.01.08
+  + OBS_177 stationID OBS 177
+  + OBS_177 stationDate 20.01.08
+  + OBS_177 stationTime 23.01.08
+  + OBS_178 stationID OBS 178
+  + OBS_178 stationDate 20.01.08
+  + OBS_178 stationTime 23.01.08
+  + OBS_179 stationID OBS 179
+  + OBS_179 stationDate 20.01.08
+  + OBS_179 stationTime 23.01.08
+  + OBS_180 stationID OBS 180
+  + OBS_180 stationDate 20.01.08
+  + OBS_180 stationTime 23.01.08
+  + OBS_181 stationID OBS 181
+  + OBS_181 stationDate 20.01.08
+  + OBS_181 stationTime 23.01.08
+  + OBS_182 stationID OBS 182
+  + OBS_182 stationDate 20.01.08
+  + OBS_182 stationTime 23.01.08
+  + OBS_183 stationID OBS 183
+  + OBS_183 stationDate 20.01.08
+  + OBS_183 stationTime 23.01.08
+  + OBS_184 stationID OBS 184
+  + OBS_184 stationDate 20.01.08
+  + OBS_184 stationTime 23.01.08
+  + OBS_185 stationID OBS 185
+  + OBS_185 stationDate 20.01.08
+  + OBS_185 stationTime 23.01.08
+  + OBS_186 stationID OBS 186
+  + OBS_186 stationDate 20.01.08
+  + OBS_186 stationTime 23.01.08
+  + OBS_187 stationID OBS 187
+  + OBS_187 stationDate 20.01.08
+  + OBS_187 stationTime 23.01.08
+  + OBS_188 stationID OBS 188
+  + OBS_188 stationDate 20.01.08
+  + OBS_188 stationTime 27.01.08
+  + OBS_189 stationID OBS 189
+  + OBS_189 stationDate 20.01.08
+  + OBS_189 stationTime 27.01.08
+  + OBH_190 stationID OBH 190
+  + OBH_190 stationDate 20.01.08
+  + OBH_190 stationTime 27.01.08
+  + OBH_191 stationID OBH 191
+  + OBH_191 stationDate 20.01.08
+  + OBH_191 stationTime 27.01.08
+  + OBH_192 stationID OBH 192
+  + OBH_192 stationDate 20.01.08
+  + OBH_192 stationTime 27.01.08
+  + OBH_193 stationID OBH 193
+  + OBH_193 stationDate 21.01.08
+  + OBH_193 stationTime 23.01.08
+  + OBH_194 stationID OBH 194
+  + OBH_194 stationDate 21.01.08
+  + OBH_194 stationTime 27.01.08
+  + OBH_195 stationID OBH 195
+  + OBH_195 stationDate 21.01.08
+  + OBH_195 stationTime 27.01.08
+  + OBH_196 stationID OBH 196
+  + OBH_196 stationDate 21.01.08
+  + OBH_196 stationTime 27.01.08
+  + OBH_197 stationID OBH 197
+  + OBH_197 stationDate 21.01.08
+  + OBH_197 stationTime 27.01.08
+  + OBH_198 stationID OBH 198
+  + OBH_198 stationDate 21.01.08
+  + OBH_198 stationTime 24.01.08
+  + OBH_208 stationID OBH 208
+  + OBH_208 stationDate 21.01.08
+  + OBH_208 stationTime 27.01.08
+  + OBH_209 stationID OBH 209
+  + OBH_209 stationDate 21.01.08
+  + OBH_209 stationTime 27.01.08
+  + OBH_210 stationID OBH 210
+  + OBH_210 stationDate 21.01.08
+  + OBH_210 stationTime 27.01.08
+  + OBH_211 stationID OBH 211
+  + OBH_211 stationDate 21.01.08
+  + OBH_211 stationTime 27.01.08
+  + OBH_212 stationID OBH 212
+  + OBH_212 stationDate 21.01.08
+  + OBH_212 stationTime 27.01.08
+  + OBH_213 stationID OBH 213
+  + OBH_213 stationDate 21.01.08
+  + OBH_213 stationTime 27.01.08
+  + OBH_214 stationID OBH 214
+  + OBH_214 stationDate 21.01.08
+  + OBH_214 stationTime 27.01.08
+  + OBH_215 stationID OBH 215
+  + OBH_215 stationDate 21.01.08
+  + OBH_215 stationTime 27.01.08
+  + OBH_216 stationID OBH 216
+  + OBH_216 stationDate 21.01.08
+  + OBH_216 stationTime 27.01.08
+  + OBH_220 stationID OBH 220
+  + OBH_220 stationDate 02.02.08
+  + OBH_220 stationTime 03.02.08
+  + OBH_221 stationID OBH 221
+  + OBH_221 stationDate 02.02.08
+  + OBH_221 stationTime 03.02.08
+  + OBH_222 stationID OBH 222
+  + OBH_222 stationDate 02.02.08
+  + OBH_222 stationTime 03.02.08
+  + OBH_223 stationID OBH 223
+  + OBH_223 stationDate 02.02.08
+  + OBH_223 stationTime 03.02.08
+  + OBH_225 stationID OBH 225
+  + OBH_225 stationDate 02.02.08
+  + OBH_225 stationTime 03.02.08
+  + OBH_226 stationID OBH 226
+  + OBH_226 stationDate 02.02.08
+  + OBH_226 stationTime 03.02.08
+  + OBH_227 stationID OBH 227
+  + OBH_227 stationDate 02.02.08
+  + OBH_227 stationTime 10.02.08
+  + OBH_228 stationID OBH 228
+  + OBH_228 stationDate 02.02.08
+  + OBH_228 stationTime 10.02.08
+  + OBH_229 stationID OBH 229
+  + OBH_229 stationDate 02.02.08
+  + OBH_229 stationTime 10.02.08
+  + OBH_230 stationID OBH 230
+  + OBH_230 stationDate 02.02.08
+  + OBH_230 stationTime 10.02.08
+  + OBH_231 stationID OBH 231
+  + OBH_231 stationDate 02.02.08
+  + OBH_231 stationTime 10.02.08
+  + OBH_232 stationID OBH 232
+  + OBH_232 stationDate 02.02.08
+  + OBH_232 stationTime 10.02.08
+  + OBH_233 stationID OBH 233
+  + OBH_233 stationDate 02.02.08
+  + OBH_233 stationTime 10.02.08
+  + OBH_234 stationID OBH 234
+  + OBH_234 stationDate 02.02.08
+  + OBH_234 stationTime 10.02.08
+  + OBH_235 stationID OBH 235
+  + OBH_235 stationDate 02.02.08
+  + OBH_235 stationTime 10.02.08
+  + OBH_236 stationID OBH 236
+  + OBH_236 stationDate 02.02.08
+  + OBH_236 stationTime 10.02.08
+  + OBH_237 stationID OBH 237
+  + OBH_237 stationDate 02.02.08
+  + OBH_237 stationTime 10.02.08
+  + OBH_238 stationID OBH 238
+  + OBH_238 stationDate 02.02.08
+  + OBH_238 stationTime 10.02.08
+  + OBH_239 stationID OBH 239
+  + OBH_239 stationDate 02.02.08
+  + OBH_239 stationTime 10.02.08
+  + OBH_240 stationID OBH 240
+  + OBH_240 stationDate 02.02.08
+  + OBH_240 stationTime 10.02.08
+  + OBH_241 stationID OBH 241
+  + OBH_241 stationDate 02.02.08
+  + OBH_241 stationTime 10.02.08
+  + OBH_251 stationID OBH 251
+  + OBH_251 stationDate 03.02.08
+  + OBH_251 stationTime 08.02.08
+  + OBH_252 stationID OBH 252
+  + OBH_252 stationDate 03.02.08
+  + OBH_252 stationTime 08.02.08
+  + OBH_253 stationID OBH 253
+  + OBH_253 stationDate 03.02.08
+  + OBH_253 stationTime 08.02.08
+  + OBH_254 stationID OBH 254
+  + OBH_254 stationDate 03.02.08
+  + OBH_254 stationTime 08.02.08
+  + H0801P01 has_Depth 5599
+  + H0801P02 has_Depth 5608
+  + H0801P03 has_Depth 5607
+  + H0801P04 has_Depth 5609
+  + H0801P05 has_Depth 5606
+  + H0801P06 has_Depth 5604
+  + H0801P07 has_Depth 5604
+  + H0802P01 has_Depth 4229
+  + H0802P02 has_Depth 4174
+  + H0802P03 has_Depth 4168
+  + H0802P04 has_Depth 4148
+  + H0802P05 has_Depth 4148
+  + H0802P06 has_Depth 4170
+  + H0803P01 has_Depth 4042
+  + H0803P02 has_Depth 4073
+  + H0803P03 has_Depth 4145
+  + H0803P04 has_Depth 4233
+
+skipped 1 excluded axioms:
+  - Mission_SO195 hasStatus   ['unknown' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep14.rdf

@@ -1,0 +1,192 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 66
+
+created 51 individuals:
+  + RV_SONNE : Ship
+  + OBH_15 : Hydrophone
+  + S0176 : Mission
+  + Station_01CTD : Task
+  + S0179 : Mission
+  + Station_S0179_014_1 : Task
+  + Station_S0179_015_1 : Task
+  + Profile_16 : Task
+  + Profile_18 : Task
+  + Profile_19 : Task
+  + F_S_SONNE : Ship
+  + S0179_114 : Station
+  + S0179_19 : Task
+  + S0179_115 : Station
+  + S0179_116 : Station
+  + S0179_117 : Station
+  + S0179_118 : Station
+  + S0179_119 : Station
+  + S0179_120 : Station
+  + S0179_121 : Station
+  + S0179_122 : Station
+  + S0179_123 : Station
+  + S0179_124 : Station
+  + S0179_125 : Station
+  + S0179_126 : Station
+  + S0179_127 : Station
+  + S0179_128 : Station
+  + S0179_129 : Station
+  + S0179_103 : Waypoint
+  + S0179_104 : Waypoint
+  + S0179_105 : Waypoint
+  + S0179_106 : Waypoint
+  + S0179_139 : Waypoint
+  + S0179_01 : Task
+  + S0179_02 : Task
+  + S0179_03 : Task
+  + S0179_04 : Task
+  + S0179_05 : Task
+  + S0179_06 : Task
+  + S0179_07 : Task
+  + S0179_08 : Task
+  + S0179_09 : Task
+  + S0179_10 : Task
+  + S0179_11 : Task
+  + S0179_12 : Task
+  + S0179_13 : Task
+  + S0179_14 : Task
+  + S0179_15 : Task
+  + S0179_16 : Task
+  + S0179_17 : Task
+  + S0179_18 : Task
+
+asserted 121 axioms:
+  + RV_SONNE hasSensor OBH_15
+  + S0176 hasTask Station_01CTD
+  + S0179 hasTask Station_S0179_014_1
+  + S0179 hasTask Station_S0179_015_1
+  + S0179 hasTask Profile_16
+  + S0179 hasTask Profile_18
+  + S0179 hasTask Profile_19
+  + S0179 MissionID S0179
+  + S0179 startTime 18.09.2004 23:44
+  + S0179 endTime 03.10.2004 06:43
+  + S0179 maxDepthText 3400 m   [maxDepth could not take it]
+  + S0179 dataVolume N/A
+  + S0179 hasStatus SUCCESSFUL
+  + S0179 remark Various profiles and data collection
+  + F_S_SONNE maxDepthText 11000 m   [maxDepth could not take it]
+  + S0179_114 stationID S0179-114
+  + S0179_114 stationDate 01.10.2004
+  + S0179_114 stationTime 22:44:40
+  + S0179_19 hasDuration 24.0
+  + S0179_19 hasStatus SUCCESSFUL
+  + S0179_115 stationID S0179-115
+  + S0179_115 stationDate 03.10.2004
+  + S0179_115 stationTime 06:54:00
+  + S0179_116 stationID S0179-116
+  + S0179_116 stationDate 03.10.2004
+  + S0179_116 stationTime 10:39:40
+  + S0179_117 stationID S0179-117
+  + S0179_117 stationDate 03.10.2004
+  + S0179_117 stationTime 21:03:20
+  + S0179_118 stationID S0179-118
+  + S0179_118 stationDate 03.10.2004
+  + S0179_118 stationTime 23:05:20
+  + S0179_119 stationID S0179-119
+  + S0179_119 stationDate 04.10.2004
+  + S0179_119 stationTime 02:00:00
+  + S0179_120 stationID S0179-120
+  + S0179_120 stationDate 04.10.2004
+  + S0179_120 stationTime 02:00:20
+  + S0179_121 stationID S0179-121
+  + S0179_121 stationDate 04.10.2004
+  + S0179_121 stationTime 06:00:00
+  + S0179_122 stationID S0179-122
+  + S0179_122 stationDate 04.10.2004
+  + S0179_122 stationTime 06:00:20
+  + S0179_123 stationID S0179-123
+  + S0179_123 stationDate 04.10.2004
+  + S0179_123 stationTime 08:40:00
+  + S0179_124 stationID S0179-124
+  + S0179_124 stationDate 04.10.2004
+  + S0179_124 stationTime 08:40:20
+  + S0179_125 stationID S0179-125
+  + S0179_125 stationDate 04.10.2004
+  + S0179_125 stationTime 09:40:00
+  + S0179_126 stationID S0179-126
+  + S0179_126 stationDate 04.10.2004
+  + S0179_126 stationTime 09:40:20
+  + S0179_127 stationID S0179-127
+  + S0179_127 stationDate 04.10.2004
+  + S0179_127 stationTime 10:22:10
+  + S0179_128 stationID S0179-128
+  + S0179_128 stationDate 04.10.2004
+  + S0179_128 stationTime 10:22:510
+  + S0179_129 stationID S0179-129
+  + S0179_129 stationDate 04.10.2004
+  + S0179_129 stationTime 10:22:510
+  + S0179_103 locationName S0179-103
+  + S0179_103 latitude -9.8470
+  + S0179_103 longitude 109.5670
+  + S0179_103 seabedDepth 164.71
+  + S0179_104 locationName S0179-104
+  + S0179_104 latitude -9.1860
+  + S0179_104 longitude 109.5490
+  + S0179_104 seabedDepth 203.43
+  + S0179_105 locationName S0179-105
+  + S0179_105 latitude -9.1130
+  + S0179_105 longitude 110.5000
+  + S0179_105 seabedDepth 105.85
+  + S0179_106 locationName S0179-106
+  + S0179_106 latitude -9.1130
+  + S0179_106 longitude 110.5000
+  + S0179_106 seabedDepth 95.15
+  + S0179_139 locationName S0179-139
+  + S0179_139 latitude -9.3100
+  + S0179_139 longitude 110.1200
+  + S0179_139 seabedDepth 120.14
+  + S0179_01 hasDuration 24.0
+  + S0179_01 hasStatus SUCCESSFUL
+  + S0179_02 hasDuration 24.0
+  + S0179_02 hasStatus SUCCESSFUL
+  + S0179_03 hasDuration 24.0
+  + S0179_03 hasStatus SUCCESSFUL
+  + S0179_04 hasDuration 24.0
+  + S0179_04 hasStatus SUCCESSFUL
+  + S0179_05 hasDuration 24.0
+  + S0179_05 hasStatus SUCCESSFUL
+  + S0179_06 hasDuration 24.0
+  + S0179_06 hasStatus SUCCESSFUL
+  + S0179_07 hasDuration 24.0
+  + S0179_07 hasStatus SUCCESSFUL
+  + S0179_08 hasDuration 24.0
+  + S0179_08 hasStatus SUCCESSFUL
+  + S0179_09 hasDuration 24.0
+  + S0179_09 hasStatus SUCCESSFUL
+  + S0179_10 hasDuration 24.0
+  + S0179_10 hasStatus SUCCESSFUL
+  + S0179_11 hasDuration 24.0
+  + S0179_11 hasStatus SUCCESSFUL
+  + S0179_12 hasDuration 24.0
+  + S0179_12 hasStatus SUCCESSFUL
+  + S0179_13 hasDuration 24.0
+  + S0179_13 hasStatus SUCCESSFUL
+  + S0179_14 hasDuration 24.0
+  + S0179_14 hasStatus SUCCESSFUL
+  + S0179_15 hasDuration 24.0
+  + S0179_15 hasStatus SUCCESSFUL
+  + S0179_16 hasDuration 24.0
+  + S0179_16 hasStatus SUCCESSFUL
+  + S0179_17 hasDuration 24.0
+  + S0179_17 hasStatus SUCCESSFUL
+  + S0179_18 hasDuration 24.0
+  + S0179_18 hasStatus SUCCESSFUL
+
+skipped 9 excluded axioms:
+  - S0179 hasTask OBH_72   [hasTask has no single named domain/range to type from]
+  - OBH_72 hasAction OBS   [hasAction has no single named domain/range to type from]
+  - S0179 hasTask OBH_73   [hasTask has no single named domain/range to type from]
+  - OBH_73 hasAction OBS   [hasAction has no single named domain/range to type from]
+  - S0179 hasTask OBH_74   [hasTask has no single named domain/range to type from]
+  - OBH_74 hasAction OBS   [hasAction has no single named domain/range to type from]
+  - S0179 hasTask OBH_75   [hasTask has no single named domain/range to type from]
+  - OBH_75 hasAction OBS   [hasAction has no single named domain/range to type from]
+  - S0179 hasTask Station_S0179   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep1.rdf

@@ -1,0 +1,284 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 72
+
+created 57 individuals:
+  + R_V_Poseidon : Vehicle
+  + Acoustic_Doppler_current_profiler : ADCP
+  + CTD : CTDSensor
+  + Stat_226 : Task
+  + Stat_227 : Task
+  + Stat_228 : Task
+  + Stat_236 : Task
+  + Stat_238 : Task
+  + Stat_240 : Task
+  + Stat_241 : Task
+  + Stat_242 : Task
+  + Stat_243 : Task
+  + Stat_244 : Task
+  + Stat_246 : Task
+  + Stat_247 : Task
+  + Stat_249 : Task
+  + Stat_229 : CTDMission
+  + Stat_230 : CTDMission
+  + Stat_231 : CTDMission
+  + Stat_232 : CTDMission
+  + Stat_233 : CTDMission
+  + Stat_234 : CTDMission
+  + Stat_235 : CTDMission
+  + Stat_237 : CTDMission
+  + Stat_239 : CTDMission
+  + Stat_245 : CTDMission
+  + Stat_248 : CTDMission
+  + P348 : Mission
+  + Poseidon_Cruise_348 : Station
+  + Test_Station_226 : Station
+  + CVTSS_Station_227 : Station
+  + Waypoint_226 : Waypoint
+  + Waypoint_227 : Waypoint
+  + Waypoint_240 : Waypoint
+  + Waypoint_241 : Waypoint
+  + Waypoint_242 : Waypoint
+  + Waypoint_243 : Waypoint
+  + Waypoint_244 : Waypoint
+  + Waypoint_246 : Waypoint
+  + Waypoint_247 : Waypoint
+  + Waypoint_248 : Waypoint
+  + Waypoint_249 : Waypoint
+  + Dive_226 : Task
+  + Dive_227 : Task
+  + Dive_235 : Task
+  + Dive_238 : Task
+  + Dive_239 : Task
+  + Dive_240 : Task
+  + Dive_241 : Task
+  + Dive_242 : Task
+  + Dive_243 : Task
+  + Dive_244 : Task
+  + Dive_245 : Task
+  + Dive_246 : Task
+  + Dive_247 : Task
+  + Dive_248 : Task
+  + Dive_249 : Task
+
+asserted 211 axioms:
+  + R_V_Poseidon hasSensor Acoustic_Doppler_current_profiler
+  + R_V_Poseidon hasSensor CTD
+  + R_V_Poseidon hasTask Stat_226
+  + R_V_Poseidon hasTask Stat_227
+  + R_V_Poseidon hasTask Stat_228
+  + R_V_Poseidon hasTask Stat_236
+  + R_V_Poseidon hasTask Stat_238
+  + R_V_Poseidon hasTask Stat_240
+  + R_V_Poseidon hasTask Stat_241
+  + R_V_Poseidon hasTask Stat_242
+  + R_V_Poseidon hasTask Stat_243
+  + R_V_Poseidon hasTask Stat_244
+  + R_V_Poseidon hasTask Stat_246
+  + R_V_Poseidon hasTask Stat_247
+  + R_V_Poseidon hasTask Stat_249
+  + Stat_226 hasDurationText 2900 m   [hasDuration could not take it]
+  + Stat_226 hasStatus SUCCESSFUL
+  + Stat_227 hasDurationText 3600 m   [hasDuration could not take it]
+  + Stat_227 hasStatus SUCCESSFUL
+  + Stat_228 hasDurationText 3500 m   [hasDuration could not take it]
+  + Stat_228 hasStatus SUCCESSFUL
+  + Stat_229 hasDurationText 3300 m   [hasDuration could not take it]
+  + Stat_229 hasStatus SUCCESSFUL
+  + Stat_230 hasDurationText 3000 m   [hasDuration could not take it]
+  + Stat_230 hasStatus SUCCESSFUL
+  + Stat_231 hasDurationText 3200 m   [hasDuration could not take it]
+  + Stat_231 hasStatus SUCCESSFUL
+  + Stat_232 hasDurationText 3100 m   [hasDuration could not take it]
+  + Stat_232 hasStatus SUCCESSFUL
+  + Stat_233 hasDurationText 2800 m   [hasDuration could not take it]
+  + Stat_233 hasStatus SUCCESSFUL
+  + Stat_234 hasDurationText 2500 m   [hasDuration could not take it]
+  + Stat_234 hasStatus SUCCESSFUL
+  + Stat_235 hasDurationText 1700 m   [hasDuration could not take it]
+  + Stat_235 hasStatus SUCCESSFUL
+  + Stat_236 hasDurationText 190 m   [hasDuration could not take it]
+  + Stat_236 hasStatus SUCCESSFUL
+  + Stat_237 hasDurationText 100 m   [hasDuration could not take it]
+  + Stat_237 hasStatus SUCCESSFUL
+  + Stat_238 hasDurationText 1600 m   [hasDuration could not take it]
+  + Stat_238 hasStatus SUCCESSFUL
+  + Stat_239 hasDurationText 2600 m   [hasDuration could not take it]
+  + Stat_239 hasStatus SUCCESSFUL
+  + Stat_240 hasDurationText 2400 m   [hasDuration could not take it]
+  + Stat_240 hasStatus SUCCESSFUL
+  + Stat_241 hasDurationText 2200 m   [hasDuration could not take it]
+  + Stat_241 hasStatus SUCCESSFUL
+  + Stat_242 hasDurationText 1200 m   [hasDuration could not take it]
+  + Stat_242 hasStatus SUCCESSFUL
+  + Stat_243 hasDurationText 60 m   [hasDuration could not take it]
+  + Stat_243 hasStatus SUCCESSFUL
+  + Stat_244 hasDurationText 100 m   [hasDuration could not take it]
+  + Stat_244 hasStatus SUCCESSFUL
+  + Stat_245 hasDurationText 1600 m   [hasDuration could not take it]
+  + Stat_245 hasStatus FAILED
+  + Stat_246 hasDurationText 1900 m   [hasDuration could not take it]
+  + Stat_246 hasStatus SUCCESSFUL
+  + Stat_247 hasDurationText 70 m   [hasDuration could not take it]
+  + Stat_247 hasStatus SUCCESSFUL
+  + Stat_248 hasDurationText 20 m   [hasDuration could not take it]
+  + Stat_248 hasStatus SUCCESSFUL
+  + Stat_249 hasDurationText 30 m   [hasDuration could not take it]
+  + Stat_249 hasStatus SUCCESSFUL
+  + R_V_Poseidon maxDepthText 2900 m   [maxDepth could not take it]
+  + P348 MissionID P348
+  + P348 startTime 2007-02-08
+  + P348 endTime 2007-02-26
+  + P348 maxDepth 2900
+  + P348 dataVolume N/A
+  + P348 hasStatus SUCCESSFUL
+  + P348 remark SOPRAN: Mauritanian Upwelling Study 2007
+  + Poseidon_Cruise_348 stationID 348
+  + Poseidon_Cruise_348 stationDate 2007-02-08 to 2007-02-26
+  + Poseidon_Cruise_348 stationTime 08:00 to 18:00
+  + Test_Station_226 stationID 226
+  + Test_Station_226 stationDate 2007-02-12
+  + Test_Station_226 stationTime 08:30
+  + CVTSS_Station_227 stationID 227
+  + CVTSS_Station_227 stationDate 2007-02-13
+  + CVTSS_Station_227 stationTime 14:47
+  + Waypoint_226 locationName Test station
+  + Waypoint_226 latitude 17.26°N
+  + Waypoint_226 longitude 24.76°W
+  + Waypoint_226 seabedDepth 2900
+  + Waypoint_227 locationName Cape Verde Time Series Station
+  + Waypoint_227 latitude 17.6°N
+  + Waypoint_227 longitude 24.3°W
+  + Waypoint_227 seabedDepth 3600
+  + Waypoint_240 locationName Station 240
+  + Waypoint_240 latitude 19.00°N
+  + Waypoint_240 longitude 17.47°W
+  + Waypoint_240 seabedDepth 2400
+  + Waypoint_241 locationName Station 241
+  + Waypoint_241 latitude 19.00°N
+  + Waypoint_241 longitude 17.30°W
+  + Waypoint_241 seabedDepth 2200
+  + Waypoint_242 locationName Station 242
+  + Waypoint_242 latitude 19.00°N
+  + Waypoint_242 longitude 17.00°W
+  + Waypoint_242 seabedDepth 1200
+  + Waypoint_243 locationName Station 243
+  + Waypoint_243 latitude 19.00°N
+  + Waypoint_243 longitude 16.33°W
+  + Waypoint_243 seabedDepth 60
+  + Waypoint_244 locationName Station 244
+  + Waypoint_244 latitude 19.30°N
+  + Waypoint_244 longitude 17.30°W
+  + Waypoint_244 seabedDepth 100
+  + Waypoint_246 locationName Station 246
+  + Waypoint_246 latitude 20.00°N
+  + Waypoint_246 longitude 18.00°W
+  + Waypoint_246 seabedDepth 1900
+  + Waypoint_247 locationName Station 247
+  + Waypoint_247 latitude 20.00°N
+  + Waypoint_247 longitude 17.30°W
+  + Waypoint_247 seabedDepth 70
+  + Waypoint_248 locationName Station 248
+  + Waypoint_248 latitude 20.00°N
+  + Waypoint_248 longitude 17.13°W
+  + Waypoint_248 seabedDepth 20
+  + Waypoint_249 locationName Station 249
+  + Waypoint_249 latitude 20.29°N
+  + Waypoint_249 longitude 17.13°W
+  + Waypoint_249 seabedDepth 30
+  + Dive_226 hasDuration 4.5
+  + Dive_226 hasStatus SUCCESSFUL
+  + Dive_227 hasDuration 4.5
+  + Dive_227 hasStatus SUCCESSFUL
+  + Dive_235 hasDuration 4.5
+  + Dive_235 hasStatus SUCCESSFUL
+  + Dive_238 hasDuration 1.5
+  + Dive_238 hasStatus SUCCESSFUL
+  + Dive_239 hasDuration 1.5
+  + Dive_239 hasStatus SUCCESSFUL
+  + Dive_240 hasDuration 1.5
+  + Dive_240 hasStatus SUCCESSFUL
+  + Dive_241 hasDuration 1.5
+  + Dive_241 hasStatus SUCCESSFUL
+  + Dive_242 hasDuration 1.5
+  + Dive_242 hasStatus SUCCESSFUL
+  + Dive_243 hasDuration 1.0
+  + Dive_243 hasStatus SUCCESSFUL
+  + Dive_244 hasDuration 1.0
+  + Dive_244 hasStatus SUCCESSFUL
+  + Dive_245 hasDuration 1.0
+  + Dive_245 hasStatus SUCCESSFUL
+  + Dive_246 hasDuration 1.0
+  + Dive_246 hasStatus SUCCESSFUL
+  + Dive_247 hasDuration 1.0
+  + Dive_247 hasStatus SUCCESSFUL
+  + Dive_248 hasDuration 1.0
+  + Dive_248 hasStatus SUCCESSFUL
+  + Dive_249 hasDuration 1.0
+  + Dive_249 hasStatus SUCCESSFUL
+  + Stat_226 has_Temperature 17.15
+  + Stat_226 has_Conductivity 2900
+  + Stat_226 has_Depth 2926
+  + Stat_227 has_Temperature 17.37
+  + Stat_227 has_Conductivity 3600
+  + Stat_227 has_Depth 3647
+  + Stat_228 has_Temperature 18.0
+  + Stat_228 has_Conductivity 3500
+  + Stat_228 has_Depth 3533
+  + Stat_229 has_Temperature 18.0
+  + Stat_229 has_Conductivity 3300
+  + Stat_229 has_Depth 762
+  + Stat_230 has_Temperature 18.0
+  + Stat_230 has_Conductivity 3000
+  + Stat_230 has_Depth 3099
+  + Stat_231 has_Temperature 18.0
+  + Stat_231 has_Conductivity 3200
+  + Stat_231 has_Depth 756
+  + Stat_232 has_Temperature 18.0
+  + Stat_232 has_Conductivity 3100
+  + Stat_232 has_Depth 3162
+  + Stat_233 has_Temperature 18.0
+  + Stat_233 has_Conductivity 2800
+  + Stat_233 has_Depth 2814
+  + Stat_234 has_Temperature 18.0
+  + Stat_234 has_Conductivity 2500
+  + Stat_234 has_Depth 2505
+  + Stat_235 has_Temperature 18.0
+  + Stat_235 has_Conductivity 1700
+  + Stat_235 has_Depth 1722
+  + Stat_236 has_Temperature 18.0
+  + Stat_236 has_Conductivity 190
+  + Stat_236 has_Depth 186
+  + Stat_237 has_Temperature 18.3
+  + Stat_237 has_Conductivity 100
+  + Stat_237 has_Depth 104
+  + Stat_238 has_Temperature 18.3
+  + Stat_238 has_Conductivity 146
+  + Stat_238 has_Depth 1608
+  + Stat_239 has_Temperature 18.3
+  + Stat_239 has_Conductivity 148
+  + Stat_239 has_Depth 2000
+  + Stat_240 has_Temperature 19.0
+  + Stat_240 has_Conductivity 149
+  + Stat_240 has_Depth 2000
+  + Stat_241 has_Temperature 19.0
+  + Stat_241 has_Conductivity 150
+  + Stat_241 has_Depth 2216
+  + Stat_242 has_Temperature 19.0
+  + Stat_242 has_Conductivity 151
+  + Stat_242 has_Depth 1111
+  + Stat_243 has_Temperature 19.0
+  + Stat_243 has_Conductivity 153
+  + Stat_243 has_Depth 60
+  + Stat_244 has_Temperature 19.3
+  + Stat_244 has_Conductivity 154
+  + Stat_244 has_Depth 102
+
+skipped 5 excluded axioms:
+  - P348 hasTask SOPRAN   [hasTask has no single named domain/range to type from]
+  - P348 goes_through Waypoint_226   [goes_through has no single named domain/range to type from]
+  - P348 goes_through Waypoint_227   [goes_through has no single named domain/range to type from]
+  - P348 goes_through Waypoint_228   [goes_through has no single named domain/range to type from]
+  - P348 goes_through Waypoint_249   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep18.rdf

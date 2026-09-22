@@ -276,12 +276,6 @@
     
 
 
-    <!-- http://oru.se/marinellm/survey#observes -->
-
-    <owl:ObjectProperty rdf:about="http://oru.se/marinellm/survey#observes"/>
-    
-
-
     <!-- http://oru.se/marinellm/survey#onTerrain -->
 
     <owl:ObjectProperty rdf:about="http://oru.se/marinellm/survey#onTerrain">
@@ -705,12 +699,6 @@
 
     <owl:Class rdf:about="http://oru.se/marinellm/survey#BathymetricSensor">
         <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Sensor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#observes"/>
-                <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Depth"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Bathymetric Sensor</rdfs:label>
     </owl:Class>
     
@@ -739,24 +727,6 @@
 
     <owl:Class rdf:about="http://oru.se/marinellm/survey#CTDSensor">
         <rdfs:subClassOf rdf:resource="http://oru.se/marinellm/survey#Sensor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#observes"/>
-                <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Conductivity"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#observes"/>
-                <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Depth"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://oru.se/marinellm/survey#observes"/>
-                <owl:hasValue rdf:resource="http://oru.se/marinellm/survey#Temperature"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">CTD Sensor</rdfs:label>
     </owl:Class>
     

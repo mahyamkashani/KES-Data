@@ -1,0 +1,245 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 91
+
+created 76 individuals:
+  + RV_SONNE : Vehicle
+  + EM120 : MBES
+  + SO206_01 : Traversal
+  + Jaco_Scarp : Waypoint
+  + SO206_02_101 : Traversal
+  + SO206_02_102 : Traversal
+  + SO206_02_103 : Traversal
+  + SO206_02_104 : Traversal
+  + SO206_02_105 : Traversal
+  + SO206_03 : Traversal
+  + SO206_04 : Traversal
+  + SO206_05 : Traversal
+  + Pockmark : Waypoint
+  + SO206_06 : Traversal
+  + SO206_07 : Traversal
+  + SO206_08 : Traversal
+  + SO206_09_106 : Traversal
+  + SO206_09_105 : Traversal
+  + SO206_09_104 : Traversal
+  + SO206_09_103 : Traversal
+  + SO206_09_102 : Traversal
+  + Traversal_1 : Traversal
+  + Cruise_SO_206 : SurveyMission
+  + FS_Sonne : Ship
+  + SO206_10 : Task
+  + SO206_11 : Task
+  + SO206_12 : Task
+  + SO206_13 : State
+  + SO206_14 : State
+  + SO206_15 : State
+  + SO206_16 : State
+  + SO206_17 : State
+  + SO206_18 : State
+  + SO206_19 : Task
+  + SO206_20 : Task
+  + SO206_21 : State
+  + SO206_22 : State
+  + SO206_23 : State
+  + SO206_24 : State
+  + SO206_25 : Task
+  + SO206_26 : Task
+  + SO206_27 : Task
+  + SO206_28 : Task
+  + SO206_29 : Task
+  + SO206_30 : Task
+  + SO206_31 : Task
+  + SO206_32 : State
+  + SO206_34 : Task
+  + SO206_35 : Task
+  + SO206_36 : State
+  + SO206_37 : State
+  + SO206_38 : State
+  + SO206_39 : Task
+  + SO206_40 : Task
+  + SO206_41 : Task
+  + SO206_42_306 : Station
+  + SO206_43 : Task
+  + SO206_44 : Task
+  + SO206_45 : Task
+  + SO206_46 : Task
+  + SO206_47 : Task
+  + SO206_48 : Task
+  + SO206_49 : Task
+  + SO206_50 : Task
+  + SO206_51 : Task
+  + SO206_52 : Task
+  + SO206_53 : Task
+  + SO206_54 : Task
+  + SO206_55 : Task
+  + SO206_56 : Task
+  + Mound_11 : Waypoint
+  + Mound_12 : Waypoint
+  + Mound_Cocori : Waypoint
+  + SO206_02_106 : Task
+  + SO206_33 : Task
+  + SO206_42 : Task
+
+asserted 154 axioms:
+  + RV_SONNE hasSensor EM120
+  + SO206_01 hasDestination Jaco_Scarp
+  + SO206_02_101 hasDestination Jaco_Scarp
+  + SO206_02_102 hasDestination Jaco_Scarp
+  + SO206_02_103 hasDestination Jaco_Scarp
+  + SO206_02_104 hasDestination Jaco_Scarp
+  + SO206_02_105 hasDestination Jaco_Scarp
+  + SO206_03 hasDestination Jaco_Scarp
+  + SO206_04 hasDestination Jaco_Scarp
+  + SO206_05 hasDestination Pockmark
+  + SO206_06 hasDestination Pockmark
+  + SO206_07 hasDestination Pockmark
+  + SO206_08 hasDestination Jaco_Scarp
+  + SO206_09_106 hasDestination Jaco_Scarp
+  + SO206_09_105 hasDestination Jaco_Scarp
+  + SO206_09_104 hasDestination Jaco_Scarp
+  + SO206_09_103 hasDestination Jaco_Scarp
+  + SO206_09_102 hasDestination Jaco_Scarp
+  + Traversal_1 hasVehicle RV_SONNE
+  + Cruise_SO_206 hasDurationText June 2, 2010 - June 17, 2010   [hasDuration could not take it]
+  + Cruise_SO_206 hasStatus SUCCESSFUL
+  + FS_Sonne maxDepthText 2000 m   [maxDepth could not take it]
+  + Cruise_SO_206 MissionID SO 206
+  + Cruise_SO_206 startTime 2010-05-31
+  + Cruise_SO_206 endTime 2010-06-17
+  + Cruise_SO_206 maxDepthText 2017 m   [maxDepth could not take it]
+  + Cruise_SO_206 dataVolume 36 sediment cores
+  + Cruise_SO_206 hasStatus SUCCESSFUL
+  + Cruise_SO_206 remark Geophysical, biogeochemical, and sedimentological investigations at cold seeps
+  + SO206_01 hasDuration 0.1
+  + SO206_01 hasStatus SUCCESSFUL
+  + SO206_02_101 hasDuration 0.1
+  + SO206_02_101 hasStatus SUCCESSFUL
+  + SO206_02_102 hasDuration 0.1
+  + SO206_02_102 hasStatus SUCCESSFUL
+  + SO206_02_103 hasDuration 0.1
+  + SO206_02_103 hasStatus SUCCESSFUL
+  + SO206_02_104 hasDuration 0.1
+  + SO206_02_104 hasStatus SUCCESSFUL
+  + SO206_02_105 hasDuration 0.1
+  + SO206_02_105 hasStatus SUCCESSFUL
+  + SO206_03 hasDuration 33.7
+  + SO206_03 hasStatus SUCCESSFUL
+  + SO206_04 hasDuration 0.24
+  + SO206_04 hasStatus SUCCESSFUL
+  + SO206_05 has_Depth 1909
+  + SO206_06 has_Depth 1896
+  + SO206_07 hasDuration 3.41
+  + SO206_07 hasStatus SUCCESSFUL
+  + SO206_08 hasDuration 0.4
+  + SO206_08 hasStatus SUCCESSFUL
+  + SO206_09_106 hasDuration 0.07
+  + SO206_09_106 hasStatus SUCCESSFUL
+  + SO206_10 hasDuration 1.01
+  + SO206_10 hasStatus SUCCESSFUL
+  + SO206_11 hasDuration 6.19
+  + SO206_11 hasStatus SUCCESSFUL
+  + SO206_12 hasDuration 3.19
+  + SO206_12 hasStatus SUCCESSFUL
+  + SO206_13 has_Depth 1905
+  + SO206_14 has_Depth 1895
+  + SO206_15 has_Depth 766
+  + SO206_16 has_Depth 623
+  + SO206_17 has_Depth 525
+  + SO206_18 has_Depth 673
+  + SO206_19 hasDuration 1.03
+  + SO206_19 hasStatus SUCCESSFUL
+  + SO206_20 hasDuration 1.03
+  + SO206_20 hasStatus SUCCESSFUL
+  + SO206_21 has_Depth 2017
+  + SO206_22 has_Depth 2011
+  + SO206_23 has_Depth 518
+  + SO206_24 has_Depth 671
+  + SO206_25 hasDuration 1.03
+  + SO206_25 hasStatus SUCCESSFUL
+  + SO206_26 hasDuration 1.03
+  + SO206_26 hasStatus SUCCESSFUL
+  + SO206_27 hasDuration 1.03
+  + SO206_27 hasStatus SUCCESSFUL
+  + SO206_28 hasDuration 1.03
+  + SO206_28 hasStatus SUCCESSFUL
+  + SO206_29 hasDuration 1.03
+  + SO206_29 hasStatus SUCCESSFUL
+  + SO206_30 hasDuration 1.03
+  + SO206_30 hasStatus SUCCESSFUL
+  + SO206_31 hasDuration 1.03
+  + SO206_31 hasStatus SUCCESSFUL
+  + SO206_32 has_Depth 398
+  + SO206_34 hasDuration 1.03
+  + SO206_34 hasStatus SUCCESSFUL
+  + SO206_35 hasDuration 1.03
+  + SO206_35 hasStatus SUCCESSFUL
+  + SO206_36 has_Depth 1006
+  + SO206_37 has_Depth 1013
+  + SO206_38 has_Depth 1020
+  + SO206_39 hasDuration 1.03
+  + SO206_39 hasStatus SUCCESSFUL
+  + SO206_40 hasDuration 1.03
+  + SO206_40 hasStatus SUCCESSFUL
+  + SO206_41 hasDuration 1.03
+  + SO206_41 hasStatus SUCCESSFUL
+  + SO206_42_306 stationID SO206-42-306
+  + SO206_42_306 stationDate 11/06/2010
+  + SO206_42_306 stationTime 04:48
+  + SO206_43 hasDuration 1.03
+  + SO206_43 hasStatus SUCCESSFUL
+  + SO206_44 hasDuration 1.03
+  + SO206_44 hasStatus SUCCESSFUL
+  + SO206_45 hasDuration 1.03
+  + SO206_45 hasStatus SUCCESSFUL
+  + SO206_46 hasDuration 1.03
+  + SO206_46 hasStatus SUCCESSFUL
+  + SO206_47 hasDuration 1.03
+  + SO206_47 hasStatus SUCCESSFUL
+  + SO206_48 hasDuration 1.03
+  + SO206_48 hasStatus SUCCESSFUL
+  + SO206_49 hasDuration 1.03
+  + SO206_49 hasStatus SUCCESSFUL
+  + SO206_50 hasDuration 1.03
+  + SO206_50 hasStatus SUCCESSFUL
+  + SO206_51 hasDuration 1.03
+  + SO206_51 hasStatus SUCCESSFUL
+  + SO206_52 hasDuration 1.03
+  + SO206_52 hasStatus SUCCESSFUL
+  + SO206_53 hasDuration 1.03
+  + SO206_53 hasStatus SUCCESSFUL
+  + SO206_54 hasDuration 1.03
+  + SO206_54 hasStatus SUCCESSFUL
+  + SO206_55 hasDuration 1.03
+  + SO206_55 hasStatus SUCCESSFUL
+  + SO206_56 hasDuration 2.13
+  + SO206_56 hasStatus SUCCESSFUL
+  + Mound_11 locationName Mound 11
+  + Mound_11 latitude 8° 55,34' N
+  + Mound_11 longitude 84° 18,21' W
+  + Mound_11 seabedDepthText 1003 m   [seabedDepth could not take it]
+  + Mound_12 locationName Mound 12
+  + Mound_12 latitude 8° 55,72' N
+  + Mound_12 longitude 84° 18,82' W
+  + Mound_12 seabedDepthText 1007 m   [seabedDepth could not take it]
+  + Pockmark locationName Pockmark
+  + Pockmark latitude 8° 59,58' N
+  + Pockmark longitude 84° 43,69' W
+  + Pockmark seabedDepthText 1909 m   [seabedDepth could not take it]
+  + Mound_Cocori locationName Mound Cocori
+  + Mound_Cocori latitude 9° 00,20' N
+  + Mound_Cocori longitude 84° 45,90' W
+  + Mound_Cocori seabedDepthText 2017 m   [seabedDepth could not take it]
+  + SO206_02_106 hasDuration 2.02
+  + SO206_02_106 hasStatus SUCCESSFUL
+  + SO206_33 hasDuration 1.03
+  + SO206_33 hasStatus SUCCESSFUL
+  + SO206_42 hasDuration 1.03
+  + SO206_42 hasStatus SUCCESSFUL
+
+skipped 4 excluded axioms:
+  - SO206 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Traversal_1 goes_through Pockmark   [goes_through has no single named domain/range to type from]
+  - Traversal_1 goes_through Jaco_Scarp   [goes_through has no single named domain/range to type from]
+  - Traversal_1 goes_through Quepos_Slide   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep41.rdf

@@ -1,0 +1,702 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 158
+
+created 143 individuals:
+  + RV_SONNE : Vehicle
+  + Simrad_EM120 : MBES
+  + Parasound : Echosounder
+  + SO190_Leg_2 : Bathymetric_Mission
+  + SO190_014_1 : Data_Sampling_Mission
+  + SO190_015_1 : Data_Sampling_Mission
+  + OBH_154 : Station
+  + OBH_155 : Station
+  + OBH_156 : Station
+  + OBH_157 : Station
+  + OBS_158 : Station
+  + OBS_159 : Station
+  + OBH_181 : Station
+  + OBH_182 : Station
+  + OBH_183 : Station
+  + OBH_184 : Station
+  + OBH_185 : Station
+  + OBH_186 : Station
+  + OBH_01 : Station
+  + OBH_02 : Station
+  + OBH_03 : Station
+  + OBH_04 : Station
+  + OBH_05 : Station
+  + OBH_06 : Station
+  + OBH_07 : Station
+  + OBH_200 : Station
+  + OBH_201 : Station
+  + OBH_202 : Station
+  + OBH_203 : Station
+  + OBH_204 : Station
+  + OBH_205 : Station
+  + OBH_219 : Station
+  + OBH_220 : Station
+  + OBH_221 : Station
+  + OBS_222 : Station
+  + OBS_223 : Station
+  + OBS_224 : Station
+  + OBS_225 : Station
+  + OBS_226 : Station
+  + OBS_227 : Station
+  + OBS_228 : Station
+  + OBS_229 : Station
+  + OBS_22 : Station
+  + OBH_23 : Station
+  + OBS_24 : Station
+  + OBS_25 : Station
+  + OBH_27 : Station
+  + OBS_28 : Station
+  + OBH_29 : Station
+  + OBH_30 : Station
+  + OBS_31 : Station
+  + OBH_32 : Station
+  + OBH_33 : Station
+  + OBS_34 : Station
+  + OBH_36 : Station
+  + OBH_130 : Station
+  + OBH_131 : Station
+  + OBH_132 : Station
+  + OBH_133 : Station
+  + OBH_134 : Station
+  + OBH_135 : Station
+  + OBH_136 : Station
+  + OBS_142 : Station
+  + OBS_143 : Station
+  + OBS_144 : Station
+  + OBS_145 : Station
+  + OBS_146 : Station
+  + OBS_147 : Station
+  + OBS_148 : Station
+  + OBS_149 : Station
+  + OBH_150 : Station
+  + OBH_151 : Station
+  + OBH_152 : Station
+  + OBS_153 : Station
+  + OBH_230 : Station
+  + OBH_231 : Station
+  + OBS_232 : Station
+  + OBS_233 : Station
+  + OBS_234 : Station
+  + OBS_235 : Station
+  + OBS_241 : Station
+  + OBS_242 : Station
+  + OBS_243 : Station
+  + OBH_244 : Station
+  + OBH_245 : Station
+  + OBS_57 : Station
+  + OBS_58 : Station
+  + OBS_59 : Station
+  + OBS_60 : Station
+  + OBS_61 : Station
+  + OBS_62 : Station
+  + OBS_63 : Station
+  + OBS_64 : Station
+  + OBS_65 : Station
+  + OBS_M_66 : Station
+  + OBS_M_67 : Station
+  + OBS_M_68 : Station
+  + OBS_M_69 : Station
+  + OBS_M_70 : Station
+  + OBS_71 : Station
+  + OBH_72 : Station
+  + OBH_73 : Station
+  + OBH_74 : Station
+  + OBS_M_78 : Station
+  + OBS_79 : Station
+  + OBS_M_80 : Station
+  + OBS_M_81 : Station
+  + OBS_M_82 : Station
+  + OBS_M_83 : Station
+  + OBH_84 : Station
+  + OBH_85 : Station
+  + OBH_86 : Station
+  + OBS_87 : Station
+  + OBS_88 : Station
+  + OBH_89 : Station
+  + OBS_102 : Station
+  + OBH_103 : Station
+  + OBH_104 : Station
+  + OBH_105 : Station
+  + OBH_106 : Station
+  + OBH_107 : Station
+  + OBH_108 : Station
+  + OBH_109 : Station
+  + OBH_110 : Station
+  + OBH_111 : Station
+  + OBH_112 : Station
+  + OBH_113 : Station
+  + OBS_114 : Station
+  + OBS_193 : Waypoint
+  + OBS_194 : Waypoint
+  + OBS_195 : Waypoint
+  + OBH_196 : Waypoint
+  + OBH_197 : Waypoint
+  + OBH_198 : Waypoint
+  + OBH_199 : Waypoint
+  + SO190_2 : State
+  + SO190_1 : State
+  + OBMT26 : State
+  + OBMT35 : State
+  + OBMT37 : State
+  + OBMT44 : State
+  + OBMT54 : State
+  + OBMT55 : State
+
+asserted 441 axioms:
+  + RV_SONNE hasSensor Simrad_EM120
+  + RV_SONNE hasSensor Parasound
+  + SO190_Leg_2 hasDurationText Continuous during cruise 190 Leg 2   [hasDuration could not take it]
+  + SO190_Leg_2 hasStatus SUCCESSFUL
+  + SO190_014_1 hasDurationText 19.11.06   [hasDuration could not take it]
+  + SO190_014_1 hasStatus SUCCESSFUL
+  + SO190_014_1 collect_sample Airgun array
+  + SO190_015_1 hasDurationText 19.11.06   [hasDuration could not take it]
+  + SO190_015_1 hasStatus SUCCESSFUL
+  + SO190_015_1 collect_sample OBS/OBH
+  + OBH_154 stationID OBH 154
+  + OBH_154 stationDate 07.12.06
+  + OBH_154 stationTime 00:00
+  + OBH_155 stationID OBH 155
+  + OBH_155 stationDate 07.12.06
+  + OBH_155 stationTime 09:00
+  + OBH_156 stationID OBH 156
+  + OBH_156 stationDate 07.12.06
+  + OBH_156 stationTime 20:00
+  + OBH_157 stationID OBH 157
+  + OBH_157 stationDate 07.12.06
+  + OBH_157 stationTime 01:00
+  + OBS_158 stationID OBS 158
+  + OBS_158 stationDate 07.12.06
+  + OBS_158 stationTime 01:00
+  + OBS_159 stationID OBS 159
+  + OBS_159 stationDate 07.12.06
+  + OBS_159 stationTime 10:00
+  + OBH_181 stationID OBH 181
+  + OBH_181 stationDate 07.12.06
+  + OBH_181 stationTime 11:00
+  + OBH_182 stationID OBH 182
+  + OBH_182 stationDate 07.12.06
+  + OBH_182 stationTime 02:00
+  + OBH_183 stationID OBH 183
+  + OBH_183 stationDate 07.12.06
+  + OBH_183 stationTime 12:00
+  + OBH_184 stationID OBH 184
+  + OBH_184 stationDate 09.12.06
+  + OBH_184 stationTime 05:00
+  + OBH_185 stationID OBH 185
+  + OBH_185 stationDate 09.12.06
+  + OBH_185 stationTime 08:00
+  + OBH_186 stationID OBH 186
+  + OBH_186 stationDate 09.12.06
+  + OBH_186 stationTime 00:00
+  + OBH_01 stationID OBH 01
+  + OBH_01 stationDate 14.11.06
+  + OBH_01 stationTime 00:00
+  + OBH_02 stationID OBH 02
+  + OBH_02 stationDate 14.11.06
+  + OBH_02 stationTime 05:00
+  + OBH_03 stationID OBH 03
+  + OBH_03 stationDate 14.11.06
+  + OBH_03 stationTime 02:00
+  + OBH_04 stationID OBH 04
+  + OBH_04 stationDate 14.11.06
+  + OBH_04 stationTime 04:00
+  + OBH_05 stationID OBH 05
+  + OBH_05 stationDate 14.11.06
+  + OBH_05 stationTime 08:00
+  + OBH_06 stationID OBH 06
+  + OBH_06 stationDate 14.11.06
+  + OBH_06 stationTime 00:00
+  + OBH_07 stationID OBH 07
+  + OBH_07 stationDate 14.11.06
+  + OBH_07 stationTime 05:00
+  + OBH_200 stationID OBH 200
+  + OBH_200 stationDate 12.12.06
+  + OBH_200 stationTime 02:00
+  + OBH_201 stationID OBH 201
+  + OBH_201 stationDate 12.12.06
+  + OBH_201 stationTime 10:00
+  + OBH_202 stationID OBH 202
+  + OBH_202 stationDate 12.12.06
+  + OBH_202 stationTime 05:00
+  + OBH_203 stationID OBH 203
+  + OBH_203 stationDate 12.12.06
+  + OBH_203 stationTime 00:00
+  + OBH_204 stationID OBH 204
+  + OBH_204 stationDate 12.12.06
+  + OBH_204 stationTime 08:00
+  + OBH_205 stationID OBH 205
+  + OBH_205 stationDate 12.12.06
+  + OBH_205 stationTime 05:00
+  + OBH_219 stationID OBH 219
+  + OBH_219 stationDate 12.12.06
+  + OBH_219 stationTime 01:00
+  + OBH_220 stationID OBH 220
+  + OBH_220 stationDate 12.12.06
+  + OBH_220 stationTime 12:00
+  + OBH_221 stationID OBH 221
+  + OBH_221 stationDate 12.12.06
+  + OBH_221 stationTime 02:00
+  + OBS_222 stationID OBS 222
+  + OBS_222 stationDate 12.12.06
+  + OBS_222 stationTime 07:00
+  + OBS_223 stationID OBS 223
+  + OBS_223 stationDate 12.12.06
+  + OBS_223 stationTime 15:00
+  + OBS_224 stationID OBS 224
+  + OBS_224 stationDate 12.12.06
+  + OBS_224 stationTime 07:00
+  + OBS_225 stationID OBS 225
+  + OBS_225 stationDate 12.12.06
+  + OBS_225 stationTime 19:00
+  + OBS_226 stationID OBS 226
+  + OBS_226 stationDate 12.12.06
+  + OBS_226 stationTime 16:00
+  + OBS_227 stationID OBS 227
+  + OBS_227 stationDate 12.12.06
+  + OBS_227 stationTime 14:00
+  + OBS_228 stationID OBS 228
+  + OBS_228 stationDate 12.12.06
+  + OBS_228 stationTime 06:00
+  + OBS_229 stationID OBS 229
+  + OBS_229 stationDate 12.12.06
+  + OBS_229 stationTime 18:00
+  + OBS_22 stationID OBS 22
+  + OBS_22 stationDate 17.11.06
+  + OBS_22 stationTime 07:00
+  + OBH_23 stationID OBH 23
+  + OBH_23 stationDate 17.11.06
+  + OBH_23 stationTime 16:00
+  + OBS_24 stationID OBS 24
+  + OBS_24 stationDate 17.11.06
+  + OBS_24 stationTime 13:00
+  + OBS_25 stationID OBS 25
+  + OBS_25 stationDate 17.11.06
+  + OBS_25 stationTime 04:00
+  + OBH_27 stationID OBH 27
+  + OBH_27 stationDate 17.11.06
+  + OBH_27 stationTime 10:00
+  + OBS_28 stationID OBS 28
+  + OBS_28 stationDate 17.11.06
+  + OBS_28 stationTime 06:00
+  + OBH_29 stationID OBH 29
+  + OBH_29 stationDate 17.11.06
+  + OBH_29 stationTime 20:00
+  + OBH_30 stationID OBH 30
+  + OBH_30 stationDate 17.11.06
+  + OBH_30 stationTime 05:00
+  + OBS_31 stationID OBS 31
+  + OBS_31 stationDate 17.11.06
+  + OBS_31 stationTime 03:00
+  + OBH_32 stationID OBH 32
+  + OBH_32 stationDate 17.11.06
+  + OBH_32 stationTime 11:00
+  + OBH_33 stationID OBH 33
+  + OBH_33 stationDate 17.11.06
+  + OBH_33 stationTime 05:00
+  + OBS_34 stationID OBS 34
+  + OBS_34 stationDate 17.11.06
+  + OBS_34 stationTime 15:00
+  + OBH_36 stationID OBH 36
+  + OBH_36 stationDate 17.11.06
+  + OBH_36 stationTime 00:00
+  + OBH_130 stationID OBH 130
+  + OBH_130 stationDate 03.12.06
+  + OBH_130 stationTime 04:00
+  + OBH_131 stationID OBH 131
+  + OBH_131 stationDate 03.12.06
+  + OBH_131 stationTime 04:00
+  + OBH_132 stationID OBH 132
+  + OBH_132 stationDate 03.12.06
+  + OBH_132 stationTime 05:00
+  + OBH_133 stationID OBH 133
+  + OBH_133 stationDate 03.12.06
+  + OBH_133 stationTime 08:00
+  + OBH_134 stationID OBH 134
+  + OBH_134 stationDate 03.12.06
+  + OBH_134 stationTime 00:00
+  + OBH_135 stationID OBH 135
+  + OBH_135 stationDate 04.12.06
+  + OBH_135 stationTime 05:00
+  + OBH_136 stationID OBH 136
+  + OBH_136 stationDate 04.12.06
+  + OBH_136 stationTime 10:00
+  + OBS_142 stationID OBS 142
+  + OBS_142 stationDate 04.12.06
+  + OBS_142 stationTime 10:00
+  + OBS_143 stationID OBS 143
+  + OBS_143 stationDate 04.12.06
+  + OBS_143 stationTime 01:00
+  + OBS_144 stationID OBS 144
+  + OBS_144 stationDate 04.12.06
+  + OBS_144 stationTime 19:00
+  + OBS_145 stationID OBS 145
+  + OBS_145 stationDate 04.12.06
+  + OBS_145 stationTime 15:00
+  + OBS_146 stationID OBS 146
+  + OBS_146 stationDate 04.12.06
+  + OBS_146 stationTime 18:00
+  + OBS_147 stationID OBS 147
+  + OBS_147 stationDate 04.12.06
+  + OBS_147 stationTime 01:00
+  + OBS_148 stationID OBS 148
+  + OBS_148 stationDate 04.12.06
+  + OBS_148 stationTime 01:00
+  + OBS_149 stationID OBS 149
+  + OBS_149 stationDate 04.12.06
+  + OBS_149 stationTime 01:00
+  + OBH_150 stationID OBH 150
+  + OBH_150 stationDate 04.12.06
+  + OBH_150 stationTime 20:00
+  + OBH_151 stationID OBH 151
+  + OBH_151 stationDate 04.12.06
+  + OBH_151 stationTime 00:00
+  + OBH_152 stationID OBH 152
+  + OBH_152 stationDate 04.12.06
+  + OBH_152 stationTime 09:00
+  + OBS_153 stationID OBS 153
+  + OBS_153 stationDate 04.12.06
+  + OBS_153 stationTime 07:00
+  + OBH_230 stationID OBH 230
+  + OBH_230 stationDate 15.12.06
+  + OBH_230 stationTime 00:00
+  + OBH_231 stationID OBH 231
+  + OBH_231 stationDate 15.12.06
+  + OBH_231 stationTime 09:00
+  + OBS_232 stationID OBS 232
+  + OBS_232 stationDate 15.12.06
+  + OBS_232 stationTime 13:00
+  + OBS_233 stationID OBS 233
+  + OBS_233 stationDate 15.12.06
+  + OBS_233 stationTime 10:00
+  + OBS_234 stationID OBS 234
+  + OBS_234 stationDate 15.12.06
+  + OBS_234 stationTime 01:00
+  + OBS_235 stationID OBS 235
+  + OBS_235 stationDate 15.12.06
+  + OBS_235 stationTime 04:00
+  + OBS_241 stationID OBS 241
+  + OBS_241 stationDate 15.12.06
+  + OBS_241 stationTime 07:00
+  + OBS_242 stationID OBS 242
+  + OBS_242 stationDate 15.12.06
+  + OBS_242 stationTime 19:00
+  + OBS_243 stationID OBS 243
+  + OBS_243 stationDate 15.12.06
+  + OBS_243 stationTime 16:00
+  + OBH_244 stationID OBH 244
+  + OBH_244 stationDate 15.12.06
+  + OBH_244 stationTime 11:00
+  + OBH_245 stationID OBH 245
+  + OBH_245 stationDate 15.12.06
+  + OBH_245 stationTime 02:00
+  + OBS_57 stationID OBS 57
+  + OBS_57 stationDate 23.11.06
+  + OBS_57 stationTime 19:00
+  + OBS_58 stationID OBS 58
+  + OBS_58 stationDate 23.11.06
+  + OBS_58 stationTime 23:00
+  + OBS_59 stationID OBS 59
+  + OBS_59 stationDate 23.11.06
+  + OBS_59 stationTime 07:00
+  + OBS_60 stationID OBS 60
+  + OBS_60 stationDate 23.11.06
+  + OBS_60 stationTime 16:00
+  + OBS_61 stationID OBS 61
+  + OBS_61 stationDate 23.11.06
+  + OBS_61 stationTime 15:00
+  + OBS_62 stationID OBS 62
+  + OBS_62 stationDate 23.11.06
+  + OBS_62 stationTime 03:00
+  + OBS_63 stationID OBS 63
+  + OBS_63 stationDate 23.11.06
+  + OBS_63 stationTime 12:00
+  + OBS_64 stationID OBS 64
+  + OBS_64 stationDate 23.11.06
+  + OBS_64 stationTime 01:00
+  + OBS_65 stationID OBS 65
+  + OBS_65 stationDate 23.11.06
+  + OBS_65 stationTime 16:00
+  + OBS_M_66 stationID OBS/M 66
+  + OBS_M_66 stationDate 23.11.06
+  + OBS_M_66 stationTime 01:00
+  + OBS_M_67 stationID OBS/M 67
+  + OBS_M_67 stationDate 23.11.06
+  + OBS_M_67 stationTime 13:00
+  + OBS_M_68 stationID OBS/M 68
+  + OBS_M_68 stationDate 23.11.06
+  + OBS_M_68 stationTime 09:00
+  + OBS_M_69 stationID OBS/M 69
+  + OBS_M_69 stationDate 23.11.06
+  + OBS_M_69 stationTime 14:00
+  + OBS_M_70 stationID OBS/M 70
+  + OBS_M_70 stationDate 23.11.06
+  + OBS_M_70 stationTime 23:00
+  + OBS_71 stationID OBS 71
+  + OBS_71 stationDate 23.11.06
+  + OBS_71 stationTime 04:00
+  + OBH_72 stationID OBH 72
+  + OBH_72 stationDate 23.11.06
+  + OBH_72 stationTime 02:00
+  + OBH_73 stationID OBH 73
+  + OBH_73 stationDate 23.11.06
+  + OBH_73 stationTime 05:00
+  + OBH_74 stationID OBH 74
+  + OBH_74 stationDate 23.11.06
+  + OBH_74 stationTime 08:00
+  + OBS_M_78 stationID OBS/M 78
+  + OBS_M_78 stationDate 25.11.06
+  + OBS_M_78 stationTime 09:00
+  + OBS_79 stationID OBS 79
+  + OBS_79 stationDate 25.11.06
+  + OBS_79 stationTime 07:00
+  + OBS_M_80 stationID OBS/M 80
+  + OBS_M_80 stationDate 25.11.06
+  + OBS_M_80 stationTime 23:00
+  + OBS_M_81 stationID OBS/M 81
+  + OBS_M_81 stationDate 25.11.06
+  + OBS_M_81 stationTime 14:00
+  + OBS_M_82 stationID OBS/M 82
+  + OBS_M_82 stationDate 25.11.06
+  + OBS_M_82 stationTime 13:00
+  + OBS_M_83 stationID OBS/M 83
+  + OBS_M_83 stationDate 25.11.06
+  + OBS_M_83 stationTime 10:00
+  + OBH_84 stationID OBH 84
+  + OBH_84 stationDate 25.11.06
+  + OBH_84 stationTime 10:00
+  + OBH_85 stationID OBH 85
+  + OBH_85 stationDate 25.11.06
+  + OBH_85 stationTime 05:00
+  + OBH_86 stationID OBH 86
+  + OBH_86 stationDate 25.11.06
+  + OBH_86 stationTime 00:00
+  + OBS_87 stationID OBS 87
+  + OBS_87 stationDate 25.11.06
+  + OBS_87 stationTime 01:00
+  + OBS_88 stationID OBS 88
+  + OBS_88 stationDate 25.11.06
+  + OBS_88 stationTime 04:00
+  + OBH_89 stationID OBH 89
+  + OBH_89 stationDate 25.11.06
+  + OBH_89 stationTime 08:00
+  + OBS_102 stationID OBS 102
+  + OBS_102 stationDate 26.11.06
+  + OBS_102 stationTime 06:00
+  + OBH_103 stationID OBH 103
+  + OBH_103 stationDate 26.11.06
+  + OBH_103 stationTime 09:00
+  + OBH_104 stationID OBH 104
+  + OBH_104 stationDate 26.11.06
+  + OBH_104 stationTime 02:00
+  + OBH_105 stationID OBH 105
+  + OBH_105 stationDate 26.11.06
+  + OBH_105 stationTime 11:00
+  + OBH_106 stationID OBH 106
+  + OBH_106 stationDate 26.11.06
+  + OBH_106 stationTime 18:00
+  + OBH_107 stationID OBH 107
+  + OBH_107 stationDate 26.11.06
+  + OBH_107 stationTime 18:00
+  + OBH_108 stationID OBH 108
+  + OBH_108 stationDate 29.11.06
+  + OBH_108 stationTime 20:00
+  + OBH_109 stationID OBH 109
+  + OBH_109 stationDate 29.11.06
+  + OBH_109 stationTime 11:00
+  + OBH_110 stationID OBH 110
+  + OBH_110 stationDate 29.11.06
+  + OBH_110 stationTime 11:00
+  + OBH_111 stationID OBH 111
+  + OBH_111 stationDate 29.11.06
+  + OBH_111 stationTime 11:00
+  + OBH_112 stationID OBH 112
+  + OBH_112 stationDate 29.11.06
+  + OBH_112 stationTime 11:00
+  + OBH_113 stationID OBH 113
+  + OBH_113 stationDate 29.11.06
+  + OBH_113 stationTime 11:00
+  + OBS_114 stationID OBS 114
+  + OBS_114 stationDate 29.11.06
+  + OBS_114 stationTime 10:00
+  + OBH_154 locationName OBH 154
+  + OBH_154 latitude 12°14,008' S
+  + OBH_154 longitude 120°54,199' E
+  + OBH_154 seabedDepth 3584
+  + OBH_155 locationName OBH 155
+  + OBH_155 latitude 12°10,790' S
+  + OBH_155 longitude 120°54,661' E
+  + OBH_155 seabedDepth 3690
+  + OBH_156 locationName OBH 156
+  + OBH_156 latitude 12°07,436' S
+  + OBH_156 longitude 120°55,179' E
+  + OBH_156 seabedDepth 3877
+  + OBH_157 locationName OBH 157
+  + OBH_157 latitude 12°04,019' S
+  + OBH_157 longitude 120°55,695' E
+  + OBH_157 seabedDepth 3933
+  + OBS_158 locationName OBS 158
+  + OBS_158 latitude 12°00,471' S
+  + OBS_158 longitude 120°56,196' E
+  + OBS_158 seabedDepth 3978
+  + OBS_159 locationName OBS 159
+  + OBS_159 latitude 11°57,031' S
+  + OBS_159 longitude 120°56,743' E
+  + OBS_159 seabedDepth 3916
+  + OBS_193 locationName OBS 193
+  + OBS_193 latitude 10°03,951' S
+  + OBS_193 longitude 121°13,135' E
+  + OBS_193 seabedDepth 910
+  + OBS_194 locationName OBS 194
+  + OBS_194 latitude 10°00,130' S
+  + OBS_194 longitude 121°13,708' E
+  + OBS_194 seabedDepth 1246
+  + OBS_195 locationName OBS 195
+  + OBS_195 latitude 09°56,791' S
+  + OBS_195 longitude 121°14,186' E
+  + OBS_195 seabedDepth 1532
+  + OBH_196 locationName OBH 196
+  + OBH_196 latitude 09°53,434' S
+  + OBH_196 longitude 121°14,651' E
+  + OBH_196 seabedDepth 1779
+  + OBH_197 locationName OBH 197
+  + OBH_197 latitude 09°50,015' S
+  + OBH_197 longitude 121°15,100' E
+  + OBH_197 seabedDepth 1830
+  + OBH_198 locationName OBH 198
+  + OBH_198 latitude 09°46,889' S
+  + OBH_198 longitude 121°15,620' E
+  + OBH_198 seabedDepth 1956
+  + OBH_199 locationName OBH 199
+  + OBH_199 latitude 09°43,475' S
+  + OBH_199 longitude 121°16,114' E
+  + OBH_199 seabedDepth 2036
+  + SO190_1 has_Depth 1800
+  + OBMT26 has_Conductivity 10.15
+  + OBMT26 has_Depth 4971
+  + OBMT35 has_Conductivity 10.13
+  + OBMT35 has_Depth 5862
+  + OBMT37 has_Conductivity 10.27
+  + OBMT37 has_Depth 5578
+  + OBMT44 has_Conductivity 10.17
+  + OBMT44 has_Depth 3022
+  + OBMT54 has_Conductivity 10.10
+  + OBMT54 has_Depth 4362
+  + OBMT55 has_Conductivity 10.09
+  + OBMT55 has_Depth 4366
+
+skipped 107 excluded axioms:
+  - SO190/020-1 hasTask SO190/020-1   [hasTask has no single named domain/range to type from]
+  - SO190/020-1 goes_through SO190/020-1   [goes_through has no single named domain/range to type from]
+  - SO190/021-1 hasTask SO190/021-1   [hasTask has no single named domain/range to type from]
+  - SO190/021-1 goes_through SO190/021-1   [goes_through has no single named domain/range to type from]
+  - SO190/022-1 hasTask SO190/022-1   [hasTask has no single named domain/range to type from]
+  - SO190/022-1 goes_through SO190/022-1   [goes_through has no single named domain/range to type from]
+  - SO190/023-1 hasTask SO190/023-1   [hasTask has no single named domain/range to type from]
+  - SO190/023-1 goes_through SO190/023-1   [goes_through has no single named domain/range to type from]
+  - SO190/024-1 hasTask SO190/024-1   [hasTask has no single named domain/range to type from]
+  - SO190/024-1 goes_through SO190/024-1   [goes_through has no single named domain/range to type from]
+  - SO190/025-1 hasTask SO190/025-1   [hasTask has no single named domain/range to type from]
+  - SO190/025-1 goes_through SO190/025-1   [goes_through has no single named domain/range to type from]
+  - SO190/026-1 hasTask SO190/026-1   [hasTask has no single named domain/range to type from]
+  - SO190/026-1 goes_through SO190/026-1   [goes_through has no single named domain/range to type from]
+  - SO190/027-1 hasTask SO190/027-1   [hasTask has no single named domain/range to type from]
+  - SO190/027-1 goes_through SO190/027-1   [goes_through has no single named domain/range to type from]
+  - SO190/028-1 hasTask SO190/028-1   [hasTask has no single named domain/range to type from]
+  - SO190/028-1 goes_through SO190/028-1   [goes_through has no single named domain/range to type from]
+  - SO190/029-1 hasTask SO190/029-1   [hasTask has no single named domain/range to type from]
+  - SO190/029-1 goes_through SO190/029-1   [goes_through has no single named domain/range to type from]
+  - SO190/030-1 hasTask SO190/030-1   [hasTask has no single named domain/range to type from]
+  - SO190/030-1 goes_through SO190/030-1   [goes_through has no single named domain/range to type from]
+  - SO190/031-1 hasTask SO190/031-1   [hasTask has no single named domain/range to type from]
+  - SO190/031-1 goes_through SO190/031-1   [goes_through has no single named domain/range to type from]
+  - SO190/032-1 hasTask SO190/032-1   [hasTask has no single named domain/range to type from]
+  - SO190/032-1 goes_through SO190/032-1   [goes_through has no single named domain/range to type from]
+  - SO190/033-1 hasTask SO190/033-1   [hasTask has no single named domain/range to type from]
+  - SO190/033-1 goes_through SO190/033-1   [goes_through has no single named domain/range to type from]
+  - SO190/034-1 hasTask SO190/034-1   [hasTask has no single named domain/range to type from]
+  - SO190/034-1 goes_through SO190/034-1   [goes_through has no single named domain/range to type from]
+  - SO190/035-1 hasTask SO190/035-1   [hasTask has no single named domain/range to type from]
+  - SO190/035-1 goes_through SO190/035-1   [goes_through has no single named domain/range to type from]
+  - SO190/036-1 hasTask SO190/036-1   [hasTask has no single named domain/range to type from]
+  - SO190/036-1 goes_through SO190/036-1   [goes_through has no single named domain/range to type from]
+  - SO190/037-1 hasTask SO190/037-1   [hasTask has no single named domain/range to type from]
+  - SO190/037-1 goes_through SO190/037-1   [goes_through has no single named domain/range to type from]
+  - SO190/038-1 hasTask SO190/038-1   [hasTask has no single named domain/range to type from]
+  - SO190/038-1 goes_through SO190/038-1   [goes_through has no single named domain/range to type from]
+  - SO190/039-1 hasTask SO190/039-1   [hasTask has no single named domain/range to type from]
+  - SO190/039-1 goes_through SO190/039-1   [goes_through has no single named domain/range to type from]
+  - SO190/040-1 hasTask SO190/040-1   [hasTask has no single named domain/range to type from]
+  - SO190/040-1 goes_through SO190/040-1   [goes_through has no single named domain/range to type from]
+  - SO190/041-1 hasTask SO190/041-1   [hasTask has no single named domain/range to type from]
+  - SO190/041-1 goes_through SO190/041-1   [goes_through has no single named domain/range to type from]
+  - SO190/042-1 hasTask SO190/042-1   [hasTask has no single named domain/range to type from]
+  - SO190/042-1 goes_through SO190/042-1   [goes_through has no single named domain/range to type from]
+  - SO190/043-1 hasTask SO190/043-1   [hasTask has no single named domain/range to type from]
+  - SO190/043-1 goes_through SO190/043-1   [goes_through has no single named domain/range to type from]
+  - SO190/044-1 hasTask SO190/044-1   [hasTask has no single named domain/range to type from]
+  - SO190/044-1 goes_through SO190/044-1   [goes_through has no single named domain/range to type from]
+  - SO190/045-1 hasTask SO190/045-1   [hasTask has no single named domain/range to type from]
+  - SO190/045-1 goes_through SO190/045-1   [goes_through has no single named domain/range to type from]
+  - SO190/046-1 hasTask SO190/046-1   [hasTask has no single named domain/range to type from]
+  - SO190/046-1 goes_through SO190/046-1   [goes_through has no single named domain/range to type from]
+  - SO190/047-1 hasTask SO190/047-1   [hasTask has no single named domain/range to type from]
+  - SO190/047-1 goes_through SO190/047-1   [goes_through has no single named domain/range to type from]
+  - SO190/048-1 hasTask SO190/048-1   [hasTask has no single named domain/range to type from]
+  - SO190/048-1 goes_through SO190/048-1   [goes_through has no single named domain/range to type from]
+  - SO190/049-1 hasTask SO190/049-1   [hasTask has no single named domain/range to type from]
+  - SO190/049-1 goes_through SO190/049-1   [goes_through has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS230   [hasTask has no single named domain/range to type from]
+  - OBS230 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS231   [hasTask has no single named domain/range to type from]
+  - OBS231 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS232   [hasTask has no single named domain/range to type from]
+  - OBS232 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS233   [hasTask has no single named domain/range to type from]
+  - OBS233 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS234   [hasTask has no single named domain/range to type from]
+  - OBS234 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS235   [hasTask has no single named domain/range to type from]
+  - OBS235 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS236   [hasTask has no single named domain/range to type from]
+  - OBS236 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS237   [hasTask has no single named domain/range to type from]
+  - OBS237 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS238   [hasTask has no single named domain/range to type from]
+  - OBS238 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS239   [hasTask has no single named domain/range to type from]
+  - OBS239 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS240   [hasTask has no single named domain/range to type from]
+  - OBS240 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS241   [hasTask has no single named domain/range to type from]
+  - OBS241 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS242   [hasTask has no single named domain/range to type from]
+  - OBS242 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS243   [hasTask has no single named domain/range to type from]
+  - OBS243 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS244   [hasTask has no single named domain/range to type from]
+  - OBS244 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_052-1 hasTask OBS245   [hasTask has no single named domain/range to type from]
+  - OBS245 hasAction OBS/OBH   [hasAction has no single named domain/range to type from]
+  - SO190_053-1 hasTask MAGN   [hasTask has no single named domain/range to type from]
+  - MAGN hasAction Magnetometer   [hasAction has no single named domain/range to type from]
+  - SO190_054-1 hasTask EM   [hasTask has no single named domain/range to type from]
+  - EM hasAction Vermessung   [hasAction has no single named domain/range to type from]
+  - SO190-2 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - SO190-2 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - SO190-2 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - SO190-1 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - SO190-1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - OBMT26 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - OBMT35 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - OBMT37 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - OBMT44 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - OBMT54 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - OBMT55 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep8.rdf

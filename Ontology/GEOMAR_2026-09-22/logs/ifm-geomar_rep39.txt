@@ -1,0 +1,240 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 74
+
+created 59 individuals:
+  + R_V_SONNE : Vehicle
+  + SIMRAD_EM120 : MBES
+  + Rockdrill_2 : DVL
+  + SO208_Leg_1 : Data_Sampling_Mission
+  + DR5 : Mission
+  + DR6 : Mission
+  + DR7 : Mission
+  + DR9 : Mission
+  + SO208_DR122 : Station
+  + SO208_MUC124 : Station
+  + SO208_TVG123 : Station
+  + SO208_DR29 : Station
+  + SO208_DR30 : Station
+  + SO208_DR37 : Station
+  + SO208_DR67 : Station
+  + SO208_DR120 : Station
+  + SO208_DR121 : Station
+  + Egg_Seamount : Waypoint
+  + Boxer_Seamount : Waypoint
+  + Donut_Seamount : Waypoint
+  + Bend_Fault_Seamount : Waypoint
+  + Little_Bend_Seamount : Waypoint
+  + DR_60 : Task
+  + DR_61 : Task
+  + DR_62 : Task
+  + DR_63 : Task
+  + DR_64 : Task
+  + DR_65 : Task
+  + DR_66 : Task
+  + DR_67 : Task
+  + DR_68 : Task
+  + DR_69 : Task
+  + DR_71 : Task
+  + DR_72 : Task
+  + DR_73 : Task
+  + DR_74 : Task
+  + DR_75 : Task
+  + DR_76 : Task
+  + DR_77 : Task
+  + DR_78 : Task
+  + DR_79 : Task
+  + DR_80 : Task
+  + DR_81 : Task
+  + DR_82 : Task
+  + DR_83 : Task
+  + DR_84 : Task
+  + DR_85 : Task
+  + DR_86 : Task
+  + DR_87 : Task
+  + DR_88 : Task
+  + DR_89 : Task
+  + DR_90 : Task
+  + DR_91 : Task
+  + DR_92 : Task
+  + Profile_1 : State
+  + Profile_2 : State
+  + Profile_3 : State
+  + Profile_4 : State
+  + Profile_5 : State
+
+asserted 160 axioms:
+  + R_V_SONNE hasSensor SIMRAD_EM120
+  + R_V_SONNE hasSensor Rockdrill_2
+  + SO208_Leg_1 hasDurationText 12 days   [hasDuration could not take it]
+  + SO208_Leg_1 hasStatus SUCCESSFUL
+  + SO208_Leg_1 collect_sample 41 stations
+  + R_V_SONNE maxDepthText unspecified   [maxDepth could not take it]
+  + DR5 MissionID 1
+  + DR5 startTime UTC 18/07/10 03:04hrs
+  + DR5 endTime UTC 18/07/10 03:46hrs
+  + DR5 maxDepthText 3410m   [maxDepth could not take it]
+  + DR5 dataVolume empty
+  + DR5 hasStatus FAILED
+  + DR5 remark gDr, no sediment, no macrofauna
+  + DR6 MissionID 1
+  + DR6 startTime UTC 19/07/10 07:53hrs
+  + DR6 endTime UTC 19/07/10 07:53hrs
+  + DR6 maxDepthText 3572m   [maxDepth could not take it]
+  + DR6 dataVolume empty
+  + DR6 hasStatus FAILED
+  + DR6 remark no sediment, no macrofauna
+  + DR7 MissionID 1
+  + DR7 startTime UTC 20/07/10 12:20hrs
+  + DR7 endTime UTC 20/07/10 13:35hrs
+  + DR7 maxDepthText 3104m   [maxDepth could not take it]
+  + DR7 dataVolume 1/3 full
+  + DR7 hasStatus FAILED
+  + DR7 remark pillow basalts with fresh glass
+  + DR9 MissionID 1
+  + DR9 startTime UTC 22/07/10 06:22hrs
+  + DR9 endTime UTC 22/07/10 07:42hrs
+  + DR9 maxDepthText 3329m   [maxDepth could not take it]
+  + DR9 dataVolume 100% full
+  + DR9 hasStatus FAILED
+  + DR9 remark pillow fragments with fresh glass
+  + SO208_DR122 stationID SO208_DR122
+  + SO208_DR122 stationDate 26/08/10
+  + SO208_DR122 stationTime 00:30
+  + SO208_MUC124 stationID SO208_MUC124
+  + SO208_MUC124 stationDate 26/08/10
+  + SO208_MUC124 stationTime 06:49
+  + SO208_TVG123 stationID SO208_TVG123
+  + SO208_TVG123 stationDate 26/08/10
+  + SO208_TVG123 stationTime 06:48
+  + SO208_DR29 stationID SO208_DR29
+  + SO208_DR29 stationDate 24/07/10
+  + SO208_DR29 stationTime 09:12
+  + SO208_DR30 stationID SO208_DR30
+  + SO208_DR30 stationDate 24/07/10
+  + SO208_DR30 stationTime 12:19
+  + SO208_DR37 stationID SO208_DR37
+  + SO208_DR37 stationDate 26/07/10
+  + SO208_DR37 stationTime 03:01
+  + SO208_DR67 stationID SO208_DR67
+  + SO208_DR67 stationDate 09/08/10
+  + SO208_DR67 stationTime 03:27
+  + SO208_DR120 stationID SO208_DR120
+  + SO208_DR120 stationDate 25/08/10
+  + SO208_DR120 stationTime 11:46
+  + SO208_DR121 stationID SO208_DR121
+  + SO208_DR121 stationDate 25/08/10
+  + SO208_DR121 stationTime 16:27
+  + Egg_Seamount locationName Egg Seamount
+  + Egg_Seamount latitude 07°50,32'N
+  + Egg_Seamount longitude 90°28,15'W
+  + Egg_Seamount seabedDepthText 3096 m   [seabedDepth could not take it]
+  + Boxer_Seamount locationName Boxer Seamount
+  + Boxer_Seamount latitude 07°38,61'N
+  + Boxer_Seamount longitude 90°52,20'W
+  + Boxer_Seamount seabedDepthText 3398 m   [seabedDepth could not take it]
+  + Donut_Seamount locationName Donut Seamount
+  + Donut_Seamount latitude 06°51,47'N
+  + Donut_Seamount longitude 91°38,59'W
+  + Donut_Seamount seabedDepthText 3572 m   [seabedDepth could not take it]
+  + Bend_Fault_Seamount locationName Bend fault Seamount
+  + Bend_Fault_Seamount latitude 10°47,46'N
+  + Bend_Fault_Seamount longitude 87°50,46'W
+  + Bend_Fault_Seamount seabedDepthText 2574 m   [seabedDepth could not take it]
+  + Little_Bend_Seamount locationName Little Bend Seamount
+  + Little_Bend_Seamount latitude 10°41,12'N
+  + Little_Bend_Seamount longitude 87°45,52'W
+  + Little_Bend_Seamount seabedDepthText 2995 m   [seabedDepth could not take it]
+  + DR_60 hasDuration 1.0
+  + DR_60 hasStatus SUCCESSFUL
+  + DR_61 hasDuration 1.0
+  + DR_61 hasStatus SUCCESSFUL
+  + DR_62 hasDuration 1.0
+  + DR_62 hasStatus SUCCESSFUL
+  + DR_63 hasDuration 1.0
+  + DR_63 hasStatus FAILED
+  + DR_64 hasDuration 1.0
+  + DR_64 hasStatus FAILED
+  + DR_65 hasDuration 1.0
+  + DR_65 hasStatus FAILED
+  + DR_66 hasDuration 1.0
+  + DR_66 hasStatus SUCCESSFUL
+  + DR_67 hasDuration 1.0
+  + DR_67 hasStatus SUCCESSFUL
+  + DR_68 hasDuration 1.0
+  + DR_68 hasStatus SUCCESSFUL
+  + DR_69 hasDuration 1.0
+  + DR_69 hasStatus SUCCESSFUL
+  + DR_71 hasDuration 1.0
+  + DR_71 hasStatus FAILED
+  + DR_72 hasDuration 1.0
+  + DR_72 hasStatus FAILED
+  + DR_73 hasDuration 1.0
+  + DR_73 hasStatus FAILED
+  + DR_74 hasDuration 1.0
+  + DR_74 hasStatus FAILED
+  + DR_75 hasDuration 1.0
+  + DR_75 hasStatus FAILED
+  + DR_76 hasDuration 1.0
+  + DR_76 hasStatus FAILED
+  + DR_77 hasDuration 1.0
+  + DR_77 hasStatus FAILED
+  + DR_78 hasDuration 1.0
+  + DR_78 hasStatus FAILED
+  + DR_79 hasDuration 1.0
+  + DR_79 hasStatus FAILED
+  + DR_80 hasDuration 1.0
+  + DR_80 hasStatus FAILED
+  + DR_81 hasDuration 1.0
+  + DR_81 hasStatus FAILED
+  + DR_82 hasDuration 1.0
+  + DR_82 hasStatus FAILED
+  + DR_83 hasDuration 1.0
+  + DR_83 hasStatus FAILED
+  + DR_84 hasDuration 1.0
+  + DR_84 hasStatus FAILED
+  + DR_85 hasDuration 1.0
+  + DR_85 hasStatus FAILED
+  + DR_86 hasDuration 1.0
+  + DR_86 hasStatus FAILED
+  + DR_87 hasDuration 1.0
+  + DR_87 hasStatus FAILED
+  + DR_88 hasDuration 1.0
+  + DR_88 hasStatus FAILED
+  + DR_89 hasDuration 1.0
+  + DR_89 hasStatus FAILED
+  + DR_90 hasDuration 1.0
+  + DR_90 hasStatus FAILED
+  + DR_91 hasDuration 1.0
+  + DR_91 hasStatus FAILED
+  + DR_92 hasDuration 1.0
+  + DR_92 hasStatus FAILED
+  + Profile_1 has_Temperature 1.68
+  + Profile_1 has_Conductivity 0.052
+  + Profile_1 has_Depth 1680
+  + Profile_2 has_Temperature 1.75
+  + Profile_2 has_Conductivity 0.053
+  + Profile_2 has_Depth 1682
+  + Profile_3 has_Temperature 1.87
+  + Profile_3 has_Conductivity 0.054
+  + Profile_3 has_Depth 1685
+  + Profile_4 has_Temperature 1.90
+  + Profile_4 has_Conductivity 0.055
+  + Profile_4 has_Depth 1690
+  + Profile_5 has_Temperature 1.95
+  + Profile_5 has_Conductivity 0.056
+  + Profile_5 has_Depth 1695
+
+skipped 10 excluded axioms:
+  - SO208 hasTask DR107   [hasTask has no single named domain/range to type from]
+  - DR107 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR106   [hasTask has no single named domain/range to type from]
+  - DR106 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR105   [hasTask has no single named domain/range to type from]
+  - DR105 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR104   [hasTask has no single named domain/range to type from]
+  - DR104 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR103   [hasTask has no single named domain/range to type from]
+  - DR103 hasAction gDr   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep39.rdf

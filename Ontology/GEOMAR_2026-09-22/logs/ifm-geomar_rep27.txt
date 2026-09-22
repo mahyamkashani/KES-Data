@@ -1,0 +1,111 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 44
+
+created 29 individuals:
+  + R_V_PELAGIA : Ship
+  + ROV_Cherokee : Vehicle
+  + North_Alex_MV : Terrain
+  + OBS_1 : Waypoint
+  + OBS_2 : Waypoint
+  + OBS_3 : Waypoint
+  + OBS_4 : Waypoint
+  + OBS_5 : Waypoint
+  + Traversal_1 : Traversal
+  + RV_PELAGIA : Platform
+  + Traversal_2 : Traversal
+  + MUC : Data_Sampling_Mission
+  + Pushcore : Data_Sampling_Mission
+  + Genesis : Remotely_Operated_Vehicle
+  + Cruise_64PE298 : Mission
+  + Station_1 : Station
+  + Station_2 : Station
+  + Station_3 : Station
+  + North_Alex : Waypoint
+  + Giza : Waypoint
+  + CAT_Meter_1 : Waypoint
+  + Temperature_1 : Waypoint
+  + OBS_7 : Waypoint
+  + OBS_8 : Waypoint
+  + Dive_1 : Task
+  + Dive_2 : Task
+  + Dive_3 : Task
+  + North_Alex_Mud_Volcano : State
+  + Giza_Mud_Volcano : State
+
+asserted 66 axioms:
+  + R_V_PELAGIA usesVehicle ROV_Cherokee
+  + North_Alex_MV requiresNavigation OBS_1
+  + North_Alex_MV requiresNavigation OBS_2
+  + North_Alex_MV requiresNavigation OBS_3
+  + North_Alex_MV requiresNavigation OBS_4
+  + North_Alex_MV requiresNavigation OBS_5
+  + Traversal_1 hasVehicle RV_PELAGIA
+  + Traversal_2 hasVehicle ROV_Cherokee
+  + MUC hasDurationText not specified   [hasDuration could not take it]
+  + MUC hasStatus SUCCESSFUL
+  + MUC collect_sample biogeochemical analysis
+  + Pushcore hasDurationText not specified   [hasDuration could not take it]
+  + Pushcore hasStatus SUCCESSFUL
+  + Pushcore collect_sample sediment
+  + Genesis maxDepthText 2000 m   [maxDepth could not take it]
+  + R_V_PELAGIA maxDepthText not specified   [maxDepth could not take it]
+  + Cruise_64PE298 MissionID 64PE298
+  + Cruise_64PE298 startTime 2008-11-06T07:00:00
+  + Cruise_64PE298 endTime 2008-11-23T21:30:00
+  + Cruise_64PE298 maxDepthText 2000m   [maxDepth could not take it]
+  + Cruise_64PE298 dataVolume 7 CAT meters installed
+  + Cruise_64PE298 hasStatus SUCCESSFUL
+  + Cruise_64PE298 remark Third expedition of the West-Nile Delta project
+  + Station_1 stationID 64PE298
+  + Station_1 stationDate 2008-11-09
+  + Station_1 stationTime 21:15
+  + Station_2 stationID 64PE298
+  + Station_2 stationDate 2008-11-10
+  + Station_2 stationTime 17:41
+  + Station_3 stationID 64PE298
+  + Station_3 stationDate 2008-11-18
+  + Station_3 stationTime 07:53
+  + North_Alex locationName North Alex
+  + North_Alex latitude 31:58.062
+  + North_Alex longitude 30:08.083
+  + North_Alex seabedDepthText 1 m   [seabedDepth could not take it]
+  + Giza locationName Giza
+  + Giza latitude 31:40.492
+  + Giza longitude 29:45.372
+  + Giza seabedDepthText 1 m   [seabedDepth could not take it]
+  + CAT_Meter_1 locationName CAT Meter #1
+  + CAT_Meter_1 latitude 31:58.188
+  + CAT_Meter_1 longitude 30:08.153
+  + CAT_Meter_1 seabedDepthText 1 m   [seabedDepth could not take it]
+  + Temperature_1 locationName Temperature #1
+  + Temperature_1 latitude 31:58.109
+  + Temperature_1 longitude 30:08.167
+  + Temperature_1 seabedDepthText 5 m   [seabedDepth could not take it]
+  + OBS_7 locationName OBS #7
+  + OBS_7 latitude 31:58.552
+  + OBS_7 longitude 30:07.312
+  + OBS_7 seabedDepthText 1.5 m   [seabedDepth could not take it]
+  + OBS_8 locationName OBS #8
+  + OBS_8 latitude 31:58.793
+  + OBS_8 longitude 30:08.765
+  + OBS_8 seabedDepthText 1.5 m   [seabedDepth could not take it]
+  + Dive_1 hasDuration 5.0
+  + Dive_1 hasStatus SUCCESSFUL
+  + Dive_2 hasDuration 6.0
+  + Dive_2 hasStatus PartialSUCCESSFUL
+  + Dive_3 hasDuration 4.5
+  + Dive_3 hasStatus FAILED
+  + North_Alex_Mud_Volcano has_Temperature 50
+  + North_Alex_Mud_Volcano has_Depth 4
+  + Giza_Mud_Volcano has_Temperature 17
+  + Giza_Mud_Volcano has_Depth 6
+
+skipped 5 excluded axioms:
+  - Cruise_64PE298 hasTask WND_3   [hasTask has no single named domain/range to type from]
+  - Traversal_1 goes_through North_Alex   [goes_through has no single named domain/range to type from]
+  - Traversal_1 goes_through Giza   [goes_through has no single named domain/range to type from]
+  - North_Alex_Mud_Volcano has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - Giza_Mud_Volcano has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep27.rdf

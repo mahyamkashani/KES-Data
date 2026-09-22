@@ -1,0 +1,158 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 56
+
+created 41 individuals:
+  + RV_ALKOR : Ship
+  + JAGO : Vehicle
+  + AL275 : Mission
+  + CTD_Rosette_Hydro_Bios_Kiel : CTDSensor
+  + Dive_1 : Task
+  + Dive_2 : Task
+  + Dive_3 : Task
+  + Dive_4 : Task
+  + Dive_5 : Task
+  + Dive_6 : Task
+  + JAGO_Dive_923 : Data_Sampling_Mission
+  + JAGO_Dive_928 : Data_Sampling_Mission
+  + JAGO_Dive_929 : Data_Sampling_Mission
+  + RV_POSEIDON : Ship
+  + Station_420_1 : Station
+  + Station_421_1 : Station
+  + Station_422 : Station
+  + Station_423 : Station
+  + Station_429 : Station
+  + Station_430 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + Waypoint_03 : Waypoint
+  + Waypoint_04 : Waypoint
+  + Waypoint_05 : Waypoint
+  + Waypoint_06 : Waypoint
+  + Waypoint_07 : Waypoint
+  + Waypoint_08 : Waypoint
+  + AL275_420_1 : Task
+  + AL275_421_1 : Task
+  + AL275_422 : Task
+  + AL275_423 : Task
+  + AL275_425_1 : Task
+  + AL275_426_1 : Task
+  + AL275_429 : Task
+  + AL275_430 : Task
+  + Stat_420_1 : State
+  + Stat_421_1 : State
+  + Stat_425_1 : State
+  + Stat_429 : State
+  + Stat_430 : State
+
+asserted 102 axioms:
+  + RV_ALKOR usesVehicle JAGO
+  + RV_ALKOR hasMission AL275
+  + JAGO hasSensor CTD_Rosette_Hydro_Bios_Kiel
+  + JAGO hasTask Dive_1
+  + JAGO hasTask Dive_2
+  + JAGO hasTask Dive_3
+  + JAGO hasTask Dive_4
+  + JAGO hasTask Dive_5
+  + JAGO hasTask Dive_6
+  + CTD_Rosette_Hydro_Bios_Kiel hasDuration 4.2
+  + CTD_Rosette_Hydro_Bios_Kiel hasStatus SUCCESSFUL
+  + JAGO_Dive_923 hasDuration 2
+  + JAGO_Dive_923 hasStatus SUCCESSFUL
+  + JAGO_Dive_923 collect_sample Lophelia coral sample
+  + JAGO_Dive_928 hasDuration 7
+  + JAGO_Dive_928 hasStatus SUCCESSFUL
+  + JAGO_Dive_928 collect_sample Plankton with net
+  + JAGO_Dive_929 hasDuration 8
+  + JAGO_Dive_929 hasStatus SUCCESSFUL
+  + JAGO_Dive_929 collect_sample Corals
+  + JAGO maxDepthText 400 m   [maxDepth could not take it]
+  + RV_POSEIDON maxDepthText 5 tons   [maxDepth could not take it]
+  + RV_ALKOR maxDepthText 5 tons   [maxDepth could not take it]
+  + AL275 MissionID AL275
+  + AL275 startTime 24.03.2006
+  + AL275 endTime 30.03.2006
+  + AL275 maxDepthText 400 m   [maxDepth could not take it]
+  + AL275 dataVolume 8 dives, 17.5 hours underwater
+  + AL275 hasStatus SUCCESSFUL
+  + AL275 remark Geobiological investigations and sampling of aphotic coral reef ecosystems in the NE-Skagerrak
+  + Station_420_1 stationID 420-1
+  + Station_420_1 stationDate 26.03.2006
+  + Station_420_1 stationTime 08:36
+  + Station_421_1 stationID 421-1
+  + Station_421_1 stationDate 26.03.2006
+  + Station_421_1 stationTime 17:26
+  + Station_422 stationID 422
+  + Station_422 stationDate 27.03.2006
+  + Station_422 stationTime 08:53
+  + Station_423 stationID 423
+  + Station_423 stationDate 27.03.2006
+  + Station_423 stationTime 14:20
+  + Station_429 stationID 429
+  + Station_429 stationDate 29.03.2006
+  + Station_429 stationTime 08:42
+  + Station_430 stationID 430
+  + Station_430 stationDate 29.03.2006
+  + Station_430 stationTime 13:43
+  + Waypoint_01 locationName East of Søster Island
+  + Waypoint_01 latitude 59°05.70’
+  + Waypoint_01 longitude 10°47.89’
+  + Waypoint_01 seabedDepthText 111–120 m   [seabedDepth could not take it]
+  + Waypoint_02 locationName East of Søster Island
+  + Waypoint_02 latitude 59°05.68’
+  + Waypoint_02 longitude 10°47.88’
+  + Waypoint_02 seabedDepthText 90–125 m   [seabedDepth could not take it]
+  + Waypoint_03 locationName East of Søster Island
+  + Waypoint_03 latitude 59°05.55’
+  + Waypoint_03 longitude 10°47.82’
+  + Waypoint_03 seabedDepthText 161–108 m   [seabedDepth could not take it]
+  + Waypoint_04 locationName East of Søster Island
+  + Waypoint_04 latitude 59°05.66’
+  + Waypoint_04 longitude 10°47.77’
+  + Waypoint_04 seabedDepthText 109–101 m   [seabedDepth could not take it]
+  + Waypoint_05 locationName East of Søster Island
+  + Waypoint_05 latitude 59°05.60’
+  + Waypoint_05 longitude 10°47.77’
+  + Waypoint_05 seabedDepthText 123–111 m   [seabedDepth could not take it]
+  + Waypoint_06 locationName East of Søster Island
+  + Waypoint_06 latitude 59°05.81’
+  + Waypoint_06 longitude 10°47.82’
+  + Waypoint_06 seabedDepthText 134–96 m   [seabedDepth could not take it]
+  + Waypoint_07 locationName East of Søster Island
+  + Waypoint_07 latitude 59°05.54’
+  + Waypoint_07 longitude 10°47.82’
+  + Waypoint_07 seabedDepthText 146–120 m   [seabedDepth could not take it]
+  + Waypoint_08 locationName Western Trough of Oslo Fjord
+  + Waypoint_08 latitude 59°04.51’
+  + Waypoint_08 longitude 10°44.088’
+  + Waypoint_08 seabedDepthText 118–150 m   [seabedDepth could not take it]
+  + AL275_420_1 hasDuration 2.5
+  + AL275_420_1 hasStatus SUCCESSFUL
+  + AL275_421_1 hasDuration 1.5
+  + AL275_421_1 hasStatus SUCCESSFUL
+  + AL275_422 hasDuration 2.5
+  + AL275_422 hasStatus SUCCESSFUL
+  + AL275_423 hasDuration 3.5
+  + AL275_423 hasStatus SUCCESSFUL
+  + AL275_425_1 hasDuration 1.5
+  + AL275_425_1 hasStatus SUCCESSFUL
+  + AL275_426_1 hasDuration 1.25
+  + AL275_426_1 hasStatus FAILED
+  + AL275_429 hasDuration 2.5
+  + AL275_429 hasStatus SUCCESSFUL
+  + AL275_430 hasDuration 2.5
+  + AL275_430 hasStatus SUCCESSFUL
+  + Stat_420_1 has_Temperature 6.7
+  + Stat_420_1 has_Depth 111
+  + Stat_421_1 has_Depth 90
+  + Stat_425_1 has_Depth 123
+  + Stat_429 has_Depth 146
+  + Stat_430 has_Depth 118
+
+skipped 4 excluded axioms:
+  - AL275 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - AL275 hasTask Task_2   [hasTask has no single named domain/range to type from]
+  - Task_2 hasAction Action_2   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep10.rdf

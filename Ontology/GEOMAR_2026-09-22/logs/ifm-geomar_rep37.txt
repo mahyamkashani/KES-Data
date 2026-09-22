@@ -1,0 +1,317 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 85
+
+created 70 individuals:
+  + RV_SONNE : Vehicle
+  + SIMRAD_EM_120 : MBES
+  + CTD : CTDSensor
+  + Fast_Repetition_Rate_Fluorometer : Camera
+  + Airsampling : Hydrophone
+  + DMS : Mission
+  + RV_Sonne : Ship
+  + TransBrom_Sonne : Mission
+  + Station_1 : Station
+  + Station_2 : Station
+  + Station_3 : Station
+  + Station_4 : Station
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_7 : Station
+  + Station_8 : Station
+  + Station_9 : Station
+  + Station_10 : Station
+  + Station_11 : Station
+  + Station_12 : Station
+  + Station_13 : Station
+  + Station_14 : Station
+  + Station_15 : Station
+  + Station_16 : Station
+  + Station_17 : Station
+  + Station_18 : Station
+  + Station_19 : Station
+  + Station_20 : Station
+  + Station_21 : Station
+  + Station_22 : Station
+  + Station_23 : Station
+  + Station_24 : Station
+  + Station_25 : Station
+  + Station_26 : Station
+  + Station_27 : Station
+  + Station_28 : Station
+  + Station_29 : Station
+  + Station_30 : Station
+  + Station_31 : Station
+  + Station_32 : Station
+  + Station_33 : Station
+  + Station_34 : Station
+  + Station_35 : Station
+  + Station_36 : Station
+  + Station_37 : Station
+  + Station_38 : Station
+  + Station_39 : Station
+  + Station_40 : Station
+  + Station_41 : Station
+  + Station_42 : Station
+  + Station_43 : Station
+  + Station_44 : Station
+  + Station_45 : Station
+  + Station_46 : Station
+  + Station_47 : Station
+  + Station_48 : Station
+  + Station_49 : Station
+  + Station_50 : Station
+  + Station_51 : Station
+  + Station_52 : Station
+  + Station_53 : Station
+  + Station_54 : Station
+  + Station_55 : Station
+  + Station_56 : Station
+  + Station_57 : Station
+  + Station_58 : Station
+  + Station_59 : Station
+  + Station_60 : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+
+asserted 199 axioms:
+  + RV_SONNE hasSensor SIMRAD_EM_120
+  + RV_SONNE hasSensor CTD
+  + RV_SONNE hasSensor Fast_Repetition_Rate_Fluorometer
+  + RV_SONNE hasSensor Airsampling
+  + RV_SONNE hasMission DMS
+  + RV_Sonne maxDepthText Not specified   [maxDepth could not take it]
+  + TransBrom_Sonne MissionID TransBrom Sonne
+  + TransBrom_Sonne startTime 2009-10-09
+  + TransBrom_Sonne endTime 2009-10-24
+  + TransBrom_Sonne maxDepthText 30 km   [maxDepth could not take it]
+  + TransBrom_Sonne dataVolume variety of parameters
+  + TransBrom_Sonne hasStatus SUCCESSFUL
+  + TransBrom_Sonne remark First oceanic-middle atmosphere campaign
+  + Station_1 stationID 609
+  + Station_1 stationDate 15.10.2009
+  + Station_1 stationTime 23:00
+  + Station_2 stationID 611
+  + Station_2 stationDate 16.10.2009
+  + Station_2 stationTime 02:00
+  + Station_3 stationID 614
+  + Station_3 stationDate 16.10.2009
+  + Station_3 stationTime 05:00
+  + Station_4 stationID 617
+  + Station_4 stationDate 16.10.2009
+  + Station_4 stationTime 08:00
+  + Station_5 stationID 619
+  + Station_5 stationDate 16.10.2009
+  + Station_5 stationTime 11:00
+  + Station_6 stationID 621
+  + Station_6 stationDate 16.10.2009
+  + Station_6 stationTime 14:00
+  + Station_7 stationID 622
+  + Station_7 stationDate 16.10.2009
+  + Station_7 stationTime 17:00
+  + Station_8 stationID 626
+  + Station_8 stationDate 16.10.2009
+  + Station_8 stationTime 20:00
+  + Station_9 stationID 627
+  + Station_9 stationDate 16.10.2009
+  + Station_9 stationTime 23:00
+  + Station_10 stationID 631
+  + Station_10 stationDate 17.10.2009
+  + Station_10 stationTime 00:45
+  + Station_11 stationID 629
+  + Station_11 stationDate 17.10.2009
+  + Station_11 stationTime 02:00
+  + Station_12 stationID 633
+  + Station_12 stationDate 17.10.2009
+  + Station_12 stationTime 05:00
+  + Station_13 stationID 636
+  + Station_13 stationDate 17.10.2009
+  + Station_13 stationTime 08:00
+  + Station_14 stationID 641
+  + Station_14 stationDate 17.10.2009
+  + Station_14 stationTime 11:00
+  + Station_15 stationID 642
+  + Station_15 stationDate 17.10.2009
+  + Station_15 stationTime 14:00
+  + Station_16 stationID 643
+  + Station_16 stationDate 17.10.2009
+  + Station_16 stationTime 20:00
+  + Station_17 stationID 650
+  + Station_17 stationDate 17.10.2009
+  + Station_17 stationTime 23:00
+  + Station_18 stationID 651
+  + Station_18 stationDate 18.10.2009
+  + Station_18 stationTime 02:00
+  + Station_19 stationID 653
+  + Station_19 stationDate 18.10.2009
+  + Station_19 stationTime 05:00
+  + Station_20 stationID 654
+  + Station_20 stationDate 18.10.2009
+  + Station_20 stationTime 08:00
+  + Station_21 stationID 655
+  + Station_21 stationDate 18.10.2009
+  + Station_21 stationTime 11:00
+  + Station_22 stationID 656
+  + Station_22 stationDate 18.10.2009
+  + Station_22 stationTime 14:00
+  + Station_23 stationID 658
+  + Station_23 stationDate 18.10.2009
+  + Station_23 stationTime 17:00
+  + Station_24 stationID 662
+  + Station_24 stationDate 18.10.2009
+  + Station_24 stationTime 20:00
+  + Station_25 stationID 664
+  + Station_25 stationDate 18.10.2009
+  + Station_25 stationTime 23:00
+  + Station_26 stationID 665
+  + Station_26 stationDate 19.10.2009
+  + Station_26 stationTime 02:00
+  + Station_27 stationID 666
+  + Station_27 stationDate 19.10.2009
+  + Station_27 stationTime 05:00
+  + Station_28 stationID 674
+  + Station_28 stationDate 19.10.2009
+  + Station_28 stationTime 08:00
+  + Station_29 stationID 676
+  + Station_29 stationDate 19.10.2009
+  + Station_29 stationTime 11:00
+  + Station_30 stationID 678
+  + Station_30 stationDate 19.10.2009
+  + Station_30 stationTime 14:00
+  + Station_31 stationID 681
+  + Station_31 stationDate 19.10.2009
+  + Station_31 stationTime 17:00
+  + Station_32 stationID 684
+  + Station_32 stationDate 19.10.2009
+  + Station_32 stationTime 20:00
+  + Station_33 stationID 685
+  + Station_33 stationDate 19.10.2009
+  + Station_33 stationTime 23:00
+  + Station_34 stationID 687
+  + Station_34 stationDate 20.10.2009
+  + Station_34 stationTime 02:00
+  + Station_35 stationID 689
+  + Station_35 stationDate 20.10.2009
+  + Station_35 stationTime 05:00
+  + Station_36 stationID 691
+  + Station_36 stationDate 20.10.2009
+  + Station_36 stationTime 08:00
+  + Station_37 stationID 696
+  + Station_37 stationDate 20.10.2009
+  + Station_37 stationTime 11:00
+  + Station_38 stationID 697
+  + Station_38 stationDate 20.10.2009
+  + Station_38 stationTime 14:00
+  + Station_39 stationID 698
+  + Station_39 stationDate 20.10.2009
+  + Station_39 stationTime 17:00
+  + Station_40 stationID 699
+  + Station_40 stationDate 20.10.2009
+  + Station_40 stationTime 20:00
+  + Station_41 stationID 705
+  + Station_41 stationDate 20.10.2009
+  + Station_41 stationTime 23:00
+  + Station_42 stationID 706
+  + Station_42 stationDate 21.10.2009
+  + Station_42 stationTime 02:00
+  + Station_43 stationID 707
+  + Station_43 stationDate 21.10.2009
+  + Station_43 stationTime 05:00
+  + Station_44 stationID 713
+  + Station_44 stationDate 21.10.2009
+  + Station_44 stationTime 08:00
+  + Station_45 stationID 715
+  + Station_45 stationDate 21.10.2009
+  + Station_45 stationTime 11:00
+  + Station_46 stationID 717
+  + Station_46 stationDate 21.10.2009
+  + Station_46 stationTime 14:00
+  + Station_47 stationID 718
+  + Station_47 stationDate 21.10.2009
+  + Station_47 stationTime 17:00
+  + Station_48 stationID 723
+  + Station_48 stationDate 21.10.2009
+  + Station_48 stationTime 20:00
+  + Station_49 stationID 724
+  + Station_49 stationDate 21.10.2009
+  + Station_49 stationTime 23:00
+  + Station_50 stationID 728
+  + Station_50 stationDate 22.10.2009
+  + Station_50 stationTime 02:00
+  + Station_51 stationID 729
+  + Station_51 stationDate 22.10.2009
+  + Station_51 stationTime 05:00
+  + Station_52 stationID 734
+  + Station_52 stationDate 22.10.2009
+  + Station_52 stationTime 08:00
+  + Station_53 stationID 737
+  + Station_53 stationDate 22.10.2009
+  + Station_53 stationTime 14:00
+  + Station_54 stationID 738
+  + Station_54 stationDate 22.10.2009
+  + Station_54 stationTime 17:00
+  + Station_55 stationID 739
+  + Station_55 stationDate 22.10.2009
+  + Station_55 stationTime 20:00
+  + Station_56 stationID 741
+  + Station_56 stationDate 22.10.2009
+  + Station_56 stationTime 23:00
+  + Station_57 stationID 742
+  + Station_57 stationDate 23.10.2009
+  + Station_57 stationTime 02:00
+  + Station_58 stationID 747
+  + Station_58 stationDate 23.10.2009
+  + Station_58 stationTime 05:00
+  + Station_59 stationID 748
+  + Station_59 stationDate 23.10.2009
+  + Station_59 stationTime 08:00
+  + Station_60 stationID 749
+  + Station_60 stationDate 23.10.2009
+  + Station_60 stationTime 11:00
+  + Waypoint_01 locationName Tomakomai, Japan
+  + Waypoint_01 latitude 42.38
+  + Waypoint_01 longitude 141.37
+  + Waypoint_02 locationName Townsville, Australia
+  + Waypoint_02 latitude 19.11
+  + Waypoint_02 longitude 146.50
+
+skipped 37 excluded axioms:
+  - So01 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So02 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So03 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So04 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So05 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So06 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So07 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So08 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So09 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So10 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So11 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So12 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So13 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So14 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So15 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So16 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So17 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So18 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So19 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So20 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So21 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So22 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So23 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So24 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So25 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So26 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So27 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So28 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So29 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So30 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So31 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So32 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So33 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So34 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So35 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So36 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+  - So37 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep37.rdf

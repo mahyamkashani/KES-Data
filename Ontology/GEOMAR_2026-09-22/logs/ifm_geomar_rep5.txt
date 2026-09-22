@@ -1,0 +1,176 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 57
+
+created 42 individuals:
+  + RV_SONNE : Ship
+  + Simrad_EM_120 : MBES
+  + Parasound : Echosounder
+  + SO186_1A : Task
+  + OBS03 : Action
+  + OBS10 : Action
+  + OBS11 : Action
+  + SO186_1C : Mission
+  + TS1 : Remotely_Operated_Vehicle
+  + TS2 : Remotely_Operated_Vehicle
+  + LEWK : Station
+  + LFAK : Station
+  + LABU : Station
+  + MAUD : Station
+  + PUTR : Station
+  + DEHI : Station
+  + BATU : Station
+  + LUAN : Station
+  + SO186_1B : Mission
+  + SO186_1D : Mission
+  + GITEWS_1 : Waypoint
+  + GITEWS_2 : Waypoint
+  + SO186_1B_1 : Task
+  + SO186_1B_2 : Task
+  + SO186_1B_3 : Task
+  + SO186_1B_4 : Task
+  + SO186_1B_5 : Task
+  + SO186_1B_6 : Task
+  + SO186_1B_7 : Task
+  + SO186_1B_8 : Task
+  + SO186_1B_9 : Task
+  + SO186_1C_1 : Task
+  + SO186_1C_2 : Task
+  + SO186_1C_3 : Task
+  + SO186_1C_4 : Task
+  + SO186_1C_5 : Task
+  + CTD_Station_01 : State
+  + CTD_Station_02 : State
+  + CTD_Station_03 : State
+  + CTD_Station_04 : State
+  + CTD_Station_05 : State
+  + CTD_Station_06 : State
+
+asserted 114 axioms:
+  + RV_SONNE hasSensor Simrad_EM_120
+  + RV_SONNE hasSensor Parasound
+  + SO186_1A hasAction OBS03
+  + SO186_1A hasAction OBS10
+  + SO186_1A hasAction OBS11
+  + SO186_1C MissionID SO186-1C
+  + SO186_1C startTime 2005-11-21T00:00:00
+  + SO186_1C endTime 2005-11-30T23:59:00
+  + SO186_1C maxDepth 5800
+  + SO186_1C dataVolume 52000
+  + SO186_1C hasStatus SUCCESSFUL
+  + SO186_1C remark Further data collection
+  + TS1 maxDepthText 3600 m   [maxDepth could not take it]
+  + TS2 maxDepthText 3500 m   [maxDepth could not take it]
+  + RV_SONNE maxDepthText Not specified   [maxDepth could not take it]
+  + LEWK stationID LEWK
+  + LEWK stationDate 12.12.2005
+  + LEWK stationTime N/A
+  + LFAK stationID LFAK
+  + LFAK stationDate 12.12.2005
+  + LFAK stationTime N/A
+  + LABU stationID LABU
+  + LABU stationDate 13.12.2005
+  + LABU stationTime N/A
+  + MAUD stationID MAUD
+  + MAUD stationDate 14.12.2005
+  + MAUD stationTime N/A
+  + PUTR stationID PUTR
+  + PUTR stationDate 15.12.2005
+  + PUTR stationTime N/A
+  + DEHI stationID DEHI
+  + DEHI stationDate 15.12.2005
+  + DEHI stationTime N/A
+  + BATU stationID BATU
+  + BATU stationDate 16.12.2005
+  + BATU stationTime N/A
+  + LUAN stationID LUAN
+  + LUAN stationDate 16.12.2005
+  + LUAN stationTime N/A
+  + SO186_1A MissionID SO186-1A
+  + SO186_1A startTime 2005-10-29T17:23:00
+  + SO186_1A endTime 2005-11-09T20:41:00
+  + SO186_1A maxDepth 6200
+  + SO186_1A dataVolume 45000
+  + SO186_1A hasStatus SUCCESSFUL
+  + SO186_1A remark Survey profile 21 to 56
+  + SO186_1B MissionID SO186-1B
+  + SO186_1B startTime 2005-11-10T00:00:00
+  + SO186_1B endTime 2005-11-20T23:59:00
+  + SO186_1B maxDepth 6000
+  + SO186_1B dataVolume 50000
+  + SO186_1B hasStatus SUCCESSFUL
+  + SO186_1B remark Extended survey with EM120
+  + SO186_1D MissionID SO186-1D
+  + SO186_1D startTime 2005-12-01T00:00:00
+  + SO186_1D endTime 2005-12-10T23:59:00
+  + SO186_1D maxDepth 6000
+  + SO186_1D dataVolume 53000
+  + SO186_1D hasStatus SUCCESSFUL
+  + SO186_1D remark Final data collection
+  + GITEWS_1 locationName 3°43.7'S/99°14.0'E
+  + GITEWS_1 latitude -3.7283
+  + GITEWS_1 longitude 99.2333
+  + GITEWS_1 seabedDepth 5250
+  + GITEWS_2 locationName 0°27'S/96°51'E
+  + GITEWS_2 latitude -0.4500
+  + GITEWS_2 longitude 96.8500
+  + GITEWS_2 seabedDepth 3600
+  + SO186_1B_1 hasDuration 3.7
+  + SO186_1B_1 hasStatus SUCCESSFUL
+  + SO186_1B_2 hasDuration 1.5
+  + SO186_1B_2 hasStatus SUCCESSFUL
+  + SO186_1B_3 hasDuration 6.6
+  + SO186_1B_3 hasStatus SUCCESSFUL
+  + SO186_1B_4 hasDuration 10.9
+  + SO186_1B_4 hasStatus SUCCESSFUL
+  + SO186_1B_5 hasDuration 23.9
+  + SO186_1B_5 hasStatus SUCCESSFUL
+  + SO186_1B_6 hasDuration 6.9
+  + SO186_1B_6 hasStatus SUCCESSFUL
+  + SO186_1B_7 hasDuration 3.3
+  + SO186_1B_7 hasStatus SUCCESSFUL
+  + SO186_1B_8 hasDuration 8.2
+  + SO186_1B_8 hasStatus SUCCESSFUL
+  + SO186_1B_9 hasDuration 18.5
+  + SO186_1B_9 hasStatus SUCCESSFUL
+  + SO186_1C_1 hasDuration 1.1
+  + SO186_1C_1 hasStatus SUCCESSFUL
+  + SO186_1C_2 hasDuration 0.2
+  + SO186_1C_2 hasStatus SUCCESSFUL
+  + SO186_1C_3 hasDuration 0.8
+  + SO186_1C_3 hasStatus SUCCESSFUL
+  + SO186_1C_4 hasDuration 0.9
+  + SO186_1C_4 hasStatus SUCCESSFUL
+  + SO186_1C_5 hasDuration 1.9
+  + SO186_1C_5 hasStatus SUCCESSFUL
+  + CTD_Station_01 has_Temperature 0.4
+  + CTD_Station_01 has_Conductivity 8
+  + CTD_Station_01 has_Depth 5800
+  + CTD_Station_02 has_Temperature 0.5
+  + CTD_Station_02 has_Conductivity 6
+  + CTD_Station_02 has_Depth 6000
+  + CTD_Station_03 has_Temperature 1.2
+  + CTD_Station_03 has_Conductivity 7
+  + CTD_Station_03 has_Depth 5800
+  + CTD_Station_04 has_Temperature 1.1
+  + CTD_Station_04 has_Conductivity 10
+  + CTD_Station_04 has_Depth 5800
+  + CTD_Station_05 has_Temperature 1.4
+  + CTD_Station_05 has_Conductivity 5
+  + CTD_Station_05 has_Depth 5297
+  + CTD_Station_06 has_Temperature 1.2
+  + CTD_Station_06 has_Conductivity 3
+  + CTD_Station_06 has_Depth 5055
+
+skipped 9 excluded axioms:
+  - SO186_1B hasTask Task_GITEWS   [hasTask has no single named domain/range to type from]
+  - SO186_1C hasTask Task_GITEWS   [hasTask has no single named domain/range to type from]
+  - SO186_1D hasTask Task_GITEWS   [hasTask has no single named domain/range to type from]
+  - Mission_hasTask_Task_1   [not a subject/property/object triple]
+  - Task_hasAction_Action_1   [not a subject/property/object triple]
+  - Traversal_hasVehicle_Vehicle_1   [not a subject/property/object triple]
+  - Traversal_hasDestination_Waypoint_1   [not a subject/property/object triple]
+  - Traversal_goes_through_Waypoint_1   [not a subject/property/object triple]
+  - Terrain_requiresNavigation_Waypoint_1   [not a subject/property/object triple]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm_geomar_rep5.rdf

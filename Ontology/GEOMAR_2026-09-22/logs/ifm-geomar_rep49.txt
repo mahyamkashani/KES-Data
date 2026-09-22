@@ -1,0 +1,144 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 59
+
+created 44 individuals:
+  + R_V_AEGAEO : Ship
+  + ROV_Max_Rover : Vehicle
+  + SIMRAD_EK60 : Sonar
+  + CTD : CTDSensor
+  + CAT_meters : CTDSensor
+  + OBMets : CTDSensor
+  + piezometers : CTDSensor
+  + North_Alex_MV : Mission
+  + CTD_cast_1 : Task
+  + CTD_cast_2 : Task
+  + CTD_cast_3 : Task
+  + CTD_cast_4 : Task
+  + CTD_cast_5 : Task
+  + CTD_cast_6 : Task
+  + CTD_cast_7 : Task
+  + CTD_cast_8 : Task
+  + CTD_cast_9 : Task
+  + CTD_cast_10 : Task
+  + CTD_cast_11 : Task
+  + CTD_cast_12 : Task
+  + CTD_cast_13 : Task
+  + CTD_cast_14 : Task
+  + CTD_cast_15 : Task
+  + CTD_cast_16 : Task
+  + CTD_cast_17 : Task
+  + CTD_cast_18 : Task
+  + CTD_cast_19 : Task
+  + CTD_cast_20 : Task
+  + Action_1 : Traversal
+  + RV_Aegaeo : Platform
+  + Bathymetric_data_acquisition : Bathymetric_Mission
+  + CTD_casts : CTDMission
+  + Recovery_of_CATmeters : Data_Sampling_Mission
+  + Cruise_WND_V : Mission
+  + Giza_MV : Station
+  + North_Alex_Mud_Volcano : Waypoint
+  + Giza_Mud_Volcano : Waypoint
+  + CTD_Cast_1 : State
+  + CTD_Cast_2 : State
+  + CTD_Cast_3 : State
+  + CTD_Cast_4 : State
+  + CTD_Cast_5 : State
+  + CTD_Cast_6 : State
+  + CTD_Cast_7 : State
+
+asserted 73 axioms:
+  + R_V_AEGAEO usesVehicle ROV_Max_Rover
+  + R_V_AEGAEO hasSensor SIMRAD_EK60
+  + R_V_AEGAEO hasSensor CTD
+  + R_V_AEGAEO hasSensor CAT_meters
+  + R_V_AEGAEO hasSensor OBMets
+  + R_V_AEGAEO hasSensor piezometers
+  + North_Alex_MV hasTask CTD_cast_1
+  + North_Alex_MV hasTask CTD_cast_2
+  + North_Alex_MV hasTask CTD_cast_3
+  + North_Alex_MV hasTask CTD_cast_4
+  + North_Alex_MV hasTask CTD_cast_5
+  + North_Alex_MV hasTask CTD_cast_6
+  + North_Alex_MV hasTask CTD_cast_7
+  + North_Alex_MV hasTask CTD_cast_8
+  + North_Alex_MV hasTask CTD_cast_9
+  + North_Alex_MV hasTask CTD_cast_10
+  + North_Alex_MV hasTask CTD_cast_11
+  + North_Alex_MV hasTask CTD_cast_12
+  + North_Alex_MV hasTask CTD_cast_13
+  + North_Alex_MV hasTask CTD_cast_14
+  + North_Alex_MV hasTask CTD_cast_15
+  + North_Alex_MV hasTask CTD_cast_16
+  + North_Alex_MV hasTask CTD_cast_17
+  + North_Alex_MV hasTask CTD_cast_18
+  + North_Alex_MV hasTask CTD_cast_19
+  + North_Alex_MV hasTask CTD_cast_20
+  + Action_1 hasVehicle RV_Aegaeo
+  + Bathymetric_data_acquisition hasDurationText Not specified   [hasDuration could not take it]
+  + Bathymetric_data_acquisition hasStatus FAILED
+  + CTD_casts hasDurationText Not specified   [hasDuration could not take it]
+  + CTD_casts hasStatus SUCCESSFUL
+  + Recovery_of_CATmeters hasDurationText Not specified   [hasDuration could not take it]
+  + Recovery_of_CATmeters hasStatus SUCCESSFUL
+  + ROV_Max_Rover maxDepthText Not specified   [maxDepth could not take it]
+  + R_V_AEGAEO maxDepthText Not specified   [maxDepth could not take it]
+  + Cruise_WND_V MissionID WND-V
+  + Cruise_WND_V startTime 2010-06-15
+  + Cruise_WND_V endTime 2010-06-25
+  + Cruise_WND_V maxDepth 450
+  + Cruise_WND_V dataVolume 12 OBS, 4 Piezometers, 6 CATmeters, 2 Tiltmeters, 2 T-Observatories
+  + Cruise_WND_V hasStatus SUCCESSFUL
+  + Cruise_WND_V remark Final expedition of the West Nile Delta project
+  + North_Alex_MV stationID North Alex MV
+  + North_Alex_MV stationDate 2010-06-15 to 2010-06-25
+  + North_Alex_MV stationTime Various
+  + Giza_MV stationID Giza MV
+  + Giza_MV stationDate 2010-06-15 to 2010-06-25
+  + Giza_MV stationTime Various
+  + North_Alex_Mud_Volcano locationName North Alex
+  + North_Alex_Mud_Volcano latitude 31° 58.1877
+  + North_Alex_Mud_Volcano longitude 30° 08.1528
+  + North_Alex_Mud_Volcano seabedDepthText 500 m   [seabedDepth could not take it]
+  + Giza_Mud_Volcano locationName Giza
+  + Giza_Mud_Volcano latitude 31° 43.002
+  + Giza_Mud_Volcano longitude 29° 44.000
+  + Giza_Mud_Volcano seabedDepthText 861 m   [seabedDepth could not take it]
+  + CTD_cast_1 hasDuration 2.0
+  + CTD_cast_1 hasStatus SUCCESSFUL
+  + CTD_cast_2 hasDuration 3.0
+  + CTD_cast_2 hasStatus SUCCESSFUL
+  + CTD_cast_3 hasDuration 4.0
+  + CTD_cast_3 hasStatus PartialSUCCESSFUL
+  + CTD_cast_4 hasDuration 4.5
+  + CTD_cast_4 hasStatus SUCCESSFUL
+  + CTD_cast_5 hasDuration 3.5
+  + CTD_cast_5 hasStatus FAILED
+  + CTD_Cast_1 has_Depth 505.0
+  + CTD_Cast_2 has_Depth 523.0
+  + CTD_Cast_3 has_Depth 510.0
+  + CTD_Cast_4 has_Depth 518.0
+  + CTD_Cast_5 has_Depth 494.0
+  + CTD_Cast_6 has_Depth 510.0
+  + CTD_Cast_7 has_Depth 518.0
+
+skipped 16 excluded axioms:
+  - WND_V hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - CTD_Cast_1 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_1 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_2 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_2 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_3 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_3 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_4 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_4 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_5 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_5 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_6 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_6 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_7 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD_Cast_7 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep49.rdf

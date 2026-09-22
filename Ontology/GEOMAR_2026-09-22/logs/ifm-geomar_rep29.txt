@@ -1,0 +1,166 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 62
+
+created 47 individuals:
+  + R_V_Poseidon : Ship
+  + ELAC_multi_beam_system : MBES
+  + Rocket_Seamount : Vehicle
+  + POS_379_2 : Mission
+  + DR1 : Task
+  + DR2 : Task
+  + DR3 : Task
+  + DR4 : Task
+  + DR5 : Task
+  + DR6 : Task
+  + DR7 : Task
+  + DR8 : Task
+  + DR9 : Task
+  + DR10 : Task
+  + DR21 : Task
+  + Action_01 : Traversal
+  + RV_POSEIDON : Platform
+  + Action_02 : Traversal
+  + Action_03 : Traversal
+  + POS379_2 : Data_Sampling_Mission
+  + MT001 : State
+  + MT002 : State
+  + MT003 : State
+  + MT004 : State
+  + MT005 : State
+  + MT006 : State
+  + MT007 : State
+  + MT008 : State
+  + MT009 : State
+  + MT010 : State
+  + MT011 : State
+  + MT012 : State
+  + Vayda_Seamount : Waypoint
+  + Molodezhnaya_Seamount : Waypoint
+  + Frodo_Seamount : Waypoint
+  + The_Shire_Seamount : Waypoint
+  + Mount_Doom : Waypoint
+  + DR11 : Task
+  + DR12 : Task
+  + DR13 : Task
+  + DR14 : Task
+  + DR15 : Task
+  + DR16 : Task
+  + DR17 : Task
+  + DR18 : Task
+  + DR19 : Task
+  + DR20 : Task
+
+asserted 98 axioms:
+  + R_V_Poseidon hasSensor ELAC_multi_beam_system
+  + R_V_Poseidon usesVehicle Rocket_Seamount
+  + POS_379_2 hasTask DR1
+  + POS_379_2 hasTask DR2
+  + POS_379_2 hasTask DR3
+  + POS_379_2 hasTask DR4
+  + POS_379_2 hasTask DR5
+  + POS_379_2 hasTask DR6
+  + POS_379_2 hasTask DR7
+  + POS_379_2 hasTask DR8
+  + POS_379_2 hasTask DR9
+  + POS_379_2 hasTask DR10
+  + POS_379_2 hasTask DR21
+  + Action_01 hasVehicle RV_POSEIDON
+  + Action_02 hasVehicle RV_POSEIDON
+  + Action_03 hasVehicle RV_POSEIDON
+  + POS379_2 hasDurationText 22 days   [hasDuration could not take it]
+  + POS379_2 hasStatus SUCCESSFUL
+  + POS379_2 collect_sample Geological material
+  + R_V_Poseidon maxDepthText 3500 m   [maxDepth could not take it]
+  + POS379_2 MissionID POS379/2
+  + POS379_2 startTime 15.02.2009
+  + POS379_2 endTime 08.03.2009
+  + POS379_2 maxDepth 3500
+  + POS379_2 dataVolume N/A
+  + POS379_2 remark Cruise Report for Mid-Atlantic-Researcher Ridge Volcanism
+  + MT001 has_Depth 3500
+  + MT002 has_Depth 3000
+  + MT003 has_Depth 3200
+  + MT004 has_Depth 3200
+  + MT005 has_Depth 4070
+  + MT006 has_Depth 3600
+  + MT007 has_Depth 2900
+  + MT008 has_Depth 2500
+  + MT009 has_Depth 2200
+  + MT010 has_Depth 2500
+  + MT011 has_Depth 2800
+  + MT012 has_Depth 2600
+  + Rocket_Seamount locationName Rocket Seamount
+  + Rocket_Seamount latitude 15°47.03'N
+  + Rocket_Seamount longitude 36°13.61'W
+  + Rocket_Seamount seabedDepthText 3000 mbsl   [seabedDepth could not take it]
+  + Vayda_Seamount locationName Vayda Seamount
+  + Vayda_Seamount latitude 14°56.22'N
+  + Vayda_Seamount longitude 48°11.24'W
+  + Vayda_Seamount seabedDepthText 1642 mbsl   [seabedDepth could not take it]
+  + Molodezhnaya_Seamount locationName Molodezhnaya Seamount
+  + Molodezhnaya_Seamount latitude 15°01.56'N
+  + Molodezhnaya_Seamount longitude 50°15.60'W
+  + Molodezhnaya_Seamount seabedDepthText 3000 mbsl   [seabedDepth could not take it]
+  + Frodo_Seamount locationName Frodo Seamount
+  + Frodo_Seamount latitude 15°01.92'N
+  + Frodo_Seamount longitude 49°39.74'W
+  + Frodo_Seamount seabedDepthText 2481 mbsl   [seabedDepth could not take it]
+  + The_Shire_Seamount locationName The Shire Seamount
+  + The_Shire_Seamount latitude 15°00.30'N
+  + The_Shire_Seamount longitude 49°35.06'W
+  + The_Shire_Seamount seabedDepthText 2540 mbsl   [seabedDepth could not take it]
+  + Mount_Doom locationName Mount Doom
+  + Mount_Doom latitude 15°40.47'N
+  + Mount_Doom longitude 51°29.47'W
+  + Mount_Doom seabedDepthText 2463 mbsl   [seabedDepth could not take it]
+  + DR1 hasDuration 3.55
+  + DR1 hasStatus SUCCESSFUL
+  + DR2 hasDuration 2.5
+  + DR2 hasStatus SUCCESSFUL
+  + DR3 hasDuration 2.85
+  + DR3 hasStatus SUCCESSFUL
+  + DR4 hasDuration 3.5
+  + DR4 hasStatus SUCCESSFUL
+  + DR5 hasDuration 3.5
+  + DR5 hasStatus SUCCESSFUL
+  + DR6 hasDuration 3.43
+  + DR6 hasStatus SUCCESSFUL
+  + DR10 hasDuration 3.5
+  + DR10 hasStatus SUCCESSFUL
+  + DR11 hasDuration 2.5
+  + DR11 hasStatus SUCCESSFUL
+  + DR12 hasDuration 3.0
+  + DR12 hasStatus SUCCESSFUL
+  + DR13 hasDuration 3.0
+  + DR13 hasStatus SUCCESSFUL
+  + DR14 hasDuration 3.0
+  + DR14 hasStatus SUCCESSFUL
+  + DR15 hasDuration 3.0
+  + DR15 hasStatus SUCCESSFUL
+  + DR16 hasDuration 2.5
+  + DR16 hasStatus SUCCESSFUL
+  + DR17 hasDuration 3.0
+  + DR17 hasStatus SUCCESSFUL
+  + DR18 hasDuration 3.5
+  + DR18 hasStatus SUCCESSFUL
+  + DR19 hasDuration 3.0
+  + DR19 hasStatus SUCCESSFUL
+  + DR20 hasDuration 3.0
+  + DR20 hasStatus SUCCESSFUL
+  + DR21 hasDuration 3.0
+  + DR21 hasStatus SUCCESSFUL
+
+skipped 10 excluded axioms:
+  - MARRVi hasTask Task_01   [hasTask has no single named domain/range to type from]
+  - Task_01 hasAction Action_01   [hasAction has no single named domain/range to type from]
+  - Action_01 hasDestination Rocket_Seamount   [hasDestination has no single named domain/range to type from]
+  - MARRVi hasTask Task_02   [hasTask has no single named domain/range to type from]
+  - Task_02 hasAction Action_02   [hasAction has no single named domain/range to type from]
+  - Action_02 hasDestination Vayda_Seamount   [hasDestination has no single named domain/range to type from]
+  - MARRVi hasTask Task_03   [hasTask has no single named domain/range to type from]
+  - Task_03 hasAction Action_03   [hasAction has no single named domain/range to type from]
+  - Action_03 hasDestination Frodo_Seamount   [hasDestination has no single named domain/range to type from]
+  - POS379_2 hasStatus   ['N/A' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep29.rdf

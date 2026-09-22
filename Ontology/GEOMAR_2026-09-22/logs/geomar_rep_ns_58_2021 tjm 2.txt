@@ -1,0 +1,99 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 42
+
+created 27 individuals:
+  + FSB_Meerkatze : Vehicle
+  + Chlorophyll_a : Camera
+  + RV_ALKOR : Ship
+  + JAGO : Vehicle
+  + AL533 : Mission
+  + Südfall : Ship
+  + POSEIDON : Ship
+  + SONNE : Ship
+  + MARIA_S_MERIAN : Ship
+  + ALKOR : Ship
+  + Station_Baltic_Sea : Station
+  + Station_North_Sea : Station
+  + Waypoint_01 : Waypoint
+  + Waypoint_02 : Waypoint
+  + Waypoint_03 : Waypoint
+  + Waypoint_04 : Waypoint
+  + Station_1 : State
+  + Station_2 : State
+  + Station_3 : State
+  + Station_4 : State
+  + Station_5 : State
+  + Station_6 : State
+  + Station_7 : State
+  + Station_8 : State
+  + Station_9 : State
+  + Station_10 : State
+  + Station_11 : State
+
+asserted 25 axioms:
+  + FSB_Meerkatze hasSensor Chlorophyll_a
+  + RV_ALKOR usesVehicle JAGO
+  + RV_ALKOR hasMission AL533
+  + Station_Baltic_Sea stationID Baltic Sea
+  + Station_Baltic_Sea stationDate 1946-1956
+  + Station_Baltic_Sea stationTime N/A
+  + Station_North_Sea stationID North Sea
+  + Station_North_Sea stationDate 1954
+  + Station_North_Sea stationTime N/A
+  + Waypoint_01 locationName Baltic Sea
+  + Waypoint_01 latitude unknown
+  + Waypoint_01 longitude unknown
+  + Waypoint_01 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_02 locationName eastern German Bight
+  + Waypoint_02 latitude unknown
+  + Waypoint_02 longitude unknown
+  + Waypoint_02 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_03 locationName North Sea
+  + Waypoint_03 latitude unknown
+  + Waypoint_03 longitude unknown
+  + Waypoint_03 seabedDepthText unknown   [seabedDepth could not take it]
+  + Waypoint_04 locationName Kiel Canal
+  + Waypoint_04 latitude unknown
+  + Waypoint_04 longitude unknown
+  + Waypoint_04 seabedDepthText unknown   [seabedDepth could not take it]
+
+skipped 36 excluded axioms:
+  - Mission_hasTask Task_01   [not a subject/property/object triple]
+  - Task_01_hasAction Action_01   [not a subject/property/object triple]
+  - Traversal_hasVehicle Vehicle_SÜDFALL   [not a subject/property/object triple]
+  - Station_1 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_1 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_1 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_2 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_2 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_2 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_3 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_3 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_3 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_4 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_4 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_4 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_5 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_5 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_5 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_6 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_6 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_6 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_7 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_7 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_7 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_8 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_8 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_8 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_9 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_9 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_9 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_10 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_10 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_10 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_11 has_Temperature='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_11 has_Conductivity='Not specified'   [could not convert string to float: 'Not specified']
+  - Station_11 has_Depth='Not specified'   [could not convert string to float: 'Not specified']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_geomar_rep_ns_58_2021 tjm 2.rdf

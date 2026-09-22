@@ -1,0 +1,143 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 55
+
+created 40 individuals:
+  + RV_ALKOR : Ship
+  + AL66 : Mission
+  + Sleipner : Task
+  + VCTD_1 : Action
+  + VCTD_2 : Action
+  + VCTD_5 : Action
+  + SG_2_1 : Action
+  + SG_2_2 : Action
+  + SG_2_3 : Action
+  + SG_2_4 : Action
+  + SG_3_1 : Action
+  + SG_3_2 : Action
+  + MIC_4_2 : Action
+  + MIC_4_3 : Action
+  + SG_9_1 : Action
+  + SG_9_2 : Action
+  + SG_9_3 : Action
+  + SG_9_4 : Action
+  + VCTD_13 : Action
+  + Geophysical_measurements : SurveyMission
+  + Station_Salt_Dome_Juist : Station
+  + Station_Salt_Dome_Juist_2 : Station
+  + Station_Sleipner : Station
+  + Station_Sleipner_2 : Station
+  + Station_Blowout : Station
+  + Station_Blowout_2 : Station
+  + Salt_Dome_Juist : Waypoint
+  + Blowout : Waypoint
+  + CTD01 : State
+  + CTD02 : State
+  + CTD03 : State
+  + CTD04 : State
+  + CTD05 : State
+  + CTD06 : State
+  + CTD07 : State
+  + CTD08 : State
+  + CTD09 : State
+  + CTD10 : State
+  + CTD11 : State
+  + CTD12 : State
+
+asserted 57 axioms:
+  + RV_ALKOR hasMission AL66
+  + Sleipner hasAction VCTD_1
+  + Sleipner hasAction VCTD_2
+  + Sleipner hasAction VCTD_5
+  + Sleipner hasAction SG_2_1
+  + Sleipner hasAction SG_2_2
+  + Sleipner hasAction SG_2_3
+  + Sleipner hasAction SG_2_4
+  + Sleipner hasAction SG_3_1
+  + Sleipner hasAction SG_3_2
+  + Sleipner hasAction MIC_4_2
+  + Sleipner hasAction MIC_4_3
+  + Sleipner hasAction SG_9_1
+  + Sleipner hasAction SG_9_2
+  + Sleipner hasAction SG_9_3
+  + Sleipner hasAction SG_9_4
+  + Sleipner hasAction VCTD_13
+  + Geophysical_measurements hasDurationText 8 days   [hasDuration could not take it]
+  + Geophysical_measurements hasStatus SUCCESSFUL
+  + RV_ALKOR maxDepthText Not specified   [maxDepth could not take it]
+  + Station_Salt_Dome_Juist stationID 495
+  + Station_Salt_Dome_Juist stationDate 30.05.2011
+  + Station_Salt_Dome_Juist stationTime 04:15
+  + Station_Salt_Dome_Juist_2 stationID 496
+  + Station_Salt_Dome_Juist_2 stationDate 30.05.2011
+  + Station_Salt_Dome_Juist_2 stationTime 07:53
+  + Station_Sleipner stationID 505
+  + Station_Sleipner stationDate 02.06.2011
+  + Station_Sleipner stationTime 06:06
+  + Station_Sleipner_2 stationID 513
+  + Station_Sleipner_2 stationDate 03.06.2011
+  + Station_Sleipner_2 stationTime 12:04
+  + Station_Blowout stationID 532
+  + Station_Blowout stationDate 06.06.2011
+  + Station_Blowout stationTime 17:51
+  + Station_Blowout_2 stationID 533
+  + Station_Blowout_2 stationDate 07.06.2011
+  + Station_Blowout_2 stationTime 06:41
+  + Salt_Dome_Juist locationName Salt Dome Juist
+  + Salt_Dome_Juist latitude 54.1
+  + Salt_Dome_Juist longitude 6.5
+  + Salt_Dome_Juist seabedDepth 30
+  + Sleipner locationName Sleipner
+  + Sleipner latitude 58.23
+  + Sleipner longitude 1.56
+  + Sleipner seabedDepth 79
+  + Blowout locationName Well 22/4-b
+  + Blowout latitude 57.55
+  + Blowout longitude 1.38
+  + Blowout seabedDepth 83
+  + CTD01 has_Depth 29
+  + CTD05 has_Temperature 11.5
+  + CTD05 has_Conductivity 35.06
+  + CTD05 has_Depth 80
+  + CTD06 has_Temperature 6.75
+  + CTD06 has_Conductivity 35.04
+  + CTD06 has_Depth 80
+
+skipped 35 excluded axioms:
+  - AL374 hasTask Task_1   [hasTask has no single named domain/range to type from]
+  - Task_1 hasAction Action_1   [hasAction has no single named domain/range to type from]
+  - AL374 hasTask Task_2   [hasTask has no single named domain/range to type from]
+  - Task_2 hasAction Action_2   [hasAction has no single named domain/range to type from]
+  - AL374 hasTask Task_3   [hasTask has no single named domain/range to type from]
+  - Task_3 hasAction Action_3   [hasAction has no single named domain/range to type from]
+  - CTD01 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD01 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD02 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD02 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD02 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD03 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD03 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD03 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD04 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD04 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD04 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD07 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD07 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD07 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD08 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD08 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD08 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD09 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD09 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD09 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD10 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD10 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD10 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD11 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD11 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD11 has_Depth='unknown'   [could not convert string to float: 'unknown']
+  - CTD12 has_Temperature='unknown'   [could not convert string to float: 'unknown']
+  - CTD12 has_Conductivity='unknown'   [could not convert string to float: 'unknown']
+  - CTD12 has_Depth='unknown'   [could not convert string to float: 'unknown']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_AL374 CR ifm-geomar_rep51-1.rdf

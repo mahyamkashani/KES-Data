@@ -1,0 +1,129 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 76
+
+created 61 individuals:
+  + RV_Poseidon : Vehicle
+  + OBS_16 : Hydrophone
+  + RV_Maria_S_Merian : Vehicle
+  + OBS_1 : Hydrophone
+  + OBS_2 : Hydrophone
+  + OBS_3 : Hydrophone
+  + OBS_4 : Hydrophone
+  + OBS_5 : Hydrophone
+  + OBS_6 : Hydrophone
+  + OBS_7 : Hydrophone
+  + OBS_8 : Hydrophone
+  + OBS_9 : Hydrophone
+  + OBS_10 : Hydrophone
+  + OBS_11 : Hydrophone
+  + OBS_12 : Hydrophone
+  + OBS_13 : Hydrophone
+  + OBS_14 : Hydrophone
+  + OBS_15 : Hydrophone
+  + OBS_17 : Hydrophone
+  + OBS_18 : Hydrophone
+  + OBS_19 : Hydrophone
+  + OBS_20 : Hydrophone
+  + OBS_21 : Hydrophone
+  + OBS_22 : Hydrophone
+  + OBS_23 : Hydrophone
+  + OBS_24 : Hydrophone
+  + OBS_25 : Hydrophone
+  + OBS_26 : Hydrophone
+  + OBS_27 : Hydrophone
+  + OBS_28 : Hydrophone
+  + OBS_29 : Hydrophone
+  + OBS_30 : Hydrophone
+  + POS389 : Station
+  + POS393 : Station
+  + MSM15_5 : Task
+  + OBS_31 : State
+  + OBS_32 : State
+  + OBS_33 : State
+  + OBS_34 : State
+  + OBS_35 : State
+  + OBS_36 : State
+  + OBS_37 : State
+  + OBS_38 : State
+  + OBS_39 : State
+  + OBS_40 : State
+  + OBS_41 : State
+  + OBS_42 : State
+  + OBS_43 : State
+  + OBS_44 : State
+  + OBS_45 : State
+  + OBS_46 : State
+  + OBS_47 : State
+  + OBS_48 : State
+  + OBS_49 : State
+  + OBS_50 : State
+  + OBS_51 : State
+  + OBS_52 : State
+  + OBS_53 : State
+  + OBS_54 : State
+  + P389 : Task
+  + P393 : Task
+
+asserted 43 axioms:
+  + RV_Poseidon hasSensor OBS_16
+  + RV_Maria_S_Merian hasSensor OBS_1
+  + RV_Maria_S_Merian hasSensor OBS_2
+  + RV_Maria_S_Merian hasSensor OBS_3
+  + RV_Maria_S_Merian hasSensor OBS_4
+  + RV_Maria_S_Merian hasSensor OBS_5
+  + RV_Maria_S_Merian hasSensor OBS_6
+  + RV_Maria_S_Merian hasSensor OBS_7
+  + RV_Maria_S_Merian hasSensor OBS_8
+  + RV_Maria_S_Merian hasSensor OBS_9
+  + RV_Maria_S_Merian hasSensor OBS_10
+  + RV_Maria_S_Merian hasSensor OBS_11
+  + RV_Maria_S_Merian hasSensor OBS_12
+  + RV_Maria_S_Merian hasSensor OBS_13
+  + RV_Maria_S_Merian hasSensor OBS_14
+  + RV_Maria_S_Merian hasSensor OBS_15
+  + RV_Maria_S_Merian hasSensor OBS_16
+  + RV_Maria_S_Merian hasSensor OBS_17
+  + RV_Maria_S_Merian hasSensor OBS_18
+  + RV_Maria_S_Merian hasSensor OBS_19
+  + RV_Maria_S_Merian hasSensor OBS_20
+  + RV_Maria_S_Merian hasSensor OBS_21
+  + RV_Maria_S_Merian hasSensor OBS_22
+  + RV_Maria_S_Merian hasSensor OBS_23
+  + RV_Maria_S_Merian hasSensor OBS_24
+  + RV_Maria_S_Merian hasSensor OBS_25
+  + RV_Maria_S_Merian hasSensor OBS_26
+  + RV_Maria_S_Merian hasSensor OBS_27
+  + RV_Maria_S_Merian hasSensor OBS_28
+  + RV_Maria_S_Merian hasSensor OBS_29
+  + RV_Maria_S_Merian hasSensor OBS_30
+  + POS389 stationID POS389
+  + POS389 stationDate 06.–17.08.2009
+  + POS389 stationTime 18:40
+  + POS393 stationID POS393
+  + POS393 stationDate 14.–24.01.2010
+  + POS393 stationTime 08:20
+  + MSM15_5 hasDuration 4.0
+  + MSM15_5 hasStatus SUCCESSFUL
+  + P389 hasDuration 3.88
+  + P389 hasStatus SUCCESSFUL
+  + P393 hasDuration 3.5
+  + P393 hasStatus SUCCESSFUL
+
+skipped 14 excluded axioms:
+  - Mission_hasTask_M389 POS389   [not a subject/property/object triple]
+  - Task_hasAction_A1 POS389   [not a subject/property/object triple]
+  - Traversal_hasVehicle_RV_Poseidon_M389 POS389   [not a subject/property/object triple]
+  - Traversal_hasDestination_Waypoint_Valletta_M389 POS389   [not a subject/property/object triple]
+  - Traversal_goes_through_Waypoint_Malaga_M389 POS389   [not a subject/property/object triple]
+  - Mission_hasTask_M393 POS393   [not a subject/property/object triple]
+  - Task_hasAction_A2 POS393   [not a subject/property/object triple]
+  - Traversal_hasVehicle_RV_Poseidon_M393 POS393   [not a subject/property/object triple]
+  - Traversal_hasDestination_Waypoint_Malaga_M393 POS393   [not a subject/property/object triple]
+  - Traversal_goes_through_Waypoint_Faro_M393 POS393   [not a subject/property/object triple]
+  - Mission_hasTask_MSM15_5 MSM15/5   [not a subject/property/object triple]
+  - Task_hasAction_A3 MSM15/5   [not a subject/property/object triple]
+  - Traversal_hasVehicle_RV_MariaS_Merian_MSM15/5 MSM15/5   [not a subject/property/object triple]
+  - Traversal_hasDestination_Waypoint_Valletta_MSM15/5 MSM15/5   [not a subject/property/object triple]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep45-red.rdf

@@ -1,0 +1,110 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 33
+
+created 18 individuals:
+  + RV_Chakratong_Tongyai : Vehicle
+  + Oyo_Geospace_Bird_Remote_Units : Sonar
+  + MASS_III_001 : Task
+  + MASS_III_002 : Task
+  + MASS_III_003 : Task
+  + MASS_III_004 : Task
+  + MASS_III_005 : Task
+  + MASS_III_006 : Task
+  + MASS_III_007 : Task
+  + MASS_III_Cruise : Bathymetric_Mission
+  + Mini_Gravity_Corer : Data_Sampling_Mission
+  + MASS_III : Mission
+  + MASS_III_008 : Station
+  + MASS_III_009 : Station
+  + MASS_III_010 : Station
+  + MASS_III_011 : Station
+  + MASS_III_012 : Station
+  + MASS_III_013 : Station
+
+asserted 83 axioms:
+  + RV_Chakratong_Tongyai hasSensor Oyo_Geospace_Bird_Remote_Units
+  + MASS_III_001 hasAction Act_DeepDive
+  + MASS_III_002 hasAction Act_DeepDive
+  + MASS_III_003 hasAction Act_DeepDive
+  + MASS_III_004 hasAction Act_DeepDive
+  + MASS_III_005 hasAction Act_DeepDive
+  + MASS_III_006 hasAction Act_DeepDive
+  + MASS_III_007 hasAction Act_DeepDive
+  + MASS_III_Cruise hasDurationText 13 days   [hasDuration could not take it]
+  + MASS_III_Cruise hasStatus SUCCESSFUL
+  + Mini_Gravity_Corer hasDurationText Variable   [hasDuration could not take it]
+  + Mini_Gravity_Corer hasStatus SUCCESSFUL
+  + Mini_Gravity_Corer collect_sample Sediment samples
+  + RV_Chakratong_Tongyai maxDepthText 2000 m   [maxDepth could not take it]
+  + MASS_III_001 stationID MASS III-001
+  + MASS_III_001 stationDate 19.01.11
+  + MASS_III_001 stationTime 02:24
+  + MASS_III_002 stationID MASS III-002
+  + MASS_III_002 stationDate 19.01.11
+  + MASS_III_002 stationTime 03:45
+  + MASS_III_003 stationID 003
+  + MASS_III_003 stationName Coring Station 3
+  + MASS_III_003 stationDate 19.01.11
+  + MASS_III_003 stationTime 09:45
+  + MASS_III_004 stationID MASS III-004
+  + MASS_III_004 stationDate 20.01.11
+  + MASS_III_004 stationTime 03:04
+  + MASS_III_005 stationID MASS III-005
+  + MASS_III_005 stationDate 20.01.11
+  + MASS_III_005 stationTime 07:57
+  + MASS_III_006 stationID MASS III-006
+  + MASS_III_006 stationDate 20.01.11
+  + MASS_III_006 stationTime 09:16
+  + MASS_III_007 stationID MASS III-007
+  + MASS_III_007 stationDate 21.01.11
+  + MASS_III_007 stationTime 01:48
+  + MASS_III MissionID MASS-III
+  + MASS_III startTime 2011-01-11
+  + MASS_III endTime 2011-01-24
+  + MASS_III maxDepthText 2000 m   [maxDepth could not take it]
+  + MASS_III dataVolume 450 nautical miles of seismic profiles
+  + MASS_III hasStatus SUCCESSFUL
+  + MASS_III remark Cruise conducted in the Andaman Sea to assess tsunami risks.
+  + MASS_III_008 stationID MASS III-008
+  + MASS_III_008 stationDate 21.01.11
+  + MASS_III_008 stationTime 03:56
+  + MASS_III_009 stationID MASS III-009
+  + MASS_III_009 stationDate 21.01.11
+  + MASS_III_009 stationTime 05:55
+  + MASS_III_010 stationID MASS III-010
+  + MASS_III_010 stationDate 21.01.11
+  + MASS_III_010 stationTime 06:55
+  + MASS_III_011 stationID MASS III-011
+  + MASS_III_011 stationDate 21.01.11
+  + MASS_III_011 stationTime 08:22
+  + MASS_III_012 stationID MASS III-012
+  + MASS_III_012 stationDate 21.01.11
+  + MASS_III_012 stationTime 09:15
+  + MASS_III_013 stationID MASS III-013
+  + MASS_III_013 stationDate 22.01.11
+  + MASS_III_013 stationTime 02:03
+  + MASS_III_001 locationName MASS III-001
+  + MASS_III_001 latitude 8°25.48
+  + MASS_III_001 longitude 95°56.66
+  + MASS_III_001 seabedDepth 573.3
+  + MASS_III_002 locationName MASS III-002
+  + MASS_III_002 latitude 8°25.30
+  + MASS_III_002 longitude 95°56.95
+  + MASS_III_002 seabedDepth 555.6
+  + MASS_III_006 locationName MASS III-006
+  + MASS_III_006 latitude 7°47.32
+  + MASS_III_006 longitude 95°46.28
+  + MASS_III_006 seabedDepth 822.2
+  + MASS_III_007 locationName MASS III-007
+  + MASS_III_007 latitude 8°11.97
+  + MASS_III_007 longitude 95°52.96
+  + MASS_III_007 seabedDepth 597.8
+  + MASS_III_001 has_Depth 573.3
+  + MASS_III_002 has_Depth 551.1
+  + MASS_III_006 has_Depth 822.2
+  + MASS_III_007 has_Depth 597.8
+  + MASS_III_009 has_Depth 714.5
+  + MASS_III_010 has_Depth 632.2
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep43.rdf

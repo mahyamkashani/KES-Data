@@ -1,0 +1,144 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 39
+
+created 24 individuals:
+  + M01 : Platform
+  + V01 : Vehicle
+  + M02 : Platform
+  + V02 : Vehicle
+  + IFM06 : Waypoint
+  + IFM07 : Waypoint
+  + IFM03 : Waypoint
+  + IFM09 : Waypoint
+  + Mission_01 : Mission
+  + Mission_02 : Mission
+  + Mission_03 : Mission
+  + Mission_04 : Mission
+  + Mission_05 : Mission
+  + Mission_06 : Mission
+  + IFM10 : Waypoint
+  + IFM11 : Waypoint
+  + Dive_06 : Task
+  + Dive_03 : Task
+  + Dive_09 : Task
+  + Dive_07 : Task
+  + Dive_10 : Task
+  + Dive_11 : Task
+  + Dive_03_2nd_launch : Task
+  + Dive_09_2nd_launch : Task
+
+asserted 79 axioms:
+  + M01 usesVehicle V01
+  + M02 usesVehicle V02
+  + IFM06 locationName Sao Vicente
+  + IFM06 latitude 16°46.79'
+  + IFM06 longitude 25°06.41'
+  + IFM06 seabedDepthText 700 m   [seabedDepth could not take it]
+  + IFM07 locationName Sao Vicente
+  + IFM07 latitude 16°46.61'
+  + IFM07 longitude 25°07.13'
+  + IFM07 seabedDepthText 700 m   [seabedDepth could not take it]
+  + IFM03 locationName Sao Vicente
+  + IFM03 latitude 16°46.32'
+  + IFM03 longitude 25°05.49'
+  + IFM03 seabedDepthText 700 m   [seabedDepth could not take it]
+  + IFM09 locationName Sao Vicente
+  + IFM09 latitude 16°46.46'
+  + IFM09 longitude 25°06.05'
+  + IFM09 seabedDepthText 700 m   [seabedDepth could not take it]
+  + Mission_01 MissionID Glider fleet
+  + Mission_01 startTime 05.03.2010
+  + Mission_01 endTime 19.03.2010
+  + Mission_01 maxDepthText 700 m   [maxDepth could not take it]
+  + Mission_01 dataVolume Not specified
+  + Mission_01 hasStatus SUCCESSFUL
+  + Mission_01 remark Expedition conducted in Cape Verde
+  + Mission_02 MissionID IFM 06
+  + Mission_02 startTime 11.03.2010
+  + Mission_02 endTime 11.03.2010
+  + Mission_02 maxDepthText 200 m   [maxDepth could not take it]
+  + Mission_02 dataVolume Not specified
+  + Mission_02 remark First launch of IFM 06
+  + Mission_03 MissionID IFM 03
+  + Mission_03 startTime 15.03.2010
+  + Mission_03 endTime 15.03.2010
+  + Mission_03 maxDepthText Not specified   [maxDepth could not take it]
+  + Mission_03 dataVolume Not specified
+  + Mission_03 remark Second launch of IFM 03
+  + Mission_04 MissionID IFM 09
+  + Mission_04 startTime 15.03.2010
+  + Mission_04 endTime 15.03.2010
+  + Mission_04 maxDepthText Not specified   [maxDepth could not take it]
+  + Mission_04 dataVolume Not specified
+  + Mission_04 remark Second launch of IFM 09
+  + Mission_05 MissionID IFM 07
+  + Mission_05 startTime 16.03.2010
+  + Mission_05 endTime 16.03.2010
+  + Mission_05 maxDepthText Not specified   [maxDepth could not take it]
+  + Mission_05 dataVolume Not specified
+  + Mission_05 remark Re-deployed after adjustments
+  + Mission_06 MissionID IFM 06 Recovery
+  + Mission_06 startTime 16.03.2010
+  + Mission_06 endTime 16.03.2010
+  + Mission_06 maxDepthText Not specified   [maxDepth could not take it]
+  + Mission_06 dataVolume Not specified
+  + Mission_06 remark Recovered due to leakage detection
+  + IFM10 locationName Sao Vicente
+  + IFM10 latitude 16°46.83'
+  + IFM10 longitude 25°07.03'
+  + IFM10 seabedDepthText 700 m   [seabedDepth could not take it]
+  + IFM11 locationName Sao Vicente
+  + IFM11 latitude 16°46.42'
+  + IFM11 longitude 25°08.34'
+  + IFM11 seabedDepthText 700 m   [seabedDepth could not take it]
+  + Dive_06 hasDuration 1.0
+  + Dive_06 hasStatus SUCCESSFUL
+  + Dive_03 hasDuration 1.0
+  + Dive_03 hasStatus SUCCESSFUL
+  + Dive_09 hasDuration 1.0
+  + Dive_09 hasStatus SUCCESSFUL
+  + Dive_07 hasDuration 1.0
+  + Dive_07 hasStatus FAILED
+  + Dive_10 hasDuration 1.0
+  + Dive_10 hasStatus SUCCESSFUL
+  + Dive_11 hasDuration 1.0
+  + Dive_11 hasStatus SUCCESSFUL
+  + Dive_03_2nd_launch hasDuration 1.0
+  + Dive_03_2nd_launch hasStatus FAILED
+  + Dive_09_2nd_launch hasDuration 1.0
+  + Dive_09_2nd_launch hasStatus FAILED
+
+skipped 30 excluded axioms:
+  - Happy Hooker II deploys vehicle IFM06   [object property 'deploys vehicle' not in ontology]
+  - Happy Hooker II deploys vehicle IFM03   [object property 'deploys vehicle' not in ontology]
+  - Happy Hooker II deploys vehicle IFM09   [object property 'deploys vehicle' not in ontology]
+  - IFM06 realised by action Act_DeepDive   [object property 'realised by action' not in ontology]
+  - IFM06 realised by action Act_TakePhoto   [object property 'realised by action' not in ontology]
+  - IFM07 realised by action Act_DeepDive   [object property 'realised by action' not in ontology]
+  - IFM07 realised by action Act_TakePhoto   [object property 'realised by action' not in ontology]
+  - IFM03 realised by action Act_DeepDive   [object property 'realised by action' not in ontology]
+  - IFM09 realised by action Act_DeepDive   [object property 'realised by action' not in ontology]
+  - IFM06 has task AL533   [object property 'has task' not in ontology]
+  - IFM03 has task AL533   [object property 'has task' not in ontology]
+  - IFM09 has task AL533   [object property 'has task' not in ontology]
+  - SurveyNavigation hasMission M01   [hasMission has no single named domain/range to type from]
+  - M01 hasGoal G01   [hasGoal has no single named domain/range to type from]
+  - M01 hasInitialCondition S01   [hasInitialCondition has no single named domain/range to type from]
+  - M01 hasTask T01   [hasTask has no single named domain/range to type from]
+  - T01 realisedByAction A01   [realisedByAction has no single named domain/range to type from]
+  - S01 hasScenarioTask T02   [hasScenarioTask has no single named domain/range to type from]
+  - SurveyNavigation hasMission M02   [hasMission has no single named domain/range to type from]
+  - M02 hasGoal G02   [hasGoal has no single named domain/range to type from]
+  - M02 hasInitialCondition S02   [hasInitialCondition has no single named domain/range to type from]
+  - M02 hasTask T03   [hasTask has no single named domain/range to type from]
+  - T03 realisedByAction A02   [realisedByAction has no single named domain/range to type from]
+  - S02 hasScenarioTask T04   [hasScenarioTask has no single named domain/range to type from]
+  - Expedition Report : LongTask   [class not in ontology]
+  - Mission_02 hasStatus   ['Deployed' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+  - Mission_03 hasStatus   ['Deployed' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+  - Mission_04 hasStatus   ['Deployed' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+  - Mission_05 hasStatus   ['Re-deployed' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+  - Mission_06 hasStatus   ['Recovered' is outside the hasStatus enumeration ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL']]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep40.rdf

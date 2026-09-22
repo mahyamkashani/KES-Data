@@ -1,0 +1,353 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 85
+
+created 70 individuals:
+  + RV_SONNE : Vehicle
+  + OBH_01 : Hydrophone
+  + OBS_05 : Hydrophone
+  + OBS_06 : Hydrophone
+  + SO192_1 : Mission
+  + CTD : Task
+  + Magnetometer : Task
+  + OBH_02 : Data_Sampling_Mission
+  + OBH_03 : Data_Sampling_Mission
+  + OBH_04 : Data_Sampling_Mission
+  + Mission_OBH01 : Mission
+  + Mission_OBH02 : Mission
+  + Mission_OBH03 : Mission
+  + Mission_OBH04 : Mission
+  + Mission_OBH90 : Mission
+  + Mission_OBH96 : Mission
+  + OBS_07 : Station
+  + OBS_08 : Station
+  + OBS_09 : Station
+  + OBS_10 : Station
+  + OBS_11 : Station
+  + OBS_23 : Station
+  + OBS_24 : Station
+  + OBS_25 : Station
+  + OBH_26 : Station
+  + OBH_27 : Station
+  + OBH_28 : Station
+  + OBH_29 : Station
+  + OBH_30 : Waypoint
+  + OBH_31 : Waypoint
+  + OBS_32 : Station
+  + OBS_33 : Station
+  + OBS_34 : Station
+  + OBS_35 : Station
+  + OBS_36 : Station
+  + OBS_37 : Station
+  + OBS_38 : Station
+  + OBS_39 : Station
+  + OBS_40 : Station
+  + OBS_60 : Station
+  + OBS_61 : Station
+  + OBS_62 : Station
+  + OBS_63 : Station
+  + OBS_64 : Station
+  + OBS_65 : Station
+  + OBS_71 : Station
+  + OBS_72 : Station
+  + OBS_73 : Station
+  + OBS_74 : Station
+  + OBS_75 : Station
+  + OBS_76 : Station
+  + OBH_88 : Station
+  + OBH_89 : Station
+  + OBH_90 : Waypoint
+  + OBS_119 : Station
+  + Landstation_01 : Station
+  + Landstation_02 : Station
+  + OBH_120 : Station
+  + OBS_121 : Station
+  + OBS_122 : Station
+  + OBH_92 : Waypoint
+  + OBH_93 : Waypoint
+  + OBH_94 : Waypoint
+  + OBH_95 : Waypoint
+  + OBH_96 : Waypoint
+  + SO192_001_1 : State
+  + SO192_002_1 : State
+  + SO192_003_1 : State
+  + SO192_004_1 : State
+  + SO192_005_1 : State
+
+asserted 252 axioms:
+  + RV_SONNE hasSensor OBH_01
+  + RV_SONNE hasSensor OBS_05
+  + RV_SONNE hasSensor OBS_06
+  + SO192_1 hasTask CTD
+  + SO192_1 hasTask Magnetometer
+  + SO192_1 hasDurationText Cruise duration   [hasDuration could not take it]
+  + SO192_1 hasStatus SUCCESSFUL
+  + OBH_01 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_01 hasStatus SUCCESSFUL
+  + OBH_01 collect_sample Yes
+  + OBH_02 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_02 hasStatus SUCCESSFUL
+  + OBH_02 collect_sample Yes
+  + OBH_03 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_03 hasStatus SUCCESSFUL
+  + OBH_03 collect_sample Yes
+  + OBH_04 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_04 hasStatus SUCCESSFUL
+  + OBH_04 collect_sample Yes
+  + OBS_05 hasDurationText 3 days   [hasDuration could not take it]
+  + OBS_05 hasStatus SUCCESSFUL
+  + OBS_05 collect_sample Yes
+  + OBS_06 hasDurationText 3 days   [hasDuration could not take it]
+  + OBS_06 hasStatus SUCCESSFUL
+  + OBS_06 collect_sample Yes
+  + RV_SONNE maxDepthText 11000 m   [maxDepth could not take it]
+  + Mission_OBH01 MissionID OBH 01
+  + Mission_OBH01 startTime 27.03.07
+  + Mission_OBH01 endTime 30.03.07
+  + Mission_OBH01 maxDepth 3625
+  + Mission_OBH01 dataVolume unknown
+  + Mission_OBH01 hasStatus SUCCESSFUL
+  + Mission_OBH01 remark HTI 88 gr. Kugel
+  + Mission_OBH02 MissionID OBH 02
+  + Mission_OBH02 startTime 27.03.07
+  + Mission_OBH02 endTime 30.03.07
+  + Mission_OBH02 maxDepth 3638
+  + Mission_OBH02 dataVolume unknown
+  + Mission_OBH02 hasStatus SUCCESSFUL
+  + Mission_OBH02 remark HTI 33 gr. Kugel
+  + Mission_OBH03 MissionID OBH 03
+  + Mission_OBH03 startTime 27.03.07
+  + Mission_OBH03 endTime 30.03.07
+  + Mission_OBH03 maxDepth 3653
+  + Mission_OBH03 dataVolume unknown
+  + Mission_OBH03 hasStatus SUCCESSFUL
+  + Mission_OBH03 remark HTI 79 kl. Kugel
+  + Mission_OBH04 MissionID OBH 04
+  + Mission_OBH04 startTime 27.03.07
+  + Mission_OBH04 endTime 30.03.07
+  + Mission_OBH04 maxDepth 3696
+  + Mission_OBH04 dataVolume unknown
+  + Mission_OBH04 hasStatus SUCCESSFUL
+  + Mission_OBH04 remark HTI 48 kl. Kugel
+  + Mission_OBH90 MissionID OBH 90
+  + Mission_OBH90 startTime 10.04.07
+  + Mission_OBH90 endTime 13.04.07
+  + Mission_OBH90 maxDepth 5703
+  + Mission_OBH90 dataVolume unknown
+  + Mission_OBH90 hasStatus SUCCESSFUL
+  + Mission_OBH90 remark HTI 33 gr. Kugel
+  + Mission_OBH96 MissionID OBH 96
+  + Mission_OBH96 startTime 10.04.07
+  + Mission_OBH96 endTime 13.04.07
+  + Mission_OBH96 maxDepth 5843
+  + Mission_OBH96 dataVolume unknown
+  + Mission_OBH96 hasStatus SUCCESSFUL
+  + Mission_OBH96 remark HTI 48 kl. Kugel
+  + OBH_01 locationName OBH 01
+  + OBH_01 latitude 37° 57,775' S
+  + OBH_01 longitude 179° 59,952' E
+  + OBH_01 seabedDepth 3625
+  + OBH_02 locationName OBH 02
+  + OBH_02 latitude 37° 56,095' S
+  + OBH_02 longitude 179° 56,535' E
+  + OBH_02 seabedDepth 3638
+  + OBH_03 locationName OBH 03
+  + OBH_03 latitude 37° 54,494' S
+  + OBH_03 longitude 179° 53,034' E
+  + OBH_03 seabedDepth 3653
+  + OBH_04 locationName OBH 04
+  + OBH_04 latitude 37° 52,860' S
+  + OBH_04 longitude 179° 49,524' E
+  + OBH_04 seabedDepth 3696
+  + OBS_05 locationName OBS 05
+  + OBS_05 latitude 37° 51,221' S
+  + OBS_05 longitude 179° 46,012' E
+  + OBS_05 seabedDepth 3755
+  + OBS_06 locationName OBS 06
+  + OBS_06 latitude 37° 49,609' S
+  + OBS_06 longitude 179° 42,471' E
+  + OBS_06 seabedDepth 3679
+  + OBS_07 stationID OBS 07
+  + OBS_07 stationDate 27.03.07
+  + OBS_07 stationTime 30.03.07
+  + OBS_08 stationID OBS 08
+  + OBS_08 stationDate 27.03.07
+  + OBS_08 stationTime 30.03.07
+  + OBS_09 stationID OBS 09
+  + OBS_09 stationDate 27.03.07
+  + OBS_09 stationTime 30.03.07
+  + OBS_10 stationID OBS 10
+  + OBS_10 stationDate 27.03.07
+  + OBS_10 stationTime 30.03.07
+  + OBS_11 stationID OBS 11
+  + OBS_11 stationDate 27.03.07
+  + OBS_11 stationTime 30.03.07
+  + OBS_23 stationID OBS 23
+  + OBS_23 stationDate 27.03.07
+  + OBS_23 stationTime 31.04.07
+  + OBS_24 stationID OBS 24
+  + OBS_24 stationDate 27.03.07
+  + OBS_24 stationTime 31.04.07
+  + OBS_25 stationID OBS 25
+  + OBS_25 stationDate 27.03.07
+  + OBS_25 stationTime 31.04.07
+  + OBH_26 stationID OBH 26
+  + OBH_26 stationDate 27.03.07
+  + OBH_26 stationTime 31.04.07
+  + OBH_27 stationID OBH 27
+  + OBH_27 stationDate 27.03.07
+  + OBH_27 stationTime 31.04.07
+  + OBH_28 stationID OBH 28
+  + OBH_28 stationDate 27.03.07
+  + OBH_28 stationTime 31.04.07
+  + OBH_29 stationID OBH 29
+  + OBH_29 stationDate 27.03.07
+  + OBH_29 stationTime 31.04.07
+  + OBH_30 locationName OBH 30
+  + OBH_30 latitude 34° 54,541' S
+  + OBH_30 longitude 178° 59,947' W
+  + OBH_30 seabedDepth 5892
+  + OBH_31 locationName OBH 31
+  + OBH_31 latitude 34° 52,389' S
+  + OBH_31 longitude 179° 03,480' W
+  + OBH_31 seabedDepth 5294
+  + OBS_32 stationID OBS 32
+  + OBS_32 stationDate 01.04.07
+  + OBS_32 stationTime 03.04.07
+  + OBS_33 stationID OBS 33
+  + OBS_33 stationDate 01.04.07
+  + OBS_33 stationTime 03.04.07
+  + OBS_34 stationID OBS 34
+  + OBS_34 stationDate 01.04.07
+  + OBS_34 stationTime 03.04.07
+  + OBS_35 stationID OBS 35
+  + OBS_35 stationDate 01.04.07
+  + OBS_35 stationTime 03.04.07
+  + OBS_36 stationID OBS 36
+  + OBS_36 stationDate 01.04.07
+  + OBS_36 stationTime 03.04.07
+  + OBS_37 stationID OBS 37
+  + OBS_37 stationDate 01.04.07
+  + OBS_37 stationTime 03.04.07
+  + OBS_38 stationID OBS 38
+  + OBS_38 stationDate 01.04.07
+  + OBS_38 stationTime 03.04.07
+  + OBS_39 stationID OBS 39
+  + OBS_39 stationDate 01.04.07
+  + OBS_39 stationTime 03.04.07
+  + OBS_40 stationID OBS 40
+  + OBS_40 stationDate 01.04.07
+  + OBS_40 stationTime 03.04.07
+  + OBS_60 stationID OBS 60
+  + OBS_60 stationDate 05.04.07
+  + OBS_60 stationTime 09.04.07
+  + OBS_61 stationID OBS 61
+  + OBS_61 stationDate 05.04.07
+  + OBS_61 stationTime 09.04.07
+  + OBS_62 stationID OBS 62
+  + OBS_62 stationDate 05.04.07
+  + OBS_62 stationTime 09.04.07
+  + OBS_63 stationID OBS 63
+  + OBS_63 stationDate 05.04.07
+  + OBS_63 stationTime 09.04.07
+  + OBS_64 stationID OBS 64
+  + OBS_64 stationDate 05.04.07
+  + OBS_64 stationTime 09.04.07
+  + OBS_65 stationID OBS 65
+  + OBS_65 stationDate 05.04.07
+  + OBS_65 stationTime 09.04.07
+  + OBS_71 stationID OBS 71
+  + OBS_71 stationDate 05.04.07
+  + OBS_71 stationTime 08.04.07
+  + OBS_72 stationID OBS 72
+  + OBS_72 stationDate 05.04.07
+  + OBS_72 stationTime 08.04.07
+  + OBS_73 stationID OBS 73
+  + OBS_73 stationDate 05.04.07
+  + OBS_73 stationTime 08.04.07
+  + OBS_74 stationID OBS 74
+  + OBS_74 stationDate 05.04.07
+  + OBS_74 stationTime 08.04.07
+  + OBS_75 stationID OBS 75
+  + OBS_75 stationDate 05.04.07
+  + OBS_75 stationTime 07.04.07
+  + OBS_76 stationID OBS 76
+  + OBS_76 stationDate 05.04.07
+  + OBS_76 stationTime 07.04.07
+  + OBH_88 stationID OBH 88
+  + OBH_88 stationDate 05.04.07
+  + OBH_88 stationTime 07.04.07
+  + OBH_89 stationID OBH 89
+  + OBH_89 stationDate 05.04.07
+  + OBH_89 stationTime 07.04.07
+  + OBH_90 locationName OBH 90
+  + OBH_90 latitude 29° 34,950' S
+  + OBH_90 longitude 175° 10,030' W
+  + OBH_90 seabedDepth 5703
+  + OBS_119 stationID OBS 119
+  + OBS_119 stationDate 10.04.07
+  + OBS_119 stationTime 16.04.07
+  + Landstation_01 stationID Landstation 01
+  + Landstation_01 stationDate 10.04.07
+  + Landstation_01 stationTime 16.04.07
+  + Landstation_02 stationID Landstation 02
+  + Landstation_02 stationDate 10.04.07
+  + Landstation_02 stationTime 16.04.07
+  + OBH_120 stationID OBH 120
+  + OBH_120 stationDate 14.04.07
+  + OBH_120 stationTime 16.04.07
+  + OBS_121 stationID OBS 121
+  + OBS_121 stationDate 14.04.07
+  + OBS_121 stationTime 16.04.07
+  + OBS_122 stationID OBS 122
+  + OBS_122 stationDate 14.04.07
+  + OBS_122 stationTime 16.04.07
+  + OBH_92 locationName OBH 92
+  + OBH_92 latitude 29° 33,893' S
+  + OBH_92 longitude 175° 15,002' W
+  + OBH_92 seabedDepth 5684
+  + OBH_93 locationName OBH 93
+  + OBH_93 latitude 29° 32,837' S
+  + OBH_93 longitude 175° 20,001' W
+  + OBH_93 seabedDepth 5714
+  + OBH_94 locationName OBH 94
+  + OBH_94 latitude 29° 31,813' S
+  + OBH_94 longitude 175° 25,023' W
+  + OBH_94 seabedDepth 5844
+  + OBH_95 locationName OBH 95
+  + OBH_95 latitude 29° 30,790' S
+  + OBH_95 longitude 175° 30,012' W
+  + OBH_95 seabedDepth 5775
+  + OBH_96 locationName OBH 96
+  + OBH_96 latitude 29° 29,724' S
+  + OBH_96 longitude 175° 35,002' W
+  + OBH_96 seabedDepth 5843
+  + SO192_001_1 has_Depth 214
+  + SO192_002_1 has_Depth 19
+  + SO192_003_1 has_Depth 3100
+  + SO192_004_1 has_Depth 21
+  + SO192_005_1 has_Depth 3624
+
+skipped 20 excluded axioms:
+  - SO192-1 hasTask MANGO   [hasTask has no single named domain/range to type from]
+  - MANGO hasAction RV_SONNE   [hasAction has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_176   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_181   [hasTask has no single named domain/range to type from]
+  - RV_Poseidon hasTask POS_316   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_177   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_186   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_190   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_191   [hasTask has no single named domain/range to type from]
+  - FS_ALKOR hasTask AL_275   [hasTask has no single named domain/range to type from]
+  - SO192/001-1 has_Temperature="36° 31,00' S"   [could not convert string to float: "36° 31,00' S"]
+  - SO192/001-1 has_Conductivity="176° 4,46' E"   [could not convert string to float: "176° 4,46' E"]
+  - SO192/002-1 has_Temperature="36° 50,01' S"   [could not convert string to float: "36° 50,01' S"]
+  - SO192/002-1 has_Conductivity="177° 29,38' E"   [could not convert string to float: "177° 29,38' E"]
+  - SO192/003-1 has_Temperature="36° 23,05' S"   [could not convert string to float: "36° 23,05' S"]
+  - SO192/003-1 has_Conductivity="177° 20,23' E"   [could not convert string to float: "177° 20,23' E"]
+  - SO192/004-1 has_Temperature="36° 39,93' S"   [could not convert string to float: "36° 39,93' S"]
+  - SO192/004-1 has_Conductivity="177° 25,98' E"   [could not convert string to float: "177° 25,98' E"]
+  - SO192/005-1 has_Temperature="37° 57,72' S"   [could not convert string to float: "37° 57,72' S"]
+  - SO192/005-1 has_Conductivity="179° 59,88' W"   [could not convert string to float: "179° 59,88' W"]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22/marine_survey_populated_ifm-geomar_rep11.rdf

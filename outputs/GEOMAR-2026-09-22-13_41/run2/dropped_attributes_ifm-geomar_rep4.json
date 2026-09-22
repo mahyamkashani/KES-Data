@@ -1,0 +1,245 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_01": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_01: 'Mission_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_02": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_02: 'Mission_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-7": {
+                "hasDuration": 2.56
+            }
+        },
+        "reason": "OFOS-7: hasDuration=2.56 is not printed on any page that names 'OFOS-7' - copy the number the report prints beside 'OFOS-7', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-8": {
+                "hasDuration": 2.56
+            }
+        },
+        "reason": "OFOS-8: hasDuration=2.56 is not printed on any page that names 'OFOS-8' - copy the number the report prints beside 'OFOS-8', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-9": {
+                "hasDuration": 3.3
+            }
+        },
+        "reason": "OFOS-9: hasDuration=3.3 is not printed on any page that names 'OFOS-9' - copy the number the report prints beside 'OFOS-9', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-11": {
+                "hasDuration": 2.53
+            }
+        },
+        "reason": "OFOS-11: hasDuration=2.53 is not printed on any page that names 'OFOS-11' - copy the number the report prints beside 'OFOS-11', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-12": {
+                "hasDuration": 4.31
+            }
+        },
+        "reason": "OFOS-12: hasDuration=4.31 is not printed on any page that names 'OFOS-12' - copy the number the report prints beside 'OFOS-12', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-13": {
+                "hasDuration": 4.44
+            }
+        },
+        "reason": "OFOS-13: hasDuration=4.44 is not printed on any page that names 'OFOS-13' - copy the number the report prints beside 'OFOS-13', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-14": {
+                "hasDuration": 7.03
+            }
+        },
+        "reason": "OFOS-14: hasDuration=7.03 is not printed on any page that names 'OFOS-14' - copy the number the report prints beside 'OFOS-14', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-15": {
+                "hasDuration": 4.59
+            }
+        },
+        "reason": "OFOS-15: hasDuration=4.59 is not printed on any page that names 'OFOS-15' - copy the number the report prints beside 'OFOS-15', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-16": {
+                "hasDuration": 6.25
+            }
+        },
+        "reason": "OFOS-16: hasDuration=6.25 is not printed on any page that names 'OFOS-16' - copy the number the report prints beside 'OFOS-16', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-17": {
+                "hasDuration": 4.1
+            }
+        },
+        "reason": "OFOS-17: hasDuration=4.1 is not printed on any page that names 'OFOS-17' - copy the number the report prints beside 'OFOS-17', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-18": {
+                "hasDuration": 4.25
+            }
+        },
+        "reason": "OFOS-18: hasDuration=4.25 is not printed on any page that names 'OFOS-18' - copy the number the report prints beside 'OFOS-18', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-19": {
+                "hasDuration": 4.25
+            }
+        },
+        "reason": "OFOS-19: hasDuration=4.25 is not printed on any page that names 'OFOS-19' - copy the number the report prints beside 'OFOS-19', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-20": {
+                "hasDuration": 4.25
+            }
+        },
+        "reason": "OFOS-20: hasDuration=4.25 is not printed on any page that names 'OFOS-20' - copy the number the report prints beside 'OFOS-20', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-21": {
+                "hasDuration": 4.25
+            }
+        },
+        "reason": "OFOS-21: hasDuration=4.25 is not printed on any page that names 'OFOS-21' - copy the number the report prints beside 'OFOS-21', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-23": {
+                "hasDuration": 4.35
+            }
+        },
+        "reason": "OFOS-23: hasDuration=4.35 is not printed on any page that names 'OFOS-23' - copy the number the report prints beside 'OFOS-23', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-24": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-24: hasDuration=2.44 is not printed on any page that names 'OFOS-24' - copy the number the report prints beside 'OFOS-24', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-25": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-25: hasDuration=2.44 is not printed on any page that names 'OFOS-25' - copy the number the report prints beside 'OFOS-25', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-26": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-26: hasDuration=2.44 is not printed on any page that names 'OFOS-26' - copy the number the report prints beside 'OFOS-26', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-27": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-27: hasDuration=2.44 is not printed on any page that names 'OFOS-27' - copy the number the report prints beside 'OFOS-27', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-28": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-28: hasDuration=2.44 is not printed on any page that names 'OFOS-28' - copy the number the report prints beside 'OFOS-28', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-29": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-29: hasDuration=2.44 is not printed on any page that names 'OFOS-29' - copy the number the report prints beside 'OFOS-29', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-30": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-30: hasDuration=2.44 is not printed on any page that names 'OFOS-30' - copy the number the report prints beside 'OFOS-30', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-31": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-31: hasDuration=2.44 is not printed on any page that names 'OFOS-31' - copy the number the report prints beside 'OFOS-31', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-32": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-32: hasDuration=2.44 is not printed on any page that names 'OFOS-32' - copy the number the report prints beside 'OFOS-32', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OFOS-33": {
+                "hasDuration": 2.44
+            }
+        },
+        "reason": "OFOS-33: hasDuration=2.44 is not printed on any page that names 'OFOS-33' - copy the number the report prints beside 'OFOS-33', or leave hasDuration out"
+    }
+]

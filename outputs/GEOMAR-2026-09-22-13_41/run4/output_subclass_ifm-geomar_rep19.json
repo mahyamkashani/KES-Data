@@ -1,0 +1,38 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD/O 2 station",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD/O 2 rosette",
+                "hasDuration": "various",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "water samples for oxygen determination"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Glider",
+                "maxDepth": "100m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V L\u2019A TALANTE",
+                "maxDepth": "4800m"
+            }
+        ],
+        "Station": []
+    }
+}

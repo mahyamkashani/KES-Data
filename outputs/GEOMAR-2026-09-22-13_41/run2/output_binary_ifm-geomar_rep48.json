@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "P399",
+                "ESTOC"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "P399 hasDestination ESTOC"
+        }
+    ]
+}

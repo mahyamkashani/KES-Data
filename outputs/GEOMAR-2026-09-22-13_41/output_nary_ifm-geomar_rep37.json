@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "RV_SONNE hasTask So01",
+                "So01 hasAction AIRSAMPLING"
+            ],
+            "Individuals": [
+                "RV_SONNE",
+                "So01",
+                "AIRSAMPLING"
+            ]
+        }
+    }
+}

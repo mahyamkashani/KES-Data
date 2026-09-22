@@ -1,0 +1,244 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Meteor",
+                "M73/2"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Meteor hasMission M73/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "POS340"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission POS340"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 866TVG",
+                "TV-guided grab"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 866TVG hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 869TVG",
+                "TV-guided grab"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 869TVG hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 875RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 875RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 876RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 876RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 879RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 879RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 881RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 881RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 882RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 882RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 885RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 885RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 886RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 886RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 889RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 889RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 895RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 895RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 896RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 896RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 901RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 901RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 902RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 902RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 908RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 908RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 917RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 917RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 918RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 918RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 925RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 925RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 926RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 926RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 927RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 927RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 930RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 930RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 932RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 932RD hasAction Act_DeepDive"
+        }
+    ]
+}

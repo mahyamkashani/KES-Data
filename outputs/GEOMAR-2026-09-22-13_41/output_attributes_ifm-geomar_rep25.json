@@ -1,0 +1,168 @@
+{
+    "Individuals": {
+        "DR5": {
+            "stationID": "DR5",
+            "stationDate": "2008-08-07",
+            "stationTime": "12:58",
+            "class": "Station"
+        },
+        "DR6": {
+            "has_Temperature": "4135",
+            "has_Depth": "3704",
+            "class": "State"
+        },
+        "DR29": {
+            "stationID": "DR29",
+            "stationDate": "2008-08-16",
+            "stationTime": "19:46",
+            "class": "Station"
+        },
+        "DR31": {
+            "stationID": "DR31",
+            "stationDate": "2008-08-17",
+            "stationTime": "21:01",
+            "class": "Station"
+        },
+        "SO199": {
+            "stationID": "SO199",
+            "stationDate": "2008-08-02/2008-09-22",
+            "class": "Station"
+        },
+        "DR1": {
+            "has_Temperature": "4036",
+            "has_Depth": "3546",
+            "class": "State"
+        },
+        "DR2": {
+            "has_Temperature": "4602",
+            "has_Depth": "4135",
+            "class": "State"
+        },
+        "DR3": {
+            "class": "State"
+        },
+        "DR28": {
+            "stationID": "DR28",
+            "stationDate": "2008-08-16",
+            "stationTime": "08:40",
+            "class": "Station"
+        },
+        "Outsider_Seamount": {
+            "locationName": "Outsider Seamount",
+            "latitude": "-6.25000",
+            "longitude": "45 nm west of the Investigator Ridge",
+            "class": "Waypoint"
+        },
+        "Investigator_Ridge": {
+            "locationName": "Investigator Ridge",
+            "latitude": "-16.00000",
+            "longitude": "98.73867",
+            "seabedDepth": "4,649 to 4,290 m",
+            "class": "Waypoint"
+        },
+        "Sherbakov_Seamount": {
+            "locationName": "Sherbakov Seamount",
+            "latitude": "-10.90817",
+            "longitude": "104.53400",
+            "class": "Waypoint"
+        },
+        "DR_1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_2": {
+            "class": "Task"
+        },
+        "DR_5": {
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "DR_8": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_16": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_19": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_20": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_21": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_36": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_39": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_44": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_45": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_52": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_56": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_57": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_58": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR36": {
+            "has_Temperature": "2548",
+            "has_Depth": "2230",
+            "class": "State"
+        },
+        "DR39": {
+            "has_Temperature": "3100",
+            "has_Depth": "2711",
+            "class": "State"
+        },
+        "DR40": {
+            "has_Temperature": "4306",
+            "has_Depth": "3791",
+            "class": "State"
+        },
+        "DR41": {
+            "has_Temperature": "3754",
+            "has_Depth": "3282",
+            "class": "State"
+        },
+        "DR45": {
+            "class": "State"
+        }
+    }
+}

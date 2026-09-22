@@ -1,0 +1,30 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "SO191",
+                "P09"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO191 hasTask P09"
+        },
+        "reason": "SO191 hasTask P09: 'SO191' and 'P09' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "M72-4",
+                "P10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "M72-4 hasTask P10"
+        },
+        "reason": "M72-4 hasTask P10: 'M72-4' and 'P10' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

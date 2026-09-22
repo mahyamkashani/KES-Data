@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V PELAGIA",
+                "ROV Cherokee"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V PELAGIA usesVehicle ROV Cherokee"
+        },
+        {
+            "INDIVIDUAL": [
+                "CAT Meter #1",
+                "OBT #1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "CAT Meter #1 hasDestination OBT #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "CAT Meter #2",
+                "OBT #2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "CAT Meter #2 hasDestination OBT #2"
+        },
+        {
+            "INDIVIDUAL": [
+                "OBS #7",
+                "OBT #1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OBS #7 hasDestination OBT #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "OBS #8",
+                "OBT #2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OBS #8 hasDestination OBT #2"
+        },
+        {
+            "INDIVIDUAL": [
+                "OBS #9",
+                "OBT #3"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OBS #9 hasDestination OBT #3"
+        },
+        {
+            "INDIVIDUAL": [
+                "OBS #10",
+                "OBT #3"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OBS #10 hasDestination OBT #3"
+        }
+    ]
+}

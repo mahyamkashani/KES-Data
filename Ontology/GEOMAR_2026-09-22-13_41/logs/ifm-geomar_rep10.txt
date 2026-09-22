@@ -1,0 +1,36 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 23
+
+created 8 individuals:
+  + RV_ALKOR : Ship
+  + JAGO : Vehicle
+  + AL275 : Mission
+  + CTD_Rosette_Hydro_Bios_Kiel : CTDSensor
+  + JAGO_Dive_923 : Data_Sampling_Mission
+  + JAGO_Dive_928 : Data_Sampling_Mission
+  + Dive_7 : Task
+  + Dive_8 : Task
+
+asserted 19 axioms:
+  + RV_ALKOR usesVehicle JAGO
+  + RV_ALKOR hasMission AL275
+  + JAGO hasSensor CTD_Rosette_Hydro_Bios_Kiel
+  + JAGO maxDepthText 400 m   [maxDepth could not take it]
+  + CTD_Rosette_Hydro_Bios_Kiel hasDurationText 17.5 h   [hasDuration could not take it]
+  + CTD_Rosette_Hydro_Bios_Kiel hasStatus SUCCESSFUL
+  + JAGO_Dive_923 hasStatus SUCCESSFUL
+  + JAGO_Dive_923 collect_sample Lophelia coral sample
+  + JAGO_Dive_928 hasStatus SUCCESSFUL
+  + JAGO_Dive_928 collect_sample Plankton
+  + AL275 MissionID AL275
+  + AL275 startTime 2006-03-24
+  + AL275 endTime 2006-03-30
+  + AL275 maxDepthText 400 m   [maxDepth could not take it]
+  + AL275 dataVolume 8 dives, 17.5 hours underwater
+  + AL275 hasStatus SUCCESSFUL
+  + AL275 remark Geobiological investigations and sampling of aphotic coral reef ecosystems in the NE-Skagerrak
+  + Dive_7 hasStatus SUCCESSFUL
+  + Dive_8 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep10.rdf

@@ -1,0 +1,424 @@
+{
+    "Individuals": {
+        "DR1": {
+            "class": "State"
+        },
+        "DR2": {
+            "has_Depth": 3720,
+            "class": "State"
+        },
+        "DR3": {
+            "has_Depth": 4400,
+            "class": "State"
+        },
+        "DR5": {
+            "has_Depth": 3832,
+            "class": "State"
+        },
+        "DR6": {
+            "has_Depth": 3890,
+            "class": "State"
+        },
+        "DR7": {
+            "has_Depth": 3340,
+            "class": "State"
+        },
+        "DR8": {
+            "has_Depth": 3514,
+            "class": "State"
+        },
+        "DR9": {
+            "has_Depth": 1083,
+            "class": "State"
+        },
+        "DR10": {
+            "has_Depth": 1191,
+            "class": "State"
+        },
+        "DR11": {
+            "has_Depth": 1242,
+            "class": "State"
+        },
+        "DR12": {
+            "has_Depth": 1104,
+            "class": "State"
+        },
+        "DR13": {
+            "has_Depth": 1076,
+            "class": "State"
+        },
+        "DR14": {
+            "has_Depth": 1512,
+            "class": "State"
+        },
+        "DR16": {
+            "MissionID": "DR16",
+            "maxDepth": 1160,
+            "dataVolume": "3/4 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Volcanics, large blocks, no dropstones.",
+            "class": "Mission"
+        },
+        "DR17": {
+            "MissionID": "DR17",
+            "maxDepth": 1175,
+            "dataVolume": "1/4 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic rock with slightly fluidal texture; fragment of block A",
+            "class": "Mission"
+        },
+        "DR18": {
+            "MissionID": "DR18",
+            "maxDepth": 1128,
+            "dataVolume": "1/3 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Volcanics, no dropstones.",
+            "class": "Mission"
+        },
+        "DR19": {
+            "MissionID": "DR19",
+            "maxDepth": 785,
+            "dataVolume": "full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "ol-phyric basalt (black) with pale apple-green mantle xenoliths of sizes 0.5x0.8 cm to 4x6 cm",
+            "class": "Mission"
+        },
+        "DR20": {
+            "MissionID": "DR20",
+            "maxDepth": 990,
+            "dataVolume": "full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Volcanics (lavas of andesites, basalts with xenoliths and pyroclastic rocks).",
+            "class": "Mission"
+        },
+        "DR21": {
+            "MissionID": "DR21",
+            "maxDepth": 790,
+            "dataVolume": "full",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "DR22": {
+            "MissionID": "DR22",
+            "maxDepth": 715,
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "highly ol-px-pl phyric basalt",
+            "class": "Mission"
+        },
+        "DR24": {
+            "MissionID": "DR24",
+            "maxDepth": 2718,
+            "dataVolume": "few rocks, some freshly broken",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Solidified sediments, some with fresh broken surfaces",
+            "class": "Mission"
+        },
+        "DR25": {
+            "MissionID": "DR25",
+            "dataVolume": "few rocks in mud",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic",
+            "class": "Mission"
+        },
+        "DR26": {
+            "MissionID": "DR26",
+            "maxDepth": 1056,
+            "dataVolume": "very few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic",
+            "class": "Mission"
+        },
+        "DR27": {
+            "MissionID": "DR27",
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic",
+            "class": "Mission"
+        },
+        "DR28": {
+            "MissionID": "DR28",
+            "maxDepth": 1136,
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic, altered lava",
+            "class": "Mission"
+        },
+        "DR29": {
+            "MissionID": "DR29",
+            "maxDepth": 2509,
+            "dataVolume": "1/2 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "altered pillows and pillow fragments",
+            "class": "Mission"
+        },
+        "DR30": {
+            "MissionID": "DR30",
+            "maxDepth": 3107,
+            "dataVolume": "half full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "mostly Mn crust. A few igneous rocks (mostly granitic) are found as cemented breccia clasts within the Mn crusts",
+            "class": "Mission"
+        },
+        "DR31": {
+            "MissionID": "DR31",
+            "dataVolume": "empty",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "single piece of partially consolidated sediment fragment",
+            "class": "Mission"
+        },
+        "DR32": {
+            "MissionID": "DR32",
+            "maxDepth": 2383,
+            "dataVolume": "3/4 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "organics, dropstones, 9 large blocks",
+            "class": "Mission"
+        },
+        "DR33": {
+            "MissionID": "DR33",
+            "maxDepth": 3778,
+            "dataVolume": "1 rock",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "1 subangular stone covered with thin Fe-Mn crust",
+            "class": "Mission"
+        },
+        "DR34": {
+            "MissionID": "DR34",
+            "maxDepth": 3806,
+            "dataVolume": "about 20 rocks",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "DR35": {
+            "MissionID": "DR35",
+            "maxDepth": 3730,
+            "dataVolume": "1x large bloc, 5x small blocs",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "volcanic",
+            "class": "Mission"
+        },
+        "DR36": {
+            "MissionID": "DR36",
+            "maxDepth": 3187,
+            "dataVolume": "1/6 full",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Dacites with banded texture of glassy and pumice layers",
+            "class": "Mission"
+        },
+        "DR37": {
+            "MissionID": "DR37",
+            "maxDepth": 4360,
+            "dataVolume": "few rocks, 1 large rock",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "DR38": {
+            "MissionID": "DR38",
+            "maxDepth": 4263,
+            "dataVolume": "some rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "1 large piece blocking the mouth of the dredge; strongly deformed rocks",
+            "class": "Mission"
+        },
+        "DR41": {
+            "has_Depth": 4334,
+            "class": "State"
+        },
+        "DR42": {
+            "has_Depth": 3615,
+            "class": "State"
+        },
+        "DR43": {
+            "has_Depth": 4014,
+            "class": "State"
+        },
+        "Emperor_Seamounts": {
+            "locationName": "Emperor Seamounts",
+            "latitude": "48°10'N to 50°10'N",
+            "longitude": "168° to 170°",
+            "seabedDepth": "3,030 to 2,375 mbsl",
+            "class": "Waypoint"
+        },
+        "Bowers_Ridge": {
+            "locationName": "Bowers Ridge",
+            "latitude": "53.96667",
+            "longitude": "172.85000",
+            "seabedDepth": "3,900 m to nearly sea level",
+            "class": "Waypoint"
+        },
+        "Ingenstrem_Depression": {
+            "locationName": "Ingenstrem Depression",
+            "latitude": "52.48333",
+            "longitude": "175.23333",
+            "class": "Waypoint"
+        },
+        "Stalemate_Fracture_Zone": {
+            "locationName": "Stalemate Fracture Zone",
+            "latitude": "51.66667",
+            "longitude": "171.00000",
+            "seabedDepth": "5,500 m to 4,800 m",
+            "class": "Waypoint"
+        },
+        "DR45": {
+            "has_Depth": 4870,
+            "class": "State"
+        },
+        "DR_7": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_8": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_9": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_15": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_16": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_17": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_18": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_19": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_20": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_21": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_22": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_23": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_24": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_25": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_26": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_27": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_28": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_29": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_30": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_31": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_32": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_33": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_34": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_35": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_36": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_37": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_38": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_39": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_40": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_41": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_42": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_43": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_44": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR_45": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

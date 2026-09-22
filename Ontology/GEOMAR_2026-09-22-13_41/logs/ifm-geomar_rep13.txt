@@ -1,0 +1,87 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 43
+
+created 28 individuals:
+  + R_V_SONNE : Vehicle
+  + SIMRAD_EM120 : MBES
+  + Parasound : Echosounder
+  + CTD : CTDSensor
+  + OFOS : Camera
+  + SO193 : Data_Sampling_Mission
+  + DR1 : Station
+  + DR2 : Station
+  + DR20 : State
+  + DR21 : State
+  + DR22 : State
+  + DR32 : Station
+  + DR41 : Station
+  + DR44 : Station
+  + DR_1 : Waypoint
+  + DR_25 : Waypoint
+  + DR_50 : Waypoint
+  + DR_72 : Waypoint
+  + DR3 : State
+  + DR23 : State
+  + DR25 : State
+  + DR50 : State
+  + DR51 : State
+  + DR52 : State
+  + DR53 : State
+  + DR59 : Station
+  + SO193_DR12 : Task
+  + SO193_DR32 : Task
+
+asserted 50 axioms:
+  + R_V_SONNE hasSensor SIMRAD_EM120
+  + R_V_SONNE hasSensor Parasound
+  + R_V_SONNE hasSensor CTD
+  + R_V_SONNE hasSensor OFOS
+  + SO193 hasDurationText May 20th - June 28th   [hasDuration could not take it]
+  + SO193 hasStatus SUCCESSFUL
+  + SO193 collect_sample 82 dredges, 2 TV grabs, 2 OFOS profiles
+  + DR1 stationID DR1
+  + DR1 stationDate 2007-05-22
+  + DR1 stationTime 08:55
+  + DR2 stationID DR2
+  + DR2 stationDate 2007-05-23
+  + DR2 stationTime 16:44
+  + DR20 has_Depth 3377
+  + DR21 has_Depth 3835
+  + DR22 has_Depth 3519
+  + DR32 stationID DR32
+  + DR32 stationDate 2007-06-07
+  + DR32 stationTime 04:05
+  + DR41 stationID DR41
+  + DR41 stationDate 2007-06-10
+  + DR41 stationTime 17:54
+  + DR44 stationID DR44
+  + DR44 stationDate 2007-06-11
+  + DR44 stationTime 10:11
+  + DR_1 locationName Western Plateaus
+  + DR_1 latitude 9.00000
+  + DR_1 longitude 164.00000
+  + DR_25 locationName Danger Islands Troughs, southernmost trough
+  + DR_25 latitude 9.61500
+  + DR_25 longitude 164.38700
+  + DR_50 locationName Danger Islands Troughs, NE edge of Western Plateau
+  + DR_50 latitude 6.82700
+  + DR_50 longitude 163.73700
+  + DR_72 locationName High Plateau, southernmost of the three solitaire interior seamounts
+  + DR_72 latitude 9.44800
+  + DR_72 longitude 162.12200
+  + DR3 has_Depth 3596
+  + DR23 has_Depth 4760
+  + DR25 has_Depth 4737
+  + DR50 has_Depth 2978
+  + DR51 has_Depth 4554
+  + DR52 has_Depth 5368
+  + DR53 has_Depth 5485
+  + DR59 stationID DR59
+  + DR59 stationDate 2007-06-15
+  + DR59 stationTime 22:13
+  + SO193_DR12 hasStatus SUCCESSFUL
+  + SO193_DR32 hasDuration 1.5
+  + SO193_DR32 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep13.rdf

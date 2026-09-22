@@ -1,0 +1,91 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "MASS III Cruise",
+                "hasDuration": "13 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Bathymetric mapping",
+                "hasStatus": "FAILED"
+            }
+        ],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sediment Sampling",
+                "hasStatus": "FAILED",
+                "collect_sample": "9 sediment cores"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Chakratong Tongyai",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "MASS III-001",
+                "stationID": "001",
+                "stationName": "Station 1",
+                "stationDate": "2011-01-19",
+                "stationTime": "02:24"
+            },
+            {
+                "individual_name": "MASS III-002",
+                "stationID": "002",
+                "stationName": "Station 2",
+                "stationDate": "2011-01-19",
+                "stationTime": "03:45"
+            },
+            {
+                "individual_name": "MASS III-003",
+                "stationID": "003",
+                "stationName": "Station 3",
+                "stationDate": "2011-01-19",
+                "stationTime": "09:45"
+            },
+            {
+                "individual_name": "MASS III-004",
+                "stationID": "004",
+                "stationName": "Station 4",
+                "stationDate": "2011-01-20",
+                "stationTime": "03:04"
+            },
+            {
+                "individual_name": "MASS III-005",
+                "stationID": "005",
+                "stationName": "Station 5",
+                "stationDate": "2011-01-20",
+                "stationTime": "07:57"
+            },
+            {
+                "individual_name": "MASS III-006",
+                "stationID": "006",
+                "stationName": "Station 6",
+                "stationDate": "2011-01-20",
+                "stationTime": "09:16"
+            },
+            {
+                "individual_name": "MASS III-007",
+                "stationID": "007",
+                "stationName": "Station 7",
+                "stationDate": "2011-01-21",
+                "stationTime": "01:48"
+            }
+        ]
+    }
+}

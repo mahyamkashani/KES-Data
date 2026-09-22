@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "ELAC multi-beam system"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R.V. Poseidon hasSensor ELAC multi-beam system"
+        },
+        "reason": "R.V. Poseidon hasSensor ELAC multi-beam system: 'R.V. Poseidon' and 'ELAC multi-beam system' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

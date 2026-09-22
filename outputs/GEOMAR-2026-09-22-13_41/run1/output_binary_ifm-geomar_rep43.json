@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MASS III-001",
+                "MASS III-002"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-001 hasTask MASS III-002"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-002",
+                "MASS III-003"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-002 hasTask MASS III-003"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-003",
+                "MASS III-004"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-003 hasTask MASS III-004"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-004",
+                "MASS III-005"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-004 hasTask MASS III-005"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-005",
+                "MASS III-006"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-005 hasTask MASS III-006"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-006",
+                "MASS III-007"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-006 hasTask MASS III-007"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-007",
+                "MASS III-008"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MASS III-007 hasTask MASS III-008"
+        }
+    ]
+}

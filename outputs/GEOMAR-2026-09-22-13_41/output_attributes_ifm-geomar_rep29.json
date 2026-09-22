@@ -1,0 +1,158 @@
+{
+    "Individuals": {
+        "MT001": {
+            "class": "State"
+        },
+        "MT002": {
+            "class": "State"
+        },
+        "MT003": {
+            "class": "State"
+        },
+        "MT004": {
+            "class": "State"
+        },
+        "MT005": {
+            "class": "State"
+        },
+        "MT006": {
+            "class": "State"
+        },
+        "MT007": {
+            "stationID": "MT007",
+            "stationDate": "2009-02-26",
+            "stationTime": "11:13",
+            "class": "Station"
+        },
+        "MT008": {
+            "stationID": "MT008",
+            "stationDate": "2009-02-26",
+            "stationTime": "12:27",
+            "class": "Station"
+        },
+        "MT009": {
+            "stationID": "MT009",
+            "stationDate": "2009-02-26",
+            "stationTime": "13:31",
+            "class": "Station"
+        },
+        "MT010": {
+            "stationID": "MT010",
+            "stationDate": "2009-02-26",
+            "stationTime": "14:31",
+            "class": "Station"
+        },
+        "MT011": {
+            "stationID": "MT011",
+            "stationDate": "2009-02-26",
+            "stationTime": "16:05",
+            "class": "Station"
+        },
+        "MT012": {
+            "stationID": "MT012",
+            "stationDate": "2009-02-26",
+            "stationTime": "17:01",
+            "class": "Station"
+        },
+        "Rocket_Seamount": {
+            "locationName": "Rocket Seamount",
+            "latitude": "15.78383",
+            "longitude": "-36.22683",
+            "class": "Waypoint"
+        },
+        "Vayda_Seamount": {
+            "locationName": "Vayda Seamount",
+            "latitude": "14.93700",
+            "longitude": "-48.18733",
+            "class": "Waypoint"
+        },
+        "Molodezhnaya_Seamount": {
+            "locationName": "Molodezhnaya Seamount",
+            "latitude": "15.02600",
+            "longitude": "-50.26000",
+            "class": "Waypoint"
+        },
+        "Frodo_Seamount": {
+            "locationName": "Frodo Seamount",
+            "latitude": "15.25367",
+            "longitude": "-50.41700",
+            "class": "Waypoint"
+        },
+        "The_Shire_Seamount": {
+            "locationName": "The Shire Seamount",
+            "latitude": "15.00500",
+            "longitude": "-49.58433",
+            "class": "Waypoint"
+        },
+        "Mount_Doom": {
+            "locationName": "Mount Doom",
+            "latitude": "15.67450",
+            "longitude": "-51.49117",
+            "class": "Waypoint"
+        },
+        "DR1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR2": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR3": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR4": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR5": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR6": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR15": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR18": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR19": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR20": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR21": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_SP_25": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "OBS_SP_25: hasDuration=0.5 is not printed on any page that names 'OBS_SP_25' - copy the number the report prints beside 'OBS_SP_25', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_1": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD_Cast_1: 'CTD_Cast_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_2": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD_Cast_2: 'CTD_Cast_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_3": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD_Cast_3: 'CTD_Cast_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_5": {
+                "has_Depth": "518.0"
+            }
+        },
+        "reason": "CTD_5: has_Depth='518.0' is not printed on any page that names 'CTD_5' - copy the number the report prints beside 'CTD_5', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_7": {
+                "has_Depth": "520.0"
+            }
+        },
+        "reason": "CTD_7: has_Depth='520.0' is not printed on any page that names 'CTD_7' - copy the number the report prints beside 'CTD_7', or leave has_Depth out"
+    }
+]

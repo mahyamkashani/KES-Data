@@ -1,0 +1,618 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "SBE9 Seabird CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV CELTIC EXPLORER hasSensor SBE9 Seabird CTD"
+        },
+        "reason": "RV CELTIC EXPLORER hasSensor SBE9 Seabird CTD: 'RV CELTIC EXPLORER' and 'SBE9 Seabird CTD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "ROV KIEL 6000"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV CELTIC EXPLORER usesVehicle ROV KIEL 6000"
+        },
+        "reason": "RV CELTIC EXPLORER usesVehicle ROV KIEL 6000: 'RV CELTIC EXPLORER' and 'ROV KIEL 6000' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 37-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 37-1"
+        },
+        "reason": "Mission CE0913 hasTask Dive 37-1: 'Mission CE0913', 'Dive 37-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 37-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 37-2"
+        },
+        "reason": "Mission CE0913 hasTask Dive 37-2: 'Mission CE0913', 'Dive 37-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 38"
+        },
+        "reason": "Mission CE0913 hasTask Dive 38: 'Mission CE0913', 'Dive 38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 39"
+        },
+        "reason": "Mission CE0913 hasTask Dive 39: 'Mission CE0913', 'Dive 39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 40"
+        },
+        "reason": "Mission CE0913 hasTask Dive 40: 'Mission CE0913', 'Dive 40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 41"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 41"
+        },
+        "reason": "Mission CE0913 hasTask Dive 41: 'Mission CE0913', 'Dive 41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 42"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 42"
+        },
+        "reason": "Mission CE0913 hasTask Dive 42: 'Mission CE0913', 'Dive 42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 43"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 43"
+        },
+        "reason": "Mission CE0913 hasTask Dive 43: 'Mission CE0913', 'Dive 43' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 44"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 44"
+        },
+        "reason": "Mission CE0913 hasTask Dive 44: 'Mission CE0913', 'Dive 44' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 46"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 46"
+        },
+        "reason": "Mission CE0913 hasTask Dive 46: 'Mission CE0913', 'Dive 46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 47"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 47"
+        },
+        "reason": "Mission CE0913 hasTask Dive 47: 'Mission CE0913', 'Dive 47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 48"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 48"
+        },
+        "reason": "Mission CE0913 hasTask Dive 48: 'Mission CE0913', 'Dive 48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 49"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 49"
+        },
+        "reason": "Mission CE0913 hasTask Dive 49: 'Mission CE0913', 'Dive 49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 50"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 50"
+        },
+        "reason": "Mission CE0913 hasTask Dive 50: 'Mission CE0913', 'Dive 50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 51-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 51-1"
+        },
+        "reason": "Mission CE0913 hasTask Dive 51-1: 'Mission CE0913', 'Dive 51-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 51-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 51-2"
+        },
+        "reason": "Mission CE0913 hasTask Dive 51-2: 'Mission CE0913', 'Dive 51-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 52"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 52"
+        },
+        "reason": "Mission CE0913 hasTask Dive 52: 'Mission CE0913', 'Dive 52' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 53-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 53-1"
+        },
+        "reason": "Mission CE0913 hasTask Dive 53-1: 'Mission CE0913', 'Dive 53-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 53-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 53-2"
+        },
+        "reason": "Mission CE0913 hasTask Dive 53-2: 'Mission CE0913', 'Dive 53-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 54"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 54"
+        },
+        "reason": "Mission CE0913 hasTask Dive 54: 'Mission CE0913', 'Dive 54' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 55"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 55"
+        },
+        "reason": "Mission CE0913 hasTask Dive 55: 'Mission CE0913', 'Dive 55' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 56"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 56"
+        },
+        "reason": "Mission CE0913 hasTask Dive 56: 'Mission CE0913', 'Dive 56' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 57"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 57"
+        },
+        "reason": "Mission CE0913 hasTask Dive 57: 'Mission CE0913', 'Dive 57' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 58"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 58"
+        },
+        "reason": "Mission CE0913 hasTask Dive 58: 'Mission CE0913', 'Dive 58' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 59-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 59-1"
+        },
+        "reason": "Mission CE0913 hasTask Dive 59-1: 'Mission CE0913', 'Dive 59-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 59-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 59-2"
+        },
+        "reason": "Mission CE0913 hasTask Dive 59-2: 'Mission CE0913', 'Dive 59-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-1"
+        },
+        "reason": "Mission CE0913 hasTask Dive 60-1: 'Mission CE0913', 'Dive 60-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-2"
+        },
+        "reason": "Mission CE0913 hasTask Dive 60-2: 'Mission CE0913', 'Dive 60-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 60-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 60-3"
+        },
+        "reason": "Mission CE0913 hasTask Dive 60-3: 'Mission CE0913', 'Dive 60-3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 61"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 61"
+        },
+        "reason": "Mission CE0913 hasTask Dive 61: 'Mission CE0913', 'Dive 61' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 62"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 62"
+        },
+        "reason": "Mission CE0913 hasTask Dive 62: 'Mission CE0913', 'Dive 62' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 63"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 63"
+        },
+        "reason": "Mission CE0913 hasTask Dive 63: 'Mission CE0913', 'Dive 63' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 64"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 64"
+        },
+        "reason": "Mission CE0913 hasTask Dive 64: 'Mission CE0913', 'Dive 64' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 65"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 65"
+        },
+        "reason": "Mission CE0913 hasTask Dive 65: 'Mission CE0913', 'Dive 65' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 66"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 66"
+        },
+        "reason": "Mission CE0913 hasTask Dive 66: 'Mission CE0913', 'Dive 66' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 67"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 67"
+        },
+        "reason": "Mission CE0913 hasTask Dive 67: 'Mission CE0913', 'Dive 67' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 68"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 68"
+        },
+        "reason": "Mission CE0913 hasTask Dive 68: 'Mission CE0913', 'Dive 68' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 69"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 69"
+        },
+        "reason": "Mission CE0913 hasTask Dive 69: 'Mission CE0913', 'Dive 69' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 70"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 70"
+        },
+        "reason": "Mission CE0913 hasTask Dive 70: 'Mission CE0913', 'Dive 70' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 71"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 71"
+        },
+        "reason": "Mission CE0913 hasTask Dive 71: 'Mission CE0913', 'Dive 71' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 72"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 72"
+        },
+        "reason": "Mission CE0913 hasTask Dive 72: 'Mission CE0913', 'Dive 72' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission CE0913",
+                "Dive 73"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission CE0913 hasTask Dive 73"
+        },
+        "reason": "Mission CE0913 hasTask Dive 73: 'Mission CE0913', 'Dive 73' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,29 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 23
+
+created 8 individuals:
+  + R_V_PELAGIA : Ship
+  + ROV_Cherokee : Vehicle
+  + MUC : Data_Sampling_Mission
+  + Genesis : Remotely_Operated_Vehicle
+  + Cruise_64PE298 : Mission
+  + Dive_3 : Task
+  + North_Alex_Mud_Volcano : State
+  + Giza_Mud_Volcano : State
+
+asserted 12 axioms:
+  + R_V_PELAGIA usesVehicle ROV_Cherokee
+  + MUC hasStatus SUCCESSFUL
+  + MUC collect_sample biogeochemical analysis
+  + Genesis maxDepthText 2000 m   [maxDepth could not take it]
+  + Cruise_64PE298 MissionID 64PE298
+  + Cruise_64PE298 startTime 2008-11-06 07:00
+  + Cruise_64PE298 endTime 2008-11-23 21:30
+  + Cruise_64PE298 hasStatus SUCCESSFUL
+  + North_Alex_Mud_Volcano has_Temperature 50
+  + North_Alex_Mud_Volcano has_Depth 4
+  + Giza_Mud_Volcano has_Temperature 17
+  + Giza_Mud_Volcano has_Depth 6
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep27.rdf

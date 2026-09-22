@@ -1,0 +1,25 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Mission 041",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Mission 043"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "AUV Abyss",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": []
+    }
+}

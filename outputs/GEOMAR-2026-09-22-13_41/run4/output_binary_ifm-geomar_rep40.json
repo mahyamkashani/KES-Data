@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM06"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II hasVehicle IFM06"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM03"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II hasVehicle IFM03"
+        },
+        {
+            "INDIVIDUAL": [
+                "Happy Hooker II",
+                "IFM09"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "Happy Hooker II hasVehicle IFM09"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM06",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM06 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "IFM07",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "IFM07 hasAction Act_DeepDive"
+        }
+    ]
+}

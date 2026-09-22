@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        }
+    ]
+}

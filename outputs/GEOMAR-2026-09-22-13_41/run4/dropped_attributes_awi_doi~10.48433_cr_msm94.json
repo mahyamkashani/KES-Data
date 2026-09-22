@@ -1,0 +1,92 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_54-1": {
+                "class": "Task"
+            }
+        },
+        "reason": "MSM94_54-1: 'MSM94_54-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_93-1": {
+                "has_Temperature": "0.25"
+            }
+        },
+        "reason": "MSM94_93-1: has_Temperature='0.25' is not printed on any page that names 'MSM94_93-1' - copy the number the report prints beside 'MSM94_93-1', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_93-1": {
+                "has_Conductivity": "0.17"
+            }
+        },
+        "reason": "MSM94_93-1: has_Conductivity='0.17' is not printed on any page that names 'MSM94_93-1' - copy the number the report prints beside 'MSM94_93-1', or leave has_Conductivity out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_93-1": {
+                "has_Depth": "3200"
+            }
+        },
+        "reason": "MSM94_93-1: has_Depth='3200' is not printed on any page that names 'MSM94_93-1' - copy the number the report prints beside 'MSM94_93-1', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_94-1": {
+                "has_Temperature": "0.0017"
+            }
+        },
+        "reason": "MSM94_94-1: has_Temperature='0.0017' is not printed on any page that names 'MSM94_94-1' - copy the number the report prints beside 'MSM94_94-1', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_94-1": {
+                "has_Conductivity": "0.002"
+            }
+        },
+        "reason": "MSM94_94-1: has_Conductivity='0.002' is not printed on any page that names 'MSM94_94-1' - copy the number the report prints beside 'MSM94_94-1', or leave has_Conductivity out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_94-1": {
+                "has_Depth": "1000"
+            }
+        },
+        "reason": "MSM94_94-1: has_Depth='1000' is not printed on any page that names 'MSM94_94-1' - copy the number the report prints beside 'MSM94_94-1', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_95-1": {
+                "has_Temperature": "0.1"
+            }
+        },
+        "reason": "MSM94_95-1: has_Temperature='0.1' is not printed on any page that names 'MSM94_95-1' - copy the number the report prints beside 'MSM94_95-1', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_95-1": {
+                "has_Conductivity": "0.1"
+            }
+        },
+        "reason": "MSM94_95-1: has_Conductivity='0.1' is not printed on any page that names 'MSM94_95-1' - copy the number the report prints beside 'MSM94_95-1', or leave has_Conductivity out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MSM94_95-1": {
+                "has_Depth": "3400"
+            }
+        },
+        "reason": "MSM94_95-1: has_Depth='3400' is not printed on any page that names 'MSM94_95-1' - copy the number the report prints beside 'MSM94_95-1', or leave has_Depth out"
+    }
+]

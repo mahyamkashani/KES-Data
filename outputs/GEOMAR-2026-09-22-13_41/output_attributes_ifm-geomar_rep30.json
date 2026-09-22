@@ -1,0 +1,468 @@
+{
+    "Individuals": {
+        "station_853RD": {
+            "stationID": "853RD",
+            "stationDate": "2007-08-16",
+            "stationTime": "14:23-16:16",
+            "class": "Station"
+        },
+        "station_856SB": {
+            "stationID": "856SB",
+            "stationDate": "2007-08-16",
+            "stationTime": "21:13-23:06",
+            "class": "Station"
+        },
+        "station_857RD": {
+            "stationID": "857RD",
+            "stationDate": "2007-08-17",
+            "stationTime": "11:50-13:27",
+            "class": "Station"
+        },
+        "station_858RD": {
+            "stationID": "858RD",
+            "stationDate": "2007-08-17",
+            "stationTime": "14:13-15:39",
+            "class": "Station"
+        },
+        "station_861GC": {
+            "stationID": "861GC",
+            "stationDate": "2007-08-17",
+            "stationTime": "20:36-21:08",
+            "class": "Station"
+        },
+        "station_865RD": {
+            "stationID": "865RD",
+            "stationDate": "2007-08-18",
+            "stationTime": "06:02-08:21",
+            "class": "Station"
+        },
+        "station_866TVG": {
+            "stationID": "866TVG",
+            "stationDate": "2007-08-18",
+            "stationTime": "14:30-16:18",
+            "class": "Station"
+        },
+        "station_867TVG": {
+            "stationID": "867TVG",
+            "stationDate": "2007-08-18",
+            "stationTime": "18:29-20:07",
+            "class": "Station"
+        },
+        "station_868SB": {
+            "stationID": "868SB",
+            "stationDate": "2007-08-18",
+            "stationTime": "21:35-05:27",
+            "class": "Station"
+        },
+        "station_870SB": {
+            "stationID": "870SB",
+            "stationDate": "2007-08-19",
+            "stationTime": "12:00-13:00",
+            "class": "Station"
+        },
+        "station_875RD": {
+            "stationID": "875RD",
+            "stationDate": "2007-08-20",
+            "stationTime": "11:21-12:35",
+            "class": "Station"
+        },
+        "station_876RD": {
+            "stationID": "876RD",
+            "stationDate": "2007-08-20",
+            "stationTime": "12:56-14:09",
+            "class": "Station"
+        },
+        "station_878RD": {
+            "stationID": "878RD",
+            "stationDate": "2007-08-20",
+            "stationTime": "16:12-17:44",
+            "class": "Station"
+        },
+        "station_879RD": {
+            "stationID": "879RD",
+            "stationDate": "2007-08-20",
+            "stationTime": "18:06-19:07",
+            "class": "Station"
+        },
+        "station_881RD": {
+            "stationID": "881RD",
+            "stationDate": "2007-08-20",
+            "stationTime": "22:00-00:13",
+            "class": "Station"
+        },
+        "station_882RD": {
+            "stationID": "882RD",
+            "stationDate": "2007-08-21",
+            "stationTime": "00:46-02:06",
+            "class": "Station"
+        },
+        "station_886RD": {
+            "stationID": "886RD",
+            "stationDate": "2007-08-21",
+            "stationTime": "08:49-09:47",
+            "class": "Station"
+        },
+        "station_887RDV": {
+            "stationID": "887RDV",
+            "stationDate": "2007-08-21",
+            "stationTime": "10:07-10:49",
+            "class": "Station"
+        },
+        "station_889RD": {
+            "stationID": "889RD",
+            "stationDate": "2007-08-21",
+            "stationTime": "15:58-16:45",
+            "class": "Station"
+        },
+        "station_890RDV": {
+            "stationID": "890RDV",
+            "stationDate": "2007-08-21",
+            "stationTime": "17:46-18:07",
+            "class": "Station"
+        },
+        "station_894RDV": {
+            "stationID": "894RDV",
+            "stationDate": "2007-08-21",
+            "stationTime": "22:13-22:52",
+            "class": "Station"
+        },
+        "station_895RD": {
+            "stationID": "895RD",
+            "stationDate": "2007-08-22",
+            "stationTime": "00:16-02:47",
+            "class": "Station"
+        },
+        "station_896RD": {
+            "stationID": "896RD",
+            "stationDate": "2007-08-22",
+            "stationTime": "03:14-06:25",
+            "class": "Station"
+        },
+        "station_902RD": {
+            "stationID": "902RD",
+            "stationDate": "2007-08-22",
+            "stationTime": "15:48-16:59",
+            "class": "Station"
+        },
+        "station_908RD": {
+            "stationID": "908RD",
+            "stationDate": "2007-08-23",
+            "stationTime": "01:25-03:09",
+            "class": "Station"
+        },
+        "station_918RD": {
+            "stationID": "918RD",
+            "stationDate": "2007-08-24",
+            "stationTime": "10:06-12:38",
+            "class": "Station"
+        },
+        "station_924SB": {
+            "stationID": "924SB",
+            "stationDate": "2007-08-25",
+            "stationTime": "14:39-07:44",
+            "class": "Station"
+        },
+        "station_925RD": {
+            "stationID": "925RD",
+            "stationDate": "2007-08-26",
+            "stationTime": "10:25-13:25",
+            "class": "Station"
+        },
+        "station_927RD": {
+            "stationID": "927RD",
+            "stationDate": "2007-08-26",
+            "stationTime": "16:46-19:20",
+            "class": "Station"
+        },
+        "Palinuro_849SP": {
+            "locationName": "Palinuro",
+            "latitude": "39.56667",
+            "longitude": "14.63333",
+            "seabedDepth": "1732",
+            "class": "Waypoint"
+        },
+        "Panarea_875RD": {
+            "locationName": "Panarea",
+            "latitude": "38.64757",
+            "longitude": "15.11213",
+            "seabedDepth": "56",
+            "class": "Waypoint"
+        },
+        "861GC": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "862GC": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "863GC": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "864SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "865RD": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "866TVG": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "867TVG": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "868SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "870SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "871GC": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "872GC": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "873SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "874SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "878RD": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "879RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "880RD": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "881RD": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "882RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "883RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "884RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "885RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "886RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "888SB": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "889RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "891RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "892RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "893RD": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "895RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "896RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "897RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "899RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "901RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "902RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "903RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "904RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "905RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "906RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "908RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "909RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "910RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "911RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "913RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "914RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "915RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "917RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "918RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "920RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "921RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "925RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "926RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "927RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "930RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "931RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "932RD": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Station_865RD": {
+            "has_Depth": "485",
+            "class": "State"
+        },
+        "Station_866TVG": {
+            "has_Temperature": "60",
+            "class": "State"
+        },
+        "Station_872GC": {
+            "has_Depth": "299",
+            "class": "State"
+        },
+        "station_930RD": {
+            "stationID": "930RD",
+            "stationDate": "2007-08-26",
+            "stationTime": "23:52-02:13",
+            "class": "Station"
+        },
+        "station_932RD": {
+            "stationID": "932RD",
+            "stationDate": "2007-08-27",
+            "stationTime": "06:03-07:57",
+            "class": "Station"
+        }
+    }
+}

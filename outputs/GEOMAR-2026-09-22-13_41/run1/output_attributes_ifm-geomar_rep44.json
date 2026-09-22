@@ -1,0 +1,106 @@
+{
+    "Individuals": {
+        "GC-1": {
+            "class": "Station",
+            "stationID": "1",
+            "stationDate": "2010-09-26",
+            "stationTime": "10:20"
+        },
+        "GC-2": {
+            "class": "Station",
+            "stationID": "2",
+            "stationDate": "2010-09-26",
+            "stationTime": "17:00"
+        },
+        "GC-3": {
+            "class": "Station",
+            "stationID": "3",
+            "stationDate": "2010-09-27",
+            "stationTime": "01:00"
+        },
+        "ROV-1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-2": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-5": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-6": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-7": {
+            "class": "Task",
+            "hasDuration": "8.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-8": {
+            "class": "Task",
+            "hasDuration": "8.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-9": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-10": {
+            "class": "Task",
+            "hasDuration": "8.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-11": {
+            "class": "Task",
+            "hasDuration": "10.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "GC_01": {
+            "class": "State",
+            "has_Depth": "3785"
+        },
+        "GC_04": {
+            "class": "State",
+            "has_Depth": "4306"
+        },
+        "GC_06": {
+            "class": "State",
+            "has_Depth": "4387"
+        },
+        "GC_07": {
+            "class": "State",
+            "has_Depth": "4043"
+        },
+        "MUC_01": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "ROV_02_PC02": {
+            "class": "State",
+            "has_Depth": "680"
+        },
+        "ROV_02_PC05": {
+            "class": "State",
+            "has_Depth": "682"
+        },
+        "ROV_02_PC16": {
+            "class": "State",
+            "has_Depth": "681"
+        },
+        "GC_11": {
+            "class": "State",
+            "has_Depth": "1448"
+        },
+        "GC_13": {
+            "class": "State",
+            "has_Depth": "697"
+        }
+    }
+}

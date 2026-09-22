@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V MARIA S. MERIAN",
+                "MSM04/1"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V MARIA S. MERIAN usesVehicle MSM04/1"
+        }
+    ]
+}

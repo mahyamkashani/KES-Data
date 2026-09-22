@@ -1,0 +1,92 @@
+{
+    "Individuals": {
+        "Tolkien_Seamount": {
+            "has_Depth": "2,900",
+            "class": "State"
+        },
+        "Krylov_Seamount": {
+            "has_Temperature": "1,950",
+            "has_Depth": "1,950",
+            "class": "State"
+        },
+        "DR1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR2": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR3": {
+            "stationID": "DR3",
+            "stationDate": "2009-02-01",
+            "stationTime": "15:40-18:57",
+            "class": "Station"
+        },
+        "DR4": {
+            "stationID": "DR4",
+            "stationDate": "2009-02-02",
+            "stationTime": "08:47-11:19",
+            "class": "Station"
+        },
+        "DR5": {
+            "stationID": "DR5",
+            "stationDate": "2009-02-02",
+            "stationTime": "12:10-14:56",
+            "class": "Station"
+        },
+        "DR6": {
+            "stationID": "DR6",
+            "stationDate": "2009-02-05",
+            "stationTime": "09:34-12:40",
+            "class": "Station"
+        },
+        "DR7": {
+            "stationID": "DR7",
+            "stationDate": "2009-02-05",
+            "stationTime": "13:43-19:10",
+            "class": "Station"
+        },
+        "DR8": {
+            "stationID": "DR8",
+            "stationDate": "2009-02-08",
+            "stationTime": "09:30-11:25",
+            "class": "Station"
+        },
+        "DR9": {
+            "stationID": "DR9",
+            "stationDate": "2009-02-08",
+            "stationTime": "12:50-15:00",
+            "class": "Station"
+        },
+        "DR10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Kane_Seamount": {
+            "has_Depth": "3,700",
+            "class": "State"
+        },
+        "Krylov_Ridge": {
+            "has_Temperature": "2,030",
+            "has_Depth": "2,030",
+            "class": "State"
+        }
+    }
+}

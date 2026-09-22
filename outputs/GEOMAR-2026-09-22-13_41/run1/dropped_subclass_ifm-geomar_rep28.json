@@ -1,0 +1,11 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "ROV": {
+                "maxDepth": "1770 m"
+            }
+        },
+        "reason": "ROV: maxDepth='1770 m' is not printed on any page that names 'ROV' - copy the number the report prints beside 'ROV', or leave maxDepth out"
+    }
+]

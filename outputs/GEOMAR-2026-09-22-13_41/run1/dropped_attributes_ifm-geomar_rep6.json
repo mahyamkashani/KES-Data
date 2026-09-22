@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_02": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_02: 'CTD_Station_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

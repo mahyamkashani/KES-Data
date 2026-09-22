@@ -1,0 +1,200 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-35ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-35ROV: 'ATA02-35ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-42ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-42ROV: 'ATA02-42ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-46ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-46ROV: 'ATA02-46ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-50ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-50ROV: 'ATA02-50ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-52ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-52ROV: 'ATA02-52ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-57ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-57ROV: 'ATA02-57ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-63ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-63ROV: 'ATA02-63ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-67ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-67ROV: 'ATA02-67ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA02-70ROV": {
+                "class": "Mission"
+            }
+        },
+        "reason": "ATA02-70ROV: 'ATA02-70ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_1": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_1: 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_2": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_2: 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_4": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_4: 'Waypoint_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-35ROV": {
+                "hasDuration": 6.45
+            }
+        },
+        "reason": "ATA-35ROV: hasDuration=6.45 is not printed on any page that names 'ATA-35ROV' - copy the number the report prints beside 'ATA-35ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-37ROV": {
+                "hasDuration": 6.5
+            }
+        },
+        "reason": "ATA-37ROV: hasDuration=6.5 is not printed on any page that names 'ATA-37ROV' - copy the number the report prints beside 'ATA-37ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-42ROV": {
+                "hasDuration": 6.27
+            }
+        },
+        "reason": "ATA-42ROV: hasDuration=6.27 is not printed on any page that names 'ATA-42ROV' - copy the number the report prints beside 'ATA-42ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-46ROV": {
+                "hasDuration": 6.75
+            }
+        },
+        "reason": "ATA-46ROV: hasDuration=6.75 is not printed on any page that names 'ATA-46ROV' - copy the number the report prints beside 'ATA-46ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-50ROV": {
+                "hasDuration": 9.03
+            }
+        },
+        "reason": "ATA-50ROV: hasDuration=9.03 is not printed on any page that names 'ATA-50ROV' - copy the number the report prints beside 'ATA-50ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-52ROV": {
+                "hasDuration": 8.39
+            }
+        },
+        "reason": "ATA-52ROV: hasDuration=8.39 is not printed on any page that names 'ATA-52ROV' - copy the number the report prints beside 'ATA-52ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-57ROV": {
+                "hasDuration": 11.14
+            }
+        },
+        "reason": "ATA-57ROV: hasDuration=11.14 is not printed on any page that names 'ATA-57ROV' - copy the number the report prints beside 'ATA-57ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-63ROV": {
+                "hasDuration": 6.5
+            }
+        },
+        "reason": "ATA-63ROV: hasDuration=6.5 is not printed on any page that names 'ATA-63ROV' - copy the number the report prints beside 'ATA-63ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-67ROV": {
+                "hasDuration": 6.5
+            }
+        },
+        "reason": "ATA-67ROV: hasDuration=6.5 is not printed on any page that names 'ATA-67ROV' - copy the number the report prints beside 'ATA-67ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-70ROV": {
+                "hasDuration": 13.21
+            }
+        },
+        "reason": "ATA-70ROV: hasDuration=13.21 is not printed on any page that names 'ATA-70ROV' - copy the number the report prints beside 'ATA-70ROV', or leave hasDuration out"
+    }
+]

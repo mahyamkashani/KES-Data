@@ -1,0 +1,240 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Simrad EM120 Multibeam"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Simrad EM120 Multibeam"
+        },
+        "reason": "RV SONNE hasSensor Simrad EM120 Multibeam: 'RV SONNE' and 'Simrad EM120 Multibeam' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "ROV \"GENESIS\"",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "ROV \"GENESIS\" hasSensor OFOS"
+        },
+        "reason": "ROV \"GENESIS\" hasSensor OFOS: 'ROV \"GENESIS\"' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 214",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 214 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 214 hasAction Act_TakePhoto: 'Stat 214' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 217",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 217 hasAction Act_DeepDive"
+        },
+        "reason": "Stat 217 hasAction Act_DeepDive: 'Stat 217' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 218",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 218 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 218 hasAction Act_TakePhoto: 'Stat 218' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 219",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 219 hasAction Act_DeepDive"
+        },
+        "reason": "Stat 219 hasAction Act_DeepDive: 'Stat 219' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 220",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 220 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 220 hasAction Act_TakePhoto: 'Stat 220' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 221",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 221 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 221 hasAction Act_TakePhoto: 'Stat 221' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 254",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 254 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 254 hasAction Act_TakePhoto: 'Stat 254' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 255",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 255 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 255 hasAction Act_TakePhoto: 'Stat 255' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 256",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 256 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 256 hasAction Act_TakePhoto: 'Stat 256' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 257",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 257 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 257 hasAction Act_TakePhoto: 'Stat 257' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 258",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 258 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 258 hasAction Act_TakePhoto: 'Stat 258' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 259",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 259 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 259 hasAction Act_TakePhoto: 'Stat 259' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 260",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 260 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 260 hasAction Act_TakePhoto: 'Stat 260' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 261",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 261 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 261 hasAction Act_TakePhoto: 'Stat 261' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Stat 262",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 262 hasAction Act_TakePhoto"
+        },
+        "reason": "Stat 262 hasAction Act_TakePhoto: 'Stat 262' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Station 940RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 940RD hasAction Act_DeepDive"
+        },
+        "reason": "Station 940RD hasAction Act_DeepDive: 'Station 940RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

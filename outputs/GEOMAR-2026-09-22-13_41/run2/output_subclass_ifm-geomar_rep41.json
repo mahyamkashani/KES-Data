@@ -1,0 +1,32 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Cruise SO 206",
+                "hasDuration": "June 2, 2010 - June 17, 2010",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD 24"
+            },
+            {
+                "individual_name": "CTD 21"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "FS Sonne"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,56 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 32
+
+created 17 individuals:
+  + ATA_35ROV : Task
+  + ATA_63ROV : Task
+  + ATA02_31CTD : Mission
+  + station_33 : Station
+  + station_41 : Station
+  + ATA_37ROV : Task
+  + ATA_42ROV : Task
+  + ATA_46ROV : Task
+  + ATA_57ROV : Task
+  + ATA_67ROV : Task
+  + ATA_70ROV : Task
+  + Turtle_Pits_Two_Boats : State
+  + Comfortless_Cove_Sisters_Peak : State
+  + Red_Lion_Mephisto : State
+  + Wideawake : State
+  + Clueless : State
+  + Waypoint_3 : Waypoint
+
+asserted 30 axioms:
+  + ATA_35ROV hasAction Act_TakePhoto
+  + ATA_35ROV hasAction Act_DeepDive
+  + ATA_63ROV hasAction Act_TakePhoto
+  + ATA_63ROV hasAction Act_DeepDive
+  + ATA02_31CTD MissionID ATA02-31CTD
+  + ATA02_31CTD startTime 2008-01-12 17:17:57
+  + ATA02_31CTD dataVolume 21 bottles
+  + ATA02_31CTD hasStatus SUCCESSFUL
+  + station_33 stationID 33
+  + station_33 stationDate 2008-01-14
+  + station_33 stationTime 09:00
+  + station_41 stationID 41
+  + station_41 stationTime 09:00
+  + ATA_35ROV hasStatus PartialSUCCESSFUL
+  + ATA_37ROV hasStatus SUCCESSFUL
+  + ATA_42ROV hasStatus SUCCESSFUL
+  + ATA_46ROV hasStatus SUCCESSFUL
+  + ATA_57ROV hasStatus SUCCESSFUL
+  + ATA_63ROV hasStatus SUCCESSFUL
+  + ATA_67ROV hasStatus SUCCESSFUL
+  + ATA_70ROV hasStatus SUCCESSFUL
+  + Turtle_Pits_Two_Boats has_Temperature 451
+  + Turtle_Pits_Two_Boats has_Depth 1
+  + Comfortless_Cove_Sisters_Peak has_Temperature 367
+  + Comfortless_Cove_Sisters_Peak has_Depth 1
+  + Red_Lion_Mephisto has_Temperature 366
+  + Red_Lion_Mephisto has_Depth 1
+  + Wideawake has_Depth 1
+  + Clueless has_Temperature 8.8
+  + Clueless has_Depth 1
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep23.rdf

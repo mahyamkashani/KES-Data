@@ -1,0 +1,745 @@
+{
+    "Individuals": {
+        "OBH_01": {
+            "locationName": "OBH 01",
+            "latitude": "-37.96292",
+            "longitude": "179.99920",
+            "seabedDepth": 3625,
+            "class": "Waypoint"
+        },
+        "OBH_02": {
+            "locationName": "OBH 02",
+            "latitude": "-37.93492",
+            "longitude": "179.94225",
+            "seabedDepth": 3638,
+            "class": "Waypoint"
+        },
+        "OBH_30": {
+            "locationName": "OBH 30",
+            "latitude": "-34.90902",
+            "longitude": "-178.99912",
+            "seabedDepth": 5892,
+            "class": "Waypoint"
+        },
+        "OBH_31": {
+            "locationName": "OBH 31",
+            "latitude": "-34.87315",
+            "longitude": "-179.05800",
+            "seabedDepth": 5294,
+            "class": "Waypoint"
+        },
+        "OBH_90": {
+            "locationName": "OBH 90",
+            "latitude": "-29.58250",
+            "longitude": "-175.16717",
+            "seabedDepth": 5703,
+            "class": "Waypoint"
+        },
+        "OBH_96": {
+            "locationName": "OBH 96",
+            "latitude": "-29.49540",
+            "longitude": "-175.58337",
+            "seabedDepth": 5843,
+            "class": "Waypoint"
+        },
+        "OBH_03": {
+            "locationName": "OBH 03",
+            "latitude": "-37.90823",
+            "longitude": "179.88390",
+            "seabedDepth": 3653,
+            "class": "Waypoint"
+        },
+        "OBH_04": {
+            "locationName": "OBH 04",
+            "latitude": "-37.88100",
+            "longitude": "179.82540",
+            "seabedDepth": 3696,
+            "class": "Waypoint"
+        },
+        "OBS 05": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 06": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 07": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 08": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 09": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 10": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 11": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 23": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 24": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 25": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBH_26": {
+            "stationID": "OBH 26",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07",
+            "class": "Station"
+        },
+        "OBH_27": {
+            "stationID": "OBH 27",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07",
+            "class": "Station"
+        },
+        "OBH_28": {
+            "stationID": "OBH 28",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07",
+            "class": "Station"
+        },
+        "OBH_29": {
+            "stationID": "OBH 29",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07",
+            "class": "Station"
+        },
+        "OBS 32": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 33": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 34": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 35": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 36": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 37": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 38": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 39": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 40": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 60": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 61": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 62": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 63": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 64": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 65": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 71": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 72": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 73": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 74": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 75": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 76": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBH_88": {
+            "stationID": "OBH 88",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07",
+            "class": "Station"
+        },
+        "OBH_89": {
+            "stationID": "OBH 89",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07",
+            "class": "Station"
+        },
+        "OBH_92": {
+            "locationName": "OBH 92",
+            "latitude": "-29.56488",
+            "longitude": "-175.25003",
+            "seabedDepth": 5684,
+            "class": "Waypoint"
+        },
+        "OBH_93": {
+            "locationName": "OBH 93",
+            "latitude": "-29.54728",
+            "longitude": "-175.33335",
+            "seabedDepth": 5714,
+            "class": "Waypoint"
+        },
+        "OBH_94": {
+            "locationName": "OBH 94",
+            "latitude": "-29.53022",
+            "longitude": "-175.41705",
+            "seabedDepth": 5844,
+            "class": "Waypoint"
+        },
+        "OBH_95": {
+            "locationName": "OBH 95",
+            "latitude": "-29.51317",
+            "longitude": "-175.50020",
+            "seabedDepth": 5775,
+            "class": "Waypoint"
+        },
+        "OBS 102": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 103": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBH_104": {
+            "stationID": "OBH 104",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07",
+            "class": "Station"
+        },
+        "OBS 105": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 106": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 114": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 115": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 116": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 117": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 118": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 119": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Landstation_01": {
+            "stationID": "Landstation 01",
+            "stationDate": "2007-04-10",
+            "stationTime": "16.04.07",
+            "class": "Station"
+        },
+        "Landstation_02": {
+            "stationID": "Landstation 02",
+            "stationDate": "2007-04-10",
+            "stationTime": "16.04.07",
+            "class": "Station"
+        },
+        "OBS 121": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 122": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 134": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 135": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 136": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 137": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBH_138": {
+            "stationID": "OBH 138",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07",
+            "class": "Station"
+        },
+        "OBH_139": {
+            "stationID": "OBH 139",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07",
+            "class": "Station"
+        },
+        "OBH_140": {
+            "stationID": "OBH 140",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07",
+            "class": "Station"
+        },
+        "OBS 01": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 02": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 03": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 04": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 12": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 13": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 15": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 16": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 17": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 18": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 19": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 20": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 21": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 22": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 30": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 31": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 41": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 42": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 43": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 44": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 45": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 46": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 47": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 48": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 49": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 50": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 51": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 52": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 54": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 55": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 66": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 67": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 68": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 69": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 70": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 77": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 78": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 79": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 90": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 91": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 92": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 93": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 94": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 95": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 96": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 97": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 98": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 99": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 100": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 101": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 104": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 107": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 108": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 109": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 110": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 111": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 112": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 113": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 120": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 123": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 124": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 125": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 126": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 127": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 128": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 129": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 130": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 131": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 132": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 133": {
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

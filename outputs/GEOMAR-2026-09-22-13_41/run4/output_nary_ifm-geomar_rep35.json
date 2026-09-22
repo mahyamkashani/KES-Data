@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO201-2 hasTask KALMAR"
+            ],
+            "Individuals": [
+                "SO201-2",
+                "KALMAR"
+            ]
+        }
+    }
+}

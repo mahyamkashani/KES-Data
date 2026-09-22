@@ -1,0 +1,218 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_1": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_1: 'Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_2": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_2: 'Station_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_3": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_3: 'Station_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CAT_Meter_1": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "CAT_Meter_1: 'CAT_Meter_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 1": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 1: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 2": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 2: 'Dive 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 3": {
+                "hasDuration": "5.0"
+            }
+        },
+        "reason": "Dive 3: hasDuration='5.0' is not printed on any page that names 'Dive 3' - copy the number the report prints beside 'Dive 3', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 4": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 4: 'Dive 4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 5": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 5: 'Dive 5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 6": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 6: 'Dive 6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 7": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 7: 'Dive 7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 8": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 8: 'Dive 8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 9": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 9: 'Dive 9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 10": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 10: 'Dive 10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 11": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 11: 'Dive 11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 12": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 12: 'Dive 12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 13": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 13: 'Dive 13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 14": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 14: 'Dive 14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 15": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 15: 'Dive 15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 16": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 16: 'Dive 16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 17": {
+                "hasDuration": "5.0"
+            }
+        },
+        "reason": "Dive 17: hasDuration='5.0' is not printed on any page that names 'Dive 17' - copy the number the report prints beside 'Dive 17', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 18": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 18: 'Dive 18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 19": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 19: 'Dive 19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 20": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 20: 'Dive 20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

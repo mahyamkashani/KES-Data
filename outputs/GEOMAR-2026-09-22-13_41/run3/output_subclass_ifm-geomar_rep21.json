@@ -1,0 +1,89 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "739SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "745SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "748SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "744CTD",
+                "hasDuration": "1 hour 10 minutes",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "P340-731DR-1",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "calcareous mud"
+            },
+            {
+                "individual_name": "P340-731DR-2",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "calcareous mudstone"
+            },
+            {
+                "individual_name": "P340-731DR-3",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Mn-Fe-oxide coated agglomeration"
+            }
+        ],
+        "Traversal": [
+            {
+                "individual_name": "740ROV",
+                "hasStatus": "FAILED"
+            },
+            {
+                "individual_name": "741ROV",
+                "hasDuration": "over 5 hours",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "743ROV",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "746ROV",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "749ROV",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "752ROV",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "754ROV",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [],
+        "Data_Sampling_Mission": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RRS James Cook",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,1472 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 870SB",
+                "multibeam survey"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 870SB hasAction Act_TakePhoto"
+        },
+        "reason": "station 870SB hasAction Act_TakePhoto: 'station 870SB' and 'multibeam survey' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 880RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 880RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 880RD hasAction Act_TakePhoto: 'station 880RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 883RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 883RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 883RD hasAction Act_TakePhoto: 'station 883RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 884RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 884RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 884RD hasAction Act_TakePhoto: 'station 884RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 887RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 887RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 887RD hasAction Act_TakePhoto: 'station 887RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 888RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 888RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 888RD hasAction Act_TakePhoto: 'station 888RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 890RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 890RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 890RD hasAction Act_TakePhoto: 'station 890RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 891RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 891RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 891RD hasAction Act_TakePhoto: 'station 891RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 892RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 892RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 892RD hasAction Act_TakePhoto: 'station 892RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 893RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 893RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 893RD hasAction Act_TakePhoto: 'station 893RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 894RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 894RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 894RD hasAction Act_TakePhoto: 'station 894RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 897RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 897RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 897RD hasAction Act_TakePhoto: 'station 897RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 898RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 898RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 898RD hasAction Act_TakePhoto: 'station 898RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 899RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 899RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 899RD hasAction Act_TakePhoto: 'station 899RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 900RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 900RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 900RD hasAction Act_TakePhoto: 'station 900RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 903RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 903RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 903RD hasAction Act_TakePhoto: 'station 903RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 904RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 904RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 904RD hasAction Act_TakePhoto: 'station 904RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 905RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 905RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 905RD hasAction Act_TakePhoto: 'station 905RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 906RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 906RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 906RD hasAction Act_TakePhoto: 'station 906RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 907RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 907RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 907RD hasAction Act_TakePhoto: 'station 907RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 909RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 909RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 909RD hasAction Act_TakePhoto: 'station 909RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 910RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 910RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 910RD hasAction Act_TakePhoto: 'station 910RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 911RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 911RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 911RD hasAction Act_TakePhoto: 'station 911RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 912RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 912RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 912RD hasAction Act_TakePhoto: 'station 912RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 913RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 913RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 913RD hasAction Act_TakePhoto: 'station 913RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 914RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 914RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 914RD hasAction Act_TakePhoto: 'station 914RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 915RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 915RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 915RD hasAction Act_TakePhoto: 'station 915RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 916RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 916RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 916RD hasAction Act_TakePhoto: 'station 916RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 919RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 919RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 919RD hasAction Act_TakePhoto: 'station 919RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 920RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 920RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 920RD hasAction Act_TakePhoto: 'station 920RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 921RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 921RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 921RD hasAction Act_TakePhoto: 'station 921RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 922RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 922RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 922RD hasAction Act_TakePhoto: 'station 922RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 923RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 923RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 923RD hasAction Act_TakePhoto: 'station 923RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 924RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 924RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 924RD hasAction Act_TakePhoto: 'station 924RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 928RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 928RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 928RD hasAction Act_TakePhoto: 'station 928RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 929RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 929RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 929RD hasAction Act_TakePhoto: 'station 929RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 931RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 931RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 931RD hasAction Act_TakePhoto: 'station 931RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 933RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 933RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 933RD hasAction Act_TakePhoto: 'station 933RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 934RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 934RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 934RD hasAction Act_TakePhoto: 'station 934RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 935RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 935RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 935RD hasAction Act_TakePhoto: 'station 935RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 936RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 936RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 936RD hasAction Act_TakePhoto: 'station 936RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 937RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 937RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 937RD hasAction Act_TakePhoto: 'station 937RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 938RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 938RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 938RD hasAction Act_TakePhoto: 'station 938RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 939RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 939RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 939RD hasAction Act_TakePhoto: 'station 939RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 940RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 940RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 940RD hasAction Act_TakePhoto: 'station 940RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 941RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 941RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 941RD hasAction Act_TakePhoto: 'station 941RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 942RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 942RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 942RD hasAction Act_TakePhoto: 'station 942RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 943RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 943RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 943RD hasAction Act_TakePhoto: 'station 943RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 944RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 944RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 944RD hasAction Act_TakePhoto: 'station 944RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 945RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 945RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 945RD hasAction Act_TakePhoto: 'station 945RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 946RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 946RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 946RD hasAction Act_TakePhoto: 'station 946RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 947RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 947RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 947RD hasAction Act_TakePhoto: 'station 947RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 948RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 948RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 948RD hasAction Act_TakePhoto: 'station 948RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 949RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 949RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 949RD hasAction Act_TakePhoto: 'station 949RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 950RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 950RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 950RD hasAction Act_TakePhoto: 'station 950RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 951RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 951RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 951RD hasAction Act_TakePhoto: 'station 951RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 952RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 952RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 952RD hasAction Act_TakePhoto: 'station 952RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 953RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 953RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 953RD hasAction Act_TakePhoto: 'station 953RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 954RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 954RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 954RD hasAction Act_TakePhoto: 'station 954RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 955RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 955RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 955RD hasAction Act_TakePhoto: 'station 955RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 956RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 956RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 956RD hasAction Act_TakePhoto: 'station 956RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 957RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 957RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 957RD hasAction Act_TakePhoto: 'station 957RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 958RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 958RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 958RD hasAction Act_TakePhoto: 'station 958RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 959RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 959RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 959RD hasAction Act_TakePhoto: 'station 959RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 960RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 960RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 960RD hasAction Act_TakePhoto: 'station 960RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 961RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 961RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 961RD hasAction Act_TakePhoto: 'station 961RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 962RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 962RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 962RD hasAction Act_TakePhoto: 'station 962RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 963RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 963RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 963RD hasAction Act_TakePhoto: 'station 963RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 964RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 964RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 964RD hasAction Act_TakePhoto: 'station 964RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 965RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 965RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 965RD hasAction Act_TakePhoto: 'station 965RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 966RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 966RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 966RD hasAction Act_TakePhoto: 'station 966RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 967RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 967RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 967RD hasAction Act_TakePhoto: 'station 967RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 968RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 968RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 968RD hasAction Act_TakePhoto: 'station 968RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 969RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 969RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 969RD hasAction Act_TakePhoto: 'station 969RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 970RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 970RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 970RD hasAction Act_TakePhoto: 'station 970RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 971RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 971RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 971RD hasAction Act_TakePhoto: 'station 971RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 972RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 972RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 972RD hasAction Act_TakePhoto: 'station 972RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 973RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 973RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 973RD hasAction Act_TakePhoto: 'station 973RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 974RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 974RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 974RD hasAction Act_TakePhoto: 'station 974RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 975RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 975RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 975RD hasAction Act_TakePhoto: 'station 975RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 976RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 976RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 976RD hasAction Act_TakePhoto: 'station 976RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 977RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 977RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 977RD hasAction Act_TakePhoto: 'station 977RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 978RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 978RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 978RD hasAction Act_TakePhoto: 'station 978RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 979RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 979RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 979RD hasAction Act_TakePhoto: 'station 979RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 980RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 980RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 980RD hasAction Act_TakePhoto: 'station 980RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 981RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 981RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 981RD hasAction Act_TakePhoto: 'station 981RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 982RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 982RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 982RD hasAction Act_TakePhoto: 'station 982RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 983RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 983RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 983RD hasAction Act_TakePhoto: 'station 983RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 984RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 984RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 984RD hasAction Act_TakePhoto: 'station 984RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 985RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 985RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 985RD hasAction Act_TakePhoto: 'station 985RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 986RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 986RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 986RD hasAction Act_TakePhoto: 'station 986RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 987RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 987RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 987RD hasAction Act_TakePhoto: 'station 987RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 988RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 988RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 988RD hasAction Act_TakePhoto: 'station 988RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 989RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 989RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 989RD hasAction Act_TakePhoto: 'station 989RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 990RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 990RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 990RD hasAction Act_TakePhoto: 'station 990RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 991RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 991RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 991RD hasAction Act_TakePhoto: 'station 991RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 992RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 992RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 992RD hasAction Act_TakePhoto: 'station 992RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 993RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 993RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 993RD hasAction Act_TakePhoto: 'station 993RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 994RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 994RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 994RD hasAction Act_TakePhoto: 'station 994RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 995RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 995RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 995RD hasAction Act_TakePhoto: 'station 995RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 996RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 996RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 996RD hasAction Act_TakePhoto: 'station 996RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 997RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 997RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 997RD hasAction Act_TakePhoto: 'station 997RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 998RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 998RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 998RD hasAction Act_TakePhoto: 'station 998RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 999RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 999RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 999RD hasAction Act_TakePhoto: 'station 999RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "station 1000RD",
+                "Rockdrill"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 1000RD hasAction Act_TakePhoto"
+        },
+        "reason": "station 1000RD hasAction Act_TakePhoto: 'station 1000RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

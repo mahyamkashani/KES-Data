@@ -1,0 +1,27 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO206 hasTask Task_1",
+        "reason": "'SO206 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Jaco_Scarp",
+        "reason": "'Traversal goes_through Jaco_Scarp': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Jaco_Scarp': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Pockmark",
+        "reason": "'Traversal goes_through Pockmark': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Pockmark': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Terrain requiresNavigation Mound_11_12",
+        "reason": "'Terrain requiresNavigation Mound_11_12': 'Terrain' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Terrain requiresNavigation Mound_11_12': 'Terrain', 'Mound_11_12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "State has_Terrain BGR_Slide",
+        "reason": "'State has_Terrain BGR_Slide': 'State' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'State has_Terrain BGR_Slide': 'State' and 'BGR_Slide' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

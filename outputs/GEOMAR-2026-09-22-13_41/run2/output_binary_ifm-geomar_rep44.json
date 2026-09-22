@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "KIEL 6000",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor KIEL 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "CMSA Box 1",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OFOS hasDestination CMSA Box 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "CMSA Box 2",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OFOS hasDestination CMSA Box 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "CMSA Box 3",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OFOS hasDestination CMSA Box 3"
+        },
+        {
+            "INDIVIDUAL": [
+                "CMSA Box 4",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "OFOS hasDestination CMSA Box 4"
+        }
+    ]
+}

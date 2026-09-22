@@ -1,0 +1,24 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "POS389 hasVehicle RV_Poseidon"
+            ],
+            "Individuals": [
+                "POS389",
+                "Waypoint_1",
+                "RV_Poseidon"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "POS393 hasVehicle RV_Poseidon"
+            ],
+            "Individuals": [
+                "POS393",
+                "Waypoint_2",
+                "RV_Poseidon"
+            ]
+        }
+    }
+}

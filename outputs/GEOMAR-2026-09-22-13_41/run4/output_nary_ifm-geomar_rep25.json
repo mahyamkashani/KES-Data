@@ -1,0 +1,113 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO199_CHRISP hasTask SO199_CHRISP",
+                "SO199_CHRISP hasAction SO199_CHRISP"
+            ],
+            "Individuals": [
+                "SO199_CHRISP"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "BGR08-203 hasTask BGR08-203",
+                "BGR08-203 hasAction BGR08-203",
+                "BGR08-204 goes_through BGR08-204",
+                "BGR08-205 requiresNavigation BGR08-205"
+            ],
+            "Individuals": [
+                "BGR08-203",
+                "BGR08-204",
+                "BGR08-205"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "BGR08-206 hasTask BGR08-206",
+                "BGR08-206 hasAction BGR08-206",
+                "BGR08-207 goes_through BGR08-207",
+                "BGR08-208 requiresNavigation BGR08-208"
+            ],
+            "Individuals": [
+                "BGR08-206",
+                "BGR08-207",
+                "BGR08-208"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "BGR08-209 hasTask BGR08-209",
+                "BGR08-209 hasAction BGR08-209",
+                "BGR08-210 goes_through BGR08-210",
+                "BGR08-211 requiresNavigation BGR08-211"
+            ],
+            "Individuals": [
+                "BGR08-209",
+                "BGR08-210",
+                "BGR08-211"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "BGR08-212 hasTask BGR08-212",
+                "BGR08-212 hasAction BGR08-212",
+                "BGR08-213 goes_through BGR08-213",
+                "BGR08-214 requiresNavigation BGR08-214"
+            ],
+            "Individuals": [
+                "BGR08-212",
+                "BGR08-213",
+                "BGR08-214"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "SO199 hasTask DR30",
+                "DR30-1 hasTask DR30-1_1",
+                "DR30-1_1 hasAction single_pillow_with_fresh_glassy_margin",
+                "DR30-2 hasTask DR30-2_1",
+                "DR30-3 hasTask DR30-3_1",
+                "DR30-4 hasTask DR30-4_1",
+                "DR30-4_1 hasAction massive_V-shaped_pillow_fragment_without_chilled_margin",
+                "DR30-5 hasTask DR30-5_1",
+                "DR30-5_1 hasAction similar_to_DR30-4",
+                "DR30-6 hasTask DR30-6_1",
+                "DR30-6_1 hasAction similar_to_DR30-4",
+                "DR30-7 hasTask DR30-7_1",
+                "DR30-7_1 hasAction lava_fragment_similar_to_DR30-4",
+                "DR30-8 hasTask DR30-8_1",
+                "DR30-8_1 hasAction similar_to_DR30-7",
+                "DR30-9X hasTask DR30-9X_1",
+                "DR30-9X_1 hasAction pieces_with_glassy_pillow_margins",
+                "DR30-10X hasTask DR30-10X_1",
+                "DR30-10X_1 hasAction piece_of_cut_whole_rock_pillow_similar_to_DR30-7",
+                "DR30-11X hasTask DR30-11X_1",
+                "DR30-11X_1 hasAction pieces_of_uncut_pillow_fragments"
+            ],
+            "Individuals": [
+                "SO199",
+                "DR30-1",
+                "DR30-2",
+                "DR30-3",
+                "DR30-4",
+                "DR30-5",
+                "DR30-6",
+                "DR30-7",
+                "DR30-8",
+                "DR30-9X",
+                "DR30-10X",
+                "DR30-11X",
+                "single_pillow_with_fresh_glassy_margin",
+                "single_pillow_similar_to_DR30-1",
+                "single_pillow_taken_as_intact_piece_similar_to_DR30-1",
+                "massive_V-shaped_pillow_fragment_without_chilled_margin",
+                "similar_to_DR30-4",
+                "lava_fragment_similar_to_DR30-4",
+                "pieces_with_glassy_pillow_margins",
+                "piece_of_cut_whole_rock_pillow_similar_to_DR30-7",
+                "pieces_of_uncut_pillow_fragments"
+            ]
+        }
+    }
+}

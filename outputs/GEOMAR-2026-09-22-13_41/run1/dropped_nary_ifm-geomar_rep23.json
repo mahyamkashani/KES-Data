@@ -1,0 +1,22 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "RV_SONNE hasTask Task_1",
+        "reason": "'RV_SONNE hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "RV_SONNE hasTask Task_2",
+        "reason": "'RV_SONNE hasTask Task_2': 'Task_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task_2 hasAction Action_2",
+        "reason": "'Task_2 hasAction Action_2': 'Task_2', 'Action_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

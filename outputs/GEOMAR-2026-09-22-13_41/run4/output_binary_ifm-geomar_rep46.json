@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Seabeam 3050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV Poseidon hasSensor Seabeam 3050"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Oktopus"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV Poseidon hasSensor Oktopus"
+        },
+        {
+            "INDIVIDUAL": [
+                "Hatiba Deep",
+                "Port Sudan Deep"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "Hatiba Deep requiresNavigation Port Sudan Deep"
+        },
+        {
+            "INDIVIDUAL": [
+                "Hatiba Deep",
+                "Atlantis II Deep"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "Hatiba Deep requiresNavigation Atlantis II Deep"
+        }
+    ]
+}

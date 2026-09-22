@@ -1,0 +1,38 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "MSM 03/2",
+                "hasDuration": "22 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "Bathymetric_Mission": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Rockdrill 2",
+                "maxDepth": "3100 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Maria S Merian"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 957RD",
+                "stationID": "957RD",
+                "stationDate": "2006-11-22",
+                "stationTime": "19:37"
+            }
+        ]
+    }
+}

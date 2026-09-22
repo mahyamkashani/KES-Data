@@ -1,0 +1,76 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "SO209",
+                "hasDuration": "2.5 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "EM120",
+                "hasDuration": "continuous during cruise SO212",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "OBS 01",
+                "hasDuration": "from 18.09.10 to 25.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 02",
+                "hasDuration": "from 18.09.10 to 25.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 03",
+                "hasDuration": "from 18.09.10 to 25.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 04",
+                "hasDuration": "from 18.09.10 to 25.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 05",
+                "hasDuration": "from 19.09.10 to 24.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 06",
+                "hasDuration": "from 19.09.10 to 24.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "OBS 07",
+                "hasDuration": "from 19.09.10 to 24.12.10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "SONNE",
+                "maxDepth": "5400 m"
+            }
+        ],
+        "Station": []
+    }
+}

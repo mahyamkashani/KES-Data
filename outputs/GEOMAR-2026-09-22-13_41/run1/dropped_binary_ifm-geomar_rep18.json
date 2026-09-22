@@ -1,0 +1,296 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #227"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #227"
+        },
+        "reason": "R/V Poseidon hasMission Stat #227: 'R/V Poseidon' and 'Stat #227' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #228"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #228"
+        },
+        "reason": "R/V Poseidon hasMission Stat #228: 'R/V Poseidon' and 'Stat #228' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #231"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #231"
+        },
+        "reason": "R/V Poseidon hasMission Stat #231: 'Stat #231' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #232"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #232"
+        },
+        "reason": "R/V Poseidon hasMission Stat #232: 'Stat #232' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #233"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #233"
+        },
+        "reason": "R/V Poseidon hasMission Stat #233: 'Stat #233' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #234"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #234"
+        },
+        "reason": "R/V Poseidon hasMission Stat #234: 'Stat #234' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #235"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #235"
+        },
+        "reason": "R/V Poseidon hasMission Stat #235: 'Stat #235' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #236"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #236"
+        },
+        "reason": "R/V Poseidon hasMission Stat #236: 'R/V Poseidon' and 'Stat #236' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #237"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #237"
+        },
+        "reason": "R/V Poseidon hasMission Stat #237: 'Stat #237' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #238"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #238"
+        },
+        "reason": "R/V Poseidon hasMission Stat #238: 'Stat #238' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #239"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #239"
+        },
+        "reason": "R/V Poseidon hasMission Stat #239: 'Stat #239' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #240"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #240"
+        },
+        "reason": "R/V Poseidon hasMission Stat #240: 'Stat #240' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #241"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #241"
+        },
+        "reason": "R/V Poseidon hasMission Stat #241: 'Stat #241' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #242"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #242"
+        },
+        "reason": "R/V Poseidon hasMission Stat #242: 'Stat #242' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #243"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #243"
+        },
+        "reason": "R/V Poseidon hasMission Stat #243: 'Stat #243' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #244"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #244"
+        },
+        "reason": "R/V Poseidon hasMission Stat #244: 'Stat #244' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #245"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #245"
+        },
+        "reason": "R/V Poseidon hasMission Stat #245: 'Stat #245' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #246"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #246"
+        },
+        "reason": "R/V Poseidon hasMission Stat #246: 'Stat #246' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #247"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #247"
+        },
+        "reason": "R/V Poseidon hasMission Stat #247: 'Stat #247' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #248"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #248"
+        },
+        "reason": "R/V Poseidon hasMission Stat #248: 'Stat #248' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #249"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #249"
+        },
+        "reason": "R/V Poseidon hasMission Stat #249: 'R/V Poseidon' and 'Stat #249' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

@@ -1,0 +1,46 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV SONNE",
+                "hasDuration": "1 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD-12",
+                "hasDuration": "28 June 2004",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-17",
+                "hasDuration": "3 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-18",
+                "hasDuration": "4 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-19",
+                "hasDuration": "5 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

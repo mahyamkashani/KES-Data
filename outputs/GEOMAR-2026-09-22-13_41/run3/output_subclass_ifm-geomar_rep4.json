@@ -1,0 +1,71 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV SONNE",
+                "hasDuration": "1 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD-12",
+                "hasDuration": "28 June 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sampling on a cm-scale",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Methane and pCO2"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "3000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "3000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 11",
+                "stationID": "SO177/1",
+                "stationName": "OFOS 02",
+                "stationDate": "2004-06-06",
+                "stationTime": "23:00"
+            },
+            {
+                "individual_name": "Station 12",
+                "stationID": "SO177/1",
+                "stationName": "OFOS 03",
+                "stationDate": "2004-06-07",
+                "stationTime": "06:27"
+            },
+            {
+                "individual_name": "Station 20",
+                "stationID": "SO177/1",
+                "stationName": "OFOS 05",
+                "stationDate": "2004-06-09",
+                "stationTime": "13:55"
+            },
+            {
+                "individual_name": "Station 21",
+                "stationID": "SO177/1",
+                "stationName": "OFOS 06",
+                "stationDate": "2004-06-09",
+                "stationTime": "18:21"
+            }
+        ]
+    }
+}

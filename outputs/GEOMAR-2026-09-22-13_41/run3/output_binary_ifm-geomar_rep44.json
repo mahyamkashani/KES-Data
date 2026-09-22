@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "KIEL 6000",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV SONNE hasVehicle KIEL 6000"
+        }
+    ]
+}

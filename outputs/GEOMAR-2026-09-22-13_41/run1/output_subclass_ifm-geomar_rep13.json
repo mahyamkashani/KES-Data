@@ -1,0 +1,43 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "SO193",
+                "hasDuration": "May 20th - June 28th",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO193",
+                "hasDuration": "May 20th - June 28th",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "SO193",
+                "hasDuration": "May 20th - June 28th",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "82 dredges, 2 TV grabs, 2 OFOS profiles"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

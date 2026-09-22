@@ -1,0 +1,56 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_014": {
+                "hasDuration": 8.7
+            }
+        },
+        "reason": "Dive_014: hasDuration=8.7 is not printed on any page that names 'Dive_014' - copy the number the report prints beside 'Dive_014', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_015": {
+                "hasDuration": 15.8
+            }
+        },
+        "reason": "Dive_015: hasDuration=15.8 is not printed on any page that names 'Dive_015' - copy the number the report prints beside 'Dive_015', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_016": {
+                "hasDuration": 17.3
+            }
+        },
+        "reason": "Dive_016: hasDuration=17.3 is not printed on any page that names 'Dive_016' - copy the number the report prints beside 'Dive_016', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_017": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive_017: 'Dive_017' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_019": {
+                "hasDuration": 4.9
+            }
+        },
+        "reason": "Dive_019: hasDuration=4.9 is not printed on any page that names 'Dive_019' - copy the number the report prints beside 'Dive_019', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_020": {
+                "hasDuration": 0.3
+            }
+        },
+        "reason": "Dive_020: hasDuration=0.3 is not printed on any page that names 'Dive_020' - copy the number the report prints beside 'Dive_020', or leave hasDuration out"
+    }
+]

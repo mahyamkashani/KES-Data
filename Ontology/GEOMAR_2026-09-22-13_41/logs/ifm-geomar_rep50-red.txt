@@ -1,0 +1,17 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 19
+
+created 4 individuals:
+  + P395 : Bathymetric_Mission
+  + Sediment_Sampling : Data_Sampling_Mission
+  + Seabeam_1050 : AUV
+  + RV_Poseidon : Ship
+
+asserted 4 axioms:
+  + P395 hasDurationText 15 days   [hasDuration could not take it]
+  + P395 hasStatus SUCCESSFUL
+  + Sediment_Sampling hasStatus SUCCESSFUL
+  + Sediment_Sampling collect_sample Gravity cores
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep50-red.rdf

@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "EM-120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RRS JAMES COOK hasSensor EM-120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "EM-710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RRS JAMES COOK hasSensor EM-710"
+        },
+        {
+            "INDIVIDUAL": [
+                "P10",
+                "Deeptow survey"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P10 hasTask Deeptow survey"
+        }
+    ]
+}

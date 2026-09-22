@@ -1,0 +1,234 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "SIMRAD EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor SIMRAD EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V SONNE hasSensor Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 5"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 15"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 15"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 18"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 21"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 22"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 22"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 23"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 23"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 24"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 24"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 25"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 25"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 26"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 26"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 29"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 29"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 30"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 30"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 31"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 31"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 32"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 32"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 33"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 33"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 36"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 36"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 37"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 37"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 38"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 39"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 40"
+        }
+    ]
+}

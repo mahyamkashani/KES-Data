@@ -1,0 +1,384 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "P340"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission P340"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "721CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 721CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "722SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 722SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "723ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 723ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "724DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 724DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "725DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 725DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "726DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 726DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "727SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 727SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "728ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 728ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "729DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 729DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "730DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 730DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "731DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 731DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "732DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 732DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "733SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 733SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "734ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 734ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "735DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 735DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "736DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 736DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "737ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 737ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "738DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 738DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "739SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 739SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "740ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 740ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "741ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 741ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "742SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 742SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "743ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 743ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "744CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 744CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "745SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 745SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "746ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 746ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "747SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 747SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "748SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 748SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "749ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 749ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "750SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 750SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "751CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 751CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "752ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 752ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "753SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 753SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "754ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 754ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "755SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 755SBM"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "756ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 756ROV"
+        },
+        {
+            "INDIVIDUAL": [
+                "P340",
+                "757SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "P340 hasTask 757SBM"
+        }
+    ]
+}

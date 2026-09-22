@@ -1,0 +1,44 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV Poseidon Cruise P408-3",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sediment Sampling",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "various sediment samples"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Atlantis II Station",
+                "stationName": "Atlantis II",
+                "stationDate": "2011-03-01",
+                "stationTime": "01:30"
+            },
+            {
+                "individual_name": "Port Sudan Deep",
+                "stationName": "Port Sudan",
+                "stationDate": "2011-01-24",
+                "stationTime": "~3:15 am"
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "IFM06": {
+                "hasDuration": 2.0
+            }
+        },
+        "reason": "IFM06: hasDuration=2.0 is not printed on any page that names 'IFM06' - copy the number the report prints beside 'IFM06', or leave hasDuration out"
+    }
+]

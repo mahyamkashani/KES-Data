@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "DTS-1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V METEOR hasSensor DTS-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V METEOR hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "PARASOUND"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "POSIDONIA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V METEOR hasSensor POSIDONIA"
+        }
+    ]
+}

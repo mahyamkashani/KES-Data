@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "M143": {
+            "class": "Mission",
+            "MissionID": "M143",
+            "startTime": "2017-12-12 10:00",
+            "endTime": "2017-12-22 00:00",
+            "maxDepth": "687.2",
+            "dataVolume": "1189",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Expedition focused on gas emission quantification and bathymetric mapping."
+        },
+        "M143_4-1": {
+            "class": "State",
+            "has_Temperature": 11.32,
+            "has_Conductivity": null,
+            "has_Depth": 633
+        },
+        "M143_5-1": {
+            "class": "State",
+            "has_Temperature": 10.85,
+            "has_Conductivity": null,
+            "has_Depth": 102
+        },
+        "M143_8-1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 120
+        }
+    }
+}

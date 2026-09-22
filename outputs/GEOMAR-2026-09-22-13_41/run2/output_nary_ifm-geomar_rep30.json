@@ -1,0 +1,29 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "893RD hasAction Drilling",
+                "893RD hasDestination Secca_dei_Pana_relli",
+                "900RDV hasAction Coring",
+                "901RD hasAction Drilling",
+                "901RD hasDestination Secca_dei_Pana_relli",
+                "902RD hasAction Drilling",
+                "902RD hasDestination Lisca_Bianca",
+                "903RD hasAction Drilling",
+                "903RD hasDestination Lisca_Bianca"
+            ],
+            "Individuals": [
+                "893RD",
+                "900RDV",
+                "901RD",
+                "902RD",
+                "903RD",
+                "Drilling",
+                "Coring",
+                "Secca_dei_Pana_relli",
+                "Panarelli",
+                "Lisca_Bianca"
+            ]
+        }
+    }
+}

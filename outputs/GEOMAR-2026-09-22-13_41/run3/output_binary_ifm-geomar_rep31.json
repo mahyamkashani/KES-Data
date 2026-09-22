@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "GI airgun"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V POSEIDON hasSensor GI airgun"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "CAT Meter #1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor CAT Meter #1"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "piezometer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor piezometer"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V POSEIDON",
+                "Tiltmeter"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V POSEIDON hasSensor Tiltmeter"
+        }
+    ]
+}

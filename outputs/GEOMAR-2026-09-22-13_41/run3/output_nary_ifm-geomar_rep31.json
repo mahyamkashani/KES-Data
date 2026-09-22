@@ -1,0 +1,17 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P388 hasAction OBS_Deployment",
+                "P388 hasVehicle RV_POSEIDON",
+                "P388 hasDestination North_Alex"
+            ],
+            "Individuals": [
+                "P388",
+                "OBS_Deployment",
+                "RV_POSEIDON",
+                "North_Alex"
+            ]
+        }
+    }
+}

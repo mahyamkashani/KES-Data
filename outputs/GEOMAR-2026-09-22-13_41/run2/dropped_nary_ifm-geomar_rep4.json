@@ -1,0 +1,72 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO177 hasTask Leg1",
+        "reason": "'SO177 hasTask Leg1': 'SO177' and 'Leg1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-1 hasDestination Haiyang4",
+        "reason": "'GC-1 hasDestination Haiyang4': 'GC-1' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-2 hasDestination Haiyang4",
+        "reason": "'GC-2 hasDestination Haiyang4': 'GC-2' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-4 hasDestination Haiyang4",
+        "reason": "'GC-4 hasDestination Haiyang4': 'GC-4' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-5 hasDestination Haiyang4",
+        "reason": "'GC-5 hasDestination Haiyang4': 'GC-5' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-6 hasDestination Haiyang4",
+        "reason": "'GC-6 hasDestination Haiyang4': 'GC-6' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-7 hasDestination Haiyang4",
+        "reason": "'GC-7 hasDestination Haiyang4': 'GC-7' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-8 hasDestination Haiyang4",
+        "reason": "'GC-8 hasDestination Haiyang4': 'GC-8' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-12 hasDestination Haiyang4",
+        "reason": "'GC-12 hasDestination Haiyang4': 'GC-12' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-14 hasDestination Haiyang4",
+        "reason": "'GC-14 hasDestination Haiyang4': 'GC-14' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-15 hasDestination Haiyang4",
+        "reason": "'GC-15 hasDestination Haiyang4': 'GC-15' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-16 hasDestination Haiyang4",
+        "reason": "'GC-16 hasDestination Haiyang4': 'GC-16' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "DAPC-1 hasDestination Haiyang4",
+        "reason": "'DAPC-1 hasDestination Haiyang4': 'DAPC-1' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "DAPC-2 hasDestination Haiyang4",
+        "reason": "'DAPC-2 hasDestination Haiyang4': 'DAPC-2' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

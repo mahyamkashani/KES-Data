@@ -1,0 +1,28 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 20
+
+created 5 individuals:
+  + RV_SONNE : Vehicle
+  + SIMRAD_EM_120 : MBES
+  + CTD : CTDSensor
+  + TransBrom_Sonne : Mission
+  + RV_Sonne : Ship
+
+asserted 10 axioms:
+  + RV_SONNE hasSensor SIMRAD_EM_120
+  + RV_SONNE hasSensor CTD
+  + RV_SONNE hasMission TransBrom_Sonne
+  + TransBrom_Sonne MissionID TransBrom Sonne
+  + TransBrom_Sonne startTime 2009-10-09
+  + TransBrom_Sonne endTime 2009-10-24
+  + TransBrom_Sonne maxDepthText 30 km   [maxDepth could not take it]
+  + TransBrom_Sonne dataVolume variety of parameters
+  + TransBrom_Sonne hasStatus SUCCESSFUL
+  + TransBrom_Sonne remark First oceanic-middle atmosphere campaign
+
+skipped 2 excluded axioms:
+  - RV_SONNE hasTask So01   [hasTask has no single named domain/range to type from]
+  - So01 hasAction AIRSAMPLING   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep37.rdf

@@ -1,0 +1,27 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "AL275 hasTask Task_1",
+        "reason": "'AL275 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "AL275 hasTask Task_2",
+        "reason": "'AL275 hasTask Task_2': 'Task_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal hasVehicle RV_ALKOR",
+        "reason": "'Traversal hasVehicle RV_ALKOR': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal hasVehicle RV_ALKOR': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_1",
+        "reason": "'Traversal goes_through Waypoint_1': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_1': 'Traversal', 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

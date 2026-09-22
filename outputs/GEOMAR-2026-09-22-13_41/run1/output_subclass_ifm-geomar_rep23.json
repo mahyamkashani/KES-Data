@@ -1,0 +1,32 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV Kiel 6000"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "Comfortless Cove",
+                "stationID": "42ROV",
+                "stationName": "Comfortless Cove",
+                "stationDate": "2008-01-24",
+                "stationTime": "10:48:04"
+            },
+            {
+                "individual_name": "Inside Corner High 1",
+                "stationID": "50ROV",
+                "stationName": "Inside Corner High 1",
+                "stationDate": "2008-01-19",
+                "stationTime": "09:40:42"
+            }
+        ]
+    }
+}

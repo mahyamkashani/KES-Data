@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Stat 212",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 212 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 213",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 213 hasAction Act_DeepDive"
+        }
+    ]
+}

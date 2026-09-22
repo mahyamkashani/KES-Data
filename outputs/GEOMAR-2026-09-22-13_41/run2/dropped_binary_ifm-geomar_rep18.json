@@ -1,0 +1,324 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "PROVOR float #73060"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor PROVOR float #73060"
+        },
+        "reason": "R/V Poseidon hasSensor PROVOR float #73060: 'R/V Poseidon' and 'PROVOR float #73060' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "PROVOR float #73061"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor PROVOR float #73061"
+        },
+        "reason": "R/V Poseidon hasSensor PROVOR float #73061: 'R/V Poseidon' and 'PROVOR float #73061' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "NOAA surface drifter #62289"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor NOAA surface drifter #62289"
+        },
+        "reason": "R/V Poseidon hasSensor NOAA surface drifter #62289: 'NOAA surface drifter #62289' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "NOAA surface drifter #62286"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor NOAA surface drifter #62286"
+        },
+        "reason": "R/V Poseidon hasSensor NOAA surface drifter #62286: 'NOAA surface drifter #62286' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "NOAA surface drifter #62287"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor NOAA surface drifter #62287"
+        },
+        "reason": "R/V Poseidon hasSensor NOAA surface drifter #62287: 'NOAA surface drifter #62287' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "NOAA surface drifter #62285"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor NOAA surface drifter #62285"
+        },
+        "reason": "R/V Poseidon hasSensor NOAA surface drifter #62285: 'NOAA surface drifter #62285' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "NOAA surface drifter #62288"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor NOAA surface drifter #62288"
+        },
+        "reason": "R/V Poseidon hasSensor NOAA surface drifter #62288: 'NOAA surface drifter #62288' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #226"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #226"
+        },
+        "reason": "Mission P348 hasTask Task #226: 'Mission P348', 'Task #226' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #227"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #227"
+        },
+        "reason": "Mission P348 hasTask Task #227: 'Mission P348', 'Task #227' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #236"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #236"
+        },
+        "reason": "Mission P348 hasTask Task #236: 'Mission P348', 'Task #236' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #237"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #237"
+        },
+        "reason": "Mission P348 hasTask Task #237: 'Mission P348', 'Task #237' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #238"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #238"
+        },
+        "reason": "Mission P348 hasTask Task #238: 'Mission P348', 'Task #238' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #239"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #239"
+        },
+        "reason": "Mission P348 hasTask Task #239: 'Mission P348', 'Task #239' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #240"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #240"
+        },
+        "reason": "Mission P348 hasTask Task #240: 'Mission P348', 'Task #240' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #241"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #241"
+        },
+        "reason": "Mission P348 hasTask Task #241: 'Mission P348', 'Task #241' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #242"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #242"
+        },
+        "reason": "Mission P348 hasTask Task #242: 'Mission P348', 'Task #242' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #243"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #243"
+        },
+        "reason": "Mission P348 hasTask Task #243: 'Mission P348', 'Task #243' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #244"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #244"
+        },
+        "reason": "Mission P348 hasTask Task #244: 'Mission P348', 'Task #244' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #245"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #245"
+        },
+        "reason": "Mission P348 hasTask Task #245: 'Mission P348', 'Task #245' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #246"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #246"
+        },
+        "reason": "Mission P348 hasTask Task #246: 'Mission P348', 'Task #246' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #247"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #247"
+        },
+        "reason": "Mission P348 hasTask Task #247: 'Mission P348', 'Task #247' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #248"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #248"
+        },
+        "reason": "Mission P348 hasTask Task #248: 'Mission P348', 'Task #248' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Mission P348",
+                "Task #249"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission P348 hasTask Task #249"
+        },
+        "reason": "Mission P348 hasTask Task #249: 'Mission P348', 'Task #249' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

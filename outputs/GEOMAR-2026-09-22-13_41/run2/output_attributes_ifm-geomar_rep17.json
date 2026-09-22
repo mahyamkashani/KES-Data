@@ -1,0 +1,46 @@
+{
+    "Individuals": {
+        "PIES123": {
+            "class": "Waypoint",
+            "locationName": "PIES123",
+            "latitude": "16.35500",
+            "longitude": "60.48750",
+            "seabedDepth": "4959.4"
+        },
+        "PIES128": {
+            "class": "Waypoint",
+            "locationName": "PIES128",
+            "latitude": "20.60833",
+            "longitude": "56.68933",
+            "seabedDepth": "5060"
+        },
+        "PIES127": {
+            "class": "Waypoint",
+            "locationName": "PIES127",
+            "latitude": "15.44767",
+            "longitude": "51.52400",
+            "seabedDepth": "4900"
+        },
+        "PIES005": {
+            "class": "Waypoint",
+            "locationName": "PIES005",
+            "latitude": "16.17667",
+            "longitude": "58.71800",
+            "seabedDepth": "0"
+        },
+        "PIES165": {
+            "class": "Waypoint",
+            "locationName": "PIES165",
+            "latitude": "15.98933",
+            "longitude": "56.95550",
+            "seabedDepth": "5033.6"
+        },
+        "PIES012": {
+            "class": "Waypoint",
+            "locationName": "PIES012",
+            "latitude": "15.72000",
+            "longitude": "54.23717",
+            "seabedDepth": "0"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P347 hasTask MUMP",
+                "MUMP hasAction Microstructure",
+                "MUMP hasAction Mooring"
+            ],
+            "Individuals": [
+                "P347",
+                "MUMP",
+                "Microstructure",
+                "Mooring",
+                "Chemistry"
+            ]
+        }
+    }
+}

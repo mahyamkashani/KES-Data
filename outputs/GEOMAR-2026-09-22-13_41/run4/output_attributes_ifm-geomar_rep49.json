@@ -1,0 +1,126 @@
+{
+    "Individuals": {
+        "WND-V_Cruise": {
+            "class": "Mission",
+            "MissionID": "WND-V",
+            "startTime": "2010-06-15",
+            "endTime": "2010-06-25",
+            "dataVolume": "12 OBS, 4 Piezometers, 6 CATmeters, 2 Tiltmeters, 2 T-Observatories",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Final expedition of the West Nile Delta project"
+        },
+        "North_Alex_MV": {
+            "class": "Station",
+            "stationID": "North Alex MV",
+            "stationDate": "2010-06-15/2010-06-25",
+            "stationTime": "Various"
+        },
+        "Giza_MV": {
+            "class": "Station",
+            "stationID": "Giza MV",
+            "stationDate": "2010-06-15/2010-06-25",
+            "stationTime": "Various"
+        },
+        "North_Alex_Mud_Volcano": {
+            "class": "Waypoint",
+            "locationName": "North Alex",
+            "latitude": "31.96980",
+            "longitude": "30.13588",
+            "seabedDepth": "500 m"
+        },
+        "OBS_SP_25": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_SP_29": {
+            "class": "Task",
+            "hasStatus": "PartialFAILURE"
+        },
+        "OBS_SP_30": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_SP_31": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_1": {
+            "class": "State",
+            "has_Depth": "505.0"
+        },
+        "CTD_2": {
+            "class": "State",
+            "has_Depth": "510.0"
+        },
+        "CTD_3": {
+            "class": "State",
+            "has_Depth": "523.0"
+        },
+        "CTD_4": {
+            "class": "State",
+            "has_Depth": "494.0"
+        },
+        "CTD_5": {
+            "class": "State"
+        },
+        "CTD_6": {
+            "class": "State",
+            "has_Depth": "510.0"
+        },
+        "CTD_7": {
+            "class": "State"
+        },
+        "CTD_8": {
+            "class": "State",
+            "has_Depth": "510.0"
+        },
+        "CTD_9": {
+            "class": "State",
+            "has_Depth": "510.0"
+        },
+        "CTD_10": {
+            "class": "State",
+            "has_Depth": "518.0"
+        },
+        "CTD_11": {
+            "class": "State",
+            "has_Depth": "490.0"
+        },
+        "CTD_12": {
+            "class": "State",
+            "has_Depth": "480.0"
+        },
+        "CTD_13": {
+            "class": "State",
+            "has_Depth": "510.0"
+        },
+        "CTD_14": {
+            "class": "State",
+            "has_Depth": "519.0"
+        },
+        "CTD_15": {
+            "class": "State",
+            "has_Depth": "509.0"
+        },
+        "CTD_16": {
+            "class": "State",
+            "has_Depth": "518.0"
+        },
+        "CTD_17": {
+            "class": "State",
+            "has_Depth": "520.0"
+        },
+        "CTD_18": {
+            "class": "State",
+            "has_Depth": "520.0"
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Depth": "861.0"
+        },
+        "CTD_20": {
+            "class": "State",
+            "has_Depth": "861.0"
+        }
+    }
+}

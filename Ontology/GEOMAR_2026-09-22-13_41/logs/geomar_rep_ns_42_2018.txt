@@ -1,0 +1,57 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 33
+
+created 18 individuals:
+  + R_V_METEOR : Vehicle
+  + EM710 : MBES
+  + EM122 : MBES
+  + EK80 : Sonar
+  + PARASOUND : Echosounder
+  + M143 : Mission
+  + M143_4_1 : Task
+  + M143_5_1 : Task
+  + M143_6_1 : Task
+  + M143_7_1 : Task
+  + M143_8_1 : Task
+  + M143_9_1 : Task
+  + M143_10_1 : Task
+  + M143_11_1 : Task
+  + M143_12_1 : Task
+  + Expedition_M143 : Bathymetric_Mission
+  + SVP02 : Data_Sampling_Mission
+  + SVP04 : Data_Sampling_Mission
+
+asserted 30 axioms:
+  + R_V_METEOR hasSensor EM710
+  + R_V_METEOR hasSensor EM122
+  + R_V_METEOR hasSensor EK80
+  + R_V_METEOR hasSensor PARASOUND
+  + M143 hasTask M143_4_1
+  + M143 hasTask M143_5_1
+  + M143 hasTask M143_6_1
+  + M143 hasTask M143_7_1
+  + M143 hasTask M143_8_1
+  + M143 hasTask M143_9_1
+  + M143 hasTask M143_10_1
+  + M143 hasTask M143_11_1
+  + M143 hasTask M143_12_1
+  + Expedition_M143 hasStatus SUCCESSFUL
+  + SVP02 hasStatus SUCCESSFUL
+  + SVP02 collect_sample Sound velocity profile
+  + SVP04 hasStatus SUCCESSFUL
+  + SVP04 collect_sample Sound velocity profile
+  + M143 MissionID M143
+  + M143 startTime 2017-12-12 10:00
+  + M143 endTime 2017-12-22 00:00
+  + M143 maxDepth 687.2
+  + M143 dataVolume 1189
+  + M143 hasStatus SUCCESSFUL
+  + M143 remark Expedition focused on gas emission quantification and bathymetric mapping.
+  + M143_4_1 has_Temperature 11.32
+  + M143_4_1 has_Depth 633
+  + M143_5_1 has_Temperature 10.85
+  + M143_5_1 has_Depth 102
+  + M143_8_1 has_Depth 120
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_geomar_rep_ns_42_2018.rdf

@@ -1,0 +1,184 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 20",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 20 hasSensor Posidonia"
+        },
+        "reason": "RD 20 hasSensor Posidonia: 'RD 20' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 21",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 21 hasSensor Posidonia"
+        },
+        "reason": "RD 21 hasSensor Posidonia: 'RD 21' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 22",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 22 hasSensor Posidonia"
+        },
+        "reason": "RD 22 hasSensor Posidonia: 'RD 22' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 23",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 23 hasSensor Posidonia"
+        },
+        "reason": "RD 23 hasSensor Posidonia: 'RD 23' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 24",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 24 hasSensor Posidonia"
+        },
+        "reason": "RD 24 hasSensor Posidonia: 'RD 24' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 25",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 25 hasSensor Posidonia"
+        },
+        "reason": "RD 25 hasSensor Posidonia: 'RD 25' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 26",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 26 hasSensor Posidonia"
+        },
+        "reason": "RD 26 hasSensor Posidonia: 'RD 26' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 27",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 27 hasSensor Posidonia"
+        },
+        "reason": "RD 27 hasSensor Posidonia: 'RD 27' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 28",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 28 hasSensor Posidonia"
+        },
+        "reason": "RD 28 hasSensor Posidonia: 'RD 28' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 29",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 29 hasSensor Posidonia"
+        },
+        "reason": "RD 29 hasSensor Posidonia: 'RD 29' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 30",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 30 hasSensor Posidonia"
+        },
+        "reason": "RD 30 hasSensor Posidonia: 'RD 30' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 31",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 31 hasSensor Posidonia"
+        },
+        "reason": "RD 31 hasSensor Posidonia: 'RD 31' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RD 32",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RD 32 hasSensor Posidonia"
+        },
+        "reason": "RD 32 hasSensor Posidonia: 'RD 32' and 'Posidonia' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

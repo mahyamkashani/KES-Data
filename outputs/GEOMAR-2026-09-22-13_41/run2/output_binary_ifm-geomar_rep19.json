@@ -1,0 +1,184 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Microcat 2252"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Microcat 2252"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Microcat 2255"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Microcat 2255"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Microcat 3754"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Microcat 3754"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Microcat 2617"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Microcat 2617"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Microcat 2618"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Microcat 2618"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Mini-TD 63"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Mini-TD 63"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Mini-TD 64"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Mini-TD 64"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Oxygen Logger"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Oxygen Logger"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Seabird CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Seabird CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1006"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1006"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1021"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1021"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1022"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1022"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1023"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1023"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1024"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1024"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1025"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1025"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1026"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1026"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1027"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1027"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "KPO_1028"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V L\u2019A TALANTE hasMission KPO_1028"
+        }
+    ]
+}

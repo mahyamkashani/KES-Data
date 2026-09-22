@@ -1,0 +1,23 @@
+{
+    "Individuals": {
+        "P350": {
+            "MissionID": "P350",
+            "startTime": "2007-04-26",
+            "endTime": "2007-05-10",
+            "dataVolume": "High",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise focused on internal wave and mixing processes in the Gulf of Cadiz.",
+            "class": "Mission"
+        },
+        "Yoyo 1": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Yoyo 2": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

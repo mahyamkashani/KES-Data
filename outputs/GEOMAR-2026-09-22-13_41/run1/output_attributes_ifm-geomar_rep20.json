@@ -1,0 +1,54 @@
+{
+    "Individuals": {
+        "OBS 701": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 702": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_128": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4050
+        },
+        "OBS_131": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4212
+        },
+        "OBS_1117": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 728
+        },
+        "OBS_1118": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 733
+        },
+        "OBS_1119": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 766
+        },
+        "OBS_1218": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1620
+        },
+        "OBS_1219": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1680
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP1"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon usesVehicle MUMP1"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP2"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon usesVehicle MUMP2"
+        }
+    ]
+}

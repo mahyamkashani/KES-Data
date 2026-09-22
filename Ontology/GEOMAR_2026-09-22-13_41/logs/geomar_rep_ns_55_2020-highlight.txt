@@ -1,0 +1,57 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 32
+
+created 17 individuals:
+  + JAGO : Vehicle
+  + Imagenex_837B_Delta_T : MBES
+  + CoraMo_MK2 : Camera
+  + RV_ALKOR : Ship
+  + AL533 : Mission
+  + AUV_ANTON : Traversal
+  + Station_5_1 : Waypoint
+  + ANTON : Mission
+  + LUISE : AUV
+  + FS_ALKOR : Ship
+  + Station_11_1 : Station
+  + Station_14_1 : Station
+  + Station_17_1 : Station
+  + Dive_1427 : Task
+  + Dive_1428 : Task
+  + Dive_1429 : Task
+  + Dive_1431 : Task
+
+asserted 31 axioms:
+  + JAGO hasSensor Imagenex_837B_Delta_T
+  + JAGO hasSensor CoraMo_MK2
+  + RV_ALKOR usesVehicle JAGO
+  + RV_ALKOR hasMission AL533
+  + AUV_ANTON hasDestination Station_5_1
+  + ANTON MissionID AL533_5-1
+  + ANTON startTime 2020-02-08 12:20
+  + ANTON maxDepth 200
+  + ANTON dataVolume Over 100,000 photographs taken
+  + ANTON hasStatus SUCCESSFUL
+  + LUISE maxDepthText 500 m   [maxDepth could not take it]
+  + JAGO has_Temperature 15.0647
+  + JAGO has_Conductivity 4.61967
+  + Station_5_1 stationID AL533_5-1
+  + Station_5_1 stationName Panarea
+  + Station_5_1 stationDate 2020-02-08
+  + Station_5_1 stationTime 12:20
+  + Station_11_1 stationID AL533_11-1
+  + Station_11_1 stationDate 2020-02-12
+  + Station_14_1 stationID AL533_14-1
+  + Station_14_1 stationDate 2020-02-13
+  + Station_17_1 stationID AL533_17-1
+  + Station_17_1 stationDate 2020-02-15
+  + Station_17_1 stationTime 07:20
+  + Dive_1427 hasDuration 1.0
+  + Dive_1427 hasStatus SUCCESSFUL
+  + Dive_1428 hasDuration 1.0
+  + Dive_1428 hasStatus SUCCESSFUL
+  + Dive_1429 hasDuration 1.0
+  + Dive_1429 hasStatus SUCCESSFUL
+  + Dive_1431 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_geomar_rep_ns_55_2020-highlight.rdf

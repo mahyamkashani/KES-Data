@@ -1,0 +1,87 @@
+{
+    "Individuals": {
+        "KPO_1021": {
+            "stationID": "KPO_1021",
+            "stationDate": "2008-03-03",
+            "stationTime": "14:09",
+            "class": "Station"
+        },
+        "KPO_1023": {
+            "stationID": "KPO_1023",
+            "stationDate": "2008-03-01",
+            "stationTime": "19:43",
+            "class": "Station"
+        },
+        "AO_01": {
+            "stationID": "AO_01",
+            "stationDate": "2006-06-19",
+            "stationTime": "19:53",
+            "class": "Station"
+        },
+        "AO_02": {
+            "stationID": "AO_02",
+            "stationDate": "2006-06-20",
+            "stationTime": "29-Feb-08",
+            "class": "Station"
+        },
+        "AO_03": {
+            "stationID": "AO_03",
+            "stationDate": "2006-06-17",
+            "stationTime": "4-Mar-08",
+            "class": "Station"
+        },
+        "AO_04": {
+            "stationID": "AO_04",
+            "stationDate": "2006-06-21",
+            "stationTime": "2-Mar-08",
+            "class": "Station"
+        },
+        "AO_05": {
+            "stationID": "AO_05",
+            "stationDate": "2006-07-03",
+            "stationTime": "27-Feb-08",
+            "class": "Station"
+        },
+        "V440_1": {
+            "stationID": "V440_1",
+            "stationDate": "2006-07-08",
+            "stationTime": "19-Feb-08",
+            "class": "Station"
+        },
+        "KPO_1022": {
+            "stationID": "KPO_1022",
+            "stationDate": "2008-03-04",
+            "stationTime": "18:43",
+            "class": "Station"
+        },
+        "KPO_1024": {
+            "stationID": "KPO_1024",
+            "stationDate": "2008-03-06",
+            "stationTime": "10:35",
+            "class": "Station"
+        },
+        "KPO_1025": {
+            "stationID": "KPO_1025",
+            "stationDate": "2008-03-06",
+            "stationTime": "10:35",
+            "class": "Station"
+        },
+        "KPO_1026": {
+            "stationID": "KPO_1026",
+            "stationDate": "2008-02-27",
+            "stationTime": "18:30",
+            "class": "Station"
+        },
+        "KPO_1027": {
+            "stationID": "KPO_1027",
+            "stationDate": "2008-02-26",
+            "stationTime": "10:49",
+            "class": "Station"
+        },
+        "Glider_Recovery": {
+            "hasDuration": "45.0",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "CTD-12",
+                "hasDuration": "28 June 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sampling on a cm-scale",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

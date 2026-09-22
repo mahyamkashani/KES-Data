@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "POSEIDON",
+                "Galway Mound"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "POSEIDON usesVehicle Galway Mound"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON",
+                "Kiel Mount"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "POSEIDON usesVehicle Kiel Mount"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON",
+                "Poseidon Mound"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "POSEIDON usesVehicle Poseidon Mound"
+        },
+        {
+            "INDIVIDUAL": [
+                "Galway Mound",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Waypoint",
+            "RANGE": "CTDSensor",
+            "AXIOM": "Galway Mound hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Galway Mound",
+                "Stereo Camera"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Camera",
+            "AXIOM": "Galway Mound hasSensor Stereo Camera"
+        }
+    ]
+}

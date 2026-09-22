@@ -1,0 +1,42 @@
+[
+    {
+        "where": "n-ary window 4",
+        "item": "SO199 hasTask SO199-DR1",
+        "reason": "'SO199 hasTask SO199-DR1': 'SO199-DR1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199-DR1 hasAction dredge",
+        "reason": "'SO199-DR1 hasAction dredge': 'SO199-DR1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199 hasTask SO199-DR2",
+        "reason": "'SO199 hasTask SO199-DR2': 'SO199-DR2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199-DR2 hasAction dredge",
+        "reason": "'SO199-DR2 hasAction dredge': 'SO199-DR2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199 hasTask SO199-DR5",
+        "reason": "'SO199 hasTask SO199-DR5': 'SO199-DR5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199-DR5 hasAction dredge",
+        "reason": "'SO199-DR5 hasAction dredge': 'SO199-DR5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199 hasTask SO199-DR6",
+        "reason": "'SO199 hasTask SO199-DR6': 'SO199-DR6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO199-DR6 hasAction dredge",
+        "reason": "'SO199-DR6 hasAction dredge': 'SO199-DR6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

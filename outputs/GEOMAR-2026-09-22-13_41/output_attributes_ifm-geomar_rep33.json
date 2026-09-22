@@ -1,0 +1,88 @@
+{
+    "Individuals": {
+        "Abyss0012": {
+            "MissionID": "Abyss0012",
+            "startTime": "2009-10-30 09:20",
+            "endTime": "2009-10-30 10:17",
+            "class": "Mission"
+        },
+        "Abyss0013": {
+            "MissionID": "Abyss0013",
+            "startTime": "2009-11-01 05:01",
+            "endTime": "2009-11-01 05:06",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "Abyss0014": {
+            "MissionID": "Abyss0014",
+            "startTime": "2009-11-01 11:16",
+            "endTime": "2009-11-01 14:50",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "Abyss0016": {
+            "MissionID": "Abyss0016",
+            "startTime": "2009-11-06 02:30",
+            "endTime": "2009-11-06 04:45",
+            "class": "Mission"
+        },
+        "Station_124": {
+            "stationID": "124",
+            "stationDate": "2009-11-21",
+            "stationTime": "05:28-09:20",
+            "class": "Station"
+        },
+        "Station_137": {
+            "stationID": "137",
+            "stationDate": "2009-11-23",
+            "stationTime": "18:33-21:33",
+            "class": "Station"
+        },
+        "Moresby_Seamount": {
+            "locationName": "Moresby Seamount",
+            "latitude": "-9.81667",
+            "longitude": "155.58333",
+            "seabedDepth": "variable",
+            "class": "Waypoint"
+        },
+        "Franklin_Seamount": {
+            "locationName": "Franklin Seamount",
+            "latitude": "-9.89473",
+            "longitude": "151.79732",
+            "seabedDepth": "2348m",
+            "class": "Waypoint"
+        },
+        "Cheshire_Seamount": {
+            "locationName": "Cheshire Seamount",
+            "latitude": "-9.77872",
+            "longitude": "151.81125",
+            "seabedDepth": "1686m",
+            "class": "Waypoint"
+        },
+        "Dive_012": {
+            "hasDuration": 2.5,
+            "hasStatus": "PartialFAILURE",
+            "class": "Task"
+        },
+        "Dive_013": {
+            "has_Depth": "2100",
+            "class": "State"
+        },
+        "Dive_014": {
+            "has_Depth": "2130",
+            "class": "State"
+        },
+        "Dive_015": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive_018": {
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "Dive_019": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

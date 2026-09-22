@@ -1,0 +1,264 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Meteor",
+                "M73/2"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Meteor hasMission M73/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "POS340"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission POS340"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 866TVG",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 866TVG hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 867TVG",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 867TVG hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 868SB",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 868SB hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 869TVG",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 869TVG hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 870SB",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 870SB hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 875RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 875RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 876RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 876RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 878RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 878RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 879RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 879RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 881RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 881RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 882RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 882RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 885RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 885RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 886RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 886RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 889RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 889RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 895RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 895RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 896RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 896RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 901RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 901RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 902RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 902RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 908RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 908RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 917RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 917RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 918RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 918RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 925RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 925RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 926RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 926RD hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "station 927RD",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "station 927RD hasAction Act_Move"
+        }
+    ]
+}

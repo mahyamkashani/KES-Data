@@ -1,0 +1,49 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 35
+
+created 20 individuals:
+  + CTD_21 : CTDMission
+  + CTD_22 : CTDMission
+  + ROV_6000 : Remotely_Operated_Vehicle
+  + Salt_Dome_Juist : Station
+  + Tommeliten : Station
+  + ROV_1 : Task
+  + ROV_2 : Task
+  + ROV_3 : Task
+  + ROV_4 : Task
+  + ROV_5 : Task
+  + ROV_6 : Task
+  + ROV_7 : Task
+  + ROV_8 : Task
+  + ROV_9 : Task
+  + ROV_10 : Task
+  + ROV_11 : Task
+  + ROV_12 : Task
+  + ROV_13 : Task
+  + ROV_14 : Task
+  + CTD_23 : State
+
+asserted 20 axioms:
+  + ROV_6000 maxDepthText 6000 m   [maxDepth could not take it]
+  + Salt_Dome_Juist stationName Salt Dome Juist
+  + Tommeliten stationName Tommeliten
+  + ROV_1 hasStatus SUCCESSFUL
+  + ROV_2 hasStatus SUCCESSFUL
+  + ROV_3 hasStatus SUCCESSFUL
+  + ROV_4 hasStatus SUCCESSFUL
+  + ROV_5 hasStatus SUCCESSFUL
+  + ROV_6 hasStatus SUCCESSFUL
+  + ROV_7 hasStatus SUCCESSFUL
+  + ROV_8 hasStatus SUCCESSFUL
+  + ROV_9 hasStatus SUCCESSFUL
+  + ROV_10 hasStatus SUCCESSFUL
+  + ROV_11 hasStatus SUCCESSFUL
+  + ROV_12 hasStatus SUCCESSFUL
+  + ROV_13 hasStatus SUCCESSFUL
+  + ROV_14 hasStatus SUCCESSFUL
+  + CTD_23 has_Depth 74.0
+  + CTD_23 has_Temperature 0.0
+  + CTD_23 has_Conductivity 0.0
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep36.rdf

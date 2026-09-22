@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "KIEL 6000",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor KIEL 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "Act_TakePhoto",
+                "Dive 108"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 108 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Act_DeepDive",
+                "Dive 108"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 108 hasAction Act_DeepDive"
+        }
+    ]
+}

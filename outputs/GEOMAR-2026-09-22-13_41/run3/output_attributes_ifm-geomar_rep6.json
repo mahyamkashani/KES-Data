@@ -1,0 +1,125 @@
+{
+    "Individuals": {
+        "SO186-3-01": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-3-02": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-3-03": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO186-3-04": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBM59": {
+            "class": "Station",
+            "stationID": "OBM59",
+            "stationDate": "2006-03-01/2006-03-04",
+            "stationTime": "1min / 1min"
+        },
+        "OBM60": {
+            "class": "Station",
+            "stationID": "OBM60",
+            "stationDate": "2006-03-01/2006-03-04",
+            "stationTime": "1min / 1min"
+        },
+        "OBM61": {
+            "class": "Station",
+            "stationID": "OBM61",
+            "stationDate": "2006-03-01/2006-03-04",
+            "stationTime": "10min / 1min"
+        },
+        "OBM101": {
+            "class": "Station",
+            "stationID": "OBM101",
+            "stationDate": "2006-03-06/2006-03-08",
+            "stationTime": "1min / 1min"
+        },
+        "OBM102": {
+            "class": "Station",
+            "stationID": "OBM102",
+            "stationDate": "2006-03-06/2006-03-08",
+            "stationTime": "1min / 1min"
+        },
+        "OBM106": {
+            "class": "Station",
+            "stationID": "OBM106",
+            "stationDate": "2006-03-08/2006-03-11",
+            "stationTime": "1min / 1min"
+        },
+        "OBM107": {
+            "class": "Station",
+            "stationID": "OBM107",
+            "stationDate": "2006-03-08/2006-03-11",
+            "stationTime": "1min / 1min"
+        },
+        "OBS_01": {
+            "class": "Waypoint",
+            "locationName": "OBS 01",
+            "latitude": "2.80040",
+            "longitude": "97.20060",
+            "seabedDepth": 834
+        },
+        "OBS_02": {
+            "class": "Waypoint",
+            "locationName": "OBS 02",
+            "latitude": "2.70013",
+            "longitude": "96.85073",
+            "seabedDepth": 1123
+        },
+        "OBS_03": {
+            "class": "Waypoint",
+            "locationName": "OBS 03",
+            "latitude": "2.20015",
+            "longitude": "96.30020",
+            "seabedDepth": 1021
+        },
+        "OBS_04": {
+            "class": "Waypoint",
+            "locationName": "OBS 04",
+            "latitude": "1.96645",
+            "longitude": "96.49968",
+            "seabedDepth": 1155
+        },
+        "OBH_05": {
+            "class": "Waypoint",
+            "locationName": "OBH 05",
+            "latitude": "1.90033",
+            "longitude": "96.20007",
+            "seabedDepth": 2364
+        },
+        "OBH_39": {
+            "class": "Waypoint",
+            "locationName": "OBH 39",
+            "latitude": "2.70067",
+            "longitude": "95.06588",
+            "seabedDepth": 1104
+        },
+        "OBH_40": {
+            "class": "Waypoint",
+            "locationName": "OBH 40",
+            "latitude": "2.80077",
+            "longitude": "94.93310",
+            "seabedDepth": 865
+        },
+        "TOBU_01": {
+            "class": "Waypoint",
+            "locationName": "TOBU 01",
+            "latitude": "-3.73167",
+            "longitude": "99.23000",
+            "seabedDepth": 5290
+        },
+        "TOBS_01": {
+            "class": "Waypoint",
+            "locationName": "TOBS 01",
+            "latitude": "-3.71667",
+            "longitude": "99.23417",
+            "seabedDepth": 5228
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Individuals": {
+        "MASS_III_Cruise": {
+            "MissionID": "MASS-III",
+            "startTime": "2011-01-11",
+            "endTime": "2011-01-24",
+            "maxDepth": "2000 m",
+            "dataVolume": "450 nautical miles of seismic profiles",
+            "class": "Mission"
+        },
+        "MASS III-001": {
+            "has_Depth": 573.3,
+            "class": "State"
+        },
+        "MASS III-002": {
+            "has_Depth": 551.1,
+            "class": "State"
+        },
+        "MASS III-003": {
+            "class": "Task"
+        },
+        "MASS III-006": {
+            "has_Depth": 822.2,
+            "class": "State"
+        },
+        "MASS III-007": {
+            "has_Depth": 597.8,
+            "class": "State"
+        },
+        "MASS III-008": {
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "MASS III-009": {
+            "has_Depth": 714.5,
+            "class": "State"
+        },
+        "MASS III-012": {
+            "has_Depth": 125.0,
+            "class": "State"
+        }
+    }
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "Temperature #1"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation Temperature #1"
+        },
+        "reason": "North Alex MV requiresNavigation Temperature #1: 'North Alex MV' and 'Temperature #1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "Temperature #2"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation Temperature #2"
+        },
+        "reason": "North Alex MV requiresNavigation Temperature #2: 'North Alex MV' and 'Temperature #2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #1"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #1"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #1: 'OBS #1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #2"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #2"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #2: 'OBS #2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #3"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #3"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #3: 'OBS #3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #4"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #4"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #4: 'North Alex MV' and 'OBS #4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

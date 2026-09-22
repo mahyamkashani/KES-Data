@@ -1,0 +1,1101 @@
+{
+    "Individuals": {
+        "OBH_01": {
+            "class": "Waypoint",
+            "locationName": "OBH 01",
+            "latitude": "-37.96292",
+            "longitude": "179.99920",
+            "seabedDepth": 3625
+        },
+        "OBH_02": {
+            "class": "Waypoint",
+            "locationName": "OBH 02",
+            "latitude": "-37.93492",
+            "longitude": "179.94225",
+            "seabedDepth": 3638
+        },
+        "OBH_03": {
+            "class": "Waypoint",
+            "locationName": "OBH 03",
+            "latitude": "-37.90823",
+            "longitude": "179.88390",
+            "seabedDepth": 3653
+        },
+        "OBH_04": {
+            "class": "Waypoint",
+            "locationName": "OBH 04",
+            "latitude": "-37.88100",
+            "longitude": "179.82540",
+            "seabedDepth": 3696
+        },
+        "OBS_05": {
+            "class": "Waypoint",
+            "locationName": "OBS 05",
+            "latitude": "-37.85368",
+            "longitude": "179.76687",
+            "seabedDepth": 3755
+        },
+        "OBS_06": {
+            "class": "Waypoint",
+            "locationName": "OBS 06",
+            "latitude": "-37.82682",
+            "longitude": "179.70785",
+            "seabedDepth": 3679
+        },
+        "OBS_07": {
+            "class": "Station",
+            "stationID": "OBS 07",
+            "stationDate": "2007-03-27",
+            "stationTime": "30.03.07"
+        },
+        "OBS_08": {
+            "class": "Station",
+            "stationID": "OBS 08",
+            "stationDate": "2007-03-27",
+            "stationTime": "30.03.07"
+        },
+        "OBS_09": {
+            "class": "Station",
+            "stationID": "OBS 09",
+            "stationDate": "2007-03-27",
+            "stationTime": "30.03.07"
+        },
+        "OBS_10": {
+            "class": "Station",
+            "stationID": "OBS 10",
+            "stationDate": "2007-03-27",
+            "stationTime": "30.03.07"
+        },
+        "OBS_11": {
+            "class": "Station",
+            "stationID": "OBS 11",
+            "stationDate": "2007-03-27",
+            "stationTime": "30.03.07"
+        },
+        "OBS_23": {
+            "class": "Station",
+            "stationID": "OBS 23",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBS_24": {
+            "class": "Station",
+            "stationID": "OBS 24",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBS_25": {
+            "class": "Station",
+            "stationID": "OBS 25",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBH_26": {
+            "class": "Station",
+            "stationID": "OBH 26",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBH_27": {
+            "class": "Station",
+            "stationID": "OBH 27",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBH_28": {
+            "class": "Station",
+            "stationID": "OBH 28",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBH_29": {
+            "class": "Station",
+            "stationID": "OBH 29",
+            "stationDate": "2007-03-27",
+            "stationTime": "31.04.07"
+        },
+        "OBH_30": {
+            "class": "Waypoint",
+            "locationName": "OBH 30",
+            "latitude": "-34.90902",
+            "longitude": "-178.99912",
+            "seabedDepth": 5892
+        },
+        "OBH_31": {
+            "class": "Waypoint",
+            "locationName": "OBH 31",
+            "latitude": "-34.87315",
+            "longitude": "-179.05800",
+            "seabedDepth": 5294
+        },
+        "OBS_32": {
+            "class": "Station",
+            "stationID": "OBS 32",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_33": {
+            "class": "Station",
+            "stationID": "OBS 33",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_34": {
+            "class": "Station",
+            "stationID": "OBS 34",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_35": {
+            "class": "Station",
+            "stationID": "OBS 35",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_36": {
+            "class": "Station",
+            "stationID": "OBS 36",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_37": {
+            "class": "Station",
+            "stationID": "OBS 37",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_38": {
+            "class": "Station",
+            "stationID": "OBS 38",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_39": {
+            "class": "Station",
+            "stationID": "OBS 39",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_40": {
+            "class": "Station",
+            "stationID": "OBS 40",
+            "stationDate": "2007-04-01",
+            "stationTime": "03.04.07"
+        },
+        "OBS_60": {
+            "class": "Station",
+            "stationID": "OBS 60",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_61": {
+            "class": "Station",
+            "stationID": "OBS 61",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_62": {
+            "class": "Station",
+            "stationID": "OBS 62",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_63": {
+            "class": "Station",
+            "stationID": "OBS 63",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_64": {
+            "class": "Station",
+            "stationID": "OBS 64",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_65": {
+            "class": "Station",
+            "stationID": "OBS 65",
+            "stationDate": "2007-04-05",
+            "stationTime": "09.04.07"
+        },
+        "OBS_71": {
+            "class": "Station",
+            "stationID": "OBS 71",
+            "stationDate": "2007-04-05",
+            "stationTime": "08.04.07"
+        },
+        "OBS_72": {
+            "class": "Station",
+            "stationID": "OBS 72",
+            "stationDate": "2007-04-05",
+            "stationTime": "08.04.07"
+        },
+        "OBS_73": {
+            "class": "Station",
+            "stationID": "OBS 73",
+            "stationDate": "2007-04-05",
+            "stationTime": "08.04.07"
+        },
+        "OBS_74": {
+            "class": "Station",
+            "stationID": "OBS 74",
+            "stationDate": "2007-04-05",
+            "stationTime": "08.04.07"
+        },
+        "OBS_75": {
+            "class": "Station",
+            "stationID": "OBS 75",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07"
+        },
+        "OBS_76": {
+            "class": "Station",
+            "stationID": "OBS 76",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07"
+        },
+        "OBH_88": {
+            "class": "Station",
+            "stationID": "OBH 88",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07"
+        },
+        "OBH_89": {
+            "class": "Station",
+            "stationID": "OBH 89",
+            "stationDate": "2007-04-05",
+            "stationTime": "07.04.07"
+        },
+        "OBH_90": {
+            "class": "Waypoint",
+            "locationName": "OBH 90",
+            "latitude": "-29.58250",
+            "longitude": "-175.16717",
+            "seabedDepth": 5703
+        },
+        "OBH_92": {
+            "class": "Waypoint",
+            "locationName": "OBH 92",
+            "latitude": "-29.56488",
+            "longitude": "-175.25003",
+            "seabedDepth": 5684
+        },
+        "OBH_93": {
+            "class": "Waypoint",
+            "locationName": "OBH 93",
+            "latitude": "-29.54728",
+            "longitude": "-175.33335",
+            "seabedDepth": 5714
+        },
+        "OBH_94": {
+            "class": "Waypoint",
+            "locationName": "OBH 94",
+            "latitude": "-29.53022",
+            "longitude": "-175.41705",
+            "seabedDepth": 5844
+        },
+        "OBH_95": {
+            "class": "Waypoint",
+            "locationName": "OBH 95",
+            "latitude": "-29.51317",
+            "longitude": "-175.50020",
+            "seabedDepth": 5775
+        },
+        "OBH_96": {
+            "class": "Waypoint",
+            "locationName": "OBH 96",
+            "latitude": "-29.49540",
+            "longitude": "-175.58337",
+            "seabedDepth": 5843
+        },
+        "OBS_102": {
+            "class": "Station",
+            "stationID": "OBS 102",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBS_103": {
+            "class": "Station",
+            "stationID": "OBS 103",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBH_104": {
+            "class": "Station",
+            "stationID": "OBH 104",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBS_105": {
+            "class": "Station",
+            "stationID": "OBS 105",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBS_106": {
+            "class": "Station",
+            "stationID": "OBS 106",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBS_107": {
+            "class": "Station",
+            "stationID": "OBS 107",
+            "stationDate": "2007-04-10",
+            "stationTime": "13.04.07"
+        },
+        "OBS_108": {
+            "class": "Station",
+            "stationID": "OBS 108",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_114": {
+            "class": "Station",
+            "stationID": "OBS 114",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_115": {
+            "class": "Station",
+            "stationID": "OBS 115",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_116": {
+            "class": "Station",
+            "stationID": "OBS 116",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_117": {
+            "class": "Station",
+            "stationID": "OBS 117",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_118": {
+            "class": "Station",
+            "stationID": "OBS 118",
+            "stationDate": "2007-04-10",
+            "stationTime": "12.04.07"
+        },
+        "OBS_119": {
+            "class": "Station",
+            "stationID": "OBS 119",
+            "stationDate": "2007-04-10",
+            "stationTime": "16.04.07"
+        },
+        "Landstation_01": {
+            "class": "Station",
+            "stationID": "Landstation 01",
+            "stationDate": "2007-04-10",
+            "stationTime": "16.04.07"
+        },
+        "Landstation_02": {
+            "class": "Station",
+            "stationID": "Landstation 02",
+            "stationDate": "2007-04-10",
+            "stationTime": "16.04.07"
+        },
+        "OBS_120": {
+            "class": "Station",
+            "stationID": "OBS 120",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_121": {
+            "class": "Station",
+            "stationID": "OBS 121",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_122": {
+            "class": "Station",
+            "stationID": "OBS 122",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_134": {
+            "class": "Station",
+            "stationID": "OBS 134",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_135": {
+            "class": "Station",
+            "stationID": "OBS 135",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_136": {
+            "class": "Station",
+            "stationID": "OBS 136",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS_137": {
+            "class": "Station",
+            "stationID": "OBS 137",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBH_138": {
+            "class": "Station",
+            "stationID": "OBH 138",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBH_139": {
+            "class": "Station",
+            "stationID": "OBH 139",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBH_140": {
+            "class": "Station",
+            "stationID": "OBH 140",
+            "stationDate": "2007-04-14",
+            "stationTime": "16.04.07"
+        },
+        "OBS 01": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 02": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 03": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 04": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 05": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 06": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 07": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 08": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 09": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 10": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 11": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 12": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 13": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 15": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 16": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 17": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 18": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 19": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 20": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 21": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 22": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 23": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 24": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 25": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 30": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 31": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 32": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 33": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 34": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 35": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 36": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 37": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 38": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 39": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 40": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 41": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 42": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 43": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 44": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 45": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 46": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 47": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 48": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 49": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 50": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 51": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 52": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 54": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 55": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 60": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 61": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 62": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 63": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 64": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 65": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 66": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 67": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 68": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 69": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 70": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 71": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 72": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 73": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 74": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 75": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 76": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 77": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 78": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 79": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 90": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 91": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 92": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 93": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 94": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 95": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 96": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 97": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 98": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 99": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 100": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 101": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 102": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 103": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 104": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 105": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 106": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 107": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 108": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 109": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 110": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 111": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 112": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 113": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 114": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 115": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 116": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 117": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 118": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 119": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 120": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 121": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 122": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 123": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 124": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 125": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 126": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 127": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 128": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 129": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 130": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 131": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 132": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 133": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 134": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 135": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 136": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 137": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO192/001-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 31,00' S",
+            "has_Conductivity": "176\u00b0 4,46' E",
+            "has_Depth": "214"
+        },
+        "SO192/002-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 50,01' S",
+            "has_Conductivity": "177\u00b0 29,38' E",
+            "has_Depth": "19"
+        },
+        "SO192/003-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 23,05' S",
+            "has_Conductivity": "177\u00b0 20,23' E",
+            "has_Depth": "3100"
+        },
+        "SO192/004-1": {
+            "class": "State",
+            "has_Temperature": "36\u00b0 39,93' S",
+            "has_Conductivity": "177\u00b0 25,98' E",
+            "has_Depth": "21"
+        },
+        "SO192/005-1": {
+            "class": "State",
+            "has_Temperature": "37\u00b0 57,72' S",
+            "has_Conductivity": "179\u00b0 59,88' W",
+            "has_Depth": "3624"
+        },
+        "SO192/010-1": {
+            "class": "State",
+            "has_Temperature": "34\u00b0 46,10' S",
+            "has_Conductivity": "179\u00b0 13,95' W",
+            "has_Depth": "4851"
+        },
+        "SO192/012-1": {
+            "class": "State",
+            "has_Temperature": "34\u00b0 54,20' S",
+            "has_Conductivity": "179\u00b0 0,27' W",
+            "has_Depth": "0"
+        },
+        "SO192/021-1": {
+            "class": "State",
+            "has_Temperature": "28\u00b0 38,75' S",
+            "has_Conductivity": "179\u00b0 39,99' W",
+            "has_Depth": "1065"
+        },
+        "SO192/022-1": {
+            "class": "State",
+            "has_Temperature": "28\u00b0 34,61' S",
+            "has_Conductivity": "179\u00b0 59,28' W",
+            "has_Depth": "2587"
+        }
+    }
+}

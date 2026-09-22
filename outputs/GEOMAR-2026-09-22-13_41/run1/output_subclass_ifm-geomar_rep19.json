@@ -1,0 +1,58 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD/O 2 station",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD/O 2 rosette",
+                "hasDuration": "various",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "water samples for oxygen determination"
+            }
+        ],
+        "SurveyMission": [
+            {
+                "individual_name": "Mooring Operations",
+                "hasDuration": "various",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "glider",
+                "maxDepth": "100m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V L\u2019A TALANTE",
+                "maxDepth": "4800m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "MMP station",
+                "stationID": "KPO_1021",
+                "stationName": "Mooring Deployment Equatorial Atlantic",
+                "stationDate": "2008-03-03",
+                "stationTime": "14:09"
+            },
+            {
+                "individual_name": "Mooring Deployment",
+                "stationID": "KPO_1024",
+                "stationName": "Mooring Deployment Equatorial Atlantic",
+                "stationDate": "2008-03-06",
+                "stationTime": "10:35"
+            }
+        ]
+    }
+}

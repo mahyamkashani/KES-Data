@@ -1,0 +1,27 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO208 hasTask DR107",
+                "DR107 hasAction gDr",
+                "SO208 hasTask DR106",
+                "DR106 hasAction gDr",
+                "SO208 hasTask DR105",
+                "DR105 hasAction gDr",
+                "SO208 hasTask DR104",
+                "DR104 hasAction gDr",
+                "SO208 hasTask DR103",
+                "DR103 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR107",
+                "gDr",
+                "DR106",
+                "DR105",
+                "DR104",
+                "DR103"
+            ]
+        }
+    }
+}

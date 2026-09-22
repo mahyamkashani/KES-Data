@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P347 hasTask MUMP"
+            ],
+            "Individuals": [
+                "P347",
+                "MUMP"
+            ]
+        }
+    }
+}

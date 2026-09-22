@@ -1,0 +1,54 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "P399/2",
+                "hasStatus": "SUCCESSFUL",
+                "hasDuration": "17 days"
+            },
+            {
+                "individual_name": "P399/3",
+                "hasStatus": "SUCCESSFUL",
+                "hasDuration": "7 days"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD 2",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes",
+                "hasDuration": "24 hours"
+            },
+            {
+                "individual_name": "CTD 1",
+                "hasDuration": "24 hours",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "CVOO",
+                "stationName": "Cape Verde Ocean Observatory",
+                "stationDate": "2010-06-03",
+                "stationTime": "21:56"
+            },
+            {
+                "individual_name": "ESTOC",
+                "stationName": "European Station for Time Series in the Ocean",
+                "stationDate": "2010-06-19",
+                "stationTime": "04:40"
+            }
+        ],
+        "Ship": []
+    },
+    "Vehicle": {
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ]
+    }
+}

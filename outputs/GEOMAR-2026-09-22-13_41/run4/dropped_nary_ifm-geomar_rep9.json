@@ -1,0 +1,447 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "Leg1 hasAction SeismicStudies",
+        "reason": "'Leg1 hasAction SeismicStudies': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SeismicStudies hasVehicle RV_SONNE",
+        "reason": "'SeismicStudies hasVehicle RV_SONNE': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SeismicStudies hasDestination Wairarapa",
+        "reason": "'SeismicStudies hasDestination Wairarapa': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO191 hasTask Leg2",
+        "reason": "'SO191 hasTask Leg2': 'Leg2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg2 hasAction Sampling",
+        "reason": "'Leg2 hasAction Sampling': 'Leg2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO191 hasTask Leg3",
+        "reason": "'SO191 hasTask Leg3': 'SO191' and 'Leg3' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg3 hasAction ROVDeployments",
+        "reason": "'Leg3 hasAction ROVDeployments': 'ROVDeployments' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ROVDeployments hasVehicle RV_SONNE",
+        "reason": "'ROVDeployments hasVehicle RV_SONNE': 'ROVDeployments' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Mission_hasTask Task_1",
+        "reason": "'Mission_hasTask Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OFOS_16",
+        "reason": "'Task_1_hasAction OFOS_16': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OFOS_17",
+        "reason": "'Task_1_hasAction OFOS_17': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction GC_14",
+        "reason": "'Task_1_hasAction GC_14': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction GC_15",
+        "reason": "'Task_1_hasAction GC_15': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction GC_16",
+        "reason": "'Task_1_hasAction GC_16': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_39",
+        "reason": "'Task_1_hasAction CTD_39': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction BWS_4",
+        "reason": "'Task_1_hasAction BWS_4': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction TV-MUC_18",
+        "reason": "'Task_1_hasAction TV-MUC_18': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction TV-G_11",
+        "reason": "'Task_1_hasAction TV-G_11': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OFOS_18",
+        "reason": "'Task_1_hasAction OFOS_18': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OFOS_19",
+        "reason": "'Task_1_hasAction OFOS_19': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction TM_4",
+        "reason": "'Task_1_hasAction TM_4': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction TM_5",
+        "reason": "'Task_1_hasAction TM_5': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction FLUFO_3",
+        "reason": "'Task_1_hasAction FLUFO_3': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OBMT_4",
+        "reason": "'Task_1_hasAction OBMT_4': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OBMT_5",
+        "reason": "'Task_1_hasAction OBMT_5': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction OBMT_6",
+        "reason": "'Task_1_hasAction OBMT_6': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction Multibeam_4",
+        "reason": "'Task_1_hasAction Multibeam_4': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction MB_Mapping_1",
+        "reason": "'Task_1_hasAction MB_Mapping_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_40",
+        "reason": "'Task_1_hasAction CTD_40': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_41",
+        "reason": "'Task_1_hasAction CTD_41': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_42",
+        "reason": "'Task_1_hasAction CTD_42': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_43",
+        "reason": "'Task_1_hasAction CTD_43': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_44",
+        "reason": "'Task_1_hasAction CTD_44': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_45",
+        "reason": "'Task_1_hasAction CTD_45': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_46",
+        "reason": "'Task_1_hasAction CTD_46': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_47",
+        "reason": "'Task_1_hasAction CTD_47': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_48",
+        "reason": "'Task_1_hasAction CTD_48': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_49",
+        "reason": "'Task_1_hasAction CTD_49': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_50",
+        "reason": "'Task_1_hasAction CTD_50': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_51",
+        "reason": "'Task_1_hasAction CTD_51': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_52",
+        "reason": "'Task_1_hasAction CTD_52': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_53",
+        "reason": "'Task_1_hasAction CTD_53': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_54",
+        "reason": "'Task_1_hasAction CTD_54': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_55",
+        "reason": "'Task_1_hasAction CTD_55': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_56",
+        "reason": "'Task_1_hasAction CTD_56': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_57",
+        "reason": "'Task_1_hasAction CTD_57': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_58",
+        "reason": "'Task_1_hasAction CTD_58': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_59",
+        "reason": "'Task_1_hasAction CTD_59': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_60",
+        "reason": "'Task_1_hasAction CTD_60': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_61",
+        "reason": "'Task_1_hasAction CTD_61': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_62",
+        "reason": "'Task_1_hasAction CTD_62': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_63",
+        "reason": "'Task_1_hasAction CTD_63': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_64",
+        "reason": "'Task_1_hasAction CTD_64': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_65",
+        "reason": "'Task_1_hasAction CTD_65': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_66",
+        "reason": "'Task_1_hasAction CTD_66': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_67",
+        "reason": "'Task_1_hasAction CTD_67': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_68",
+        "reason": "'Task_1_hasAction CTD_68': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_69",
+        "reason": "'Task_1_hasAction CTD_69': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_70",
+        "reason": "'Task_1_hasAction CTD_70': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_71",
+        "reason": "'Task_1_hasAction CTD_71': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_72",
+        "reason": "'Task_1_hasAction CTD_72': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_73",
+        "reason": "'Task_1_hasAction CTD_73': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_74",
+        "reason": "'Task_1_hasAction CTD_74': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_75",
+        "reason": "'Task_1_hasAction CTD_75': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_76",
+        "reason": "'Task_1_hasAction CTD_76': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_77",
+        "reason": "'Task_1_hasAction CTD_77': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_78",
+        "reason": "'Task_1_hasAction CTD_78': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_79",
+        "reason": "'Task_1_hasAction CTD_79': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_80",
+        "reason": "'Task_1_hasAction CTD_80': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_81",
+        "reason": "'Task_1_hasAction CTD_81': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_82",
+        "reason": "'Task_1_hasAction CTD_82': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_83",
+        "reason": "'Task_1_hasAction CTD_83': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_84",
+        "reason": "'Task_1_hasAction CTD_84': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_85",
+        "reason": "'Task_1_hasAction CTD_85': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_86",
+        "reason": "'Task_1_hasAction CTD_86': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_87",
+        "reason": "'Task_1_hasAction CTD_87': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_88",
+        "reason": "'Task_1_hasAction CTD_88': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_89",
+        "reason": "'Task_1_hasAction CTD_89': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_90",
+        "reason": "'Task_1_hasAction CTD_90': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_91",
+        "reason": "'Task_1_hasAction CTD_91': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_92",
+        "reason": "'Task_1_hasAction CTD_92': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_93",
+        "reason": "'Task_1_hasAction CTD_93': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_94",
+        "reason": "'Task_1_hasAction CTD_94': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_95",
+        "reason": "'Task_1_hasAction CTD_95': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_96",
+        "reason": "'Task_1_hasAction CTD_96': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_97",
+        "reason": "'Task_1_hasAction CTD_97': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_98",
+        "reason": "'Task_1_hasAction CTD_98': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_99",
+        "reason": "'Task_1_hasAction CTD_99': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Task_1_hasAction CTD_100",
+        "reason": "'Task_1_hasAction CTD_100': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    }
+]

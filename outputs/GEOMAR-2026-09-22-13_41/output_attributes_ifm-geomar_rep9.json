@@ -1,0 +1,144 @@
+{
+    "Individuals": {
+        "SO191/001-1": {
+            "stationID": "SO191/001-1",
+            "stationDate": "2007-01-11",
+            "stationTime": "22:16",
+            "class": "Station"
+        },
+        "SO191/004-1": {
+            "stationID": "SO191/004-1",
+            "stationDate": "2007-01-13",
+            "stationTime": "17:33",
+            "class": "Station"
+        },
+        "SO191/006-1": {
+            "stationID": "SO191/006-1",
+            "stationDate": "2007-01-15",
+            "stationTime": "07:56",
+            "class": "Station"
+        },
+        "SO191/007-1": {
+            "stationID": "SO191/007-1",
+            "stationDate": "2007-01-16",
+            "stationTime": "12:48",
+            "class": "Station"
+        },
+        "SO191/010-1": {
+            "stationID": "SO191/010-1",
+            "stationDate": "2007-01-19",
+            "stationTime": "09:38",
+            "class": "Station"
+        },
+        "SO191/011-1": {
+            "stationID": "SO191/011-1",
+            "stationDate": "2007-01-19",
+            "stationTime": "12:36",
+            "class": "Station"
+        },
+        "SO191/012-1": {
+            "stationID": "SO191/012-1",
+            "stationDate": "2007-01-20",
+            "stationTime": "22:46",
+            "class": "Station"
+        },
+        "SO191/013-1": {
+            "stationID": "SO191/013-1",
+            "stationDate": "2007-01-21",
+            "stationTime": "09:08",
+            "class": "Station"
+        },
+        "SO191/014-1": {
+            "stationID": "SO191/014-1",
+            "stationDate": "2007-01-22",
+            "stationTime": "03:00",
+            "class": "Station"
+        },
+        "SO191/017-1": {
+            "stationID": "SO191/017-1",
+            "stationDate": "2007-01-23",
+            "stationTime": "09:39",
+            "class": "Station"
+        },
+        "SO191/018-1": {
+            "stationID": "SO191/018-1",
+            "stationDate": "2007-01-24",
+            "stationTime": "05:29",
+            "class": "Station"
+        },
+        "SO191/019-1": {
+            "stationID": "SO191/019-1",
+            "stationDate": "2007-01-24",
+            "stationTime": "08:38",
+            "class": "Station"
+        },
+        "SO191/021-1": {
+            "stationID": "SO191/021-1",
+            "stationDate": "2007-01-25",
+            "stationTime": "13:06",
+            "class": "Station"
+        },
+        "SO191/022-1": {
+            "stationID": "SO191/022-1",
+            "stationDate": "2007-01-25",
+            "stationTime": "15:25",
+            "class": "Station"
+        },
+        "SO191/023-1": {
+            "stationID": "SO191/023-1",
+            "stationDate": "2007-01-26",
+            "stationTime": "19:26",
+            "class": "Station"
+        },
+        "SO191/024-1": {
+            "stationID": "SO191/024-1",
+            "stationDate": "2007-01-27",
+            "stationTime": "02:07",
+            "class": "Station"
+        },
+        "SO191/025-1": {
+            "stationID": "SO191/025-1",
+            "stationDate": "2007-01-27",
+            "stationTime": "08:36",
+            "class": "Station"
+        },
+        "SO191/030-1": {
+            "stationID": "SO191/030-1",
+            "stationDate": "2007-01-29",
+            "stationTime": "21:46",
+            "class": "Station"
+        },
+        "SO191/031-1": {
+            "stationID": "SO191/031-1",
+            "stationDate": "2007-01-30",
+            "stationTime": "03:55",
+            "class": "Station"
+        },
+        "SO191/032-1": {
+            "stationID": "SO191/032-1",
+            "stationDate": "2007-01-30",
+            "stationTime": "07:47",
+            "class": "Station"
+        },
+        "SO191/035-1": {
+            "stationID": "SO191/035-1",
+            "stationDate": "2007-01-31",
+            "stationTime": "12:43",
+            "class": "Station"
+        },
+        "CTD_6": {
+            "has_Depth": 1059,
+            "class": "State"
+        },
+        "CTD_8": {
+            "class": "State"
+        },
+        "CTD_19": {
+            "has_Depth": 1101,
+            "class": "State"
+        },
+        "CTD_39": {
+            "class": "State"
+        }
+    }
+}

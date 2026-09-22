@@ -1,0 +1,250 @@
+{
+    "Individuals": {
+        "Station_11": {
+            "stationID": "SO177/1, STATION 11 OFOS 02",
+            "stationDate": "06.06.2004/07.06.2004",
+            "stationTime": "23:00",
+            "class": "Station"
+        },
+        "Station_12": {
+            "stationID": "SO177/1, STATION 12 OFOS 03",
+            "stationDate": "2004-06-07",
+            "stationTime": "06:27",
+            "class": "Station"
+        },
+        "Station_20": {
+            "class": "Station"
+        },
+        "Station_21": {
+            "class": "Station"
+        },
+        "OFOS-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-2": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-3": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-4": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-5": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-6": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-8": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-9": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-15": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-16": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-17": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-18": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-19": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-20": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-21": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-22": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-23": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-24": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-25": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-26": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-27": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-28": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-29": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-30": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-31": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-32": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OFOS-33": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "CTD_01": {
+            "has_Depth": 2199,
+            "class": "State"
+        },
+        "CTD_02": {
+            "has_Depth": 3360,
+            "class": "State"
+        },
+        "CTD_03": {
+            "has_Depth": 3163,
+            "class": "State"
+        },
+        "CTD_04": {
+            "has_Depth": 911,
+            "class": "State"
+        },
+        "CTD_05": {
+            "has_Depth": 3011,
+            "class": "State"
+        },
+        "CTD_06": {
+            "has_Depth": 919,
+            "class": "State"
+        },
+        "CTD_07": {
+            "has_Depth": 402,
+            "class": "State"
+        },
+        "CTD_08": {
+            "has_Depth": 2205,
+            "class": "State"
+        },
+        "CTD_09": {
+            "has_Depth": 768,
+            "class": "State"
+        },
+        "CTD_10": {
+            "has_Depth": 769,
+            "class": "State"
+        },
+        "CTD_11": {
+            "has_Depth": 1357,
+            "class": "State"
+        },
+        "CTD_12": {
+            "has_Depth": 3283,
+            "class": "State"
+        },
+        "CTD_13": {
+            "has_Depth": 1747,
+            "class": "State"
+        },
+        "CTD_14": {
+            "has_Depth": 3329,
+            "class": "State"
+        },
+        "CTD_15": {
+            "has_Depth": 3252,
+            "class": "State"
+        },
+        "CTD_16": {
+            "has_Depth": 3247,
+            "class": "State"
+        },
+        "CTD_17": {
+            "has_Depth": 762,
+            "class": "State"
+        },
+        "CTD_18": {
+            "has_Depth": 1183,
+            "class": "State"
+        },
+        "CTD_19": {
+            "has_Depth": 2555,
+            "class": "State"
+        },
+        "CTD_20": {
+            "has_Depth": 1651,
+            "class": "State"
+        },
+        "CTD_21": {
+            "has_Depth": 3013,
+            "class": "State"
+        },
+        "CTD_22": {
+            "has_Depth": 630,
+            "class": "State"
+        },
+        "CTD_23": {
+            "has_Depth": 2850,
+            "class": "State"
+        },
+        "CTD_24": {
+            "has_Depth": 3019,
+            "class": "State"
+        },
+        "CTD_25": {
+            "has_Depth": 2983,
+            "class": "State"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SO186",
+                "Profile So186-3-01"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO186 hasTask Profile So186-3-01"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-01",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-01 hasAction Act_DeepDive"
+        }
+    ]
+}

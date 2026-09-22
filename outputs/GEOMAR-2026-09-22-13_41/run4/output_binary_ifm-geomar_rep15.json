@@ -1,0 +1,64 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "P362/2"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission P362/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Giza MV",
+                "R/V Poseidon"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "Giza MV usesVehicle R/V Poseidon"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "R/V Poseidon"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "North Alex MV usesVehicle R/V Poseidon"
+        },
+        {
+            "INDIVIDUAL": [
+                "Giza MV",
+                "Gravity Corer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "Giza MV hasSensor Gravity Corer"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "Gravity Corer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "North Alex MV hasSensor Gravity Corer"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "Multicorer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "North Alex MV hasSensor Multicorer"
+        }
+    ]
+}

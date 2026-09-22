@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Simrad EM-120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Simrad EM-120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound"
+        }
+    ]
+}

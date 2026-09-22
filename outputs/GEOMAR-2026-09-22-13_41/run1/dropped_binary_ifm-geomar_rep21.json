@@ -1,0 +1,436 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Cherokee"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ROV",
+            "AXIOM": "R/V Poseidon hasSensor Cherokee"
+        },
+        "reason": "R/V Poseidon hasSensor Cherokee: RANGE 'ROV' is not a class in the ontology"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 721CTD",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 721CTD hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 721CTD hasDestination Palinuro Seamount: 'Dive 721CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 722SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 722SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 722SBM hasDestination Palinuro Seamount: 'Dive 722SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 723ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 723ROV hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 723ROV hasDestination Palinuro Seamount: 'Dive 723ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 724DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 724DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 724DR hasDestination Palinuro Seamount: 'Dive 724DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 725DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 725DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 725DR hasDestination Palinuro Seamount: 'Dive 725DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 726DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 726DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 726DR hasDestination Palinuro Seamount: 'Dive 726DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 727SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 727SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 727SBM hasDestination Palinuro Seamount: 'Dive 727SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 728ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 728ROV hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 728ROV hasDestination Palinuro Seamount: 'Dive 728ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 729DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 729DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 729DR hasDestination Palinuro Seamount: 'Dive 729DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 730DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 730DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 730DR hasDestination Palinuro Seamount: 'Dive 730DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 731DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 731DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 731DR hasDestination Palinuro Seamount: 'Dive 731DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 732DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 732DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 732DR hasDestination Palinuro Seamount: 'Dive 732DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 733SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 733SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 733SBM hasDestination Palinuro Seamount: 'Dive 733SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 734ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 734ROV hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 734ROV hasDestination Palinuro Seamount: 'Dive 734ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 735DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 735DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 735DR hasDestination Palinuro Seamount: 'Dive 735DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 736DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 736DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 736DR hasDestination Palinuro Seamount: 'Dive 736DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 738DR",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 738DR hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 738DR hasDestination Palinuro Seamount: 'Dive 738DR' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 739SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 739SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 739SBM hasDestination Palinuro Seamount: 'Dive 739SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 740ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 740ROV hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 740ROV hasDestination Palinuro Seamount: 'Dive 740ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 742SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 742SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 742SBM hasDestination Palinuro Seamount: 'Dive 742SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 744CTD",
+                "Marsili Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 744CTD hasDestination Marsili Seamount"
+        },
+        "reason": "Dive 744CTD hasDestination Marsili Seamount: 'Dive 744CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 745SBM",
+                "Marsili Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 745SBM hasDestination Marsili Seamount"
+        },
+        "reason": "Dive 745SBM hasDestination Marsili Seamount: 'Dive 745SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 747SBM",
+                "Marsili Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 747SBM hasDestination Marsili Seamount"
+        },
+        "reason": "Dive 747SBM hasDestination Marsili Seamount: 'Dive 747SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 748SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 748SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 748SBM hasDestination Palinuro Seamount: 'Dive 748SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 750SBM",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 750SBM hasDestination Palinuro Seamount"
+        },
+        "reason": "Dive 750SBM hasDestination Palinuro Seamount: 'Dive 750SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 751CTD",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 751CTD hasDestination Panarea Island"
+        },
+        "reason": "Dive 751CTD hasDestination Panarea Island: 'Dive 751CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 752ROV",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 752ROV hasDestination Panarea Island"
+        },
+        "reason": "Dive 752ROV hasDestination Panarea Island: 'Dive 752ROV' and 'Panarea Island' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 753SBM",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 753SBM hasDestination Panarea Island"
+        },
+        "reason": "Dive 753SBM hasDestination Panarea Island: 'Dive 753SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 755SBM",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 755SBM hasDestination Panarea Island"
+        },
+        "reason": "Dive 755SBM hasDestination Panarea Island: 'Dive 755SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 757SBM",
+                "Panarea Island"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 757SBM hasDestination Panarea Island"
+        },
+        "reason": "Dive 757SBM hasDestination Panarea Island: 'Dive 757SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

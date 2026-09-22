@@ -1,0 +1,33 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Mission 041",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "AUV Abyss",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V POSEIDON"
+            }
+        ],
+        "Station": []
+    }
+}

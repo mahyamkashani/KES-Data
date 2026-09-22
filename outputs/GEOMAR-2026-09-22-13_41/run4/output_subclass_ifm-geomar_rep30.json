@@ -1,0 +1,49 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "R/V Meteor cruise M73/2",
+                "hasDuration": "August 14-30, 2007",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Station 861GC",
+                "hasDuration": "20:36-21:08 UTC",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "295 cm of unconsolidated mud and sand"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Meteor",
+                "maxDepth": "5 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 861GC",
+                "stationID": "640",
+                "stationName": "Station 861GC",
+                "stationDate": "2007-08-17",
+                "stationTime": "20:36-21:08"
+            }
+        ]
+    }
+}

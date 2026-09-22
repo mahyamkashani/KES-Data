@@ -1,0 +1,238 @@
+{
+    "Individuals": {
+        "S0179": {
+            "MissionID": "S0179",
+            "startTime": "2004-09-18 23:44",
+            "endTime": "2004-10-03 06:43",
+            "maxDepth": "3400 m",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Various profiles and experiments conducted",
+            "class": "Mission"
+        },
+        "S0179-114": {
+            "stationID": "S0179-114",
+            "stationDate": "2004-10-01",
+            "stationTime": "22:44:40",
+            "class": "Station"
+        },
+        "S0179-19": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-115": {
+            "stationID": "S0179-115",
+            "stationDate": "2004-10-03",
+            "class": "Station"
+        },
+        "S0179-116": {
+            "stationID": "S0179-116",
+            "stationDate": "2004-10-03",
+            "class": "Station"
+        },
+        "S0179-117": {
+            "stationID": "S0179-117",
+            "stationDate": "2004-10-03",
+            "stationTime": "21:03:20",
+            "class": "Station"
+        },
+        "S0179-118": {
+            "stationID": "S0179-118",
+            "stationDate": "2004-10-03",
+            "stationTime": "23:05:20",
+            "class": "Station"
+        },
+        "S0179-119": {
+            "stationID": "S0179-119",
+            "stationDate": "2004-10-04",
+            "stationTime": "02:00",
+            "class": "Station"
+        },
+        "S0179-120": {
+            "stationID": "S0179-120",
+            "stationDate": "2004-10-04",
+            "stationTime": "02:00:20",
+            "class": "Station"
+        },
+        "S0179-121": {
+            "stationID": "S0179-121",
+            "stationDate": "2004-10-04",
+            "stationTime": "06:00",
+            "class": "Station"
+        },
+        "S0179-122": {
+            "stationID": "S0179-122",
+            "stationDate": "2004-10-04",
+            "stationTime": "06:00:20",
+            "class": "Station"
+        },
+        "S0179-123": {
+            "stationID": "S0179-123",
+            "stationDate": "2004-10-04",
+            "stationTime": "08:40",
+            "class": "Station"
+        },
+        "S0179-124": {
+            "stationID": "S0179-124",
+            "stationDate": "2004-10-04",
+            "stationTime": "08:40:20",
+            "class": "Station"
+        },
+        "S0179-125": {
+            "stationID": "S0179-125",
+            "stationDate": "2004-10-04",
+            "stationTime": "09:40",
+            "class": "Station"
+        },
+        "S0179-126": {
+            "stationID": "S0179-126",
+            "stationDate": "2004-10-04",
+            "stationTime": "09:40:20",
+            "class": "Station"
+        },
+        "S0179-127": {
+            "stationID": "S0179-127",
+            "stationDate": "2004-10-04",
+            "stationTime": "10:22",
+            "class": "Station"
+        },
+        "S0179-128": {
+            "stationID": "S0179-128",
+            "stationDate": "2004-10-04",
+            "stationTime": "10:22:10",
+            "class": "Station"
+        },
+        "S0179-129": {
+            "stationID": "S0179-129",
+            "stationDate": "2004-10-04",
+            "stationTime": "10:22:20",
+            "class": "Station"
+        },
+        "S0179-130": {
+            "stationID": "S0179-130",
+            "stationDate": "2004-10-04",
+            "stationTime": "10:22:30",
+            "class": "Station"
+        },
+        "S0179-104": {
+            "locationName": "S0179-104",
+            "latitude": "9.18605",
+            "longitude": "109.54925",
+            "seabedDepth": "203.43 km",
+            "class": "Waypoint"
+        },
+        "S0179-105": {
+            "locationName": "S0179-105",
+            "latitude": "9.11388",
+            "longitude": "110.50002",
+            "seabedDepth": "105.85 km",
+            "class": "Waypoint"
+        },
+        "S0179-106": {
+            "locationName": "S0179-106",
+            "latitude": "9.70643",
+            "seabedDepth": "95.15 km",
+            "class": "Waypoint"
+        },
+        "S0179-139": {
+            "locationName": "S0179-139",
+            "latitude": "10.35423",
+            "seabedDepth": "120.14 km",
+            "class": "Waypoint"
+        },
+        "S0179-01": {
+            "hasDuration": 20.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-02": {
+            "hasDuration": 20.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-03": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-04": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-05": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-06": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-07": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-08": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-09": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-10": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-11": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-12": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-13": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-14": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-15": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-16": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-17": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179-18": {
+            "hasDuration": 30.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "S0179/001-1": {
+            "has_Depth": 3400,
+            "class": "State"
+        }
+    }
+}

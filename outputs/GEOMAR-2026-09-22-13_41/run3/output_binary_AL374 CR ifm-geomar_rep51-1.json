@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "AL66"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV ALKOR hasMission AL66"
+        },
+        {
+            "INDIVIDUAL": [
+                "Sleipner",
+                "AL374"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Sleipner hasTask AL374"
+        },
+        {
+            "INDIVIDUAL": [
+                "Salt Dome Juist",
+                "AL374"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Salt Dome Juist hasTask AL374"
+        },
+        {
+            "INDIVIDUAL": [
+                "BIGO",
+                "Sleipner"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "BIGO hasSensor Sleipner"
+        }
+    ]
+}

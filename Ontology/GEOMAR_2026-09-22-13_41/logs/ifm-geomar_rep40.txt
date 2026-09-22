@@ -1,0 +1,30 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 23
+
+created 8 individuals:
+  + Happy_Hooker_II : Traversal
+  + IFM06 : Vehicle
+  + IFM03 : Vehicle
+  + IFM09 : Vehicle
+  + IFM07 : State
+  + IFM_06 : Task
+  + IFM_03 : Task
+  + IFM_07 : Task
+
+asserted 13 axioms:
+  + Happy_Hooker_II hasVehicle IFM06
+  + Happy_Hooker_II hasVehicle IFM03
+  + Happy_Hooker_II hasVehicle IFM09
+  + IFM06 hasAction Act_DeepDive
+  + IFM03 hasAction Act_DeepDive
+  + IFM09 hasAction Act_DeepDive
+  + Happy_Hooker_II maxDepthText 700 m   [maxDepth could not take it]
+  + IFM06 has_Depth 700
+  + IFM03 has_Depth 700
+  + IFM07 has_Depth 700
+  + IFM09 has_Depth 700
+  + IFM_06 hasStatus SUCCESSFUL
+  + IFM_03 hasStatus FAILED
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep40.rdf

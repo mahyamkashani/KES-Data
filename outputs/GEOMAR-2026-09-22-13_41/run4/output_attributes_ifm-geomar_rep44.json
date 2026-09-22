@@ -1,0 +1,59 @@
+{
+    "Individuals": {
+        "Station_16": {
+            "class": "Station",
+            "stationID": "16",
+            "stationDate": "2010-10-08",
+            "stationTime": "23:50"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "21",
+            "stationDate": "2010-10-19",
+            "stationTime": "02:07"
+        },
+        "Station_25": {
+            "class": "Station",
+            "stationID": "25",
+            "stationDate": "2010-10-24",
+            "stationTime": "02:20"
+        },
+        "ROV-1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-2": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-5": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-6": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-7": {
+            "class": "Task",
+            "hasDuration": "8.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-8": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-9": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

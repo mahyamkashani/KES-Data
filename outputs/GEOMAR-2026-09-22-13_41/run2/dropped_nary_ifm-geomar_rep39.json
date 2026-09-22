@@ -1,0 +1,32 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO208 hasTask Task_DR1",
+        "reason": "'SO208 hasTask Task_DR1': 'Task_DR1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_DR1 hasAction Action_Dredge",
+        "reason": "'Task_DR1 hasAction Action_Dredge': 'Task_DR1', 'Action_Dredge' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_SONNE",
+        "reason": "'Traversal_1 hasVehicle RV_SONNE': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO208 hasTask Task_DR2",
+        "reason": "'SO208 hasTask Task_DR2': 'Task_DR2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_DR2 hasAction Action_Dredge",
+        "reason": "'Task_DR2 hasAction Action_Dredge': 'Task_DR2', 'Action_Dredge' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_2 hasVehicle RV_SONNE",
+        "reason": "'Traversal_2 hasVehicle RV_SONNE': 'Traversal_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

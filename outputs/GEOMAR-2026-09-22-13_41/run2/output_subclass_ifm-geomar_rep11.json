@@ -1,0 +1,59 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO192-1",
+                "hasDuration": "Cruise duration",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "OBH 01",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBH 02",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBH 03",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBH 04",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 05",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 06",
+                "hasDuration": "3 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            }
+        ],
+        "CTDMission": []
+    },
+    "Vehicle": {},
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

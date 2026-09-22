@@ -1,0 +1,103 @@
+{
+    "Individuals": {
+        "DR1": {
+            "class": "Station",
+            "stationID": "DR1",
+            "stationDate": "2009-02-01",
+            "stationTime": "08:45-10:41"
+        },
+        "DR2": {
+            "class": "Task",
+            "hasDuration": 2.39,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR3": {
+            "class": "Station",
+            "stationID": "DR3",
+            "stationDate": "2009-02-01",
+            "stationTime": "15:40-18:57"
+        },
+        "DR4": {
+            "class": "Station",
+            "stationID": "DR4",
+            "stationDate": "2009-02-02",
+            "stationTime": "08:47-11:19"
+        },
+        "DR5": {
+            "class": "Station",
+            "stationID": "DR5",
+            "stationDate": "2009-02-02",
+            "stationTime": "12:10-14:56"
+        },
+        "DR6": {
+            "class": "Station",
+            "stationID": "DR6",
+            "stationDate": "2009-02-05",
+            "stationTime": "09:34-12:40"
+        },
+        "DR7": {
+            "class": "Station",
+            "stationID": "DR7",
+            "stationDate": "2009-02-05",
+            "stationTime": "13:43-19:10"
+        },
+        "DR8": {
+            "class": "Station",
+            "stationID": "DR8",
+            "stationDate": "2009-02-08",
+            "stationTime": "09:30-11:25"
+        },
+        "DR9": {
+            "class": "Station",
+            "stationID": "DR9",
+            "stationDate": "2009-02-08",
+            "stationTime": "12:50-15:00"
+        },
+        "DR10": {
+            "class": "Station",
+            "stationID": "DR10",
+            "stationDate": "2009-02-08",
+            "stationTime": "15:45-18:10"
+        },
+        "DR11": {
+            "class": "Station",
+            "stationID": "DR11",
+            "stationDate": "2009-02-09",
+            "stationTime": "10:06-12:30"
+        },
+        "DR12": {
+            "class": "Station",
+            "stationID": "DR12",
+            "stationDate": "2009-02-09",
+            "stationTime": "13:28-16:16"
+        },
+        "DR13": {
+            "class": "Task",
+            "hasDuration": 1.8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR14": {
+            "class": "Task",
+            "hasDuration": 1.8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Kane_Seamount": {
+            "class": "State",
+            "has_Depth": "3,700"
+        },
+        "Tolkien_Seamount": {
+            "class": "State",
+            "has_Depth": "2,900"
+        },
+        "Krylov_Seamount": {
+            "class": "State",
+            "has_Temperature": "1,950",
+            "has_Depth": "1,950"
+        },
+        "Krylov_Ridge": {
+            "class": "State",
+            "has_Temperature": "2,030",
+            "has_Depth": "2,030"
+        }
+    }
+}

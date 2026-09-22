@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "OBS 701": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS 702": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_128": {
+            "has_Depth": 4050,
+            "class": "State"
+        },
+        "OBS_131": {
+            "has_Depth": 4212,
+            "class": "State"
+        },
+        "OBS_1117": {
+            "has_Depth": 728,
+            "class": "State"
+        },
+        "OBS_1218": {
+            "has_Depth": 1620,
+            "class": "State"
+        },
+        "OBS_1219": {
+            "has_Depth": 1680,
+            "class": "State"
+        }
+    }
+}

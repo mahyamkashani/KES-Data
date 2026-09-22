@@ -1,0 +1,43 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "DR1 hasAction Dredging"
+            ],
+            "Individuals": [
+                "POS379_1",
+                "DR1",
+                "Dredging",
+                "Traversal_1",
+                "RV_POSEIDON",
+                "Mt_Demenitskoy"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "DR6 hasAction Dredging"
+            ],
+            "Individuals": [
+                "POS379_1",
+                "DR6",
+                "Dredging",
+                "Traversal_2",
+                "RV_POSEIDON",
+                "Tolkien_Seamount"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "DR8 hasAction Dredging"
+            ],
+            "Individuals": [
+                "POS379_1",
+                "DR8",
+                "Dredging",
+                "Traversal_3",
+                "RV_POSEIDON",
+                "Krylov_Seamount"
+            ]
+        }
+    }
+}

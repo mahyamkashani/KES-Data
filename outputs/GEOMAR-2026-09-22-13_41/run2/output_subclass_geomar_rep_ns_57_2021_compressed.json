@@ -1,0 +1,84 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "CTD",
+                "hasDuration": "00:15:27",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Anton",
+                "maxDepth": "500m"
+            },
+            {
+                "individual_name": "Luise",
+                "maxDepth": "500m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "SO277_1-1",
+                "stationID": "SO277_1-1",
+                "stationName": "MB",
+                "stationDate": "2020-08-23",
+                "stationTime": "14:08"
+            },
+            {
+                "individual_name": "SO277_2-1",
+                "stationID": "SO277_2-1",
+                "stationName": "CTD",
+                "stationDate": "2020-08-24",
+                "stationTime": "01:35:25"
+            },
+            {
+                "individual_name": "SO277_3-1",
+                "stationID": "SO277_3-1",
+                "stationName": "AGSS",
+                "stationDate": "2020-08-24",
+                "stationTime": "06:30:30"
+            },
+            {
+                "individual_name": "SO277_7-1",
+                "stationID": "SO277_7-1",
+                "stationName": "CTD",
+                "stationDate": "2020-08-27",
+                "stationTime": "01:27:46"
+            },
+            {
+                "individual_name": "SO277_8-1",
+                "stationID": "SO277_8-1",
+                "stationName": "AUV_L",
+                "stationDate": "2020-08-27",
+                "stationTime": "05:52:48"
+            },
+            {
+                "individual_name": "SO277_17-1",
+                "stationID": "SO277_17-1",
+                "stationName": "CSE",
+                "stationDate": "2020-09-09",
+                "stationTime": "09:21:30"
+            },
+            {
+                "individual_name": "SO277_19-1",
+                "stationID": "SO277_19-1",
+                "stationName": "CTD",
+                "stationDate": "2020-09-09",
+                "stationTime": "11:45:11"
+            }
+        ]
+    }
+}

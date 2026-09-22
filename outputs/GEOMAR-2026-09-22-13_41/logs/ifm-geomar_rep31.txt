@@ -1,0 +1,145 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Bathymetric data collection: 'Bathymetric data collection' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-4
+    subclass: attempt 2 rejected: North Alex temperature observatory: 'North Alex temperature observatory' does not appear anywhere in the document - do not invent a name, and do not turn a rang
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_ifm-geomar_rep31.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V POSEIDON hasSensor DTS-1: 'DTS-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dr
+    binary: attempt 2 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_ifm-geomar_rep31.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: attempt 2 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_ifm-geomar_rep31.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: WND-4: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 2 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 3 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: CTD_2009: 'CTD_2009' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_ifm-geomar_rep31.json
+marked 2 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_attributes_ifm-geomar_rep31.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Bathymetric data collection: 'Bathymetric data collection' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-4
+    subclass: attempt 2 rejected: North Alex temperature observatory: 'North Alex temperature observatory' does not appear anywhere in the document - do not invent a name, and do not turn a rang
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_ifm-geomar_rep31.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V POSEIDON hasSensor DTS-1: 'DTS-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dr
+    binary: attempt 2 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: attempt 3 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: no attempt passed: kept what passes on its own, dropped 8 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_ifm-geomar_rep31.json
+marked 8 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_binary_ifm-geomar_rep31.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: attempt 2 rejected: 'WND_4 hasTask P388': 'WND_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the a
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_ifm-geomar_rep31.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: West_Nile_Delta_Project: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly on
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 2 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 3 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: CTD_2009: 'CTD_2009' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_ifm-geomar_rep31.json
+marked 2 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_attributes_ifm-geomar_rep31.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Bathymetric data collection: 'Bathymetric data collection' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-4
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_ifm-geomar_rep31.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V POSEIDON hasSensor DTS-1: 'DTS-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dr
+    binary: attempt 2 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: attempt 3 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: no attempt passed: kept what passes on its own, dropped 8 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_ifm-geomar_rep31.json
+marked 8 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_binary_ifm-geomar_rep31.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: attempt 2 rejected: 'WND_4 hasTask P388': 'WND_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the a
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_ifm-geomar_rep31.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: West_Nile_Delta_Project: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly on
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 2 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 3 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: CTD_2009: 'CTD_2009' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_ifm-geomar_rep31.json
+marked 2 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_attributes_ifm-geomar_rep31.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Bathymetric data collection: 'Bathymetric data collection' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-4
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_ifm-geomar_rep31.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V POSEIDON hasSensor DTS-1: 'DTS-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dr
+    binary: attempt 2 rejected: R/V POSEIDON hasSensor ELAC Bottomchart Mk. II: 'R/V POSEIDON' and 'ELAC Bottomchart Mk. II' both occur in the document but never on the same page, so the repor
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_ifm-geomar_rep31.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: attempt 2 rejected: 'WND_4 hasTask Task_1': 'WND_4', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_ifm-geomar_rep31.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: West_Nile_Delta_Project: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly on
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 2 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: attempt 3 rejected: Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: CTD_2009: 'CTD_2009' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_ifm-geomar_rep31.json
+marked 2 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_attributes_ifm-geomar_rep31.json
+
+vote subclass: kept 1 of 9 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_ifm-geomar_rep31.json
+vote binary: kept 4 of 4 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_ifm-geomar_rep31.json
+vote nary: kept 0 of 9 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_ifm-geomar_rep31.json
+vote attributes: kept 31 of 44 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_ifm-geomar_rep31.json
+
+done: 16/16 patterns succeeded

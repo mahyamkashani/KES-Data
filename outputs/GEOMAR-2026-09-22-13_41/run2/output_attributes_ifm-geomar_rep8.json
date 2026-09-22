@@ -1,0 +1,278 @@
+{
+    "Individuals": {
+        "OBMT 37": {
+            "class": "Station",
+            "stationID": "OBMT 37"
+        },
+        "OBMT 35": {
+            "class": "Station",
+            "stationID": "OBMT 35"
+        },
+        "OBH 154": {
+            "class": "Waypoint",
+            "locationName": "OBH 154",
+            "latitude": "-12.23347",
+            "longitude": "120.90332",
+            "seabedDepth": 3584
+        },
+        "OBH 155": {
+            "class": "Waypoint",
+            "locationName": "OBH 155",
+            "latitude": "-12.17983",
+            "longitude": "120.91102",
+            "seabedDepth": 3690
+        },
+        "OBH 156": {
+            "class": "Waypoint",
+            "locationName": "OBH 156",
+            "latitude": "-12.12393",
+            "longitude": "120.91965",
+            "seabedDepth": 3877
+        },
+        "OBH 157": {
+            "class": "Waypoint",
+            "locationName": "OBH 157",
+            "latitude": "-12.06698",
+            "longitude": "120.92825",
+            "seabedDepth": 3933
+        },
+        "OBS 158": {
+            "class": "Waypoint",
+            "locationName": "OBS 158",
+            "latitude": "-12.00785",
+            "longitude": "120.93660",
+            "seabedDepth": 3978
+        },
+        "OBS 159": {
+            "class": "Waypoint",
+            "locationName": "OBS 159",
+            "latitude": "-11.95052",
+            "longitude": "120.94572",
+            "seabedDepth": 3916
+        },
+        "OBH 181": {
+            "class": "Station",
+            "stationID": "OBH 181",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06"
+        },
+        "OBH 182": {
+            "class": "Station",
+            "stationID": "OBH 182",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06"
+        },
+        "OBH 183": {
+            "class": "Station",
+            "stationID": "OBH 183",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06"
+        },
+        "OBH 184": {
+            "class": "Station",
+            "stationID": "OBH 184",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06"
+        },
+        "OBH 185": {
+            "class": "Station",
+            "stationID": "OBH 185",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06"
+        },
+        "OBH 186": {
+            "class": "Station",
+            "stationID": "OBH 186",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06"
+        },
+        "OBH 01": {
+            "class": "Station",
+            "stationID": "OBH 01",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 02": {
+            "class": "Station",
+            "stationID": "OBH 02",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 03": {
+            "class": "Station",
+            "stationID": "OBH 03",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 04": {
+            "class": "Station",
+            "stationID": "OBH 04",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 05": {
+            "class": "Station",
+            "stationID": "OBH 05",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 06": {
+            "class": "Station",
+            "stationID": "OBH 06",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 07": {
+            "class": "Station",
+            "stationID": "OBH 07",
+            "stationDate": "2006-11-14",
+            "stationTime": "15.11.06"
+        },
+        "OBH 200": {
+            "class": "Station",
+            "stationID": "OBH 200",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06"
+        },
+        "OBH 201": {
+            "class": "Station",
+            "stationID": "OBH 201",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06"
+        },
+        "OBH 202": {
+            "class": "Station",
+            "stationID": "OBH 202",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06"
+        },
+        "OBH 203": {
+            "class": "Station",
+            "stationID": "OBH 203",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBH 204": {
+            "class": "Station",
+            "stationID": "OBH 204",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBH 205": {
+            "class": "Station",
+            "stationID": "OBH 205",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 206": {
+            "class": "Station",
+            "stationID": "OBS 206",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 225": {
+            "class": "Station",
+            "stationID": "OBS 225",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 226": {
+            "class": "Station",
+            "stationID": "OBS 226",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 227": {
+            "class": "Station",
+            "stationID": "OBS 227",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 228": {
+            "class": "Station",
+            "stationID": "OBS 228",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBS 229": {
+            "class": "Station",
+            "stationID": "OBS 229",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06"
+        },
+        "OBH 230": {
+            "class": "Station",
+            "stationID": "OBH 230",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBH 231": {
+            "class": "Station",
+            "stationID": "OBH 231",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBS 232": {
+            "class": "Station",
+            "stationID": "OBS 232",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBS 233": {
+            "class": "Station",
+            "stationID": "OBS 233",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBS 234": {
+            "class": "Station",
+            "stationID": "OBS 234",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBS 235": {
+            "class": "Station",
+            "stationID": "OBS 235",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06"
+        },
+        "OBS 193": {
+            "class": "Waypoint",
+            "locationName": "OBS 193",
+            "latitude": "-10.06585",
+            "longitude": "121.21892",
+            "seabedDepth": 910
+        },
+        "OBS 194": {
+            "class": "Waypoint",
+            "locationName": "OBS 194",
+            "latitude": "-10.00217",
+            "longitude": "121.22847",
+            "seabedDepth": 1246
+        },
+        "OBS 195": {
+            "class": "Waypoint",
+            "locationName": "OBS 195",
+            "latitude": "-9.94652",
+            "longitude": "121.23643",
+            "seabedDepth": 1532
+        },
+        "SO190-2": {
+            "class": "Task",
+            "hasDuration": "41.5",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBMT35": {
+            "class": "State",
+            "has_Depth": "5862"
+        },
+        "OBMT54": {
+            "class": "State",
+            "has_Depth": "4362"
+        },
+        "OBMT55": {
+            "class": "State",
+            "has_Depth": "4366"
+        }
+    }
+}

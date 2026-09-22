@@ -1,0 +1,170 @@
+{
+    "Individuals": {
+        "MT001": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT002": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT003": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT004": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT005": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT006": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "MT007": {
+            "class": "Station",
+            "stationID": "MT007",
+            "stationDate": "2009-02-26",
+            "stationTime": "11:13"
+        },
+        "MT008": {
+            "class": "Station",
+            "stationID": "MT008",
+            "stationDate": "2009-02-26",
+            "stationTime": "12:27"
+        },
+        "MT009": {
+            "class": "Station",
+            "stationID": "MT009",
+            "stationDate": "2009-02-26",
+            "stationTime": "13:31"
+        },
+        "MT010": {
+            "class": "Station",
+            "stationID": "MT010",
+            "stationDate": "2009-02-26",
+            "stationTime": "14:31"
+        },
+        "MT011": {
+            "class": "Station",
+            "stationID": "MT011",
+            "stationDate": "2009-02-26",
+            "stationTime": "16:05"
+        },
+        "MT012": {
+            "class": "Station",
+            "stationID": "MT012",
+            "stationDate": "2009-02-26",
+            "stationTime": "17:01"
+        },
+        "Rocket_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Rocket Seamount",
+            "latitude": "15.78383",
+            "longitude": "-36.22683"
+        },
+        "Vayda_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Vayda Seamount",
+            "latitude": "14.93700",
+            "longitude": "-48.18733"
+        },
+        "Molodezhnaya_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Molodezhnaya Seamount",
+            "latitude": "15.02600",
+            "longitude": "-50.26000"
+        },
+        "Frodo_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Frodo Seamount",
+            "latitude": "15.25367",
+            "longitude": "-50.41700"
+        },
+        "The_Shire_Seamount": {
+            "class": "Waypoint",
+            "locationName": "The Shire Seamount",
+            "latitude": "15.00500",
+            "longitude": "-49.58433"
+        },
+        "Mount_Doom": {
+            "class": "Waypoint",
+            "locationName": "Mount Doom",
+            "latitude": "15.67450",
+            "longitude": "-51.49117"
+        },
+        "DR1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR2": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR3": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR4": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR5": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR6": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR11": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR13": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR14": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR15": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR18": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR19": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR20": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR21": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 42
+
+created 27 individuals:
+  + R_V_POSEIDON : Vehicle
+  + GI_airgun : Sonar
+  + CAT_Meter_1 : CTDSensor
+  + piezometer : CTDSensor
+  + Tiltmeter : CTDSensor
+  + RV_POSEIDON : Ship
+  + North_Alex : Waypoint
+  + Giza : Waypoint
+  + OBS_13 : State
+  + OBS_14 : State
+  + OBS_15 : State
+  + OBS_16 : State
+  + OBS_17 : State
+  + OBS_18 : State
+  + OBS_19 : State
+  + OBS_20 : State
+  + OBS_21 : State
+  + OBS_22 : State
+  + OBS_23 : State
+  + OBS_24 : State
+  + OBT_4 : State
+  + OBT_6 : State
+  + SP_25 : State
+  + SP_27 : State
+  + SP_28 : State
+  + SP_29 : State
+  + West_Nile_Delta_Project : Mission
+
+asserted 14 axioms:
+  + R_V_POSEIDON hasSensor GI_airgun
+  + R_V_POSEIDON hasSensor CAT_Meter_1
+  + R_V_POSEIDON hasSensor piezometer
+  + R_V_POSEIDON hasSensor Tiltmeter
+  + North_Alex locationName North Alex mud volcano
+  + North_Alex latitude 31.96732
+  + North_Alex longitude 30.13108
+  + Giza locationName Giza mud volcano
+  + Giza latitude 31.96558
+  + Giza longitude 30.13840
+  + West_Nile_Delta_Project MissionID WND-4
+  + West_Nile_Delta_Project startTime 2009-07-13
+  + West_Nile_Delta_Project endTime 2009-08-04
+  + West_Nile_Delta_Project hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep31.rdf

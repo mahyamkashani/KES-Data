@@ -1,0 +1,27 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO191 hasTask Leg1"
+            ],
+            "Individuals": [
+                "SO191",
+                "Leg1",
+                "SeismicStudies",
+                "RV_SONNE",
+                "Wairarapa"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "Sampling hasVehicle RV_SONNE"
+            ],
+            "Individuals": [
+                "SO191",
+                "Leg2",
+                "Sampling",
+                "RV_SONNE"
+            ]
+        }
+    }
+}

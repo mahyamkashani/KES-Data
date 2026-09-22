@@ -1,0 +1,32 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 22
+
+created 7 individuals:
+  + RV_Poseidon : Vehicle
+  + Seabeam_3050 : Echosounder
+  + Oktopus : Camera
+  + RVPoseidon_Cruise : Mission
+  + Station_34_CTD : State
+  + Hatiba_Deep : Waypoint
+  + Port_Sudan_Deep : Waypoint
+
+asserted 16 axioms:
+  + RV_Poseidon hasSensor Seabeam_3050
+  + RV_Poseidon hasSensor Oktopus
+  + RVPoseidon_Cruise MissionID 408-3
+  + RVPoseidon_Cruise startTime 2011-01-14
+  + RVPoseidon_Cruise endTime 2011-01-31
+  + RVPoseidon_Cruise dataVolume 4500 km2
+  + RVPoseidon_Cruise hasStatus SUCCESSFUL
+  + RVPoseidon_Cruise remark Focused on geological development of Red Sea deeps.
+  + Station_34_CTD has_Temperature 36
+  + Station_34_CTD has_Conductivity 2000
+  + Hatiba_Deep locationName Hatiba Deep
+  + Hatiba_Deep latitude 22.05000
+  + Hatiba_Deep longitude 37.84333
+  + Port_Sudan_Deep locationName Port Sudan Deep
+  + Port_Sudan_Deep latitude 20.07683
+  + Port_Sudan_Deep longitude 38.51217
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep46.rdf

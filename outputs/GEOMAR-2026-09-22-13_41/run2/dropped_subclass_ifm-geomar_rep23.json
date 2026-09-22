@@ -1,0 +1,29 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "ATA02-31CTD": {
+                "hasDuration": "11 profiles"
+            }
+        },
+        "reason": "ATA02-31CTD: hasDuration='11 profiles' is not printed on any page that names 'ATA02-31CTD' - copy the number the report prints beside 'ATA02-31CTD', or leave hasDuration out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "ATA-35ROV": {
+                "hasDuration": "102 h"
+            }
+        },
+        "reason": "ATA-35ROV: hasDuration='102 h' is not printed on any page that names 'ATA-35ROV' - copy the number the report prints beside 'ATA-35ROV', or leave hasDuration out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "ATA-31CTD"
+            }
+        },
+        "reason": "ATA-31CTD: 'ATA-31CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

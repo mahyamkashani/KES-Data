@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "FS Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "FS Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "OBH"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS Discovery hasSensor OBH"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "MCS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "RRS Discovery hasSensor MCS"
+        },
+        {
+            "INDIVIDUAL": [
+                "D315",
+                "obh01"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "D315 hasAction obh01"
+        },
+        {
+            "INDIVIDUAL": [
+                "D315",
+                "obh02"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "D315 hasAction obh02"
+        }
+    ]
+}

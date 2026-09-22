@@ -1,0 +1,100 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Simrad EM 120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Simrad EM 120"
+        },
+        "reason": "RV SONNE hasSensor Simrad EM 120: 'RV SONNE' and 'Simrad EM 120' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound"
+        },
+        "reason": "RV SONNE hasSensor Parasound: 'RV SONNE' and 'Parasound' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "S0176",
+                "Station 01CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0176 hasTask Station 01CTD"
+        },
+        "reason": "S0176 hasTask Station 01CTD: 'S0176' and 'Station 01CTD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/014-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Station S0179/014-1"
+        },
+        "reason": "S0179 hasTask Station S0179/014-1: 'Station S0179/014-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/015-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "S0179 hasTask Station S0179/015-1"
+        },
+        "reason": "S0179 hasTask Station S0179/015-1: 'Station S0179/015-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/015-1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "S0179 hasAction Act_Move"
+        },
+        "reason": "S0179 hasAction Act_Move: 'Station S0179/015-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "S0179",
+                "Station S0179/015-1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "S0179 hasAction Act_TakePhoto"
+        },
+        "reason": "S0179 hasAction Act_TakePhoto: 'Station S0179/015-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

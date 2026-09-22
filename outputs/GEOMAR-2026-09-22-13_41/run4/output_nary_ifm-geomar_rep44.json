@@ -1,0 +1,17 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "GC_8 hasVehicle ROV_3",
+                "GC_8 hasDestination CMSA_BOX_2",
+                "GC_8 goes_through CMSA_BOX_2"
+            ],
+            "Individuals": [
+                "SO210",
+                "GC_8",
+                "ROV_3",
+                "CMSA_BOX_2"
+            ]
+        }
+    }
+}

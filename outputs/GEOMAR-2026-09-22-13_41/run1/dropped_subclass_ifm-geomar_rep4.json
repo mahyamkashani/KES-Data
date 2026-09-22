@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station A"
+            }
+        },
+        "reason": "Station A: 'Station A' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station B"
+            }
+        },
+        "reason": "Station B: 'Station B' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

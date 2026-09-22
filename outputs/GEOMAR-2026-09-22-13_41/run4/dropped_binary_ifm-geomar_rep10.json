@@ -1,0 +1,142 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 1"
+        },
+        "reason": "AL275 hasTask Dive 1: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 2"
+        },
+        "reason": "AL275 hasTask Dive 2: 'Dive 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 3"
+        },
+        "reason": "AL275 hasTask Dive 3: 'Dive 3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 4"
+        },
+        "reason": "AL275 hasTask Dive 4: 'Dive 4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 5"
+        },
+        "reason": "AL275 hasTask Dive 5: 'Dive 5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 6"
+        },
+        "reason": "AL275 hasTask Dive 6: 'Dive 6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Sonar"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "JAGO hasSensor Sonar"
+        },
+        "reason": "JAGO hasSensor Sonar: 'Sonar' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Camera"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor Camera"
+        },
+        "reason": "JAGO hasSensor Camera: 'Camera' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Hydrophone"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "JAGO hasSensor Hydrophone"
+        },
+        "reason": "JAGO hasSensor Hydrophone: 'Hydrophone' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; JAGO hasSensor Hydrophone: 'Hydrophone' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Echosounder"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "JAGO hasSensor Echosounder"
+        },
+        "reason": "JAGO hasSensor Echosounder: 'Echosounder' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; JAGO hasSensor Echosounder: 'Echosounder' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

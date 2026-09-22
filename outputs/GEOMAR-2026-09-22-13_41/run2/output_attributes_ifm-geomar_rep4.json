@@ -1,0 +1,422 @@
+{
+    "Individuals": {
+        "Station_11": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 11 OFOS 02",
+            "stationDate": "06.06.2004/07.06.2004",
+            "stationTime": "23:00"
+        },
+        "Station_12": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 12 OFOS 03",
+            "stationDate": "2004-06-07",
+            "stationTime": "06:27"
+        },
+        "Station_20": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 20 OFOS 05",
+            "stationDate": "2004-06-09",
+            "stationTime": "13:55"
+        },
+        "Station_21": {
+            "class": "Station",
+            "stationID": "SO177/1, STATION 21 OFOS 06",
+            "stationDate": "2004-06-09",
+            "stationTime": "18:21"
+        },
+        "Station_27": {
+            "class": "Station",
+            "stationID": "SO177/2, STATION 99 OFOS 21",
+            "stationDate": "2004-06-29",
+            "stationTime": "02:35"
+        },
+        "OFOS_02": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.13567",
+            "longitude": "118.90383",
+            "seabedDepth": 625
+        },
+        "OFOS_03": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.10650",
+            "longitude": "118.91217",
+            "seabedDepth": 899
+        },
+        "OFOS_04": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.31317",
+            "longitude": "119.19967",
+            "seabedDepth": 2987
+        },
+        "OFOS_05": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.30267",
+            "longitude": "119.34733",
+            "seabedDepth": 3037
+        },
+        "OFOS_06": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.30317",
+            "longitude": "119.24833",
+            "seabedDepth": 2994
+        },
+        "OFOS_07": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.17567",
+            "longitude": "118.87600",
+            "seabedDepth": 484
+        },
+        "OFOS_08": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.04967",
+            "longitude": "118.76683",
+            "seabedDepth": 955
+        },
+        "OFOS_09": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.98917",
+            "longitude": "118.65000",
+            "seabedDepth": 1160
+        },
+        "OFOS_10": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.30850",
+            "longitude": "119.43167",
+            "seabedDepth": 3056
+        },
+        "OFOS_11": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.30217",
+            "longitude": "119.42933",
+            "seabedDepth": 3119
+        },
+        "OFOS_12": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.05333",
+            "longitude": "118.76300",
+            "seabedDepth": 744
+        },
+        "OFOS_13": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.05050",
+            "longitude": "118.77483",
+            "seabedDepth": 803
+        },
+        "OFOS_14": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.01317",
+            "longitude": "118.75350",
+            "seabedDepth": 913
+        },
+        "OFOS_15": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "22.08917",
+            "longitude": "118.70167",
+            "seabedDepth": 826
+        },
+        "OFOS_16": {
+            "class": "Waypoint",
+            "locationName": "Area A",
+            "latitude": "21.93150",
+            "longitude": "118.77183",
+            "seabedDepth": 1355
+        },
+        "OFOS-1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-2": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-3": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-4": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-5": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-6": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-7": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-8": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-9": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-11": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-13": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-14": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-15": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-16": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-17": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-18": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-19": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-20": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-21": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-22": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-23": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-24": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-25": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-26": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-27": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-28": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-29": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-30": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-31": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-32": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OFOS-33": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_01": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2199
+        },
+        "CTD_02": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3360
+        },
+        "CTD_03": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3163
+        },
+        "CTD_04": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 911
+        },
+        "CTD_05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3011
+        },
+        "CTD_06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 919
+        },
+        "CTD_07": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 402
+        },
+        "CTD_08": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2205
+        },
+        "CTD_09": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 768
+        },
+        "CTD_10": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 769
+        },
+        "CTD_11": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1357
+        },
+        "CTD_12": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3283
+        },
+        "CTD_13": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1747
+        },
+        "CTD_14": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3329
+        },
+        "CTD_15": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3252
+        },
+        "CTD_16": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3247
+        },
+        "CTD_17": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 762
+        },
+        "CTD_18": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1183
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2555
+        },
+        "CTD_20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1651
+        },
+        "CTD_21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3013
+        },
+        "CTD_22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 630
+        },
+        "CTD_23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2850
+        },
+        "CTD_24": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3019
+        },
+        "CTD_25": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2983
+        }
+    }
+}

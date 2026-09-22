@@ -1,0 +1,44 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 31
+
+created 16 individuals:
+  + R_V_METEOR : Vehicle
+  + DTS_1 : Sonar
+  + EM120 : Echosounder
+  + EM710 : MBES
+  + PARASOUND : Echosounder
+  + POSIDONIA : USBL
+  + DTS_1_System : SurveyMission
+  + Magnetic_Survey : SurveyMission
+  + Multibeam_Bathymetric_Mapping : Bathymetric_Mission
+  + Station_5 : Station
+  + Station_6 : Station
+  + Station_16 : Waypoint
+  + Station_17 : Waypoint
+  + Station_18 : Waypoint
+  + Station_19 : Waypoint
+  + Station_20 : State
+
+asserted 19 axioms:
+  + R_V_METEOR hasSensor DTS_1
+  + R_V_METEOR hasSensor EM120
+  + R_V_METEOR hasSensor EM710
+  + R_V_METEOR hasSensor PARASOUND
+  + R_V_METEOR hasSensor POSIDONIA
+  + DTS_1_System hasDurationText 2 days   [hasDuration could not take it]
+  + DTS_1_System hasStatus PartialFAILURE
+  + Magnetic_Survey hasStatus SUCCESSFUL
+  + Multibeam_Bathymetric_Mapping hasStatus PartialSUCCESSFUL
+  + Station_5 stationID 5
+  + Station_5 stationDate February 28
+  + Station_5 stationTime 22:00
+  + Station_6 stationID 6
+  + Station_6 stationDate February 28
+  + Station_16 locationName Station 16
+  + Station_17 locationName Station 17
+  + Station_18 locationName Station 18
+  + Station_19 locationName Station 19
+  + Station_20 has_Depth 500
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep7.rdf

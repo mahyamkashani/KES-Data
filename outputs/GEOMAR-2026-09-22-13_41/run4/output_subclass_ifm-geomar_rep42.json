@@ -1,0 +1,163 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "OBS 01",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 104, Owen 57"
+            },
+            {
+                "individual_name": "OBS 02",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 117, Owen 12, Paro 106112"
+            },
+            {
+                "individual_name": "OBS 03",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 85, G\u00fcralp T4N61"
+            },
+            {
+                "individual_name": "OBS 04",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 51, Owen 33"
+            },
+            {
+                "individual_name": "OBS 06",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 109, Owen 112"
+            },
+            {
+                "individual_name": "OBS 07",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 58, Owen 100-117"
+            },
+            {
+                "individual_name": "OBS 08",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 90, Owen 11"
+            },
+            {
+                "individual_name": "OBS 09",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 86, G\u00fcralp"
+            },
+            {
+                "individual_name": "OBS 10",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 47, Owen KS1001-120"
+            },
+            {
+                "individual_name": "OBS 11",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 57, G\u00fcralp T4N26"
+            },
+            {
+                "individual_name": "OBS 12",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 73, Owen W01-113"
+            },
+            {
+                "individual_name": "OBS 13",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 43, Owen 1001-115, Paro 98612"
+            },
+            {
+                "individual_name": "OBS 14",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 87, Owen 1001-114"
+            },
+            {
+                "individual_name": "OBS 15",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 91, G\u00fcralp T4N25"
+            },
+            {
+                "individual_name": "OBS 16",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 46, Owen 1001-110"
+            },
+            {
+                "individual_name": "OBS 17",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 60, Owen 90, Paro 95933"
+            },
+            {
+                "individual_name": "OBS 18",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 82, G\u00fcralp T4510"
+            },
+            {
+                "individual_name": "OBS 19",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 38, Owen 1001-87"
+            },
+            {
+                "individual_name": "OBS 20",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 59, Owen 88"
+            },
+            {
+                "individual_name": "OBS 21",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 29, Owen"
+            },
+            {
+                "individual_name": "OBS 22",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 107, Owen 89"
+            },
+            {
+                "individual_name": "OBS 23",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 88, Owen 84"
+            },
+            {
+                "individual_name": "OBS 24",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 83, Owen KS0403-063"
+            },
+            {
+                "individual_name": "OBS 25",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 30, Owen 0708-099"
+            },
+            {
+                "individual_name": "OBS 26",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 32, Owen 1001-118"
+            },
+            {
+                "individual_name": "OBS 27",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "HTI 20, G\u00fcralp T4N21"
+            },
+            {
+                "individual_name": "OBS 28",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "OAS 46, Owen 0509-073"
+            },
+            {
+                "individual_name": "OBS 29",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "OAS 75, Owen 0509015"
+            },
+            {
+                "individual_name": "OBS 30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "OAS 07, Owen KS0205-026"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "OBS 2002",
+                "maxDepth": "6000 m"
+            },
+            {
+                "individual_name": "OBS 8000",
+                "maxDepth": "8000 m"
+            }
+        ]
+    }
+}

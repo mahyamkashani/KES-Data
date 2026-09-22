@@ -1,0 +1,47 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_SO277": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_SO277: 'Mission_SO277' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "VCTD_01": {
+                "hasDuration": 4.5
+            }
+        },
+        "reason": "VCTD_01: hasDuration=4.5 is not printed on any page that names 'VCTD_01' - copy the number the report prints beside 'VCTD_01', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "VCTD_02": {
+                "hasDuration": 4.5
+            }
+        },
+        "reason": "VCTD_02: hasDuration=4.5 is not printed on any page that names 'VCTD_02' - copy the number the report prints beside 'VCTD_02', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "VCTD_03": {
+                "hasDuration": 6.5
+            }
+        },
+        "reason": "VCTD_03: hasDuration=6.5 is not printed on any page that names 'VCTD_03' - copy the number the report prints beside 'VCTD_03', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "VCTD_20": {
+                "class": "State"
+            }
+        },
+        "reason": "VCTD_20: 'VCTD_20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

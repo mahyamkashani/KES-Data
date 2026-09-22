@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MASS III-006",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-006 hasAction Act_Move"
+        }
+    ]
+}

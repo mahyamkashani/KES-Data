@@ -1,0 +1,29 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO191 hasTask Leg1"
+            ],
+            "Individuals": [
+                "SO191",
+                "Leg1",
+                "RV_SONNE"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO191 hasTask CSEM",
+                "CSEM hasAction Deployment",
+                "Deployment hasVehicle RV_SONNE",
+                "Deployment hasDestination Wairarapa"
+            ],
+            "Individuals": [
+                "SO191",
+                "CSEM",
+                "Deployment",
+                "RV_SONNE",
+                "Wairarapa"
+            ]
+        }
+    }
+}

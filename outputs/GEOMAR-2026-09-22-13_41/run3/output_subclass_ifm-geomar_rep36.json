@@ -1,0 +1,44 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Pore Water Sampler (PWS)",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "Benthic Chambers (BC)",
+                "collect_sample": "Yes"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "KIEL 6000",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "Submersible Pump",
+                "maxDepth": "70 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "Salt Dome Juist",
+                "stationName": "Salt Dome Juist",
+                "stationDate": "Various",
+                "stationTime": "Various"
+            },
+            {
+                "individual_name": "Tommeliten",
+                "stationName": "Tommeliten",
+                "stationDate": "Various",
+                "stationTime": "Various"
+            }
+        ]
+    }
+}

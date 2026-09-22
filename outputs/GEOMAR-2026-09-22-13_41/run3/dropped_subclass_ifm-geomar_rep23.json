@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "ROV Dive": {
+                "hasDuration": "102 h"
+            }
+        },
+        "reason": "ROV Dive: hasDuration='102 h' is not printed on any page that names 'ROV Dive' - copy the number the report prints beside 'ROV Dive', or leave hasDuration out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "ROV Kiel 6000": {
+                "maxDepth": "4890 m"
+            }
+        },
+        "reason": "ROV Kiel 6000: maxDepth='4890 m' is not printed on any page that names 'ROV Kiel 6000' - copy the number the report prints beside 'ROV Kiel 6000', or leave maxDepth out"
+    }
+]

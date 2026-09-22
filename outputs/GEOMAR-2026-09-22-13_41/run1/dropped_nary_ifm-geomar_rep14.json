@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "SO195/014-1 goes_through OBH_182",
+        "reason": "'SO195/014-1 goes_through OBH_182': 'OBH_182' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "SO195/014-1 goes_through OBH_183",
+        "reason": "'SO195/014-1 goes_through OBH_183': 'OBH_183' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "SO195/014-1 goes_through OBH_184",
+        "reason": "'SO195/014-1 goes_through OBH_184': 'OBH_184' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

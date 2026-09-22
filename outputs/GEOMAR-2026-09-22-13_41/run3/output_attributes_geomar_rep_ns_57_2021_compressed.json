@@ -1,0 +1,173 @@
+{
+    "Individuals": {
+        "VCTD_01": {
+            "class": "State",
+            "has_Temperature": "27",
+            "has_Depth": "1118.6"
+        },
+        "VCTD_02": {
+            "class": "State",
+            "has_Depth": "184.2"
+        },
+        "VCTD_03": {
+            "class": "State",
+            "has_Depth": "67.7"
+        },
+        "VCTD_04": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_05": {
+            "class": "Station",
+            "stationID": "VCTD 05",
+            "stationDate": "2020-09-03",
+            "stationTime": "07:44:27"
+        },
+        "VCTD_06": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_07": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_08": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "VCTD_10": {
+            "class": "State",
+            "has_Temperature": "34.0",
+            "has_Depth": "34.5"
+        },
+        "VCTD1_1": {
+            "class": "Station",
+            "stationID": "VCTD1 1",
+            "stationDate": "2020-09-14",
+            "stationTime": "10:43:05"
+        },
+        "VCTD1_2": {
+            "class": "Station",
+            "stationID": "VCTD1 2",
+            "stationDate": "2020-09-14",
+            "stationTime": "14:27:04"
+        },
+        "VCTD1_3": {
+            "class": "Station",
+            "stationID": "VCTD1 3",
+            "stationDate": "2020-09-14",
+            "stationTime": "15:35:56"
+        },
+        "VCTD1_4A": {
+            "class": "Station",
+            "stationID": "VCTD1 4A",
+            "stationDate": "2020-09-16",
+            "stationTime": "13:39:11"
+        },
+        "VCTD1_5A": {
+            "class": "Station",
+            "stationID": "VCTD1 5A",
+            "stationDate": "2020-09-17",
+            "stationTime": "06:02:46"
+        },
+        "VCTD1_6": {
+            "class": "Station",
+            "stationID": "VCTD1 6",
+            "stationDate": "2020-09-17",
+            "stationTime": "10:19:21"
+        },
+        "VCTD1_7": {
+            "class": "Station",
+            "stationID": "VCTD1 7",
+            "stationDate": "2020-09-18",
+            "stationTime": "15:06:26"
+        },
+        "VCTD1_8": {
+            "class": "Station",
+            "stationID": "VCTD1 8",
+            "stationDate": "2020-09-19",
+            "stationTime": "07:02:02"
+        },
+        "VCTD1_9": {
+            "class": "Station",
+            "stationID": "VCTD1 9",
+            "stationDate": "2020-09-19",
+            "stationTime": "14:19:09"
+        },
+        "WP01": {
+            "class": "Waypoint",
+            "locationName": "WP01",
+            "latitude": "36.04160",
+            "longitude": "14.35210"
+        },
+        "WP02": {
+            "class": "Waypoint",
+            "locationName": "WP02",
+            "latitude": "36.04290",
+            "longitude": "14.34970"
+        },
+        "WP03": {
+            "class": "Waypoint",
+            "locationName": "WP03",
+            "latitude": "36.04410",
+            "longitude": "14.34740"
+        },
+        "WP04": {
+            "class": "Waypoint",
+            "locationName": "WP04",
+            "latitude": "36.04530",
+            "longitude": "14.34490"
+        },
+        "WP05": {
+            "class": "Waypoint",
+            "locationName": "WP05",
+            "latitude": "36.04650",
+            "longitude": "14.34240"
+        },
+        "WP06": {
+            "class": "Waypoint",
+            "locationName": "WP06",
+            "latitude": "36.04780",
+            "longitude": "14.34000"
+        },
+        "WP29": {
+            "class": "Waypoint",
+            "locationName": "WP29",
+            "latitude": "36.08740",
+            "longitude": "14.33270"
+        },
+        "WP30": {
+            "class": "Waypoint",
+            "locationName": "WP30",
+            "latitude": "36.08840",
+            "longitude": "14.33120"
+        },
+        "WP31": {
+            "class": "Waypoint",
+            "locationName": "WP31",
+            "latitude": "36.06090",
+            "longitude": "14.37960"
+        },
+        "WP32": {
+            "class": "Waypoint",
+            "locationName": "WP32",
+            "latitude": "36.05990",
+            "longitude": "14.38270"
+        },
+        "WP33": {
+            "class": "Waypoint",
+            "locationName": "WP33",
+            "latitude": "36.05890",
+            "longitude": "14.38580"
+        },
+        "VCTD_09": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

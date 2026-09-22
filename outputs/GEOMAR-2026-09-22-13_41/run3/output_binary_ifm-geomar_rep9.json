@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Stat 212",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 212 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 213",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 213 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 266",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 266 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 275",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 275 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 285",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 285 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 292",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 292 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 294",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 294 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 310",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 310 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Stat 318",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Stat 318 hasAction Act_TakePhoto"
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_15": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_15: 'OBS_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_16": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_16: 'OBS_16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_17": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_17: 'OBS_17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_18": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_18: 'OBS_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_19": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_19: 'OBS_19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "OBS_20": {
+                "class": "Station"
+            }
+        },
+        "reason": "OBS_20: 'OBS_20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_01": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_02": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_02: 'Waypoint_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_03": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_03: 'Waypoint_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_04": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_04: 'Waypoint_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_05": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_05: 'Waypoint_05' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_06": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_06: 'Waypoint_06' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_07": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_07: 'Waypoint_07' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_08": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_08: 'Waypoint_08' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_09": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_09: 'Waypoint_09' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_10": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_10: 'Waypoint_10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD-2": {
+                "has_Depth": "1164"
+            }
+        },
+        "reason": "CTD-2: has_Depth='1164' is not printed on any page that names 'CTD-2' - copy the number the report prints beside 'CTD-2', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD-3": {
+                "has_Depth": "1096"
+            }
+        },
+        "reason": "CTD-3: has_Depth='1096' is not printed on any page that names 'CTD-3' - copy the number the report prints beside 'CTD-3', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD-4": {
+                "has_Depth": "670"
+            }
+        },
+        "reason": "CTD-4: has_Depth='670' is not printed on any page that names 'CTD-4' - copy the number the report prints beside 'CTD-4', or leave has_Depth out"
+    }
+]

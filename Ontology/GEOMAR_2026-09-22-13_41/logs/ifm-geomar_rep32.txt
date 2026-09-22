@@ -1,0 +1,269 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 99
+
+created 84 individuals:
+  + SO201_Leg_1b : Bathymetric_Mission
+  + R_V_SONNE : Ship
+  + DR1 : State
+  + DR2 : State
+  + DR3 : State
+  + DR5 : State
+  + DR6 : State
+  + DR7 : State
+  + DR8 : State
+  + DR9 : State
+  + DR10 : State
+  + DR11 : State
+  + DR12 : State
+  + DR13 : State
+  + DR14 : State
+  + DR16 : Mission
+  + DR17 : Mission
+  + DR18 : Mission
+  + DR19 : Mission
+  + DR20 : Mission
+  + DR21 : Mission
+  + DR22 : Mission
+  + DR24 : Mission
+  + DR25 : Mission
+  + DR26 : Mission
+  + DR27 : Mission
+  + DR28 : Mission
+  + DR29 : Mission
+  + DR30 : Mission
+  + DR31 : Mission
+  + DR32 : Mission
+  + DR33 : Mission
+  + DR34 : Mission
+  + DR35 : Mission
+  + DR36 : Mission
+  + DR37 : Mission
+  + DR38 : Mission
+  + DR41 : State
+  + DR42 : State
+  + DR43 : State
+  + Emperor_Seamounts : Waypoint
+  + Bowers_Ridge : Waypoint
+  + Ingenstrem_Depression : Waypoint
+  + Stalemate_Fracture_Zone : Waypoint
+  + DR45 : State
+  + DR_7 : Task
+  + DR_8 : Task
+  + DR_9 : Task
+  + DR_10 : Task
+  + DR_11 : Task
+  + DR_12 : Task
+  + DR_13 : Task
+  + DR_14 : Task
+  + DR_15 : Task
+  + DR_16 : Task
+  + DR_17 : Task
+  + DR_18 : Task
+  + DR_19 : Task
+  + DR_20 : Task
+  + DR_21 : Task
+  + DR_22 : Task
+  + DR_23 : Task
+  + DR_24 : Task
+  + DR_25 : Task
+  + DR_26 : Task
+  + DR_27 : Task
+  + DR_28 : Task
+  + DR_29 : Task
+  + DR_30 : Task
+  + DR_31 : Task
+  + DR_32 : Task
+  + DR_33 : Task
+  + DR_34 : Task
+  + DR_35 : Task
+  + DR_36 : Task
+  + DR_37 : Task
+  + DR_38 : Task
+  + DR_39 : Task
+  + DR_40 : Task
+  + DR_41 : Task
+  + DR_42 : Task
+  + DR_43 : Task
+  + DR_44 : Task
+  + DR_45 : Task
+
+asserted 176 axioms:
+  + SO201_Leg_1b hasDurationText 27 days   [hasDuration could not take it]
+  + SO201_Leg_1b hasStatus SUCCESSFUL
+  + DR2 has_Depth 3720
+  + DR3 has_Depth 4400
+  + DR5 has_Depth 3832
+  + DR6 has_Depth 3890
+  + DR7 has_Depth 3340
+  + DR8 has_Depth 3514
+  + DR9 has_Depth 1083
+  + DR10 has_Depth 1191
+  + DR11 has_Depth 1242
+  + DR12 has_Depth 1104
+  + DR13 has_Depth 1076
+  + DR14 has_Depth 1512
+  + DR16 MissionID DR16
+  + DR16 maxDepth 1160
+  + DR16 dataVolume 3/4 full
+  + DR16 hasStatus SUCCESSFUL
+  + DR16 remark Volcanics, large blocks, no dropstones.
+  + DR17 MissionID DR17
+  + DR17 maxDepth 1175
+  + DR17 dataVolume 1/4 full
+  + DR17 hasStatus SUCCESSFUL
+  + DR17 remark volcanic rock with slightly fluidal texture; fragment of block A
+  + DR18 MissionID DR18
+  + DR18 maxDepth 1128
+  + DR18 dataVolume 1/3 full
+  + DR18 hasStatus SUCCESSFUL
+  + DR18 remark Volcanics, no dropstones.
+  + DR19 MissionID DR19
+  + DR19 maxDepth 785
+  + DR19 dataVolume full
+  + DR19 hasStatus SUCCESSFUL
+  + DR19 remark ol-phyric basalt (black) with pale apple-green mantle xenoliths of sizes 0.5x0.8 cm to 4x6 cm
+  + DR20 MissionID DR20
+  + DR20 maxDepth 990
+  + DR20 dataVolume full
+  + DR20 hasStatus SUCCESSFUL
+  + DR20 remark Volcanics (lavas of andesites, basalts with xenoliths and pyroclastic rocks).
+  + DR21 MissionID DR21
+  + DR21 maxDepth 790
+  + DR21 dataVolume full
+  + DR21 hasStatus SUCCESSFUL
+  + DR22 MissionID DR22
+  + DR22 maxDepth 715
+  + DR22 dataVolume few rocks
+  + DR22 hasStatus SUCCESSFUL
+  + DR22 remark highly ol-px-pl phyric basalt
+  + DR24 MissionID DR24
+  + DR24 maxDepth 2718
+  + DR24 dataVolume few rocks, some freshly broken
+  + DR24 hasStatus SUCCESSFUL
+  + DR24 remark Solidified sediments, some with fresh broken surfaces
+  + DR25 MissionID DR25
+  + DR25 dataVolume few rocks in mud
+  + DR25 hasStatus SUCCESSFUL
+  + DR25 remark volcanic
+  + DR26 MissionID DR26
+  + DR26 maxDepth 1056
+  + DR26 dataVolume very few rocks
+  + DR26 hasStatus SUCCESSFUL
+  + DR26 remark volcanic
+  + DR27 MissionID DR27
+  + DR27 dataVolume few rocks
+  + DR27 hasStatus SUCCESSFUL
+  + DR27 remark volcanic
+  + DR28 MissionID DR28
+  + DR28 maxDepth 1136
+  + DR28 dataVolume few rocks
+  + DR28 hasStatus SUCCESSFUL
+  + DR28 remark volcanic, altered lava
+  + DR29 MissionID DR29
+  + DR29 maxDepth 2509
+  + DR29 dataVolume 1/2 full
+  + DR29 hasStatus SUCCESSFUL
+  + DR29 remark altered pillows and pillow fragments
+  + DR30 MissionID DR30
+  + DR30 maxDepth 3107
+  + DR30 dataVolume half full
+  + DR30 hasStatus SUCCESSFUL
+  + DR30 remark mostly Mn crust. A few igneous rocks (mostly granitic) are found as cemented breccia clasts within the Mn crusts
+  + DR31 MissionID DR31
+  + DR31 dataVolume empty
+  + DR31 hasStatus SUCCESSFUL
+  + DR31 remark single piece of partially consolidated sediment fragment
+  + DR32 MissionID DR32
+  + DR32 maxDepth 2383
+  + DR32 dataVolume 3/4 full
+  + DR32 hasStatus SUCCESSFUL
+  + DR32 remark organics, dropstones, 9 large blocks
+  + DR33 MissionID DR33
+  + DR33 maxDepth 3778
+  + DR33 dataVolume 1 rock
+  + DR33 hasStatus SUCCESSFUL
+  + DR33 remark 1 subangular stone covered with thin Fe-Mn crust
+  + DR34 MissionID DR34
+  + DR34 maxDepth 3806
+  + DR34 dataVolume about 20 rocks
+  + DR34 hasStatus SUCCESSFUL
+  + DR35 MissionID DR35
+  + DR35 maxDepth 3730
+  + DR35 dataVolume 1x large bloc, 5x small blocs
+  + DR35 hasStatus SUCCESSFUL
+  + DR35 remark volcanic
+  + DR36 MissionID DR36
+  + DR36 maxDepth 3187
+  + DR36 dataVolume 1/6 full
+  + DR36 hasStatus SUCCESSFUL
+  + DR36 remark Dacites with banded texture of glassy and pumice layers
+  + DR37 MissionID DR37
+  + DR37 maxDepth 4360
+  + DR37 dataVolume few rocks, 1 large rock
+  + DR37 hasStatus SUCCESSFUL
+  + DR38 MissionID DR38
+  + DR38 maxDepth 4263
+  + DR38 dataVolume some rocks
+  + DR38 hasStatus SUCCESSFUL
+  + DR38 remark 1 large piece blocking the mouth of the dredge; strongly deformed rocks
+  + DR41 has_Depth 4334
+  + DR42 has_Depth 3615
+  + DR43 has_Depth 4014
+  + Emperor_Seamounts locationName Emperor Seamounts
+  + Emperor_Seamounts latitude 48°10'N to 50°10'N
+  + Emperor_Seamounts longitude 168° to 170°
+  + Emperor_Seamounts seabedDepthText 3,030 to 2,375 mbsl   [seabedDepth could not take it]
+  + Bowers_Ridge locationName Bowers Ridge
+  + Bowers_Ridge latitude 53.96667
+  + Bowers_Ridge longitude 172.85000
+  + Bowers_Ridge seabedDepthText 3,900 m to nearly sea level   [seabedDepth could not take it]
+  + Ingenstrem_Depression locationName Ingenstrem Depression
+  + Ingenstrem_Depression latitude 52.48333
+  + Ingenstrem_Depression longitude 175.23333
+  + Stalemate_Fracture_Zone locationName Stalemate Fracture Zone
+  + Stalemate_Fracture_Zone latitude 51.66667
+  + Stalemate_Fracture_Zone longitude 171.00000
+  + Stalemate_Fracture_Zone seabedDepthText 5,500 m to 4,800 m   [seabedDepth could not take it]
+  + DR45 has_Depth 4870
+  + DR_7 hasStatus SUCCESSFUL
+  + DR_8 hasStatus SUCCESSFUL
+  + DR_9 hasStatus SUCCESSFUL
+  + DR_10 hasStatus SUCCESSFUL
+  + DR_11 hasStatus SUCCESSFUL
+  + DR_12 hasStatus SUCCESSFUL
+  + DR_13 hasStatus SUCCESSFUL
+  + DR_14 hasStatus SUCCESSFUL
+  + DR_15 hasStatus SUCCESSFUL
+  + DR_16 hasStatus SUCCESSFUL
+  + DR_17 hasStatus SUCCESSFUL
+  + DR_18 hasStatus SUCCESSFUL
+  + DR_19 hasStatus SUCCESSFUL
+  + DR_20 hasStatus SUCCESSFUL
+  + DR_21 hasStatus SUCCESSFUL
+  + DR_22 hasStatus SUCCESSFUL
+  + DR_23 hasStatus SUCCESSFUL
+  + DR_24 hasStatus SUCCESSFUL
+  + DR_25 hasStatus SUCCESSFUL
+  + DR_26 hasStatus SUCCESSFUL
+  + DR_27 hasStatus SUCCESSFUL
+  + DR_28 hasStatus SUCCESSFUL
+  + DR_29 hasStatus SUCCESSFUL
+  + DR_30 hasStatus SUCCESSFUL
+  + DR_31 hasStatus SUCCESSFUL
+  + DR_32 hasStatus SUCCESSFUL
+  + DR_33 hasStatus SUCCESSFUL
+  + DR_34 hasStatus SUCCESSFUL
+  + DR_35 hasStatus SUCCESSFUL
+  + DR_36 hasStatus SUCCESSFUL
+  + DR_37 hasStatus SUCCESSFUL
+  + DR_38 hasStatus SUCCESSFUL
+  + DR_39 hasStatus SUCCESSFUL
+  + DR_40 hasStatus SUCCESSFUL
+  + DR_41 hasStatus SUCCESSFUL
+  + DR_42 hasStatus SUCCESSFUL
+  + DR_43 hasStatus SUCCESSFUL
+  + DR_44 hasStatus SUCCESSFUL
+  + DR_45 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep32.rdf

@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "SIMRAD EM 120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor SIMRAD EM 120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV SONNE hasSensor CTD"
+        }
+    ]
+}

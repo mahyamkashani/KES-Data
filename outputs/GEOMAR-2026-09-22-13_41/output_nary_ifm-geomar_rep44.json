@@ -1,0 +1,51 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "GC_8 hasAction GC_9",
+                "GC_9 hasAction GC_10",
+                "GC_10 hasAction GC_11",
+                "GC_11 hasAction GC_12",
+                "GC_12 hasAction GC_13",
+                "GC_13 hasAction GC_14",
+                "GC_14 hasAction GC_15",
+                "GC_15 hasAction GC_16",
+                "GC_16 hasAction GC_17",
+                "GC_17 hasAction GC_18",
+                "GC_18 hasAction GC_19",
+                "GC_19 hasAction GC_20",
+                "GC_20 hasAction GC_21",
+                "GC_21 hasAction GC_22",
+                "GC_22 hasAction GC_23",
+                "GC_23 hasAction GC_24",
+                "GC_24 hasAction GC_25",
+                "GC_25 hasAction GC_26",
+                "GC_26 hasAction GC_27",
+                "GC_27 hasAction GC_28"
+            ],
+            "Individuals": [
+                "GC_8",
+                "GC_9",
+                "GC_10",
+                "GC_11",
+                "GC_12",
+                "GC_13",
+                "GC_14",
+                "GC_15",
+                "GC_16",
+                "GC_17",
+                "GC_18",
+                "GC_19",
+                "GC_20",
+                "GC_21",
+                "GC_22",
+                "GC_23",
+                "GC_24",
+                "GC_25",
+                "GC_26",
+                "GC_27",
+                "GC_28"
+            ]
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Salinometer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "MARIA S. MERIAN hasSensor Salinometer"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Underway CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "MARIA S. MERIAN hasSensor Underway CTD"
+        }
+    ]
+}

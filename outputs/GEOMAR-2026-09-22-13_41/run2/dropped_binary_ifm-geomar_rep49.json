@@ -1,0 +1,282 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #1"
+        },
+        "reason": "North Alex MV hasTask CTD cast #1: 'North Alex MV' and 'CTD cast #1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #2"
+        },
+        "reason": "North Alex MV hasTask CTD cast #2: 'North Alex MV' and 'CTD cast #2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #3"
+        },
+        "reason": "North Alex MV hasTask CTD cast #3: 'CTD cast #3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #4"
+        },
+        "reason": "North Alex MV hasTask CTD cast #4: 'CTD cast #4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #5"
+        },
+        "reason": "North Alex MV hasTask CTD cast #5: 'CTD cast #5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #6"
+        },
+        "reason": "North Alex MV hasTask CTD cast #6: 'CTD cast #6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #7"
+        },
+        "reason": "North Alex MV hasTask CTD cast #7: 'CTD cast #7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #8"
+        },
+        "reason": "North Alex MV hasTask CTD cast #8: 'CTD cast #8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #9"
+        },
+        "reason": "North Alex MV hasTask CTD cast #9: 'CTD cast #9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #10"
+        },
+        "reason": "North Alex MV hasTask CTD cast #10: 'CTD cast #10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #11"
+        },
+        "reason": "North Alex MV hasTask CTD cast #11: 'CTD cast #11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #12"
+        },
+        "reason": "North Alex MV hasTask CTD cast #12: 'CTD cast #12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #13"
+        },
+        "reason": "North Alex MV hasTask CTD cast #13: 'CTD cast #13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #14"
+        },
+        "reason": "North Alex MV hasTask CTD cast #14: 'CTD cast #14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #15"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #15"
+        },
+        "reason": "North Alex MV hasTask CTD cast #15: 'CTD cast #15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #16"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #16"
+        },
+        "reason": "North Alex MV hasTask CTD cast #16: 'CTD cast #16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #17"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #17"
+        },
+        "reason": "North Alex MV hasTask CTD cast #17: 'CTD cast #17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #18"
+        },
+        "reason": "North Alex MV hasTask CTD cast #18: 'CTD cast #18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #19"
+        },
+        "reason": "North Alex MV hasTask CTD cast #19: 'CTD cast #19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "CTD cast #20"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "North Alex MV hasTask CTD cast #20"
+        },
+        "reason": "North Alex MV hasTask CTD cast #20: 'CTD cast #20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "BGR08-203 hasTask BGR08-203",
+                "BGR08-203 hasAction BGR08-203"
+            ],
+            "Individuals": [
+                "BGR08-203"
+            ]
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Ship mounted ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Ship mounted ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "POZ Bottom Lander"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "MARIA S. MERIAN hasSensor POZ Bottom Lander"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1226",
+                "KPO 1190"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1226 hasDestination KPO 1190"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1226",
+                "KPO 1185"
+            ],
+            "OBJECT_PROPERTY": "goes_through",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1226 goes_through KPO 1185"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1190",
+                "KPO 1185"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1190 before KPO 1185"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1185",
+                "KPO 1186"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1185 before KPO 1186"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1186",
+                "KPO 1187"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1186 before KPO 1187"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1187",
+                "KPO 1188"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1187 before KPO 1188"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1188",
+                "KPO 1189"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1188 before KPO 1189"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO 1189",
+                "KPO 1190"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "KPO 1189 before KPO 1190"
+        }
+    ]
+}

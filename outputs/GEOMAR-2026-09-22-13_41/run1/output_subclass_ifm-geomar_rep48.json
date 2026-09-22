@@ -1,0 +1,46 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "P399/2",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "P399/3",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD 2",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "O2, nutrients, pigments"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "CVOO",
+                "stationID": "CVOO",
+                "stationName": "Cape Verde Ocean Observatory",
+                "stationDate": "2010-06-03",
+                "stationTime": "21:56"
+            },
+            {
+                "individual_name": "ESTOC",
+                "stationID": "ESTOC",
+                "stationName": "European Station for Time Series in the Ocean",
+                "stationDate": "2010-06-19",
+                "stationTime": "04:40"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ]
+    }
+}

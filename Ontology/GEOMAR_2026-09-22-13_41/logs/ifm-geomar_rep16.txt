@@ -1,0 +1,22 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 21
+
+created 6 individuals:
+  + CTD_O2_system : CTDMission
+  + Water_Samples : Data_Sampling_Mission
+  + Cruise_P347 : SurveyMission
+  + R_V_Poseidon : Ship
+  + MUMP1 : State
+  + MUMP2 : State
+
+asserted 4 axioms:
+  + CTD_O2_system hasStatus PartialFAILURE
+  + Water_Samples collect_sample O2, N2O, SF6, CFC-12, He3, nutrients, salinity, total organic matter (TOC), chlorophyll
+  + MUMP1 has_Depth 380
+  + MUMP2 has_Depth 41
+
+skipped 1 excluded axioms:
+  - P347 hasTask MUMP   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep16.rdf

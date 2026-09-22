@@ -1,0 +1,146 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_01": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_01: 'Mission_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-4": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-4: 'GC-4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-5": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-5: 'GC-5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-8": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-8: 'GC-8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-13": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-13: 'GC-13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-14": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-14: 'GC-14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-15": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-15: 'GC-15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-18": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-18: 'GC-18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-19": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-19: 'GC-19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-20": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-20: 'GC-20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-21": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-21: 'GC-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-22": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-22: 'GC-22' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-23": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-23: 'GC-23' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GC-24": {
+                "class": "Station"
+            }
+        },
+        "reason": "GC-24: 'GC-24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_01": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ROV-1": {
+                "hasDuration": "5.5"
+            }
+        },
+        "reason": "ROV-1: hasDuration='5.5' is not printed on any page that names 'ROV-1' - copy the number the report prints beside 'ROV-1', or leave hasDuration out"
+    }
+]

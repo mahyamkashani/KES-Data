@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "RVPoseidon_Cruise": {
+                "maxDepth": "3000 m"
+            }
+        },
+        "reason": "RVPoseidon_Cruise: maxDepth='3000 m' is not printed on any page that names 'RVPoseidon_Cruise' - copy the number the report prints beside 'RVPoseidon_Cruise', or leave maxDepth out"
+    }
+]

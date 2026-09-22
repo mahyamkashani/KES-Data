@@ -1,0 +1,324 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 1"
+        },
+        "reason": "AL275 hasTask Dive 1: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 2"
+        },
+        "reason": "AL275 hasTask Dive 2: 'Dive 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 3"
+        },
+        "reason": "AL275 hasTask Dive 3: 'Dive 3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 4"
+        },
+        "reason": "AL275 hasTask Dive 4: 'Dive 4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 5"
+        },
+        "reason": "AL275 hasTask Dive 5: 'Dive 5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AL275",
+                "Dive 6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL275 hasTask Dive 6"
+        },
+        "reason": "AL275 hasTask Dive 6: 'Dive 6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Sonar"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "JAGO hasSensor Sonar"
+        },
+        "reason": "JAGO hasSensor Sonar: 'Sonar' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Camera"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor Camera"
+        },
+        "reason": "JAGO hasSensor Camera: 'Camera' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Hydrophone"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "JAGO hasSensor Hydrophone"
+        },
+        "reason": "JAGO hasSensor Hydrophone: 'Hydrophone' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; JAGO hasSensor Hydrophone: 'Hydrophone' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Echosounder"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "JAGO hasSensor Echosounder"
+        },
+        "reason": "JAGO hasSensor Echosounder: 'Echosounder' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; JAGO hasSensor Echosounder: 'Echosounder' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "JAGO",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "JAGO hasSensor ADCP"
+        },
+        "reason": "JAGO hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; JAGO hasSensor ADCP: 'ADCP' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 1 hasAction Act_TakePhoto: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 1 hasAction Act_DeepDive: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 2",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 2 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 2 hasAction Act_TakePhoto: 'Dive 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 2",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 2 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 2 hasAction Act_DeepDive: 'Dive 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 3",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 3 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 3 hasAction Act_TakePhoto: 'Dive 3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 3",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 3 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 3 hasAction Act_DeepDive: 'Dive 3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 4",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 4 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 4 hasAction Act_TakePhoto: 'Dive 4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 4",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 4 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 4 hasAction Act_DeepDive: 'Dive 4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 5",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 5 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 5 hasAction Act_TakePhoto: 'Dive 5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 5",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 5 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 5 hasAction Act_DeepDive: 'Dive 5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 6",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 6 hasAction Act_TakePhoto"
+        },
+        "reason": "Dive 6 hasAction Act_TakePhoto: 'Dive 6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 6",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 6 hasAction Act_DeepDive"
+        },
+        "reason": "Dive 6 hasAction Act_DeepDive: 'Dive 6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "CTD data"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "F. S. SONNE"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "OBH 15",
+                "stationID": "15",
+                "stationName": "OBH 15",
+                "stationDate": "09:27,630",
+                "stationTime": "111:14,527"
+            },
+            {
+                "individual_name": "OBS 06",
+                "stationID": "06",
+                "stationName": "OBS 06",
+                "stationDate": "09:27,112",
+                "stationTime": "111:14,596"
+            }
+        ]
+    }
+}

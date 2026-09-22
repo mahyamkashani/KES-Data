@@ -1,0 +1,65 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR39": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR39: 'SO193-DR39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR40": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR40: 'SO193-DR40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR50": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR50: 'SO193-DR50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR51": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR51: 'SO193-DR51' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR52": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR52: 'SO193-DR52' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR56": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR56: 'SO193-DR56' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO193-DR57": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO193-DR57: 'SO193-DR57' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

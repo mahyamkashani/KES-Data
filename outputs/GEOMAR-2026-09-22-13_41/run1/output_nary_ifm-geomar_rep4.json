@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO177 hasTask Leg_1",
+                "Leg_1 hasAction OFOS_Survey"
+            ],
+            "Individuals": [
+                "SO177",
+                "Leg_1",
+                "OFOS_Survey"
+            ]
+        }
+    }
+}

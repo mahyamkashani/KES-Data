@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "CTDMission": {
+                "individual_name": "CTD Station 1"
+            }
+        },
+        "reason": "CTD Station 1: 'CTD Station 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "CTDMission": {
+                "individual_name": "CTD Station 2"
+            }
+        },
+        "reason": "CTD Station 2: 'CTD Station 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

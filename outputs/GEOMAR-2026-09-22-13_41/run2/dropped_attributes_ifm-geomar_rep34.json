@@ -1,0 +1,92 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_01": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_01: 'Mission_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_926RD": {
+                "seabedDepth": "1763 m"
+            }
+        },
+        "reason": "Station_926RD: seabedDepth='1763 m' is not printed on any page that names 'Station_926RD' - copy the number the report prints beside 'Station_926RD', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_957RD": {
+                "seabedDepth": "3045 m"
+            }
+        },
+        "reason": "Station_957RD: seabedDepth='3045 m' is not printed on any page that names 'Station_957RD' - copy the number the report prints beside 'Station_957RD', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_962RD": {
+                "seabedDepth": "2983 m"
+            }
+        },
+        "reason": "Station_962RD: seabedDepth='2983 m' is not printed on any page that names 'Station_962RD' - copy the number the report prints beside 'Station_962RD', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 955RD": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 955RD: 'Dive 955RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 957RD": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 957RD: 'Dive 957RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 959RD": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 959RD: 'Dive 959RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_954RD": {
+                "has_Depth": 2977
+            }
+        },
+        "reason": "Station_954RD: has_Depth=2977 is not printed on any page that names 'Station_954RD' - copy the number the report prints beside 'Station_954RD', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_959RD": {
+                "has_Depth": 2997
+            }
+        },
+        "reason": "Station_959RD: has_Depth=2997 is not printed on any page that names 'Station_959RD' - copy the number the report prints beside 'Station_959RD', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_965GC": {
+                "class": "State"
+            }
+        },
+        "reason": "Station_965GC: 'Station_965GC' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

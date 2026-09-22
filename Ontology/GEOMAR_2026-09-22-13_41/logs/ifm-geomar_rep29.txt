@@ -1,0 +1,107 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 50
+
+created 35 individuals:
+  + Rocket_Seamount : Mission
+  + DR1 : Task
+  + DR2 : Task
+  + DR3 : Task
+  + DR4 : Task
+  + DR5 : Task
+  + Vayda_Seamount : Mission
+  + DR10 : Task
+  + DR11 : Task
+  + DR12 : Task
+  + The_Shire_Seamount : Mission
+  + DR13 : Task
+  + DR14 : Task
+  + Mount_Doom : Mission
+  + DR21 : Task
+  + R_V_Poseidon : Ship
+  + MT001 : State
+  + MT002 : State
+  + MT003 : State
+  + MT004 : State
+  + MT005 : State
+  + MT006 : State
+  + MT007 : Station
+  + MT008 : Station
+  + MT009 : Station
+  + MT010 : Station
+  + MT011 : Station
+  + MT012 : Station
+  + Molodezhnaya_Seamount : Waypoint
+  + Frodo_Seamount : Waypoint
+  + DR6 : Task
+  + DR15 : Task
+  + DR18 : Task
+  + DR19 : Task
+  + DR20 : Task
+
+asserted 63 axioms:
+  + Rocket_Seamount hasTask DR1
+  + Rocket_Seamount hasTask DR2
+  + Rocket_Seamount hasTask DR3
+  + Rocket_Seamount hasTask DR4
+  + Rocket_Seamount hasTask DR5
+  + Vayda_Seamount hasTask DR10
+  + Vayda_Seamount hasTask DR11
+  + Vayda_Seamount hasTask DR12
+  + The_Shire_Seamount hasTask DR13
+  + The_Shire_Seamount hasTask DR14
+  + Mount_Doom hasTask DR21
+  + MT007 stationID MT007
+  + MT007 stationDate 2009-02-26
+  + MT007 stationTime 11:13
+  + MT008 stationID MT008
+  + MT008 stationDate 2009-02-26
+  + MT008 stationTime 12:27
+  + MT009 stationID MT009
+  + MT009 stationDate 2009-02-26
+  + MT009 stationTime 13:31
+  + MT010 stationID MT010
+  + MT010 stationDate 2009-02-26
+  + MT010 stationTime 14:31
+  + MT011 stationID MT011
+  + MT011 stationDate 2009-02-26
+  + MT011 stationTime 16:05
+  + MT012 stationID MT012
+  + MT012 stationDate 2009-02-26
+  + MT012 stationTime 17:01
+  + Rocket_Seamount locationName Rocket Seamount
+  + Rocket_Seamount latitude 15.78383
+  + Rocket_Seamount longitude -36.22683
+  + Vayda_Seamount locationName Vayda Seamount
+  + Vayda_Seamount latitude 14.93700
+  + Vayda_Seamount longitude -48.18733
+  + Molodezhnaya_Seamount locationName Molodezhnaya Seamount
+  + Molodezhnaya_Seamount latitude 15.02600
+  + Molodezhnaya_Seamount longitude -50.26000
+  + Frodo_Seamount locationName Frodo Seamount
+  + Frodo_Seamount latitude 15.25367
+  + Frodo_Seamount longitude -50.41700
+  + The_Shire_Seamount locationName The Shire Seamount
+  + The_Shire_Seamount latitude 15.00500
+  + The_Shire_Seamount longitude -49.58433
+  + Mount_Doom locationName Mount Doom
+  + Mount_Doom latitude 15.67450
+  + Mount_Doom longitude -51.49117
+  + DR1 hasStatus SUCCESSFUL
+  + DR2 hasStatus SUCCESSFUL
+  + DR3 hasStatus SUCCESSFUL
+  + DR4 hasStatus SUCCESSFUL
+  + DR5 hasStatus SUCCESSFUL
+  + DR6 hasStatus SUCCESSFUL
+  + DR10 hasStatus SUCCESSFUL
+  + DR11 hasStatus SUCCESSFUL
+  + DR12 hasStatus SUCCESSFUL
+  + DR13 hasStatus SUCCESSFUL
+  + DR14 hasStatus SUCCESSFUL
+  + DR15 hasStatus SUCCESSFUL
+  + DR18 hasStatus SUCCESSFUL
+  + DR19 hasStatus SUCCESSFUL
+  + DR20 hasStatus SUCCESSFUL
+  + DR21 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep29.rdf

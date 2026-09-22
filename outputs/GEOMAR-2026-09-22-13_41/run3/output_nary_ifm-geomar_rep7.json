@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "RV_METEOR hasTask M67-1"
+            ],
+            "Individuals": [
+                "RV_METEOR",
+                "M67-1"
+            ]
+        }
+    }
+}

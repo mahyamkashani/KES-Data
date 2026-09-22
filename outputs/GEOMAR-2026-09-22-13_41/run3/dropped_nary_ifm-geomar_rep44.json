@@ -1,0 +1,7 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "SO210 hasTask GC_8",
+        "reason": "'SO210 hasTask GC_8': 'SO210' and 'GC_8' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

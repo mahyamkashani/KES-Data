@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 3",
+        "item": "DR30-2_1 hasAction single_pillow_similar_to_DR30-1",
+        "reason": "'DR30-2_1 hasAction single_pillow_similar_to_DR30-1': 'single_pillow_similar_to_DR30-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "DR30-3_1 hasAction single_pillow_taken_as_intact_piece_similar_to_DR30-1",
+        "reason": "'DR30-3_1 hasAction single_pillow_taken_as_intact_piece_similar_to_DR30-1': 'single_pillow_taken_as_intact_piece_similar_to_DR30-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

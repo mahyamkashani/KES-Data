@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO201-1b hasTask DR_1",
+        "reason": "'SO201-1b hasTask DR_1': 'SO201-1b' and 'DR_1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Terrain_1 requiresNavigation Ingenstrem",
+        "reason": "'Terrain_1 requiresNavigation Ingenstrem': 'Terrain_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

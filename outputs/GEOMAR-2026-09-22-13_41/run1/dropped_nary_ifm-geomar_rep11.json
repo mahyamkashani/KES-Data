@@ -1,0 +1,517 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO192-1 hasTask Task_1",
+        "reason": "'SO192-1 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 hasVehicle RV_SONNE",
+        "reason": "'Action_1 hasVehicle RV_SONNE': 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 hasDestination Waypoint_1",
+        "reason": "'Action_1 hasDestination Waypoint_1': 'Action_1', 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_1 goes_through Waypoint_2",
+        "reason": "'Waypoint_1 goes_through Waypoint_2': 'Waypoint_1', 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_2 goes_through Waypoint_3",
+        "reason": "'Waypoint_2 goes_through Waypoint_3': 'Waypoint_2', 'Waypoint_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_3 goes_through Waypoint_4",
+        "reason": "'Waypoint_3 goes_through Waypoint_4': 'Waypoint_3', 'Waypoint_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_4 goes_through Waypoint_5",
+        "reason": "'Waypoint_4 goes_through Waypoint_5': 'Waypoint_4', 'Waypoint_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_5 goes_through Waypoint_6",
+        "reason": "'Waypoint_5 goes_through Waypoint_6': 'Waypoint_5', 'Waypoint_6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_6 goes_through Waypoint_7",
+        "reason": "'Waypoint_6 goes_through Waypoint_7': 'Waypoint_6', 'Waypoint_7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_7 goes_through Waypoint_8",
+        "reason": "'Waypoint_7 goes_through Waypoint_8': 'Waypoint_7', 'Waypoint_8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_8 goes_through Waypoint_9",
+        "reason": "'Waypoint_8 goes_through Waypoint_9': 'Waypoint_8', 'Waypoint_9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_9 goes_through Waypoint_10",
+        "reason": "'Waypoint_9 goes_through Waypoint_10': 'Waypoint_9', 'Waypoint_10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_10 goes_through Waypoint_11",
+        "reason": "'Waypoint_10 goes_through Waypoint_11': 'Waypoint_10', 'Waypoint_11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_11 goes_through Waypoint_12",
+        "reason": "'Waypoint_11 goes_through Waypoint_12': 'Waypoint_11', 'Waypoint_12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_12 goes_through Waypoint_13",
+        "reason": "'Waypoint_12 goes_through Waypoint_13': 'Waypoint_12', 'Waypoint_13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_13 goes_through Waypoint_14",
+        "reason": "'Waypoint_13 goes_through Waypoint_14': 'Waypoint_13', 'Waypoint_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_14 goes_through Waypoint_15",
+        "reason": "'Waypoint_14 goes_through Waypoint_15': 'Waypoint_14', 'Waypoint_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_15 goes_through Waypoint_16",
+        "reason": "'Waypoint_15 goes_through Waypoint_16': 'Waypoint_15', 'Waypoint_16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_16 goes_through Waypoint_17",
+        "reason": "'Waypoint_16 goes_through Waypoint_17': 'Waypoint_16', 'Waypoint_17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_17 goes_through Waypoint_18",
+        "reason": "'Waypoint_17 goes_through Waypoint_18': 'Waypoint_17', 'Waypoint_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_18 goes_through Waypoint_19",
+        "reason": "'Waypoint_18 goes_through Waypoint_19': 'Waypoint_18', 'Waypoint_19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_19 goes_through Waypoint_20",
+        "reason": "'Waypoint_19 goes_through Waypoint_20': 'Waypoint_19', 'Waypoint_20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_20 goes_through Waypoint_21",
+        "reason": "'Waypoint_20 goes_through Waypoint_21': 'Waypoint_20', 'Waypoint_21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_21 goes_through Waypoint_22",
+        "reason": "'Waypoint_21 goes_through Waypoint_22': 'Waypoint_21', 'Waypoint_22' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_22 goes_through Waypoint_23",
+        "reason": "'Waypoint_22 goes_through Waypoint_23': 'Waypoint_22', 'Waypoint_23' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_23 goes_through Waypoint_24",
+        "reason": "'Waypoint_23 goes_through Waypoint_24': 'Waypoint_23', 'Waypoint_24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_24 goes_through Waypoint_25",
+        "reason": "'Waypoint_24 goes_through Waypoint_25': 'Waypoint_24', 'Waypoint_25' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_25 goes_through Waypoint_26",
+        "reason": "'Waypoint_25 goes_through Waypoint_26': 'Waypoint_25', 'Waypoint_26' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_26 goes_through Waypoint_27",
+        "reason": "'Waypoint_26 goes_through Waypoint_27': 'Waypoint_26', 'Waypoint_27' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_27 goes_through Waypoint_28",
+        "reason": "'Waypoint_27 goes_through Waypoint_28': 'Waypoint_27', 'Waypoint_28' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_28 goes_through Waypoint_29",
+        "reason": "'Waypoint_28 goes_through Waypoint_29': 'Waypoint_28', 'Waypoint_29' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_29 goes_through Waypoint_30",
+        "reason": "'Waypoint_29 goes_through Waypoint_30': 'Waypoint_29', 'Waypoint_30' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_30 goes_through Waypoint_31",
+        "reason": "'Waypoint_30 goes_through Waypoint_31': 'Waypoint_30', 'Waypoint_31' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_31 goes_through Waypoint_32",
+        "reason": "'Waypoint_31 goes_through Waypoint_32': 'Waypoint_31', 'Waypoint_32' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_32 goes_through Waypoint_33",
+        "reason": "'Waypoint_32 goes_through Waypoint_33': 'Waypoint_32', 'Waypoint_33' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_33 goes_through Waypoint_34",
+        "reason": "'Waypoint_33 goes_through Waypoint_34': 'Waypoint_33', 'Waypoint_34' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_34 goes_through Waypoint_35",
+        "reason": "'Waypoint_34 goes_through Waypoint_35': 'Waypoint_34', 'Waypoint_35' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_35 goes_through Waypoint_36",
+        "reason": "'Waypoint_35 goes_through Waypoint_36': 'Waypoint_35', 'Waypoint_36' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_36 goes_through Waypoint_37",
+        "reason": "'Waypoint_36 goes_through Waypoint_37': 'Waypoint_36', 'Waypoint_37' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_37 goes_through Waypoint_38",
+        "reason": "'Waypoint_37 goes_through Waypoint_38': 'Waypoint_37', 'Waypoint_38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_38 goes_through Waypoint_39",
+        "reason": "'Waypoint_38 goes_through Waypoint_39': 'Waypoint_38', 'Waypoint_39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_39 goes_through Waypoint_40",
+        "reason": "'Waypoint_39 goes_through Waypoint_40': 'Waypoint_39', 'Waypoint_40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_40 goes_through Waypoint_41",
+        "reason": "'Waypoint_40 goes_through Waypoint_41': 'Waypoint_40', 'Waypoint_41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_41 goes_through Waypoint_42",
+        "reason": "'Waypoint_41 goes_through Waypoint_42': 'Waypoint_41', 'Waypoint_42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_42 goes_through Waypoint_43",
+        "reason": "'Waypoint_42 goes_through Waypoint_43': 'Waypoint_42', 'Waypoint_43' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_43 goes_through Waypoint_44",
+        "reason": "'Waypoint_43 goes_through Waypoint_44': 'Waypoint_43', 'Waypoint_44' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_44 goes_through Waypoint_45",
+        "reason": "'Waypoint_44 goes_through Waypoint_45': 'Waypoint_44', 'Waypoint_45' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_45 goes_through Waypoint_46",
+        "reason": "'Waypoint_45 goes_through Waypoint_46': 'Waypoint_45', 'Waypoint_46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_46 goes_through Waypoint_47",
+        "reason": "'Waypoint_46 goes_through Waypoint_47': 'Waypoint_46', 'Waypoint_47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_47 goes_through Waypoint_48",
+        "reason": "'Waypoint_47 goes_through Waypoint_48': 'Waypoint_47', 'Waypoint_48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_48 goes_through Waypoint_49",
+        "reason": "'Waypoint_48 goes_through Waypoint_49': 'Waypoint_48', 'Waypoint_49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_49 goes_through Waypoint_50",
+        "reason": "'Waypoint_49 goes_through Waypoint_50': 'Waypoint_49', 'Waypoint_50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_50 goes_through Waypoint_51",
+        "reason": "'Waypoint_50 goes_through Waypoint_51': 'Waypoint_50', 'Waypoint_51' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_51 goes_through Waypoint_52",
+        "reason": "'Waypoint_51 goes_through Waypoint_52': 'Waypoint_51', 'Waypoint_52' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_52 goes_through Waypoint_53",
+        "reason": "'Waypoint_52 goes_through Waypoint_53': 'Waypoint_52', 'Waypoint_53' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_53 goes_through Waypoint_54",
+        "reason": "'Waypoint_53 goes_through Waypoint_54': 'Waypoint_53', 'Waypoint_54' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_54 goes_through Waypoint_55",
+        "reason": "'Waypoint_54 goes_through Waypoint_55': 'Waypoint_54', 'Waypoint_55' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_55 goes_through Waypoint_56",
+        "reason": "'Waypoint_55 goes_through Waypoint_56': 'Waypoint_55', 'Waypoint_56' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_56 goes_through Waypoint_57",
+        "reason": "'Waypoint_56 goes_through Waypoint_57': 'Waypoint_56', 'Waypoint_57' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_57 goes_through Waypoint_58",
+        "reason": "'Waypoint_57 goes_through Waypoint_58': 'Waypoint_57', 'Waypoint_58' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_58 goes_through Waypoint_59",
+        "reason": "'Waypoint_58 goes_through Waypoint_59': 'Waypoint_58', 'Waypoint_59' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_59 goes_through Waypoint_60",
+        "reason": "'Waypoint_59 goes_through Waypoint_60': 'Waypoint_59', 'Waypoint_60' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_60 goes_through Waypoint_61",
+        "reason": "'Waypoint_60 goes_through Waypoint_61': 'Waypoint_60', 'Waypoint_61' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_61 goes_through Waypoint_62",
+        "reason": "'Waypoint_61 goes_through Waypoint_62': 'Waypoint_61', 'Waypoint_62' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_62 goes_through Waypoint_63",
+        "reason": "'Waypoint_62 goes_through Waypoint_63': 'Waypoint_62', 'Waypoint_63' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_63 goes_through Waypoint_64",
+        "reason": "'Waypoint_63 goes_through Waypoint_64': 'Waypoint_63', 'Waypoint_64' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_64 goes_through Waypoint_65",
+        "reason": "'Waypoint_64 goes_through Waypoint_65': 'Waypoint_64', 'Waypoint_65' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_65 goes_through Waypoint_66",
+        "reason": "'Waypoint_65 goes_through Waypoint_66': 'Waypoint_65', 'Waypoint_66' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_66 goes_through Waypoint_67",
+        "reason": "'Waypoint_66 goes_through Waypoint_67': 'Waypoint_66', 'Waypoint_67' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_67 goes_through Waypoint_68",
+        "reason": "'Waypoint_67 goes_through Waypoint_68': 'Waypoint_67', 'Waypoint_68' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_68 goes_through Waypoint_69",
+        "reason": "'Waypoint_68 goes_through Waypoint_69': 'Waypoint_68', 'Waypoint_69' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_69 goes_through Waypoint_70",
+        "reason": "'Waypoint_69 goes_through Waypoint_70': 'Waypoint_69', 'Waypoint_70' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_70 goes_through Waypoint_71",
+        "reason": "'Waypoint_70 goes_through Waypoint_71': 'Waypoint_70', 'Waypoint_71' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_71 goes_through Waypoint_72",
+        "reason": "'Waypoint_71 goes_through Waypoint_72': 'Waypoint_71', 'Waypoint_72' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_72 goes_through Waypoint_73",
+        "reason": "'Waypoint_72 goes_through Waypoint_73': 'Waypoint_72', 'Waypoint_73' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_73 goes_through Waypoint_74",
+        "reason": "'Waypoint_73 goes_through Waypoint_74': 'Waypoint_73', 'Waypoint_74' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_74 goes_through Waypoint_75",
+        "reason": "'Waypoint_74 goes_through Waypoint_75': 'Waypoint_74', 'Waypoint_75' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_75 goes_through Waypoint_76",
+        "reason": "'Waypoint_75 goes_through Waypoint_76': 'Waypoint_75', 'Waypoint_76' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_76 goes_through Waypoint_77",
+        "reason": "'Waypoint_76 goes_through Waypoint_77': 'Waypoint_76', 'Waypoint_77' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_77 goes_through Waypoint_78",
+        "reason": "'Waypoint_77 goes_through Waypoint_78': 'Waypoint_77', 'Waypoint_78' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_78 goes_through Waypoint_79",
+        "reason": "'Waypoint_78 goes_through Waypoint_79': 'Waypoint_78', 'Waypoint_79' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_79 goes_through Waypoint_80",
+        "reason": "'Waypoint_79 goes_through Waypoint_80': 'Waypoint_79', 'Waypoint_80' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_80 goes_through Waypoint_81",
+        "reason": "'Waypoint_80 goes_through Waypoint_81': 'Waypoint_80', 'Waypoint_81' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_81 goes_through Waypoint_82",
+        "reason": "'Waypoint_81 goes_through Waypoint_82': 'Waypoint_81', 'Waypoint_82' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_82 goes_through Waypoint_83",
+        "reason": "'Waypoint_82 goes_through Waypoint_83': 'Waypoint_82', 'Waypoint_83' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_83 goes_through Waypoint_84",
+        "reason": "'Waypoint_83 goes_through Waypoint_84': 'Waypoint_83', 'Waypoint_84' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_84 goes_through Waypoint_85",
+        "reason": "'Waypoint_84 goes_through Waypoint_85': 'Waypoint_84', 'Waypoint_85' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_85 goes_through Waypoint_86",
+        "reason": "'Waypoint_85 goes_through Waypoint_86': 'Waypoint_85', 'Waypoint_86' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_86 goes_through Waypoint_87",
+        "reason": "'Waypoint_86 goes_through Waypoint_87': 'Waypoint_86', 'Waypoint_87' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_87 goes_through Waypoint_88",
+        "reason": "'Waypoint_87 goes_through Waypoint_88': 'Waypoint_87', 'Waypoint_88' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_88 goes_through Waypoint_89",
+        "reason": "'Waypoint_88 goes_through Waypoint_89': 'Waypoint_88', 'Waypoint_89' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_89 goes_through Waypoint_90",
+        "reason": "'Waypoint_89 goes_through Waypoint_90': 'Waypoint_89', 'Waypoint_90' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_90 goes_through Waypoint_91",
+        "reason": "'Waypoint_90 goes_through Waypoint_91': 'Waypoint_90', 'Waypoint_91' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_91 goes_through Waypoint_92",
+        "reason": "'Waypoint_91 goes_through Waypoint_92': 'Waypoint_91', 'Waypoint_92' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_92 goes_through Waypoint_93",
+        "reason": "'Waypoint_92 goes_through Waypoint_93': 'Waypoint_92', 'Waypoint_93' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_93 goes_through Waypoint_94",
+        "reason": "'Waypoint_93 goes_through Waypoint_94': 'Waypoint_93', 'Waypoint_94' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_94 goes_through Waypoint_95",
+        "reason": "'Waypoint_94 goes_through Waypoint_95': 'Waypoint_94', 'Waypoint_95' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_95 goes_through Waypoint_96",
+        "reason": "'Waypoint_95 goes_through Waypoint_96': 'Waypoint_95', 'Waypoint_96' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_96 goes_through Waypoint_97",
+        "reason": "'Waypoint_96 goes_through Waypoint_97': 'Waypoint_96', 'Waypoint_97' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_97 goes_through Waypoint_98",
+        "reason": "'Waypoint_97 goes_through Waypoint_98': 'Waypoint_97', 'Waypoint_98' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_98 goes_through Waypoint_99",
+        "reason": "'Waypoint_98 goes_through Waypoint_99': 'Waypoint_98', 'Waypoint_99' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Waypoint_99 goes_through Waypoint_100",
+        "reason": "'Waypoint_99 goes_through Waypoint_100': 'Waypoint_99', 'Waypoint_100' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

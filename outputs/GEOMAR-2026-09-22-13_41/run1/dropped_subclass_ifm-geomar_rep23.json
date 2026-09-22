@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Traversal": {
+                "individual_name": "ROV Dive 1"
+            }
+        },
+        "reason": "ROV Dive 1: 'ROV Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "ROV Kiel 6000": {
+                "maxDepth": "4890 m"
+            }
+        },
+        "reason": "ROV Kiel 6000: maxDepth='4890 m' is not printed on any page that names 'ROV Kiel 6000' - copy the number the report prints beside 'ROV Kiel 6000', or leave maxDepth out"
+    }
+]

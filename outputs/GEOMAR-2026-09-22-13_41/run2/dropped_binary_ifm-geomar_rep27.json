@@ -1,0 +1,58 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #7"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #7"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #7: 'North Alex MV' and 'OBS #7' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #8"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #8"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #8: 'North Alex MV' and 'OBS #8' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #9"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #9"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #9: 'North Alex MV' and 'OBS #9' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "OBS #10"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "North Alex MV requiresNavigation OBS #10"
+        },
+        "reason": "North Alex MV requiresNavigation OBS #10: 'North Alex MV' and 'OBS #10' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

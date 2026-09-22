@@ -1,0 +1,56 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 25
+
+created 10 individuals:
+  + KIEL_6000 : Vehicle
+  + RV_SONNE : DVL
+  + Kongsberg_EM120_Multibeam_Bathymetry_System : Bathymetric_Mission
+  + ROV_1 : Task
+  + ROV_2 : Task
+  + ROV_6 : Task
+  + ROV_7 : Task
+  + ROV_8 : Task
+  + ROV_9 : Task
+  + ROV_10 : Task
+
+asserted 15 axioms:
+  + KIEL_6000 hasSensor RV_SONNE
+  + Kongsberg_EM120_Multibeam_Bathymetry_System hasStatus SUCCESSFUL
+  + KIEL_6000 maxDepthText 6000 m   [maxDepth could not take it]
+  + ROV_1 hasStatus SUCCESSFUL
+  + ROV_2 hasDuration 6.0
+  + ROV_2 hasStatus SUCCESSFUL
+  + ROV_6 hasDuration 5.0
+  + ROV_6 hasStatus SUCCESSFUL
+  + ROV_7 hasDuration 8.0
+  + ROV_7 hasStatus SUCCESSFUL
+  + ROV_8 hasDuration 6.0
+  + ROV_8 hasStatus SUCCESSFUL
+  + ROV_9 hasDuration 6.0
+  + ROV_9 hasStatus SUCCESSFUL
+  + ROV_10 hasStatus SUCCESSFUL
+
+skipped 20 excluded axioms:
+  - GC_8 hasAction GC_9   [hasAction has no single named domain/range to type from]
+  - GC_9 hasAction GC_10   [hasAction has no single named domain/range to type from]
+  - GC_10 hasAction GC_11   [hasAction has no single named domain/range to type from]
+  - GC_11 hasAction GC_12   [hasAction has no single named domain/range to type from]
+  - GC_12 hasAction GC_13   [hasAction has no single named domain/range to type from]
+  - GC_13 hasAction GC_14   [hasAction has no single named domain/range to type from]
+  - GC_14 hasAction GC_15   [hasAction has no single named domain/range to type from]
+  - GC_15 hasAction GC_16   [hasAction has no single named domain/range to type from]
+  - GC_16 hasAction GC_17   [hasAction has no single named domain/range to type from]
+  - GC_17 hasAction GC_18   [hasAction has no single named domain/range to type from]
+  - GC_18 hasAction GC_19   [hasAction has no single named domain/range to type from]
+  - GC_19 hasAction GC_20   [hasAction has no single named domain/range to type from]
+  - GC_20 hasAction GC_21   [hasAction has no single named domain/range to type from]
+  - GC_21 hasAction GC_22   [hasAction has no single named domain/range to type from]
+  - GC_22 hasAction GC_23   [hasAction has no single named domain/range to type from]
+  - GC_23 hasAction GC_24   [hasAction has no single named domain/range to type from]
+  - GC_24 hasAction GC_25   [hasAction has no single named domain/range to type from]
+  - GC_25 hasAction GC_26   [hasAction has no single named domain/range to type from]
+  - GC_26 hasAction GC_27   [hasAction has no single named domain/range to type from]
+  - GC_27 hasAction GC_28   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep44.rdf

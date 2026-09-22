@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR hasSensor JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "ANTON"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR hasSensor ANTON"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "LUISE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR hasSensor LUISE"
+        },
+        {
+            "INDIVIDUAL": [
+                "FSB Meerkatze",
+                "Chlorophyll a"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "FSB Meerkatze hasSensor Chlorophyll a"
+        },
+        {
+            "INDIVIDUAL": [
+                "FSB Meerkatze",
+                "North Sea"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Mission",
+            "AXIOM": "FSB Meerkatze hasMission North Sea"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 1",
+                "Station 2"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 1 before Station 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 3",
+                "Station 4"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 3 before Station 4"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 5",
+                "Station 6"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 5 before Station 6"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 7",
+                "Station 8"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "Station 7 before Station 8"
+        }
+    ]
+}

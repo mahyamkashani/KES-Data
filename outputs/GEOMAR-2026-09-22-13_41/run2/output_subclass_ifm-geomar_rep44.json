@@ -1,0 +1,60 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Kongsberg EM120 Multibeam Bathymetry System",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "ROV Operations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "Lander Operations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            },
+            {
+                "individual_name": "TV-Grab Operations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "yes"
+            }
+        ],
+        "TrialMission": [
+            {
+                "individual_name": "ROV Deployment and Sampling",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "KIEL 6000",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "CMSA Box 1",
+                "stationID": "1",
+                "stationName": "CMSA Box 1"
+            },
+            {
+                "individual_name": "CMSA Box 2",
+                "stationID": "2",
+                "stationName": "CMSA Box 2"
+            },
+            {
+                "individual_name": "CMSA Box 4",
+                "stationID": "4",
+                "stationName": "CMSA Box 4"
+            }
+        ]
+    }
+}

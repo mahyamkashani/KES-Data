@@ -1,0 +1,66 @@
+{
+    "Individuals": {
+        "SO186-1A": {
+            "class": "Mission",
+            "MissionID": "SO186-1A",
+            "startTime": "2005-10-15",
+            "endTime": "2005-11-20",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Mission involved deployment and recovery of ocean bottom seismometers."
+        },
+        "SO186-1B": {
+            "class": "Mission",
+            "MissionID": "SO186-1B",
+            "startTime": "2005-10-29",
+            "endTime": "2005-11-09",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Survey profile 21 to 56 with continuous operation of the Simrad EM120."
+        },
+        "LEWK": {
+            "class": "Station",
+            "stationID": "LEWK",
+            "stationDate": "2005-12-12"
+        },
+        "LFAK": {
+            "class": "Station",
+            "stationID": "LFAK",
+            "stationDate": "2005-12-12"
+        },
+        "LABU": {
+            "class": "Station",
+            "stationID": "LABU",
+            "stationDate": "2005-12-13"
+        },
+        "MAUD": {
+            "class": "Station",
+            "stationID": "MAUD",
+            "stationDate": "2005-12-14"
+        },
+        "PUTR": {
+            "class": "Station",
+            "stationID": "PUTR",
+            "stationDate": "2005-12-15"
+        },
+        "DEHI": {
+            "class": "Station",
+            "stationID": "DEHI",
+            "stationDate": "2005-12-15"
+        },
+        "BATU": {
+            "class": "Station",
+            "stationID": "BATU",
+            "stationDate": "2005-12-16"
+        },
+        "LUAN": {
+            "class": "Station",
+            "stationID": "LUAN",
+            "stationDate": "2005-12-16"
+        },
+        "GITEWS-1": {
+            "class": "Waypoint",
+            "locationName": "3\u00b043.7'S/99\u00b014.0'E",
+            "latitude": "-3.72830",
+            "longitude": "99.23330"
+        }
+    }
+}

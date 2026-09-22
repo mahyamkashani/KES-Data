@@ -1,0 +1,688 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 1"
+        },
+        "reason": "RV SONNE hasTask DR 1: 'RV SONNE' and 'DR 1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 2"
+        },
+        "reason": "RV SONNE hasTask DR 2: 'RV SONNE' and 'DR 2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 3"
+        },
+        "reason": "RV SONNE hasTask DR 3: 'RV SONNE' and 'DR 3' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 4"
+        },
+        "reason": "RV SONNE hasTask DR 4: 'RV SONNE' and 'DR 4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 5"
+        },
+        "reason": "RV SONNE hasTask DR 5: 'RV SONNE' and 'DR 5' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 6"
+        },
+        "reason": "RV SONNE hasTask DR 6: 'RV SONNE' and 'DR 6' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 7"
+        },
+        "reason": "RV SONNE hasTask DR 7: 'RV SONNE' and 'DR 7' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 8"
+        },
+        "reason": "RV SONNE hasTask DR 8: 'RV SONNE' and 'DR 8' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 9"
+        },
+        "reason": "RV SONNE hasTask DR 9: 'RV SONNE' and 'DR 9' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 10"
+        },
+        "reason": "RV SONNE hasTask DR 10: 'RV SONNE' and 'DR 10' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 11"
+        },
+        "reason": "RV SONNE hasTask DR 11: 'RV SONNE' and 'DR 11' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 12"
+        },
+        "reason": "RV SONNE hasTask DR 12: 'RV SONNE' and 'DR 12' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 13"
+        },
+        "reason": "RV SONNE hasTask DR 13: 'RV SONNE' and 'DR 13' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 14"
+        },
+        "reason": "RV SONNE hasTask DR 14: 'RV SONNE' and 'DR 14' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 15"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 15"
+        },
+        "reason": "RV SONNE hasTask DR 15: 'RV SONNE' and 'DR 15' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 16"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 16"
+        },
+        "reason": "RV SONNE hasTask DR 16: 'RV SONNE' and 'DR 16' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 17"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 17"
+        },
+        "reason": "RV SONNE hasTask DR 17: 'RV SONNE' and 'DR 17' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 18"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 18"
+        },
+        "reason": "RV SONNE hasTask DR 18: 'RV SONNE' and 'DR 18' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 19"
+        },
+        "reason": "RV SONNE hasTask DR 19: 'RV SONNE' and 'DR 19' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 20"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 20"
+        },
+        "reason": "RV SONNE hasTask DR 20: 'RV SONNE' and 'DR 20' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 21"
+        },
+        "reason": "RV SONNE hasTask DR 21: 'RV SONNE' and 'DR 21' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 22"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 22"
+        },
+        "reason": "RV SONNE hasTask DR 22: 'RV SONNE' and 'DR 22' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 23"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 23"
+        },
+        "reason": "RV SONNE hasTask DR 23: 'RV SONNE' and 'DR 23' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 24"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 24"
+        },
+        "reason": "RV SONNE hasTask DR 24: 'RV SONNE' and 'DR 24' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 25"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 25"
+        },
+        "reason": "RV SONNE hasTask DR 25: 'RV SONNE' and 'DR 25' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 26"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 26"
+        },
+        "reason": "RV SONNE hasTask DR 26: 'RV SONNE' and 'DR 26' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 27"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 27"
+        },
+        "reason": "RV SONNE hasTask DR 27: 'RV SONNE' and 'DR 27' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 28"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 28"
+        },
+        "reason": "RV SONNE hasTask DR 28: 'RV SONNE' and 'DR 28' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 29"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 29"
+        },
+        "reason": "RV SONNE hasTask DR 29: 'RV SONNE' and 'DR 29' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 30"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 30"
+        },
+        "reason": "RV SONNE hasTask DR 30: 'RV SONNE' and 'DR 30' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 31"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 31"
+        },
+        "reason": "RV SONNE hasTask DR 31: 'RV SONNE' and 'DR 31' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 33"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 33"
+        },
+        "reason": "RV SONNE hasTask DR 33: 'RV SONNE' and 'DR 33' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 34"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 34"
+        },
+        "reason": "RV SONNE hasTask DR 34: 'RV SONNE' and 'DR 34' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 35"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 35"
+        },
+        "reason": "RV SONNE hasTask DR 35: 'RV SONNE' and 'DR 35' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 36"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 36"
+        },
+        "reason": "RV SONNE hasTask DR 36: 'RV SONNE' and 'DR 36' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 37"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 37"
+        },
+        "reason": "RV SONNE hasTask DR 37: 'RV SONNE' and 'DR 37' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 38"
+        },
+        "reason": "RV SONNE hasTask DR 38: 'RV SONNE' and 'DR 38' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 39"
+        },
+        "reason": "RV SONNE hasTask DR 39: 'RV SONNE' and 'DR 39' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 40"
+        },
+        "reason": "RV SONNE hasTask DR 40: 'RV SONNE' and 'DR 40' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 41"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 41"
+        },
+        "reason": "RV SONNE hasTask DR 41: 'RV SONNE' and 'DR 41' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 42"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 42"
+        },
+        "reason": "RV SONNE hasTask DR 42: 'RV SONNE' and 'DR 42' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 43"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 43"
+        },
+        "reason": "RV SONNE hasTask DR 43: 'RV SONNE' and 'DR 43' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 44"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 44"
+        },
+        "reason": "RV SONNE hasTask DR 44: 'RV SONNE' and 'DR 44' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 45"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 45"
+        },
+        "reason": "RV SONNE hasTask DR 45: 'RV SONNE' and 'DR 45' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 46"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 46"
+        },
+        "reason": "RV SONNE hasTask DR 46: 'DR 46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 47"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 47"
+        },
+        "reason": "RV SONNE hasTask DR 47: 'DR 47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 48"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 48"
+        },
+        "reason": "RV SONNE hasTask DR 48: 'DR 48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 49"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 49"
+        },
+        "reason": "RV SONNE hasTask DR 49: 'DR 49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 50"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 50"
+        },
+        "reason": "RV SONNE hasTask DR 50: 'DR 50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

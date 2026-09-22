@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "M143 hasTask M143_Task",
+        "reason": "'M143 hasTask M143_Task': 'M143_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "M143_Task hasAction M143_Action",
+        "reason": "'M143_Task hasAction M143_Action': 'M143_Task', 'M143_Action' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal hasVehicle RV_METEOR",
+        "reason": "'Traversal hasVehicle RV_METEOR': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal hasVehicle RV_METEOR': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

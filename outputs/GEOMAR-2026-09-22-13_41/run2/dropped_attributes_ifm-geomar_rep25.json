@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "DR_70": {
+                "class": "Task"
+            }
+        },
+        "reason": "DR_70: 'DR_70' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

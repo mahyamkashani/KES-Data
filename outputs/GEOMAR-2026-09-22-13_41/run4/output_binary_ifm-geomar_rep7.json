@@ -1,0 +1,114 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "DTS-1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V METEOR hasSensor DTS-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "PARASOUND"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V METEOR hasSensor PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "POSIDONIA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V METEOR hasSensor POSIDONIA"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V METEOR",
+                "Gravity Corer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V METEOR hasSensor Gravity Corer"
+        },
+        {
+            "INDIVIDUAL": [
+                "M67/1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M67/1 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "M67/1",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M67/1 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "M67/1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M67/1 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "M67/1",
+                "Act_AcquireDVLLock"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M67/1 hasAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "M67/1",
+                "Act_EstablishUSBLFix"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "M67/1 hasAction Act_EstablishUSBLFix"
+        }
+    ]
+}

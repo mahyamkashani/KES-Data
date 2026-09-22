@@ -1,0 +1,87 @@
+{
+    "Individuals": {
+        "MASS_III_Cruise": {
+            "class": "Mission",
+            "MissionID": "MASS-III",
+            "startTime": "2011-01-11",
+            "endTime": "2011-01-24",
+            "maxDepth": "2000 m",
+            "dataVolume": "450 nautical miles of seismic profiles",
+            "hasStatus": "PartialFAILURE",
+            "remark": "Numerous problems encountered during the cruise"
+        },
+        "MASS III-001": {
+            "class": "State",
+            "has_Depth": 573.3
+        },
+        "MASS III-002": {
+            "class": "State",
+            "has_Depth": 551.1
+        },
+        "MASS III-003": {
+            "class": "Waypoint",
+            "locationName": "MASS III-003",
+            "latitude": "8.43400",
+            "longitude": "95.92617",
+            "seabedDepth": "689.7"
+        },
+        "MASS III-004": {
+            "class": "Waypoint",
+            "locationName": "MASS III-004",
+            "latitude": "7.82483",
+            "longitude": "95.71950",
+            "seabedDepth": "982.2"
+        },
+        "MASS III-005": {
+            "class": "Waypoint",
+            "locationName": "MASS III-005",
+            "latitude": "7.80167",
+            "longitude": "95.74817",
+            "seabedDepth": "857.8"
+        },
+        "MASS III-006": {
+            "class": "State",
+            "has_Depth": 822.2
+        },
+        "MASS III-007": {
+            "class": "State",
+            "has_Depth": 597.8
+        },
+        "MASS III-008": {
+            "class": "Waypoint",
+            "locationName": "MASS III-008",
+            "latitude": "8.16583",
+            "longitude": "95.86767",
+            "seabedDepth": "686.7"
+        },
+        "MASS III-009": {
+            "class": "State",
+            "has_Depth": 714.5
+        },
+        "MASS III-010": {
+            "class": "Waypoint",
+            "locationName": "MASS III-010",
+            "latitude": "8.11533",
+            "longitude": "95.86233",
+            "seabedDepth": "632.2"
+        },
+        "MASS III-011": {
+            "class": "Waypoint",
+            "locationName": "MASS III-011",
+            "latitude": "8.14000",
+            "longitude": "95.86067",
+            "seabedDepth": "512.2"
+        },
+        "MASS III-012": {
+            "class": "State",
+            "has_Depth": 125.0
+        },
+        "MASS III-013": {
+            "class": "Waypoint",
+            "locationName": "MASS III-013",
+            "latitude": "7.89833",
+            "longitude": "97.65783",
+            "seabedDepth": "353.3"
+        }
+    }
+}

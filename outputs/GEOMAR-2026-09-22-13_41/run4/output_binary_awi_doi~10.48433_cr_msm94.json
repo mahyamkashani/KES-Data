@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Salinometer"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "MARIA S. MERIAN hasSensor Salinometer"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO 1226"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO 1226"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO 1190"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO 1190"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO 1194"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO 1194"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Seabeam 1050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Poseidon hasSensor Seabeam 1050"
+        },
+        "reason": "RV Poseidon hasSensor Seabeam 1050: 'RV Poseidon' and 'Seabeam 1050' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "Octopus F180"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV Poseidon hasSensor Octopus F180"
+        },
+        "reason": "RV Poseidon hasSensor Octopus F180: 'RV Poseidon' and 'Octopus F180' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "GARMIN 152"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "RV Poseidon hasSensor GARMIN 152"
+        },
+        "reason": "RV Poseidon hasSensor GARMIN 152: 'RV Poseidon' and 'GARMIN 152' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

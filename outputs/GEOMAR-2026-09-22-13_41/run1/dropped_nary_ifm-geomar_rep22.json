@@ -1,0 +1,57 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA04OBS",
+        "reason": "'HYDROMARV hasTask ATA04OBS': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA10CTD",
+        "reason": "'HYDROMARV hasTask ATA10CTD': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA11CTD",
+        "reason": "'HYDROMARV hasTask ATA11CTD': 'HYDROMARV', 'ATA11CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA12CTD",
+        "reason": "'HYDROMARV hasTask ATA12CTD': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA13ROV",
+        "reason": "'HYDROMARV hasTask ATA13ROV': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA14CTD",
+        "reason": "'HYDROMARV hasTask ATA14CTD': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA15ROV",
+        "reason": "'HYDROMARV hasTask ATA15ROV': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA16CTD",
+        "reason": "'HYDROMARV hasTask ATA16CTD': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA17ROV",
+        "reason": "'HYDROMARV hasTask ATA17ROV': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA24ROV",
+        "reason": "'HYDROMARV hasTask ATA24ROV': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "HYDROMARV hasTask ATA30ROV",
+        "reason": "'HYDROMARV hasTask ATA30ROV': 'HYDROMARV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

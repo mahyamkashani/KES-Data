@@ -1,0 +1,119 @@
+{
+    "Individuals": {
+        "Cruise_P340": {
+            "MissionID": "P340",
+            "startTime": "2006-07-06",
+            "endTime": "2006-07-17",
+            "dataVolume": "530 nautical miles",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "Palinuro_Seamount": {
+            "locationName": "Palinuro Seamount",
+            "latitude": "39.54167",
+            "longitude": "14.50000",
+            "seabedDepth": "570 m",
+            "class": "Waypoint"
+        },
+        "Marsili_Seamount": {
+            "locationName": "Marsili Seamount",
+            "latitude": "39.28278",
+            "longitude": "14.39848",
+            "seabedDepth": "2400 m",
+            "class": "Waypoint"
+        },
+        "Panarea_Island": {
+            "locationName": "Panarea Island",
+            "latitude": "38.64928",
+            "longitude": "15.10663",
+            "seabedDepth": "70 m",
+            "class": "Waypoint"
+        },
+        "Dive 741ROV": {
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 743ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 746ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 749ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 752ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 754ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive 756ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "721CTD": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "722SBM": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "723ROV": {
+            "has_Depth": "300",
+            "class": "State"
+        },
+        "724DR": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "725DR": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "726DR": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "727SBM": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "728ROV": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "729DR": {
+            "has_Depth": "0",
+            "class": "State"
+        },
+        "740ROV": {
+            "class": "State"
+        },
+        "741ROV": {
+            "class": "State"
+        },
+        "743ROV": {
+            "has_Depth": "641",
+            "class": "State"
+        },
+        "752ROV": {
+            "has_Depth": "71",
+            "class": "State"
+        },
+        "754ROV": {
+            "has_Depth": "77",
+            "class": "State"
+        },
+        "756ROV": {
+            "class": "State"
+        }
+    }
+}

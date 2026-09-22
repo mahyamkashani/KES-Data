@@ -1,0 +1,32 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "MARSUEDIV hasTask Task_MARSUEDIV",
+        "reason": "'MARSUEDIV hasTask Task_MARSUEDIV': 'MARSUEDIV', 'Task_MARSUEDIV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_MARSUEDIV hasAction Action_Sampling",
+        "reason": "'Task_MARSUEDIV hasAction Action_Sampling': 'Task_MARSUEDIV', 'Action_Sampling' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_14 goes_through Two_Boats",
+        "reason": "'Dive_14 goes_through Two_Boats': 'Dive_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_14 hasDestination Two_Boats",
+        "reason": "'Dive_14 hasDestination Two_Boats': 'Dive_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_15 goes_through Comfortless_Cove",
+        "reason": "'Dive_15 goes_through Comfortless_Cove': 'Dive_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_15 hasDestination Comfortless_Cove",
+        "reason": "'Dive_15 hasDestination Comfortless_Cove': 'Dive_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,31 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 23
+
+created 8 individuals:
+  + RV_ALKOR : Ship
+  + AL66 : Mission
+  + Geophysical_measurements : SurveyMission
+  + Salt_Dome_Juist : Waypoint
+  + Sleipner : Waypoint
+  + Blowout : Waypoint
+  + CTD01 : State
+  + CTD12 : State
+
+asserted 14 axioms:
+  + RV_ALKOR hasMission AL66
+  + Geophysical_measurements hasDurationText 8 days   [hasDuration could not take it]
+  + Geophysical_measurements hasStatus SUCCESSFUL
+  + Salt_Dome_Juist locationName Salt Dome Juist
+  + Salt_Dome_Juist latitude 54.03488
+  + Salt_Dome_Juist longitude 6.83822
+  + Salt_Dome_Juist seabedDepthText 30 m   [seabedDepth could not take it]
+  + Sleipner locationName Sleipner
+  + Sleipner latitude 58.38693
+  + Sleipner longitude 1.97815
+  + Sleipner seabedDepthText 79 m   [seabedDepth could not take it]
+  + Blowout locationName Well 22/4-b
+  + Blowout seabedDepthText Variable   [seabedDepth could not take it]
+  + CTD01 has_Depth 29
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_AL374 CR ifm-geomar_rep51-1.rdf

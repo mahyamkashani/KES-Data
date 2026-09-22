@@ -1,0 +1,66 @@
+{
+    "Individuals": {
+        "ROV 1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 2": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 3": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 4": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 5": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 6": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 7": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 8": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 9": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ROV 14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "CTD_23": {
+            "has_Depth": 74.0,
+            "has_Temperature": "0.0",
+            "has_Conductivity": "0.0",
+            "class": "State"
+        }
+    }
+}

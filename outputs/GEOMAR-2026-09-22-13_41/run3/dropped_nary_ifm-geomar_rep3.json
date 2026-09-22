@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "POS316 hasTask Task_1",
+        "reason": "'POS316 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_Poseidon",
+        "reason": "'Traversal_1 hasVehicle RV_Poseidon': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasDestination Galway_Mound",
+        "reason": "'Traversal_1 hasDestination Galway_Mound': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

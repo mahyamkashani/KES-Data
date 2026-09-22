@@ -1,0 +1,94 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 37
+
+created 22 individuals:
+  + ATA10CTD : Station
+  + ATA12CTD : Station
+  + ATA13ROV : State
+  + ATA15ROV : Data_Sampling_Mission
+  + ATA17ROV : Task
+  + ATA21ROV : Task
+  + ATA24ROV : Task
+  + ATA27ROV : Task
+  + ATA30ROV : Task
+  + ATA08MAPR : Station
+  + ROV_KIEL_6000 : Remotely_Operated_Vehicle
+  + l_Atalante : Ship
+  + HYDROMAR_V : Mission
+  + ATA01CTD : Station
+  + ATA09ROV : Task
+  + ATA14CTD : Station
+  + ATA18CTD : State
+  + ATA19CTD : State
+  + ATA25CTD : Station
+  + Logatchev : Waypoint
+  + Quest : Waypoint
+  + Anna_Louise : Waypoint
+
+asserted 49 axioms:
+  + ATA10CTD stationID ATA10CTD
+  + ATA10CTD stationDate 2007-12-18
+  + ATA10CTD stationTime 20:39
+  + ATA12CTD stationID ATA12CTD
+  + ATA12CTD stationDate 2007-12-19
+  + ATA12CTD stationTime 07:03
+  + ATA13ROV has_Temperature 353
+  + ATA13ROV has_Depth 2928
+  + ATA15ROV hasDurationText 3:30   [hasDuration could not take it]
+  + ATA15ROV hasStatus SUCCESSFUL
+  + ATA15ROV collect_sample KIPS diffuse fluid sampling
+  + ATA17ROV hasStatus SUCCESSFUL
+  + ATA21ROV hasStatus SUCCESSFUL
+  + ATA24ROV hasStatus SUCCESSFUL
+  + ATA27ROV hasStatus SUCCESSFUL
+  + ATA30ROV hasStatus SUCCESSFUL
+  + ATA08MAPR stationID ATA08MAPR
+  + ATA08MAPR stationDate 2007-12-17
+  + ATA08MAPR stationTime 00:57
+  + ROV_KIEL_6000 maxDepthText 6000m   [maxDepth could not take it]
+  + HYDROMAR_V MissionID HYDROMAR V
+  + HYDROMAR_V startTime 2007-12-04
+  + HYDROMAR_V endTime 2008-01-02
+  + HYDROMAR_V maxDepthText 5300 m   [maxDepth could not take it]
+  + HYDROMAR_V dataVolume 170 l
+  + HYDROMAR_V hasStatus SUCCESSFUL
+  + ATA01CTD stationID ATA01CTD
+  + ATA01CTD stationDate 2007-12-16
+  + ATA01CTD stationTime 09:29
+  + ATA09ROV hasStatus SUCCESSFUL
+  + ATA14CTD stationID ATA14CTD
+  + ATA14CTD stationDate 2007-12-20
+  + ATA14CTD stationTime 21:37
+  + ATA18CTD has_Temperature 400
+  + ATA25CTD stationID ATA25CTD
+  + ATA25CTD stationDate 2007-12-23
+  + ATA25CTD stationTime 23:55
+  + Logatchev locationName Logatchev hydrothermal field
+  + Logatchev latitude 14.75500
+  + Logatchev longitude -44.98000
+  + Logatchev seabedDepthText 1600m   [seabedDepth could not take it]
+  + Quest locationName Quest
+  + Quest latitude 14.75283
+  + Quest longitude -44.97950
+  + Quest seabedDepthText 3045m   [seabedDepth could not take it]
+  + Anna_Louise locationName Anna Louise
+  + Anna_Louise latitude 14.75100
+  + Anna_Louise longitude -44.97733
+  + Anna_Louise seabedDepthText 2938m   [seabedDepth could not take it]
+
+skipped 12 excluded axioms:
+  - HYDROMAR_V hasTask ATA09ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA13ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA15ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA17ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA21ROV   [hasTask has no single named domain/range to type from]
+  - HYDROMAR_V hasTask ATA30ROV   [hasTask has no single named domain/range to type from]
+  - ATA21ROV hasDestination Quest   [hasDestination has no single named domain/range to type from]
+  - ATA18CTD has_Conductivity='n.d.'   [could not convert string to float: 'n.d.']
+  - ATA18CTD has_Depth='n.d.'   [could not convert string to float: 'n.d.']
+  - ATA19CTD has_Temperature='n.d.'   [could not convert string to float: 'n.d.']
+  - ATA19CTD has_Conductivity='n.d.'   [could not convert string to float: 'n.d.']
+  - ATA19CTD has_Depth='n.d.'   [could not convert string to float: 'n.d.']
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep22.rdf

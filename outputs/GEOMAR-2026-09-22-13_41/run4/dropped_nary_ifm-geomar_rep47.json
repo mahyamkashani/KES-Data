@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "Leg_1 hasAction SeismicSurvey",
+        "reason": "'Leg_1 hasAction SeismicSurvey': 'SeismicSurvey' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO214 hasTask ParasoundSurvey",
+        "reason": "'SO214 hasTask ParasoundSurvey': 'ParasoundSurvey' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

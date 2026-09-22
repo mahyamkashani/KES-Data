@@ -1,0 +1,73 @@
+{
+    "Individuals": {
+        "MASS-III": {
+            "class": "Mission",
+            "MissionID": "MASS-III",
+            "startTime": "2011-01-11",
+            "endTime": "2011-01-24",
+            "maxDepth": "2000 m",
+            "dataVolume": "450 nautical miles of seismic profiles",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise conducted in the Andaman Sea to assess tsunami risks."
+        },
+        "MASS III-001": {
+            "class": "State",
+            "has_Depth": 573.3
+        },
+        "MASS III-002": {
+            "class": "State",
+            "has_Depth": 551.1
+        },
+        "MASS III-003": {
+            "class": "Task",
+            "hasDuration": "30",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "MASS III-004": {
+            "class": "Task",
+            "hasDuration": "30",
+            "hasStatus": "FAILED"
+        },
+        "MASS III-005": {
+            "class": "Task",
+            "hasDuration": "50",
+            "hasStatus": "FAILED"
+        },
+        "MASS III-006": {
+            "class": "State",
+            "has_Depth": 822.2
+        },
+        "MASS III-007": {
+            "class": "State",
+            "has_Depth": 597.8
+        },
+        "MASS III-008": {
+            "class": "Task",
+            "hasDuration": "91",
+            "hasStatus": "FAILED"
+        },
+        "MASS III-009": {
+            "class": "State",
+            "has_Depth": 714.5
+        },
+        "MASS III-010": {
+            "class": "Task",
+            "hasDuration": "50",
+            "hasStatus": "FAILED"
+        },
+        "MASS III-011": {
+            "class": "Task",
+            "hasDuration": "125",
+            "hasStatus": "FAILED"
+        },
+        "MASS III-012": {
+            "class": "State",
+            "has_Depth": 125.0
+        },
+        "MASS III-013": {
+            "class": "Task",
+            "hasDuration": "30",
+            "hasStatus": "FAILED"
+        }
+    }
+}

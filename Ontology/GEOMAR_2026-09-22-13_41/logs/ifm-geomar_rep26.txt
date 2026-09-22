@@ -1,0 +1,30 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 23
+
+created 8 individuals:
+  + FS_Poseidon : Vehicle
+  + CTD : CTDSensor
+  + CTD_measurements : Data_Sampling_Mission
+  + Autonomous_Glider : AUV
+  + RRS_Discovery : Ship
+  + P350 : Mission
+  + Yoyo_1 : Task
+  + Yoyo_2 : Task
+
+asserted 13 axioms:
+  + FS_Poseidon hasSensor CTD
+  + CTD_measurements collect_sample water samples for salinity calibration
+  + Autonomous_Glider maxDepthText 2000 m   [maxDepth could not take it]
+  + P350 MissionID P350
+  + P350 startTime 2007-04-26
+  + P350 endTime 2007-05-10
+  + P350 dataVolume High
+  + P350 hasStatus SUCCESSFUL
+  + P350 remark Cruise focused on internal wave and mixing processes in the Gulf of Cadiz.
+  + Yoyo_1 hasDuration 12.0
+  + Yoyo_1 hasStatus SUCCESSFUL
+  + Yoyo_2 hasDuration 12.0
+  + Yoyo_2 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep26.rdf

@@ -1,0 +1,52 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO208 Leg 1",
+                "hasDuration": "12 days",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO208 Leg 2",
+                "hasDuration": "unspecified",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "SO208 Leg 1",
+                "hasDuration": "12 days",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "41 sampling stations"
+            },
+            {
+                "individual_name": "SO208 Leg 2",
+                "hasDuration": "unspecified",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "83 sampling stations"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V SONNE",
+                "maxDepth": "unspecified"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "TV-MUC",
+                "maxDepth": "unspecified"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE",
+                "maxDepth": "unspecified"
+            }
+        ]
+    }
+}

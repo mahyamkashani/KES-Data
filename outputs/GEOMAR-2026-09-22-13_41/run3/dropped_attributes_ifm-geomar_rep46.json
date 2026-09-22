@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "RVPoseidon_Cruise_408": {
+                "class": "Mission"
+            }
+        },
+        "reason": "RVPoseidon_Cruise_408: 'RVPoseidon_Cruise_408' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ATA-35ROV",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-35ROV hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA-35ROV",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-35ROV hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA-63ROV",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-63ROV hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA-63ROV",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-63ROV hasAction Act_DeepDive"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_05": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Station_05: 'Station_05' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_06": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Station_06: 'Station_06' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_07": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Station_07: 'Station_07' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_08": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Station_08: 'Station_08' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_16": {
+                "seabedDepth": "787 m"
+            }
+        },
+        "reason": "Station_16: seabedDepth='787 m' is not printed on any page that names 'Station_16' - copy the number the report prints beside 'Station_16', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_17": {
+                "seabedDepth": "848 m"
+            }
+        },
+        "reason": "Station_17: seabedDepth='848 m' is not printed on any page that names 'Station_17' - copy the number the report prints beside 'Station_17', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_18": {
+                "seabedDepth": "832 m"
+            }
+        },
+        "reason": "Station_18: seabedDepth='832 m' is not printed on any page that names 'Station_18' - copy the number the report prints beside 'Station_18', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_19": {
+                "seabedDepth": "748 m"
+            }
+        },
+        "reason": "Station_19: seabedDepth='748 m' is not printed on any page that names 'Station_19' - copy the number the report prints beside 'Station_19', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_20": {
+                "seabedDepth": "858 m"
+            }
+        },
+        "reason": "Station_20: seabedDepth='858 m' is not printed on any page that names 'Station_20' - copy the number the report prints beside 'Station_20', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_5": {
+                "has_Depth": 1170
+            }
+        },
+        "reason": "Station_5: has_Depth=1170 is not printed on any page that names 'Station_5' - copy the number the report prints beside 'Station_5', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_6": {
+                "has_Depth": 1172
+            }
+        },
+        "reason": "Station_6: has_Depth=1172 is not printed on any page that names 'Station_6' - copy the number the report prints beside 'Station_6', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_15-1": {
+                "class": "State"
+            }
+        },
+        "reason": "Station_15-1: 'Station_15-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_15-2": {
+                "class": "State"
+            }
+        },
+        "reason": "Station_15-2: 'Station_15-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

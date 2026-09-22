@@ -1,0 +1,14 @@
+{
+    "Individuals": {
+        "P395": {
+            "class": "Mission",
+            "MissionID": "P395",
+            "startTime": "2010-02-04",
+            "endTime": "2010-02-19",
+            "maxDepth": "2700",
+            "dataVolume": "10 cores",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Investigated the Sahara Slide Complex"
+        }
+    }
+}

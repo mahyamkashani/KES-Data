@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "SEABEAM 1050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V Poseidon hasSensor SEABEAM 1050"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Sonne",
+                "Rockdrill 1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V Sonne hasSensor Rockdrill 1"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "DR1 hasAction Dredging",
+                "DR6 hasAction Dredging",
+                "DR8 hasAction Dredging"
+            ],
+            "Individuals": [
+                "DR1",
+                "Dredging",
+                "DR6",
+                "DR8"
+            ]
+        }
+    }
+}

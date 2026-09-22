@@ -1,0 +1,50 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 29
+
+created 14 individuals:
+  + MASS_III_006 : Task
+  + MASS_III_Cruise : SurveyMission
+  + Bathymetric_mapping : Bathymetric_Mission
+  + Sediment_Sampling : Data_Sampling_Mission
+  + RV_Chakratong_Tongyai : Ship
+  + MASS_III_001 : State
+  + MASS_III_002 : State
+  + MASS_III_003 : Task
+  + MASS_III_004 : Station
+  + MASS_III_005 : Station
+  + MASS_III_007 : State
+  + MASS_III_008 : Task
+  + MASS_III_009 : State
+  + MASS_III_012 : State
+
+asserted 27 axioms:
+  + MASS_III_006 hasAction Act_Move
+  + MASS_III_Cruise hasDurationText 13 days   [hasDuration could not take it]
+  + MASS_III_Cruise hasStatus SUCCESSFUL
+  + Bathymetric_mapping hasStatus FAILED
+  + Sediment_Sampling hasStatus FAILED
+  + Sediment_Sampling collect_sample 9 sediment cores
+  + RV_Chakratong_Tongyai maxDepthText 2000 m   [maxDepth could not take it]
+  + MASS_III_001 has_Depth 573.3
+  + MASS_III_002 has_Depth 551.1
+  + MASS_III_004 stationID 004
+  + MASS_III_004 stationName Station 4
+  + MASS_III_004 stationDate 2011-01-20
+  + MASS_III_004 stationTime 03:04
+  + MASS_III_005 stationID 005
+  + MASS_III_005 stationName Station 5
+  + MASS_III_005 stationDate 2011-01-20
+  + MASS_III_005 stationTime 07:57
+  + MASS_III_006 has_Depth 822.2
+  + MASS_III_007 has_Depth 597.8
+  + MASS_III_Cruise MissionID MASS-III
+  + MASS_III_Cruise startTime 2011-01-11
+  + MASS_III_Cruise endTime 2011-01-24
+  + MASS_III_Cruise maxDepthText 2000 m   [maxDepth could not take it]
+  + MASS_III_Cruise dataVolume 450 nautical miles of seismic profiles
+  + MASS_III_008 hasStatus FAILED
+  + MASS_III_009 has_Depth 714.5
+  + MASS_III_012 has_Depth 125.0
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep43.rdf

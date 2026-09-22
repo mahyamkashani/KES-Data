@@ -1,0 +1,44 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 926RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Station 926RD hasTask Rockdrill 2"
+        },
+        "reason": "Station 926RD hasTask Rockdrill 2: 'Rockdrill 2' and 'Station 926RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 959RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Station 959RD hasTask Rockdrill 2"
+        },
+        "reason": "Station 959RD hasTask Rockdrill 2: 'Rockdrill 2' and 'Station 959RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 962RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Station 962RD hasTask Rockdrill 2"
+        },
+        "reason": "Station 962RD hasTask Rockdrill 2: 'Rockdrill 2' and 'Station 962RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

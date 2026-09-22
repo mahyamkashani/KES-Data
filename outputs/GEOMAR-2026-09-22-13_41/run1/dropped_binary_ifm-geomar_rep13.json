@@ -1,0 +1,72 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Dredge 20"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_TakePhoto",
+            "AXIOM": "R/V SONNE hasAction Dredge 20"
+        },
+        "reason": "R/V SONNE hasAction Dredge 20: RANGE 'Act_TakePhoto' is not a class in the ontology; R/V SONNE hasAction Dredge 20: 'Dredge 20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Dredge 36"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_TakePhoto",
+            "AXIOM": "R/V SONNE hasAction Dredge 36"
+        },
+        "reason": "R/V SONNE hasAction Dredge 36: RANGE 'Act_TakePhoto' is not a class in the ontology; R/V SONNE hasAction Dredge 36: 'Dredge 36' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Dredge 38"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_TakePhoto",
+            "AXIOM": "R/V SONNE hasAction Dredge 38"
+        },
+        "reason": "R/V SONNE hasAction Dredge 38: RANGE 'Act_TakePhoto' is not a class in the ontology; R/V SONNE hasAction Dredge 38: 'Dredge 38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Dredge 39"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_TakePhoto",
+            "AXIOM": "R/V SONNE hasAction Dredge 39"
+        },
+        "reason": "R/V SONNE hasAction Dredge 39: RANGE 'Act_TakePhoto' is not a class in the ontology; R/V SONNE hasAction Dredge 39: 'Dredge 39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Dredge 40"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_TakePhoto",
+            "AXIOM": "R/V SONNE hasAction Dredge 40"
+        },
+        "reason": "R/V SONNE hasAction Dredge 40: RANGE 'Act_TakePhoto' is not a class in the ontology; R/V SONNE hasAction Dredge 40: 'Dredge 40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

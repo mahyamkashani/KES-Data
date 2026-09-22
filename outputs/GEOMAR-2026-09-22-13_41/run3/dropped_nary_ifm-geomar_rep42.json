@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO212 hasTask SO212_Participants",
+        "reason": "'SO212 hasTask SO212_Participants': 'SO212_Participants' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO212_Participants hasAction SO212_Recovery",
+        "reason": "'SO212_Participants hasAction SO212_Recovery': 'SO212_Participants', 'SO212_Recovery' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_SONNE",
+        "reason": "'Traversal_1 hasVehicle RV_SONNE': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

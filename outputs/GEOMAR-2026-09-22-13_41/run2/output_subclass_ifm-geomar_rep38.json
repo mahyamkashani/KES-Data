@@ -1,0 +1,22 @@
+{
+    "Task": {
+        "SurveyMission": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "AUV Abyss",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V POSEIDON",
+                "maxDepth": null
+            }
+        ],
+        "Station": []
+    }
+}

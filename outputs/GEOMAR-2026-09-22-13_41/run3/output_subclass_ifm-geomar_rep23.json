@@ -1,0 +1,28 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "Traversal": [
+            {
+                "individual_name": "ROV Dive",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV Kiel 6000"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Atalante"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV Poseidon Cruise P408-1",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ]
+    }
+}

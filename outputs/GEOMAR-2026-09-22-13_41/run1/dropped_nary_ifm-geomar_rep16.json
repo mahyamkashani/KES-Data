@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "MUMP hasAction Chemistry",
+        "reason": "'MUMP hasAction Chemistry': 'MUMP' and 'Chemistry' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MUMP hasAction Chemistry",
+        "reason": "'MUMP hasAction Chemistry': 'MUMP' and 'Chemistry' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

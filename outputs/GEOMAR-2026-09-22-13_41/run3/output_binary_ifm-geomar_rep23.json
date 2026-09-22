@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ATA-57ROV",
+                "Two Boats"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-57ROV hasAction Two Boats"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA-46ROV",
+                "Wideawake"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "ATA-46ROV hasAction Wideawake"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Individuals": {
+        "Station_7": {
+            "class": "Station",
+            "stationID": "7",
+            "stationDate": "2006-02-24"
+        },
+        "Station_8": {
+            "class": "Station",
+            "stationID": "8",
+            "stationDate": "2006-02-24"
+        },
+        "Station_16": {
+            "class": "Waypoint",
+            "locationName": "Station 16",
+            "latitude": "-36.23000",
+            "longitude": "-73.43000",
+            "seabedDepth": "370 cm"
+        },
+        "Station_17": {
+            "class": "Waypoint",
+            "locationName": "Station 17",
+            "latitude": "-36.21000",
+            "longitude": "-73.43000"
+        },
+        "Station_18": {
+            "class": "Waypoint",
+            "locationName": "Station 18",
+            "latitude": "-36.22000",
+            "longitude": "-73.43000"
+        },
+        "Station_19": {
+            "class": "Waypoint",
+            "locationName": "Station 19",
+            "latitude": "-36.21000",
+            "longitude": "-73.42000",
+            "seabedDepth": "260 cm"
+        },
+        "Station_20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 500
+        },
+        "Station_5": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "Station_6": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        }
+    }
+}

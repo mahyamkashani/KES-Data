@@ -1,0 +1,296 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Cherokee"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ROV",
+            "AXIOM": "R/V Poseidon hasSensor Cherokee"
+        },
+        "reason": "R/V Poseidon hasSensor Cherokee: RANGE 'ROV' is not a class in the ontology"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 721CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 721CTD"
+        },
+        "reason": "Cruise P340 hasTask Dive 721CTD: 'Dive 721CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 722SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 722SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 722SBM: 'Dive 722SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 740ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 740ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 740ROV: 'Dive 740ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 741ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 741ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 741ROV: 'Cruise P340' and 'Dive 741ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 742SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 742SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 742SBM: 'Dive 742SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 743ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 743ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 743ROV: 'Cruise P340' and 'Dive 743ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 744CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 744CTD"
+        },
+        "reason": "Cruise P340 hasTask Dive 744CTD: 'Dive 744CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 745SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 745SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 745SBM: 'Dive 745SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 746ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 746ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 746ROV: 'Cruise P340' and 'Dive 746ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 747SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 747SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 747SBM: 'Dive 747SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 748SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 748SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 748SBM: 'Dive 748SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 749ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 749ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 749ROV: 'Cruise P340' and 'Dive 749ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 750SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 750SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 750SBM: 'Dive 750SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 751CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 751CTD"
+        },
+        "reason": "Cruise P340 hasTask Dive 751CTD: 'Dive 751CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 752ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 752ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 752ROV: 'Cruise P340' and 'Dive 752ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 753SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 753SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 753SBM: 'Dive 753SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 754ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 754ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 754ROV: 'Cruise P340' and 'Dive 754ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 755SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 755SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 755SBM: 'Dive 755SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 756ROV"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 756ROV"
+        },
+        "reason": "Cruise P340 hasTask Dive 756ROV: 'Cruise P340' and 'Dive 756ROV' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Cruise P340",
+                "Dive 757SBM"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise P340 hasTask Dive 757SBM"
+        },
+        "reason": "Cruise P340 hasTask Dive 757SBM: 'Dive 757SBM' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

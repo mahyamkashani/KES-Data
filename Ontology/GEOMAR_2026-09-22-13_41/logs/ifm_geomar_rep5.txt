@@ -1,0 +1,56 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 32
+
+created 17 individuals:
+  + RV_SONNE : Vehicle
+  + Simrad_EM_120 : MBES
+  + Parasound : Echosounder
+  + SO186_1C : SurveyMission
+  + TS1 : Remotely_Operated_Vehicle
+  + TS2 : Remotely_Operated_Vehicle
+  + LEWK : Station
+  + LFAK : Station
+  + LABU : Station
+  + MAUD : Station
+  + PUTR : Station
+  + DEHI : Station
+  + BATU : Station
+  + LUAN : Station
+  + SO186_1A : Mission
+  + SO186_1B : Mission
+  + GITEWS_1 : Waypoint
+
+asserted 30 axioms:
+  + RV_SONNE hasSensor Simrad_EM_120
+  + RV_SONNE hasSensor Parasound
+  + SO186_1C hasStatus SUCCESSFUL
+  + LEWK stationID LEWK
+  + LEWK stationDate 2005-12-12
+  + LFAK stationID LFAK
+  + LFAK stationDate 2005-12-12
+  + LABU stationID LABU
+  + LABU stationDate 2005-12-13
+  + MAUD stationID MAUD
+  + MAUD stationDate 2005-12-14
+  + PUTR stationID PUTR
+  + PUTR stationDate 2005-12-15
+  + DEHI stationID DEHI
+  + DEHI stationDate 2005-12-15
+  + BATU stationID BATU
+  + BATU stationDate 2005-12-16
+  + LUAN stationID LUAN
+  + LUAN stationDate 2005-12-16
+  + SO186_1A MissionID SO186-1A
+  + SO186_1A startTime 2005-10-15
+  + SO186_1A endTime 2005-11-20
+  + SO186_1A hasStatus SUCCESSFUL
+  + SO186_1B MissionID SO186-1B
+  + SO186_1B startTime 2005-10-29
+  + SO186_1B endTime 2005-11-09
+  + SO186_1B hasStatus SUCCESSFUL
+  + GITEWS_1 locationName 3°43.7'S/99°14.0'E
+  + GITEWS_1 latitude -3.72833
+  + GITEWS_1 longitude 99.23333
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm_geomar_rep5.rdf

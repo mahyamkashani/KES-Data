@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "North_Alex_MV": {
+            "stationID": "North Alex MV",
+            "stationDate": "2010-06-15/2010-06-25",
+            "stationTime": "Various",
+            "class": "Station"
+        },
+        "Giza_MV": {
+            "stationID": "Giza MV",
+            "stationDate": "2010-06-15/2010-06-25",
+            "stationTime": "Various",
+            "class": "Station"
+        },
+        "North_Alex_Mud_Volcano": {
+            "locationName": "North Alex",
+            "latitude": "31.96980",
+            "longitude": "30.13588",
+            "seabedDepth": "500 m",
+            "class": "Waypoint"
+        },
+        "WND-V_Cruise": {
+            "MissionID": "WND-V",
+            "startTime": "2010-06-15",
+            "endTime": "2010-06-25",
+            "dataVolume": "12 OBS, 4 Piezometers, 6 CATmeters, 2 Tiltmeters, 2 T-Observatories",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Final expedition of the West Nile Delta project",
+            "class": "Mission"
+        }
+    }
+}

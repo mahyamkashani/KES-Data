@@ -1,0 +1,61 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "Stat #226",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #227",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #228",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #236",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #249",
+                "hasDuration": "1 day",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "Submersible Pump",
+                "maxDepth": "4 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Cape Verde Time Series Station",
+                "stationID": "CVTSS",
+                "stationName": "Cape Verde Time Series Station",
+                "stationDate": "2007-02-12",
+                "stationTime": "08:30"
+            }
+        ]
+    }
+}

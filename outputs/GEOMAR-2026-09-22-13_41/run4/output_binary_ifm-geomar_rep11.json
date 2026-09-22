@@ -1,0 +1,84 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SO192",
+                "SO192/003-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192 hasTask SO192/003-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192",
+                "SO192/004-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192 hasTask SO192/004-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192",
+                "SO192/009-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192 hasTask SO192/009-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192",
+                "SO192/023-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO192 hasTask SO192/023-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192/003-1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO192/003-1 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192/004-1",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO192/004-1 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192/009-1",
+                "Act_EstablishUSBLFix"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO192/009-1 hasAction Act_EstablishUSBLFix"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO192/023-1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO192/023-1 hasAction Act_TakePhoto"
+        }
+    ]
+}

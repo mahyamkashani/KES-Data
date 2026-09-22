@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "TVG-15 hasAction TVG-15",
+        "reason": "'TVG-15 hasAction TVG-15': 'TVG-15', 'TVG-15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "TVG-16 hasAction TVG-16",
+        "reason": "'TVG-16 hasAction TVG-16': 'TVG-16', 'TVG-16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "TV-MUC-16 hasAction TV-MUC-16",
+        "reason": "'TV-MUC-16 hasAction TV-MUC-16': 'TV-MUC-16', 'TV-MUC-16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

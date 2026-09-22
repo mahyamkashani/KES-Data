@@ -1,0 +1,65 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_50": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_50: 'Station_50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_51": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_51: 'Station_51' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_52": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_52: 'Station_52' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_53": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_53: 'Station_53' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_54": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_54: 'Station_54' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_015": {
+                "hasDuration": "8.7"
+            }
+        },
+        "reason": "Dive_015: hasDuration='8.7' is not printed on any page that names 'Dive_015' - copy the number the report prints beside 'Dive_015', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive_019": {
+                "hasDuration": "4.9"
+            }
+        },
+        "reason": "Dive_019: hasDuration='4.9' is not printed on any page that names 'Dive_019' - copy the number the report prints beside 'Dive_019', or leave hasDuration out"
+    }
+]

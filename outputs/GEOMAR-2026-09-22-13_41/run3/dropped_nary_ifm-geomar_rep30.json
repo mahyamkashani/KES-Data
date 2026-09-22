@@ -1,0 +1,7 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "900RD hasAction Coring",
+        "reason": "'900RD hasAction Coring': '900RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,136 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 57
+
+created 42 individuals:
+  + R_V_SONNE : Ship
+  + SO199 : Mission
+  + DR_8 : Task
+  + DR_10 : Task
+  + DR_11 : Task
+  + DR_12 : Task
+  + DR_13 : Task
+  + DR_35 : Task
+  + DR_36 : Task
+  + DR_88 : Task
+  + SIMRAD_EM120 : MBES
+  + Parasound : Echosounder
+  + DR5 : Station
+  + DR6 : State
+  + DR29 : Station
+  + DR31 : Station
+  + DR1 : State
+  + DR2 : State
+  + DR3 : State
+  + DR28 : Station
+  + Outsider_Seamount : Waypoint
+  + Investigator_Ridge : Waypoint
+  + Sherbakov_Seamount : Waypoint
+  + DR_1 : Task
+  + DR_2 : Task
+  + DR_5 : Task
+  + DR_16 : Task
+  + DR_19 : Task
+  + DR_20 : Task
+  + DR_21 : Task
+  + DR_39 : Task
+  + DR_44 : Task
+  + DR_45 : Task
+  + DR_52 : Task
+  + DR_56 : Task
+  + DR_57 : Task
+  + DR_58 : Task
+  + DR36 : State
+  + DR39 : State
+  + DR40 : State
+  + DR41 : State
+  + DR45 : State
+
+asserted 81 axioms:
+  + R_V_SONNE hasMission SO199
+  + SO199 hasTask DR_8
+  + SO199 hasTask DR_10
+  + SO199 hasTask DR_11
+  + SO199 hasTask DR_12
+  + SO199 hasTask DR_13
+  + SO199 hasTask DR_35
+  + SO199 hasTask DR_36
+  + SO199 hasTask DR_88
+  + R_V_SONNE hasSensor SIMRAD_EM120
+  + R_V_SONNE hasSensor Parasound
+  + DR_8 hasAction Act_DeepDive
+  + DR_8 hasAction Act_TakePhoto
+  + DR_10 hasAction Act_DeepDive
+  + DR_10 hasAction Act_TakePhoto
+  + DR_11 hasAction Act_DeepDive
+  + DR_11 hasAction Act_TakePhoto
+  + DR_12 hasAction Act_DeepDive
+  + DR_12 hasAction Act_TakePhoto
+  + DR_35 hasAction Act_DeepDive
+  + DR_35 hasAction Act_TakePhoto
+  + DR_36 hasAction Act_DeepDive
+  + DR_36 hasAction Act_TakePhoto
+  + DR_88 hasAction Act_DeepDive
+  + DR_88 hasAction Act_TakePhoto
+  + SO199 stationID SO199
+  + SO199 stationDate 2008-08-02/2008-09-22
+  + DR5 stationID DR5
+  + DR5 stationDate 2008-08-07
+  + DR5 stationTime 12:58
+  + DR6 has_Temperature 4135
+  + DR6 has_Depth 3704
+  + DR29 stationID DR29
+  + DR29 stationDate 2008-08-16
+  + DR29 stationTime 19:46
+  + DR31 stationID DR31
+  + DR31 stationDate 2008-08-17
+  + DR31 stationTime 21:01
+  + DR1 has_Temperature 4036
+  + DR1 has_Depth 3546
+  + DR2 has_Temperature 4602
+  + DR2 has_Depth 4135
+  + DR28 stationID DR28
+  + DR28 stationDate 2008-08-16
+  + DR28 stationTime 08:40
+  + Outsider_Seamount locationName Outsider Seamount
+  + Outsider_Seamount latitude -6.25000
+  + Outsider_Seamount longitude 45 nm west of the Investigator Ridge
+  + Investigator_Ridge locationName Investigator Ridge
+  + Investigator_Ridge latitude -16.00000
+  + Investigator_Ridge longitude 98.73867
+  + Investigator_Ridge seabedDepthText 4,649 to 4,290 m   [seabedDepth could not take it]
+  + Sherbakov_Seamount locationName Sherbakov Seamount
+  + Sherbakov_Seamount latitude -10.90817
+  + Sherbakov_Seamount longitude 104.53400
+  + DR_1 hasStatus SUCCESSFUL
+  + DR_5 hasStatus FAILED
+  + DR_8 hasStatus SUCCESSFUL
+  + DR_10 hasStatus SUCCESSFUL
+  + DR_11 hasStatus SUCCESSFUL
+  + DR_12 hasStatus SUCCESSFUL
+  + DR_16 hasStatus SUCCESSFUL
+  + DR_19 hasStatus SUCCESSFUL
+  + DR_20 hasStatus SUCCESSFUL
+  + DR_21 hasStatus SUCCESSFUL
+  + DR_36 hasStatus SUCCESSFUL
+  + DR_39 hasStatus SUCCESSFUL
+  + DR_44 hasStatus SUCCESSFUL
+  + DR_45 hasStatus SUCCESSFUL
+  + DR_52 hasStatus SUCCESSFUL
+  + DR_56 hasStatus SUCCESSFUL
+  + DR_57 hasStatus SUCCESSFUL
+  + DR_58 hasStatus SUCCESSFUL
+  + DR36 has_Temperature 2548
+  + DR36 has_Depth 2230
+  + DR39 has_Temperature 3100
+  + DR39 has_Depth 2711
+  + DR40 has_Temperature 4306
+  + DR40 has_Depth 3791
+  + DR41 has_Temperature 3754
+  + DR41 has_Depth 3282
+
+skipped 2 excluded axioms:
+  - BGR08-203 hasTask BGR08-203   [hasTask has no single named domain/range to type from]
+  - BGR08-203 hasAction BGR08-203   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep25.rdf

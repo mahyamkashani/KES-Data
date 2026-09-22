@@ -1,0 +1,122 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 49
+
+created 34 individuals:
+  + R_V_SONNE : Vehicle
+  + SIMRAD_EM120 : MBES
+  + Rockdrill_2 : DVL
+  + SO208_Leg_1 : Data_Sampling_Mission
+  + SO208_Leg_2 : Data_Sampling_Mission
+  + TV_MUC : Remotely_Operated_Vehicle
+  + SO208_DR122 : Station
+  + SO208_MUC124 : Station
+  + SO208_TVG123 : Station
+  + SO208_DR29 : Station
+  + SO208_DR30 : Station
+  + SO208_DR37 : Station
+  + SO208_DR120 : Station
+  + Egg_Seamount : Waypoint
+  + Boxer_Seamount : Waypoint
+  + Bend_Fault_Seamount : Waypoint
+  + Little_Bend_Seamount : Waypoint
+  + DR_6 : Task
+  + DR_7 : Task
+  + DR_9 : Task
+  + DR_10 : Task
+  + DR_11 : Task
+  + DR_17 : Task
+  + DR_21 : Task
+  + DR_22 : Task
+  + DR_23 : Task
+  + DR_24 : Task
+  + DR_25 : Task
+  + DR_29 : Task
+  + Profile_1 : State
+  + Profile_2 : State
+  + Profile_3 : State
+  + Profile_4 : State
+  + Profile_5 : State
+
+asserted 67 axioms:
+  + R_V_SONNE hasSensor SIMRAD_EM120
+  + R_V_SONNE hasSensor Rockdrill_2
+  + SO208_Leg_1 hasDurationText 12 days   [hasDuration could not take it]
+  + SO208_Leg_1 hasStatus SUCCESSFUL
+  + SO208_Leg_1 collect_sample 41 sampling stations
+  + SO208_Leg_2 hasDurationText unspecified   [hasDuration could not take it]
+  + SO208_Leg_2 hasStatus SUCCESSFUL
+  + SO208_Leg_2 collect_sample 83 sampling stations
+  + TV_MUC maxDepthText unspecified   [maxDepth could not take it]
+  + R_V_SONNE maxDepthText unspecified   [maxDepth could not take it]
+  + SO208_DR122 stationID SO208_DR122
+  + SO208_DR122 stationDate 2010-08-26
+  + SO208_DR122 stationTime 00:30
+  + SO208_MUC124 stationID SO208_MUC124
+  + SO208_MUC124 stationDate 2010-08-26
+  + SO208_MUC124 stationTime 06:49
+  + SO208_TVG123 stationID SO208_TVG123
+  + SO208_TVG123 stationDate 2010-08-26
+  + SO208_TVG123 stationTime 06:48
+  + SO208_DR29 stationID SO208_DR29
+  + SO208_DR29 stationDate 2010-07-24
+  + SO208_DR29 stationTime 09:12
+  + SO208_DR30 stationID SO208_DR30
+  + SO208_DR30 stationDate 2010-07-24
+  + SO208_DR30 stationTime 12:19
+  + SO208_DR37 stationID SO208_DR37
+  + SO208_DR37 stationDate 2010-07-26
+  + SO208_DR37 stationTime 03:01
+  + SO208_DR120 stationID SO208_DR120
+  + SO208_DR120 stationDate 2010-08-25
+  + SO208_DR120 stationTime 11:46
+  + Egg_Seamount locationName Egg Seamount
+  + Egg_Seamount latitude 7.83867
+  + Egg_Seamount longitude -90.46917
+  + Boxer_Seamount locationName Boxer Seamount
+  + Boxer_Seamount latitude 7.64350
+  + Boxer_Seamount longitude -90.87000
+  + Bend_Fault_Seamount locationName Bend fault Seamount
+  + Bend_Fault_Seamount latitude 10.79100
+  + Bend_Fault_Seamount longitude -87.84100
+  + Little_Bend_Seamount locationName Little Bend Seamount
+  + Little_Bend_Seamount latitude 10.68533
+  + Little_Bend_Seamount longitude -87.75867
+  + DR_6 hasDuration 12.0
+  + DR_6 hasStatus SUCCESSFUL
+  + DR_7 hasDuration 12.0
+  + DR_7 hasStatus SUCCESSFUL
+  + DR_9 hasDuration 12.0
+  + DR_9 hasStatus SUCCESSFUL
+  + DR_10 hasDuration 12.0
+  + DR_10 hasStatus FAILED
+  + DR_11 hasDuration 12.0
+  + DR_11 hasStatus SUCCESSFUL
+  + DR_17 hasDuration 12.0
+  + DR_17 hasStatus SUCCESSFUL
+  + DR_21 hasDuration 12.0
+  + DR_21 hasStatus SUCCESSFUL
+  + DR_22 hasDuration 12.0
+  + DR_22 hasStatus SUCCESSFUL
+  + DR_23 hasDuration 12.0
+  + DR_23 hasStatus SUCCESSFUL
+  + DR_24 hasDuration 12.0
+  + DR_24 hasStatus SUCCESSFUL
+  + DR_25 hasDuration 12.0
+  + DR_25 hasStatus SUCCESSFUL
+  + DR_29 hasDuration 12.0
+  + DR_29 hasStatus FAILED
+
+skipped 10 excluded axioms:
+  - SO208 hasTask DR107   [hasTask has no single named domain/range to type from]
+  - DR107 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR106   [hasTask has no single named domain/range to type from]
+  - DR106 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR105   [hasTask has no single named domain/range to type from]
+  - DR105 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR104   [hasTask has no single named domain/range to type from]
+  - DR104 hasAction gDr   [hasAction has no single named domain/range to type from]
+  - SO208 hasTask DR103   [hasTask has no single named domain/range to type from]
+  - DR103 hasAction gDr   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep39.rdf

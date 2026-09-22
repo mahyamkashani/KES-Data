@@ -1,0 +1,42 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P348 hasTask SOPRAN",
+                "P348 goes_through CVTSS",
+                "P348 goes_through Test_Station",
+                "P348 goes_through Station_245"
+            ],
+            "Individuals": [
+                "P348",
+                "SOPRAN",
+                "CVTSS",
+                "Test_Station",
+                "Station_226",
+                "Station_227",
+                "Station_228",
+                "Station_229",
+                "Station_230",
+                "Station_231",
+                "Station_232",
+                "Station_233",
+                "Station_234",
+                "Station_235",
+                "Station_236",
+                "Station_237",
+                "Station_238",
+                "Station_239",
+                "Station_240",
+                "Station_241",
+                "Station_242",
+                "Station_243",
+                "Station_244",
+                "Station_245",
+                "Station_246",
+                "Station_247",
+                "Station_248",
+                "Station_249"
+            ]
+        }
+    }
+}

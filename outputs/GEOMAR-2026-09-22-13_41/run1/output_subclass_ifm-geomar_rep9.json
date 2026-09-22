@@ -1,0 +1,30 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD operations",
+                "hasDuration": "72 CTD stations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Water samples for various analysis"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV",
+                "maxDepth": "2000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "Station Rock Garden",
+                "stationID": "206",
+                "stationName": "Rock Garden",
+                "stationDate": "2007-03-03"
+            }
+        ]
+    }
+}

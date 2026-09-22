@@ -1,0 +1,108 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 41
+
+created 26 individuals:
+  + CTD_operations : Data_Sampling_Mission
+  + SO191_001_1 : Station
+  + SO191_004_1 : Station
+  + SO191_006_1 : Station
+  + SO191_007_1 : Station
+  + SO191_010_1 : Station
+  + SO191_011_1 : Station
+  + SO191_012_1 : Station
+  + SO191_013_1 : Station
+  + SO191_014_1 : Station
+  + SO191_017_1 : Station
+  + SO191_018_1 : Station
+  + SO191_019_1 : Station
+  + SO191_021_1 : Station
+  + SO191_022_1 : Station
+  + SO191_023_1 : Station
+  + SO191_024_1 : Station
+  + SO191_025_1 : Station
+  + SO191_030_1 : Station
+  + SO191_031_1 : Station
+  + SO191_032_1 : Station
+  + SO191_035_1 : Station
+  + CTD_6 : State
+  + CTD_8 : State
+  + CTD_19 : State
+  + CTD_39 : State
+
+asserted 67 axioms:
+  + CTD_operations hasStatus SUCCESSFUL
+  + CTD_operations collect_sample Water samples for various analysis
+  + SO191_001_1 stationID SO191/001-1
+  + SO191_001_1 stationDate 2007-01-11
+  + SO191_001_1 stationTime 22:16
+  + SO191_004_1 stationID SO191/004-1
+  + SO191_004_1 stationDate 2007-01-13
+  + SO191_004_1 stationTime 17:33
+  + SO191_006_1 stationID SO191/006-1
+  + SO191_006_1 stationDate 2007-01-15
+  + SO191_006_1 stationTime 07:56
+  + SO191_007_1 stationID SO191/007-1
+  + SO191_007_1 stationDate 2007-01-16
+  + SO191_007_1 stationTime 12:48
+  + SO191_010_1 stationID SO191/010-1
+  + SO191_010_1 stationDate 2007-01-19
+  + SO191_010_1 stationTime 09:38
+  + SO191_011_1 stationID SO191/011-1
+  + SO191_011_1 stationDate 2007-01-19
+  + SO191_011_1 stationTime 12:36
+  + SO191_012_1 stationID SO191/012-1
+  + SO191_012_1 stationDate 2007-01-20
+  + SO191_012_1 stationTime 22:46
+  + SO191_013_1 stationID SO191/013-1
+  + SO191_013_1 stationDate 2007-01-21
+  + SO191_013_1 stationTime 09:08
+  + SO191_014_1 stationID SO191/014-1
+  + SO191_014_1 stationDate 2007-01-22
+  + SO191_014_1 stationTime 03:00
+  + SO191_017_1 stationID SO191/017-1
+  + SO191_017_1 stationDate 2007-01-23
+  + SO191_017_1 stationTime 09:39
+  + SO191_018_1 stationID SO191/018-1
+  + SO191_018_1 stationDate 2007-01-24
+  + SO191_018_1 stationTime 05:29
+  + SO191_019_1 stationID SO191/019-1
+  + SO191_019_1 stationDate 2007-01-24
+  + SO191_019_1 stationTime 08:38
+  + SO191_021_1 stationID SO191/021-1
+  + SO191_021_1 stationDate 2007-01-25
+  + SO191_021_1 stationTime 13:06
+  + SO191_022_1 stationID SO191/022-1
+  + SO191_022_1 stationDate 2007-01-25
+  + SO191_022_1 stationTime 15:25
+  + SO191_023_1 stationID SO191/023-1
+  + SO191_023_1 stationDate 2007-01-26
+  + SO191_023_1 stationTime 19:26
+  + SO191_024_1 stationID SO191/024-1
+  + SO191_024_1 stationDate 2007-01-27
+  + SO191_024_1 stationTime 02:07
+  + SO191_025_1 stationID SO191/025-1
+  + SO191_025_1 stationDate 2007-01-27
+  + SO191_025_1 stationTime 08:36
+  + SO191_030_1 stationID SO191/030-1
+  + SO191_030_1 stationDate 2007-01-29
+  + SO191_030_1 stationTime 21:46
+  + SO191_031_1 stationID SO191/031-1
+  + SO191_031_1 stationDate 2007-01-30
+  + SO191_031_1 stationTime 03:55
+  + SO191_032_1 stationID SO191/032-1
+  + SO191_032_1 stationDate 2007-01-30
+  + SO191_032_1 stationTime 07:47
+  + SO191_035_1 stationID SO191/035-1
+  + SO191_035_1 stationDate 2007-01-31
+  + SO191_035_1 stationTime 12:43
+  + CTD_6 has_Depth 1059
+  + CTD_19 has_Depth 1101
+
+skipped 4 excluded axioms:
+  - SO191 hasTask Leg1   [hasTask has no single named domain/range to type from]
+  - SO191 hasTask CSEM   [hasTask has no single named domain/range to type from]
+  - CSEM hasAction Deployment   [hasAction has no single named domain/range to type from]
+  - Deployment hasDestination Wairarapa   [hasDestination has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep9.rdf

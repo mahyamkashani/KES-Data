@@ -1,0 +1,20 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Bathymetric_Mission": [],
+        "Data_Sampling_Mission": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

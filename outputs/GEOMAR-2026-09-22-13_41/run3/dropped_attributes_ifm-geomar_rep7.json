@@ -1,0 +1,47 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_18": {
+                "seabedDepth": "201 cm"
+            }
+        },
+        "reason": "Station_18: seabedDepth='201 cm' is not printed on any page that names 'Station_18' - copy the number the report prints beside 'Station_18', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_5": {
+                "has_Depth": 1170
+            }
+        },
+        "reason": "Station_5: has_Depth=1170 is not printed on any page that names 'Station_5' - copy the number the report prints beside 'Station_5', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_6": {
+                "has_Depth": 1172
+            }
+        },
+        "reason": "Station_6: has_Depth=1172 is not printed on any page that names 'Station_6' - copy the number the report prints beside 'Station_6', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_15-1": {
+                "class": "State"
+            }
+        },
+        "reason": "Station_15-1: 'Station_15-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_15-2": {
+                "class": "State"
+            }
+        },
+        "reason": "Station_15-2: 'Station_15-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

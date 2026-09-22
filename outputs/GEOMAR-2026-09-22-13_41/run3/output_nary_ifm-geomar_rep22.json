@@ -1,0 +1,21 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA13ROV",
+                "ATA13ROV hasAction Sampling",
+                "ATA13ROV hasDestination Quest",
+                "HYDROMAR_V hasTask ATA21ROV",
+                "ATA21ROV hasAction Sampling",
+                "ATA21ROV hasDestination Quest"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA13ROV",
+                "ATA21ROV",
+                "Sampling",
+                "Quest"
+            ]
+        }
+    }
+}

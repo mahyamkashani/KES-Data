@@ -1,0 +1,171 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 57
+
+created 42 individuals:
+  + RV_Sonne : Vehicle
+  + EM710 : MBES
+  + EM122 : MBES
+  + CTD : CTDMission
+  + Anton : AUV
+  + Luise : AUV
+  + SO277_1_1 : Station
+  + SO277_2_1 : Station
+  + SO277_3_1 : Station
+  + SO277_7_1 : Station
+  + SO277_8_1 : Station
+  + SO277_17_1 : Station
+  + SO277_19_1 : Station
+  + VCTD_01 : State
+  + VCTD_02 : State
+  + VCTD_03 : State
+  + VCTD_04 : Task
+  + VCTD_06 : Task
+  + VCTD_07 : Task
+  + VCTD_08 : Task
+  + VCTD_10 : State
+  + VCTD1_1 : Station
+  + VCTD1_2 : Station
+  + VCTD1_3 : Station
+  + VCTD1_4A : Station
+  + VCTD1_5A : Station
+  + VCTD1_6 : Station
+  + VCTD1_7 : Station
+  + VCTD1_8 : Station
+  + VCTD1_9 : Station
+  + WP01 : Waypoint
+  + WP02 : Waypoint
+  + WP03 : Waypoint
+  + WP04 : Waypoint
+  + WP05 : Waypoint
+  + WP06 : Waypoint
+  + WP29 : Waypoint
+  + WP30 : Waypoint
+  + WP31 : Waypoint
+  + WP32 : Waypoint
+  + WP33 : Waypoint
+  + VCTD_09 : Task
+
+asserted 106 axioms:
+  + RV_Sonne hasSensor EM710
+  + RV_Sonne hasSensor EM122
+  + CTD hasDurationText 00:15:27   [hasDuration could not take it]
+  + CTD hasStatus SUCCESSFUL
+  + Anton maxDepthText 500m   [maxDepth could not take it]
+  + Luise maxDepthText 500m   [maxDepth could not take it]
+  + SO277_1_1 stationID SO277_1-1
+  + SO277_1_1 stationName MB
+  + SO277_1_1 stationDate 2020-08-23
+  + SO277_1_1 stationTime 14:08
+  + SO277_2_1 stationID SO277_2-1
+  + SO277_2_1 stationName CTD
+  + SO277_2_1 stationDate 2020-08-24
+  + SO277_2_1 stationTime 01:35:25
+  + SO277_3_1 stationID SO277_3-1
+  + SO277_3_1 stationName AGSS
+  + SO277_3_1 stationDate 2020-08-24
+  + SO277_3_1 stationTime 06:30:30
+  + SO277_7_1 stationID SO277_7-1
+  + SO277_7_1 stationName CTD
+  + SO277_7_1 stationDate 2020-08-27
+  + SO277_7_1 stationTime 01:27:46
+  + SO277_8_1 stationID SO277_8-1
+  + SO277_8_1 stationName AUV_L
+  + SO277_8_1 stationDate 2020-08-27
+  + SO277_8_1 stationTime 05:52:48
+  + SO277_17_1 stationID SO277_17-1
+  + SO277_17_1 stationName CSE
+  + SO277_17_1 stationDate 2020-09-09
+  + SO277_17_1 stationTime 09:21:30
+  + SO277_19_1 stationID SO277_19-1
+  + SO277_19_1 stationName CTD
+  + SO277_19_1 stationDate 2020-09-09
+  + SO277_19_1 stationTime 11:45:11
+  + VCTD_01 has_Temperature 27
+  + VCTD_01 has_Depth 1118.6
+  + VCTD_02 has_Depth 184.2
+  + VCTD_03 has_Depth 67.7
+  + VCTD_04 hasStatus SUCCESSFUL
+  + VCTD_04 hasDuration 6.0
+  + VCTD_06 hasStatus SUCCESSFUL
+  + VCTD_07 hasStatus SUCCESSFUL
+  + VCTD_08 hasStatus SUCCESSFUL
+  + VCTD_08 hasDuration 6.0
+  + VCTD_10 has_Depth 34.5
+  + VCTD1_1 stationID VCTD1 1
+  + VCTD1_1 stationDate 2020-09-14
+  + VCTD1_1 stationTime 10:43:05
+  + VCTD1_2 stationID VCTD1 2
+  + VCTD1_2 stationDate 2020-09-14
+  + VCTD1_2 stationTime 14:27:04
+  + VCTD1_3 stationID VCTD1 3
+  + VCTD1_3 stationDate 2020-09-14
+  + VCTD1_3 stationTime 15:35:56
+  + VCTD1_4A stationID VCTD1 4A
+  + VCTD1_4A stationDate 2020-09-16
+  + VCTD1_4A stationTime 13:39:11
+  + VCTD1_5A stationID VCTD1 5A
+  + VCTD1_5A stationDate 2020-09-17
+  + VCTD1_5A stationTime 06:02:46
+  + VCTD1_6 stationID VCTD1 6
+  + VCTD1_6 stationDate 2020-09-17
+  + VCTD1_6 stationTime 10:19:21
+  + VCTD1_7 stationID VCTD1 7
+  + VCTD1_7 stationDate 2020-09-18
+  + VCTD1_7 stationTime 15:06:26
+  + VCTD1_8 stationID VCTD1 8
+  + VCTD1_8 stationDate 2020-09-19
+  + VCTD1_8 stationTime 07:02:02
+  + VCTD1_9 stationID VCTD1 9
+  + VCTD1_9 stationDate 2020-09-19
+  + VCTD1_9 stationTime 14:19:09
+  + WP01 locationName WP01
+  + WP01 latitude 36.04160
+  + WP01 longitude 14.35210
+  + WP02 locationName WP02
+  + WP02 latitude 36.04290
+  + WP02 longitude 14.34970
+  + WP03 locationName WP03
+  + WP03 latitude 36.04410
+  + WP03 longitude 14.34740
+  + WP04 locationName WP04
+  + WP04 latitude 36.04530
+  + WP04 longitude 14.34490
+  + WP05 locationName WP05
+  + WP05 latitude 36.04650
+  + WP05 longitude 14.34240
+  + WP06 locationName WP06
+  + WP06 latitude 36.04780
+  + WP06 longitude 14.34000
+  + WP29 locationName WP29
+  + WP29 latitude 36.06280
+  + WP29 longitude 14.37340
+  + WP30 locationName WP30
+  + WP30 latitude 36.08840
+  + WP30 longitude 14.33120
+  + WP31 locationName WP31
+  + WP31 latitude 36.06090
+  + WP31 longitude 14.37960
+  + WP32 locationName WP32
+  + WP32 latitude 36.05990
+  + WP32 longitude 14.38270
+  + WP33 locationName WP33
+  + WP33 latitude 36.05890
+  + WP33 longitude 14.38580
+  + VCTD_09 hasStatus SUCCESSFUL
+
+skipped 12 excluded axioms:
+  - SO277 hasTask SMART   [hasTask has no single named domain/range to type from]
+  - SO277 hasTask MAPACT-ETNA   [hasTask has no single named domain/range to type from]
+  - SO277 hasTask Station_06   [hasTask has no single named domain/range to type from]
+  - Station_06 hasAction CTD_02   [hasAction has no single named domain/range to type from]
+  - SO277 hasTask Station_13   [hasTask has no single named domain/range to type from]
+  - Station_13 hasAction CTD_04   [hasAction has no single named domain/range to type from]
+  - SO277 hasTask Station_15   [hasTask has no single named domain/range to type from]
+  - Station_15 hasAction CTD_05   [hasAction has no single named domain/range to type from]
+  - SO277 hasTask Station_19   [hasTask has no single named domain/range to type from]
+  - Station_19 hasAction CTD_06   [hasAction has no single named domain/range to type from]
+  - SO277 hasTask Station_67   [hasTask has no single named domain/range to type from]
+  - Station_67 hasAction CTD_19   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_geomar_rep_ns_57_2021_compressed.rdf

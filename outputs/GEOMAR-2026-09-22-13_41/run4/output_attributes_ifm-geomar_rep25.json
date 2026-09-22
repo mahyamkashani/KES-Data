@@ -1,0 +1,205 @@
+{
+    "Individuals": {
+        "DR5": {
+            "class": "Station",
+            "stationID": "DR5",
+            "stationDate": "2008-08-07",
+            "stationTime": "12:58"
+        },
+        "DR6": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4135
+        },
+        "DR29": {
+            "class": "Station",
+            "stationID": "DR29",
+            "stationDate": "2008-08-16",
+            "stationTime": "19:46"
+        },
+        "DR31": {
+            "class": "Station",
+            "stationID": "DR31",
+            "stationDate": "2008-08-17",
+            "stationTime": "21:01"
+        },
+        "DR44": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2525
+        },
+        "SO199": {
+            "class": "Station",
+            "stationID": "SO199",
+            "stationDate": "2008-08-02/2008-09-22",
+            "stationTime": "Various times throughout the cruise"
+        },
+        "DR1": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4036
+        },
+        "DR2": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4602
+        },
+        "DR3": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4789
+        },
+        "DR28": {
+            "class": "Station",
+            "stationID": "DR28",
+            "stationDate": "2008-08-16",
+            "stationTime": "08:40"
+        },
+        "Outsider_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Outsider Seamount",
+            "latitude": "-6.25000",
+            "longitude": "45 nm west of the Investigator Ridge"
+        },
+        "Investigator_Ridge": {
+            "class": "Waypoint",
+            "locationName": "Investigator Ridge",
+            "latitude": "-16.00000",
+            "longitude": "98.73867",
+            "seabedDepth": "4,649 to 4,290 m"
+        },
+        "Rudolf_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Rudolf Seamount",
+            "seabedDepth": "3,000 m above the surrounding seafloor"
+        },
+        "Sherbakov_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Sherbakov Seamount",
+            "latitude": "-10.90817",
+            "longitude": "104.53400",
+            "seabedDepth": "from 5,000 m b.s.l. to less than 1,500 m b.s.l."
+        },
+        "DR_1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_2": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_5": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "DR_8": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_11": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_16": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_19": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_20": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_21": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_36": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_38": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_39": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_44": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_45": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_52": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_56": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_57": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_58": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR8": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4925
+        },
+        "DR39": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3100
+        },
+        "DR40": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4306
+        },
+        "DR41": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3754
+        },
+        "DR45": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3746
+        },
+        "DR46": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4361
+        }
+    }
+}

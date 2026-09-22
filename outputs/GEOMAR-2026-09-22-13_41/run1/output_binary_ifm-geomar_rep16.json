@@ -1,0 +1,64 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon hasSensor MUMP1"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Poseidon",
+                "MUMP2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV Poseidon hasSensor MUMP2"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP1",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "MUMP1 hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP2",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "MUMP2 hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP1",
+                "MSS 32"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "MUMP1 hasSensor MSS 32"
+        },
+        {
+            "INDIVIDUAL": [
+                "MUMP2",
+                "MSS 26"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "MUMP2 hasSensor MSS 26"
+        }
+    ]
+}

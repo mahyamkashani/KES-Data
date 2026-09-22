@@ -1,0 +1,974 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "SIMRAD EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor SIMRAD EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "ATLAS PARASOUND"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V SONNE hasSensor ATLAS PARASOUND"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-02",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-02 hasTask MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-03",
+                "MN"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-03 hasTask MN"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-04",
+                "CTD-F"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-04 hasTask CTD-F"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-05",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-05 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-06",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-06 hasTask MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-07",
+                "PS-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-07 hasTask PS-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-08",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-08 hasTask MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-09",
+                "KL"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-09 hasTask KL"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-10",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-10 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-11",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-11 hasTask MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-12",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-12 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-13",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-13 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-14",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-14 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-15",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-15 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-16",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-16 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-17",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-17 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-18",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-18 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-19",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-19 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-20",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-20 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-21",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-21 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-22",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-22 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-23",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-23 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-24",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-24 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-25",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-25 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-26",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-26 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-27",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-27 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-28",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-28 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-29",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-29 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-30",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-30 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-31",
+                "CTD-F"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-31 hasTask CTD-F"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-32",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-32 hasTask MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-33",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-33 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-34",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-34 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-35",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-35 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-36",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-36 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-37",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-37 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-38",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-38 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-39",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-39 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-40",
+                "KL"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-40 hasTask KL"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-41",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-41 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-42",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-42 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-43",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-43 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-44",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-44 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-45",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-45 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-46",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-46 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-47",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-47 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-48",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-48 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-49",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-49 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-50",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-50 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-51",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-51 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-52",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-52 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-53",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-53 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-54",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-54 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-55",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-55 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-56",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-56 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-57",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-57 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-58",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-58 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-59",
+                "HF"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-59 hasTask HF"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-60",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-60 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-61",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-61 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-63",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-63 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-64",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-64 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-65",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-65 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-67",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-67 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-68",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-68 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-70",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-70 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-71",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-71 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-73",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-73 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-74",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-74 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-76",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-76 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-77",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-77 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-79",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-79 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-80",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-80 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-83",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-83 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-85",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-85 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-86",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-86 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-88",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-88 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-89",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-89 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-91",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-91 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-92",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-92 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-94",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-94 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-95",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-95 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-97",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-97 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-98",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-98 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-100",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-100 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-101",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-101 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-103",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-103 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-104",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-104 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-105",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-105 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-107",
+                "DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-107 hasTask DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-108",
+                "PS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-108 hasTask PS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-109",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-109 hasTask CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-110",
+                "MN"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-110 hasTask MN"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-111",
+                "CTD-F"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-111 hasTask CTD-F"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO201-2-112",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-112 hasTask MUC"
+        }
+    ]
+}

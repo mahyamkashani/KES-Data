@@ -1,0 +1,103 @@
+{
+    "Individuals": {
+        "Cruise_P340": {
+            "class": "Mission",
+            "MissionID": "P340",
+            "startTime": "2006-07-06",
+            "endTime": "2006-07-17",
+            "dataVolume": "530 nautical miles",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for TYMAS in the Tyrrhenian Sea"
+        },
+        "Palinuro_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Palinuro Seamount",
+            "latitude": "39.54167",
+            "longitude": "14.50000",
+            "seabedDepth": "570 m"
+        },
+        "Marsili_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Marsili Seamount",
+            "latitude": "39.28278",
+            "longitude": "14.39848",
+            "seabedDepth": "2400 m"
+        },
+        "Panarea_Island": {
+            "class": "Waypoint",
+            "locationName": "Panarea Island",
+            "latitude": "38.64928",
+            "longitude": "15.10663",
+            "seabedDepth": "70 m"
+        },
+        "Dive 741ROV": {
+            "class": "Task",
+            "hasDuration": 5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 743ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 746ROV": {
+            "class": "Task",
+            "hasDuration": 8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 749ROV": {
+            "class": "Task",
+            "hasDuration": 7,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 752ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 754ROV": {
+            "class": "Task",
+            "hasDuration": 8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 756ROV": {
+            "class": "Task",
+            "hasDuration": 8,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "721CTD": {
+            "class": "State",
+            "has_Depth": "0"
+        },
+        "722SBM": {
+            "class": "State",
+            "has_Depth": "0"
+        },
+        "723ROV": {
+            "class": "State",
+            "has_Depth": "300"
+        },
+        "724DR": {
+            "class": "State",
+            "has_Depth": "0"
+        },
+        "749ROV-1": {
+            "class": "State",
+            "has_Temperature": "8.16",
+            "has_Depth": "696"
+        },
+        "752ROV-1": {
+            "class": "State",
+            "has_Temperature": "7.55",
+            "has_Depth": "71"
+        },
+        "754ROV-1": {
+            "class": "State",
+            "has_Temperature": "7.63",
+            "has_Depth": "77"
+        },
+        "756ROV-3": {
+            "class": "State",
+            "has_Temperature": "7.24",
+            "has_Depth": "57"
+        }
+    }
+}

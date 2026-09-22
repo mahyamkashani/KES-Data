@@ -1,0 +1,137 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: MASS III Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_ifm-geomar_rep43.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV Chakratong Tongyai hasSensor Seabeam 1050 Multibeam Echosounder: 'RV Chakratong Tongyai' and 'Seabeam 1050 Multibeam Echosounder' both occur in the document 
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_ifm-geomar_rep43.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'MASS_III hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop
+    n-ary window 1: attempt 2 rejected: 'MASS_III hasTask MASS_III_Task': 'MASS_III_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_ifm-geomar_rep43.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MASS_III_Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: attempt 2 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_ifm-geomar_rep43.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: MASS III Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_ifm-geomar_rep43.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV Chakratong Tongyai hasSensor Seabeam 1050 Multibeam Echosounder: 'RV Chakratong Tongyai' and 'Seabeam 1050 Multibeam Echosounder' both occur in the document 
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_ifm-geomar_rep43.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'MASS_III hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop
+    n-ary window 1: attempt 2 rejected: 'MASS_III hasTask MASS_III_Task': 'MASS_III_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_ifm-geomar_rep43.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MASS_III_Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_ifm-geomar_rep43.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: MASS III Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_ifm-geomar_rep43.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV Chakratong Tongyai hasSensor Seabeam 1050 Multibeam Echosounder: 'RV Chakratong Tongyai' and 'Seabeam 1050 Multibeam Echosounder' both occur in the document 
+    binary: attempt 2 rejected: RV Chakratong Tongyai hasSensor CTD48M: 'RV Chakratong Tongyai' and 'CTD48M' both occur in the document but never on the same page, so the report does not state
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_ifm-geomar_rep43.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'MASS_III hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop
+    n-ary window 1: attempt 2 rejected: 'MASS_III hasTask MASS_III_Task': 'MASS_III_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_ifm-geomar_rep43.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MASS-III: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those word
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: attempt 2 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_ifm-geomar_rep43.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: MASS III Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_ifm-geomar_rep43.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV Chakratong Tongyai hasSensor Seabeam 1050 Multibeam Echosounder: 'RV Chakratong Tongyai' and 'Seabeam 1050 Multibeam Echosounder' both occur in the document 
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_ifm-geomar_rep43.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'MASSIII hasTask Task_1': 'MASSIII', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a sta
+    n-ary window 1: attempt 2 rejected: 'MASS-III hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_ifm-geomar_rep43.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MASS_III_Cruise: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of tho
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: MASS III-014: 'MASS III-014' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MASS III-001: hasDuration='2.4' is not printed on any page that names 'MASS III-001' - copy the number the report prints beside 'MASS III-001', or leave hasDura
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: attempt 2 rejected: MASS_III_001: 'MASS_III_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the ax
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_ifm-geomar_rep43.json
+
+vote subclass: kept 45 of 45 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_ifm-geomar_rep43.json
+vote binary: kept 1 of 22 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_ifm-geomar_rep43.json
+vote nary: kept 0 of 0 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_ifm-geomar_rep43.json
+vote attributes: kept 21 of 78 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_ifm-geomar_rep43.json
+
+done: 16/16 patterns succeeded

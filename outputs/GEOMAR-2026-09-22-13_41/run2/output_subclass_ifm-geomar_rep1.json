@@ -1,0 +1,34 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "S0179",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "CTD data"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "F. S. SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

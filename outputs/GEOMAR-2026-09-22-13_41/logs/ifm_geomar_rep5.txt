@@ -1,0 +1,203 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: SO186-1C: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those word
+    subclass: attempt 2 rejected: SO186-061-1: 'SO186-061-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_ifm_geomar_rep5.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV SONNE hasSensor Marine Magnetics SeaSpy Gradiometer: 'RV SONNE' and 'Marine Magnetics SeaSpy Gradiometer' both occur in the document but never on the same pa
+    binary: attempt 2 rejected: SO186-1B hasTask Station 1: 'Station 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; 
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_ifm_geomar_rep5.json
+
+=== nary pattern ===
+  n-ary window 1/3
+    n-ary window 1: attempt 1 rejected: 'SO186_1B hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop
+    n-ary window 1: attempt 2 rejected: 'SO186_1C hasVehicle RV_SONNE': 'SO186_1C' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a statio
+    n-ary window 1: validated after 3 attempts
+  n-ary window 2/3
+    n-ary window 2: attempt 1 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 2 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 3 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: no attempt passed: kept what passes on its own, dropped 6 item(s)
+  n-ary window 3/3
+    n-ary window 3: attempt 1 rejected: 'Mission hasTask Task_01': 'Mission' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Mission hasTask
+    n-ary window 3: attempt 2 rejected: 'SO186_075-2 hasTask SO186_075-2_Task': 'SO186_075-2', 'SO186_075-2_Task' does not appear anywhere in the document - do not invent a name, and do not turn a ran
+    n-ary window 3: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_ifm_geomar_rep5.json
+marked 6 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_nary_ifm_geomar_rep5.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: SO186-1A: maxDepth='6200' is not printed on any page that names 'SO186-1A' - copy the number the report prints beside 'SO186-1A', or leave maxDepth out; SO186-1
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: GITEWS-1: seabedDepth='5250' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out; G
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: SO186-1b-45-1: 'SO186-1b-45-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 3 rejected: SO186-1b-46-1: 'SO186-1b-46-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+    attributes: attempt 1 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 2 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 3 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: no attempt passed: kept what passes on its own, dropped 9 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_ifm_geomar_rep5.json
+marked 13 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_attributes_ifm_geomar_rep5.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: SO186-1C: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those word
+    subclass: attempt 2 rejected: SO186-061-1: 'SO186-061-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_ifm_geomar_rep5.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV SONNE hasSensor Marine Magnetics SeaSpy Gradiometer: 'RV SONNE' and 'Marine Magnetics SeaSpy Gradiometer' both occur in the document but never on the same pa
+    binary: attempt 2 rejected: SO186-B hasTask Dive 1: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_ifm_geomar_rep5.json
+
+=== nary pattern ===
+  n-ary window 1/3
+    n-ary window 1: attempt 1 rejected: 'SO186_1 hasTask Task_SO186_1B': 'SO186_1', 'Task_SO186_1B' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-
+    n-ary window 1: attempt 2 rejected: 'SO186_1 goes_through Waypoint_Simeulue': 'SO186_1', 'Waypoint_Simeulue' does not appear anywhere in the document - do not invent a name, and do not turn a rang
+    n-ary window 1: validated after 3 attempts
+  n-ary window 2/3
+    n-ary window 2: attempt 1 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 2 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 3 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: no attempt passed: kept what passes on its own, dropped 6 item(s)
+  n-ary window 3/3
+    n-ary window 3: attempt 1 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: attempt 2 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: attempt 3 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: no attempt passed: kept what passes on its own, dropped 12 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_ifm_geomar_rep5.json
+marked 18 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_nary_ifm_geomar_rep5.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: SO186-1A: maxDepth='6200' is not printed on any page that names 'SO186-1A' - copy the number the report prints beside 'SO186-1A', or leave maxDepth out; SO186-1
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: GITEWS-1: seabedDepth='5250 m' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out;
+    attributes: attempt 2 rejected: GITEWS-1b: 'GITEWS-1b' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 3 rejected: GITEWS-1: seabedDepth='5250 m' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out;
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 9 item(s)
+    attributes: attempt 1 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 2 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 3 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: no attempt passed: kept what passes on its own, dropped 6 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_ifm_geomar_rep5.json
+marked 17 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_attributes_ifm_geomar_rep5.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: SO186-1C: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those word
+    subclass: attempt 2 rejected: SO186-061-1: 'SO186-061-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_ifm_geomar_rep5.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV SONNE hasSensor Marine Magnetics SeaSpy Gradiometer: 'RV SONNE' and 'Marine Magnetics SeaSpy Gradiometer' both occur in the document but never on the same pa
+    binary: attempt 2 rejected: SO186-1C hasAction Act_EstablishUSBLFix: 'TEWS Buoy 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' i
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_ifm_geomar_rep5.json
+
+=== nary pattern ===
+  n-ary window 1/3
+    n-ary window 1: attempt 1 rejected: 'SO186_1B hasTask Task_SO186_1B': 'Task_SO186_1B' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a
+    n-ary window 1: attempt 2 rejected: 'SO186_1C hasVehicle RV_SONNE': 'SO186_1C' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a statio
+    n-ary window 1: validated after 3 attempts
+  n-ary window 2/3
+    n-ary window 2: attempt 1 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 2 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 3 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: no attempt passed: kept what passes on its own, dropped 6 item(s)
+  n-ary window 3/3
+    n-ary window 3: attempt 1 rejected: 'Mission hasTask Task_01': 'Mission' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Mission hasTask
+    n-ary window 3: attempt 2 rejected: 'SO186_075-2 hasTask SO186_075-2_Task': 'SO186_075-2', 'SO186_075-2_Task' does not appear anywhere in the document - do not invent a name, and do not turn a ran
+    n-ary window 3: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_ifm_geomar_rep5.json
+marked 6 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_nary_ifm_geomar_rep5.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: SO186-1A: maxDepth='6200 m' is not printed on any page that names 'SO186-1A' - copy the number the report prints beside 'SO186-1A', or leave maxDepth out; SO186
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: GITEWS-1: seabedDepth='5250 m' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out;
+    attributes: attempt 2 rejected: GITEWS-1b: 'GITEWS-1b' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 3 rejected: GITEWS-1: seabedDepth='5250 m' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out;
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: SO186-1b-45-1: 'SO186-1b-45-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 3 rejected: SO186-1b-45-1: 'SO186-1b-45-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: no attempt passed: kept what passes on its own, dropped 7 item(s)
+    attributes: attempt 1 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 2 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 3 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: no attempt passed: kept what passes on its own, dropped 6 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_ifm_geomar_rep5.json
+marked 15 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_attributes_ifm_geomar_rep5.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: SO186-1C: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those word
+    subclass: attempt 2 rejected: SO186-061-1: 'SO186-061-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    subclass: attempt 3 rejected: SO186-061-1: 'SO186-061-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    subclass: no attempt passed: kept what passes on its own, dropped 1 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_ifm_geomar_rep5.json
+marked 1 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_subclass_ifm_geomar_rep5.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: RV SONNE hasSensor Marine Magnetics SeaSpy Gradiometer: 'RV SONNE' and 'Marine Magnetics SeaSpy Gradiometer' both occur in the document but never on the same pa
+    binary: attempt 2 rejected: SO186-1C hasAction Act_EstablishUSBLFix: 'TEWS Buoy 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' i
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_ifm_geomar_rep5.json
+
+=== nary pattern ===
+  n-ary window 1/3
+    n-ary window 1: attempt 1 rejected: 'SO186-1B hasTask Task_01': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dr
+    n-ary window 1: attempt 2 rejected: 'SO186-1B goes_through Waypoint_01': 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into 
+    n-ary window 1: validated after 3 attempts
+  n-ary window 2/3
+    n-ary window 2: attempt 1 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 2 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: attempt 3 rejected: 'Mission_hasTask_Task_001': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_
+    n-ary window 2: no attempt passed: kept what passes on its own, dropped 6 item(s)
+  n-ary window 3/3
+    n-ary window 3: attempt 1 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: attempt 2 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: attempt 3 rejected: 'Mission_hasTask_SO186_1d Task_1': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426;
+    n-ary window 3: no attempt passed: kept what passes on its own, dropped 2 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_ifm_geomar_rep5.json
+marked 8 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_nary_ifm_geomar_rep5.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: SO186-1A: maxDepth='6200' is not printed on any page that names 'SO186-1A' - copy the number the report prints beside 'SO186-1A', or leave maxDepth out; SO186-1
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: GITEWS-1: seabedDepth='5250 m' is not printed on any page that names 'GITEWS-1' - copy the number the report prints beside 'GITEWS-1', or leave seabedDepth out;
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: SO186-1b-21: 'SO186-1b-21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: SO186-1b-45-1: 'SO186-1b-45-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 3 rejected: SO186-1b-24: 'SO186-1b-24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 9 item(s)
+    attributes: attempt 1 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 2 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: attempt 3 rejected: CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop th
+    attributes: no attempt passed: kept what passes on its own, dropped 5 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_ifm_geomar_rep5.json
+marked 14 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_attributes_ifm_geomar_rep5.json
+
+vote subclass: kept 36 of 41 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_ifm_geomar_rep5.json
+vote binary: kept 2 of 2 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_ifm_geomar_rep5.json
+vote nary: kept 0 of 1 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_ifm_geomar_rep5.json
+vote attributes: kept 38 of 47 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_ifm_geomar_rep5.json
+
+done: 16/16 patterns succeeded

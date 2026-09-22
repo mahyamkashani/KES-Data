@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "P362/2"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission P362/2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Giza MV",
+                "R/V Poseidon"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "Giza MV hasVehicle R/V Poseidon"
+        },
+        {
+            "INDIVIDUAL": [
+                "North Alex MV",
+                "R/V Poseidon"
+            ],
+            "OBJECT_PROPERTY": "hasVehicle",
+            "DOMAIN": "Traversal",
+            "RANGE": "Vehicle",
+            "AXIOM": "North Alex MV hasVehicle R/V Poseidon"
+        }
+    ]
+}

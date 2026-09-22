@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Station 921RD",
+                "Act_AcquireDVLLock"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 921RD hasAction Act_AcquireDVLLock"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 922RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 922RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 926RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 926RD hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Station 954RD",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Station 954RD hasAction Act_DeepDive"
+        }
+    ]
+}

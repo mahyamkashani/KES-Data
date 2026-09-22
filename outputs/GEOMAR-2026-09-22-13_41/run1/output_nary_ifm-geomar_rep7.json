@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "M67-1 hasTask CHILE-MARGIN-SURVEY",
+                "CHILE-MARGIN-SURVEY hasAction RV_METEOR"
+            ],
+            "Individuals": [
+                "M67-1",
+                "CHILE-MARGIN-SURVEY",
+                "RV_METEOR"
+            ]
+        }
+    }
+}

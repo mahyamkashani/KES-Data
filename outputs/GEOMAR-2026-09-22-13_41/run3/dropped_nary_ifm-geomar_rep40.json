@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 hasVehicle IFM06",
+        "reason": "'Traversal_01 hasVehicle IFM06': 'Traversal_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 hasDestination Waypoint_01",
+        "reason": "'Traversal_01 hasDestination Waypoint_01': 'Traversal_01', 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 goes_through Waypoint_02",
+        "reason": "'Traversal_01 goes_through Waypoint_02': 'Traversal_01', 'Waypoint_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

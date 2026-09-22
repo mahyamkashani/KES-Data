@@ -1,0 +1,470 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_01": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_01: 'Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_02": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_02: 'Station_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_03": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_03: 'Station_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_04": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_04: 'Station_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_05": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_05: 'Station_05' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_06": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_06: 'Station_06' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_07": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_07: 'Station_07' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_08": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_08: 'Station_08' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_09": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_09: 'Station_09' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_10": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_10: 'Station_10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_11": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_11: 'Station_11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_12": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_12: 'Station_12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_13": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_13: 'Station_13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_14": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_14: 'Station_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_15": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_15: 'Station_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_16": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_16: 'Station_16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_17": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_17: 'Station_17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_18": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_18: 'Station_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_19": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_19: 'Station_19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_20": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_20: 'Station_20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_21": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_21: 'Station_21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_22": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_22: 'Station_22' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_23": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_23: 'Station_23' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_24": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_24: 'Station_24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_25": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_25: 'Station_25' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_26": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_26: 'Station_26' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_27": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_27: 'Station_27' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_28": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_28: 'Station_28' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_29": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_29: 'Station_29' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_30": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_30: 'Station_30' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_31": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_31: 'Station_31' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_32": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_32: 'Station_32' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_33": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_33: 'Station_33' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_34": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_34: 'Station_34' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_35": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_35: 'Station_35' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_36": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_36: 'Station_36' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_37": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_37: 'Station_37' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_38": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_38: 'Station_38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_39": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_39: 'Station_39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_40": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_40: 'Station_40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_41": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_41: 'Station_41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_42": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_42: 'Station_42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_43": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_43: 'Station_43' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_44": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_44: 'Station_44' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_45": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_45: 'Station_45' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_46": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_46: 'Station_46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_47": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_47: 'Station_47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_48": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_48: 'Station_48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_49": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_49: 'Station_49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_50": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_50: 'Station_50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GCPP-04": {
+                "hasDuration": "1.67"
+            }
+        },
+        "reason": "GCPP-04: hasDuration='1.67' is not printed on any page that names 'GCPP-04' - copy the number the report prints beside 'GCPP-04', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "GCPP-06": {
+                "hasDuration": "1.23"
+            }
+        },
+        "reason": "GCPP-06: hasDuration='1.23' is not printed on any page that names 'GCPP-06' - copy the number the report prints beside 'GCPP-06', or leave hasDuration out"
+    }
+]

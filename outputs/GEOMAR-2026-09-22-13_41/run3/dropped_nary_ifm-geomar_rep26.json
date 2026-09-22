@@ -1,0 +1,27 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "obh03 hasDestination Gulf_of_Cadiz",
+        "reason": "'obh03 hasDestination Gulf_of_Cadiz': 'obh03' and 'Gulf_of_Cadiz' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "obh03 goes_through vsp01",
+        "reason": "'obh03 goes_through vsp01': 'obh03' and 'vsp01' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "obh03 goes_through vsp02",
+        "reason": "'obh03 goes_through vsp02': 'vsp02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "obh03 goes_through vsp03",
+        "reason": "'obh03 goes_through vsp03': 'vsp03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "obh03 goes_through vsp04",
+        "reason": "'obh03 goes_through vsp04': 'vsp04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

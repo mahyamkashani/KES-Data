@@ -1,0 +1,22 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P350 hasTask obh03",
+                "obh03 goes_through obh01",
+                "obh03 goes_through obh02"
+            ],
+            "Individuals": [
+                "P350",
+                "obh03",
+                "Gulf_of_Cadiz",
+                "obh01",
+                "obh02",
+                "vsp01",
+                "vsp02",
+                "vsp03",
+                "vsp04"
+            ]
+        }
+    }
+}

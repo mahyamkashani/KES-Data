@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "SIMRAD EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor SIMRAD EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR 1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR 1 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR 1",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR 1 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR 2",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR 2 hasAction Act_DeepDive"
+        }
+    ]
+}

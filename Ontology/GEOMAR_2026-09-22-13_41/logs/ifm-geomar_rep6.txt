@@ -1,0 +1,126 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 36
+
+created 21 individuals:
+  + SO186_3_03 : Mission
+  + SO186_3_01 : Mission
+  + SO186_3_02 : Mission
+  + OBH_05 : Station
+  + OBH_41 : Station
+  + SO186_3_04 : Mission
+  + OBM59 : Station
+  + OBM60 : Station
+  + OBM61 : Station
+  + OBM101 : Station
+  + OBM102 : Station
+  + OBM106 : Station
+  + OBM107 : Station
+  + OBS_01 : Waypoint
+  + OBS_02 : Waypoint
+  + OBS_03 : Waypoint
+  + OBS_04 : Waypoint
+  + OBH_39 : Waypoint
+  + OBH_40 : Waypoint
+  + TOBU_01 : Waypoint
+  + TOBS_01 : Waypoint
+
+asserted 93 axioms:
+  + SO186_3_03 MissionID SO186-3-03
+  + SO186_3_03 startTime 2006-03-08 18:50
+  + SO186_3_03 endTime 2006-03-08 20:17
+  + SO186_3_03 maxDepth 175
+  + SO186_3_03 dataVolume 250
+  + SO186_3_03 hasStatus SUCCESSFUL
+  + SO186_3_03 remark Profile SO186-3-03
+  + SO186_3_01 MissionID SO186-3-01
+  + SO186_3_01 startTime 2006-03-02 23:02
+  + SO186_3_01 endTime 2006-03-04 07:30
+  + SO186_3_01 maxDepth 1949
+  + SO186_3_01 dataVolume 150
+  + SO186_3_01 hasStatus SUCCESSFUL
+  + SO186_3_01 remark Profile SO186-3-01
+  + SO186_3_02 MissionID SO186-3-02
+  + SO186_3_02 startTime 2006-03-07 02:07
+  + SO186_3_02 endTime 2006-03-07 09:24
+  + SO186_3_02 maxDepth 335
+  + SO186_3_02 dataVolume 200
+  + SO186_3_02 hasStatus SUCCESSFUL
+  + SO186_3_02 remark Profile SO186-3-02
+  + OBH_05 stationID A324
+  + OBH_05 stationName OBH 05
+  + OBH_05 stationDate 2005-10-15
+  + OBH_05 stationTime 21:15
+  + OBH_41 stationID D634
+  + OBH_41 stationName OBH 41
+  + OBH_41 stationDate 2006-01-10
+  + OBH_41 stationTime 22:45
+  + SO186_3_04 MissionID SO186-3-04
+  + SO186_3_04 startTime 2006-03-10 03:54
+  + SO186_3_04 endTime 2006-03-10 06:18
+  + SO186_3_04 maxDepth 289
+  + SO186_3_04 dataVolume 300
+  + SO186_3_04 hasStatus SUCCESSFUL
+  + SO186_3_04 remark Profile SO186-3-04
+  + OBM59 stationID OBM59
+  + OBM59 stationDate 2006-03-01/2006-03-04
+  + OBM59 stationTime 1min / 1min
+  + OBM60 stationID OBM60
+  + OBM60 stationDate 2006-03-01/2006-03-04
+  + OBM60 stationTime 1min / 1min
+  + OBM61 stationID OBM61
+  + OBM61 stationDate 2006-03-01/2006-03-04
+  + OBM61 stationTime 10min / 1min
+  + OBM101 stationID OBM101
+  + OBM101 stationDate 2006-03-06/2006-03-08
+  + OBM101 stationTime 1min / 1min
+  + OBM102 stationID OBM102
+  + OBM102 stationDate 2006-03-06/2006-03-08
+  + OBM102 stationTime 1min / 1min
+  + OBM106 stationID OBM106
+  + OBM106 stationDate 2006-03-08/2006-03-11
+  + OBM106 stationTime 1min / 1min
+  + OBM107 stationID OBM107
+  + OBM107 stationDate 2006-03-08/2006-03-11
+  + OBM107 stationTime 1min / 1min
+  + OBH_05 locationName OBH 05
+  + OBH_05 latitude 1.90033
+  + OBH_05 longitude 96.20007
+  + OBH_05 seabedDepth 2364
+  + OBS_01 locationName OBS 01
+  + OBS_01 latitude 2.80040
+  + OBS_01 longitude 97.20060
+  + OBS_01 seabedDepth 834
+  + OBS_02 locationName OBS 02
+  + OBS_02 latitude 2.70013
+  + OBS_02 longitude 96.85073
+  + OBS_02 seabedDepth 1123
+  + OBS_03 locationName OBS 03
+  + OBS_03 latitude 2.20015
+  + OBS_03 longitude 96.30020
+  + OBS_03 seabedDepth 1021
+  + OBS_04 locationName OBS 04
+  + OBS_04 latitude 1.96645
+  + OBS_04 longitude 96.49968
+  + OBS_04 seabedDepth 1155
+  + OBH_39 locationName OBH 39
+  + OBH_39 latitude 2.70067
+  + OBH_39 longitude 95.06588
+  + OBH_39 seabedDepth 1104
+  + OBH_40 locationName OBH 40
+  + OBH_40 latitude 2.80077
+  + OBH_40 longitude 94.93310
+  + OBH_40 seabedDepth 865
+  + TOBU_01 locationName TOBU 01
+  + TOBU_01 latitude -3.73167
+  + TOBU_01 longitude 99.23000
+  + TOBU_01 seabedDepth 5290
+  + TOBS_01 locationName TOBS 01
+  + TOBS_01 latitude -3.71667
+  + TOBS_01 longitude 99.23417
+  + TOBS_01 seabedDepth 5228
+
+skipped 1 excluded axioms:
+  - SO186 hasTask SEACAUSE   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep6.rdf

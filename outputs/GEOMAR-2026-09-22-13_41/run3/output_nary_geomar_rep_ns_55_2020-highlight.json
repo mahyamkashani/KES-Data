@@ -1,0 +1,37 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "JAGO hasVehicle JAGO",
+                "JAGO hasDestination Baia_di_Levante",
+                "JAGO goes_through Baia_di_Levante"
+            ],
+            "Individuals": [
+                "JAGO",
+                "Baia_di_Levante"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "ANTON hasVehicle ANTON",
+                "ANTON hasDestination Panarea",
+                "ANTON goes_through Panarea"
+            ],
+            "Individuals": [
+                "ANTON",
+                "Panarea"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "JAGO hasVehicle JAGO",
+                "JAGO hasDestination Sciara_del_Fuoco",
+                "JAGO goes_through Sciara_del_Fuoco"
+            ],
+            "Individuals": [
+                "JAGO",
+                "Sciara_del_Fuoco"
+            ]
+        }
+    }
+}

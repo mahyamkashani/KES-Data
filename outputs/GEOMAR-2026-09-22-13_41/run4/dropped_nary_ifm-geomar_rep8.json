@@ -1,0 +1,22 @@
+[
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_050-1 hasTask OBS/OBH",
+        "reason": "'SO190_050-1 hasTask OBS/OBH': 'SO190_050-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-1 hasTask OBS/OBH",
+        "reason": "'SO190_052-1 hasTask OBS/OBH': 'SO190_052-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_053-1 hasTask MAGN",
+        "reason": "'SO190_053-1 hasTask MAGN': 'SO190_053-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_054-1 hasTask EM",
+        "reason": "'SO190_054-1 hasTask EM': 'SO190_054-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

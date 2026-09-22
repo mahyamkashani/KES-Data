@@ -1,0 +1,56 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Baltic_Sea": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Alice_Freymann": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Alice_Freymann: 'Station_Alice_Freymann' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Meerkatze": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Meerkatze: 'Station_Meerkatze' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Time_Series_Station_Boknis_Eck": {
+                "class": "Task"
+            }
+        },
+        "reason": "Time_Series_Station_Boknis_Eck: 'Time_Series_Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "North_Atlantic_Surface_Data": {
+                "class": "Task"
+            }
+        },
+        "reason": "North_Atlantic_Surface_Data: 'North_Atlantic_Surface_Data' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Kiel_Canal_Salinity_Time_Series": {
+                "class": "Task"
+            }
+        },
+        "reason": "Kiel_Canal_Salinity_Time_Series: 'Kiel_Canal_Salinity_Time_Series' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

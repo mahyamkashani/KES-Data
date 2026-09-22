@@ -1,0 +1,168 @@
+{
+    "Individuals": {
+        "BIGO_1": {
+            "class": "Mission",
+            "MissionID": "BIGO_1",
+            "startTime": "2007-02-08 02:35",
+            "endTime": "2007-02-08 03:00",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "BIGO retrieval at Rock Garden."
+        },
+        "SO191/001-1": {
+            "class": "Station",
+            "stationID": "SO191/001-1",
+            "stationDate": "2007-01-11",
+            "stationTime": "22:16"
+        },
+        "SO191/004-1": {
+            "class": "Station",
+            "stationID": "SO191/004-1",
+            "stationDate": "2007-01-13",
+            "stationTime": "17:33"
+        },
+        "SO191/006-1": {
+            "class": "Station",
+            "stationID": "SO191/006-1",
+            "stationDate": "2007-01-15",
+            "stationTime": "07:56"
+        },
+        "SO191/007-1": {
+            "class": "Station",
+            "stationID": "SO191/007-1",
+            "stationDate": "2007-01-16",
+            "stationTime": "12:48"
+        },
+        "SO191/010-1": {
+            "class": "Station",
+            "stationID": "SO191/010-1",
+            "stationDate": "2007-01-19",
+            "stationTime": "09:38"
+        },
+        "SO191/011-1": {
+            "class": "Station",
+            "stationID": "SO191/011-1",
+            "stationDate": "2007-01-19",
+            "stationTime": "12:36"
+        },
+        "SO191/012-1": {
+            "class": "Station",
+            "stationID": "SO191/012-1",
+            "stationDate": "2007-01-20",
+            "stationTime": "22:46"
+        },
+        "SO191/013-1": {
+            "class": "Station",
+            "stationID": "SO191/013-1",
+            "stationDate": "2007-01-21",
+            "stationTime": "09:08"
+        },
+        "SO191/014-1": {
+            "class": "Station",
+            "stationID": "SO191/014-1",
+            "stationDate": "2007-01-22",
+            "stationTime": "03:00"
+        },
+        "SO191/017-1": {
+            "class": "Station",
+            "stationID": "SO191/017-1",
+            "stationDate": "2007-01-23",
+            "stationTime": "09:39"
+        },
+        "SO191/018-1": {
+            "class": "Station",
+            "stationID": "SO191/018-1",
+            "stationDate": "2007-01-24",
+            "stationTime": "05:29"
+        },
+        "SO191/019-1": {
+            "class": "Station",
+            "stationID": "SO191/019-1",
+            "stationDate": "2007-01-24",
+            "stationTime": "08:38"
+        },
+        "SO191/021-1": {
+            "class": "Station",
+            "stationID": "SO191/021-1",
+            "stationDate": "2007-01-25",
+            "stationTime": "13:06"
+        },
+        "SO191/022-1": {
+            "class": "Station",
+            "stationID": "SO191/022-1",
+            "stationDate": "2007-01-25",
+            "stationTime": "15:25"
+        },
+        "SO191/023-1": {
+            "class": "Station",
+            "stationID": "SO191/023-1",
+            "stationDate": "2007-01-26",
+            "stationTime": "19:26"
+        },
+        "SO191/024-1": {
+            "class": "Station",
+            "stationID": "SO191/024-1",
+            "stationDate": "2007-01-27",
+            "stationTime": "02:07"
+        },
+        "SO191/025-1": {
+            "class": "Station",
+            "stationID": "SO191/025-1",
+            "stationDate": "2007-01-27",
+            "stationTime": "08:36"
+        },
+        "SO191/028-1": {
+            "class": "Station",
+            "stationID": "SO191/028-1",
+            "stationDate": "2007-01-28",
+            "stationTime": "15:55"
+        },
+        "SO191/030-1": {
+            "class": "Station",
+            "stationID": "SO191/030-1",
+            "stationDate": "2007-01-29",
+            "stationTime": "21:46"
+        },
+        "SO191/031-1": {
+            "class": "Station",
+            "stationID": "SO191/031-1",
+            "stationDate": "2007-01-30",
+            "stationTime": "03:55"
+        },
+        "SO191/035-1": {
+            "class": "Station",
+            "stationID": "SO191/035-1",
+            "stationDate": "2007-01-31",
+            "stationTime": "12:43"
+        },
+        "CTD_6": {
+            "class": "State",
+            "has_Depth": "1059"
+        },
+        "CTD_8": {
+            "class": "State"
+        },
+        "CTD_9": {
+            "class": "State"
+        },
+        "CTD_11": {
+            "class": "State"
+        },
+        "CTD_12": {
+            "class": "State",
+            "has_Depth": "1106"
+        },
+        "CTD_18": {
+            "class": "State"
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Depth": "1101"
+        },
+        "CTD_21": {
+            "class": "State"
+        },
+        "CTD_39": {
+            "class": "State"
+        }
+    }
+}

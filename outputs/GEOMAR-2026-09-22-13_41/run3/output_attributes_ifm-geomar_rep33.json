@@ -1,0 +1,82 @@
+{
+    "Individuals": {
+        "SO203": {
+            "class": "Mission",
+            "MissionID": "SO203",
+            "startTime": "2009-10-30 05:54",
+            "endTime": "2009-11-18 23:30",
+            "maxDepth": "4000m",
+            "dataVolume": "12 GB",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Mission involved multiple dives and data collection."
+        },
+        "Dive_012": {
+            "class": "Task",
+            "hasDuration": 2.5,
+            "hasStatus": "PartialFAILURE"
+        },
+        "Dive_013": {
+            "class": "State",
+            "has_Temperature": "2100",
+            "has_Depth": "2100"
+        },
+        "Dive_014": {
+            "class": "State",
+            "has_Temperature": "2130",
+            "has_Depth": "2130"
+        },
+        "Station_124": {
+            "class": "Station",
+            "stationID": "124",
+            "stationDate": "2009-11-21",
+            "stationTime": "05:28-09:20"
+        },
+        "Station_137": {
+            "class": "Station",
+            "stationID": "137",
+            "stationDate": "2009-11-23",
+            "stationTime": "18:33-21:33"
+        },
+        "Moresby_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Moresby Seamount",
+            "latitude": "-9.81667",
+            "longitude": "155.58333",
+            "seabedDepth": "variable"
+        },
+        "Franklin_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Franklin Seamount",
+            "latitude": "-9.89473",
+            "longitude": "151.79732",
+            "seabedDepth": "2348m"
+        },
+        "Cheshire_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Cheshire Seamount",
+            "latitude": "-9.77872",
+            "longitude": "151.81125",
+            "seabedDepth": "1686m"
+        },
+        "Dive_015": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_016": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "Dive_018": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "Dive_019": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_020": {
+            "class": "Task",
+            "hasStatus": "PartialFAILURE"
+        }
+    }
+}

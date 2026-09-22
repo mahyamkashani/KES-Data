@@ -1,0 +1,90 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "739SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "745SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "748SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "744CTD",
+                "hasDuration": "1 hour 10 minutes",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "730DR",
+                "hasDuration": "1 hour 10 minutes",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "half load of pelagic sediment with some nontronite-rich parts; several small pieces of massive sulfide and Fe-Mn-oxides"
+            },
+            {
+                "individual_name": "731DR",
+                "hasDuration": "1 hour 10 minutes",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "full load of pelagic sediment with two large pieces of Mn-Fe-oxides and Mn-Fe cemented carbonate shells"
+            },
+            {
+                "individual_name": "732DR",
+                "hasDuration": "1 hour",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "single piece (200 g) of Mn-oxides"
+            }
+        ],
+        "Traversal": [
+            {
+                "individual_name": "P340",
+                "hasDuration": "11 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "ROV Cherokee"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "721CTD",
+                "stationID": "721CTD",
+                "stationName": "Sound Velocity Profile",
+                "stationDate": "2006-07-06",
+                "stationTime": "18:22-21:50"
+            },
+            {
+                "individual_name": "722SBM",
+                "stationID": "722SBM",
+                "stationName": "Multibeam Mapping",
+                "stationDate": "2006-07-06",
+                "stationTime": "22:00-06:30"
+            }
+        ]
+    }
+}

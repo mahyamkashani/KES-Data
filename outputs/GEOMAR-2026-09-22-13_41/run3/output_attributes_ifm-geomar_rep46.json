@@ -1,0 +1,21 @@
+{
+    "Individuals": {
+        "Station_34_CTD": {
+            "class": "State",
+            "has_Temperature": "36",
+            "has_Conductivity": "2000"
+        },
+        "Hatiba_Deep": {
+            "class": "Waypoint",
+            "locationName": "Hatiba Deep",
+            "latitude": "22.05000",
+            "longitude": "37.84333"
+        },
+        "Port_Sudan_Deep": {
+            "class": "Waypoint",
+            "locationName": "Port Sudan Deep",
+            "latitude": "20.07683",
+            "longitude": "38.51217"
+        }
+    }
+}

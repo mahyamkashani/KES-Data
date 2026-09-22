@@ -1,0 +1,31 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV POSEIDON"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "North Alex MV temperature observatory",
+                "stationID": "NA-001",
+                "stationName": "North Alex",
+                "stationDate": "2009-07-24",
+                "stationTime": "21:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "Individuals": {
+        "PIES123": {
+            "class": "Task",
+            "hasStatus": "PartialFAILURE"
+        },
+        "PIES128": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "PIES127": {
+            "class": "Task",
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "PIES005": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "PIES165": {
+            "class": "Waypoint",
+            "locationName": "PIES165",
+            "latitude": "15.98683",
+            "longitude": "56.95117",
+            "seabedDepth": "5001.1"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive ATA24ROV",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "Dive ATA24ROV hasSensor ADCP"
+        },
+        "reason": "Dive ATA24ROV hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; Dive ATA24ROV hasSensor ADCP: 'Dive ATA24ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive ATA24ROV",
+                "Camera"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "Dive ATA24ROV hasSensor Camera"
+        },
+        "reason": "Dive ATA24ROV hasSensor Camera: 'Camera' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; Dive ATA24ROV hasSensor Camera: 'Dive ATA24ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive ATA27ROV",
+                "Smoni"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Smoni",
+            "AXIOM": "Dive ATA27ROV hasSensor Smoni"
+        },
+        "reason": "Dive ATA27ROV hasSensor Smoni: RANGE 'Smoni' is not a class in the ontology; Dive ATA27ROV hasSensor Smoni: 'Dive ATA27ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive ATA27ROV",
+                "OBT"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "OBT",
+            "AXIOM": "Dive ATA27ROV hasSensor OBT"
+        },
+        "reason": "Dive ATA27ROV hasSensor OBT: RANGE 'OBT' is not a class in the ontology; Dive ATA27ROV hasSensor OBT: 'Dive ATA27ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive ATA27ROV",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTD",
+            "AXIOM": "Dive ATA27ROV hasSensor CTD"
+        },
+        "reason": "Dive ATA27ROV hasSensor CTD: RANGE 'CTD' is not a class in the ontology; Dive ATA27ROV hasSensor CTD: 'Dive ATA27ROV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,314 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "SONNE hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 01"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 01"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 02"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 02"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 03"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 03"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 04"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 04"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 05"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 05"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 06"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 06"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 07"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 07"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 08"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 08"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 09"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 09"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 10"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 10"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 11"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 11"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 12"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 12"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 13"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 13"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 14"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 14"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 15"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 15"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 16"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 16"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 17"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 17"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 18"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 18"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 19"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 19"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 20"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 20"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 21"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 21"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 22"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 22"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 23"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 23"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 24"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 24"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 25"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 25"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 26"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 26"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 27"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 27"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 28"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 28"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 29"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 29"
+        },
+        {
+            "INDIVIDUAL": [
+                "SONNE",
+                "OBS 30"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "SONNE hasSensor OBS 30"
+        }
+    ]
+}

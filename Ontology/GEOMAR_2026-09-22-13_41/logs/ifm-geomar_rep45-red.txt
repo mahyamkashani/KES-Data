@@ -1,0 +1,70 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 64
+
+created 49 individuals:
+  + RV_Poseidon : Ship
+  + RV_Maria_S_Merian : Ship
+  + POS389 : Station
+  + POS393 : Station
+  + MSM15_5 : Station
+  + OBS_1 : State
+  + OBS_2 : State
+  + OBS_3 : State
+  + OBS_4 : State
+  + OBS_5 : State
+  + OBS_6 : State
+  + OBS_7 : State
+  + OBS_8 : State
+  + OBS_9 : State
+  + OBS_10 : State
+  + OBS_11 : State
+  + OBS_12 : State
+  + OBS_13 : State
+  + OBS_14 : State
+  + OBS_15 : State
+  + OBS_16 : State
+  + OBS_17 : State
+  + OBS_31 : State
+  + OBS_32 : State
+  + OBS_33 : State
+  + OBS_34 : State
+  + OBS_35 : State
+  + OBS_36 : State
+  + OBS_37 : State
+  + OBS_38 : State
+  + OBS_39 : State
+  + OBS_40 : State
+  + OBS_41 : State
+  + OBS_42 : State
+  + OBS_43 : State
+  + OBS_44 : State
+  + OBS_45 : State
+  + OBS_46 : State
+  + OBS_47 : State
+  + OBS_48 : State
+  + OBS_49 : State
+  + OBS_50 : State
+  + OBS_51 : State
+  + OBS_52 : State
+  + OBS_53 : State
+  + OBS_54 : State
+  + RV_Poseidon_cruise_P389 : Task
+  + RV_Poseidon_cruise_P393 : Task
+  + RV_Maria_S_Merian_cruise_MSM15_5 : Task
+
+asserted 12 axioms:
+  + POS389 stationID POS389
+  + POS389 stationDate 06.–17.08.2009
+  + POS389 stationTime 18:40
+  + POS393 stationID POS393
+  + POS393 stationDate 14.–24.01.2010
+  + POS393 stationTime 08:20
+  + MSM15_5 stationID MSM15/5
+  + MSM15_5 stationDate 17.–29.07.2010
+  + MSM15_5 stationTime 22:10
+  + RV_Poseidon_cruise_P389 hasStatus SUCCESSFUL
+  + RV_Poseidon_cruise_P393 hasStatus SUCCESSFUL
+  + RV_Maria_S_Merian_cruise_MSM15_5 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep45-red.rdf

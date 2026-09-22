@@ -1,0 +1,38 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "DR_60": {
+                "class": "Task"
+            }
+        },
+        "reason": "DR_60: 'DR_60' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_70": {
+                "class": "Task"
+            }
+        },
+        "reason": "DR_70: 'DR_70' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_83": {
+                "class": "Task"
+            }
+        },
+        "reason": "DR_83: 'DR_83' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_85": {
+                "class": "Task"
+            }
+        },
+        "reason": "DR_85: 'DR_85' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

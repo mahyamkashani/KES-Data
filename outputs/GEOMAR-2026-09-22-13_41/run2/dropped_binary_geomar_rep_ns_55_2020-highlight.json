@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "AUV ANTON",
+                "CoraMo MK2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "AUV ANTON hasSensor CoraMo MK2"
+        },
+        "reason": "AUV ANTON hasSensor CoraMo MK2: 'AUV ANTON' and 'CoraMo MK2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

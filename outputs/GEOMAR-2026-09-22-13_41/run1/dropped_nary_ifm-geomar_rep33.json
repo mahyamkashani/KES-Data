@@ -1,0 +1,112 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_137",
+        "reason": "'ABYSS hasDestination Station_137': 'ABYSS' and 'Station_137' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO203 hasTask Dive_013",
+        "reason": "'SO203 hasTask Dive_013': 'SO203' and 'Dive_013' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_013 hasAction ABYSS",
+        "reason": "'Dive_013 hasAction ABYSS': 'Dive_013' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_141",
+        "reason": "'ABYSS hasDestination Station_141': 'ABYSS' and 'Station_141' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO203 hasTask Dive_014",
+        "reason": "'SO203 hasTask Dive_014': 'SO203' and 'Dive_014' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_014 hasAction ABYSS",
+        "reason": "'Dive_014 hasAction ABYSS': 'Dive_014' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_149",
+        "reason": "'ABYSS hasDestination Station_149': 'ABYSS' and 'Station_149' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_150",
+        "reason": "'ABYSS hasDestination Station_150': 'ABYSS' and 'Station_150' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_016 hasAction ABYSS",
+        "reason": "'Dive_016 hasAction ABYSS': 'Dive_016' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_151",
+        "reason": "'ABYSS hasDestination Station_151': 'Station_151' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO203 hasTask Dive_017",
+        "reason": "'SO203 hasTask Dive_017': 'Dive_017' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_017 hasAction ABYSS",
+        "reason": "'Dive_017 hasAction ABYSS': 'Dive_017' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_152",
+        "reason": "'ABYSS hasDestination Station_152': 'Station_152' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO203 hasTask Dive_018",
+        "reason": "'SO203 hasTask Dive_018': 'SO203' and 'Dive_018' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_018 hasAction ABYSS",
+        "reason": "'Dive_018 hasAction ABYSS': 'Dive_018' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_153",
+        "reason": "'ABYSS hasDestination Station_153': 'Station_153' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_019 hasAction ABYSS",
+        "reason": "'Dive_019 hasAction ABYSS': 'Dive_019' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_154",
+        "reason": "'ABYSS hasDestination Station_154': 'Station_154' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_020 hasAction ABYSS",
+        "reason": "'Dive_020 hasAction ABYSS': 'Dive_020' and 'ABYSS' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ABYSS hasDestination Station_155",
+        "reason": "'ABYSS hasDestination Station_155': 'Station_155' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "DR130-1 hasAction DR130-2",
+        "reason": "'DR130-1 hasAction DR130-2': 'DR130-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "DR146-1 hasAction DR146-2",
+        "reason": "'DR146-1 hasAction DR146-2': 'DR146-1', 'DR146-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

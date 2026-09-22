@@ -1,0 +1,48 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Dive 012",
+                "hasStatus": "FAILED"
+            },
+            {
+                "individual_name": "Dive 013",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Dive 014",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Dive 015",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Dive 016",
+                "hasStatus": "FAILED"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "TV-grab",
+                "hasStatus": "FAILED",
+                "collect_sample": "small basaltic glass chips"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "ABYSS",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    }
+}

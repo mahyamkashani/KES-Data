@@ -1,0 +1,29 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "POS379_1": {
+                "class": "Mission"
+            }
+        },
+        "reason": "POS379_1: 'POS379_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mt_Demenitskoy": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mt_Demenitskoy: 'Mt_Demenitskoy' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mt_Demenitskoy": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Mt_Demenitskoy: 'Mt_Demenitskoy' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

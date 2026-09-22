@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "POS403 hasTask M1",
+        "reason": "'POS403 hasTask M1': 'POS403' and 'M1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Deploy hasVehicle AUV_Abyss",
+        "reason": "'Deploy hasVehicle AUV_Abyss': 'Deploy' and 'AUV_Abyss' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

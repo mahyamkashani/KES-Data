@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "ATA24ROV",
+                "OBT"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "OBT",
+            "AXIOM": "ATA24ROV hasSensor OBT"
+        },
+        "reason": "ATA24ROV hasSensor OBT: RANGE 'OBT' is not a class in the ontology; ATA24ROV hasSensor OBT: 'ATA24ROV' and 'OBT' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

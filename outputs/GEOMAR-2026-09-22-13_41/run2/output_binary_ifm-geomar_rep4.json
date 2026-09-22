@@ -1,0 +1,204 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "RV SONNE hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV SONNE hasSensor OFOS"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "TVG"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV SONNE hasSensor TVG"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "TV-MUC"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "RV SONNE hasSensor TV-MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DAPC"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor DAPC"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "GC"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor GC"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "MUC"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "RV SONNE hasSensor MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Haiyang 4"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV SONNE usesVehicle Haiyang 4"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 11"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 12"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 20"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 20"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 21"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 27"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 27"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 33"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 33"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 99"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 99"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 103"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 103"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 107"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 107"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO177",
+                "Station 111"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO177 hasTask Station 111"
+        }
+    ]
+}

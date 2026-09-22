@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO193 goes_through Waypoint_Suva",
+        "reason": "'SO193 goes_through Waypoint_Suva': 'Waypoint_Suva' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO193 goes_through Waypoint_Apia",
+        "reason": "'SO193 goes_through Waypoint_Apia': 'Waypoint_Apia' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

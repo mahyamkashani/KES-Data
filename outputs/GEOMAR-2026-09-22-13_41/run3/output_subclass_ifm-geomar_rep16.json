@@ -1,0 +1,35 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD-O2 system",
+                "hasStatus": "PartialFAILURE"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Water Samples",
+                "collect_sample": "O2, N2O, SF6, CFC-12, He3, nutrients, salinity, total organic matter (TOC), chlorophyll"
+            }
+        ],
+        "SurveyMission": [
+            {
+                "individual_name": "Cruise P347"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ]
+    }
+}

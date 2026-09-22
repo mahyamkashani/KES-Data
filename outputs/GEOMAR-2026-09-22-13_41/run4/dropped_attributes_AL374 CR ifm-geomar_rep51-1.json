@@ -1,0 +1,119 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_495": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_495: 'Station_495' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_496": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_496: 'Station_496' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_497": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_497: 'Station_497' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_505": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_505: 'Station_505' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_513": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_513: 'Station_513' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_520": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_520: 'Station_520' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_524": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_524: 'Station_524' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_534": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_534: 'Station_534' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_542": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_542: 'Station_542' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_546": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_546: 'Station_546' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD10": {
+                "has_Depth": 80
+            }
+        },
+        "reason": "CTD10: has_Depth=80 is not printed on any page that names 'CTD10' - copy the number the report prints beside 'CTD10', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD11": {
+                "has_Depth": 80
+            }
+        },
+        "reason": "CTD11: has_Depth=80 is not printed on any page that names 'CTD11' - copy the number the report prints beside 'CTD11', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD12": {
+                "has_Depth": 80
+            }
+        },
+        "reason": "CTD12: has_Depth=80 is not printed on any page that names 'CTD12' - copy the number the report prints beside 'CTD12', or leave has_Depth out"
+    }
+]

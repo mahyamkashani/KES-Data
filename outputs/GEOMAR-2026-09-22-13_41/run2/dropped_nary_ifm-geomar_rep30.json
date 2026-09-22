@@ -1,0 +1,7 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "900RDV hasDestination Secca_dei_Pana_relli",
+        "reason": "'900RDV hasDestination Secca_dei_Pana_relli': '900RDV' and 'Secca_dei_Pana_relli' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO177 hasTask Leg_2",
+        "reason": "'SO177 hasTask Leg_2': 'SO177' and 'Leg_2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg_2 hasAction OFOS_Survey",
+        "reason": "'Leg_2 hasAction OFOS_Survey': 'Leg_2' and 'OFOS_Survey' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-1 hasAction GravityCoring",
+        "reason": "'GC-1 hasAction GravityCoring': 'GravityCoring' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-1 hasDestination Haiyang4",
+        "reason": "'GC-1 hasDestination Haiyang4': 'GC-1' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-2 hasAction GravityCoring",
+        "reason": "'GC-2 hasAction GravityCoring': 'GravityCoring' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "GC-2 hasDestination Haiyang4",
+        "reason": "'GC-2 hasDestination Haiyang4': 'GC-2' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "DAPC-1 hasAction DynamicAutoclavePistonCoring",
+        "reason": "'DAPC-1 hasAction DynamicAutoclavePistonCoring': 'DynamicAutoclavePistonCoring' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "DAPC-1 hasDestination Haiyang4",
+        "reason": "'DAPC-1 hasDestination Haiyang4': 'DAPC-1' and 'Haiyang4' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "TVG-1 hasAction TVGrabSampling",
+        "reason": "'TVG-1 hasAction TVGrabSampling': 'TVGrabSampling' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "TVG-1 hasDestination JiuLong",
+        "reason": "'TVG-1 hasDestination JiuLong': 'TVG-1' and 'JiuLong' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04-2 goes_through Dive_01",
+        "reason": "'MSM04-2 goes_through Dive_01': 'Dive_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_01 goes_through Waypoint_01",
+        "reason": "'Dive_01 goes_through Waypoint_01': 'Dive_01', 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Dive_01 hasVehicle RV_MariaSMerian",
+        "reason": "'Dive_01 hasVehicle RV_MariaSMerian': 'Dive_01', 'RV_MariaSMerian' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

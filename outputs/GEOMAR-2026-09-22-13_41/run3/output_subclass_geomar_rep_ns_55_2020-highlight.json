@@ -1,0 +1,61 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "ANTON",
+                "maxDepth": "500 m"
+            },
+            {
+                "individual_name": "LUISE",
+                "maxDepth": "500 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "JAGO",
+                "maxDepth": "400 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "FS ALKOR"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 5-1",
+                "stationID": "AL533_5-1",
+                "stationName": "Panarea",
+                "stationDate": "2020-02-08",
+                "stationTime": "12:20"
+            },
+            {
+                "individual_name": "Station 11-1",
+                "stationID": "AL533_11-1",
+                "stationDate": "2020-02-12"
+            },
+            {
+                "individual_name": "Station 14-1",
+                "stationID": "AL533_14-1",
+                "stationDate": "2020-02-13"
+            },
+            {
+                "individual_name": "Station 17-1",
+                "stationID": "AL533_17-1",
+                "stationDate": "2020-02-15",
+                "stationTime": "07:20"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Individuals": {
+        "CV_Alice_Freymann": {
+            "class": "Task",
+            "hasDuration": "2.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "FSB_Meerkatze": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Kiel_Canal": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Station_1": {
+            "class": "State"
+        },
+        "Station_2": {
+            "class": "State"
+        },
+        "Station_3": {
+            "class": "State"
+        },
+        "Station_4": {
+            "class": "State"
+        },
+        "Station_5": {
+            "class": "State"
+        },
+        "Station_6": {
+            "class": "State"
+        },
+        "Station_7": {
+            "class": "State"
+        },
+        "Station_8": {
+            "class": "State"
+        },
+        "Station_9": {
+            "class": "State"
+        },
+        "Station_10": {
+            "class": "State"
+        },
+        "Station_11": {
+            "class": "State"
+        }
+    }
+}

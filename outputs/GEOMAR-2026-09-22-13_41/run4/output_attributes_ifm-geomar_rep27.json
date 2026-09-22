@@ -1,0 +1,45 @@
+{
+    "Individuals": {
+        "Cruise_64PE298": {
+            "class": "Mission",
+            "MissionID": "64PE298",
+            "startTime": "2008-11-06 07:00",
+            "endTime": "2008-11-23 21:30",
+            "dataVolume": "Data collected includes seismic, temperature, and geochemical measurements.",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Third expedition of the West-Nile Delta project."
+        },
+        "North_Alex": {
+            "class": "Waypoint",
+            "locationName": "North Alex",
+            "latitude": "31.96770",
+            "longitude": "30.13472",
+            "seabedDepth": "500 m"
+        },
+        "Giza": {
+            "class": "Waypoint",
+            "locationName": "Giza",
+            "latitude": "31.67487",
+            "longitude": "29.75620",
+            "seabedDepth": "1 m"
+        },
+        "Dive 3": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive 17": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "North_Alex_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "50",
+            "has_Depth": "4"
+        },
+        "Giza_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "17",
+            "has_Depth": "6"
+        }
+    }
+}

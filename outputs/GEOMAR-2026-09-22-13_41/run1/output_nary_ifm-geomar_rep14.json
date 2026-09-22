@@ -1,0 +1,21 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO195/015-1 goes_through OBH_216",
+                "SO195/015-1 goes_through OBH_215",
+                "SO195/015-1 goes_through OBH_214",
+                "SO195/015-1 goes_through OBH_213",
+                "SO195/015-1 goes_through OBH_212"
+            ],
+            "Individuals": [
+                "SO195/015-1",
+                "OBH_216",
+                "OBH_215",
+                "OBH_214",
+                "OBH_213",
+                "OBH_212"
+            ]
+        }
+    }
+}

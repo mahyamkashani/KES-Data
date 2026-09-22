@@ -1,0 +1,15 @@
+{
+    "Task": {
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [],
+        "AUV": []
+    },
+    "Platform": {
+        "Station": [],
+        "Ship": []
+    }
+}

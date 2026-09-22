@@ -1,0 +1,89 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA04OBS",
+                "HYDROMAR_V hasTask ATA08MAPR",
+                "HYDROMAR_V hasTask ATA09ROV",
+                "HYDROMAR_V hasTask ATA10CTD",
+                "HYDROMAR_V hasTask ATA13ROV",
+                "HYDROMAR_V hasTask ATA15ROV",
+                "HYDROMAR_V hasTask ATA17ROV",
+                "HYDROMAR_V hasTask ATA21ROV",
+                "HYDROMAR_V hasTask ATA24ROV",
+                "HYDROMAR_V hasTask ATA30ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA04OBS",
+                "ATA08MAPR",
+                "ATA09ROV",
+                "ATA10CTD",
+                "ATA13ROV",
+                "ATA15ROV",
+                "ATA17ROV",
+                "ATA21ROV",
+                "ATA24ROV",
+                "ATA30ROV"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA09ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA09ROV"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA13ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA13ROV"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA15ROV",
+                "ATA15ROV hasDestination Quest"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA15ROV",
+                "Quest"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA17ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA17ROV"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA21ROV",
+                "ATA21ROV hasDestination Quest"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA21ROV",
+                "Quest"
+            ]
+        },
+        "pattern07": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA24ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA24ROV"
+            ]
+        }
+    }
+}

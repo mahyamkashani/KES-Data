@@ -1,0 +1,62 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "So01 hasAction AIRSAMPLING",
+                "So02 hasAction AIRSAMPLING",
+                "So03 hasAction AIRSAMPLING",
+                "So04 hasAction AIRSAMPLING",
+                "So05 hasAction AIRSAMPLING",
+                "So06 hasAction AIRSAMPLING",
+                "So07 hasAction AIRSAMPLING",
+                "So08 hasAction AIRSAMPLING",
+                "So09 hasAction AIRSAMPLING",
+                "So10 hasAction AIRSAMPLING",
+                "So11 hasAction AIRSAMPLING",
+                "So12 hasAction AIRSAMPLING",
+                "So13 hasAction AIRSAMPLING",
+                "So14 hasAction AIRSAMPLING",
+                "So15 hasAction AIRSAMPLING",
+                "So16 hasAction AIRSAMPLING",
+                "So17 hasAction AIRSAMPLING",
+                "So18 hasAction AIRSAMPLING",
+                "So19 hasAction AIRSAMPLING",
+                "So20 hasAction AIRSAMPLING",
+                "So21 hasAction AIRSAMPLING",
+                "So22 hasAction AIRSAMPLING",
+                "So23 hasAction AIRSAMPLING",
+                "So24 hasAction AIRSAMPLING",
+                "So25 hasAction AIRSAMPLING",
+                "So26 hasAction AIRSAMPLING"
+            ],
+            "Individuals": [
+                "So01",
+                "So02",
+                "So03",
+                "So04",
+                "So05",
+                "So06",
+                "So07",
+                "So08",
+                "So09",
+                "So10",
+                "So11",
+                "So12",
+                "So13",
+                "So14",
+                "So15",
+                "So16",
+                "So17",
+                "So18",
+                "So19",
+                "So20",
+                "So21",
+                "So22",
+                "So23",
+                "So24",
+                "So25",
+                "So26"
+            ]
+        }
+    }
+}

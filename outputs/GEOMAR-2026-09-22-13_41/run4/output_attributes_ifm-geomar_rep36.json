@@ -1,0 +1,132 @@
+{
+    "Individuals": {
+        "ROV 1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 2": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 3": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 4": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 5": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 6": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 7": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 8": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 9": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 11": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 13": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV 14": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD_1": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 12.0
+        },
+        "CTD_2": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_3": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_5": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_9": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 24.0
+        },
+        "CTD_10": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_14": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 28.0
+        },
+        "CTD_15": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_16": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 24.0
+        },
+        "CTD_17": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 26.0
+        },
+        "CTD_19": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 10.0
+        },
+        "CTD_23": {
+            "class": "State",
+            "has_Temperature": 0.0,
+            "has_Conductivity": 0.0,
+            "has_Depth": 74.0
+        }
+    }
+}

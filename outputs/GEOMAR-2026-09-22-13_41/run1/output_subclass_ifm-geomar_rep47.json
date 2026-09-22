@@ -1,0 +1,50 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Survey",
+                "hasDuration": "from 22:30 hours on 15th March to 19:20 hrs on 15th March",
+                "hasStatus": "PartialFAILURE"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Bathymetric Mapping",
+                "hasDuration": "completed",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "OBS_01",
+                "stationID": "OBS_01",
+                "stationName": "Omakere",
+                "stationDate": "2011-03-12"
+            },
+            {
+                "individual_name": "OBS_02",
+                "stationID": "OBS_02",
+                "stationName": "Porangahau",
+                "stationDate": "2011-03-20"
+            },
+            {
+                "individual_name": "OBS_01",
+                "stationID": "OBS_01",
+                "stationName": "Wairarapa",
+                "stationDate": "2011-03-28"
+            }
+        ]
+    }
+}

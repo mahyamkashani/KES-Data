@@ -1,0 +1,32 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "IFM_GEOMAR-4 hasTask KPO_1021",
+        "reason": "'IFM_GEOMAR-4 hasTask KPO_1021': 'IFM_GEOMAR-4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "KPO_1021 hasAction MicrostructureMeasurements",
+        "reason": "'KPO_1021 hasAction MicrostructureMeasurements': 'MicrostructureMeasurements' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_LATALANTE",
+        "reason": "'Traversal_1 hasVehicle RV_LATALANTE': 'Traversal_1', 'RV_LATALANTE' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasDestination Waypoint_1",
+        "reason": "'Traversal_1 hasDestination Waypoint_1': 'Traversal_1', 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 goes_through Waypoint_2",
+        "reason": "'Traversal_1 goes_through Waypoint_2': 'Traversal_1', 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Terrain_1 requiresNavigation Waypoint_1",
+        "reason": "'Terrain_1 requiresNavigation Waypoint_1': 'Terrain_1', 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

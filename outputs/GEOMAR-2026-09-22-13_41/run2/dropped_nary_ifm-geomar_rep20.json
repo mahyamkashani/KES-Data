@@ -1,0 +1,187 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "JC23 hasTask Task_01",
+        "reason": "'JC23 hasTask Task_01': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task_01 hasAction Action_01",
+        "reason": "'Task_01 hasAction Action_01': 'Task_01', 'Action_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal hasDestination OBS_501",
+        "reason": "'Traversal hasDestination OBS_501': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal hasDestination OBS_501': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal goes_through OBS_502",
+        "reason": "'Traversal goes_through OBS_502': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through OBS_502': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Terrain requiresNavigation OBS_503",
+        "reason": "'Terrain requiresNavigation OBS_503': 'Terrain' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Terrain requiresNavigation OBS_503': 'Terrain' and 'OBS_503' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Cruise_JC23a hasTask Task_01",
+        "reason": "'Cruise_JC23a hasTask Task_01': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_202",
+        "reason": "'Task_01 hasAction OBS_202': 'Task_01', 'OBS_202' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_203",
+        "reason": "'Task_01 hasAction OBS_203': 'Task_01', 'OBS_203' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_204",
+        "reason": "'Task_01 hasAction OBS_204': 'Task_01', 'OBS_204' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_205",
+        "reason": "'Task_01 hasAction OBS_205': 'Task_01', 'OBS_205' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_206",
+        "reason": "'Task_01 hasAction OBS_206': 'Task_01', 'OBS_206' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_207",
+        "reason": "'Task_01 hasAction OBS_207': 'Task_01', 'OBS_207' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_208",
+        "reason": "'Task_01 hasAction OBS_208': 'Task_01', 'OBS_208' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_209",
+        "reason": "'Task_01 hasAction OBS_209': 'Task_01', 'OBS_209' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_210",
+        "reason": "'Task_01 hasAction OBS_210': 'Task_01', 'OBS_210' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_211",
+        "reason": "'Task_01 hasAction OBS_211': 'Task_01', 'OBS_211' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_212",
+        "reason": "'Task_01 hasAction OBS_212': 'Task_01', 'OBS_212' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1219",
+        "reason": "'Task_01 hasAction OBS_1219': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1101",
+        "reason": "'Task_01 hasAction OBS_1101': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1102",
+        "reason": "'Task_01 hasAction OBS_1102': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1103",
+        "reason": "'Task_01 hasAction OBS_1103': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1104",
+        "reason": "'Task_01 hasAction OBS_1104': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1105",
+        "reason": "'Task_01 hasAction OBS_1105': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1106",
+        "reason": "'Task_01 hasAction OBS_1106': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1107",
+        "reason": "'Task_01 hasAction OBS_1107': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1108",
+        "reason": "'Task_01 hasAction OBS_1108': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1109",
+        "reason": "'Task_01 hasAction OBS_1109': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1110",
+        "reason": "'Task_01 hasAction OBS_1110': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1111",
+        "reason": "'Task_01 hasAction OBS_1111': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1112",
+        "reason": "'Task_01 hasAction OBS_1112': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1113",
+        "reason": "'Task_01 hasAction OBS_1113': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1114",
+        "reason": "'Task_01 hasAction OBS_1114': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1115",
+        "reason": "'Task_01 hasAction OBS_1115': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1116",
+        "reason": "'Task_01 hasAction OBS_1116': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1117",
+        "reason": "'Task_01 hasAction OBS_1117': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1118",
+        "reason": "'Task_01 hasAction OBS_1118': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "Task_01 hasAction OBS_1119",
+        "reason": "'Task_01 hasAction OBS_1119': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

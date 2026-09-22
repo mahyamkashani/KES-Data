@@ -1,0 +1,36 @@
+{
+    "Individuals": {
+        "JAGO": {
+            "has_Temperature": 15.0647,
+            "has_Conductivity": 4.61967,
+            "class": "State"
+        },
+        "ANTON": {
+            "MissionID": "AL533_5-1",
+            "startTime": "2020-02-08 12:20",
+            "maxDepth": 200,
+            "dataVolume": "Over 100,000 photographs taken",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "Dive_1427": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive_1428": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive_1429": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive_1431": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

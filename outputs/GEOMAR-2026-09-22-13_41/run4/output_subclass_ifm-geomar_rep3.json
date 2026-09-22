@@ -1,0 +1,56 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "POSEIDON cruise 316",
+                "hasDuration": "April 2004 to August 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD measurements",
+                "hasDuration": "Ongoing during cruise",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Box grab samples",
+                "hasDuration": "August 10, 2004",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "METEOR"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Galway Mound",
+                "stationID": "Stat. 506",
+                "stationName": "Galway Mound",
+                "stationDate": "2004-08-10",
+                "stationTime": "09:45"
+            },
+            {
+                "individual_name": "Challenger Mound",
+                "stationID": "Stat. 507",
+                "stationName": "Challenger Mound",
+                "stationDate": "2004-08-10",
+                "stationTime": "13:18:50"
+            }
+        ]
+    }
+}

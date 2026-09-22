@@ -1,0 +1,70 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO208 hasTask PLUMEFLUX",
+                "PLUMEFLUX hasAction Mapping"
+            ],
+            "Individuals": [
+                "SO208",
+                "PLUMEFLUX",
+                "Mapping"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO208 hasTask DR107",
+                "DR107 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR107",
+                "gDr"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO208 hasTask DR106",
+                "DR106 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR106",
+                "gDr"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO208 hasTask DR105",
+                "DR105 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR105",
+                "gDr"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "SO208 hasTask DR104",
+                "DR104 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR104",
+                "gDr"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "SO208 hasTask DR103",
+                "DR103 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR103",
+                "gDr"
+            ]
+        }
+    }
+}

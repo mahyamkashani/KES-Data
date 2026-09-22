@@ -1,0 +1,30 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 1"
+        },
+        "reason": "RV SONNE hasTask DR 1: 'RV SONNE' and 'DR 1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "DR 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "RV SONNE hasTask DR 2"
+        },
+        "reason": "RV SONNE hasTask DR 2: 'RV SONNE' and 'DR 2' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

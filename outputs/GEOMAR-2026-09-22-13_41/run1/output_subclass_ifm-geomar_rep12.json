@@ -1,0 +1,35 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "MSM04/2",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "GCPP-04",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "133 cm"
+            },
+            {
+                "individual_name": "GCPP-05",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "0 cm"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "Maria S Merian"
+            }
+        ],
+        "Station": []
+    }
+}

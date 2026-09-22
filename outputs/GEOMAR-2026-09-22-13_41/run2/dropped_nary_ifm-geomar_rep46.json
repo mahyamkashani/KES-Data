@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "RVPoseidon408 hasTask JeddahTransect",
+        "reason": "'RVPoseidon408 hasTask JeddahTransect': 'RVPoseidon408', 'JeddahTransect' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_Poseidon",
+        "reason": "'Traversal_1 hasVehicle RV_Poseidon': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

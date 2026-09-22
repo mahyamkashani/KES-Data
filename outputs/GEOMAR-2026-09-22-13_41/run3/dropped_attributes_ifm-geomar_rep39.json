@@ -1,0 +1,29 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Profile_1": {
+                "has_Depth": "1680"
+            }
+        },
+        "reason": "Profile_1: has_Depth='1680' is not printed on any page that names 'Profile_1' - copy the number the report prints beside 'Profile_1', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Profile_2": {
+                "has_Depth": "2343"
+            }
+        },
+        "reason": "Profile_2: has_Depth='2343' is not printed on any page that names 'Profile_2' - copy the number the report prints beside 'Profile_2', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Profile_3": {
+                "has_Depth": "1875"
+            }
+        },
+        "reason": "Profile_3: has_Depth='1875' is not printed on any page that names 'Profile_3' - copy the number the report prints beside 'Profile_3', or leave has_Depth out"
+    }
+]

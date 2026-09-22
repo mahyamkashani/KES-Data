@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "ATA21ROV",
+                "Irina 2"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "ATA21ROV hasDestination Irina 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "ATA27ROV",
+                "Quest"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "ATA27ROV hasDestination Quest"
+        }
+    ]
+}

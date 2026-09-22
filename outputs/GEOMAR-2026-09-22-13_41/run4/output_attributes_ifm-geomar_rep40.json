@@ -1,0 +1,31 @@
+{
+    "Individuals": {
+        "IFM03": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM06": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM07": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM09": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM 06": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "IFM 03": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "IFM 07": {
+            "class": "Task"
+        }
+    }
+}

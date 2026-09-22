@@ -1,0 +1,10 @@
+{
+    "Individuals": {
+        "Poseidon_Cruise_348": {
+            "class": "Station",
+            "stationID": "348",
+            "stationDate": "2007-02-08/2007-02-26",
+            "stationTime": "08:00-18:00"
+        }
+    }
+}

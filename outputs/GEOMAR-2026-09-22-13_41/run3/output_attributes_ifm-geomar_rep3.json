@@ -1,0 +1,53 @@
+{
+    "Individuals": {
+        "POS316": {
+            "class": "Mission",
+            "MissionID": "316",
+            "startTime": "2004-08-03",
+            "endTime": "2004-08-17",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Multidisciplinary cruise addressing biological, geological and hydrographical scientific objectives."
+        },
+        "Galway_Mound": {
+            "class": "Waypoint",
+            "locationName": "Galway Mound",
+            "latitude": "51.45303",
+            "longitude": "-11.73377",
+            "seabedDepth": "870"
+        },
+        "Poseidon_Mound": {
+            "class": "Waypoint",
+            "locationName": "Poseidon Mound",
+            "latitude": "51.45583",
+            "longitude": "-11.70073",
+            "seabedDepth": "679"
+        },
+        "Kiel_Mount": {
+            "class": "Waypoint",
+            "locationName": "Kiel Mount",
+            "latitude": "56.69017",
+            "longitude": "-17.46517",
+            "seabedDepth": "940"
+        },
+        "CTD_1": {
+            "class": "State",
+            "has_Depth": "906"
+        },
+        "CTD_2": {
+            "class": "State"
+        },
+        "CTD_3": {
+            "class": "State",
+            "has_Depth": "878"
+        },
+        "CTD_4": {
+            "class": "State"
+        },
+        "CTD_6": {
+            "class": "State"
+        },
+        "CTD_8": {
+            "class": "State"
+        }
+    }
+}

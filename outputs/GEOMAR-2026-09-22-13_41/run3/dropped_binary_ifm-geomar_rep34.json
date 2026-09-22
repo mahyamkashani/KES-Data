@@ -1,0 +1,58 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 925RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rockdrill 2 hasTask Station 925RD"
+        },
+        "reason": "Rockdrill 2 hasTask Station 925RD: 'Station 925RD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 926RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rockdrill 2 hasTask Station 926RD"
+        },
+        "reason": "Rockdrill 2 hasTask Station 926RD: 'Rockdrill 2' and 'Station 926RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 959RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rockdrill 2 hasTask Station 959RD"
+        },
+        "reason": "Rockdrill 2 hasTask Station 959RD: 'Rockdrill 2' and 'Station 959RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 962RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rockdrill 2 hasTask Station 962RD"
+        },
+        "reason": "Rockdrill 2 hasTask Station 962RD: 'Rockdrill 2' and 'Station 962RD' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

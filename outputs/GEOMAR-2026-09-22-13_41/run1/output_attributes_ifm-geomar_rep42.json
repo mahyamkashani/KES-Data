@@ -1,0 +1,171 @@
+{
+    "Individuals": {
+        "SO212": {
+            "class": "Mission",
+            "MissionID": "SO212",
+            "startTime": "2010-12-22",
+            "endTime": "2010-12-26",
+            "maxDepth": "5400",
+            "dataVolume": "700",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise from Talcahuano to Valparaiso, Chile"
+        },
+        "OBS_01": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2073
+        },
+        "OBS_02": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1608
+        },
+        "OBS_03": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2112
+        },
+        "OBS_04": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2252
+        },
+        "OBS_05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4557
+        },
+        "OBS_06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5403
+        },
+        "OBS_07": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4135
+        },
+        "OBS_08": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_09": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_10": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_11": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_12": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_13": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_14": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_15": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_16": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_17": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_18": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_19": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_20": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_21": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_22": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_23": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_24": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_25": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_26": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_27": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_28": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_29": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS_30": {
+            "class": "Task",
+            "hasDuration": 5.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

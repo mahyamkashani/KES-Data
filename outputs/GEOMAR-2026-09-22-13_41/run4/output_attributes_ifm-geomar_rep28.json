@@ -1,0 +1,51 @@
+{
+    "Individuals": {
+        "Kane_Seamount": {
+            "class": "State",
+            "has_Depth": "3,700"
+        },
+        "Tolkien_Seamount": {
+            "class": "State",
+            "has_Depth": "2,900"
+        },
+        "Krylov_Seamount": {
+            "class": "State",
+            "has_Temperature": "1,950",
+            "has_Depth": "1,950"
+        },
+        "DR1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR2": {
+            "class": "Task",
+            "hasDuration": 2.39,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR11": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR13": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR14": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Krylov_Ridge": {
+            "class": "State",
+            "has_Temperature": "2,030",
+            "has_Depth": "2,030"
+        }
+    }
+}

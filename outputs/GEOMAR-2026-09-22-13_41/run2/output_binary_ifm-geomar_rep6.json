@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SO186-3-01",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO186-3-01 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186-3-01",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "SO186-3-01 hasAction Act_TakePhoto"
+        }
+    ]
+}

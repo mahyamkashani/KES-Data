@@ -1,0 +1,134 @@
+{
+    "Individuals": {
+        "SO212": {
+            "MissionID": "SO212",
+            "startTime": "2010-12-22",
+            "endTime": "2010-12-26",
+            "maxDepth": "5400",
+            "dataVolume": "700",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise from Talcahuano to Valparaiso, Chile",
+            "class": "Mission"
+        },
+        "OBS_01": {
+            "has_Depth": 2073,
+            "class": "State"
+        },
+        "OBS_02": {
+            "has_Depth": 1608,
+            "class": "State"
+        },
+        "OBS_03": {
+            "has_Depth": 2112,
+            "class": "State"
+        },
+        "OBS_04": {
+            "has_Depth": 2252,
+            "class": "State"
+        },
+        "OBS_05": {
+            "has_Depth": 4557,
+            "class": "State"
+        },
+        "OBS_06": {
+            "has_Depth": 5403,
+            "class": "State"
+        },
+        "OBS_07": {
+            "has_Depth": 4135,
+            "class": "State"
+        },
+        "OBS_08": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_09": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_10": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_11": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_14": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_15": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_16": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_17": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_18": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_19": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_20": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_21": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_22": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_23": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_24": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_25": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_26": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_27": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_28": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_29": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBS_30": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

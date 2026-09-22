@@ -1,0 +1,37 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "739SBM",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "745SBM",
+                "hasDuration": "overnight",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "744CTD",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "Traversal": [],
+        "TrialMission": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

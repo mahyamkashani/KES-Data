@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "POS316 goes_through Kiel_Mount",
+                "POS316 goes_through Galway_Mound"
+            ],
+            "Individuals": [
+                "POS316",
+                "Kiel_Mount",
+                "Galway_Mound"
+            ]
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO208 hasTask DR107",
+                "DR107 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR107",
+                "gDr"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO208 hasTask DR108",
+                "DR108 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR108",
+                "gDr"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO208 hasTask DR109",
+                "DR109 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR109",
+                "gDr"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO208 hasTask DR110",
+                "DR110 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR110",
+                "gDr"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "SO208 hasTask DR111",
+                "DR111 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR111",
+                "gDr"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "SO208 hasTask DR112",
+                "DR112 hasAction gDr"
+            ],
+            "Individuals": [
+                "SO208",
+                "DR112",
+                "gDr"
+            ]
+        }
+    }
+}

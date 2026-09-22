@@ -1,0 +1,39 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 27
+
+created 12 individuals:
+  + MSM04_2 : SurveyMission
+  + GCPP_04 : State
+  + GCPP_05 : State
+  + Maria_S_Merian : Ship
+  + GCPP_01 : State
+  + GCPP_02 : State
+  + GCPP_03 : State
+  + GCPP_06 : State
+  + GCPP_07 : State
+  + GCPP_08 : State
+  + GCPP_09 : State
+  + GCPP_10 : State
+
+asserted 18 axioms:
+  + MSM04_2 hasStatus SUCCESSFUL
+  + GCPP_04 has_Depth 1885
+  + GCPP_05 has_Depth 955
+  + MSM04_2 MissionID MSM04-2
+  + MSM04_2 startTime 2007-01-03
+  + MSM04_2 endTime 2007-01-19
+  + MSM04_2 maxDepthText 6000 m   [maxDepth could not take it]
+  + MSM04_2 dataVolume 2500 km
+  + MSM04_2 hasStatus SUCCESSFUL
+  + MSM04_2 remark Seismic Wide-Angle Profiles Fort-de-France – Fort-de-France
+  + GCPP_01 has_Depth 3040
+  + GCPP_02 has_Depth 3380
+  + GCPP_03 has_Depth 3568
+  + GCPP_06 has_Depth 4875
+  + GCPP_07 has_Depth 4950
+  + GCPP_08 has_Depth 1023
+  + GCPP_09 has_Depth 1062
+  + GCPP_10 has_Depth 2685
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep12.rdf

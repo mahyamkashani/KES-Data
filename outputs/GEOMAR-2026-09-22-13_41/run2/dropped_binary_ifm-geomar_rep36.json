@@ -1,0 +1,618 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 37-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 37-1"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 37-1: 'Dive 37-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 37-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 37-2"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 37-2: 'Dive 37-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 37-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 37-3"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 37-3: 'Dive 37-3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 38"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 38"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 38: 'Dive 38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 39"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 39"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 39: 'Dive 39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 40"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 40"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 40: 'Dive 40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 41"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 41"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 41: 'Dive 41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 42"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 42"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 42: 'Dive 42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 43"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 43"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 43: 'Dive 43' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 44"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 44"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 44: 'Dive 44' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 46"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 46"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 46: 'Dive 46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 47"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 47"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 47: 'Dive 47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 48"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 48"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 48: 'Dive 48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 49"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 49"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 49: 'Dive 49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 50"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 50"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 50: 'Dive 50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 51-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 51-1"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 51-1: 'Dive 51-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 51-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 51-2"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 51-2: 'Dive 51-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 52"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 52"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 52: 'Dive 52' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 53-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 53-1"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 53-1: 'Dive 53-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 53-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 53-2"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 53-2: 'Dive 53-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 53-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 53-3"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 53-3: 'Dive 53-3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 54"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 54"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 54: 'Dive 54' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 55"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 55"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 55: 'Dive 55' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 56"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 56"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 56: 'Dive 56' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 57"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 57"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 57: 'Dive 57' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 58"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 58"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 58: 'Dive 58' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 59-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 59-1"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 59-1: 'Dive 59-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 59-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 59-2"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 59-2: 'Dive 59-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 60-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 60-1"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 60-1: 'Dive 60-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 60-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 60-2"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 60-2: 'Dive 60-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 60-3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 60-3"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 60-3: 'Dive 60-3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 61"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 61"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 61: 'Dive 61' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 62"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 62"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 62: 'Dive 62' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 63"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 63"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 63: 'Dive 63' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 64"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 64"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 64: 'Dive 64' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 65"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 65"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 65: 'Dive 65' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 66"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 66"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 66: 'Dive 66' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 67"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 67"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 67: 'Dive 67' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 68"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 68"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 68: 'Dive 68' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 69"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 69"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 69: 'Dive 69' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 70"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 70"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 70: 'Dive 70' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 71"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 71"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 71: 'Dive 71' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 72"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 72"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 72: 'Dive 72' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "Dive 73"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Ship",
+            "RANGE": "Task",
+            "AXIOM": "RV CELTIC EXPLORER hasTask Dive 73"
+        },
+        "reason": "RV CELTIC EXPLORER hasTask Dive 73: 'Dive 73' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

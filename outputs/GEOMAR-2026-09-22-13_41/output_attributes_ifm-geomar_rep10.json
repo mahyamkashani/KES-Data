@@ -1,0 +1,22 @@
+{
+    "Individuals": {
+        "AL275": {
+            "MissionID": "AL275",
+            "startTime": "2006-03-24",
+            "endTime": "2006-03-30",
+            "maxDepth": "400 m",
+            "dataVolume": "8 dives, 17.5 hours underwater",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Geobiological investigations and sampling of aphotic coral reef ecosystems in the NE-Skagerrak",
+            "class": "Mission"
+        },
+        "Dive_7": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Dive_8": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

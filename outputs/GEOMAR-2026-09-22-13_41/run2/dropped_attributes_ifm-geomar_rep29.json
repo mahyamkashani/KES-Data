@@ -1,0 +1,200 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Cruise_POS379_2": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Cruise_POS379_2: 'Cruise_POS379_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR1": {
+                "hasDuration": 3.55
+            }
+        },
+        "reason": "DR1: hasDuration=3.55 is not printed on any page that names 'DR1' - copy the number the report prints beside 'DR1', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR2": {
+                "hasDuration": 2.15
+            }
+        },
+        "reason": "DR2: hasDuration=2.15 is not printed on any page that names 'DR2' - copy the number the report prints beside 'DR2', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR3": {
+                "hasDuration": 2.85
+            }
+        },
+        "reason": "DR3: hasDuration=2.85 is not printed on any page that names 'DR3' - copy the number the report prints beside 'DR3', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR4": {
+                "hasDuration": 3.25
+            }
+        },
+        "reason": "DR4: hasDuration=3.25 is not printed on any page that names 'DR4' - copy the number the report prints beside 'DR4', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR5": {
+                "hasDuration": 3.5
+            }
+        },
+        "reason": "DR5: hasDuration=3.5 is not printed on any page that names 'DR5' - copy the number the report prints beside 'DR5', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR6": {
+                "hasDuration": 3.43
+            }
+        },
+        "reason": "DR6: hasDuration=3.43 is not printed on any page that names 'DR6' - copy the number the report prints beside 'DR6', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR10": {
+                "hasDuration": 3.25
+            }
+        },
+        "reason": "DR10: hasDuration=3.25 is not printed on any page that names 'DR10' - copy the number the report prints beside 'DR10', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR11": {
+                "hasDuration": 2.57
+            }
+        },
+        "reason": "DR11: hasDuration=2.57 is not printed on any page that names 'DR11' - copy the number the report prints beside 'DR11', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR12": {
+                "hasDuration": 2.05
+            }
+        },
+        "reason": "DR12: hasDuration=2.05 is not printed on any page that names 'DR12' - copy the number the report prints beside 'DR12', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR13": {
+                "hasDuration": 3.35
+            }
+        },
+        "reason": "DR13: hasDuration=3.35 is not printed on any page that names 'DR13' - copy the number the report prints beside 'DR13', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR15": {
+                "hasDuration": 3.05
+            }
+        },
+        "reason": "DR15: hasDuration=3.05 is not printed on any page that names 'DR15' - copy the number the report prints beside 'DR15', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR18": {
+                "hasDuration": 3.45
+            }
+        },
+        "reason": "DR18: hasDuration=3.45 is not printed on any page that names 'DR18' - copy the number the report prints beside 'DR18', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR19": {
+                "hasDuration": 3.25
+            }
+        },
+        "reason": "DR19: hasDuration=3.25 is not printed on any page that names 'DR19' - copy the number the report prints beside 'DR19', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR20": {
+                "hasDuration": 3.25
+            }
+        },
+        "reason": "DR20: hasDuration=3.25 is not printed on any page that names 'DR20' - copy the number the report prints beside 'DR20', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR21": {
+                "hasDuration": 2.5
+            }
+        },
+        "reason": "DR21: hasDuration=2.5 is not printed on any page that names 'DR21' - copy the number the report prints beside 'DR21', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT001": {
+                "has_Depth": 3500
+            }
+        },
+        "reason": "MT001: has_Depth=3500 is not printed on any page that names 'MT001' - copy the number the report prints beside 'MT001', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT002": {
+                "has_Depth": 3000
+            }
+        },
+        "reason": "MT002: has_Depth=3000 is not printed on any page that names 'MT002' - copy the number the report prints beside 'MT002', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT003": {
+                "has_Depth": 3200
+            }
+        },
+        "reason": "MT003: has_Depth=3200 is not printed on any page that names 'MT003' - copy the number the report prints beside 'MT003', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT004": {
+                "has_Depth": 3200
+            }
+        },
+        "reason": "MT004: has_Depth=3200 is not printed on any page that names 'MT004' - copy the number the report prints beside 'MT004', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT005": {
+                "has_Depth": 4070
+            }
+        },
+        "reason": "MT005: has_Depth=4070 is not printed on any page that names 'MT005' - copy the number the report prints beside 'MT005', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "MT006": {
+                "has_Depth": 3600
+            }
+        },
+        "reason": "MT006: has_Depth=3600 is not printed on any page that names 'MT006' - copy the number the report prints beside 'MT006', or leave has_Depth out"
+    }
+]

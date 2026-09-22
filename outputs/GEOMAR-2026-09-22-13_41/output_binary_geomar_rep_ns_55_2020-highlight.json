@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Imagenex 837B Delta T"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "JAGO hasSensor Imagenex 837B Delta T"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "CoraMo MK2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "JAGO hasSensor CoraMo MK2"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "AL533"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV ALKOR hasMission AL533"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV ANTON",
+                "Station 5-1"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "AUV ANTON hasDestination Station 5-1"
+        }
+    ]
+}

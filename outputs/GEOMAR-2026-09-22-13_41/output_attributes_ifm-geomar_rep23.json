@@ -1,0 +1,81 @@
+{
+    "Individuals": {
+        "ATA02-31CTD": {
+            "MissionID": "ATA02-31CTD",
+            "startTime": "2008-01-12 17:17:57",
+            "dataVolume": "21 bottles",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "station_33": {
+            "stationID": "33",
+            "stationDate": "2008-01-14",
+            "stationTime": "09:00",
+            "class": "Station"
+        },
+        "station_41": {
+            "stationID": "41",
+            "stationTime": "09:00",
+            "class": "Station"
+        },
+        "ATA-35ROV": {
+            "hasStatus": "PartialSUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-37ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-42ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-46ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-57ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-63ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-67ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA-70ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Turtle_Pits_Two_Boats": {
+            "has_Temperature": "451",
+            "has_Depth": "1",
+            "class": "State"
+        },
+        "Comfortless_Cove_Sisters_Peak": {
+            "has_Temperature": "367",
+            "has_Depth": "1",
+            "class": "State"
+        },
+        "Red_Lion_Mephisto": {
+            "has_Temperature": "366",
+            "has_Depth": "1",
+            "class": "State"
+        },
+        "Wideawake": {
+            "has_Depth": "1",
+            "class": "State"
+        },
+        "Clueless": {
+            "has_Temperature": "8.8",
+            "has_Depth": "1",
+            "class": "State"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint"
+        }
+    }
+}

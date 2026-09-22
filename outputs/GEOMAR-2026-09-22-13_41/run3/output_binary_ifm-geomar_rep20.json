@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "EM-120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RRS JAMES COOK hasSensor EM-120"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS JAMES COOK",
+                "EM-710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RRS JAMES COOK hasSensor EM-710"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO191",
+                "M72-4"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RRS JAMES COOK hasMission SO191"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO191",
+                "M72-4"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RRS JAMES COOK hasMission M72-4"
+        }
+    ]
+}

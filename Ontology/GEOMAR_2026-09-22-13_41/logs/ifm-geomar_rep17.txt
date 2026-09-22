@@ -1,0 +1,81 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 49
+
+created 34 individuals:
+  + R_V_MARIA_S_MERIAN : Ship
+  + MSM04_1 : Mission
+  + 967_1 : Task
+  + 968_1 : Task
+  + 970_1 : Task
+  + 970_2 : Task
+  + 972_1 : Task
+  + 973_1 : Task
+  + 976_1 : Task
+  + 977_1 : Task
+  + 978_1 : Task
+  + 979_1 : Task
+  + 980_1 : Task
+  + 981_1 : Task
+  + 985_1 : Task
+  + 986_1 : Task
+  + 987_1 : Task
+  + 988_1 : Task
+  + 989_1 : Task
+  + 990_1 : Task
+  + 991_1 : Task
+  + 992_1 : Task
+  + 993_1 : Task
+  + 994_1 : Task
+  + 995_1 : Task
+  + 996_1 : Task
+  + 998_1 : Task
+  + 999_1 : Task
+  + 1000_1 : Task
+  + 1001_1 : Task
+  + 1002_1 : Task
+  + 1003_1 : Task
+  + MOVE : CTDMission
+  + PIES165 : Waypoint
+
+asserted 38 axioms:
+  + R_V_MARIA_S_MERIAN hasMission MSM04_1
+  + MSM04_1 hasTask 967_1
+  + MSM04_1 hasTask 968_1
+  + MSM04_1 hasTask 970_1
+  + MSM04_1 hasTask 970_2
+  + MSM04_1 hasTask 972_1
+  + MSM04_1 hasTask 973_1
+  + MSM04_1 hasTask 976_1
+  + MSM04_1 hasTask 977_1
+  + MSM04_1 hasTask 978_1
+  + MSM04_1 hasTask 979_1
+  + MSM04_1 hasTask 980_1
+  + MSM04_1 hasTask 981_1
+  + MSM04_1 hasTask 985_1
+  + MSM04_1 hasTask 986_1
+  + MSM04_1 hasTask 987_1
+  + MSM04_1 hasTask 988_1
+  + MSM04_1 hasTask 989_1
+  + MSM04_1 hasTask 990_1
+  + MSM04_1 hasTask 991_1
+  + MSM04_1 hasTask 992_1
+  + MSM04_1 hasTask 993_1
+  + MSM04_1 hasTask 994_1
+  + MSM04_1 hasTask 995_1
+  + MSM04_1 hasTask 996_1
+  + MSM04_1 hasTask 998_1
+  + MSM04_1 hasTask 999_1
+  + MSM04_1 hasTask 1000_1
+  + MSM04_1 hasTask 1001_1
+  + MSM04_1 hasTask 1002_1
+  + MSM04_1 hasTask 1003_1
+  + MOVE hasDurationText 02.12. – 21.12.2006   [hasDuration could not take it]
+  + MOVE hasStatus SUCCESSFUL
+  + MSM04_1 stationID MSM04/1
+  + MSM04_1 stationName MSM04/1
+  + MSM04_1 stationDate 2006-12-02
+  + MSM04_1 stationTime various
+  + PIES165 locationName PIES165
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep17.rdf

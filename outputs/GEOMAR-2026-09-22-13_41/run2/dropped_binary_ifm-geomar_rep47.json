@@ -1,0 +1,30 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Simrad EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor Simrad EM120"
+        },
+        "reason": "R/V SONNE hasSensor Simrad EM120: 'R/V SONNE' and 'Simrad EM120' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "L3-ELAC Nautik SBE 3050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor L3-ELAC Nautik SBE 3050"
+        },
+        "reason": "R/V SONNE hasSensor L3-ELAC Nautik SBE 3050: 'R/V SONNE' and 'L3-ELAC Nautik SBE 3050' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

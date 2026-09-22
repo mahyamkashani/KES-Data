@@ -1,0 +1,12 @@
+{
+    "Individuals": {
+        "P399_leg_2": {
+            "class": "Mission",
+            "MissionID": "P399/2",
+            "startTime": "2010-05-31",
+            "endTime": "2010-06-17",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for leg 2"
+        }
+    }
+}

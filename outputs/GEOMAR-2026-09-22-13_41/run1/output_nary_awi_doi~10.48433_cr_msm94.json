@@ -1,0 +1,32 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1185",
+                "KPO_1185 hasAction Mooring",
+                "KPO_1185 hasDestination K7"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1185",
+                "K7"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "MSM94 hasTask KPO_1190",
+                "KPO_1190 hasAction Mooring",
+                "KPO_1190 hasDestination K1",
+                "KPO_1190 goes_through K8",
+                "KPO_1190 goes_through K9"
+            ],
+            "Individuals": [
+                "MSM94",
+                "KPO_1190",
+                "K1",
+                "K8",
+                "K9"
+            ]
+        }
+    }
+}

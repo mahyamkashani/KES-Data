@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "SIMRAD EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor SIMRAD EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Rockdrill 2"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V SONNE hasSensor Rockdrill 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO208",
+                "DR 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO208 hasTask DR 5"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Acoustic Doppler current profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V Poseidon hasSensor Acoustic Doppler current profiler"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Poseidon hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "Stat #226"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V Poseidon hasMission Stat #226"
+        }
+    ]
+}

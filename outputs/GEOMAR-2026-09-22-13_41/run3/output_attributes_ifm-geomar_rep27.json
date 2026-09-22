@@ -1,0 +1,27 @@
+{
+    "Individuals": {
+        "Cruise_64PE298": {
+            "class": "Mission",
+            "MissionID": "64PE298",
+            "startTime": "2008-11-06 07:00",
+            "endTime": "2008-11-23 21:30",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Third expedition of the West-Nile Delta project."
+        },
+        "North_Alex_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "50",
+            "has_Depth": "4"
+        },
+        "Giza_Mud_Volcano": {
+            "class": "State",
+            "has_Temperature": "17",
+            "has_Depth": "6"
+        },
+        "Dive_3": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "PartialSUCCESSFUL"
+        }
+    }
+}

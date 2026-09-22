@@ -1,0 +1,116 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 53
+
+created 38 individuals:
+  + RV_SONNE : Vehicle
+  + EM120 : MBES
+  + Cruise_SO_206 : SurveyMission
+  + FS_Sonne : Ship
+  + SO206_01 : Station
+  + SO206_02_101 : Station
+  + SO206_02_102 : Station
+  + SO206_02_103 : Station
+  + SO206_02_104 : Station
+  + SO206_02_105 : Station
+  + SO206_05 : State
+  + SO206_06 : State
+  + SO206_10 : Task
+  + SO206_12 : Task
+  + SO206_13 : State
+  + SO206_14 : State
+  + SO206_15 : State
+  + SO206_16 : State
+  + SO206_17 : State
+  + SO206_18 : State
+  + SO206_21 : State
+  + SO206_22 : State
+  + SO206_23 : State
+  + SO206_24 : State
+  + SO206_32 : State
+  + SO206_36 : State
+  + SO206_37 : State
+  + SO206_38 : State
+  + SO206_50 : Task
+  + SO206_51 : Task
+  + SO206_54 : Task
+  + Mound_11 : Waypoint
+  + Mound_12 : Waypoint
+  + Mound_Cocori : Waypoint
+  + SO206_52 : Task
+  + SO206_53 : Task
+  + SO206_55 : Task
+  + SO206_56 : Task
+
+asserted 69 axioms:
+  + RV_SONNE hasSensor EM120
+  + Cruise_SO_206 hasDurationText June 2, 2010 - June 17, 2010   [hasDuration could not take it]
+  + Cruise_SO_206 hasStatus SUCCESSFUL
+  + Cruise_SO_206 MissionID SO 206
+  + Cruise_SO_206 startTime 2010-05-31
+  + Cruise_SO_206 endTime 2010-06-17
+  + Cruise_SO_206 maxDepthText 2017 m   [maxDepth could not take it]
+  + Cruise_SO_206 dataVolume 36 sediment cores
+  + Cruise_SO_206 hasStatus SUCCESSFUL
+  + Cruise_SO_206 remark Geophysical, biogeochemical, and sedimentological investigations at cold seeps
+  + SO206_01 stationID SO206-01
+  + SO206_01 stationDate 2010-06-02
+  + SO206_01 stationTime 00:18
+  + SO206_02_101 stationID SO206-02-101
+  + SO206_02_101 stationDate 2010-06-02
+  + SO206_02_101 stationTime 05:58
+  + SO206_02_102 stationID SO206-02-102
+  + SO206_02_102 stationDate 2010-06-02
+  + SO206_02_102 stationTime 06:32
+  + SO206_02_103 stationID SO206-02-103
+  + SO206_02_103 stationDate 2010-06-02
+  + SO206_02_103 stationTime 06:54
+  + SO206_02_104 stationID SO206-02-104
+  + SO206_02_104 stationDate 2010-06-02
+  + SO206_02_104 stationTime 07:18
+  + SO206_02_105 stationID SO206-02-105
+  + SO206_02_105 stationDate 2010-06-02
+  + SO206_02_105 stationTime 07:40
+  + SO206_05 has_Depth 1909
+  + SO206_06 has_Depth 1896
+  + SO206_10 hasDuration 1.0
+  + SO206_10 hasStatus SUCCESSFUL
+  + SO206_12 hasStatus SUCCESSFUL
+  + SO206_13 has_Depth 1905
+  + SO206_14 has_Depth 1895
+  + SO206_15 has_Depth 766
+  + SO206_16 has_Depth 623
+  + SO206_17 has_Depth 525
+  + SO206_18 has_Depth 673
+  + SO206_21 has_Depth 2017
+  + SO206_22 has_Depth 2011
+  + SO206_23 has_Depth 518
+  + SO206_24 has_Depth 671
+  + SO206_32 has_Depth 398
+  + SO206_36 has_Depth 1006
+  + SO206_37 has_Depth 1013
+  + SO206_38 has_Depth 1020
+  + SO206_50 hasDuration 1.0
+  + SO206_50 hasStatus SUCCESSFUL
+  + SO206_51 hasDuration 1.0
+  + SO206_51 hasStatus SUCCESSFUL
+  + SO206_54 hasDuration 1.0
+  + SO206_54 hasStatus SUCCESSFUL
+  + Mound_11 locationName Mound 11
+  + Mound_11 latitude 8.92233
+  + Mound_11 seabedDepthText 1003 m   [seabedDepth could not take it]
+  + Mound_12 locationName Mound 12
+  + Mound_Cocori locationName Mound Cocori
+  + Mound_Cocori latitude 9.00333
+  + Mound_Cocori longitude -84.76500
+  + Mound_Cocori seabedDepthText 2017 m   [seabedDepth could not take it]
+  + SO206_52 hasDuration 1.0
+  + SO206_52 hasStatus SUCCESSFUL
+  + SO206_53 hasDuration 1.0
+  + SO206_53 hasStatus SUCCESSFUL
+  + SO206_55 hasDuration 1.0
+  + SO206_55 hasStatus SUCCESSFUL
+  + SO206_56 hasDuration 1.0
+  + SO206_56 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep41.rdf

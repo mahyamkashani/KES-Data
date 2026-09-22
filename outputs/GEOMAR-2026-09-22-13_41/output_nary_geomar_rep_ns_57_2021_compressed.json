@@ -1,0 +1,35 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO277 hasTask SMART",
+                "SO277 hasTask MAPACT-ETNA",
+                "SO277 hasTask Station_06",
+                "Station_06 hasAction CTD_02",
+                "SO277 hasTask Station_13",
+                "Station_13 hasAction CTD_04",
+                "SO277 hasTask Station_15",
+                "Station_15 hasAction CTD_05",
+                "SO277 hasTask Station_19",
+                "Station_19 hasAction CTD_06",
+                "SO277 hasTask Station_67",
+                "Station_67 hasAction CTD_19"
+            ],
+            "Individuals": [
+                "SO277",
+                "SMART",
+                "MAPACT-ETNA",
+                "Station_06",
+                "CTD_02",
+                "Station_13",
+                "CTD_04",
+                "Station_15",
+                "CTD_05",
+                "Station_19",
+                "CTD_06",
+                "Station_67",
+                "CTD_19"
+            ]
+        }
+    }
+}

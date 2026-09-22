@@ -1,0 +1,102 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 36
+
+created 21 individuals:
+  + ABYSS : Ship
+  + R_V_SONNE : Vehicle
+  + SO203 : Mission
+  + Dive_012 : Task
+  + Dive_013 : Task
+  + Dive_015 : Task
+  + Dive_016 : Task
+  + Dive_019 : Task
+  + Dive_020 : Task
+  + Dive_014 : SurveyMission
+  + TV_grab : Data_Sampling_Mission
+  + Abyss0012 : Mission
+  + Abyss0013 : Mission
+  + Abyss0014 : Mission
+  + Abyss0016 : Mission
+  + Station_124 : Station
+  + Station_137 : Station
+  + Moresby_Seamount : Waypoint
+  + Franklin_Seamount : Waypoint
+  + Cheshire_Seamount : Waypoint
+  + Dive_018 : Task
+
+asserted 52 axioms:
+  + ABYSS usesVehicle R_V_SONNE
+  + SO203 hasTask Dive_012
+  + Dive_013 hasAction Act_TakePhoto
+  + Dive_013 hasAction Act_DeepDive
+  + Dive_015 hasAction Act_TakePhoto
+  + Dive_015 hasAction Act_DeepDive
+  + Dive_016 hasAction Act_TakePhoto
+  + Dive_016 hasAction Act_DeepDive
+  + Dive_019 hasAction Act_TakePhoto
+  + Dive_020 hasAction Act_TakePhoto
+  + Dive_016 hasStatus FAILED
+  + TV_grab collect_sample small basaltic glass chips
+  + ABYSS maxDepthText 6000 m   [maxDepth could not take it]
+  + Abyss0012 MissionID Abyss0012
+  + Abyss0012 startTime 2009-10-30 09:20
+  + Abyss0012 endTime 2009-10-30 10:17
+  + Abyss0013 MissionID Abyss0013
+  + Abyss0013 startTime 2009-11-01 05:01
+  + Abyss0013 endTime 2009-11-01 05:06
+  + Abyss0013 hasStatus SUCCESSFUL
+  + Abyss0014 MissionID Abyss0014
+  + Abyss0014 startTime 2009-11-01 11:16
+  + Abyss0014 endTime 2009-11-01 14:50
+  + Abyss0014 hasStatus SUCCESSFUL
+  + Abyss0016 MissionID Abyss0016
+  + Abyss0016 startTime 2009-11-06 02:30
+  + Abyss0016 endTime 2009-11-06 04:45
+  + Station_124 stationID 124
+  + Station_124 stationDate 2009-11-21
+  + Station_124 stationTime 05:28-09:20
+  + Station_137 stationID 137
+  + Station_137 stationDate 2009-11-23
+  + Station_137 stationTime 18:33-21:33
+  + Moresby_Seamount locationName Moresby Seamount
+  + Moresby_Seamount latitude -9.81667
+  + Moresby_Seamount longitude 155.58333
+  + Moresby_Seamount seabedDepthText variable   [seabedDepth could not take it]
+  + Franklin_Seamount locationName Franklin Seamount
+  + Franklin_Seamount latitude -9.89473
+  + Franklin_Seamount longitude 151.79732
+  + Franklin_Seamount seabedDepthText 2348m   [seabedDepth could not take it]
+  + Cheshire_Seamount locationName Cheshire Seamount
+  + Cheshire_Seamount latitude -9.77872
+  + Cheshire_Seamount longitude 151.81125
+  + Cheshire_Seamount seabedDepthText 1686m   [seabedDepth could not take it]
+  + Dive_012 hasDuration 2.5
+  + Dive_012 hasStatus PartialFAILURE
+  + Dive_013 has_Depth 2100
+  + Dive_014 has_Depth 2130
+  + Dive_015 hasStatus SUCCESSFUL
+  + Dive_018 hasStatus FAILED
+  + Dive_019 hasStatus SUCCESSFUL
+
+skipped 18 excluded axioms:
+  - SO203 hasTask Dive_012   [hasTask has no single named domain/range to type from]
+  - SO203 hasTask Dive_015   [hasTask has no single named domain/range to type from]
+  - SO203 hasTask Dive_019   [hasTask has no single named domain/range to type from]
+  - SO203 hasTask Dive_020   [hasTask has no single named domain/range to type from]
+  - DR94-1 hasAction DR94-4   [hasAction has no single named domain/range to type from]
+  - DR95-1 hasAction DR95-2   [hasAction has no single named domain/range to type from]
+  - DR96-1 hasAction DR96-2   [hasAction has no single named domain/range to type from]
+  - DR97-1 hasAction DR97-2   [hasAction has no single named domain/range to type from]
+  - DR103-1 hasAction DR103-2   [hasAction has no single named domain/range to type from]
+  - DR105-1 hasAction DR105-2   [hasAction has no single named domain/range to type from]
+  - DR114-1 hasAction DR114-2   [hasAction has no single named domain/range to type from]
+  - DR120-1 hasAction DR120-2   [hasAction has no single named domain/range to type from]
+  - DR125-1 hasAction DR125-2   [hasAction has no single named domain/range to type from]
+  - DR135-1 hasAction DR135-2   [hasAction has no single named domain/range to type from]
+  - DR140-1 hasAction DR140-2   [hasAction has no single named domain/range to type from]
+  - DR145-1 hasAction DR145-2   [hasAction has no single named domain/range to type from]
+  - DR153-1 hasAction DR153-2   [hasAction has no single named domain/range to type from]
+  - DR155-1 hasAction DR155-2   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep33.rdf

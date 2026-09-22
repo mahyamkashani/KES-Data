@@ -1,0 +1,194 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-01"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-01"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-101"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-101"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-102"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-102"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-103"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-103"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-104"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-104"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-105"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-105"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-02-106"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-02-106"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-03"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-03"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-04"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-04"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-05"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-05"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-06"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-06"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-07"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-07"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-08"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-08"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-09-106"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-09-106"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-09-105"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-09-105"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-09-104"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-09-104"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-09-103"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-09-103"
+        },
+        {
+            "INDIVIDUAL": [
+                "Cruise SO 206",
+                "SO206-09-102"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Cruise SO 206 hasTask SO206-09-102"
+        }
+    ]
+}

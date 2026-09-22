@@ -1,0 +1,52 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO210 hasTask Task_1",
+        "reason": "'SO210 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 hasVehicle ROV_KIEL6000",
+        "reason": "'Action_1 hasVehicle ROV_KIEL6000': 'Action_1', 'ROV_KIEL6000' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 hasDestination Box_3",
+        "reason": "'Action_1 hasDestination Box_3': 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 goes_through Box_2",
+        "reason": "'Action_1 goes_through Box_2': 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO210 hasTask Task_2",
+        "reason": "'SO210 hasTask Task_2': 'Task_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_2 hasAction Action_2",
+        "reason": "'Task_2 hasAction Action_2': 'Task_2', 'Action_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_2 hasVehicle ROV_KIEL6000",
+        "reason": "'Action_2 hasVehicle ROV_KIEL6000': 'Action_2', 'ROV_KIEL6000' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_2 hasDestination Box_4",
+        "reason": "'Action_2 hasDestination Box_4': 'Action_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "SO210 hasTask GC_8",
+        "reason": "'SO210 hasTask GC_8': 'SO210' and 'GC_8' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

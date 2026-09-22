@@ -1,0 +1,19 @@
+{
+    "Individuals": {
+        "CV_Alice_Freymann": {
+            "class": "Task",
+            "hasDuration": "2.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "FSB_Meerkatze": {
+            "class": "Task",
+            "hasDuration": "4.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Kiel_Canal": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

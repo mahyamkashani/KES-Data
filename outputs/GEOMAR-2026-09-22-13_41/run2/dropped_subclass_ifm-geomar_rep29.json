@@ -1,0 +1,119 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "DR1": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR1: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR2": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR2: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR3": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR3: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR4": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR4: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR5": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR5: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR6": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR6: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR7": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR7: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR10": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR10: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR11": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR11: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR12": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR12: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR13": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR13: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "DR14": {
+                "hasStatus": "Dredging"
+            }
+        },
+        "reason": "DR14: hasStatus='Dredging' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "R.V. Poseidon": {
+                "maxDepth": "4100 m"
+            }
+        },
+        "reason": "R.V. Poseidon: maxDepth='4100 m' is not printed on any page that names 'R.V. Poseidon' - copy the number the report prints beside 'R.V. Poseidon', or leave maxDepth out"
+    }
+]

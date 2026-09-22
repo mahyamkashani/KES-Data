@@ -1,0 +1,64 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+FAILED subclass: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== binary pattern ===
+FAILED binary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== nary pattern ===
+FAILED nary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== attributes pattern ===
+FAILED attributes: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+##### run2 of 4
+
+=== subclass pattern ===
+FAILED subclass: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== binary pattern ===
+FAILED binary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== nary pattern ===
+FAILED nary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== attributes pattern ===
+FAILED attributes: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+##### run3 of 4
+
+=== subclass pattern ===
+FAILED subclass: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== binary pattern ===
+FAILED binary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== nary pattern ===
+FAILED nary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== attributes pattern ===
+FAILED attributes: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+##### run4 of 4
+
+=== subclass pattern ===
+FAILED subclass: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== binary pattern ===
+FAILED binary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== nary pattern ===
+FAILED nary: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+=== attributes pattern ===
+FAILED attributes: LimitReachedError: Limit reached while decompressing. 267711 bytes remaining.
+
+vote subclass: no run produced this pattern, nothing written
+vote binary: no run produced this pattern, nothing written
+vote nary: no run produced this pattern, nothing written
+vote attributes: no run produced this pattern, nothing written
+
+done: 0/16 patterns succeeded
+failed: subclass (run1), binary (run1), nary (run1), attributes (run1), subclass (run2), binary (run2), nary (run2), attributes (run2), subclass (run3), binary (run3), nary (run3), attributes (run3), subclass (run4), binary (run4), nary (run4), attributes (run4)

@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "VCTD1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO277 hasTask VCTD1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "VCTD2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO277 hasTask VCTD2"
+        }
+    ]
+}

@@ -1,0 +1,459 @@
+{
+    "Individuals": {
+        "SO201-2-01": {
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-02": {
+            "stationID": "SO201-2-02",
+            "stationDate": "2009-09-07",
+            "stationTime": "20:50",
+            "class": "Station"
+        },
+        "SO201-2-03": {
+            "stationID": "SO201-2-03",
+            "stationDate": "2009-09-08",
+            "stationTime": "00:16",
+            "class": "Station"
+        },
+        "SO201-2-04": {
+            "stationID": "SO201-2-04",
+            "stationDate": "2009-09-08",
+            "stationTime": "02:30",
+            "class": "Station"
+        },
+        "SO201-2-05": {
+            "stationID": "SO201-2-05",
+            "stationDate": "2009-09-08",
+            "stationTime": "03:05",
+            "class": "Station"
+        },
+        "SO201-2-06": {
+            "stationID": "SO201-2-06",
+            "stationDate": "2009-09-08",
+            "stationTime": "07:31",
+            "class": "Station"
+        },
+        "SO201-2-07": {
+            "stationID": "SO201-2-07",
+            "stationDate": "2009-09-08",
+            "stationTime": "09:05",
+            "class": "Station"
+        },
+        "SO201-2-08": {
+            "stationID": "SO201-2-08",
+            "stationDate": "2009-09-08",
+            "stationTime": "18:20",
+            "class": "Station"
+        },
+        "SO201-2-09": {
+            "hasDuration": 0.5,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-10": {
+            "hasDuration": 0.82,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-11": {
+            "stationID": "SO201-2-11",
+            "stationDate": "2009-09-09",
+            "stationTime": "01:32",
+            "class": "Station"
+        },
+        "SO201-2-12": {
+            "hasDuration": 0.82,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-13": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-14": {
+            "hasDuration": 0.61,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-15": {
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "SO201-2-16": {
+            "stationID": "SO201-2-16",
+            "stationDate": "2009-09-09",
+            "stationTime": "12:54",
+            "class": "Station"
+        },
+        "SO201-2-17": {
+            "stationID": "SO201-2-17",
+            "stationDate": "2009-09-09",
+            "stationTime": "18:07",
+            "class": "Station"
+        },
+        "SO201-2-18": {
+            "stationID": "SO201-2-18",
+            "stationDate": "2009-09-09",
+            "stationTime": "22:00",
+            "class": "Station"
+        },
+        "SO201-2-19": {
+            "class": "Task"
+        },
+        "SO201-2-20": {
+            "class": "Task"
+        },
+        "SO201-2-21": {
+            "class": "Task"
+        },
+        "SO201-2-22": {
+            "class": "Task"
+        },
+        "SO201-2-23": {
+            "class": "Task"
+        },
+        "SO201-2-24": {
+            "class": "Task"
+        },
+        "SO201-2-25": {
+            "class": "Task"
+        },
+        "SO201-2-26": {
+            "class": "Task"
+        },
+        "SO201-2-27": {
+            "class": "Task"
+        },
+        "SO201-2-28": {
+            "class": "Task"
+        },
+        "SO201-2-29": {
+            "class": "Task"
+        },
+        "SO201-2-30": {
+            "class": "Task"
+        },
+        "SO201-2-31": {
+            "class": "Task"
+        },
+        "SO201-2-32": {
+            "class": "Task"
+        },
+        "SO201-2-33": {
+            "class": "Task"
+        },
+        "SO201-2-34": {
+            "class": "Task"
+        },
+        "SO201-2-35": {
+            "class": "Task"
+        },
+        "SO201-2-36": {
+            "class": "Task"
+        },
+        "SO201-2-37": {
+            "class": "Task"
+        },
+        "SO201-2-38": {
+            "class": "Task"
+        },
+        "SO201-2-39": {
+            "class": "Task"
+        },
+        "SO201-2-40": {
+            "hasStatus": "SUCCESSFUL",
+            "hasDuration": 0.25,
+            "class": "Task"
+        },
+        "SO201-2-41": {
+            "stationID": "SO201-2-41",
+            "stationDate": "2009-09-13",
+            "stationTime": "08:08",
+            "class": "Station"
+        },
+        "SO201-2-42": {
+            "stationID": "SO201-2-42",
+            "stationDate": "2009-09-13",
+            "stationTime": "17:03",
+            "class": "Station"
+        },
+        "SO201-2-43": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-44": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-45": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-46": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-47": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-48": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-49": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-50": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-51": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-52": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-53": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-54": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-55": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-56": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-57": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-58": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-59": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-60": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-61": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-62": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-63": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-64": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-65": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-66": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-67": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-68": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-69": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-70": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-71": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-72": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-73": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-74": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-75": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-76": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-77": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-78": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-79": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-80": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-81": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-83": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-84": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-85": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-86": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-87": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-88": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-89": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-90": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-91": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-92": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-93": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-94": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-95": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-96": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-97": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-98": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-99": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-100": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-101": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-102": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-103": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-104": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-105": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-106": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-107": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-108": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-109": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-110": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-111": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO201-2-112": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

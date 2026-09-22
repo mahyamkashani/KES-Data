@@ -1,0 +1,38 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "CTDMission": {
+                "individual_name": "CTD Mission"
+            }
+        },
+        "reason": "CTD Mission: 'CTD Mission' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": null
+            }
+        },
+        "reason": "Station: a row has no individual_name"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": null
+            }
+        },
+        "reason": "Station: a row has no individual_name"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": null
+            }
+        },
+        "reason": "Station: a row has no individual_name"
+    }
+]

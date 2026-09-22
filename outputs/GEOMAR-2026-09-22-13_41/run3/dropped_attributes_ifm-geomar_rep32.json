@@ -1,0 +1,497 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR1": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR1: 'Dredge_DR1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR2": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR2: 'Dredge_DR2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR3": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR3: 'Dredge_DR3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR4": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR4: 'Dredge_DR4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR5": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR5: 'Dredge_DR5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR6": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR6: 'Dredge_DR6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR7": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR7: 'Dredge_DR7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR8": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR8: 'Dredge_DR8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR9": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR9: 'Dredge_DR9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR10": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR10: 'Dredge_DR10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR11": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR11: 'Dredge_DR11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR12": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR12: 'Dredge_DR12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR13": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR13: 'Dredge_DR13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR14": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR14: 'Dredge_DR14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR15": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR15: 'Dredge_DR15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR16": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR16: 'Dredge_DR16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR17": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR17: 'Dredge_DR17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR18": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR18: 'Dredge_DR18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR19": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR19: 'Dredge_DR19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR20": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR20: 'Dredge_DR20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR21": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR21: 'Dredge_DR21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR22": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR22: 'Dredge_DR22' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR23": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR23: 'Dredge_DR23' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR24": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR24: 'Dredge_DR24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dredge_DR25": {
+                "class": "Station"
+            }
+        },
+        "reason": "Dredge_DR25: 'Dredge_DR25' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_7": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_7: hasDuration=0.5 is not printed on any page that names 'DR_7' - copy the number the report prints beside 'DR_7', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_8": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_8: hasDuration=0.5 is not printed on any page that names 'DR_8' - copy the number the report prints beside 'DR_8', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_10": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_10: hasDuration=0.5 is not printed on any page that names 'DR_10' - copy the number the report prints beside 'DR_10', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_11": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_11: hasDuration=0.5 is not printed on any page that names 'DR_11' - copy the number the report prints beside 'DR_11', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_12": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_12: hasDuration=0.5 is not printed on any page that names 'DR_12' - copy the number the report prints beside 'DR_12', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_21": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_21: hasDuration=0.5 is not printed on any page that names 'DR_21' - copy the number the report prints beside 'DR_21', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_22": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_22: hasDuration=0.5 is not printed on any page that names 'DR_22' - copy the number the report prints beside 'DR_22', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_23": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_23: hasDuration=0.5 is not printed on any page that names 'DR_23' - copy the number the report prints beside 'DR_23', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_25": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_25: hasDuration=0.5 is not printed on any page that names 'DR_25' - copy the number the report prints beside 'DR_25', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_26": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_26: hasDuration=0.5 is not printed on any page that names 'DR_26' - copy the number the report prints beside 'DR_26', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_27": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_27: hasDuration=0.5 is not printed on any page that names 'DR_27' - copy the number the report prints beside 'DR_27', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_28": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_28: hasDuration=0.5 is not printed on any page that names 'DR_28' - copy the number the report prints beside 'DR_28', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_29": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_29: hasDuration=0.5 is not printed on any page that names 'DR_29' - copy the number the report prints beside 'DR_29', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_30": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_30: hasDuration=0.5 is not printed on any page that names 'DR_30' - copy the number the report prints beside 'DR_30', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_31": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_31: hasDuration=0.5 is not printed on any page that names 'DR_31' - copy the number the report prints beside 'DR_31', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_32": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_32: hasDuration=0.5 is not printed on any page that names 'DR_32' - copy the number the report prints beside 'DR_32', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_33": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_33: hasDuration=0.5 is not printed on any page that names 'DR_33' - copy the number the report prints beside 'DR_33', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_34": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_34: hasDuration=0.5 is not printed on any page that names 'DR_34' - copy the number the report prints beside 'DR_34', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_35": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_35: hasDuration=0.5 is not printed on any page that names 'DR_35' - copy the number the report prints beside 'DR_35', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_36": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_36: hasDuration=0.5 is not printed on any page that names 'DR_36' - copy the number the report prints beside 'DR_36', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_37": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_37: hasDuration=0.5 is not printed on any page that names 'DR_37' - copy the number the report prints beside 'DR_37', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_38": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_38: hasDuration=0.5 is not printed on any page that names 'DR_38' - copy the number the report prints beside 'DR_38', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_39": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_39: hasDuration=0.5 is not printed on any page that names 'DR_39' - copy the number the report prints beside 'DR_39', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_40": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_40: hasDuration=0.5 is not printed on any page that names 'DR_40' - copy the number the report prints beside 'DR_40', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_41": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_41: hasDuration=0.5 is not printed on any page that names 'DR_41' - copy the number the report prints beside 'DR_41', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_42": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_42: hasDuration=0.5 is not printed on any page that names 'DR_42' - copy the number the report prints beside 'DR_42', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_43": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_43: hasDuration=0.5 is not printed on any page that names 'DR_43' - copy the number the report prints beside 'DR_43', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_44": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_44: hasDuration=0.5 is not printed on any page that names 'DR_44' - copy the number the report prints beside 'DR_44', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR_45": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "DR_45: hasDuration=0.5 is not printed on any page that names 'DR_45' - copy the number the report prints beside 'DR_45', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "DR1": {
+                "has_Depth": 2962
+            }
+        },
+        "reason": "DR1: has_Depth=2962 is not printed on any page that names 'DR1' - copy the number the report prints beside 'DR1', or leave has_Depth out"
+    }
+]

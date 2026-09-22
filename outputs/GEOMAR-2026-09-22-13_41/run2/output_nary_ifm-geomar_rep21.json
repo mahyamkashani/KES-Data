@@ -1,0 +1,14 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P340 hasDestination Panarea"
+            ],
+            "Individuals": [
+                "P340",
+                "PalinuroSeamount",
+                "Panarea"
+            ]
+        }
+    }
+}

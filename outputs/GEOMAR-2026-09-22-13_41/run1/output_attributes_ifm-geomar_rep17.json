@@ -1,0 +1,34 @@
+{
+    "Individuals": {
+        "PIES123": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "PartialFAILURE"
+        },
+        "PIES128": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "PartialFAILURE"
+        },
+        "PIES127": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "PartialFAILURE"
+        },
+        "PIES005": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "PIES165": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "PIES012": {
+            "class": "Task",
+            "hasDuration": "0.0",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

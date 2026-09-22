@@ -1,0 +1,94 @@
+{
+    "Individuals": {
+        "KPO_1021": {
+            "class": "Station",
+            "stationID": "KPO_1021",
+            "stationDate": "2008-03-03",
+            "stationTime": "14:09"
+        },
+        "KPO_1022": {
+            "class": "Station",
+            "stationID": "KPO_1022",
+            "stationDate": "2008-03-04",
+            "stationTime": "18:43"
+        },
+        "KPO_1023": {
+            "class": "Station",
+            "stationID": "KPO_1023",
+            "stationDate": "2008-03-01",
+            "stationTime": "19:43"
+        },
+        "KPO_1024": {
+            "class": "Station",
+            "stationID": "KPO_1024",
+            "stationDate": "2008-03-06",
+            "stationTime": "10:35"
+        },
+        "KPO_1025": {
+            "class": "Station",
+            "stationID": "KPO_1025",
+            "stationDate": "2008-03-06",
+            "stationTime": "10:35"
+        },
+        "KPO_1026": {
+            "class": "Station",
+            "stationID": "KPO_1026",
+            "stationDate": "2008-02-27",
+            "stationTime": "18:30"
+        },
+        "KPO_1027": {
+            "class": "Station",
+            "stationID": "KPO_1027",
+            "stationDate": "2008-02-26",
+            "stationTime": "10:49"
+        },
+        "KPO_1028": {
+            "class": "Mission",
+            "MissionID": "KPO_1028",
+            "startTime": "2008-03-14 10:58",
+            "maxDepth": "3598",
+            "remark": "Mooring deployment at V440-02"
+        },
+        "AO_01": {
+            "class": "Station",
+            "stationID": "AO_01",
+            "stationDate": "2006-06-19",
+            "stationTime": "19:53"
+        },
+        "AO_02": {
+            "class": "Station",
+            "stationID": "AO_02",
+            "stationDate": "2006-06-20",
+            "stationTime": "29-Feb-08"
+        },
+        "AO_03": {
+            "class": "Station",
+            "stationID": "AO_03",
+            "stationDate": "2006-06-17",
+            "stationTime": "4-Mar-08"
+        },
+        "AO_04": {
+            "class": "Station",
+            "stationID": "AO_04",
+            "stationDate": "2006-06-21",
+            "stationTime": "2-Mar-08"
+        },
+        "AO_05": {
+            "class": "Station",
+            "stationID": "AO_05",
+            "stationDate": "2006-07-03",
+            "stationTime": "27-Feb-08"
+        },
+        "V440_1": {
+            "class": "Station",
+            "stationID": "V440_1",
+            "stationDate": "2006-07-08",
+            "stationTime": "19-Feb-08"
+        },
+        "Glider_Recovery": {
+            "class": "Task",
+            "hasDuration": "45.0",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

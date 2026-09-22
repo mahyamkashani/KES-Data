@@ -1,0 +1,113 @@
+{
+    "Individuals": {
+        "DR1": {
+            "stationID": "DR1",
+            "stationDate": "2007-05-22",
+            "stationTime": "08:55",
+            "class": "Station"
+        },
+        "DR2": {
+            "stationID": "DR2",
+            "stationDate": "2007-05-23",
+            "stationTime": "16:44",
+            "class": "Station"
+        },
+        "DR20": {
+            "has_Depth": 3377,
+            "class": "State"
+        },
+        "DR21": {
+            "has_Depth": 3835,
+            "class": "State"
+        },
+        "DR22": {
+            "has_Depth": 3519,
+            "class": "State"
+        },
+        "DR32": {
+            "stationID": "DR32",
+            "stationDate": "2007-06-07",
+            "stationTime": "04:05",
+            "class": "Station"
+        },
+        "DR41": {
+            "stationID": "DR41",
+            "stationDate": "2007-06-10",
+            "stationTime": "17:54",
+            "class": "Station"
+        },
+        "DR44": {
+            "stationID": "DR44",
+            "stationDate": "2007-06-11",
+            "stationTime": "10:11",
+            "class": "Station"
+        },
+        "DR_1": {
+            "locationName": "Western Plateaus",
+            "latitude": "9.00000",
+            "longitude": "164.00000",
+            "class": "Waypoint"
+        },
+        "DR_25": {
+            "locationName": "Danger Islands Troughs, southernmost trough",
+            "latitude": "9.61500",
+            "longitude": "164.38700",
+            "class": "Waypoint"
+        },
+        "DR_50": {
+            "locationName": "Danger Islands Troughs, NE edge of Western Plateau",
+            "latitude": "6.82700",
+            "longitude": "163.73700",
+            "class": "Waypoint"
+        },
+        "DR_72": {
+            "locationName": "High Plateau, southernmost of the three solitaire interior seamounts",
+            "latitude": "9.44800",
+            "longitude": "162.12200",
+            "class": "Waypoint"
+        },
+        "DR3": {
+            "has_Depth": 3596,
+            "class": "State"
+        },
+        "DR23": {
+            "has_Depth": 4760,
+            "class": "State"
+        },
+        "DR25": {
+            "has_Depth": 4737,
+            "class": "State"
+        },
+        "DR50": {
+            "has_Depth": 2978,
+            "class": "State"
+        },
+        "DR51": {
+            "has_Depth": 4554,
+            "class": "State"
+        },
+        "DR52": {
+            "has_Depth": 5368,
+            "class": "State"
+        },
+        "DR53": {
+            "has_Depth": 5485,
+            "class": "State"
+        },
+        "DR59": {
+            "stationID": "DR59",
+            "stationDate": "2007-06-15",
+            "stationTime": "22:13",
+            "class": "Station"
+        },
+        "SO193-DR12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO193-DR32": {
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

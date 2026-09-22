@@ -1,0 +1,16 @@
+{
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ]
+    }
+}

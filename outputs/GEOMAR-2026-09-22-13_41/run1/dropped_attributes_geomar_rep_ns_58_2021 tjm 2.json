@@ -1,0 +1,29 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Baltic_Sea": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Alice_Freymann": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Alice_Freymann: 'Station_Alice_Freymann' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_Meerkatze": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_Meerkatze: 'Station_Meerkatze' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

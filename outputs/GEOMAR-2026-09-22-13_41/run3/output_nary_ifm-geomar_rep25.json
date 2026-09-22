@@ -1,0 +1,72 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "BGR08-203 hasTask BGR08-203",
+                "BGR08-203 hasAction BGR08-203",
+                "BGR08-204 goes_through BGR08-204",
+                "BGR08-205 requiresNavigation BGR08-205",
+                "BGR08-206 hasDestination BGR08-206",
+                "BGR08-207 goes_through BGR08-207",
+                "BGR08-208 requiresNavigation BGR08-208"
+            ],
+            "Individuals": [
+                "BGR08-203",
+                "BGR08-204",
+                "BGR08-205",
+                "BGR08-206",
+                "BGR08-207",
+                "BGR08-208"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "BGR08-209 hasTask BGR08-209",
+                "BGR08-209 hasAction BGR08-209",
+                "BGR08-210 goes_through BGR08-210",
+                "BGR08-211 requiresNavigation BGR08-211",
+                "BGR08-212 hasDestination BGR08-212",
+                "BGR08-213 goes_through BGR08-213"
+            ],
+            "Individuals": [
+                "BGR08-209",
+                "BGR08-210",
+                "BGR08-211",
+                "BGR08-212",
+                "BGR08-213"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "BGR08-215 hasTask BGR08-215",
+                "BGR08-215 hasAction BGR08-215",
+                "BGR08-216 goes_through BGR08-216",
+                "BGR08-217 requiresNavigation BGR08-217",
+                "BGR08-218 hasDestination BGR08-218"
+            ],
+            "Individuals": [
+                "BGR08-215",
+                "BGR08-216",
+                "BGR08-217",
+                "BGR08-218"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO199 hasTask DR1",
+                "DR1 hasAction sediment",
+                "SO199 hasTask DR2",
+                "DR2 hasAction sediment",
+                "SO199 hasTask DR5",
+                "DR5 hasAction sediment"
+            ],
+            "Individuals": [
+                "SO199",
+                "DR1",
+                "sediment",
+                "DR2",
+                "DR5"
+            ]
+        }
+    }
+}

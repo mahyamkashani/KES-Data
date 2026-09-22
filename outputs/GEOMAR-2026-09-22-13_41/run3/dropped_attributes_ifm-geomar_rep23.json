@@ -1,0 +1,110 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Cruise_Report_Atalante_Leg_2": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Cruise_Report_Atalante_Leg_2: 'Cruise_Report_Atalante_Leg_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_1": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_1: 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_2": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_2: 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_3": {
+                "seabedDepth": "3403m"
+            }
+        },
+        "reason": "Waypoint_3: seabedDepth='3403m' is not printed on any page that names 'Waypoint_3' - copy the number the report prints beside 'Waypoint_3', or leave seabedDepth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_4": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_4: 'Waypoint_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-35ROV": {
+                "hasDuration": 6.27
+            }
+        },
+        "reason": "ATA-35ROV: hasDuration=6.27 is not printed on any page that names 'ATA-35ROV' - copy the number the report prints beside 'ATA-35ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-37ROV": {
+                "hasDuration": 6.25
+            }
+        },
+        "reason": "ATA-37ROV: hasDuration=6.25 is not printed on any page that names 'ATA-37ROV' - copy the number the report prints beside 'ATA-37ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-42ROV": {
+                "hasDuration": 7.2
+            }
+        },
+        "reason": "ATA-42ROV: hasDuration=7.2 is not printed on any page that names 'ATA-42ROV' - copy the number the report prints beside 'ATA-42ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-46ROV": {
+                "hasDuration": 6.48
+            }
+        },
+        "reason": "ATA-46ROV: hasDuration=6.48 is not printed on any page that names 'ATA-46ROV' - copy the number the report prints beside 'ATA-46ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-57ROV": {
+                "hasDuration": 11.14
+            }
+        },
+        "reason": "ATA-57ROV: hasDuration=11.14 is not printed on any page that names 'ATA-57ROV' - copy the number the report prints beside 'ATA-57ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-63ROV": {
+                "hasDuration": 6.25
+            }
+        },
+        "reason": "ATA-63ROV: hasDuration=6.25 is not printed on any page that names 'ATA-63ROV' - copy the number the report prints beside 'ATA-63ROV', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "ATA-70ROV": {
+                "hasDuration": 13.21
+            }
+        },
+        "reason": "ATA-70ROV: hasDuration=13.21 is not printed on any page that names 'ATA-70ROV' - copy the number the report prints beside 'ATA-70ROV', or leave hasDuration out"
+    }
+]

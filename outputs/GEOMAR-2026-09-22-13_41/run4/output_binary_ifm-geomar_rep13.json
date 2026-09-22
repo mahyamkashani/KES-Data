@@ -1,0 +1,64 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "SIMRAD EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V SONNE hasSensor SIMRAD EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V SONNE hasSensor Parasound"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V SONNE hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO193",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO193 hasTask DR 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO193",
+                "DR 25"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO193 hasTask DR 25"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "R/V HAKUHO MARU"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V SONNE usesVehicle R/V HAKUHO MARU"
+        }
+    ]
+}

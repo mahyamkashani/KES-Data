@@ -1,0 +1,162 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 47
+
+created 32 individuals:
+  + RV_SONNE : Ship
+  + Simrad_EM120 : MBES
+  + Parasound : Echosounder
+  + SO190_Leg_2 : Bathymetric_Mission
+  + OBH_154 : Waypoint
+  + OBH_155 : Waypoint
+  + OBH_156 : Waypoint
+  + OBH_157 : Waypoint
+  + OBS_158 : Waypoint
+  + OBS_159 : Waypoint
+  + OBH_181 : Station
+  + OBH_182 : Station
+  + OBH_183 : Station
+  + OBH_184 : Station
+  + OBH_185 : Station
+  + OBH_186 : Station
+  + OBH_200 : Station
+  + OBH_201 : Station
+  + OBH_202 : Station
+  + OBH_203 : Station
+  + OBH_204 : Station
+  + OBH_205 : Station
+  + OBH_230 : Station
+  + OBH_231 : Station
+  + OBS_193 : Waypoint
+  + OBS_194 : Waypoint
+  + OBS_195 : Waypoint
+  + SO190_2 : Task
+  + OBMT35 : State
+  + OBMT37 : State
+  + OBMT54 : State
+  + OBMT55 : State
+
+asserted 89 axioms:
+  + RV_SONNE hasSensor Simrad_EM120
+  + RV_SONNE hasSensor Parasound
+  + SO190_Leg_2 hasDurationText Continuous during cruise   [hasDuration could not take it]
+  + SO190_Leg_2 hasStatus SUCCESSFUL
+  + RV_SONNE maxDepthText 6000 m   [maxDepth could not take it]
+  + OBH_154 locationName OBH 154
+  + OBH_154 latitude -12.23347
+  + OBH_154 longitude 120.90332
+  + OBH_154 seabedDepth 3584
+  + OBH_155 locationName OBH 155
+  + OBH_155 latitude -12.17983
+  + OBH_155 longitude 120.91102
+  + OBH_155 seabedDepth 3690
+  + OBH_156 locationName OBH 156
+  + OBH_156 latitude -12.12393
+  + OBH_156 longitude 120.91965
+  + OBH_156 seabedDepth 3877
+  + OBH_157 locationName OBH 157
+  + OBH_157 latitude -12.06698
+  + OBH_157 longitude 120.92825
+  + OBH_157 seabedDepth 3933
+  + OBS_158 locationName OBS 158
+  + OBS_158 latitude -12.00785
+  + OBS_158 longitude 120.93660
+  + OBS_158 seabedDepth 3978
+  + OBS_159 locationName OBS 159
+  + OBS_159 latitude -11.95052
+  + OBS_159 longitude 120.94572
+  + OBS_159 seabedDepth 3916
+  + OBH_181 stationID OBH 181
+  + OBH_181 stationDate 2006-12-07
+  + OBH_181 stationTime 10.12.06
+  + OBH_182 stationID OBH 182
+  + OBH_182 stationDate 2006-12-07
+  + OBH_182 stationTime 10.12.06
+  + OBH_183 stationID OBH 183
+  + OBH_183 stationDate 2006-12-07
+  + OBH_183 stationTime 10.12.06
+  + OBH_184 stationID OBH 184
+  + OBH_184 stationDate 2006-12-09
+  + OBH_184 stationTime 10.12.06
+  + OBH_185 stationID OBH 185
+  + OBH_185 stationDate 2006-12-09
+  + OBH_185 stationTime 10.12.06
+  + OBH_186 stationID OBH 186
+  + OBH_186 stationDate 2006-12-09
+  + OBH_186 stationTime 10.12.06
+  + OBH_200 stationID OBH 200
+  + OBH_200 stationDate 2006-12-12
+  + OBH_200 stationTime 13.12.06
+  + OBH_201 stationID OBH 201
+  + OBH_201 stationDate 2006-12-12
+  + OBH_201 stationTime 13.12.06
+  + OBH_202 stationID OBH 202
+  + OBH_202 stationDate 2006-12-12
+  + OBH_202 stationTime 13.12.06
+  + OBH_203 stationID OBH 203
+  + OBH_203 stationDate 2006-12-12
+  + OBH_203 stationTime 14.12.06
+  + OBH_204 stationID OBH 204
+  + OBH_204 stationDate 2006-12-12
+  + OBH_204 stationTime 14.12.06
+  + OBH_205 stationID OBH 205
+  + OBH_205 stationDate 2006-12-12
+  + OBH_205 stationTime 14.12.06
+  + OBH_230 stationID OBH 230
+  + OBH_230 stationDate 2006-12-15
+  + OBH_230 stationTime 16.12.06
+  + OBH_231 stationID OBH 231
+  + OBH_231 stationDate 2006-12-15
+  + OBH_231 stationTime 16.12.06
+  + OBS_193 locationName OBS 193
+  + OBS_193 latitude -10.06585
+  + OBS_193 longitude 121.21892
+  + OBS_193 seabedDepth 910
+  + OBS_194 locationName OBS 194
+  + OBS_194 latitude -10.00217
+  + OBS_194 longitude 121.22847
+  + OBS_194 seabedDepth 1246
+  + OBS_195 locationName OBS 195
+  + OBS_195 latitude -9.94652
+  + OBS_195 longitude 121.23643
+  + OBS_195 seabedDepth 1532
+  + SO190_2 hasDuration 41.5
+  + SO190_2 hasStatus SUCCESSFUL
+  + OBMT35 has_Depth 5862
+  + OBMT37 has_Depth 5578
+  + OBMT54 has_Depth 4362
+  + OBMT55 has_Depth 4366
+
+skipped 30 excluded axioms:
+  - SO190/020-1 hasTask SO190/020-1   [hasTask has no single named domain/range to type from]
+  - SO190/021-1 hasTask SO190/021-1   [hasTask has no single named domain/range to type from]
+  - SO190/022-1 hasTask SO190/022-1   [hasTask has no single named domain/range to type from]
+  - SO190/023-1 hasTask SO190/023-1   [hasTask has no single named domain/range to type from]
+  - SO190/024-1 hasTask SO190/024-1   [hasTask has no single named domain/range to type from]
+  - SO190/025-1 hasTask SO190/025-1   [hasTask has no single named domain/range to type from]
+  - SO190/026-1 hasTask SO190/026-1   [hasTask has no single named domain/range to type from]
+  - SO190/027-1 hasTask SO190/027-1   [hasTask has no single named domain/range to type from]
+  - SO190/028-1 hasTask SO190/028-1   [hasTask has no single named domain/range to type from]
+  - SO190/029-1 hasTask SO190/029-1   [hasTask has no single named domain/range to type from]
+  - SO190/030-1 hasTask SO190/030-1   [hasTask has no single named domain/range to type from]
+  - SO190/031-1 hasTask SO190/031-1   [hasTask has no single named domain/range to type from]
+  - SO190/032-1 hasTask SO190/032-1   [hasTask has no single named domain/range to type from]
+  - SO190/033-1 hasTask SO190/033-1   [hasTask has no single named domain/range to type from]
+  - SO190/034-1 hasTask SO190/034-1   [hasTask has no single named domain/range to type from]
+  - SO190/035-1 hasTask SO190/035-1   [hasTask has no single named domain/range to type from]
+  - SO190/036-1 hasTask SO190/036-1   [hasTask has no single named domain/range to type from]
+  - SO190/037-1 hasTask SO190/037-1   [hasTask has no single named domain/range to type from]
+  - SO190/038-1 hasTask SO190/038-1   [hasTask has no single named domain/range to type from]
+  - SO190/039-1 hasTask SO190/039-1   [hasTask has no single named domain/range to type from]
+  - SO190/040-1 hasTask SO190/040-1   [hasTask has no single named domain/range to type from]
+  - SO190/041-1 hasTask SO190/041-1   [hasTask has no single named domain/range to type from]
+  - SO190/042-1 hasTask SO190/042-1   [hasTask has no single named domain/range to type from]
+  - SO190/043-1 hasTask SO190/043-1   [hasTask has no single named domain/range to type from]
+  - SO190/044-1 hasTask SO190/044-1   [hasTask has no single named domain/range to type from]
+  - SO190/045-1 hasTask SO190/045-1   [hasTask has no single named domain/range to type from]
+  - SO190/046-1 hasTask SO190/046-1   [hasTask has no single named domain/range to type from]
+  - SO190/047-1 hasTask SO190/047-1   [hasTask has no single named domain/range to type from]
+  - SO190/048-1 hasTask SO190/048-1   [hasTask has no single named domain/range to type from]
+  - SO190/049-1 hasTask SO190/049-1   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep8.rdf

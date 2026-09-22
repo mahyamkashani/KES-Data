@@ -1,0 +1,18 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "DR_1 hasAction DR_2",
+                "DR_2 goes_through Cone_1B"
+            ],
+            "Individuals": [
+                "SO201-1b",
+                "DR_1",
+                "DR_2",
+                "Ingenstrem",
+                "Cone_1B",
+                "Terrain_1"
+            ]
+        }
+    }
+}

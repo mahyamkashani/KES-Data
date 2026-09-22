@@ -1,0 +1,111 @@
+{
+    "Individuals": {
+        "HYDROMAR_V": {
+            "MissionID": "HYDROMAR V",
+            "startTime": "2007-12-04",
+            "endTime": "2008-01-02",
+            "maxDepth": "5300 m",
+            "dataVolume": "170 l",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "ATA01CTD": {
+            "stationID": "ATA01CTD",
+            "stationDate": "2007-12-16",
+            "stationTime": "09:29",
+            "class": "Station"
+        },
+        "ATA08MAPR": {
+            "stationID": "ATA08MAPR",
+            "stationDate": "2007-12-17",
+            "stationTime": "00:57",
+            "class": "Station"
+        },
+        "ATA09ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA10CTD": {
+            "stationID": "ATA10CTD",
+            "stationDate": "2007-12-18",
+            "stationTime": "20:39",
+            "class": "Station"
+        },
+        "ATA12CTD": {
+            "stationID": "ATA12CTD",
+            "stationDate": "2007-12-19",
+            "stationTime": "07:03",
+            "class": "Station"
+        },
+        "ATA13ROV": {
+            "has_Temperature": "353",
+            "has_Depth": "2928",
+            "class": "State"
+        },
+        "ATA14CTD": {
+            "stationID": "ATA14CTD",
+            "stationDate": "2007-12-20",
+            "stationTime": "21:37",
+            "class": "Station"
+        },
+        "ATA17ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA18CTD": {
+            "has_Temperature": "400",
+            "has_Conductivity": "n.d.",
+            "has_Depth": "n.d.",
+            "class": "State"
+        },
+        "ATA19CTD": {
+            "has_Temperature": "n.d.",
+            "has_Conductivity": "n.d.",
+            "has_Depth": "n.d.",
+            "class": "State"
+        },
+        "ATA21ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA24ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA25CTD": {
+            "stationID": "ATA25CTD",
+            "stationDate": "2007-12-23",
+            "stationTime": "23:55",
+            "class": "Station"
+        },
+        "ATA27ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "ATA30ROV": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Logatchev": {
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14.75500",
+            "longitude": "-44.98000",
+            "seabedDepth": "1600m",
+            "class": "Waypoint"
+        },
+        "Quest": {
+            "locationName": "Quest",
+            "latitude": "14.75283",
+            "longitude": "-44.97950",
+            "seabedDepth": "3045m",
+            "class": "Waypoint"
+        },
+        "Anna Louise": {
+            "locationName": "Anna Louise",
+            "latitude": "14.75100",
+            "longitude": "-44.97733",
+            "seabedDepth": "2938m",
+            "class": "Waypoint"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Individuals": {
+        "IFM06": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM03": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM07": {
+            "class": "State",
+            "has_Depth": "700"
+        },
+        "IFM09": {
+            "class": "State",
+            "has_Depth": "700"
+        }
+    }
+}

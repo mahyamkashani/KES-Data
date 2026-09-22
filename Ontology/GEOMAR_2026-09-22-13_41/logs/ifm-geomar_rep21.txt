@@ -1,0 +1,84 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 45
+
+created 30 individuals:
+  + 739SBM : SurveyMission
+  + 745SBM : SurveyMission
+  + 744CTD : CTDMission
+  + R_V_Poseidon : Ship
+  + Cruise_P340 : Mission
+  + Palinuro_Seamount : Waypoint
+  + Marsili_Seamount : Waypoint
+  + Panarea_Island : Waypoint
+  + Dive_741ROV : Task
+  + Dive_743ROV : Task
+  + Dive_746ROV : Task
+  + Dive_749ROV : Task
+  + Dive_752ROV : Task
+  + Dive_754ROV : Task
+  + Dive_756ROV : Task
+  + 721CTD : State
+  + 722SBM : State
+  + 723ROV : State
+  + 724DR : State
+  + 725DR : State
+  + 726DR : State
+  + 727SBM : State
+  + 728ROV : State
+  + 729DR : State
+  + 740ROV : State
+  + 741ROV : State
+  + 743ROV : State
+  + 752ROV : State
+  + 754ROV : State
+  + 756ROV : State
+
+asserted 41 axioms:
+  + 739SBM hasStatus SUCCESSFUL
+  + 745SBM hasDurationText overnight   [hasDuration could not take it]
+  + 745SBM hasStatus SUCCESSFUL
+  + 744CTD hasStatus SUCCESSFUL
+  + Cruise_P340 MissionID P340
+  + Cruise_P340 startTime 2006-07-06
+  + Cruise_P340 endTime 2006-07-17
+  + Cruise_P340 dataVolume 530 nautical miles
+  + Cruise_P340 hasStatus SUCCESSFUL
+  + Palinuro_Seamount locationName Palinuro Seamount
+  + Palinuro_Seamount latitude 39.54167
+  + Palinuro_Seamount longitude 14.50000
+  + Palinuro_Seamount seabedDepthText 570 m   [seabedDepth could not take it]
+  + Marsili_Seamount locationName Marsili Seamount
+  + Marsili_Seamount latitude 39.28278
+  + Marsili_Seamount longitude 14.39848
+  + Marsili_Seamount seabedDepthText 2400 m   [seabedDepth could not take it]
+  + Panarea_Island locationName Panarea Island
+  + Panarea_Island latitude 38.64928
+  + Panarea_Island longitude 15.10663
+  + Panarea_Island seabedDepthText 70 m   [seabedDepth could not take it]
+  + Dive_741ROV hasDuration 5.0
+  + Dive_741ROV hasStatus SUCCESSFUL
+  + Dive_743ROV hasStatus SUCCESSFUL
+  + Dive_746ROV hasStatus SUCCESSFUL
+  + Dive_749ROV hasStatus SUCCESSFUL
+  + Dive_752ROV hasStatus SUCCESSFUL
+  + Dive_754ROV hasStatus SUCCESSFUL
+  + Dive_756ROV hasStatus SUCCESSFUL
+  + 721CTD has_Depth 0
+  + 722SBM has_Depth 0
+  + 723ROV has_Depth 300
+  + 724DR has_Depth 0
+  + 725DR has_Depth 0
+  + 726DR has_Depth 0
+  + 727SBM has_Depth 0
+  + 728ROV has_Depth 0
+  + 729DR has_Depth 0
+  + 743ROV has_Depth 641
+  + 752ROV has_Depth 71
+  + 754ROV has_Depth 77
+
+skipped 2 excluded axioms:
+  - P340 hasTask 1   [hasTask has no single named domain/range to type from]
+  - 1 hasAction 721CTD   [hasAction has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep21.rdf

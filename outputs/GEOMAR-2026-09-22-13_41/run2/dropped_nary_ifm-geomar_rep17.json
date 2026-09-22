@@ -1,0 +1,37 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES123",
+        "reason": "'MSM04_1 hasTask PIES123': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES128",
+        "reason": "'MSM04_1 hasTask PIES128': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES127",
+        "reason": "'MSM04_1 hasTask PIES127': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES165",
+        "reason": "'MSM04_1 hasTask PIES165': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES005",
+        "reason": "'MSM04_1 hasTask PIES005': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES012",
+        "reason": "'MSM04_1 hasTask PIES012': 'MSM04_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04_1 hasTask PIES057",
+        "reason": "'MSM04_1 hasTask PIES057': 'MSM04_1', 'PIES057' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

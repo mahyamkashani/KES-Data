@@ -1,0 +1,61 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "SO186-3-01",
+                "hasDuration": "5 hours 28 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-3-02",
+                "hasDuration": "7 hours 17 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-3-03",
+                "hasDuration": "1 hour 27 minutes",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO186-3-01",
+                "hasDuration": "5 hours 28 minutes",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-3-02",
+                "hasDuration": "7 hours 17 minutes",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "OBH 05",
+                "stationID": "A324",
+                "stationName": "OBH 05",
+                "stationDate": "2005-10-15",
+                "stationTime": "21:15"
+            },
+            {
+                "individual_name": "OBH 41",
+                "stationID": "D634",
+                "stationName": "OBH 41",
+                "stationDate": "2006-01-10",
+                "stationTime": "22:45"
+            }
+        ]
+    }
+}

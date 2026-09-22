@@ -1,0 +1,44 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Data_Sampling_Mission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "Stat #226",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #227",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #228",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #236",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "Stat #249",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "Submersible_Vehicle": [],
+        "AUV": [],
+        "Remotely_Operated_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

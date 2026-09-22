@@ -1,0 +1,30 @@
+{
+    "Individuals": {
+        "Station_16": {
+            "locationName": "Station 16",
+            "class": "Waypoint"
+        },
+        "Station_17": {
+            "locationName": "Station 17",
+            "class": "Waypoint"
+        },
+        "Station_18": {
+            "locationName": "Station 18",
+            "class": "Waypoint"
+        },
+        "Station_19": {
+            "locationName": "Station 19",
+            "class": "Waypoint"
+        },
+        "Station_20": {
+            "has_Depth": 500,
+            "class": "State"
+        },
+        "Station_5": {
+            "class": "State"
+        },
+        "Station_6": {
+            "class": "State"
+        }
+    }
+}

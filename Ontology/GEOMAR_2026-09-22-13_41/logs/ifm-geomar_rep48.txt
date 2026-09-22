@@ -1,0 +1,40 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 24
+
+created 9 individuals:
+  + P399 : Traversal
+  + ESTOC : Waypoint
+  + P399_2 : SurveyMission
+  + P399_3 : SurveyMission
+  + CTD_2 : Data_Sampling_Mission
+  + CTD_1 : Data_Sampling_Mission
+  + CVOO : Station
+  + R_V_Poseidon : Submersible_Vehicle
+  + P399_leg_2 : Mission
+
+asserted 22 axioms:
+  + P399 hasDestination ESTOC
+  + P399_2 hasStatus SUCCESSFUL
+  + P399_2 hasDurationText 17 days   [hasDuration could not take it]
+  + P399_3 hasStatus SUCCESSFUL
+  + P399_3 hasDurationText 7 days   [hasDuration could not take it]
+  + CTD_2 hasStatus SUCCESSFUL
+  + CTD_2 collect_sample yes
+  + CTD_2 hasDurationText 24 hours   [hasDuration could not take it]
+  + CTD_1 hasDurationText 24 hours   [hasDuration could not take it]
+  + CTD_1 hasStatus SUCCESSFUL
+  + CTD_1 collect_sample yes
+  + CVOO stationName Cape Verde Ocean Observatory
+  + CVOO stationDate 2010-06-03
+  + CVOO stationTime 21:56
+  + ESTOC stationName European Station for Time Series in the Ocean
+  + ESTOC stationDate 2010-06-19
+  + ESTOC stationTime 04:40
+  + P399_leg_2 MissionID P399/2
+  + P399_leg_2 startTime 2010-05-31
+  + P399_leg_2 endTime 2010-06-17
+  + P399_leg_2 hasStatus SUCCESSFUL
+  + P399_leg_2 remark Cruise report for leg 2
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep48.rdf

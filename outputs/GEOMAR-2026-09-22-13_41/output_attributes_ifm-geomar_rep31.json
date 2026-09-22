@@ -1,0 +1,77 @@
+{
+    "Individuals": {
+        "North_Alex": {
+            "locationName": "North Alex mud volcano",
+            "latitude": "31.96732",
+            "longitude": "30.13108",
+            "class": "Waypoint"
+        },
+        "Giza": {
+            "locationName": "Giza mud volcano",
+            "latitude": "31.96558",
+            "longitude": "30.13840",
+            "class": "Waypoint"
+        },
+        "OBS_13": {
+            "class": "State"
+        },
+        "OBS_14": {
+            "class": "State"
+        },
+        "OBS_15": {
+            "class": "State"
+        },
+        "OBS_16": {
+            "class": "State"
+        },
+        "OBS_17": {
+            "class": "State"
+        },
+        "OBS_18": {
+            "class": "State"
+        },
+        "OBS_19": {
+            "class": "State"
+        },
+        "OBS_20": {
+            "class": "State"
+        },
+        "OBS_21": {
+            "class": "State"
+        },
+        "OBS_22": {
+            "class": "State"
+        },
+        "OBS_23": {
+            "class": "State"
+        },
+        "OBS_24": {
+            "class": "State"
+        },
+        "OBT_4": {
+            "class": "State"
+        },
+        "OBT_6": {
+            "class": "State"
+        },
+        "SP_25": {
+            "class": "State"
+        },
+        "SP_27": {
+            "class": "State"
+        },
+        "SP_28": {
+            "class": "State"
+        },
+        "SP_29": {
+            "class": "State"
+        },
+        "West_Nile_Delta_Project": {
+            "MissionID": "WND-4",
+            "startTime": "2009-07-13",
+            "endTime": "2009-08-04",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        }
+    }
+}

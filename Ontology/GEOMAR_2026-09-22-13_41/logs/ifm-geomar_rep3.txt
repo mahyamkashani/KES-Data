@@ -1,0 +1,49 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 25
+
+created 10 individuals:
+  + POSEIDON_cruise_316 : SurveyMission
+  + CTD_measurements : CTDMission
+  + Box_grab_samples : Data_Sampling_Mission
+  + Galway_Mound : Station
+  + Challenger_Mound : Station
+  + POS316 : Mission
+  + Poseidon_Mound : Waypoint
+  + Kiel_Mount : Waypoint
+  + CTD_1 : State
+  + CTD_3 : State
+
+asserted 30 axioms:
+  + POSEIDON_cruise_316 hasStatus SUCCESSFUL
+  + CTD_measurements hasStatus SUCCESSFUL
+  + Box_grab_samples hasStatus SUCCESSFUL
+  + Galway_Mound stationID Stat. 506
+  + Galway_Mound stationName Galway Mound
+  + Galway_Mound stationDate 2004-08-10
+  + Galway_Mound stationTime 09:45
+  + Challenger_Mound stationID Stat. 507
+  + Challenger_Mound stationName Challenger Mound
+  + Challenger_Mound stationDate 2004-08-10
+  + Challenger_Mound stationTime 13:18:50
+  + POS316 MissionID 316
+  + POS316 startTime 2004-08-03
+  + POS316 endTime 2004-08-17
+  + POS316 hasStatus SUCCESSFUL
+  + POS316 remark Multidisciplinary cruise addressing biological, geological and hydrographical scientific objectives.
+  + Galway_Mound locationName Galway Mound
+  + Galway_Mound latitude 51.45303
+  + Galway_Mound longitude -11.73377
+  + Galway_Mound seabedDepthText 870 m   [seabedDepth could not take it]
+  + Poseidon_Mound locationName Poseidon Mound
+  + Poseidon_Mound latitude 51.45583
+  + Poseidon_Mound longitude -11.70073
+  + Poseidon_Mound seabedDepthText 679 m   [seabedDepth could not take it]
+  + Kiel_Mount locationName Kiel Mount
+  + Kiel_Mount latitude 56.69017
+  + Kiel_Mount longitude -17.46517
+  + Kiel_Mount seabedDepthText 940 m   [seabedDepth could not take it]
+  + CTD_1 has_Depth 906
+  + CTD_3 has_Depth 878
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep3.rdf

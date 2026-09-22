@@ -1,0 +1,47 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Dredge DR 1"
+            }
+        },
+        "reason": "Dredge DR 1: 'Dredge DR 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Dredge DR 2"
+            }
+        },
+        "reason": "Dredge DR 2: 'Dredge DR 2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Dredge DR 3"
+            }
+        },
+        "reason": "Dredge DR 3: 'Dredge DR 3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Dredge DR 41"
+            }
+        },
+        "reason": "Dredge DR 41: 'Dredge DR 41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "R/V SONNE": {
+                "maxDepth": "6000 meters"
+            }
+        },
+        "reason": "R/V SONNE: maxDepth='6000 meters' is not printed on any page that names 'R/V SONNE' - copy the number the report prints beside 'R/V SONNE', or leave maxDepth out"
+    }
+]

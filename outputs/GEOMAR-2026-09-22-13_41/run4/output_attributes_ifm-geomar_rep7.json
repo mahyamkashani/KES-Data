@@ -1,0 +1,56 @@
+{
+    "Individuals": {
+        "Station_7": {
+            "class": "Waypoint",
+            "locationName": "Station 7",
+            "latitude": "-36.02417",
+            "longitude": "-73.58833"
+        },
+        "Station_8": {
+            "class": "Waypoint",
+            "locationName": "Station 8",
+            "latitude": "-36.03233",
+            "longitude": "-73.58800"
+        },
+        "Station_16": {
+            "class": "Waypoint",
+            "locationName": "Station 16",
+            "latitude": "-36.39567",
+            "longitude": "-73.72183"
+        },
+        "Station_17": {
+            "class": "Waypoint",
+            "locationName": "Station 17",
+            "latitude": "-36.36500",
+            "longitude": "-73.72233"
+        },
+        "Station_18": {
+            "class": "Waypoint",
+            "locationName": "Station 18",
+            "latitude": "-36.37083",
+            "longitude": "-73.72250"
+        },
+        "Station_19": {
+            "class": "Waypoint",
+            "locationName": "Station 19",
+            "latitude": "-36.36400",
+            "longitude": "-73.70233"
+        },
+        "Station_20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 500
+        },
+        "Station_5": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        },
+        "Station_6": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null
+        }
+    }
+}

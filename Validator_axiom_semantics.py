@@ -25,6 +25,7 @@ import os
 import re
 from owlready2 import World, OneOf
 import AI_gpt_caller
+import AI_gpt5_caller
 import JSON_validator
 import Reader_vector_retriever
 
@@ -105,6 +106,80 @@ def _check_grounding(names, pages, tbox, problems, where, together=True):
             f"pair each name with the one the report actually puts beside it, or drop the axiom")
 
 
+# ----------------------------  numbers in the source  ------------------------
+#
+# The checks above ask whether a NAME is in the report. A number can be misplaced
+# while its individual is perfectly real: gpt-4o-mini gave JAGO "has_Depth
+# 60.70575", read off one camera image's metadata, and gave dives the report
+# lists no duration for "hasDuration 0.92". So the value of a numeric data
+# property must be printed on a page that names its individual -- as written,
+# or, for hasDuration (asked for in hours), as a "55 min" or "1 h 17 min" there.
+
+_NUMBER = re.compile(r"(?<![\d.,])\d+(?:[.,]\d+)?")
+_MINUTES = re.compile(r"(?<![\d.,])(\d+(?:[.,]\d+)?)\s*(?:min|mins|minutes)\b")
+_HOURS_MINUTES = re.compile(r"(?<![\d.,])(\d+)\s*(?:h|hr|hrs|hours?)\s*(\d+)\s*(?:min|mins|minutes)?\b")
+_HOURS = re.compile(r"(?<![\d.,])(\d+(?:[.,]\d+)?)\s*(?:h|hr|hrs|hours?)\b")
+_numbers_cache = {}
+
+
+def _numbers(text):
+    if text not in _numbers_cache:
+        _numbers_cache[text] = {float(n.replace(",", ".")) for n in _NUMBER.findall(text)}
+    return _numbers_cache[text]
+
+
+def _hours(text):
+    found = {float(m.replace(",", ".")) / 60 for m in _MINUTES.findall(text)}
+    found |= {int(h) + int(m) / 60 for h, m in _HOURS_MINUTES.findall(text)}
+    found |= {float(h.replace(",", ".")) for h in _HOURS.findall(text)}
+    return found
+
+
+#def _check_numbers(name, fields, pages, tbox, problems, where):
+def _check_numbers(name, fields, pages, tbox, problems, where, minted=False):
+    """Every number of a numeric property must be on a page that names `name`;
+    for a minted Task/Action/Mission name, which no page prints, anywhere in the report."""
+    if not isinstance(name, str) or not name.strip() or name in tbox.vocabulary:
+        return
+    own = [text for text in pages.values() if _occurs(name, text)]
+    #if not own:
+    #    #_check_grounding already reports a name the report does not contain
+    #    return
+    beside = f"on any page that names {name!r}"
+    if not own:
+        if not minted:
+            #_check_grounding already reports a name the report does not contain
+            return
+        own, beside = list(pages.values()), "anywhere in the report"
+    for prop, value in fields.items():
+        if prop not in tbox.numeric or value in (None, ""):
+            continue
+        wanted = _numbers(str(value))
+        printed = set().union(*(_numbers(text) for text in own))
+        missing = [x for x in wanted if x not in printed]
+        if missing and prop == "hasDuration":
+            hours = set().union(*(_hours(text) for text in own))
+            #hours are asked for with two decimals: 55 min is 0.92
+            missing = [x for x in missing if not any(abs(x - h) < 0.006 for h in hours)]
+        if missing:
+            #problems.append(
+            #    f"{where}: {prop}={value!r} is not printed on any page that names {name!r} - "
+            #    f"copy the number the report prints beside {name!r}, or leave {prop} out")
+            problems.append(
+                f"{where}: {prop}={value!r} is not printed {beside} - "
+                f"copy the number the report prints for {name!r}, or leave {prop} out")
+
+
+def _class_names(constructs):
+    names = set()
+    for c in constructs or []:
+        if hasattr(c, "Classes"):
+            names |= _class_names(c.Classes)
+        elif hasattr(c, "name"):
+            names.add(c.name)
+    return names
+
+
 class TBox:
     """The names an extraction is allowed to use, read once from the ontology."""
 
@@ -121,10 +196,24 @@ class TBox:
         self.reachable = {n for n in self.classes if getattr(onto, n, None) is not None}
         self.object_properties = {p.name for p in onto.object_properties()}
         self.data_properties = {p.name for p in onto.data_properties()}
+        #owlready2 reads xsd:decimal as float: has_Depth, hasDuration, seabedDepth ...
+        self.numeric = {p.name for p in onto.data_properties()
+                        if any(r in (float, int) for r in (p.range or []))}
         #Act_TakePhoto, flat, rocky, sand ... are controlled vocabulary the
         #extraction is told to use; they are deliberately not words of the
         #report, so the grounding check must not ask the document for them
         self.vocabulary = {i.name for i in onto.individuals()}
+        #Task, Action and Mission individuals may carry minted names (M01, T01,
+        #Task_1): by design they are not words of the report, so the grounding
+        #checks skip them. KES_MINTED_CLASSES changes the list; subclasses follow.
+        self.minted = set()
+        for root in os.environ.get("KES_MINTED_CLASSES", "Task,Action,Mission").split(","):
+            cls = getattr(onto, root.strip(), None)
+            if cls is not None:
+                self.minted |= {d.name for d in cls.descendants()}
+        #the classes each slot of an object property admits, with unions opened up
+        self.domain_of = {p.name: _class_names(p.domain) for p in onto.object_properties()}
+        self.range_of = {p.name: _class_names(p.range) for p in onto.object_properties()}
         self.enums = {}
         for prop in onto.data_properties():
             for constraint in prop.range or []:
@@ -190,7 +279,12 @@ def _check_binary(payload, tbox, problems, pages=None):
         for name in pair:
             _check_individual(name, tbox, problems, label)
         if pages:
-            _check_grounding(pair, pages, tbox, problems, label)
+            #_check_grounding(pair, pages, tbox, problems, label)
+            #a name in a Task/Action/Mission slot may be minted, so only the
+            #other names must be in the report, and no page need hold the pair
+            minted = [axiom.get(slot) in tbox.minted for slot in ("DOMAIN", "RANGE")]
+            _check_grounding([n for n, m in zip(pair, minted) if not m], pages, tbox, problems,
+                             label, together=not any(minted))
 
 
 def _check_nary(payload, tbox, problems, pages=None):
@@ -214,7 +308,13 @@ def _check_nary(payload, tbox, problems, pages=None):
             for name in (subject, obj):
                 _check_individual(name, tbox, problems, repr(line))
             if pages:
-                _check_grounding([subject, obj], pages, tbox, problems, repr(line))
+                #_check_grounding([subject, obj], pages, tbox, problems, repr(line))
+                #an n-ary line carries no classes: a slot whose declared domain or
+                #range admits Task, Action or Mission may hold a minted name
+                minted = [bool(tbox.domain_of.get(prop, set()) & tbox.minted),
+                          bool(tbox.range_of.get(prop, set()) & tbox.minted)]
+                _check_grounding([n for n, m in zip((subject, obj), minted) if not m], pages, tbox,
+                                 problems, repr(line), together=not any(minted))
 
 
 def _check_attributes(payload, tbox, problems, pages=None):
@@ -227,11 +327,17 @@ def _check_attributes(payload, tbox, problems, pages=None):
             problems.append(f"{name}: its value must be an object of class and data properties")
             continue
         _check_individual(name, tbox, problems, name)
-        if pages:
-            _check_grounding([name], pages, tbox, problems, name, together=False)
+        #if pages:
+        #    _check_grounding([name], pages, tbox, problems, name, together=False)
         class_name = fields.get("class")
         if class_name not in tbox.classes:
             problems.append(f"{name}: class {class_name!r} is not in the ontology")
+        #a Task/Action/Mission individual may have a minted name
+        if pages and class_name not in tbox.minted:
+            _check_grounding([name], pages, tbox, problems, name, together=False)
+        if pages:
+            #_check_numbers(name, fields, pages, tbox, problems, name)
+            _check_numbers(name, fields, pages, tbox, problems, name, minted=class_name in tbox.minted)
         for prop, value in fields.items():
             if prop == "class" or value in (None, ""):
                 continue
@@ -258,7 +364,12 @@ def _check_subclass(payload, tbox, problems, pages=None):
                     continue
                 _check_individual(name, tbox, problems, str(name))
                 if pages:
-                    _check_grounding([name], pages, tbox, problems, str(name), together=False)
+                    #_check_grounding([name], pages, tbox, problems, str(name), together=False)
+                    #_check_numbers(name, row, pages, tbox, problems, str(name))
+                    #a Task/Action/Mission individual may have a minted name
+                    if subclass not in tbox.minted:
+                        _check_grounding([name], pages, tbox, problems, str(name), together=False)
+                    _check_numbers(name, row, pages, tbox, problems, str(name), minted=subclass in tbox.minted)
                 for prop, value in row.items():
                     if prop == "individual_name" or value in (None, ""):
                         continue
@@ -296,7 +407,103 @@ def evaluate(parsed, tbox=None, pages=None):
     return False, reason
 
 
+# ----------------------------  what failed every attempt  --------------------
+#
+# When every attempt was rejected, the last answer used to be returned whole and
+# written to the JSON with its problems still in it. Now each axiom, individual
+# and value is checked on its own: what passes is kept, what fails is dropped
+# and recorded, so nothing unchecked reaches the JSON silently.
+
+_dropped = []
+
+
+def pop_dropped():
+    """What prune() removed since the last call; Main_ontology_Controller.py
+    writes it beside the JSON as dropped_<pattern>_<document>.json."""
+    global _dropped
+    out, _dropped = _dropped, []
+    return out
+
+
+def prune(parsed, tbox, pages, label=""):
+    if not isinstance(parsed, dict):
+        return parsed
+    dropped = []
+
+    def keep(payload, item):
+        ok, reason = evaluate(payload, tbox, pages)
+        if not ok:
+            dropped.append({"where": label.strip(": "), "item": item, "reason": reason})
+        return ok
+
+    if "ObjectPropertyAxiom" in parsed:
+        axioms = [a for a in parsed.get("ObjectPropertyAxiom") or []
+                  if keep({"ObjectPropertyAxiom": [a]}, a)]
+        out = dict(parsed, ObjectPropertyAxiom=axioms)
+    elif "NaryPropertyAxiom" in parsed:
+        blocks = {}
+        for key, block in (parsed.get("NaryPropertyAxiom") or {}).items():
+            lines = block.get("Axioms") if isinstance(block, dict) else block
+            kept = [line for line in lines or []
+                    if keep({"NaryPropertyAxiom": {key: {"Axioms": [line]}}}, line)]
+            blocks[key] = dict(block, Axioms=kept) if isinstance(block, dict) else kept
+        out = dict(parsed, NaryPropertyAxiom=blocks)
+    elif "Individuals" in parsed:
+        individuals = {}
+        for name, fields in (parsed.get("Individuals") or {}).items():
+            if not isinstance(fields, dict):
+                dropped.append({"where": label.strip(": "), "item": name, "reason": "not an object"})
+                continue
+            base = {"class": fields.get("class")}
+            if not keep({"Individuals": {name: base}}, {name: base}):
+                continue
+            kept = dict(base)
+            for prop, value in fields.items():
+                if prop == "class":
+                    continue
+                if value in (None, "") or keep({"Individuals": {name: dict(base, **{prop: value})}},
+                                               {name: {prop: value}}):
+                    kept[prop] = value
+            individuals[name] = kept
+        out = dict(parsed, Individuals=individuals)
+    else:
+        out = {}
+        for parent, subclasses in parsed.items():
+            if not isinstance(subclasses, dict):
+                dropped.append({"where": label.strip(": "), "item": parent, "reason": "not an object of subclasses"})
+                continue
+            out[parent] = {}
+            for subclass, rows in subclasses.items():
+                kept_rows = []
+                for row in rows or []:
+                    if not isinstance(row, dict):
+                        continue
+                    base = {"individual_name": row.get("individual_name")}
+                    if not keep({parent: {subclass: [base]}}, {subclass: base}):
+                        continue
+                    kept = dict(base)
+                    for field, value in row.items():
+                        if field == "individual_name":
+                            continue
+                        if value in (None, "") or keep({parent: {subclass: [dict(base, **{field: value})]}},
+                                                       {base["individual_name"]: {field: value}}):
+                            kept[field] = value
+                    kept_rows.append(kept)
+                out[parent][subclass] = kept_rows
+
+    if dropped:
+        print(f"    {label}no attempt passed: kept what passes on its own, dropped {len(dropped)} item(s)")
+    _dropped.extend(dropped)
+    return out
+
+
 # ----------------------------  the refine loop  ------------------------------
+
+def _ask(prompt):
+    #read at call time, not import time: Main_ontology_Controller.py sets it after the imports
+    caller = AI_gpt5_caller if os.environ.get("KES_LLM") == "gpt5" else AI_gpt_caller
+    return caller.get_gpt_response(prompt)
+
 
 def extract_with_retries(build_prompt, label="", max_retries=MAX_RETRIES, tbox_path=None,
                          docpath=None, pages_limit=None):
@@ -308,8 +515,10 @@ def extract_with_retries(build_prompt, label="", max_retries=MAX_RETRIES, tbox_p
     -- populate_ontology.py will skip whatever is still wrong.
     """
     if not ENABLED:
+        #parsed = JSON_validator.validate_json(
+        #    AI_gpt_caller.get_gpt_response(build_prompt(None, None)).content)
         parsed = JSON_validator.validate_json(
-            AI_gpt_caller.get_gpt_response(build_prompt(None, None)).content)
+            _ask(build_prompt(None, None)).content)
         return parsed, 1, True
 
     tbox = get_tbox(tbox_path)
@@ -319,7 +528,8 @@ def extract_with_retries(build_prompt, label="", max_retries=MAX_RETRIES, tbox_p
     parsed, reason, prior = None, None, None
     for attempt in range(1, max_retries + 2):
         try:
-            output = AI_gpt_caller.get_gpt_response(build_prompt(reason, prior))
+            #output = AI_gpt_caller.get_gpt_response(build_prompt(reason, prior))
+            output = _ask(build_prompt(reason, prior))
             parsed = JSON_validator.validate_json(output.content)
         except ValueError as exc:
             #malformed JSON is just another reason to ask again
@@ -332,7 +542,8 @@ def extract_with_retries(build_prompt, label="", max_retries=MAX_RETRIES, tbox_p
             return parsed, attempt, True
         print(f"    {label}attempt {attempt} rejected: {reason[:160]}")
         prior = output.content
-    return parsed, max_retries + 1, False
+    #return parsed, max_retries + 1, False
+    return prune(parsed, tbox, pages, label), max_retries + 1, False
 
 
 # ----------------------------  whole-ontology check  -------------------------

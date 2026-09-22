@@ -1,0 +1,40 @@
+{
+    "Task": {
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [
+            {
+                "individual_name": "CTD 21"
+            },
+            {
+                "individual_name": "CTD 22"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV 6000",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [],
+        "Station": [
+            {
+                "individual_name": "Salt Dome Juist",
+                "stationName": "Salt Dome Juist"
+            },
+            {
+                "individual_name": "Tommeliten",
+                "stationName": "Tommeliten"
+            }
+        ]
+    }
+}

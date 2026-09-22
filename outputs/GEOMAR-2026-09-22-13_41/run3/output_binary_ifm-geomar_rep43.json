@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MASS III-001",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-001 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-002",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-002 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-003",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-003 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-004",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-004 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-005",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-005 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-006",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-006 hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "MASS III-007",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "MASS III-007 hasAction Act_Move"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "Individuals": {
+        "Cruise_SO_206": {
+            "MissionID": "SO 206",
+            "startTime": "2010-05-31",
+            "endTime": "2010-06-17",
+            "maxDepth": "2017 m",
+            "dataVolume": "36 sediment cores",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Geophysical, biogeochemical, and sedimentological investigations at cold seeps",
+            "class": "Mission"
+        },
+        "SO206-01": {
+            "stationID": "SO206-01",
+            "stationDate": "2010-06-02",
+            "stationTime": "00:18",
+            "class": "Station"
+        },
+        "SO206-02-101": {
+            "stationID": "SO206-02-101",
+            "stationDate": "2010-06-02",
+            "stationTime": "05:58",
+            "class": "Station"
+        },
+        "SO206-02-102": {
+            "stationID": "SO206-02-102",
+            "stationDate": "2010-06-02",
+            "stationTime": "06:32",
+            "class": "Station"
+        },
+        "SO206-02-103": {
+            "stationID": "SO206-02-103",
+            "stationDate": "2010-06-02",
+            "stationTime": "06:54",
+            "class": "Station"
+        },
+        "SO206-02-104": {
+            "stationID": "SO206-02-104",
+            "stationDate": "2010-06-02",
+            "stationTime": "07:18",
+            "class": "Station"
+        },
+        "SO206-02-105": {
+            "stationID": "SO206-02-105",
+            "stationDate": "2010-06-02",
+            "stationTime": "07:40",
+            "class": "Station"
+        },
+        "SO206-05": {
+            "has_Depth": 1909,
+            "class": "State"
+        },
+        "SO206-06": {
+            "has_Depth": 1896,
+            "class": "State"
+        },
+        "SO206-10": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-12": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-13": {
+            "has_Depth": 1905,
+            "class": "State"
+        },
+        "SO206-14": {
+            "has_Depth": 1895,
+            "class": "State"
+        },
+        "SO206-15": {
+            "has_Depth": 766,
+            "class": "State"
+        },
+        "SO206-16": {
+            "has_Depth": 623,
+            "class": "State"
+        },
+        "SO206-17": {
+            "has_Depth": 525,
+            "class": "State"
+        },
+        "SO206-18": {
+            "has_Depth": 673,
+            "class": "State"
+        },
+        "SO206-21": {
+            "has_Depth": 2017,
+            "class": "State"
+        },
+        "SO206-22": {
+            "has_Depth": 2011,
+            "class": "State"
+        },
+        "SO206-23": {
+            "has_Depth": 518,
+            "class": "State"
+        },
+        "SO206-24": {
+            "has_Depth": 671,
+            "class": "State"
+        },
+        "SO206-32": {
+            "has_Depth": 398,
+            "class": "State"
+        },
+        "SO206-36": {
+            "has_Depth": 1006,
+            "class": "State"
+        },
+        "SO206-37": {
+            "has_Depth": 1013,
+            "class": "State"
+        },
+        "SO206-38": {
+            "has_Depth": 1020,
+            "class": "State"
+        },
+        "SO206-50": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-51": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-54": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "Mound_11": {
+            "locationName": "Mound 11",
+            "latitude": "8.92233",
+            "seabedDepth": "1003 m",
+            "class": "Waypoint"
+        },
+        "Mound_12": {
+            "locationName": "Mound 12",
+            "class": "Waypoint"
+        },
+        "Mound_Cocori": {
+            "locationName": "Mound Cocori",
+            "latitude": "9.00333",
+            "longitude": "-84.76500",
+            "seabedDepth": "2017 m",
+            "class": "Waypoint"
+        },
+        "SO206-52": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-53": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-55": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "SO206-56": {
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

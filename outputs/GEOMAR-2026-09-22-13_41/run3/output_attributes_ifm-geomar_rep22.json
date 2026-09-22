@@ -1,0 +1,134 @@
+{
+    "Individuals": {
+        "HYDROMAR_V": {
+            "class": "Mission",
+            "MissionID": "HYDROMAR V",
+            "startTime": "2007-12-04",
+            "endTime": "2008-01-02",
+            "maxDepth": "5300 m",
+            "dataVolume": "170 l",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report of R/V l\u2019Atalante"
+        },
+        "ATA01CTD": {
+            "class": "Station",
+            "stationID": "ATA01CTD",
+            "stationDate": "2007-12-16",
+            "stationTime": "09:29"
+        },
+        "ATA08MAPR": {
+            "class": "Station",
+            "stationID": "ATA08MAPR",
+            "stationDate": "2007-12-17",
+            "stationTime": "00:57"
+        },
+        "ATA09ROV": {
+            "class": "Station",
+            "stationID": "ATA09ROV",
+            "stationDate": "2007-12-17",
+            "stationTime": "10:34"
+        },
+        "ATA10CTD": {
+            "class": "Station",
+            "stationID": "ATA10CTD",
+            "stationDate": "2007-12-18",
+            "stationTime": "20:39"
+        },
+        "ATA12CTD": {
+            "class": "Station",
+            "stationID": "ATA12CTD",
+            "stationDate": "2007-12-19",
+            "stationTime": "07:03"
+        },
+        "ATA13ROV": {
+            "class": "State",
+            "has_Temperature": "353",
+            "has_Conductivity": "14.12",
+            "has_Depth": "2928"
+        },
+        "ATA14CTD": {
+            "class": "Station",
+            "stationID": "ATA14CTD",
+            "stationDate": "2007-12-20",
+            "stationTime": "21:37"
+        },
+        "ATA15ROV": {
+            "class": "Station",
+            "stationID": "ATA15ROV",
+            "stationDate": "2007-12-21",
+            "stationTime": "10:00"
+        },
+        "ATA17ROV": {
+            "class": "Station",
+            "stationID": "ATA17ROV",
+            "stationDate": "2007-12-21",
+            "stationTime": "10:01"
+        },
+        "ATA18CTD": {
+            "class": "State",
+            "has_Temperature": "400",
+            "has_Conductivity": "n.d.",
+            "has_Depth": "n.d."
+        },
+        "ATA19CTD": {
+            "class": "State",
+            "has_Temperature": "n.d.",
+            "has_Conductivity": "n.d.",
+            "has_Depth": "n.d."
+        },
+        "ATA21ROV": {
+            "class": "Station",
+            "stationID": "ATA21ROV",
+            "stationDate": "2007-12-22",
+            "stationTime": "11:01"
+        },
+        "ATA24ROV": {
+            "class": "Station",
+            "stationID": "ATA24ROV",
+            "stationDate": "2007-12-23",
+            "stationTime": "10:52"
+        },
+        "ATA25CTD": {
+            "class": "Station",
+            "stationID": "ATA25CTD",
+            "stationDate": "2007-12-24",
+            "stationTime": "23:55"
+        },
+        "ATA27ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA30ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Logatchev": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14.75500",
+            "longitude": "-44.98000",
+            "seabedDepth": "1600m"
+        },
+        "Irina_2": {
+            "class": "Waypoint",
+            "locationName": "Irina 2",
+            "latitude": "14.75283",
+            "longitude": "-44.97917",
+            "seabedDepth": "3036m"
+        },
+        "Anna_Louise": {
+            "class": "Waypoint",
+            "locationName": "Anna Louise",
+            "latitude": "14.75100",
+            "longitude": "-44.97733",
+            "seabedDepth": "2938m"
+        },
+        "Quest": {
+            "class": "Waypoint",
+            "locationName": "Quest",
+            "latitude": "14.75283",
+            "longitude": "-44.97950",
+            "seabedDepth": "3045m"
+        }
+    }
+}

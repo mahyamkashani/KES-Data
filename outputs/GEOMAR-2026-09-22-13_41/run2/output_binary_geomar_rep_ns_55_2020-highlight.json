@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "Imagenex 837B Delta T"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "JAGO hasSensor Imagenex 837B Delta T"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Station 3-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Station 3-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "AL533",
+                "Station 5-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "AL533 hasTask Station 5-1"
+        }
+    ]
+}

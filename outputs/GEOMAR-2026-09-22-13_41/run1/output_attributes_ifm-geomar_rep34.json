@@ -1,0 +1,47 @@
+{
+    "Individuals": {
+        "Station_926RD": {
+            "class": "Waypoint",
+            "locationName": "Station 926RD",
+            "latitude": "14.67502",
+            "longitude": "-44.90828"
+        },
+        "Station_931RD": {
+            "class": "Station",
+            "stationID": "931RD",
+            "stationDate": "2006-11-15",
+            "stationTime": "17:15"
+        },
+        "Station_945GC": {
+            "class": "Station",
+            "stationID": "945GC",
+            "stationDate": "2006-11-18",
+            "stationTime": "13:56"
+        },
+        "Station_962RD": {
+            "class": "Waypoint",
+            "locationName": "Station 962RD",
+            "latitude": "14.75190",
+            "longitude": "-44.97855"
+        },
+        "Logatchev_Hydrothermal_Field": {
+            "class": "Waypoint",
+            "locationName": "Logatchev hydrothermal field",
+            "latitude": "14.75000",
+            "longitude": "-44.90000",
+            "seabedDepth": "3000 m"
+        },
+        "Station_957RD": {
+            "class": "Waypoint",
+            "locationName": "Station 957RD",
+            "latitude": "14.75367",
+            "longitude": "-44.98030"
+        },
+        "Station_959RD": {
+            "class": "State"
+        },
+        "Station_954RD": {
+            "class": "State"
+        }
+    }
+}

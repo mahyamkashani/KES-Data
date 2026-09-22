@@ -1,0 +1,33 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 27
+
+created 12 individuals:
+  + RRS_JAMES_COOK : Vehicle
+  + EM_120 : MBES
+  + EM_710 : MBES
+  + Bathymetric_Survey : Bathymetric_Mission
+  + RRS_James_Cook : Ship
+  + OBS_701 : Task
+  + OBS_702 : Task
+  + OBS_128 : State
+  + OBS_131 : State
+  + OBS_1117 : State
+  + OBS_1218 : State
+  + OBS_1219 : State
+
+asserted 12 axioms:
+  + RRS_JAMES_COOK hasSensor EM_120
+  + RRS_JAMES_COOK hasSensor EM_710
+  + Bathymetric_Survey hasDurationText From 30th March to 1st April   [hasDuration could not take it]
+  + Bathymetric_Survey hasStatus SUCCESSFUL
+  + RRS_James_Cook maxDepthText 2000 m   [maxDepth could not take it]
+  + OBS_701 hasStatus SUCCESSFUL
+  + OBS_702 hasStatus SUCCESSFUL
+  + OBS_128 has_Depth 4050
+  + OBS_131 has_Depth 4212
+  + OBS_1117 has_Depth 728
+  + OBS_1218 has_Depth 1620
+  + OBS_1219 has_Depth 1680
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep20.rdf

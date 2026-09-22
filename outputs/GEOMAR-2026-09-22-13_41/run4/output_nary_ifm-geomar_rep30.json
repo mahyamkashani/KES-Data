@@ -1,0 +1,28 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "893RD hasAction Drilling",
+                "895RD hasAction Drilling",
+                "896RD hasAction Drilling",
+                "897RD hasAction Drilling",
+                "900RDV hasAction Coring",
+                "901RD hasAction Drilling",
+                "902RD hasAction Drilling",
+                "903RD hasAction Drilling"
+            ],
+            "Individuals": [
+                "893RD",
+                "895RD",
+                "896RD",
+                "897RD",
+                "900RDV",
+                "901RD",
+                "902RD",
+                "903RD",
+                "Drilling",
+                "Coring"
+            ]
+        }
+    }
+}

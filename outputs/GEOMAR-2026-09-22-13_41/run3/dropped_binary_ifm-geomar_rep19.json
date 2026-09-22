@@ -1,0 +1,44 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V L’A TALANTE",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V L’A TALANTE hasSensor ADCP"
+        },
+        "reason": "R/V L’A TALANTE hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Dive 1426",
+                "KPO_1006"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Dive 1426 hasTask KPO_1006"
+        },
+        "reason": "Dive 1426 hasTask KPO_1006: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Station 3",
+                "KPO_1006"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Station 3 hasTask KPO_1006"
+        },
+        "reason": "Station 3 hasTask KPO_1006: 'Station 3' and 'KPO_1006' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

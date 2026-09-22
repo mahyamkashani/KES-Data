@@ -1,0 +1,44 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "FSB Meerkatze",
+                "Chlorophyll a"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "FSB Meerkatze hasSensor Chlorophyll a"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "SO225"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV SONNE hasMission SO225"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV CELTIC EXPLORER",
+                "CE12010"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV CELTIC EXPLORER hasMission CE12010"
+        }
+    ]
+}

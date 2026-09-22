@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Sonne",
+                "6m-GHF Probe"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V Sonne hasSensor 6m-GHF Probe"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile P02",
+                "Station 206"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Profile P02 hasTask Station 206"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "OBH01"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS Discovery hasSensor OBH01"
+        },
+        {
+            "INDIVIDUAL": [
+                "RRS Discovery",
+                "OBH02"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RRS Discovery hasSensor OBH02"
+        }
+    ]
+}

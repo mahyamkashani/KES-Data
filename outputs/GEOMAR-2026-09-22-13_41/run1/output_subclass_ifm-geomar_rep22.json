@@ -1,0 +1,80 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "ATA10CTD",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "ATA12CTD",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "ATA13ROV",
+                "hasDuration": "3:30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS hot fluid sampling"
+            },
+            {
+                "individual_name": "ATA15ROV",
+                "hasDuration": "3:30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS diffuse fluid sampling"
+            },
+            {
+                "individual_name": "ATA17ROV",
+                "hasDuration": "3:30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS hot fluid sampling"
+            },
+            {
+                "individual_name": "ATA21ROV",
+                "hasDuration": "2:20",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS diffuse fluid sampling"
+            },
+            {
+                "individual_name": "ATA24ROV",
+                "hasDuration": "2:05",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS hot fluid sampling"
+            },
+            {
+                "individual_name": "ATA27ROV",
+                "hasDuration": "2:30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS diffuse fluid sampling"
+            },
+            {
+                "individual_name": "ATA30ROV",
+                "hasDuration": "2:30",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "KIPS hot fluid sampling"
+            }
+        ],
+        "SurveyMission": [
+            {
+                "individual_name": "ATA08MAPR",
+                "hasDuration": "8:12",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV KIEL 6000",
+                "maxDepth": "6000m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "l\u2019Atalante"
+            }
+        ]
+    }
+}

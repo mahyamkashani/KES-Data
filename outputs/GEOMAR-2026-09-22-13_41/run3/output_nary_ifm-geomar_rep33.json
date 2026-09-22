@@ -1,0 +1,49 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO203 hasTask Dive_012"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_012"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO203 hasTask Dive_015"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_015"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO203 hasTask Dive_016"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_016"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO203 hasTask Dive_019"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_019"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "SO203 hasTask Dive_020"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_020"
+            ]
+        }
+    }
+}

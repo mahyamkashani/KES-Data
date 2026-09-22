@@ -1,0 +1,41 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "ATA02-31CTD",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "ATA-35ROV",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "biological, petrological and fluid-geochemical samples"
+            }
+        ],
+        "Traversal": [
+            {
+                "individual_name": "ROV dives",
+                "hasDuration": "13 working days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "Kiel 6000",
+                "maxDepth": "4890 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "Atalante",
+                "maxDepth": "3004 m"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,34 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 35
+
+created 20 individuals:
+  + FSB_Meerkatze : Vehicle
+  + Chlorophyll_a : Camera
+  + JAGO : Submersible_Vehicle
+  + Südfall : Ship
+  + POSEIDON : Ship
+  + SONNE : Ship
+  + MARIA_S_MERIAN : Ship
+  + ALKOR : Ship
+  + CV_Alice_Freymann : Task
+  + Station_1 : State
+  + Station_2 : State
+  + Station_3 : State
+  + Station_4 : State
+  + Station_5 : State
+  + Station_6 : State
+  + Station_7 : State
+  + Station_8 : State
+  + Station_9 : State
+  + Station_10 : State
+  + Station_11 : State
+
+asserted 5 axioms:
+  + FSB_Meerkatze hasSensor Chlorophyll_a
+  + CV_Alice_Freymann hasDuration 2.0
+  + CV_Alice_Freymann hasStatus SUCCESSFUL
+  + FSB_Meerkatze hasDuration 4.0
+  + FSB_Meerkatze hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_geomar_rep_ns_58_2021 tjm 2.rdf

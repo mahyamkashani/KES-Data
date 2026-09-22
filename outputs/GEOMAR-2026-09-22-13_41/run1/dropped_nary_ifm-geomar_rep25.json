@@ -1,0 +1,12 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO199_CHRISP hasTask SO199_CHRISP_Task",
+        "reason": "'SO199_CHRISP hasTask SO199_CHRISP_Task': 'SO199_CHRISP_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO199_CHRISP_Task hasAction SO199_CHRISP_Action",
+        "reason": "'SO199_CHRISP_Task hasAction SO199_CHRISP_Action': 'SO199_CHRISP_Task', 'SO199_CHRISP_Action' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

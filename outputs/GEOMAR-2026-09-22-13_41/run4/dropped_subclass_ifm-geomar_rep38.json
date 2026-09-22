@@ -1,0 +1,47 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "SurveyMission": {
+                "individual_name": "Mission 042"
+            }
+        },
+        "reason": "Mission 042: 'Mission 042' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Mission 043": {
+                "hasStatus": "ABORTED"
+            }
+        },
+        "reason": "Mission 043: hasStatus='ABORTED' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "SurveyMission": {
+                "individual_name": "Mission 045"
+            }
+        },
+        "reason": "Mission 045: 'Mission 045' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "SurveyMission": {
+                "individual_name": "Mission 046"
+            }
+        },
+        "reason": "Mission 046: 'Mission 046' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "SurveyMission": {
+                "individual_name": "Mission 050"
+            }
+        },
+        "reason": "Mission 050: 'Mission 050' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

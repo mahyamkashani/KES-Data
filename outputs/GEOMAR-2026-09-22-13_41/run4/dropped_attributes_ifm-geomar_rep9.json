@@ -1,0 +1,191 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_1": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_1: 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_2": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_2: 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_3": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_3: 'Waypoint_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_4": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_4: 'Waypoint_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_5": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_5: 'Waypoint_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 206": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 206: 'Dive 206' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 207": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 207: 'Dive 207' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Dive 213": {
+                "class": "Task"
+            }
+        },
+        "reason": "Dive 213: 'Dive 213' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_8": {
+                "has_Depth": "1050"
+            }
+        },
+        "reason": "CTD_8: has_Depth='1050' is not printed on any page that names 'CTD_8' - copy the number the report prints beside 'CTD_8', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_9": {
+                "has_Temperature": "147.8"
+            }
+        },
+        "reason": "CTD_9: has_Temperature='147.8' is not printed on any page that names 'CTD_9' - copy the number the report prints beside 'CTD_9', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_9": {
+                "has_Depth": "994"
+            }
+        },
+        "reason": "CTD_9: has_Depth='994' is not printed on any page that names 'CTD_9' - copy the number the report prints beside 'CTD_9', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_11": {
+                "has_Temperature": "142.8"
+            }
+        },
+        "reason": "CTD_11: has_Temperature='142.8' is not printed on any page that names 'CTD_11' - copy the number the report prints beside 'CTD_11', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_11": {
+                "has_Depth": "1021"
+            }
+        },
+        "reason": "CTD_11: has_Depth='1021' is not printed on any page that names 'CTD_11' - copy the number the report prints beside 'CTD_11', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_12": {
+                "has_Temperature": "164.1"
+            }
+        },
+        "reason": "CTD_12: has_Temperature='164.1' is not printed on any page that names 'CTD_12' - copy the number the report prints beside 'CTD_12', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_18": {
+                "has_Temperature": "320.0"
+            }
+        },
+        "reason": "CTD_18: has_Temperature='320.0' is not printed on any page that names 'CTD_18' - copy the number the report prints beside 'CTD_18', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_18": {
+                "has_Depth": "1047"
+            }
+        },
+        "reason": "CTD_18: has_Depth='1047' is not printed on any page that names 'CTD_18' - copy the number the report prints beside 'CTD_18', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_19": {
+                "has_Temperature": "155.6"
+            }
+        },
+        "reason": "CTD_19: has_Temperature='155.6' is not printed on any page that names 'CTD_19' - copy the number the report prints beside 'CTD_19', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_21": {
+                "has_Temperature": "107.39"
+            }
+        },
+        "reason": "CTD_21: has_Temperature='107.39' is not printed on any page that names 'CTD_21' - copy the number the report prints beside 'CTD_21', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_21": {
+                "has_Depth": "860"
+            }
+        },
+        "reason": "CTD_21: has_Depth='860' is not printed on any page that names 'CTD_21' - copy the number the report prints beside 'CTD_21', or leave has_Depth out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_39": {
+                "has_Temperature": "247.3"
+            }
+        },
+        "reason": "CTD_39: has_Temperature='247.3' is not printed on any page that names 'CTD_39' - copy the number the report prints beside 'CTD_39', or leave has_Temperature out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_39": {
+                "has_Depth": "1092"
+            }
+        },
+        "reason": "CTD_39: has_Depth='1092' is not printed on any page that names 'CTD_39' - copy the number the report prints beside 'CTD_39', or leave has_Depth out"
+    }
+]

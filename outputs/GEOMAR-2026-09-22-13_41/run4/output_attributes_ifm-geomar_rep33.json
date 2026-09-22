@@ -1,0 +1,96 @@
+{
+    "Individuals": {
+        "Abyss0012": {
+            "class": "Mission",
+            "MissionID": "Abyss0012",
+            "startTime": "2009-10-30 09:20",
+            "endTime": "2009-10-30 10:17",
+            "hasStatus": "FAILED",
+            "remark": "mission cancelled due to error in the mission file"
+        },
+        "Abyss0013": {
+            "class": "Mission",
+            "MissionID": "Abyss0013",
+            "startTime": "2009-11-01 05:01",
+            "endTime": "2009-11-01 05:06",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Abyss0014": {
+            "class": "Mission",
+            "MissionID": "Abyss0014",
+            "startTime": "2009-11-01 11:16",
+            "endTime": "2009-11-01 14:50",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Abyss0015": {
+            "class": "Mission",
+            "MissionID": "Abyss0015",
+            "startTime": "2009-11-04 06:45",
+            "endTime": "2009-11-04 09:46",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Abyss0016": {
+            "class": "Mission",
+            "MissionID": "Abyss0016",
+            "startTime": "2009-11-06 02:30",
+            "endTime": "2009-11-06 04:45",
+            "hasStatus": "FAILED"
+        },
+        "Moresby_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Moresby Seamount",
+            "latitude": "-9.81667",
+            "longitude": "155.58333",
+            "seabedDepth": "variable"
+        },
+        "Franklin_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Franklin Seamount",
+            "latitude": "-9.89473",
+            "longitude": "151.79732",
+            "seabedDepth": "variable"
+        },
+        "Segment_1A": {
+            "class": "Waypoint",
+            "locationName": "Segment 1A",
+            "latitude": "-9.77293",
+            "longitude": "151.55657",
+            "seabedDepth": "variable"
+        },
+        "Segment_1B": {
+            "class": "Waypoint",
+            "locationName": "Segment 1B",
+            "latitude": "-9.93850",
+            "longitude": "151.97067",
+            "seabedDepth": "2699m"
+        },
+        "Segment_1C": {
+            "class": "Waypoint",
+            "locationName": "Segment 1C",
+            "latitude": "-10.02817",
+            "longitude": "152.19983",
+            "seabedDepth": "2765m"
+        },
+        "Dive_012": {
+            "class": "Task",
+            "hasDuration": "2.5",
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "Dive_013": {
+            "class": "State",
+            "has_Depth": "2100"
+        },
+        "Dive_014": {
+            "class": "State",
+            "has_Depth": "2130"
+        },
+        "Dive_015": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_019": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

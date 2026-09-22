@@ -1,0 +1,49 @@
+{
+    "Individuals": {
+        "JAGO": {
+            "class": "State",
+            "has_Temperature": 15.0647,
+            "has_Conductivity": 4.61967,
+            "has_Depth": 400
+        },
+        "ANTON": {
+            "class": "Mission",
+            "MissionID": "AL533_5-1",
+            "startTime": "2020-02-08 12:20",
+            "endTime": "2020-02-15 12:57",
+            "maxDepth": 200,
+            "dataVolume": "Over 100,000 photographs taken",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "AUV used for multiple missions including photo surveys"
+        },
+        "LUISE": {
+            "class": "Mission",
+            "MissionID": "AL533_7-1",
+            "startTime": "2020-02-09 10:34",
+            "endTime": "2020-02-15 12:57",
+            "maxDepth": 100,
+            "dataVolume": "Data collected during various missions",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "AUV used for acoustic tests and photo missions"
+        },
+        "Dive_1427": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1428": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1429": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_1431": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

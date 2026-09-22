@@ -1,0 +1,14 @@
+{
+    "Individuals": {
+        "TransBrom_Sonne": {
+            "MissionID": "TransBrom Sonne",
+            "startTime": "2009-10-09",
+            "endTime": "2009-10-24",
+            "maxDepth": "30 km",
+            "dataVolume": "variety of parameters",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "First oceanic-middle atmosphere campaign",
+            "class": "Mission"
+        }
+    }
+}

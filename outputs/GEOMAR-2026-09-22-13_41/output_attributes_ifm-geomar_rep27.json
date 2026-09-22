@@ -1,0 +1,24 @@
+{
+    "Individuals": {
+        "Cruise_64PE298": {
+            "MissionID": "64PE298",
+            "startTime": "2008-11-06 07:00",
+            "endTime": "2008-11-23 21:30",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "Dive_3": {
+            "class": "Task"
+        },
+        "North_Alex_Mud_Volcano": {
+            "has_Temperature": "50",
+            "has_Depth": "4",
+            "class": "State"
+        },
+        "Giza_Mud_Volcano": {
+            "has_Temperature": "17",
+            "has_Depth": "6",
+            "class": "State"
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP01",
+                "WP02"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP01 before WP02"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP02",
+                "WP03"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP02 before WP03"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP03",
+                "WP04"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP03 before WP04"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP04",
+                "WP05"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP04 before WP05"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP05",
+                "WP06"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP05 before WP06"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP06",
+                "WP07"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP06 before WP07"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP07",
+                "WP08"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP07 before WP08"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP08",
+                "WP09"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP08 before WP09"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP09",
+                "WP10"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP09 before WP10"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP10",
+                "WP11"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP10 before WP11"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP11",
+                "WP12"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP11 before WP12"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP12",
+                "WP13"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP12 before WP13"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP13",
+                "WP14"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP13 before WP14"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP14",
+                "WP15"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP14 before WP15"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP15",
+                "WP16"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP15 before WP16"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP16",
+                "WP17"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP16 before WP17"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP17",
+                "WP18"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP17 before WP18"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP18",
+                "WP19"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP18 before WP19"
+        },
+        {
+            "INDIVIDUAL": [
+                "WP19",
+                "WP20"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "WP19 before WP20"
+        }
+    ]
+}

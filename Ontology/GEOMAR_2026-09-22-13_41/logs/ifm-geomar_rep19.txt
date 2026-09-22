@@ -1,0 +1,76 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 34
+
+created 19 individuals:
+  + R_V_L_A_TALANTE : Ship
+  + McLane_Moored_Profiler : DVL
+  + KPO_1006 : Ship
+  + CTD_O_2_station : CTDMission
+  + CTD_O_2_rosette : Data_Sampling_Mission
+  + KPO_1021 : Station
+  + KPO_1023 : Station
+  + AO_01 : Station
+  + AO_02 : Station
+  + AO_03 : Station
+  + AO_04 : Station
+  + AO_05 : Station
+  + V440_1 : Station
+  + KPO_1022 : Station
+  + KPO_1024 : Station
+  + KPO_1025 : Station
+  + KPO_1026 : Station
+  + KPO_1027 : Station
+  + Glider_Recovery : Task
+
+asserted 48 axioms:
+  + R_V_L_A_TALANTE hasSensor McLane_Moored_Profiler
+  + KPO_1006 hasMission R_V_L_A_TALANTE
+  + CTD_O_2_station hasDurationText 3 days   [hasDuration could not take it]
+  + CTD_O_2_station hasStatus SUCCESSFUL
+  + CTD_O_2_rosette hasStatus SUCCESSFUL
+  + CTD_O_2_rosette collect_sample water samples for oxygen determination
+  + R_V_L_A_TALANTE maxDepthText 4800m   [maxDepth could not take it]
+  + KPO_1021 stationID KPO_1021
+  + KPO_1021 stationDate 2008-03-03
+  + KPO_1021 stationTime 14:09
+  + KPO_1023 stationID KPO_1023
+  + KPO_1023 stationDate 2008-03-01
+  + KPO_1023 stationTime 19:43
+  + AO_01 stationID AO_01
+  + AO_01 stationDate 2006-06-19
+  + AO_01 stationTime 19:53
+  + AO_02 stationID AO_02
+  + AO_02 stationDate 2006-06-20
+  + AO_02 stationTime 29-Feb-08
+  + AO_03 stationID AO_03
+  + AO_03 stationDate 2006-06-17
+  + AO_03 stationTime 4-Mar-08
+  + AO_04 stationID AO_04
+  + AO_04 stationDate 2006-06-21
+  + AO_04 stationTime 2-Mar-08
+  + AO_05 stationID AO_05
+  + AO_05 stationDate 2006-07-03
+  + AO_05 stationTime 27-Feb-08
+  + V440_1 stationID V440_1
+  + V440_1 stationDate 2006-07-08
+  + V440_1 stationTime 19-Feb-08
+  + KPO_1022 stationID KPO_1022
+  + KPO_1022 stationDate 2008-03-04
+  + KPO_1022 stationTime 18:43
+  + KPO_1024 stationID KPO_1024
+  + KPO_1024 stationDate 2008-03-06
+  + KPO_1024 stationTime 10:35
+  + KPO_1025 stationID KPO_1025
+  + KPO_1025 stationDate 2008-03-06
+  + KPO_1025 stationTime 10:35
+  + KPO_1026 stationID KPO_1026
+  + KPO_1026 stationDate 2008-02-27
+  + KPO_1026 stationTime 18:30
+  + KPO_1027 stationID KPO_1027
+  + KPO_1027 stationDate 2008-02-26
+  + KPO_1027 stationTime 10:49
+  + Glider_Recovery hasDuration 45.0
+  + Glider_Recovery hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep19.rdf

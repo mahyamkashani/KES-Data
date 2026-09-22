@@ -1,0 +1,27 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "12-AUV",
+                "hasDuration": "3.8 h",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "sediment ooze and glass chips"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "ABYSS",
+                "maxDepth": "6000 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    }
+}

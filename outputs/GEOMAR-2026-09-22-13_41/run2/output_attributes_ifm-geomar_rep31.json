@@ -1,0 +1,132 @@
+{
+    "Individuals": {
+        "West_Nile_Delta_Project": {
+            "class": "Mission",
+            "MissionID": "WND-4",
+            "startTime": "2009-07-13",
+            "endTime": "2009-08-04",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report P388"
+        },
+        "North_Alex": {
+            "class": "Waypoint",
+            "locationName": "North Alex mud volcano",
+            "latitude": "31.96732",
+            "longitude": "30.13108"
+        },
+        "Giza": {
+            "class": "Waypoint",
+            "locationName": "Giza mud volcano",
+            "latitude": "31.96558",
+            "longitude": "30.13840"
+        },
+        "OBS_13": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_14": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_15": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_16": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_17": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_18": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_19": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBS_24": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBT_4": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "OBT_6": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "SP_25": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "SP_27": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "SP_28": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        },
+        "SP_29": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": null
+        }
+    }
+}

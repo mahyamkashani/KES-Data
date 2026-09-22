@@ -1,0 +1,194 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-01",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-01 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-101",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-101 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-102",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-102 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-103",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-103 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-104",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-104 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-105",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-105 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-106",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-02-106 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-03",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-03 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-04",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-04 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-05",
+                "Pockmark"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-05 hasDestination Pockmark"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-06",
+                "Pockmark"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-06 hasDestination Pockmark"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-07",
+                "Pockmark"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-07 hasDestination Pockmark"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-08",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-08 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-106",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-09-106 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-105",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-09-105 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-104",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-09-104 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-103",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-09-103 hasDestination Jaco Scarp"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-102",
+                "Jaco Scarp"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO206-09-102 hasDestination Jaco Scarp"
+        }
+    ]
+}

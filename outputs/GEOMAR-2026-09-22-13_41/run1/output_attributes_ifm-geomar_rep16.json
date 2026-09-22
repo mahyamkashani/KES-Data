@@ -1,0 +1,12 @@
+{
+    "Individuals": {
+        "MUMP1": {
+            "class": "State",
+            "has_Depth": "380"
+        },
+        "MUMP2": {
+            "class": "State",
+            "has_Depth": "41"
+        }
+    }
+}

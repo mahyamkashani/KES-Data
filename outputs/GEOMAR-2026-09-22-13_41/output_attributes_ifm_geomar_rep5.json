@@ -1,0 +1,64 @@
+{
+    "Individuals": {
+        "SO186-1A": {
+            "MissionID": "SO186-1A",
+            "startTime": "2005-10-15",
+            "endTime": "2005-11-20",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "SO186-1B": {
+            "MissionID": "SO186-1B",
+            "startTime": "2005-10-29",
+            "endTime": "2005-11-09",
+            "hasStatus": "SUCCESSFUL",
+            "class": "Mission"
+        },
+        "LEWK": {
+            "stationID": "LEWK",
+            "stationDate": "2005-12-12",
+            "class": "Station"
+        },
+        "LFAK": {
+            "stationID": "LFAK",
+            "stationDate": "2005-12-12",
+            "class": "Station"
+        },
+        "LABU": {
+            "stationID": "LABU",
+            "stationDate": "2005-12-13",
+            "class": "Station"
+        },
+        "MAUD": {
+            "stationID": "MAUD",
+            "stationDate": "2005-12-14",
+            "class": "Station"
+        },
+        "PUTR": {
+            "stationID": "PUTR",
+            "stationDate": "2005-12-15",
+            "class": "Station"
+        },
+        "DEHI": {
+            "stationID": "DEHI",
+            "stationDate": "2005-12-15",
+            "class": "Station"
+        },
+        "BATU": {
+            "stationID": "BATU",
+            "stationDate": "2005-12-16",
+            "class": "Station"
+        },
+        "LUAN": {
+            "stationID": "LUAN",
+            "stationDate": "2005-12-16",
+            "class": "Station"
+        },
+        "GITEWS-1": {
+            "locationName": "3°43.7'S/99°14.0'E",
+            "latitude": "-3.72833",
+            "longitude": "99.23333",
+            "class": "Waypoint"
+        }
+    }
+}

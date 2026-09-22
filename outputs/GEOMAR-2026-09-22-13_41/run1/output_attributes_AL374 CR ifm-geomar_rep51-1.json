@@ -1,0 +1,33 @@
+{
+    "Individuals": {
+        "Salt_Dome_Juist": {
+            "class": "Waypoint",
+            "locationName": "Salt Dome Juist",
+            "latitude": "54.03488",
+            "longitude": "6.83822",
+            "seabedDepth": "30 m"
+        },
+        "Sleipner": {
+            "class": "Waypoint",
+            "locationName": "Sleipner",
+            "latitude": "58.38693",
+            "longitude": "1.97815",
+            "seabedDepth": "79 m"
+        },
+        "Blowout": {
+            "class": "Waypoint",
+            "locationName": "Well 22/4-b",
+            "latitude": "57.91967",
+            "longitude": "1.62533",
+            "seabedDepth": "Variable"
+        },
+        "CTD01": {
+            "class": "State",
+            "has_Depth": "29"
+        },
+        "CTD05": {
+            "class": "State",
+            "has_Depth": "80"
+        }
+    }
+}

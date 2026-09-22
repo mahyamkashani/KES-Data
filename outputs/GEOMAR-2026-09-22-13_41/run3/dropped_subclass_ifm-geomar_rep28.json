@@ -1,0 +1,65 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Remotely_Operated_Vehicle": {
+                "individual_name": "ROV used during cruise"
+            }
+        },
+        "reason": "ROV used during cruise: 'ROV used during cruise' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR1"
+            }
+        },
+        "reason": "Station DR1: 'Station DR1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR2"
+            }
+        },
+        "reason": "Station DR2: 'Station DR2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR6"
+            }
+        },
+        "reason": "Station DR6: 'Station DR6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR7"
+            }
+        },
+        "reason": "Station DR7: 'Station DR7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR8"
+            }
+        },
+        "reason": "Station DR8: 'Station DR8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Station": {
+                "individual_name": "Station DR9"
+            }
+        },
+        "reason": "Station DR9: 'Station DR9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

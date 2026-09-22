@@ -1,0 +1,36 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "Expedition Report \u201cGlider fleet\u201d",
+                "hasDuration": "05. \u2013 19.03.2010",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "IFM06"
+            },
+            {
+                "individual_name": "IFM07"
+            },
+            {
+                "individual_name": "IFM09"
+            },
+            {
+                "individual_name": "IFM03"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "Happy Hooker II",
+                "maxDepth": "700 m"
+            }
+        ],
+        "Station": []
+    }
+}

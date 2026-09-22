@@ -1,0 +1,38 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD yoyo stations",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD measurements",
+                "collect_sample": "water samples for salinity calibration"
+            }
+        ],
+        "TrialMission": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Autonomous Glider",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RRS Discovery"
+            },
+            {
+                "individual_name": "FS Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

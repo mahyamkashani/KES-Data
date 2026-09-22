@@ -1,0 +1,54 @@
+{
+    "Individuals": {
+        "MSM04-2": {
+            "MissionID": "MSM04-2",
+            "startTime": "2007-01-03",
+            "endTime": "2007-01-19",
+            "maxDepth": "6000 m",
+            "dataVolume": "2500 km",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Seismic Wide-Angle Profiles Fort-de-France – Fort-de-France",
+            "class": "Mission"
+        },
+        "GCPP-01": {
+            "has_Depth": 3040,
+            "class": "State"
+        },
+        "GCPP-02": {
+            "has_Depth": 3380,
+            "class": "State"
+        },
+        "GCPP-03": {
+            "has_Depth": 3568,
+            "class": "State"
+        },
+        "GCPP-04": {
+            "has_Depth": 1885,
+            "class": "State"
+        },
+        "GCPP-05": {
+            "has_Depth": 955,
+            "class": "State"
+        },
+        "GCPP-06": {
+            "has_Depth": 4875,
+            "class": "State"
+        },
+        "GCPP-07": {
+            "has_Depth": 4950,
+            "class": "State"
+        },
+        "GCPP-08": {
+            "has_Depth": 1023,
+            "class": "State"
+        },
+        "GCPP-09": {
+            "has_Depth": 1062,
+            "class": "State"
+        },
+        "GCPP-10": {
+            "has_Depth": 2685,
+            "class": "State"
+        }
+    }
+}

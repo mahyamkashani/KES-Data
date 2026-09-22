@@ -1,0 +1,114 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "MARIA S. MERIAN hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "MARIA S. MERIAN",
+                "Lowered ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "MARIA S. MERIAN hasSensor Lowered ADCP"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1185"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1185"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1194"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1194"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1220"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1220"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1221"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1221"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1225"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1225"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1226"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1226"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1227"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1227"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1228"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1228"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM94",
+                "KPO_1229"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM94 hasTask KPO_1229"
+        }
+    ]
+}

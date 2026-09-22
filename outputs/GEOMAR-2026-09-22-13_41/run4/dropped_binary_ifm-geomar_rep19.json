@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V L’A TALANTE",
+                "RDI Acoustic Doppler Current Profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V L’A TALANTE hasSensor RDI Acoustic Doppler Current Profiler"
+        },
+        "reason": "R/V L’A TALANTE hasSensor RDI Acoustic Doppler Current Profiler: 'RDI Acoustic Doppler Current Profiler' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

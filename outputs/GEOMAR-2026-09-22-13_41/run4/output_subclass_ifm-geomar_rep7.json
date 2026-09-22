@@ -1,0 +1,53 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "DTS-1 System",
+                "hasDuration": "2 days",
+                "hasStatus": "PartialFAILURE"
+            },
+            {
+                "individual_name": "Magnetic Survey",
+                "hasDuration": "11 profiles",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Multibeam Bathymetric Mapping",
+                "hasStatus": "PartialSUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Gravity Cores",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "6 cores from 5 sites"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V METEOR"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "Station 5",
+                "stationID": "5",
+                "stationName": "Gravity Core Station"
+            },
+            {
+                "individual_name": "Station 6",
+                "stationID": "6",
+                "stationName": "Gravity Core Station"
+            }
+        ]
+    }
+}

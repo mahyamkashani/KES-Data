@@ -1,0 +1,78 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "SO186-1C",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "SO186-1D",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "TS1",
+                "maxDepth": "3600 m"
+            },
+            {
+                "individual_name": "TS2",
+                "maxDepth": "3500 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Station": [
+            {
+                "individual_name": "LEWK",
+                "stationID": "6197",
+                "stationName": "LEWK",
+                "stationDate": "2005-12-12"
+            },
+            {
+                "individual_name": "LFAK",
+                "stationID": "6351",
+                "stationName": "LFAK",
+                "stationDate": "2005-12-12"
+            },
+            {
+                "individual_name": "LABU",
+                "stationID": "6119",
+                "stationName": "LABU",
+                "stationDate": "2005-12-13"
+            },
+            {
+                "individual_name": "MAUD",
+                "stationID": "6043",
+                "stationName": "MAUD",
+                "stationDate": "2005-12-14"
+            },
+            {
+                "individual_name": "PUTR",
+                "stationID": "6111",
+                "stationName": "PUTR",
+                "stationDate": "2005-12-15"
+            },
+            {
+                "individual_name": "DEHI",
+                "stationID": "6091",
+                "stationName": "DEHI",
+                "stationDate": "2005-12-15"
+            },
+            {
+                "individual_name": "BATU",
+                "stationID": "6041",
+                "stationName": "BATU",
+                "stationDate": "2005-12-16"
+            },
+            {
+                "individual_name": "LUAN",
+                "stationID": "6118",
+                "stationName": "LUAN",
+                "stationDate": "2005-12-16"
+            }
+        ]
+    }
+}

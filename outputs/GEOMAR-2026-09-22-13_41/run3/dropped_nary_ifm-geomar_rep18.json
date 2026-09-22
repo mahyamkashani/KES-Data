@@ -1,0 +1,42 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through TestStation",
+        "reason": "'P348 goes_through TestStation': 'TestStation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_226",
+        "reason": "'P348 goes_through Waypoint_226': 'Waypoint_226' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_227",
+        "reason": "'P348 goes_through Waypoint_227': 'Waypoint_227' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_228",
+        "reason": "'P348 goes_through Waypoint_228': 'Waypoint_228' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_236",
+        "reason": "'P348 goes_through Waypoint_236': 'Waypoint_236' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_237",
+        "reason": "'P348 goes_through Waypoint_237': 'Waypoint_237' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_238",
+        "reason": "'P348 goes_through Waypoint_238': 'Waypoint_238' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P348 goes_through Waypoint_249",
+        "reason": "'P348 goes_through Waypoint_249': 'Waypoint_249' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

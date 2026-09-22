@@ -1,0 +1,74 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "JAGO"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "RV ALKOR usesVehicle JAGO"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV ALKOR",
+                "AL275"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "RV ALKOR hasMission AL275"
+        },
+        {
+            "INDIVIDUAL": [
+                "JAGO",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "JAGO hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 7",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 7 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 7",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 7 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 8",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 8 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 8",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 8 hasAction Act_DeepDive"
+        }
+    ]
+}

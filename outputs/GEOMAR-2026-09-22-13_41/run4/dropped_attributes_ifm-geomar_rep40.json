@@ -1,0 +1,101 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_01": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_01: 'Mission_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_02": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_02: 'Mission_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_03": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_03: 'Mission_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_04": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_04: 'Mission_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_05": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_05: 'Mission_05' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_06": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_06: 'Mission_06' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "IFM 06": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "IFM 06: hasDuration=0.5 is not printed on any page that names 'IFM 06' - copy the number the report prints beside 'IFM 06', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "IFM 03": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "IFM 03: hasDuration=0.5 is not printed on any page that names 'IFM 03' - copy the number the report prints beside 'IFM 03', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "IFM 09": {
+                "class": "Task"
+            }
+        },
+        "reason": "IFM 09: 'IFM 09' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "IFM 07": {
+                "hasDuration": 0.5
+            }
+        },
+        "reason": "IFM 07: hasDuration=0.5 is not printed on any page that names 'IFM 07' - copy the number the report prints beside 'IFM 07', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "IFM 07": {
+                "hasStatus": "PARTIALFAILURE"
+            }
+        },
+        "reason": "IFM 07: hasStatus='PARTIALFAILURE' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    }
+]

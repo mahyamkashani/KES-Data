@@ -1,0 +1,236 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1021": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1021: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1022": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1022: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1023": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1023: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1024": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1024: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1025": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1025: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1026": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1026: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1027": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1027: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "KPO_1028": {
+                "hasStatus": "N/A"
+            }
+        },
+        "reason": "KPO_1028: hasStatus='N/A' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_1": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_1: 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_2": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_2: 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_3": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_3: 'Waypoint_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_4": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_4: 'Waypoint_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_5": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_5: 'Waypoint_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_6": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_6: 'Waypoint_6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_1": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_1: 'Mooring_Recovery_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_2": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_2: 'Mooring_Recovery_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_3": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_3: 'Mooring_Recovery_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_4": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_4: 'Mooring_Recovery_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_5": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_5: 'Mooring_Recovery_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_6": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_6: 'Mooring_Recovery_6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_7": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_7: 'Mooring_Recovery_7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mooring_Recovery_8": {
+                "class": "Task"
+            }
+        },
+        "reason": "Mooring_Recovery_8: 'Mooring_Recovery_8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_001": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_001: 'CTD_Station_001' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_002": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_002: 'CTD_Station_002' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_003": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_003: 'CTD_Station_003' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_004": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_004: 'CTD_Station_004' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

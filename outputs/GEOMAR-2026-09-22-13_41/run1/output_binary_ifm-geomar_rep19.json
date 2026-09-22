@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "McLane Moored Profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "DVL",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor McLane Moored Profiler"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "Thermosalinograph"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor Thermosalinograph"
+        },
+        {
+            "INDIVIDUAL": [
+                "TENATSO mooring V440",
+                "R/V L\u2019A TALANTE"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "TENATSO mooring V440 usesVehicle R/V L\u2019A TALANTE"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO_1006",
+                "R/V L\u2019A TALANTE"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "KPO_1006 hasMission R/V L\u2019A TALANTE"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO_1021",
+                "R/V L\u2019A TALANTE"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "KPO_1021 hasMission R/V L\u2019A TALANTE"
+        }
+    ]
+}

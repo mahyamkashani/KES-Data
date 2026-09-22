@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "SEABEAM 1050"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R/V Poseidon hasSensor SEABEAM 1050"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V Sonne",
+                "Rockdrill 1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V Sonne hasSensor Rockdrill 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 737ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 737ROV hasDestination Palinuro Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 741ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 741ROV hasDestination Palinuro Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 743ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 743ROV hasDestination Palinuro Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 746ROV",
+                "Marsili Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 746ROV hasDestination Marsili Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 749ROV",
+                "Palinuro Seamount"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 749ROV hasDestination Palinuro Seamount"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 754ROV",
+                "Lisca Bianca"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 754ROV hasDestination Lisca Bianca"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 756ROV",
+                "Lisca Bianca"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "Dive 756ROV hasDestination Lisca Bianca"
+        }
+    ]
+}

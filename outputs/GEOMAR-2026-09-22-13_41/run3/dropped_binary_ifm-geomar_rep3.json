@@ -1,0 +1,128 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 486#1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 486#1"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 486#1: 'POSEIDON No. 316' and 'Stat 486#1' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 487"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 487"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 487: 'Stat 487' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 489"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 489"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 489: 'Stat 489' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 493"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 493"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 493: 'Stat 493' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 494"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 494"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 494: 'Stat 494' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "POSEIDON No. 316",
+                "Stat 495"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON No. 316 hasTask Stat 495"
+        },
+        "reason": "POSEIDON No. 316 hasTask Stat 495: 'Stat 495' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Galway Mound",
+                "Stat 530"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "Galway Mound requiresNavigation Stat 530"
+        },
+        "reason": "Galway Mound requiresNavigation Stat 530: 'Stat 530' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon Mound",
+                "Stat 536"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "Poseidon Mound requiresNavigation Stat 536"
+        },
+        "reason": "Poseidon Mound requiresNavigation Stat 536: 'Stat 536' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Galway Mound",
+                "Stat 526"
+            ],
+            "OBJECT_PROPERTY": "requiresNavigation",
+            "DOMAIN": "Terrain",
+            "RANGE": "Waypoint",
+            "AXIOM": "Galway Mound requiresNavigation Stat 526"
+        },
+        "reason": "Galway Mound requiresNavigation Stat 526: 'Stat 526' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

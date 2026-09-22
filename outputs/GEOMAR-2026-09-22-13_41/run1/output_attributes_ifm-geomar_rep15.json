@@ -1,0 +1,18 @@
+{
+    "Individuals": {
+        "Giza_MV": {
+            "class": "State",
+            "has_Temperature": 40,
+            "has_Conductivity": 0.86
+        },
+        "North_Alex_MV": {
+            "class": "State",
+            "has_Temperature": 70
+        },
+        "P362/2-100": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

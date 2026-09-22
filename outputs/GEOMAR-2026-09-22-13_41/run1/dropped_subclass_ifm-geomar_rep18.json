@@ -1,0 +1,137 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #235"
+            }
+        },
+        "reason": "Stat #235: 'Stat #235' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #237"
+            }
+        },
+        "reason": "Stat #237: 'Stat #237' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #238"
+            }
+        },
+        "reason": "Stat #238: 'Stat #238' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #239"
+            }
+        },
+        "reason": "Stat #239: 'Stat #239' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #240"
+            }
+        },
+        "reason": "Stat #240: 'Stat #240' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #241"
+            }
+        },
+        "reason": "Stat #241: 'Stat #241' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #242"
+            }
+        },
+        "reason": "Stat #242: 'Stat #242' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #243"
+            }
+        },
+        "reason": "Stat #243: 'Stat #243' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #244"
+            }
+        },
+        "reason": "Stat #244: 'Stat #244' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #245"
+            }
+        },
+        "reason": "Stat #245: 'Stat #245' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #246"
+            }
+        },
+        "reason": "Stat #246: 'Stat #246' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #247"
+            }
+        },
+        "reason": "Stat #247: 'Stat #247' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Stat #248"
+            }
+        },
+        "reason": "Stat #248: 'Stat #248' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "R/V Poseidon": {
+                "maxDepth": "2900 m"
+            }
+        },
+        "reason": "R/V Poseidon: maxDepth='2900 m' is not printed on any page that names 'R/V Poseidon' - copy the number the report prints beside 'R/V Poseidon', or leave maxDepth out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "R/V Poseidon": {
+                "maxDepth": "2900 m"
+            }
+        },
+        "reason": "R/V Poseidon: maxDepth='2900 m' is not printed on any page that names 'R/V Poseidon' - copy the number the report prints beside 'R/V Poseidon', or leave maxDepth out"
+    }
+]

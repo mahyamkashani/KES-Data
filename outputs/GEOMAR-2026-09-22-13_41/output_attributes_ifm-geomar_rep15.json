@@ -1,0 +1,35 @@
+{
+    "Individuals": {
+        "Giza_MV": {
+            "has_Temperature": 40,
+            "has_Conductivity": 0.86,
+            "has_Depth": 675,
+            "class": "State"
+        },
+        "North_Alex_MV": {
+            "has_Temperature": 70,
+            "has_Depth": 491,
+            "class": "State"
+        },
+        "P362/2-100": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "P362/2-2": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "P362/2-36": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "P362/2-38": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "P362/2-46": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

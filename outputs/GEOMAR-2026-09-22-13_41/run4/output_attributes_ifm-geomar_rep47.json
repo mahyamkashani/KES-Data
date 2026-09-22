@@ -1,0 +1,98 @@
+{
+    "Individuals": {
+        "SO214": {
+            "class": "Mission",
+            "MissionID": "SO214",
+            "startTime": "2011-04-06 00:00",
+            "endTime": "2011-04-15 00:00",
+            "maxDepth": "11000",
+            "dataVolume": "various",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise dedicated to geological, geo-chemical and biological investigations."
+        },
+        "OBS_01": {
+            "class": "Station",
+            "stationID": "OBS_01",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_02": {
+            "class": "Station",
+            "stationID": "OBS_02",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_03": {
+            "class": "Station",
+            "stationID": "OBS_03",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_04": {
+            "class": "Station",
+            "stationID": "OBS_04",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_05": {
+            "class": "Station",
+            "stationID": "OBS_05",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_06": {
+            "class": "Station",
+            "stationID": "OBS_06",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_07": {
+            "class": "Station",
+            "stationID": "OBS_07",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_08": {
+            "class": "Station",
+            "stationID": "OBS_08",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_09": {
+            "class": "Station",
+            "stationID": "OBS_09",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_10": {
+            "class": "Station",
+            "stationID": "OBS_10",
+            "stationDate": "2011-03-12"
+        },
+        "OBS_11": {
+            "class": "Station",
+            "stationID": "OBS_11",
+            "stationDate": "2011-03-24"
+        },
+        "OBS_12": {
+            "class": "Station",
+            "stationID": "OBS_12",
+            "stationDate": "2011-03-24"
+        },
+        "OBS_13": {
+            "class": "Station",
+            "stationID": "OBS_13",
+            "stationDate": "2011-03-24"
+        },
+        "OBS_14": {
+            "class": "Station",
+            "stationID": "OBS_14",
+            "stationDate": "2011-03-24"
+        },
+        "CSEM-SO214-1": {
+            "class": "Task",
+            "hasDuration": "18",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD-2": {
+            "class": "State"
+        },
+        "CTD-3": {
+            "class": "State"
+        },
+        "CTD-4": {
+            "class": "State"
+        }
+    }
+}

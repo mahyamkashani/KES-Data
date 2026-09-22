@@ -1,0 +1,157 @@
+{
+    "Individuals": {
+        "POS389": {
+            "stationID": "POS389",
+            "stationDate": "06.–17.08.2009",
+            "stationTime": "18:40",
+            "class": "Station"
+        },
+        "POS393": {
+            "stationID": "POS393",
+            "stationDate": "14.–24.01.2010",
+            "stationTime": "08:20",
+            "class": "Station"
+        },
+        "MSM15/5": {
+            "stationID": "MSM15/5",
+            "stationDate": "17.–29.07.2010",
+            "stationTime": "22:10",
+            "class": "Station"
+        },
+        "OBS_1": {
+            "class": "State"
+        },
+        "OBS_2": {
+            "class": "State"
+        },
+        "OBS_3": {
+            "class": "State"
+        },
+        "OBS_4": {
+            "class": "State"
+        },
+        "OBS_5": {
+            "class": "State"
+        },
+        "OBS_6": {
+            "class": "State"
+        },
+        "OBS_7": {
+            "class": "State"
+        },
+        "OBS_8": {
+            "class": "State"
+        },
+        "OBS_9": {
+            "class": "State"
+        },
+        "OBS_10": {
+            "class": "State"
+        },
+        "OBS_11": {
+            "class": "State"
+        },
+        "OBS_12": {
+            "class": "State"
+        },
+        "OBS_13": {
+            "class": "State"
+        },
+        "OBS_14": {
+            "class": "State"
+        },
+        "OBS_15": {
+            "class": "State"
+        },
+        "OBS_16": {
+            "class": "State"
+        },
+        "OBS_17": {
+            "class": "State"
+        },
+        "OBS_31": {
+            "class": "State"
+        },
+        "OBS_32": {
+            "class": "State"
+        },
+        "OBS_33": {
+            "class": "State"
+        },
+        "OBS_34": {
+            "class": "State"
+        },
+        "OBS_35": {
+            "class": "State"
+        },
+        "OBS_36": {
+            "class": "State"
+        },
+        "OBS_37": {
+            "class": "State"
+        },
+        "OBS_38": {
+            "class": "State"
+        },
+        "OBS_39": {
+            "class": "State"
+        },
+        "OBS_40": {
+            "class": "State"
+        },
+        "OBS_41": {
+            "class": "State"
+        },
+        "OBS_42": {
+            "class": "State"
+        },
+        "OBS_43": {
+            "class": "State"
+        },
+        "OBS_44": {
+            "class": "State"
+        },
+        "OBS_45": {
+            "class": "State"
+        },
+        "OBS_46": {
+            "class": "State"
+        },
+        "OBS_47": {
+            "class": "State"
+        },
+        "OBS_48": {
+            "class": "State"
+        },
+        "OBS_49": {
+            "class": "State"
+        },
+        "OBS_50": {
+            "class": "State"
+        },
+        "OBS_51": {
+            "class": "State"
+        },
+        "OBS_52": {
+            "class": "State"
+        },
+        "OBS_53": {
+            "class": "State"
+        },
+        "OBS_54": {
+            "class": "State"
+        },
+        "RV Poseidon cruise P389": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "RV Poseidon cruise P393": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "RV Maria S. Merian cruise MSM15/5": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

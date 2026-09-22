@@ -1,0 +1,23 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P388 hasAction OBS_Deployments",
+                "P388 hasAction Sidescan_Sonar",
+                "P388 hasAction CAT_Meters",
+                "P388 hasAction Temperature_Monitoring",
+                "P388 hasAction Piezometers",
+                "P388 hasAction Tiltmeters"
+            ],
+            "Individuals": [
+                "P388",
+                "OBS_Deployments",
+                "Sidescan_Sonar",
+                "CAT_Meters",
+                "Temperature_Monitoring",
+                "Piezometers",
+                "Tiltmeters"
+            ]
+        }
+    }
+}

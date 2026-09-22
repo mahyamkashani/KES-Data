@@ -1,0 +1,104 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "ABYSS"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V SONNE usesVehicle ABYSS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO203",
+                "Dive 012"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO203 hasTask Dive 012"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 013",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 013 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 013",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 013 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 015",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 015 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 015",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 015 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 016",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 016 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 016",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 016 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 019",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 019 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 020",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 020 hasAction Act_TakePhoto"
+        }
+    ]
+}

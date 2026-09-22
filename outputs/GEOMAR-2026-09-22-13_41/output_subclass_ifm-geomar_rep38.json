@@ -1,0 +1,28 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [],
+        "SurveyMission": [],
+        "Bathymetric_Mission": [],
+        "CTDMission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "AUV Abyss",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V POSEIDON"
+            }
+        ],
+        "Station": []
+    }
+}

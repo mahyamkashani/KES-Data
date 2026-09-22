@@ -1,0 +1,92 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO176 hasTask Task_SO176",
+        "reason": "'SO176 hasTask Task_SO176': 'SO176', 'Task_SO176' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_SO176 hasAction Action_SO176",
+        "reason": "'Task_SO176 hasAction Action_SO176': 'Task_SO176', 'Action_SO176' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_SO176 hasVehicle RV_SONNE",
+        "reason": "'Action_SO176 hasVehicle RV_SONNE': 'Action_SO176' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO179 hasTask Task_SO179",
+        "reason": "'SO179 hasTask Task_SO179': 'Task_SO179' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_SO179 hasAction Action_SO179",
+        "reason": "'Task_SO179 hasAction Action_SO179': 'Task_SO179', 'Action_SO179' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_SO179 hasVehicle RV_SONNE",
+        "reason": "'Action_SO179 hasVehicle RV_SONNE': 'Action_SO179' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Mission_hasTask_Task01",
+        "reason": "'Mission_hasTask_Task01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task01_hasAction_Action01",
+        "reason": "'Task01_hasAction_Action01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasVehicle_Vehicle01",
+        "reason": "'Traversal_hasVehicle_Vehicle01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasDestination_Waypoint01",
+        "reason": "'Traversal_hasDestination_Waypoint01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_goes_through_Waypoint02",
+        "reason": "'Traversal_goes_through_Waypoint02': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Terrain_requiresNavigation_Waypoint03",
+        "reason": "'Terrain_requiresNavigation_Waypoint03': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Mission_hasTask_Task02",
+        "reason": "'Mission_hasTask_Task02': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task02_hasAction_Action02",
+        "reason": "'Task02_hasAction_Action02': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasVehicle_Vehicle02",
+        "reason": "'Traversal_hasVehicle_Vehicle02': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasDestination_Waypoint04",
+        "reason": "'Traversal_hasDestination_Waypoint04': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_goes_through_Waypoint05",
+        "reason": "'Traversal_goes_through_Waypoint05': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Terrain_requiresNavigation_Waypoint06",
+        "reason": "'Terrain_requiresNavigation_Waypoint06': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    }
+]

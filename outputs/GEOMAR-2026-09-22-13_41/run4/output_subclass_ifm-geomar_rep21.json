@@ -1,0 +1,63 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "739SBM",
+                "hasDuration": "all night",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "744CTD",
+                "hasDuration": "at 20:30 local time",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "740ROV",
+                "maxDepth": "ca. 600 m"
+            },
+            {
+                "individual_name": "741ROV",
+                "maxDepth": "ca. 580 m"
+            },
+            {
+                "individual_name": "743ROV",
+                "maxDepth": "ca. 690 m"
+            },
+            {
+                "individual_name": "746ROV",
+                "maxDepth": "545 m"
+            },
+            {
+                "individual_name": "749ROV",
+                "maxDepth": "777 m"
+            },
+            {
+                "individual_name": "752ROV",
+                "maxDepth": "74 m"
+            },
+            {
+                "individual_name": "754ROV",
+                "maxDepth": "73 m"
+            }
+        ],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #3": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #3: 'CTD cast #3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #4": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #4: 'CTD cast #4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #5": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #5: 'CTD cast #5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #6": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #6: 'CTD cast #6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #7": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #7: 'CTD cast #7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #8": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #8: 'CTD cast #8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #9": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #9: 'CTD cast #9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD cast #10": {
+                "class": "Task"
+            }
+        },
+        "reason": "CTD cast #10: 'CTD cast #10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

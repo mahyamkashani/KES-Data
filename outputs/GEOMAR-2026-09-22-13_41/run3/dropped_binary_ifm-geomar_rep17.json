@@ -1,0 +1,282 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 968-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 968-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 968-1: 'Dive 968-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 981-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 981-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 981-1: 'Dive 981-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 985-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 985-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 985-1: 'Dive 985-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 986-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 986-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 986-1: 'Dive 986-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 987-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 987-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 987-1: 'Dive 987-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 988-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 988-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 988-1: 'Dive 988-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 989-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 989-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 989-1: 'Dive 989-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 990-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 990-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 990-1: 'Dive 990-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 991-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 991-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 991-1: 'Dive 991-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 992-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 992-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 992-1: 'Dive 992-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 993-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 993-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 993-1: 'Dive 993-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 994-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 994-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 994-1: 'Dive 994-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 995-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 995-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 995-1: 'Dive 995-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 996-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 996-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 996-1: 'Dive 996-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 998-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 998-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 998-1: 'Dive 998-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 999-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 999-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 999-1: 'Dive 999-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 1000-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 1000-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 1000-1: 'Dive 1000-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 1001-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 1001-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 1001-1: 'Dive 1001-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 1002-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 1002-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 1002-1: 'Dive 1002-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "Dive 1003-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask Dive 1003-1"
+        },
+        "reason": "MSM04/1 hasTask Dive 1003-1: 'Dive 1003-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

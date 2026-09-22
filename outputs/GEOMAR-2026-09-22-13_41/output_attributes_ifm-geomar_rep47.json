@@ -1,0 +1,92 @@
+{
+    "Individuals": {
+        "SO214": {
+            "MissionID": "SO214",
+            "startTime": "2011-04-06 00:00",
+            "endTime": "2011-04-15 00:00",
+            "maxDepth": "11000",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise dedicated to geological, geo-chemical and biological investigations.",
+            "class": "Mission"
+        },
+        "OBS_01": {
+            "stationID": "OBS_01",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_02": {
+            "stationID": "OBS_02",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_03": {
+            "stationID": "OBS_03",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_04": {
+            "stationID": "OBS_04",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_05": {
+            "stationID": "OBS_05",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_06": {
+            "stationID": "OBS_06",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_07": {
+            "stationID": "OBS_07",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_08": {
+            "stationID": "OBS_08",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_09": {
+            "stationID": "OBS_09",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_10": {
+            "stationID": "OBS_10",
+            "stationDate": "2011-03-12",
+            "class": "Station"
+        },
+        "OBS_11": {
+            "stationID": "OBS_11",
+            "stationDate": "2011-03-24",
+            "class": "Station"
+        },
+        "OBS_12": {
+            "stationID": "OBS_12",
+            "stationDate": "2011-03-24",
+            "class": "Station"
+        },
+        "OBS_13": {
+            "stationID": "OBS_13",
+            "stationDate": "2011-03-24",
+            "class": "Station"
+        },
+        "OBS_14": {
+            "stationID": "OBS_14",
+            "stationDate": "2011-03-24",
+            "class": "Station"
+        },
+        "CTD-2": {
+            "class": "State"
+        },
+        "CTD-3": {
+            "class": "State"
+        },
+        "CTD-4": {
+            "class": "State"
+        }
+    }
+}

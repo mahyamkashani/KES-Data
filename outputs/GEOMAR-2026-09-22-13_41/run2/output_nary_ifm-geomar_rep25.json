@@ -1,0 +1,52 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO199_CHRISP hasTask SO199_CHRISP",
+                "SO199_CHRISP hasAction SO199_CHRISP"
+            ],
+            "Individuals": [
+                "SO199_CHRISP"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "BGR08-203 hasTask BGR08-203",
+                "BGR08-203 hasAction BGR08-203",
+                "BGR08-205 goes_through BGR08-205A",
+                "BGR08-205 goes_through BGR08-205B",
+                "BGR08-205 goes_through BGR08-205C",
+                "BGR08-206 goes_through BGR08-207",
+                "BGR08-209 goes_through BGR08-209A",
+                "BGR08-209 goes_through BGR08-209B",
+                "BGR08-210 goes_through BGR08-211",
+                "BGR08-212 goes_through BGR08-213",
+                "BGR08-214 goes_through BGR08-215",
+                "BGR08-216 goes_through BGR08-217",
+                "BGR08-218 goes_through BGR08-218A"
+            ],
+            "Individuals": [
+                "BGR08-203",
+                "BGR08-205",
+                "BGR08-205A",
+                "BGR08-205B",
+                "BGR08-205C",
+                "BGR08-206",
+                "BGR08-207",
+                "BGR08-209",
+                "BGR08-209A",
+                "BGR08-209B",
+                "BGR08-210",
+                "BGR08-211",
+                "BGR08-212",
+                "BGR08-213",
+                "BGR08-214",
+                "BGR08-215",
+                "BGR08-216",
+                "BGR08-217",
+                "BGR08-218",
+                "BGR08-218A"
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "Leg1 hasAction SeismicStudies",
+        "reason": "'Leg1 hasAction SeismicStudies': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SeismicStudies hasVehicle RV_SONNE",
+        "reason": "'SeismicStudies hasVehicle RV_SONNE': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SeismicStudies requiresNavigation Navigation",
+        "reason": "'SeismicStudies requiresNavigation Navigation': 'SeismicStudies' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Navigation has_Terrain Terrain",
+        "reason": "'Navigation has_Terrain Terrain': 'Terrain' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO191 hasTask Leg2",
+        "reason": "'SO191 hasTask Leg2': 'Leg2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg2 hasAction Sampling",
+        "reason": "'Leg2 hasAction Sampling': 'Leg2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Navigation has_Terrain Terrain",
+        "reason": "'Navigation has_Terrain Terrain': 'Terrain' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO191 hasTask Leg3",
+        "reason": "'SO191 hasTask Leg3': 'SO191' and 'Leg3' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg3 hasAction ROVDeployments",
+        "reason": "'Leg3 hasAction ROVDeployments': 'ROVDeployments' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ROVDeployments hasVehicle ROV_GENESIS",
+        "reason": "'ROVDeployments hasVehicle ROV_GENESIS': 'ROVDeployments', 'ROV_GENESIS' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ROVDeployments requiresNavigation Navigation",
+        "reason": "'ROVDeployments requiresNavigation Navigation': 'ROVDeployments' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Navigation has_Terrain Terrain",
+        "reason": "'Navigation has_Terrain Terrain': 'Terrain' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    }
+]

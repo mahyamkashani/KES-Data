@@ -1,0 +1,92 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 hasTask Task_SO190_2",
+        "reason": "'SO190_1 hasTask Task_SO190_2': 'SO190_1', 'Task_SO190_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_SO190_2 hasAction Action_SeismicDataCollection",
+        "reason": "'Task_SO190_2 hasAction Action_SeismicDataCollection': 'Task_SO190_2', 'Action_SeismicDataCollection' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 hasVehicle RV_SONNE",
+        "reason": "'SO190_1 hasVehicle RV_SONNE': 'SO190_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 goes_through Waypoint_113E",
+        "reason": "'SO190_1 goes_through Waypoint_113E': 'SO190_1', 'Waypoint_113E' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 goes_through Waypoint_116E",
+        "reason": "'SO190_1 goes_through Waypoint_116E': 'SO190_1', 'Waypoint_116E' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 goes_through Waypoint_119E",
+        "reason": "'SO190_1 goes_through Waypoint_119E': 'SO190_1', 'Waypoint_119E' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO190_1 goes_through Waypoint_121E",
+        "reason": "'SO190_1 goes_through Waypoint_121E': 'SO190_1', 'Waypoint_121E' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-1 hasTask OBH",
+        "reason": "'SO190_052-1 hasTask OBH': 'SO190_052-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-1 hasTask OBS234",
+        "reason": "'SO190_052-1 hasTask OBS234': 'SO190_052-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "OBS234 hasAction OBS/OBH",
+        "reason": "'OBS234 hasAction OBS/OBH': 'OBS234' and 'OBS/OBH' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-1 hasTask OBS235",
+        "reason": "'SO190_052-1 hasTask OBS235': 'SO190_052-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "OBS235 hasAction OBS/OBH",
+        "reason": "'OBS235 hasAction OBS/OBH': 'OBS235' and 'OBS/OBH' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-2 hasTask OBMT",
+        "reason": "'SO190_052-2 hasTask OBMT': 'SO190_052-2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-3 hasTask OBMT",
+        "reason": "'SO190_052-3 hasTask OBMT': 'SO190_052-3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_052-4 hasTask OBMT",
+        "reason": "'SO190_052-4 hasTask OBMT': 'SO190_052-4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_053-1 hasTask MAGN",
+        "reason": "'SO190_053-1 hasTask MAGN': 'SO190_053-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "SO190_054-1 hasTask Vermessung",
+        "reason": "'SO190_054-1 hasTask Vermessung': 'SO190_054-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 4",
+        "item": "Vermessung hasAction EM / PS",
+        "reason": "'Vermessung hasAction EM / PS': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    }
+]

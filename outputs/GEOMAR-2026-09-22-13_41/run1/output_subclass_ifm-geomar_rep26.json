@@ -1,0 +1,36 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD measurements",
+                "collect_sample": "water samples for salinity calibration"
+            },
+            {
+                "individual_name": "XBT measurements",
+                "collect_sample": "temperature data"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Autonomous Glider",
+                "maxDepth": "2000 m"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "FS Poseidon",
+                "maxDepth": "500 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "FS Poseidon",
+                "maxDepth": "2000 m"
+            }
+        ]
+    }
+}

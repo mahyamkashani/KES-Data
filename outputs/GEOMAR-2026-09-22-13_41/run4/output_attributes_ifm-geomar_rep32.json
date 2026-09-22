@@ -1,0 +1,503 @@
+{
+    "Individuals": {
+        "DR1": {
+            "class": "State"
+        },
+        "DR2": {
+            "class": "State",
+            "has_Depth": 3720
+        },
+        "DR3": {
+            "class": "State",
+            "has_Depth": 4400
+        },
+        "DR4": {
+            "class": "Station",
+            "stationID": "DR4",
+            "stationDate": "2009-06-18",
+            "stationTime": "07:02"
+        },
+        "DR5": {
+            "class": "State",
+            "has_Depth": 3832
+        },
+        "DR6": {
+            "class": "State",
+            "has_Depth": 3890
+        },
+        "DR7": {
+            "class": "State",
+            "has_Depth": 3340
+        },
+        "DR8": {
+            "class": "State",
+            "has_Depth": 3514
+        },
+        "DR9": {
+            "class": "State",
+            "has_Depth": 1083
+        },
+        "DR10": {
+            "class": "State",
+            "has_Depth": 1191
+        },
+        "DR11": {
+            "class": "State",
+            "has_Depth": 1242
+        },
+        "DR12": {
+            "class": "State",
+            "has_Depth": 1104
+        },
+        "DR13": {
+            "class": "State",
+            "has_Depth": 1076
+        },
+        "DR14": {
+            "class": "State",
+            "has_Depth": 1512
+        },
+        "DR15": {
+            "class": "Station",
+            "stationID": "DR15",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR16": {
+            "class": "Station",
+            "stationID": "DR16",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR17": {
+            "class": "Station",
+            "stationID": "DR17",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR18": {
+            "class": "Station",
+            "stationID": "DR18",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR19": {
+            "class": "Station",
+            "stationID": "DR19",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR20": {
+            "class": "Station",
+            "stationID": "DR20",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR21": {
+            "class": "Station",
+            "stationID": "DR21",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR22": {
+            "class": "Station",
+            "stationID": "DR22",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR24": {
+            "class": "Station",
+            "stationID": "DR24",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR25": {
+            "class": "Station",
+            "stationID": "DR25",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR26": {
+            "class": "Station",
+            "stationID": "DR26",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR27": {
+            "class": "Station",
+            "stationID": "DR27",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR28": {
+            "class": "Station",
+            "stationID": "DR28",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR29": {
+            "class": "Station",
+            "stationID": "DR29",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR30": {
+            "class": "Station",
+            "stationID": "DR30",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR32": {
+            "class": "Station",
+            "stationID": "DR32",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR33": {
+            "class": "Station",
+            "stationID": "DR33",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR34": {
+            "class": "Station",
+            "stationID": "DR34",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR35": {
+            "class": "Station",
+            "stationID": "DR35",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR36": {
+            "class": "Station",
+            "stationID": "DR36",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR37": {
+            "class": "Station",
+            "stationID": "DR37",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR38": {
+            "class": "Station",
+            "stationID": "DR38",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR40": {
+            "class": "Station",
+            "stationID": "DR40",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR41": {
+            "class": "State",
+            "has_Depth": 4334
+        },
+        "DR42": {
+            "class": "State",
+            "has_Depth": 3615
+        },
+        "DR43": {
+            "class": "State",
+            "has_Depth": 4014
+        },
+        "SO201-1b": {
+            "class": "Station",
+            "stationID": "SO201-1b",
+            "stationDate": "2009-06-10/2009-07-06",
+            "stationTime": "08:00"
+        },
+        "DR23": {
+            "class": "Station",
+            "stationID": "DR23",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR31": {
+            "class": "Station",
+            "stationID": "DR31",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR39": {
+            "class": "Station",
+            "stationID": "DR39",
+            "stationDate": "2009-06-21",
+            "stationTime": "08:47"
+        },
+        "DR44": {
+            "class": "Station",
+            "stationID": "DR44",
+            "stationDate": "2009-06-29",
+            "stationTime": "23:20"
+        },
+        "DR45": {
+            "class": "State",
+            "has_Depth": 4870
+        },
+        "TVG46": {
+            "class": "Station",
+            "stationID": "TVG46",
+            "stationDate": "2009-06-29",
+            "stationTime": "23:20"
+        },
+        "Emperor_Seamounts": {
+            "class": "Waypoint",
+            "locationName": "Emperor Seamounts",
+            "latitude": "49.00000",
+            "longitude": "168.00000"
+        },
+        "Bowers_Ridge": {
+            "class": "Waypoint",
+            "locationName": "Bowers Ridge",
+            "latitude": "53.96667",
+            "longitude": "172.85000",
+            "seabedDepth": "3236 m"
+        },
+        "Ingenstrem_Depression": {
+            "class": "Waypoint",
+            "locationName": "Ingenstrem Depression",
+            "latitude": "52.48333",
+            "longitude": "175.23333",
+            "seabedDepth": "790 m"
+        },
+        "Stalemate_FZ": {
+            "class": "Waypoint",
+            "locationName": "Stalemate Fracture Zone",
+            "latitude": "51.66667",
+            "longitude": "171.00000",
+            "seabedDepth": "4360 m"
+        },
+        "DR_1": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_2": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_3": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_4": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_5": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_6": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_7": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_8": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_9": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_10": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_11": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_12": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_13": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_14": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_15": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_16": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_17": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_18": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_19": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_20": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_21": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_22": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_23": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_24": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_25": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_26": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_27": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_28": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_29": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_30": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_31": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_32": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_33": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_34": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_35": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_36": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_37": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_38": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_39": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_40": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_41": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_42": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_43": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_44": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_45": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

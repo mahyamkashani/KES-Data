@@ -1,0 +1,506 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_043": {
+                "hasStatus": "ABORTED"
+            }
+        },
+        "reason": "Mission_043: hasStatus='ABORTED' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_044": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_044: 'Mission_044' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_045": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_045: 'Mission_045' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_049": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_049: 'Mission_049' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_050": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_050: 'Mission_050' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_1": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_1: 'CTD_Cast_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_2": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_2: 'CTD_Cast_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_3": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_3: 'CTD_Cast_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_4": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_4: 'CTD_Cast_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_5": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_5: 'CTD_Cast_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_6": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_6: 'CTD_Cast_6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_7": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_7: 'CTD_Cast_7' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_8": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_8: 'CTD_Cast_8' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_9": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_9: 'CTD_Cast_9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_10": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_10: 'CTD_Cast_10' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_11": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_11: 'CTD_Cast_11' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_12": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_12: 'CTD_Cast_12' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_13": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_13: 'CTD_Cast_13' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_14": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_14: 'CTD_Cast_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_15": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_15: 'CTD_Cast_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_16": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_16: 'CTD_Cast_16' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_17": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_17: 'CTD_Cast_17' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_18": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_18: 'CTD_Cast_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_19": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_19: 'CTD_Cast_19' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_20": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_20: 'CTD_Cast_20' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_21": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_21: 'CTD_Cast_21' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_22": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_22: 'CTD_Cast_22' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_23": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_23: 'CTD_Cast_23' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_24": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_24: 'CTD_Cast_24' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_25": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_25: 'CTD_Cast_25' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_26": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_26: 'CTD_Cast_26' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_27": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_27: 'CTD_Cast_27' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_28": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_28: 'CTD_Cast_28' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_29": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_29: 'CTD_Cast_29' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_30": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_30: 'CTD_Cast_30' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_31": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_31: 'CTD_Cast_31' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_32": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_32: 'CTD_Cast_32' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_33": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_33: 'CTD_Cast_33' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_34": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_34: 'CTD_Cast_34' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_35": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_35: 'CTD_Cast_35' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_36": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_36: 'CTD_Cast_36' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_37": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_37: 'CTD_Cast_37' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_38": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_38: 'CTD_Cast_38' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_39": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_39: 'CTD_Cast_39' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_40": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_40: 'CTD_Cast_40' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_41": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_41: 'CTD_Cast_41' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_42": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_42: 'CTD_Cast_42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_43": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_43: 'CTD_Cast_43' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_44": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_44: 'CTD_Cast_44' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_45": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_45: 'CTD_Cast_45' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_46": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_46: 'CTD_Cast_46' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_47": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_47: 'CTD_Cast_47' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_48": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_48: 'CTD_Cast_48' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_49": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_49: 'CTD_Cast_49' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_50": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_50: 'CTD_Cast_50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Cast_51": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Cast_51: 'CTD_Cast_51' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

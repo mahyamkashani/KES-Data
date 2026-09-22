@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "SO201-2-82",
+                "SO201-2-82"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO201-2-82 hasTask SO201-2-82"
+        },
+        "reason": "SO201-2-82 hasTask SO201-2-82: 'SO201-2-82', 'SO201-2-82' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

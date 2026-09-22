@@ -1,0 +1,30 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 24
+
+created 9 individuals:
+  + R_V_Poseidon : Ship
+  + P362_2 : Mission
+  + P362_2_2 : Task
+  + P362_2_100 : Task
+  + Giza_MV : State
+  + North_Alex_MV : State
+  + P362_2_36 : Task
+  + P362_2_38 : Task
+  + P362_2_46 : Task
+
+asserted 12 axioms:
+  + R_V_Poseidon hasMission P362_2
+  + P362_2_2 hasStatus SUCCESSFUL
+  + P362_2_100 hasStatus SUCCESSFUL
+  + R_V_Poseidon maxDepthText 6000 m   [maxDepth could not take it]
+  + Giza_MV has_Temperature 40
+  + Giza_MV has_Conductivity 0.86
+  + Giza_MV has_Depth 675
+  + North_Alex_MV has_Temperature 70
+  + North_Alex_MV has_Depth 491
+  + P362_2_36 hasStatus SUCCESSFUL
+  + P362_2_38 hasStatus SUCCESSFUL
+  + P362_2_46 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep15.rdf

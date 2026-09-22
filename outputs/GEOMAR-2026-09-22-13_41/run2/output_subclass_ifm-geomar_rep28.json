@@ -1,0 +1,33 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD sampling",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Dredging at Mt. Demenitskoy",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "rock samples"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV",
+                "maxDepth": "1,770 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R.V. Poseidon",
+                "maxDepth": "2,000 m"
+            }
+        ]
+    }
+}

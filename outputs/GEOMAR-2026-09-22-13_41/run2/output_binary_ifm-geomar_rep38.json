@@ -1,0 +1,134 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "AUV Abyss"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V Poseidon usesVehicle AUV Abyss"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "MicroRider 6000"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "AUV Abyss hasSensor MicroRider 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "Reson Seabat 7125"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "AUV Abyss hasSensor Reson Seabat 7125"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "Chelsea Instruments model Aqua Tracka III"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "AUV Abyss hasSensor Chelsea Instruments model Aqua Tracka III"
+        },
+        {
+            "INDIVIDUAL": [
+                "M1",
+                "M2"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "M1 before M2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Dive 2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 2",
+                "Dive 3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 3",
+                "Dive 4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 4",
+                "Dive 5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 4"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 5",
+                "Dive 6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 5"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 6",
+                "Dive 7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 6"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 7",
+                "Dive 8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 7"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 8",
+                "Dive 9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Dive 8"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "OBH hasAction OBS/OBH",
+                "OBMT hasAction OBMT",
+                "OBMT hasAction OBMT",
+                "OBMT hasAction OBMT",
+                "MAGN hasAction Magnetometer"
+            ],
+            "Individuals": [
+                "SO190_052-1",
+                "OBH",
+                "OBS234",
+                "OBS235",
+                "SO190_052-2",
+                "OBMT",
+                "SO190_052-3",
+                "SO190_052-4",
+                "SO190_053-1",
+                "MAGN",
+                "SO190_054-1",
+                "Vermessung",
+                "EM / PS"
+            ]
+        }
+    }
+}

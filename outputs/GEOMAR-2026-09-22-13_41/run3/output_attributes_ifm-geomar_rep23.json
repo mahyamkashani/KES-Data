@@ -1,0 +1,81 @@
+{
+    "Individuals": {
+        "station_33": {
+            "class": "Station",
+            "stationID": "33",
+            "stationDate": "2008-01-14",
+            "stationTime": "09:00-12:00"
+        },
+        "station_41": {
+            "class": "Station",
+            "stationID": "41",
+            "stationDate": "2008-01-16",
+            "stationTime": "09:00-12:00"
+        },
+        "Waypoint_3": {
+            "class": "Waypoint",
+            "locationName": "Inside Corner High #1",
+            "latitude": "-5.08962",
+            "longitude": "-11.65655"
+        },
+        "ATA-35ROV": {
+            "class": "Task",
+            "hasStatus": "PartialSUCCESSFUL"
+        },
+        "ATA-37ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-42ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-46ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-57ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-63ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-67ROV": {
+            "class": "Task",
+            "hasDuration": 7.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ATA-70ROV": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Turtle_Pits_Two_Boats": {
+            "class": "State",
+            "has_Temperature": "451",
+            "has_Depth": "1"
+        },
+        "Comfortless_Cove_Sisters_Peak": {
+            "class": "State",
+            "has_Temperature": "367",
+            "has_Depth": "1"
+        },
+        "Red_Lion_Mephisto": {
+            "class": "State",
+            "has_Temperature": "366",
+            "has_Depth": "1"
+        },
+        "Wideawake": {
+            "class": "State",
+            "has_Temperature": "16",
+            "has_Conductivity": "550",
+            "has_Depth": "1"
+        },
+        "Clueless": {
+            "class": "State",
+            "has_Temperature": "8.8",
+            "has_Depth": "1"
+        }
+    }
+}

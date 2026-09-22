@@ -1,0 +1,109 @@
+{
+    "Individuals": {
+        "GC01": {
+            "class": "Waypoint",
+            "locationName": "GC01",
+            "latitude": "-35.60183",
+            "longitude": "-73.66483",
+            "seabedDepth": "-2889"
+        },
+        "GC02": {
+            "class": "Waypoint",
+            "locationName": "GC02",
+            "latitude": "-35.60236",
+            "longitude": "-73.67603",
+            "seabedDepth": "-3398"
+        },
+        "GC03": {
+            "class": "Waypoint",
+            "locationName": "GC03",
+            "latitude": "-35.60207",
+            "longitude": "-73.68813",
+            "seabedDepth": "-3916"
+        },
+        "GC04": {
+            "class": "Waypoint",
+            "locationName": "GC04",
+            "latitude": "-34.61813",
+            "longitude": "-74.53047",
+            "seabedDepth": "-4210"
+        },
+        "GC05": {
+            "class": "Waypoint",
+            "locationName": "GC05",
+            "latitude": "-34.69300",
+            "longitude": "-74.22150",
+            "seabedDepth": "-4156"
+        },
+        "GC06": {
+            "class": "Waypoint",
+            "locationName": "GC06",
+            "latitude": "-34.24317",
+            "longitude": "-74.08617",
+            "seabedDepth": "-4163"
+        },
+        "GC07": {
+            "class": "Waypoint",
+            "locationName": "GC07",
+            "latitude": "-35.51165",
+            "longitude": "-73.36897",
+            "seabedDepth": "-1357"
+        },
+        "GC08": {
+            "class": "Waypoint",
+            "locationName": "GC08",
+            "latitude": "-35.52173",
+            "longitude": "-73.38186",
+            "seabedDepth": "-1244"
+        },
+        "GC09": {
+            "class": "Waypoint",
+            "locationName": "GC09",
+            "latitude": "-35.55100",
+            "longitude": "-73.34415",
+            "seabedDepth": "-1600"
+        },
+        "OBS_128": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4050
+        },
+        "OBS_131": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4212
+        },
+        "OBS_1117": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 728
+        },
+        "OBS_1118": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 733
+        },
+        "OBS_1119": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 766
+        },
+        "OBS_1218": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1620
+        },
+        "OBS_1219": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1680
+        }
+    }
+}

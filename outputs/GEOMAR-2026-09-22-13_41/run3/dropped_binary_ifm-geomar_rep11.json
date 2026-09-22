@@ -1,0 +1,72 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "Simrad EM-120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Simrad EM-120"
+        },
+        "reason": "RV SONNE hasSensor Simrad EM-120: 'RV SONNE' and 'Simrad EM-120' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 01"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 01"
+        },
+        "reason": "RV SONNE hasSensor OBH 01: 'RV SONNE' and 'OBH 01' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 02"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 02"
+        },
+        "reason": "RV SONNE hasSensor OBH 02: 'RV SONNE' and 'OBH 02' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 03"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 03"
+        },
+        "reason": "RV SONNE hasSensor OBH 03: 'RV SONNE' and 'OBH 03' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "OBH 04"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Ship",
+            "RANGE": "Hydrophone",
+            "AXIOM": "RV SONNE hasSensor OBH 04"
+        },
+        "reason": "RV SONNE hasSensor OBH 04: 'RV SONNE' and 'OBH 04' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

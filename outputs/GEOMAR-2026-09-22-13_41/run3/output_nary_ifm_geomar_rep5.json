@@ -1,0 +1,13 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO186_1B hasVehicle RV_SONNE"
+            ],
+            "Individuals": [
+                "SO186_1B",
+                "RV_SONNE"
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO214 hasTask Leg_1"
+            ],
+            "Individuals": [
+                "SO214",
+                "Leg_1",
+                "SeismicSurvey"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO214 hasTask Leg_2"
+            ],
+            "Individuals": [
+                "SO214",
+                "Leg_2"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO214 hasTask CSEM_Experiment"
+            ],
+            "Individuals": [
+                "SO214",
+                "CSEM_Experiment"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO214 hasTask CSEM-SO214-1"
+            ],
+            "Individuals": [
+                "SO214",
+                "CSEM-SO214-1"
+            ]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "SO201-2-82": {
+                "class": "Station"
+            }
+        },
+        "reason": "SO201-2-82: 'SO201-2-82' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_01": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_02": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_02: 'Waypoint_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Waypoint_03": {
+                "class": "Waypoint"
+            }
+        },
+        "reason": "Waypoint_03: 'Waypoint_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO201-2-82": {
+                "class": "Task"
+            }
+        },
+        "reason": "SO201-2-82: 'SO201-2-82' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Heat_Flow_Measurement_01": {
+                "class": "State"
+            }
+        },
+        "reason": "Heat_Flow_Measurement_01: 'Heat_Flow_Measurement_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Heat_Flow_Measurement_02": {
+                "class": "State"
+            }
+        },
+        "reason": "Heat_Flow_Measurement_02: 'Heat_Flow_Measurement_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Heat_Flow_Measurement_03": {
+                "class": "State"
+            }
+        },
+        "reason": "Heat_Flow_Measurement_03: 'Heat_Flow_Measurement_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Heat_Flow_Measurement_04": {
+                "class": "State"
+            }
+        },
+        "reason": "Heat_Flow_Measurement_04: 'Heat_Flow_Measurement_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "POZ-Lander",
+                "RDI Sentinel 300 kHz"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "POZ-Lander hasSensor RDI Sentinel 300 kHz"
+        }
+    ]
+}

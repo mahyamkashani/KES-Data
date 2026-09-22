@@ -1,0 +1,34 @@
+{
+    "Vehicle": {
+        "Submersible_Vehicle": [
+            {
+                "individual_name": "JAGO",
+                "maxDepth": "400 m"
+            }
+        ]
+    },
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD/Rosette Hydro-Bios Kiel",
+                "hasDuration": "17.5 h",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "JAGO Dive 923",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Lophelia coral sample"
+            },
+            {
+                "individual_name": "JAGO Dive 928",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Plankton"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": []
+    }
+}

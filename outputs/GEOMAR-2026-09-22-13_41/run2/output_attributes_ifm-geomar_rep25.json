@@ -1,0 +1,254 @@
+{
+    "Individuals": {
+        "DR5": {
+            "class": "Station",
+            "stationID": "DR5",
+            "stationDate": "2008-08-07",
+            "stationTime": "12:58"
+        },
+        "DR6": {
+            "class": "State",
+            "has_Temperature": "4135",
+            "has_Depth": "3704"
+        },
+        "DR9": {
+            "class": "Mission",
+            "MissionID": "DR9",
+            "startTime": "2008-08-09 01:30",
+            "endTime": "2008-08-09 04:45",
+            "maxDepth": 4420,
+            "dataVolume": "few rocks",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Dredge on bottom"
+        },
+        "SO199": {
+            "class": "Station",
+            "stationID": "SO199",
+            "stationDate": "2008-08-02/2008-09-22"
+        },
+        "DR1": {
+            "class": "State",
+            "has_Temperature": "4036",
+            "has_Depth": "3546"
+        },
+        "DR2": {
+            "class": "State",
+            "has_Temperature": "4602",
+            "has_Depth": "4135"
+        },
+        "DR3": {
+            "class": "Station",
+            "stationID": "DR3",
+            "stationDate": "2008-08-07",
+            "stationTime": "00:39"
+        },
+        "DR28": {
+            "class": "Station",
+            "stationID": "DR28",
+            "stationDate": "2008-08-16",
+            "stationTime": "08:40"
+        },
+        "DR29": {
+            "class": "Station",
+            "stationID": "DR29",
+            "stationDate": "2008-08-16",
+            "stationTime": "19:46"
+        },
+        "DR31": {
+            "class": "Station",
+            "stationID": "DR31",
+            "stationDate": "2008-08-17",
+            "stationTime": "21:01"
+        },
+        "DR52": {
+            "class": "Station",
+            "stationID": "DR52",
+            "stationDate": "2008-08-27",
+            "stationTime": "12:30"
+        },
+        "Outsider_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Outsider Seamount",
+            "latitude": "-6.25000",
+            "longitude": "45 nm west of the Investigator Ridge"
+        },
+        "Investigator_Ridge": {
+            "class": "Waypoint",
+            "locationName": "Investigator Ridge",
+            "latitude": "-16.00000",
+            "longitude": "98.73867",
+            "seabedDepth": "4,649 to 4,290 m"
+        },
+        "Rudolf_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Rudolf Seamount"
+        },
+        "Sherbakov_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Sherbakov Seamount",
+            "latitude": "-10.90817",
+            "longitude": "104.53400"
+        },
+        "DR_1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_2": {
+            "class": "Task",
+            "hasStatus": "FAILED"
+        },
+        "DR_5": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_8": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_45": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_56": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_57": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_61": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_62": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_63": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_64": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_65": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_66": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_67": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_68": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_69": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_71": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_72": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_73": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_75": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_76": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_77": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_78": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_79": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_80": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_81": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_82": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_84": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_86": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_87": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_88": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_89": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR_90": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR36": {
+            "class": "State",
+            "has_Temperature": "2548",
+            "has_Depth": "2230"
+        },
+        "DR39": {
+            "class": "State",
+            "has_Temperature": "3100",
+            "has_Depth": "2711"
+        },
+        "DR40": {
+            "class": "State",
+            "has_Temperature": "4306",
+            "has_Depth": "3791"
+        },
+        "DR41": {
+            "class": "State",
+            "has_Temperature": "3754",
+            "has_Depth": "3282"
+        },
+        "DR45": {
+            "class": "State",
+            "has_Temperature": "3746",
+            "has_Depth": "3277"
+        }
+    }
+}

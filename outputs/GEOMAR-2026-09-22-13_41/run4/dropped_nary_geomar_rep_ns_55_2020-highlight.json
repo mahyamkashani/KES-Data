@@ -1,0 +1,67 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "AL533 hasTask Task_01",
+        "reason": "'AL533 hasTask Task_01': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 hasVehicle JAGO",
+        "reason": "'Traversal_01 hasVehicle JAGO': 'Traversal_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 hasDestination Baia_di_Levante",
+        "reason": "'Traversal_01 hasDestination Baia_di_Levante': 'Traversal_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_01 goes_through Baia_di_Levante",
+        "reason": "'Traversal_01 goes_through Baia_di_Levante': 'Traversal_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_02 hasVehicle ANTON",
+        "reason": "'Traversal_02 hasVehicle ANTON': 'Traversal_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_02 hasDestination Panarea",
+        "reason": "'Traversal_02 hasDestination Panarea': 'Traversal_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_02 goes_through Panarea",
+        "reason": "'Traversal_02 goes_through Panarea': 'Traversal_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_03 hasVehicle LUISE",
+        "reason": "'Traversal_03 hasVehicle LUISE': 'Traversal_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_03 hasDestination Vulcano",
+        "reason": "'Traversal_03 hasDestination Vulcano': 'Traversal_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_03 goes_through Vulcano",
+        "reason": "'Traversal_03 goes_through Vulcano': 'Traversal_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_04 hasVehicle JAGO",
+        "reason": "'Traversal_04 hasVehicle JAGO': 'Traversal_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_04 hasDestination Sciara_del_Fuoco",
+        "reason": "'Traversal_04 hasDestination Sciara_del_Fuoco': 'Traversal_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_04 goes_through Sciara_del_Fuoco",
+        "reason": "'Traversal_04 goes_through Sciara_del_Fuoco': 'Traversal_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

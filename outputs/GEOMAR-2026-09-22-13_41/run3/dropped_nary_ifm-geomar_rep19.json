@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "IFM_GEOMAR_4 hasTask MooringOperations_1",
+        "reason": "'IFM_GEOMAR_4 hasTask MooringOperations_1': 'IFM_GEOMAR_4', 'MooringOperations_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MooringOperations_1 hasAction Deployment_1",
+        "reason": "'MooringOperations_1 hasAction Deployment_1': 'MooringOperations_1', 'Deployment_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MooringOperations_1 hasAction Recovery_1",
+        "reason": "'MooringOperations_1 hasAction Recovery_1': 'MooringOperations_1', 'Recovery_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

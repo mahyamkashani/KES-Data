@@ -1,0 +1,81 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 41
+
+created 26 individuals:
+  + R_V_SONNE : Vehicle
+  + Parasound : Echosounder
+  + OFOS : Camera
+  + POSIDONIA : USBL
+  + GI_airgun : Sonar
+  + DTS_1 : Sonar
+  + Survey : SurveyMission
+  + Bathymetric_Mapping : Bathymetric_Mission
+  + SO214 : Mission
+  + OBS_01 : Station
+  + OBS_02 : Station
+  + OBS_03 : Station
+  + OBS_04 : Station
+  + OBS_05 : Station
+  + OBS_06 : Station
+  + OBS_07 : Station
+  + OBS_08 : Station
+  + OBS_09 : Station
+  + OBS_10 : Station
+  + OBS_11 : Station
+  + OBS_12 : Station
+  + OBS_13 : Station
+  + OBS_14 : Station
+  + CTD_2 : State
+  + CTD_3 : State
+  + CTD_4 : State
+
+asserted 41 axioms:
+  + R_V_SONNE hasSensor Parasound
+  + R_V_SONNE hasSensor OFOS
+  + R_V_SONNE hasSensor POSIDONIA
+  + R_V_SONNE hasSensor GI_airgun
+  + R_V_SONNE hasSensor DTS_1
+  + Survey hasDurationText from 22:30 hours on 15th March to 19:20 hrs on 15th March   [hasDuration could not take it]
+  + Survey hasStatus PartialFAILURE
+  + SO214 MissionID SO214
+  + SO214 startTime 2011-04-06 00:00
+  + SO214 endTime 2011-04-15 00:00
+  + SO214 maxDepth 11000
+  + SO214 hasStatus SUCCESSFUL
+  + SO214 remark Cruise dedicated to geological, geo-chemical and biological investigations.
+  + OBS_01 stationID OBS_01
+  + OBS_01 stationDate 2011-03-12
+  + OBS_02 stationID OBS_02
+  + OBS_02 stationDate 2011-03-12
+  + OBS_03 stationID OBS_03
+  + OBS_03 stationDate 2011-03-12
+  + OBS_04 stationID OBS_04
+  + OBS_04 stationDate 2011-03-12
+  + OBS_05 stationID OBS_05
+  + OBS_05 stationDate 2011-03-12
+  + OBS_06 stationID OBS_06
+  + OBS_06 stationDate 2011-03-12
+  + OBS_07 stationID OBS_07
+  + OBS_07 stationDate 2011-03-12
+  + OBS_08 stationID OBS_08
+  + OBS_08 stationDate 2011-03-12
+  + OBS_09 stationID OBS_09
+  + OBS_09 stationDate 2011-03-12
+  + OBS_10 stationID OBS_10
+  + OBS_10 stationDate 2011-03-12
+  + OBS_11 stationID OBS_11
+  + OBS_11 stationDate 2011-03-24
+  + OBS_12 stationID OBS_12
+  + OBS_12 stationDate 2011-03-24
+  + OBS_13 stationID OBS_13
+  + OBS_13 stationDate 2011-03-24
+  + OBS_14 stationID OBS_14
+  + OBS_14 stationDate 2011-03-24
+
+skipped 3 excluded axioms:
+  - SO214 hasTask Leg_1   [hasTask has no single named domain/range to type from]
+  - SO214 hasTask Leg_2   [hasTask has no single named domain/range to type from]
+  - SO214 hasTask CSEM-SO214-1   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep47.rdf

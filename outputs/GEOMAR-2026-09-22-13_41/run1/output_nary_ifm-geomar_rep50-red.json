@@ -1,0 +1,14 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P395 hasVehicle RV_POSEIDON"
+            ],
+            "Individuals": [
+                "P395",
+                "SaharaSlideComplex",
+                "RV_POSEIDON"
+            ]
+        }
+    }
+}

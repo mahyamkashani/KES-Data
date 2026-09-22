@@ -1,0 +1,32 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO199",
+                "hasDuration": "August 3rd, 2008 to September 21st, 2008",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "SO199",
+                "hasDuration": "August 3rd, 2008 to September 21st, 2008",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "70 dredges, 13 TV grabs, and nine multi corers"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

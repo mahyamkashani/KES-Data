@@ -1,0 +1,59 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO191 hasTask Leg1"
+            ],
+            "Individuals": [
+                "SO191",
+                "Leg1",
+                "SeismicStudies",
+                "RV_SONNE",
+                "Navigation",
+                "Terrain"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "Sampling hasVehicle RV_SONNE",
+                "Sampling requiresNavigation Navigation"
+            ],
+            "Individuals": [
+                "SO191",
+                "Leg2",
+                "Sampling",
+                "RV_SONNE",
+                "Navigation",
+                "Terrain"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO191 hasTask CSEM",
+                "CSEM hasAction Deployment",
+                "Deployment hasVehicle RV_SONNE",
+                "Deployment hasDestination Wairarapa"
+            ],
+            "Individuals": [
+                "SO191",
+                "CSEM",
+                "Deployment",
+                "RV_SONNE",
+                "Wairarapa"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO191 hasTask CSEM",
+                "CSEM hasAction Deployment",
+                "Deployment hasVehicle RV_SONNE"
+            ],
+            "Individuals": [
+                "SO191",
+                "CSEM",
+                "Deployment",
+                "RV_SONNE"
+            ]
+        }
+    }
+}

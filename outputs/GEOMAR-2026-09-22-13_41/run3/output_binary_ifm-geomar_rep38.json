@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V Poseidon",
+                "AUV Abyss"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V Poseidon usesVehicle AUV Abyss"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "MicroRider 6000"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "AUV Abyss hasSensor MicroRider 6000"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "Reson Seabat 7125"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "AUV Abyss hasSensor Reson Seabat 7125"
+        },
+        {
+            "INDIVIDUAL": [
+                "AUV Abyss",
+                "Chelsea Instruments model Aqua Tracka III"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "AUV Abyss hasSensor Chelsea Instruments model Aqua Tracka III"
+        },
+        {
+            "INDIVIDUAL": [
+                "M1",
+                "M2"
+            ],
+            "OBJECT_PROPERTY": "before",
+            "DOMAIN": "Waypoint",
+            "RANGE": "Waypoint",
+            "AXIOM": "M1 before M2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 1 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 2",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 2 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 3",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 3 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Dive 4",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Dive 4 hasAction Act_DeepDive"
+        }
+    ]
+}

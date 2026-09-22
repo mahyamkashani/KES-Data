@@ -1,0 +1,145 @@
+{
+    "Individuals": {
+        "SO208_DR122": {
+            "stationID": "SO208_DR122",
+            "stationDate": "2010-08-26",
+            "stationTime": "00:30",
+            "class": "Station"
+        },
+        "SO208_MUC124": {
+            "stationID": "SO208_MUC124",
+            "stationDate": "2010-08-26",
+            "stationTime": "06:49",
+            "class": "Station"
+        },
+        "SO208_TVG123": {
+            "stationID": "SO208_TVG123",
+            "stationDate": "2010-08-26",
+            "stationTime": "06:48",
+            "class": "Station"
+        },
+        "SO208_DR29": {
+            "stationID": "SO208_DR29",
+            "stationDate": "2010-07-24",
+            "stationTime": "09:12",
+            "class": "Station"
+        },
+        "SO208_DR30": {
+            "stationID": "SO208_DR30",
+            "stationDate": "2010-07-24",
+            "stationTime": "12:19",
+            "class": "Station"
+        },
+        "SO208_DR37": {
+            "stationID": "SO208_DR37",
+            "stationDate": "2010-07-26",
+            "stationTime": "03:01",
+            "class": "Station"
+        },
+        "SO208_DR120": {
+            "stationID": "SO208_DR120",
+            "stationDate": "2010-08-25",
+            "stationTime": "11:46",
+            "class": "Station"
+        },
+        "Egg_Seamount": {
+            "locationName": "Egg Seamount",
+            "latitude": "7.83867",
+            "longitude": "-90.46917",
+            "class": "Waypoint"
+        },
+        "Boxer_Seamount": {
+            "locationName": "Boxer Seamount",
+            "latitude": "7.64350",
+            "longitude": "-90.87000",
+            "class": "Waypoint"
+        },
+        "Bend_Fault_Seamount": {
+            "locationName": "Bend fault Seamount",
+            "latitude": "10.79100",
+            "longitude": "-87.84100",
+            "class": "Waypoint"
+        },
+        "Little_Bend_Seamount": {
+            "locationName": "Little Bend Seamount",
+            "latitude": "10.68533",
+            "longitude": "-87.75867",
+            "class": "Waypoint"
+        },
+        "DR 6": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 7": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 9": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 10": {
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "DR 11": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 17": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 21": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 22": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 23": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 24": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 25": {
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "DR 29": {
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED",
+            "class": "Task"
+        },
+        "Profile_1": {
+            "class": "State"
+        },
+        "Profile_2": {
+            "class": "State"
+        },
+        "Profile_3": {
+            "class": "State"
+        },
+        "Profile_4": {
+            "class": "State"
+        },
+        "Profile_5": {
+            "class": "State"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO214 hasTask Leg_1",
+                "SO214 hasTask Leg_2",
+                "SO214 hasTask CSEM-SO214-1"
+            ],
+            "Individuals": [
+                "SO214",
+                "Leg_1",
+                "Leg_2",
+                "CSEM-SO214-1"
+            ]
+        }
+    }
+}

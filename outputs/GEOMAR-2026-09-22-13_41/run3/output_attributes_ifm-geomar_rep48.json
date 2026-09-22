@@ -1,0 +1,42 @@
+{
+    "Individuals": {
+        "P399_leg_2": {
+            "class": "Mission",
+            "MissionID": "P399/2",
+            "startTime": "2010-05-31",
+            "endTime": "2010-06-17",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Cruise report for leg 2"
+        },
+        "CTD 1": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD 2": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD 3": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD 4": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD 5": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "CTD 6": {
+            "class": "Task",
+            "hasDuration": 24.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

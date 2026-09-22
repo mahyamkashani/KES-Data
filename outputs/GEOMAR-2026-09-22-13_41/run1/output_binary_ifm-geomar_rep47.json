@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Parasound"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "R/V SONNE hasSensor Parasound"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "OFOS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Camera",
+            "AXIOM": "R/V SONNE hasSensor OFOS"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "CTD"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V SONNE hasSensor CTD"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "POSIDONIA"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "USBL",
+            "AXIOM": "R/V SONNE hasSensor POSIDONIA"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "GI airgun"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V SONNE hasSensor GI airgun"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DTS-1"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V SONNE hasSensor DTS-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "10 Ocean-Bottom seismometers"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Hydrophone",
+            "AXIOM": "R/V SONNE hasSensor 10 Ocean-Bottom seismometers"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "Ashtec AC12 GPS"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "R/V SONNE hasSensor Ashtec AC12 GPS"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "P-Cable"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V SONNE hasSensor P-Cable"
+        }
+    ]
+}

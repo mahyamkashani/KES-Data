@@ -1,0 +1,45 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 28
+
+created 13 individuals:
+  + R_V_AEGAEO : Ship
+  + ROV_Max_Rover : Vehicle
+  + SIMRAD_EK60 : Sonar
+  + SBE9 : CTDSensor
+  + POSEIDON_cruise_P388 : Mission
+  + piezometers : Task
+  + CATmeters : Task
+  + Bathymetric_data_acquisition : Bathymetric_Mission
+  + CTD_casts : CTDMission
+  + North_Alex_MV : Station
+  + Giza_MV : Station
+  + North_Alex_Mud_Volcano : Waypoint
+  + WND_V_Cruise : Mission
+
+asserted 23 axioms:
+  + R_V_AEGAEO usesVehicle ROV_Max_Rover
+  + R_V_AEGAEO hasSensor SIMRAD_EK60
+  + R_V_AEGAEO hasSensor SBE9
+  + POSEIDON_cruise_P388 hasTask piezometers
+  + POSEIDON_cruise_P388 hasTask CATmeters
+  + Bathymetric_data_acquisition hasStatus FAILED
+  + CTD_casts hasStatus SUCCESSFUL
+  + North_Alex_MV stationID North Alex MV
+  + North_Alex_MV stationDate 2010-06-15/2010-06-25
+  + North_Alex_MV stationTime Various
+  + Giza_MV stationID Giza MV
+  + Giza_MV stationDate 2010-06-15/2010-06-25
+  + Giza_MV stationTime Various
+  + North_Alex_Mud_Volcano locationName North Alex
+  + North_Alex_Mud_Volcano latitude 31.96980
+  + North_Alex_Mud_Volcano longitude 30.13588
+  + North_Alex_Mud_Volcano seabedDepthText 500 m   [seabedDepth could not take it]
+  + WND_V_Cruise MissionID WND-V
+  + WND_V_Cruise startTime 2010-06-15
+  + WND_V_Cruise endTime 2010-06-25
+  + WND_V_Cruise dataVolume 12 OBS, 4 Piezometers, 6 CATmeters, 2 Tiltmeters, 2 T-Observatories
+  + WND_V_Cruise hasStatus SUCCESSFUL
+  + WND_V_Cruise remark Final expedition of the West Nile Delta project
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep49.rdf

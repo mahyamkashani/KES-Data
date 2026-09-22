@@ -1,0 +1,34 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "FS Maria S. Merian",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "FS Maria S. Merian hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "FS Maria S. Merian",
+                "Act_Move"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "FS Maria S. Merian hasAction Act_Move"
+        },
+        {
+            "INDIVIDUAL": [
+                "FS Maria S. Merian",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "FS Maria S. Merian hasAction Act_DeepDive"
+        }
+    ]
+}

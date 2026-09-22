@@ -1,0 +1,47 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "RV SONNE",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD-12",
+                "hasDuration": "28 June 2004",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-18",
+                "hasDuration": "4 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD-19",
+                "hasDuration": "5 July 2004",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sampling on a cm-scale",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Methane and pCO2 in surface waters"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

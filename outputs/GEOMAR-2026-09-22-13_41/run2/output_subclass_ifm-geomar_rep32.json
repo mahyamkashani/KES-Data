@@ -1,0 +1,67 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO201 Leg 1b",
+                "hasDuration": "27 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "DR 1",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, volcaniclastics, Mn crusts, dropstones"
+            },
+            {
+                "individual_name": "DR 2",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, volcaniclastics, Mn crusts"
+            },
+            {
+                "individual_name": "DR 4",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, Mn crusts, dropstones"
+            },
+            {
+                "individual_name": "DR 5",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, Mn crusts, dropstones"
+            },
+            {
+                "individual_name": "DR 6",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, Mn crusts"
+            },
+            {
+                "individual_name": "DR 40",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lavas, intrusiva, breccias"
+            },
+            {
+                "individual_name": "DR 41",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "pillow lavas, volcaniclastic rocks (hyaloclastite), Mn crusts"
+            },
+            {
+                "individual_name": "DR 44",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "lava, volcaniclastic rocks, chert, Mn crusts"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    }
+}

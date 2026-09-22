@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Pore Water Sampler (PWS)": {
+                "hasStatus": "Deployed"
+            }
+        },
+        "reason": "Pore Water Sampler (PWS): hasStatus='Deployed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Benthic Chambers (BC)": {
+                "hasStatus": "Deployed"
+            }
+        },
+        "reason": "Benthic Chambers (BC): hasStatus='Deployed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words"
+    }
+]

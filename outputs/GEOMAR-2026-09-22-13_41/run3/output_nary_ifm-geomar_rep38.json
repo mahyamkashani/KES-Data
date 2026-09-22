@@ -1,0 +1,16 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "M1 hasAction AUV_Operations",
+                "AUV_Operations hasVehicle AUV_Abyss"
+            ],
+            "Individuals": [
+                "POS403",
+                "M1",
+                "AUV_Operations",
+                "AUV_Abyss"
+            ]
+        }
+    }
+}

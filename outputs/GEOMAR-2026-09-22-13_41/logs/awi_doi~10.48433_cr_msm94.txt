@@ -1,0 +1,132 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Drifter deployment: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of 
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_awi_doi~10.48433_cr_msm94.json
+
+=== binary pattern ===
+    binary: attempt 2 rejected: MSM94 hasTask Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dro
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_awi_doi~10.48433_cr_msm94.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'KPO_1185 goes_through DSOW1': 'KPO_1185' and 'DSOW1' both occur in the document but never on the same page, so the report does not state this relation - pair e
+    n-ary window 1: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_awi_doi~10.48433_cr_msm94.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MSM94: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MSM94_1-1: hasDuration='1.5' is not printed on any page that names 'MSM94_1-1' - copy the number the report prints beside 'MSM94_1-1', or leave hasDuration out;
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: CTD_1: 'CTD_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the rep
+    attributes: attempt 2 rejected: CTD_18: 'CTD_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 3 rejected: CTD_18: 'CTD_18' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_awi_doi~10.48433_cr_msm94.json
+marked 2 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_attributes_awi_doi~10.48433_cr_msm94.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Drifter deployment: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of 
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_awi_doi~10.48433_cr_msm94.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: MARIA S. MERIAN hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; KPO_1224 hasAc
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_awi_doi~10.48433_cr_msm94.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: "KPO_1185 hasDestination 53° 02.320'N": an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_
+    n-ary window 1: attempt 2 rejected: 'KPO_1185 hasDestination 53_02_320N': '53_02_320N' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into 
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_awi_doi~10.48433_cr_msm94.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MSM94: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MSM94_1-1: hasDuration='1.5' is not printed on any page that names 'MSM94_1-1' - copy the number the report prints beside 'MSM94_1-1', or leave hasDuration out;
+    attributes: attempt 3 rejected: MSM94_54-1: 'MSM94_54-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 1 item(s)
+    attributes: attempt 1 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 2 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_awi_doi~10.48433_cr_msm94.json
+marked 1 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_attributes_awi_doi~10.48433_cr_msm94.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Drifter deployment: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of 
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_awi_doi~10.48433_cr_msm94.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: MARIA S. MERIAN hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; MSM94 hasTask 
+    binary: attempt 2 rejected: MSM94 hasTask Drifter 9: 'Drifter 9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dro
+    binary: attempt 3 rejected: MSM94 hasTask Drifter 9: 'Drifter 9' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; dro
+    binary: no attempt passed: kept what passes on its own, dropped 42 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_awi_doi~10.48433_cr_msm94.json
+marked 42 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_binary_awi_doi~10.48433_cr_msm94.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'KPO_1185 goes_through DSOW1': 'KPO_1185' and 'DSOW1' both occur in the document but never on the same page, so the report does not state this relation - pair e
+    n-ary window 1: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_awi_doi~10.48433_cr_msm94.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MSM94: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MSM94_1-1: hasDuration='1.5' is not printed on any page that names 'MSM94_1-1' - copy the number the report prints beside 'MSM94_1-1', or leave hasDuration out;
+    attributes: attempt 3 rejected: MSM94_54-1: 'MSM94_54-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 1 item(s)
+    attributes: attempt 1 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 2 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_awi_doi~10.48433_cr_msm94.json
+marked 1 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_attributes_awi_doi~10.48433_cr_msm94.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: Drifter deployment: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of 
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_awi_doi~10.48433_cr_msm94.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: MARIA S. MERIAN hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; MSM94 hasTask 
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_awi_doi~10.48433_cr_msm94.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'KPO_1185 goes_through DSOW1': 'KPO_1185' and 'DSOW1' both occur in the document but never on the same page, so the report does not state this relation - pair e
+    n-ary window 1: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_awi_doi~10.48433_cr_msm94.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: MSM94: hasStatus='Completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: MSM94_1-1: hasDuration='1.5' is not printed on any page that names 'MSM94_1-1' - copy the number the report prints beside 'MSM94_1-1', or leave hasDuration out;
+    attributes: attempt 3 rejected: MSM94_54-1: 'MSM94_54-1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: no attempt passed: kept what passes on its own, dropped 1 item(s)
+    attributes: attempt 1 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 2 rejected: CTD_Station_1: 'CTD_Station_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: attempt 3 rejected: MSM94_93-1: has_Temperature='0.25' is not printed on any page that names 'MSM94_93-1' - copy the number the report prints beside 'MSM94_93-1', or leave has_Temp
+    attributes: no attempt passed: kept what passes on its own, dropped 9 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_awi_doi~10.48433_cr_msm94.json
+marked 10 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_attributes_awi_doi~10.48433_cr_msm94.json
+
+vote subclass: kept 13 of 13 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_awi_doi~10.48433_cr_msm94.json
+vote binary: kept 1 of 24 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_awi_doi~10.48433_cr_msm94.json
+vote nary: kept 6 of 50 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_awi_doi~10.48433_cr_msm94.json
+vote attributes: kept 364 of 377 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_awi_doi~10.48433_cr_msm94.json
+
+done: 16/16 patterns succeeded

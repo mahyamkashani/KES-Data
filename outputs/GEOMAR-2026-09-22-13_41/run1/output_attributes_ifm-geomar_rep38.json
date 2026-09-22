@@ -1,0 +1,67 @@
+{
+    "Individuals": {
+        "Mission_041": {
+            "class": "Mission",
+            "MissionID": "041",
+            "startTime": "2010-08-16 14:05",
+            "endTime": "2010-08-16 15:21",
+            "maxDepth": "100",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "4 short dives to test floatability"
+        },
+        "Mooring_M1": {
+            "class": "Station",
+            "stationID": "M1",
+            "stationDate": "2010-08-16",
+            "stationTime": "11:00"
+        },
+        "Mooring_M2": {
+            "class": "Station",
+            "stationID": "M2",
+            "stationDate": "2010-08-16",
+            "stationTime": "18:10"
+        },
+        "Mooring_M1_2": {
+            "class": "Station",
+            "stationID": "M1_2",
+            "stationDate": "2010-08-21",
+            "stationTime": "17:40"
+        },
+        "M1": {
+            "class": "Waypoint",
+            "locationName": "Mooring M1",
+            "latitude": "37.29700",
+            "longitude": "32.23133",
+            "seabedDepth": "2140"
+        },
+        "M2": {
+            "class": "Waypoint",
+            "locationName": "Mooring M2",
+            "latitude": "37.24967",
+            "longitude": "32.41667",
+            "seabedDepth": "2165"
+        },
+        "M1_2": {
+            "class": "Waypoint",
+            "locationName": "Mooring M1_2",
+            "latitude": "37.29000",
+            "longitude": "32.23150",
+            "seabedDepth": "2120"
+        },
+        "Dive_5": {
+            "class": "Task",
+            "hasDuration": 2.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_6": {
+            "class": "Task",
+            "hasDuration": 4.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Dive_7": {
+            "class": "Task",
+            "hasDuration": 19.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

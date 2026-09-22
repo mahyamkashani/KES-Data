@@ -1,0 +1,34 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "ROV Deployments",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD operations",
+                "hasDuration": "72 CTD stations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Water samples for various analysis"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "CTD 2",
+                "hasStatus": "SUCCESSFUL"
+            },
+            {
+                "individual_name": "CTD 3",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": []
+    },
+    "Platform": {
+        "Station": []
+    }
+}

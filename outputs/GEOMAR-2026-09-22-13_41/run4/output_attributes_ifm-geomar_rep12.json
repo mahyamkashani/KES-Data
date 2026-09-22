@@ -1,0 +1,74 @@
+{
+    "Individuals": {
+        "MSM04-2": {
+            "class": "Mission",
+            "MissionID": "MSM04-2",
+            "startTime": "2007-01-03",
+            "endTime": "2007-01-19",
+            "maxDepth": "6000 m",
+            "dataVolume": "2500 km",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Seismic Wide-Angle Profiles Fort-de-France \u2013 Fort-de-France"
+        },
+        "GCPP-01": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3040
+        },
+        "GCPP-02": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3380
+        },
+        "GCPP-03": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3568
+        },
+        "GCPP-04": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1885
+        },
+        "GCPP-05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 955
+        },
+        "GCPP-06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4875
+        },
+        "GCPP-07": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4950
+        },
+        "GCPP-08": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1023
+        },
+        "GCPP-09": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1062
+        },
+        "GCPP-10": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2685
+        }
+    }
+}

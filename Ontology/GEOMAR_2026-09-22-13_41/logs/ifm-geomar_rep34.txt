@@ -1,0 +1,57 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 31
+
+created 16 individuals:
+  + Rockdrill_2 : Mission
+  + Station_921RD : Task
+  + Station_922RD : Task
+  + Station_928DR : Task
+  + Station_929DR : Task
+  + Station_930MB : Task
+  + Station_931RD : Task
+  + Station_957RD : Task
+  + MSM_03_2 : SurveyMission
+  + RV_Maria_S_Merian : Ship
+  + Station_926RD : Waypoint
+  + Station_945GC : Station
+  + Station_962RD : Waypoint
+  + Logatchev_Hydrothermal_Field : Waypoint
+  + Station_959RD : State
+  + Station_954RD : State
+
+asserted 32 axioms:
+  + Rockdrill_2 hasTask Station_921RD
+  + Rockdrill_2 hasTask Station_922RD
+  + Rockdrill_2 hasTask Station_928DR
+  + Rockdrill_2 hasTask Station_929DR
+  + Rockdrill_2 hasTask Station_930MB
+  + Rockdrill_2 hasTask Station_931RD
+  + Rockdrill_2 hasTask Station_957RD
+  + MSM_03_2 hasDurationText 22 days   [hasDuration could not take it]
+  + MSM_03_2 hasStatus SUCCESSFUL
+  + Rockdrill_2 maxDepthText 3100 m   [maxDepth could not take it]
+  + Station_957RD stationID 957RD
+  + Station_957RD stationDate 2006-11-22
+  + Station_957RD stationTime 19:37
+  + Station_926RD locationName Station 926RD
+  + Station_926RD latitude 14.67502
+  + Station_926RD longitude -44.90828
+  + Station_931RD stationID 931RD
+  + Station_931RD stationDate 2006-11-15
+  + Station_931RD stationTime 17:15
+  + Station_945GC stationID 945GC
+  + Station_945GC stationDate 2006-11-18
+  + Station_945GC stationTime 13:56
+  + Station_962RD locationName Station 962RD
+  + Station_962RD latitude 14.75190
+  + Station_962RD longitude -44.97855
+  + Logatchev_Hydrothermal_Field locationName Logatchev hydrothermal field
+  + Logatchev_Hydrothermal_Field latitude 14.75000
+  + Logatchev_Hydrothermal_Field longitude -44.90000
+  + Logatchev_Hydrothermal_Field seabedDepthText 3000 m   [seabedDepth could not take it]
+  + Station_957RD locationName Station 957RD
+  + Station_957RD latitude 14.75367
+  + Station_957RD longitude -44.98030
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep34.rdf

@@ -1,0 +1,54 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "ROV Max Rover"
+            ],
+            "OBJECT_PROPERTY": "usesVehicle",
+            "DOMAIN": "Ship",
+            "RANGE": "Vehicle",
+            "AXIOM": "R/V AEGAEO usesVehicle ROV Max Rover"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "SIMRAD EK60"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Sonar",
+            "AXIOM": "R/V AEGAEO hasSensor SIMRAD EK60"
+        },
+        {
+            "INDIVIDUAL": [
+                "R/V AEGAEO",
+                "SBE9"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "CTDSensor",
+            "AXIOM": "R/V AEGAEO hasSensor SBE9"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON cruise P388",
+                "piezometers"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON cruise P388 hasTask piezometers"
+        },
+        {
+            "INDIVIDUAL": [
+                "POSEIDON cruise P388",
+                "CATmeters"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POSEIDON cruise P388 hasTask CATmeters"
+        }
+    ]
+}

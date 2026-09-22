@@ -1,0 +1,145 @@
+{
+    "Individuals": {
+        "DR1": {
+            "class": "Station",
+            "stationID": "DR1",
+            "stationDate": "2007-05-22",
+            "stationTime": "08:55"
+        },
+        "DR2": {
+            "class": "Station",
+            "stationID": "DR2",
+            "stationDate": "2007-05-23",
+            "stationTime": "16:44"
+        },
+        "DR3": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3596
+        },
+        "DR4": {
+            "class": "Station",
+            "stationID": "DR4",
+            "stationDate": "2007-05-23",
+            "stationTime": "07:40"
+        },
+        "DR5": {
+            "class": "Station",
+            "stationID": "DR5",
+            "stationDate": "2007-05-24",
+            "stationTime": "15:41"
+        },
+        "DR20": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3377
+        },
+        "DR22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3519
+        },
+        "DR32": {
+            "class": "Station",
+            "stationID": "DR32",
+            "stationDate": "2007-06-07",
+            "stationTime": "04:05"
+        },
+        "DR44": {
+            "class": "Station",
+            "stationID": "DR44",
+            "stationDate": "2007-06-11",
+            "stationTime": "10:11"
+        },
+        "DR59": {
+            "class": "Station",
+            "stationID": "DR59",
+            "stationDate": "2007-06-15",
+            "stationTime": "22:13"
+        },
+        "DR_1": {
+            "class": "Waypoint",
+            "locationName": "Western Plateaus",
+            "latitude": "9.00000",
+            "longitude": "164.00000"
+        },
+        "DR_25": {
+            "class": "Waypoint",
+            "locationName": "Danger Islands Troughs, southernmost trough",
+            "latitude": "9.61500",
+            "longitude": "164.38700"
+        },
+        "DR_50": {
+            "class": "Waypoint",
+            "locationName": "Danger Islands Troughs, NE edge of Western Plateau",
+            "latitude": "6.82700",
+            "longitude": "163.73700"
+        },
+        "DR_72": {
+            "class": "Waypoint",
+            "locationName": "High Plateau, southernmost of the three solitaire interior seamounts",
+            "latitude": "9.44800",
+            "longitude": "162.12200"
+        },
+        "DR_96": {
+            "class": "Waypoint",
+            "locationName": "Samoan Basin, Seamount south of Nassau Atoll",
+            "latitude": "13.01000",
+            "longitude": "165.15000"
+        },
+        "SO193-DR12": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO193-DR32": {
+            "class": "Task",
+            "hasDuration": 1.5,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 3835
+        },
+        "DR23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4760
+        },
+        "DR25": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4737
+        },
+        "DR50": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2978
+        },
+        "DR51": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4554
+        },
+        "DR52": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5368
+        },
+        "DR53": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 5485
+        }
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "OBS 01",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 02",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 03",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 04",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 05",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 06",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 07",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 08",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 09",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 10",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 11",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 12",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 13",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 14",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 15",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 16",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 17",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 18",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 19",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 20",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 21",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 22",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 23",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 24",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 25",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 26",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 27",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 28",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 29",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            },
+            {
+                "individual_name": "OBS 30",
+                "hasDuration": "3 months",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Yes"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "OBS 2002",
+                "maxDepth": "6000 m"
+            },
+            {
+                "individual_name": "OBS 8000",
+                "maxDepth": "8000 m"
+            }
+        ]
+    }
+}

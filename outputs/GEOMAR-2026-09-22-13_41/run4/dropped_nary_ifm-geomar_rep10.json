@@ -1,0 +1,57 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "AL275 hasTask Task_1",
+        "reason": "'AL275 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal hasVehicle RV_ALKOR",
+        "reason": "'Traversal hasVehicle RV_ALKOR': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal hasVehicle RV_ALKOR': 'Traversal' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_420_1",
+        "reason": "'Traversal goes_through Waypoint_420_1': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_420_1': 'Traversal', 'Waypoint_420_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_421_1",
+        "reason": "'Traversal goes_through Waypoint_421_1': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_421_1': 'Traversal', 'Waypoint_421_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_421_2",
+        "reason": "'Traversal goes_through Waypoint_421_2': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_421_2': 'Traversal', 'Waypoint_421_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_422",
+        "reason": "'Traversal goes_through Waypoint_422': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_422': 'Traversal', 'Waypoint_422' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_423",
+        "reason": "'Traversal goes_through Waypoint_423': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_423': 'Traversal', 'Waypoint_423' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_425_1",
+        "reason": "'Traversal goes_through Waypoint_425_1': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_425_1': 'Traversal', 'Waypoint_425_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_426_1",
+        "reason": "'Traversal goes_through Waypoint_426_1': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_426_1': 'Traversal', 'Waypoint_426_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_429",
+        "reason": "'Traversal goes_through Waypoint_429': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_429': 'Traversal', 'Waypoint_429' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal goes_through Waypoint_430",
+        "reason": "'Traversal goes_through Waypoint_430': 'Traversal' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; 'Traversal goes_through Waypoint_430': 'Traversal', 'Waypoint_430' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

@@ -1,0 +1,194 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV SONNE",
+                "EM120"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor EM120"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-01",
+                "GC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-01 hasTask GC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-101",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-101 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-102",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-102 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-103",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-103 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-104",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-104 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-105",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-105 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-02-106",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-02-106 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-03",
+                "2-D MCS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-03 hasTask 2-D MCS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-04",
+                "Posidonia"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-04 hasTask Posidonia"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-05",
+                "GC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-05 hasTask GC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-06",
+                "GC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-06 hasTask GC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-07",
+                "TV-MUC"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-07 hasTask TV-MUC"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-08",
+                "2-D MCS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-08 hasTask 2-D MCS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-106",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-09-106 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-105",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-09-105 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-104",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-09-104 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-103",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-09-103 hasTask OBS"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO206-09-102",
+                "OBS"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO206-09-102 hasTask OBS"
+        }
+    ]
+}

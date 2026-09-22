@@ -1,0 +1,56 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Sample from ATA02-31CTD"
+            }
+        },
+        "reason": "Sample from ATA02-31CTD: 'Sample from ATA02-31CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Sample from ATA02-32CTD"
+            }
+        },
+        "reason": "Sample from ATA02-32CTD: 'Sample from ATA02-32CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "Sample from ATA02-33CTD"
+            }
+        },
+        "reason": "Sample from ATA02-33CTD: 'Sample from ATA02-33CTD' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "ROV Dive": {
+                "hasDuration": "102 h"
+            }
+        },
+        "reason": "ROV Dive: hasDuration='102 h' is not printed on any page that names 'ROV Dive' - copy the number the report prints beside 'ROV Dive', or leave hasDuration out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Remotely_Operated_Vehicle": {
+                "individual_name": "ROV 42"
+            }
+        },
+        "reason": "ROV 42: 'ROV 42' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "Remotely_Operated_Vehicle": {
+                "individual_name": "ROV 50"
+            }
+        },
+        "reason": "ROV 50: 'ROV 50' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

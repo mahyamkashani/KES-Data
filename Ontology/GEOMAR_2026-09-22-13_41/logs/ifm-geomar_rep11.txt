@@ -1,0 +1,514 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 158
+
+created 143 individuals:
+  + SO192_1 : Bathymetric_Mission
+  + OBH_01 : Data_Sampling_Mission
+  + OBH_02 : Data_Sampling_Mission
+  + OBH_03 : Data_Sampling_Mission
+  + OBH_04 : Data_Sampling_Mission
+  + OBS_05 : Task
+  + OBS_06 : Task
+  + RV_SONNE : Ship
+  + OBH_30 : Waypoint
+  + OBH_31 : Waypoint
+  + OBH_90 : Waypoint
+  + OBH_96 : Waypoint
+  + OBS_07 : Task
+  + OBS_08 : Task
+  + OBS_09 : Task
+  + OBS_10 : Task
+  + OBS_11 : Task
+  + OBS_23 : Task
+  + OBS_24 : Task
+  + OBS_25 : Task
+  + OBH_26 : Station
+  + OBH_27 : Station
+  + OBH_28 : Station
+  + OBH_29 : Station
+  + OBS_32 : Task
+  + OBS_33 : Task
+  + OBS_34 : Task
+  + OBS_35 : Task
+  + OBS_36 : Task
+  + OBS_37 : Task
+  + OBS_38 : Task
+  + OBS_39 : Task
+  + OBS_40 : Task
+  + OBS_60 : Task
+  + OBS_61 : Task
+  + OBS_62 : Task
+  + OBS_63 : Task
+  + OBS_64 : Task
+  + OBS_65 : Task
+  + OBS_71 : Task
+  + OBS_72 : Task
+  + OBS_73 : Task
+  + OBS_74 : Task
+  + OBS_75 : Task
+  + OBS_76 : Task
+  + OBH_88 : Station
+  + OBH_89 : Station
+  + OBH_92 : Waypoint
+  + OBH_93 : Waypoint
+  + OBH_94 : Waypoint
+  + OBH_95 : Waypoint
+  + OBS_102 : Task
+  + OBS_103 : Task
+  + OBH_104 : Station
+  + OBS_105 : Task
+  + OBS_106 : Task
+  + OBS_114 : Task
+  + OBS_115 : Task
+  + OBS_116 : Task
+  + OBS_117 : Task
+  + OBS_118 : Task
+  + OBS_119 : Task
+  + Landstation_01 : Station
+  + Landstation_02 : Station
+  + OBS_121 : Task
+  + OBS_122 : Task
+  + OBS_134 : Task
+  + OBS_135 : Task
+  + OBS_136 : Task
+  + OBS_137 : Task
+  + OBH_138 : Station
+  + OBH_139 : Station
+  + OBH_140 : Station
+  + OBS_01 : Task
+  + OBS_02 : Task
+  + OBS_03 : Task
+  + OBS_04 : Task
+  + OBS_12 : Task
+  + OBS_13 : Task
+  + OBS_15 : Task
+  + OBS_16 : Task
+  + OBS_17 : Task
+  + OBS_18 : Task
+  + OBS_19 : Task
+  + OBS_20 : Task
+  + OBS_21 : Task
+  + OBS_22 : Task
+  + OBS_30 : Task
+  + OBS_31 : Task
+  + OBS_41 : Task
+  + OBS_42 : Task
+  + OBS_43 : Task
+  + OBS_44 : Task
+  + OBS_45 : Task
+  + OBS_46 : Task
+  + OBS_47 : Task
+  + OBS_48 : Task
+  + OBS_49 : Task
+  + OBS_50 : Task
+  + OBS_51 : Task
+  + OBS_52 : Task
+  + OBS_54 : Task
+  + OBS_55 : Task
+  + OBS_66 : Task
+  + OBS_67 : Task
+  + OBS_68 : Task
+  + OBS_69 : Task
+  + OBS_70 : Task
+  + OBS_77 : Task
+  + OBS_78 : Task
+  + OBS_79 : Task
+  + OBS_90 : Task
+  + OBS_91 : Task
+  + OBS_92 : Task
+  + OBS_93 : Task
+  + OBS_94 : Task
+  + OBS_95 : Task
+  + OBS_96 : Task
+  + OBS_97 : Task
+  + OBS_98 : Task
+  + OBS_99 : Task
+  + OBS_100 : Task
+  + OBS_101 : Task
+  + OBS_104 : Task
+  + OBS_107 : Task
+  + OBS_108 : Task
+  + OBS_109 : Task
+  + OBS_110 : Task
+  + OBS_111 : Task
+  + OBS_112 : Task
+  + OBS_113 : Task
+  + OBS_120 : Task
+  + OBS_123 : Task
+  + OBS_124 : Task
+  + OBS_125 : Task
+  + OBS_126 : Task
+  + OBS_127 : Task
+  + OBS_128 : Task
+  + OBS_129 : Task
+  + OBS_130 : Task
+  + OBS_131 : Task
+  + OBS_132 : Task
+  + OBS_133 : Task
+
+asserted 328 axioms:
+  + SO192_1 hasDurationText Cruise duration   [hasDuration could not take it]
+  + SO192_1 hasStatus SUCCESSFUL
+  + OBH_01 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_01 hasStatus SUCCESSFUL
+  + OBH_02 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_02 hasStatus SUCCESSFUL
+  + OBH_03 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_03 hasStatus SUCCESSFUL
+  + OBH_04 hasDurationText 3 days   [hasDuration could not take it]
+  + OBH_04 hasStatus SUCCESSFUL
+  + OBS_05 hasDuration 4.0
+  + OBS_05 hasStatus SUCCESSFUL
+  + OBS_06 hasDuration 4.0
+  + OBS_06 hasStatus SUCCESSFUL
+  + OBH_01 locationName OBH 01
+  + OBH_01 latitude -37.96292
+  + OBH_01 longitude 179.99920
+  + OBH_01 seabedDepth 3625
+  + OBH_02 locationName OBH 02
+  + OBH_02 latitude -37.93492
+  + OBH_02 longitude 179.94225
+  + OBH_02 seabedDepth 3638
+  + OBH_30 locationName OBH 30
+  + OBH_30 latitude -34.90902
+  + OBH_30 longitude -178.99912
+  + OBH_30 seabedDepth 5892
+  + OBH_31 locationName OBH 31
+  + OBH_31 latitude -34.87315
+  + OBH_31 longitude -179.05800
+  + OBH_31 seabedDepth 5294
+  + OBH_90 locationName OBH 90
+  + OBH_90 latitude -29.58250
+  + OBH_90 longitude -175.16717
+  + OBH_90 seabedDepth 5703
+  + OBH_96 locationName OBH 96
+  + OBH_96 latitude -29.49540
+  + OBH_96 longitude -175.58337
+  + OBH_96 seabedDepth 5843
+  + OBH_03 locationName OBH 03
+  + OBH_03 latitude -37.90823
+  + OBH_03 longitude 179.88390
+  + OBH_03 seabedDepth 3653
+  + OBH_04 locationName OBH 04
+  + OBH_04 latitude -37.88100
+  + OBH_04 longitude 179.82540
+  + OBH_04 seabedDepth 3696
+  + OBS_07 hasDuration 4.0
+  + OBS_07 hasStatus SUCCESSFUL
+  + OBS_08 hasDuration 4.0
+  + OBS_08 hasStatus SUCCESSFUL
+  + OBS_09 hasDuration 4.0
+  + OBS_09 hasStatus SUCCESSFUL
+  + OBS_10 hasDuration 4.0
+  + OBS_10 hasStatus SUCCESSFUL
+  + OBS_11 hasDuration 4.0
+  + OBS_11 hasStatus SUCCESSFUL
+  + OBS_23 hasDuration 4.0
+  + OBS_23 hasStatus SUCCESSFUL
+  + OBS_24 hasDuration 4.0
+  + OBS_24 hasStatus SUCCESSFUL
+  + OBS_25 hasDuration 4.0
+  + OBS_25 hasStatus SUCCESSFUL
+  + OBH_26 stationID OBH 26
+  + OBH_26 stationDate 2007-03-27
+  + OBH_26 stationTime 31.04.07
+  + OBH_27 stationID OBH 27
+  + OBH_27 stationDate 2007-03-27
+  + OBH_27 stationTime 31.04.07
+  + OBH_28 stationID OBH 28
+  + OBH_28 stationDate 2007-03-27
+  + OBH_28 stationTime 31.04.07
+  + OBH_29 stationID OBH 29
+  + OBH_29 stationDate 2007-03-27
+  + OBH_29 stationTime 31.04.07
+  + OBS_32 hasDuration 4.0
+  + OBS_32 hasStatus SUCCESSFUL
+  + OBS_33 hasDuration 4.0
+  + OBS_33 hasStatus SUCCESSFUL
+  + OBS_34 hasDuration 4.0
+  + OBS_34 hasStatus SUCCESSFUL
+  + OBS_35 hasDuration 4.0
+  + OBS_35 hasStatus SUCCESSFUL
+  + OBS_36 hasDuration 4.0
+  + OBS_36 hasStatus SUCCESSFUL
+  + OBS_37 hasDuration 4.0
+  + OBS_37 hasStatus SUCCESSFUL
+  + OBS_38 hasDuration 4.0
+  + OBS_38 hasStatus SUCCESSFUL
+  + OBS_39 hasDuration 4.0
+  + OBS_39 hasStatus SUCCESSFUL
+  + OBS_40 hasDuration 4.0
+  + OBS_40 hasStatus SUCCESSFUL
+  + OBS_60 hasDuration 4.0
+  + OBS_60 hasStatus SUCCESSFUL
+  + OBS_61 hasDuration 4.0
+  + OBS_61 hasStatus SUCCESSFUL
+  + OBS_62 hasDuration 4.0
+  + OBS_62 hasStatus SUCCESSFUL
+  + OBS_63 hasDuration 4.0
+  + OBS_63 hasStatus SUCCESSFUL
+  + OBS_64 hasDuration 4.0
+  + OBS_64 hasStatus SUCCESSFUL
+  + OBS_65 hasDuration 4.0
+  + OBS_65 hasStatus SUCCESSFUL
+  + OBS_71 hasDuration 4.0
+  + OBS_71 hasStatus SUCCESSFUL
+  + OBS_72 hasDuration 4.0
+  + OBS_72 hasStatus SUCCESSFUL
+  + OBS_73 hasDuration 4.0
+  + OBS_73 hasStatus SUCCESSFUL
+  + OBS_74 hasDuration 4.0
+  + OBS_74 hasStatus SUCCESSFUL
+  + OBS_75 hasDuration 4.0
+  + OBS_75 hasStatus SUCCESSFUL
+  + OBS_76 hasDuration 4.0
+  + OBS_76 hasStatus SUCCESSFUL
+  + OBH_88 stationID OBH 88
+  + OBH_88 stationDate 2007-04-05
+  + OBH_88 stationTime 07.04.07
+  + OBH_89 stationID OBH 89
+  + OBH_89 stationDate 2007-04-05
+  + OBH_89 stationTime 07.04.07
+  + OBH_92 locationName OBH 92
+  + OBH_92 latitude -29.56488
+  + OBH_92 longitude -175.25003
+  + OBH_92 seabedDepth 5684
+  + OBH_93 locationName OBH 93
+  + OBH_93 latitude -29.54728
+  + OBH_93 longitude -175.33335
+  + OBH_93 seabedDepth 5714
+  + OBH_94 locationName OBH 94
+  + OBH_94 latitude -29.53022
+  + OBH_94 longitude -175.41705
+  + OBH_94 seabedDepth 5844
+  + OBH_95 locationName OBH 95
+  + OBH_95 latitude -29.51317
+  + OBH_95 longitude -175.50020
+  + OBH_95 seabedDepth 5775
+  + OBS_102 hasDuration 4.0
+  + OBS_102 hasStatus SUCCESSFUL
+  + OBS_103 hasDuration 4.0
+  + OBS_103 hasStatus SUCCESSFUL
+  + OBH_104 stationID OBH 104
+  + OBH_104 stationDate 2007-04-10
+  + OBH_104 stationTime 13.04.07
+  + OBS_105 hasDuration 4.0
+  + OBS_105 hasStatus SUCCESSFUL
+  + OBS_106 hasDuration 4.0
+  + OBS_106 hasStatus SUCCESSFUL
+  + OBS_114 hasDuration 4.0
+  + OBS_114 hasStatus SUCCESSFUL
+  + OBS_115 hasDuration 4.0
+  + OBS_115 hasStatus SUCCESSFUL
+  + OBS_116 hasDuration 4.0
+  + OBS_116 hasStatus SUCCESSFUL
+  + OBS_117 hasDuration 4.0
+  + OBS_117 hasStatus SUCCESSFUL
+  + OBS_118 hasDuration 4.0
+  + OBS_118 hasStatus SUCCESSFUL
+  + OBS_119 hasDuration 4.0
+  + OBS_119 hasStatus SUCCESSFUL
+  + Landstation_01 stationID Landstation 01
+  + Landstation_01 stationDate 2007-04-10
+  + Landstation_01 stationTime 16.04.07
+  + Landstation_02 stationID Landstation 02
+  + Landstation_02 stationDate 2007-04-10
+  + Landstation_02 stationTime 16.04.07
+  + OBS_121 hasDuration 4.0
+  + OBS_121 hasStatus SUCCESSFUL
+  + OBS_122 hasDuration 4.0
+  + OBS_122 hasStatus SUCCESSFUL
+  + OBS_134 hasDuration 4.0
+  + OBS_134 hasStatus SUCCESSFUL
+  + OBS_135 hasDuration 4.0
+  + OBS_135 hasStatus SUCCESSFUL
+  + OBS_136 hasDuration 4.0
+  + OBS_136 hasStatus SUCCESSFUL
+  + OBS_137 hasDuration 4.0
+  + OBS_137 hasStatus SUCCESSFUL
+  + OBH_138 stationID OBH 138
+  + OBH_138 stationDate 2007-04-14
+  + OBH_138 stationTime 16.04.07
+  + OBH_139 stationID OBH 139
+  + OBH_139 stationDate 2007-04-14
+  + OBH_139 stationTime 16.04.07
+  + OBH_140 stationID OBH 140
+  + OBH_140 stationDate 2007-04-14
+  + OBH_140 stationTime 16.04.07
+  + OBS_01 hasDuration 4.0
+  + OBS_01 hasStatus SUCCESSFUL
+  + OBS_02 hasDuration 4.0
+  + OBS_02 hasStatus SUCCESSFUL
+  + OBS_03 hasDuration 4.0
+  + OBS_03 hasStatus SUCCESSFUL
+  + OBS_04 hasDuration 4.0
+  + OBS_04 hasStatus SUCCESSFUL
+  + OBS_12 hasDuration 4.0
+  + OBS_12 hasStatus SUCCESSFUL
+  + OBS_13 hasDuration 4.0
+  + OBS_13 hasStatus SUCCESSFUL
+  + OBS_15 hasDuration 4.0
+  + OBS_15 hasStatus SUCCESSFUL
+  + OBS_16 hasDuration 4.0
+  + OBS_16 hasStatus SUCCESSFUL
+  + OBS_17 hasDuration 4.0
+  + OBS_17 hasStatus SUCCESSFUL
+  + OBS_18 hasDuration 4.0
+  + OBS_18 hasStatus SUCCESSFUL
+  + OBS_19 hasDuration 4.0
+  + OBS_19 hasStatus SUCCESSFUL
+  + OBS_20 hasDuration 4.0
+  + OBS_20 hasStatus SUCCESSFUL
+  + OBS_21 hasDuration 4.0
+  + OBS_21 hasStatus SUCCESSFUL
+  + OBS_22 hasDuration 4.0
+  + OBS_22 hasStatus SUCCESSFUL
+  + OBS_30 hasDuration 4.0
+  + OBS_30 hasStatus SUCCESSFUL
+  + OBS_31 hasDuration 4.0
+  + OBS_31 hasStatus SUCCESSFUL
+  + OBS_41 hasDuration 4.0
+  + OBS_41 hasStatus SUCCESSFUL
+  + OBS_42 hasDuration 4.0
+  + OBS_42 hasStatus SUCCESSFUL
+  + OBS_43 hasDuration 4.0
+  + OBS_43 hasStatus SUCCESSFUL
+  + OBS_44 hasDuration 4.0
+  + OBS_44 hasStatus SUCCESSFUL
+  + OBS_45 hasDuration 4.0
+  + OBS_45 hasStatus SUCCESSFUL
+  + OBS_46 hasDuration 4.0
+  + OBS_46 hasStatus SUCCESSFUL
+  + OBS_47 hasDuration 4.0
+  + OBS_47 hasStatus SUCCESSFUL
+  + OBS_48 hasDuration 4.0
+  + OBS_48 hasStatus SUCCESSFUL
+  + OBS_49 hasDuration 4.0
+  + OBS_49 hasStatus SUCCESSFUL
+  + OBS_50 hasDuration 4.0
+  + OBS_50 hasStatus SUCCESSFUL
+  + OBS_51 hasDuration 4.0
+  + OBS_51 hasStatus SUCCESSFUL
+  + OBS_52 hasDuration 4.0
+  + OBS_52 hasStatus SUCCESSFUL
+  + OBS_54 hasDuration 4.0
+  + OBS_54 hasStatus SUCCESSFUL
+  + OBS_55 hasDuration 4.0
+  + OBS_55 hasStatus SUCCESSFUL
+  + OBS_66 hasDuration 4.0
+  + OBS_66 hasStatus SUCCESSFUL
+  + OBS_67 hasDuration 4.0
+  + OBS_67 hasStatus SUCCESSFUL
+  + OBS_68 hasDuration 4.0
+  + OBS_68 hasStatus SUCCESSFUL
+  + OBS_69 hasDuration 4.0
+  + OBS_69 hasStatus SUCCESSFUL
+  + OBS_70 hasDuration 4.0
+  + OBS_70 hasStatus SUCCESSFUL
+  + OBS_77 hasDuration 4.0
+  + OBS_77 hasStatus SUCCESSFUL
+  + OBS_78 hasDuration 4.0
+  + OBS_78 hasStatus SUCCESSFUL
+  + OBS_79 hasDuration 4.0
+  + OBS_79 hasStatus SUCCESSFUL
+  + OBS_90 hasDuration 4.0
+  + OBS_90 hasStatus SUCCESSFUL
+  + OBS_91 hasDuration 4.0
+  + OBS_91 hasStatus SUCCESSFUL
+  + OBS_92 hasDuration 4.0
+  + OBS_92 hasStatus SUCCESSFUL
+  + OBS_93 hasDuration 4.0
+  + OBS_93 hasStatus SUCCESSFUL
+  + OBS_94 hasDuration 4.0
+  + OBS_94 hasStatus SUCCESSFUL
+  + OBS_95 hasDuration 4.0
+  + OBS_95 hasStatus SUCCESSFUL
+  + OBS_96 hasDuration 4.0
+  + OBS_96 hasStatus SUCCESSFUL
+  + OBS_97 hasDuration 4.0
+  + OBS_97 hasStatus SUCCESSFUL
+  + OBS_98 hasDuration 4.0
+  + OBS_98 hasStatus SUCCESSFUL
+  + OBS_99 hasDuration 4.0
+  + OBS_99 hasStatus SUCCESSFUL
+  + OBS_100 hasDuration 4.0
+  + OBS_100 hasStatus SUCCESSFUL
+  + OBS_101 hasDuration 4.0
+  + OBS_101 hasStatus SUCCESSFUL
+  + OBS_104 hasDuration 4.0
+  + OBS_104 hasStatus SUCCESSFUL
+  + OBS_107 hasDuration 4.0
+  + OBS_107 hasStatus SUCCESSFUL
+  + OBS_108 hasDuration 4.0
+  + OBS_108 hasStatus SUCCESSFUL
+  + OBS_109 hasDuration 4.0
+  + OBS_109 hasStatus SUCCESSFUL
+  + OBS_110 hasDuration 4.0
+  + OBS_110 hasStatus SUCCESSFUL
+  + OBS_111 hasDuration 4.0
+  + OBS_111 hasStatus SUCCESSFUL
+  + OBS_112 hasDuration 4.0
+  + OBS_112 hasStatus SUCCESSFUL
+  + OBS_113 hasDuration 4.0
+  + OBS_113 hasStatus SUCCESSFUL
+  + OBS_120 hasDuration 4.0
+  + OBS_120 hasStatus SUCCESSFUL
+  + OBS_123 hasDuration 4.0
+  + OBS_123 hasStatus SUCCESSFUL
+  + OBS_124 hasDuration 4.0
+  + OBS_124 hasStatus SUCCESSFUL
+  + OBS_125 hasDuration 4.0
+  + OBS_125 hasStatus SUCCESSFUL
+  + OBS_126 hasDuration 4.0
+  + OBS_126 hasStatus SUCCESSFUL
+  + OBS_127 hasDuration 4.0
+  + OBS_127 hasStatus SUCCESSFUL
+  + OBS_128 hasDuration 4.0
+  + OBS_128 hasStatus SUCCESSFUL
+  + OBS_129 hasDuration 4.0
+  + OBS_129 hasStatus SUCCESSFUL
+  + OBS_130 hasDuration 4.0
+  + OBS_130 hasStatus SUCCESSFUL
+  + OBS_131 hasDuration 4.0
+  + OBS_131 hasStatus SUCCESSFUL
+  + OBS_132 hasDuration 4.0
+  + OBS_132 hasStatus SUCCESSFUL
+  + OBS_133 hasDuration 4.0
+  + OBS_133 hasStatus SUCCESSFUL
+
+skipped 32 excluded axioms:
+  - SO192/001-1 hasTask SO192/001-1   [hasTask has no single named domain/range to type from]
+  - SO192/002-1 hasTask SO192/002-1   [hasTask has no single named domain/range to type from]
+  - SO192/003-1 hasTask SO192/003-1   [hasTask has no single named domain/range to type from]
+  - SO192/004-1 hasTask SO192/004-1   [hasTask has no single named domain/range to type from]
+  - SO192/005-1 hasTask SO192/005-1   [hasTask has no single named domain/range to type from]
+  - SO192/006-1 hasTask SO192/006-1   [hasTask has no single named domain/range to type from]
+  - SO192/007-1 hasTask SO192/007-1   [hasTask has no single named domain/range to type from]
+  - SO192/008-1 hasTask SO192/008-1   [hasTask has no single named domain/range to type from]
+  - SO192/009-1 hasTask SO192/009-1   [hasTask has no single named domain/range to type from]
+  - SO192/010-1 hasTask SO192/010-1   [hasTask has no single named domain/range to type from]
+  - SO192/011-1 hasTask SO192/011-1   [hasTask has no single named domain/range to type from]
+  - SO192/012-1 hasTask SO192/012-1   [hasTask has no single named domain/range to type from]
+  - SO192/013-1 hasTask SO192/013-1   [hasTask has no single named domain/range to type from]
+  - SO192/014-1 hasTask SO192/014-1   [hasTask has no single named domain/range to type from]
+  - SO192/015-1 hasTask SO192/015-1   [hasTask has no single named domain/range to type from]
+  - SO192/016-1 hasTask SO192/016-1   [hasTask has no single named domain/range to type from]
+  - SO192/017-1 hasTask SO192/017-1   [hasTask has no single named domain/range to type from]
+  - SO192/018-1 hasTask SO192/018-1   [hasTask has no single named domain/range to type from]
+  - SO192/019-1 hasTask SO192/019-1   [hasTask has no single named domain/range to type from]
+  - SO192/020-1 hasTask SO192/020-1   [hasTask has no single named domain/range to type from]
+  - SO192/021-1 hasTask SO192/021-1   [hasTask has no single named domain/range to type from]
+  - SO192/022-1 hasTask SO192/022-1   [hasTask has no single named domain/range to type from]
+  - SO192/023-1 hasTask SO192/023-1   [hasTask has no single named domain/range to type from]
+  - SO192/024-1 hasTask SO192/024-1   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_176   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_181   [hasTask has no single named domain/range to type from]
+  - RV_Poseidon hasTask POS_316   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_177   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_186   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_190   [hasTask has no single named domain/range to type from]
+  - RV_Sonne hasTask SO_191   [hasTask has no single named domain/range to type from]
+  - FS_ALKOR hasTask AL_275   [hasTask has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep11.rdf

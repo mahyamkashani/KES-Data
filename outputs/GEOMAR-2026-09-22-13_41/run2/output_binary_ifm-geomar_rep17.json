@@ -1,0 +1,344 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V MARIA S. MERIAN",
+                "MSM04/1"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R/V MARIA S. MERIAN hasMission MSM04/1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "967-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 967-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "968-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 968-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "970-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 970-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "970-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 970-2"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "972-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 972-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "973-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 973-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "976-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 976-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "977-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 977-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "978-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 978-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "979-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 979-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "980-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 980-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "981-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 981-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "985-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 985-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "986-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 986-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "987-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 987-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "988-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 988-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "989-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 989-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "990-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 990-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "991-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 991-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "992-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 992-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "993-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 993-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "994-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 994-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "995-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 995-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "996-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 996-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "998-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 998-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "999-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 999-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1000-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1000-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1001-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1001-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1002-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1002-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1003-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1003-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1008-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1008-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1009-1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1009-1"
+        },
+        {
+            "INDIVIDUAL": [
+                "MSM04/1",
+                "1009-2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "MSM04/1 hasTask 1009-2"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 33
+
+created 18 individuals:
+  + R_V_Poseidon : Ship
+  + AUV_Abyss : Vehicle
+  + Reson_Seabat_7125 : MBES
+  + MicroRider_6000 : DVL
+  + Chelsea_Instruments_model_Aqua_Tracka_III : CTDSensor
+  + M1 : Waypoint
+  + M2 : Waypoint
+  + Dive_1 : Task
+  + Dive_2 : Task
+  + R_V_POSEIDON : Ship
+  + Mission_041 : Mission
+  + Mooring_M1 : Waypoint
+  + Mooring_M2 : Waypoint
+  + Mooring_M1_2 : Waypoint
+  + Dive_5 : Task
+  + Dive_6 : Task
+  + Dive_7 : Task
+  + Dive_8 : Task
+
+asserted 27 axioms:
+  + R_V_Poseidon usesVehicle AUV_Abyss
+  + AUV_Abyss hasSensor Reson_Seabat_7125
+  + AUV_Abyss hasSensor MicroRider_6000
+  + AUV_Abyss hasSensor Chelsea_Instruments_model_Aqua_Tracka_III
+  + M1 before M2
+  + Dive_1 hasAction Act_DeepDive
+  + Dive_2 hasAction Act_DeepDive
+  + AUV_Abyss maxDepthText 6000 m   [maxDepth could not take it]
+  + Mission_041 MissionID 041
+  + Mission_041 startTime 2010-08-15 12:36
+  + Mission_041 endTime 2010-08-15 15:43
+  + Mission_041 hasStatus SUCCESSFUL
+  + Mission_041 remark DVL Calibration
+  + Mooring_M1 latitude 37.29700
+  + Mooring_M1 longitude 32.23133
+  + Mooring_M2 latitude 37.24967
+  + Mooring_M2 longitude 32.41667
+  + Mooring_M1_2 locationName Mooring M1_2
+  + Mooring_M1_2 latitude 37.29000
+  + Mooring_M1_2 longitude 32.23150
+  + Dive_5 hasDuration 2.0
+  + Dive_5 hasStatus SUCCESSFUL
+  + Dive_6 hasStatus SUCCESSFUL
+  + Dive_7 hasDuration 5.0
+  + Dive_7 hasStatus SUCCESSFUL
+  + Dive_8 hasDuration 19.0
+  + Dive_8 hasStatus SUCCESSFUL
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep38.rdf

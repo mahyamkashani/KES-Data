@@ -1,0 +1,30 @@
+{
+    "Individuals": {
+        "RVPoseidon_Cruise": {
+            "MissionID": "408-3",
+            "startTime": "2011-01-14",
+            "endTime": "2011-01-31",
+            "dataVolume": "4500 km2",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Focused on geological development of Red Sea deeps.",
+            "class": "Mission"
+        },
+        "Station_34_CTD": {
+            "has_Temperature": "36",
+            "has_Conductivity": "2000",
+            "class": "State"
+        },
+        "Hatiba_Deep": {
+            "locationName": "Hatiba Deep",
+            "latitude": "22.05000",
+            "longitude": "37.84333",
+            "class": "Waypoint"
+        },
+        "Port_Sudan_Deep": {
+            "locationName": "Port Sudan Deep",
+            "latitude": "20.07683",
+            "longitude": "38.51217",
+            "class": "Waypoint"
+        }
+    }
+}

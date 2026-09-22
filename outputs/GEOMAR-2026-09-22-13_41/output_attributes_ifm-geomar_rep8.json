@@ -1,0 +1,172 @@
+{
+    "Individuals": {
+        "OBH 154": {
+            "locationName": "OBH 154",
+            "latitude": "-12.23347",
+            "longitude": "120.90332",
+            "seabedDepth": 3584,
+            "class": "Waypoint"
+        },
+        "OBH 155": {
+            "locationName": "OBH 155",
+            "latitude": "-12.17983",
+            "longitude": "120.91102",
+            "seabedDepth": 3690,
+            "class": "Waypoint"
+        },
+        "OBH 156": {
+            "locationName": "OBH 156",
+            "latitude": "-12.12393",
+            "longitude": "120.91965",
+            "seabedDepth": 3877,
+            "class": "Waypoint"
+        },
+        "OBH 157": {
+            "locationName": "OBH 157",
+            "latitude": "-12.06698",
+            "longitude": "120.92825",
+            "seabedDepth": 3933,
+            "class": "Waypoint"
+        },
+        "OBS 158": {
+            "locationName": "OBS 158",
+            "latitude": "-12.00785",
+            "longitude": "120.93660",
+            "seabedDepth": 3978,
+            "class": "Waypoint"
+        },
+        "OBS 159": {
+            "locationName": "OBS 159",
+            "latitude": "-11.95052",
+            "longitude": "120.94572",
+            "seabedDepth": 3916,
+            "class": "Waypoint"
+        },
+        "OBH 181": {
+            "stationID": "OBH 181",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 182": {
+            "stationID": "OBH 182",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 183": {
+            "stationID": "OBH 183",
+            "stationDate": "2006-12-07",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 184": {
+            "stationID": "OBH 184",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 185": {
+            "stationID": "OBH 185",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 186": {
+            "stationID": "OBH 186",
+            "stationDate": "2006-12-09",
+            "stationTime": "10.12.06",
+            "class": "Station"
+        },
+        "OBH 200": {
+            "stationID": "OBH 200",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06",
+            "class": "Station"
+        },
+        "OBH 201": {
+            "stationID": "OBH 201",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06",
+            "class": "Station"
+        },
+        "OBH 202": {
+            "stationID": "OBH 202",
+            "stationDate": "2006-12-12",
+            "stationTime": "13.12.06",
+            "class": "Station"
+        },
+        "OBH 203": {
+            "stationID": "OBH 203",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06",
+            "class": "Station"
+        },
+        "OBH 204": {
+            "stationID": "OBH 204",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06",
+            "class": "Station"
+        },
+        "OBH 205": {
+            "stationID": "OBH 205",
+            "stationDate": "2006-12-12",
+            "stationTime": "14.12.06",
+            "class": "Station"
+        },
+        "OBH 230": {
+            "stationID": "OBH 230",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06",
+            "class": "Station"
+        },
+        "OBH 231": {
+            "stationID": "OBH 231",
+            "stationDate": "2006-12-15",
+            "stationTime": "16.12.06",
+            "class": "Station"
+        },
+        "OBS 193": {
+            "locationName": "OBS 193",
+            "latitude": "-10.06585",
+            "longitude": "121.21892",
+            "seabedDepth": 910,
+            "class": "Waypoint"
+        },
+        "OBS 194": {
+            "locationName": "OBS 194",
+            "latitude": "-10.00217",
+            "longitude": "121.22847",
+            "seabedDepth": 1246,
+            "class": "Waypoint"
+        },
+        "OBS 195": {
+            "locationName": "OBS 195",
+            "latitude": "-9.94652",
+            "longitude": "121.23643",
+            "seabedDepth": 1532,
+            "class": "Waypoint"
+        },
+        "SO190-2": {
+            "hasDuration": 41.5,
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "OBMT35": {
+            "has_Depth": "5862",
+            "class": "State"
+        },
+        "OBMT37": {
+            "has_Depth": "5578",
+            "class": "State"
+        },
+        "OBMT54": {
+            "has_Depth": "4362",
+            "class": "State"
+        },
+        "OBMT55": {
+            "has_Depth": "4366",
+            "class": "State"
+        }
+    }
+}

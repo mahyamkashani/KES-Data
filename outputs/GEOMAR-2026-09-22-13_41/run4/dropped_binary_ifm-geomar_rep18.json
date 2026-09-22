@@ -1,0 +1,226 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 226"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 226"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 226: 'Dive 226' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 227"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 227"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 227: 'Dive 227' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 236"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 236"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 236: 'Dive 236' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 237"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 237"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 237: 'Dive 237' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 238"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 238"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 238: 'Dive 238' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 239"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 239"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 239: 'Dive 239' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 240"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 240"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 240: 'Dive 240' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 241"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 241"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 241: 'Dive 241' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 242"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 242"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 242: 'Dive 242' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 243"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 243"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 243: 'Dive 243' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 244"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 244"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 244: 'Dive 244' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 245"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 245"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 245: 'Dive 245' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 246"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 246"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 246: 'Dive 246' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 247"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 247"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 247: 'Dive 247' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 248"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 248"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 248: 'Dive 248' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Poseidon cruise 348",
+                "Dive 249"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Poseidon cruise 348 hasTask Dive 249"
+        },
+        "reason": "Poseidon cruise 348 hasTask Dive 249: 'Dive 249' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

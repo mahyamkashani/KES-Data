@@ -1,0 +1,114 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 1"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 1"
+        },
+        "reason": "R/V SONNE hasAction DR 1: RANGE 'Act_Move' is not a class in the ontology"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 20"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 20"
+        },
+        "reason": "R/V SONNE hasAction DR 20: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 20: 'R/V SONNE' and 'DR 20' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 35"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 35"
+        },
+        "reason": "R/V SONNE hasAction DR 35: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 35: 'R/V SONNE' and 'DR 35' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 36"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 36"
+        },
+        "reason": "R/V SONNE hasAction DR 36: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 36: 'R/V SONNE' and 'DR 36' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 38"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 38"
+        },
+        "reason": "R/V SONNE hasAction DR 38: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 38: 'R/V SONNE' and 'DR 38' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 39"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 39"
+        },
+        "reason": "R/V SONNE hasAction DR 39: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 39: 'R/V SONNE' and 'DR 39' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "R/V SONNE",
+                "DR 40"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Act_Move",
+            "AXIOM": "R/V SONNE hasAction DR 40"
+        },
+        "reason": "R/V SONNE hasAction DR 40: RANGE 'Act_Move' is not a class in the ontology; R/V SONNE hasAction DR 40: 'R/V SONNE' and 'DR 40' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "SO193",
+                "Dive 1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO193 hasTask Dive 1"
+        },
+        "reason": "SO193 hasTask Dive 1: 'Dive 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

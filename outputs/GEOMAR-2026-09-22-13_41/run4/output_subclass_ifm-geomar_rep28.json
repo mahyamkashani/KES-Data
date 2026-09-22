@@ -1,0 +1,77 @@
+{
+    "Task": {
+        "CTDMission": [
+            {
+                "individual_name": "CTD sampling",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Dredging at Mt. Demenitskoy",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "rock samples"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": [
+            {
+                "individual_name": "ROV",
+                "maxDepth": "1,770 m"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R.V. Poseidon",
+                "maxDepth": "2,000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "DR1",
+                "stationID": "DR1",
+                "stationName": "Mt. Demenitskoy, plateau",
+                "stationDate": "2009-02-01",
+                "stationTime": "08:45-10:41"
+            },
+            {
+                "individual_name": "DR2",
+                "stationID": "DR2",
+                "stationName": "Mt. Demenitskoy, slope at the southern edge of the plateau",
+                "stationDate": "2009-02-01",
+                "stationTime": "11:30-14:01"
+            },
+            {
+                "individual_name": "DR6",
+                "stationID": "DR6",
+                "stationName": "Tolkien Seamount, summit area",
+                "stationDate": "2009-02-05",
+                "stationTime": "09:34-12:40"
+            },
+            {
+                "individual_name": "DR7",
+                "stationID": "DR7",
+                "stationName": "Tolkien Seamount, southwestern flank",
+                "stationDate": "2009-02-05",
+                "stationTime": "13:43-19:10"
+            },
+            {
+                "individual_name": "DR8",
+                "stationID": "DR8",
+                "stationName": "Krylov Seamount, southwestern flank",
+                "stationDate": "2009-02-08",
+                "stationTime": "09:30-11:25"
+            },
+            {
+                "individual_name": "DR9",
+                "stationID": "DR9",
+                "stationName": "Krylov Seamount, western flank",
+                "stationDate": "2009-02-08",
+                "stationTime": "12:50-15:00"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "S0179 hasTask OBH_72",
+                "OBH_72 goes_through OBH_73",
+                "OBH_73 goes_through OBH_74",
+                "OBH_74 goes_through OBH_75"
+            ],
+            "Individuals": [
+                "S0179",
+                "OBH_72",
+                "OBH_73",
+                "OBH_74",
+                "OBH_75"
+            ]
+        }
+    }
+}

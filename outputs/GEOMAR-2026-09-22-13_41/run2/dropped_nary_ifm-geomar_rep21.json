@@ -1,0 +1,7 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "P340 goes_through PalinuroSeamount",
+        "reason": "'P340 goes_through PalinuroSeamount': 'PalinuroSeamount' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

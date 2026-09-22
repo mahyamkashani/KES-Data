@@ -1,0 +1,36 @@
+{
+    "Individuals": {
+        "OBS 701": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 702": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "OBS 128": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4050
+        },
+        "OBS 131": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 4212
+        },
+        "OBS 1117": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 728
+        },
+        "OBS 1218": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1620
+        }
+    }
+}

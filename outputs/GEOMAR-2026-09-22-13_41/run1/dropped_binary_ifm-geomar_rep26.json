@@ -1,0 +1,16 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "FS Poseidon",
+                "ADCP"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "DVL",
+            "AXIOM": "FS Poseidon hasSensor DVL"
+        },
+        "reason": "FS Poseidon hasSensor DVL: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom"
+    }
+]

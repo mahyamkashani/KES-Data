@@ -1,0 +1,11 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "DR1": {
+                "has_Depth": 2962
+            }
+        },
+        "reason": "DR1: has_Depth=2962 is not printed on any page that names 'DR1' - copy the number the report prints beside 'DR1', or leave has_Depth out"
+    }
+]

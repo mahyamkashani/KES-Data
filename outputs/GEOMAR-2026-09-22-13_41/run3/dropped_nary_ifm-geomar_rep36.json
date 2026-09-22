@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "CE0913 hasTask Task_1",
+        "reason": "'CE0913 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "RV_CELTIC_EXPLORER goes_through Waypoint_Borkum_Reef",
+        "reason": "'RV_CELTIC_EXPLORER goes_through Waypoint_Borkum_Reef': 'Waypoint_Borkum_Reef' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "ROV_KIEL_6000 goes_through Waypoint_Tommeliten",
+        "reason": "'ROV_KIEL_6000 goes_through Waypoint_Tommeliten': 'Waypoint_Tommeliten' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

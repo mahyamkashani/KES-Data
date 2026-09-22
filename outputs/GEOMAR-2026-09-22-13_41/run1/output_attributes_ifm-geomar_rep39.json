@@ -1,0 +1,241 @@
+{
+    "Individuals": {
+        "SO208_DR5": {
+            "class": "Mission",
+            "MissionID": "SO208_DR5",
+            "startTime": "2010-07-18 03:04",
+            "endTime": "2010-07-18 03:46",
+            "dataVolume": "empty",
+            "hasStatus": "FAILED",
+            "remark": "gDr, no sediment, no macrofauna"
+        },
+        "SO208_MUC4": {
+            "class": "Mission",
+            "MissionID": "SO208_MUC4",
+            "startTime": "2010-07-17 22:28",
+            "endTime": "2010-07-17 22:41",
+            "dataVolume": "empty",
+            "hasStatus": "FAILED",
+            "remark": "tubes partly closed on their way down, TV shows crusts and rock"
+        },
+        "SO208_DR122": {
+            "class": "Station",
+            "stationID": "SO208_DR122",
+            "stationDate": "2010-08-26",
+            "stationTime": "00:30"
+        },
+        "SO208_MUC124": {
+            "class": "Station",
+            "stationID": "SO208_MUC124",
+            "stationDate": "2010-08-26",
+            "stationTime": "06:49"
+        },
+        "SO208_TVG123": {
+            "class": "Station",
+            "stationID": "SO208_TVG123",
+            "stationDate": "2010-08-26",
+            "stationTime": "06:48"
+        },
+        "SO208_DR29": {
+            "class": "Station",
+            "stationID": "SO208_DR29",
+            "stationDate": "2010-07-24",
+            "stationTime": "09:12"
+        },
+        "SO208_DR30": {
+            "class": "Station",
+            "stationID": "SO208_DR30",
+            "stationDate": "2010-07-24",
+            "stationTime": "12:19"
+        },
+        "SO208_DR37": {
+            "class": "Station",
+            "stationID": "SO208_DR37",
+            "stationDate": "2010-07-26",
+            "stationTime": "03:01"
+        },
+        "SO208_DR67": {
+            "class": "Station",
+            "stationID": "SO208_DR67",
+            "stationDate": "2010-08-09",
+            "stationTime": "03:27"
+        },
+        "SO208_DR120": {
+            "class": "Station",
+            "stationID": "SO208_DR120",
+            "stationDate": "2010-08-25",
+            "stationTime": "11:46"
+        },
+        "SO208_DR121": {
+            "class": "Station",
+            "stationID": "SO208_DR121",
+            "stationDate": "2010-08-25",
+            "stationTime": "16:27"
+        },
+        "Egg_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Egg Seamount",
+            "latitude": "7.83867",
+            "longitude": "-90.46917"
+        },
+        "Boxer_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Boxer Seamount",
+            "latitude": "7.64350",
+            "longitude": "-90.87000"
+        },
+        "Krapfen_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Krapfen Seamount",
+            "latitude": "6.86333",
+            "longitude": "-91.64250"
+        },
+        "Bend_Fault_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Bend fault Seamount",
+            "latitude": "10.79100",
+            "longitude": "-87.84100"
+        },
+        "Little_Bend_Seamount": {
+            "class": "Waypoint",
+            "locationName": "Little Bend Seamount",
+            "latitude": "10.68533",
+            "longitude": "-87.75867"
+        },
+        "DR 6": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 7": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 9": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 10": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 11": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 12": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 15": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 17": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 21": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 22": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 23": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 24": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 25": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 29": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 60": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 61": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 62": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 63": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 64": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 65": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "FAILED"
+        },
+        "DR 66": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 67": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 68": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "DR 69": {
+            "class": "Task",
+            "hasDuration": 12.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Profile_1": {
+            "class": "State"
+        },
+        "Profile_2": {
+            "class": "State"
+        },
+        "Profile_3": {
+            "class": "State"
+        },
+        "Profile_4": {
+            "class": "State"
+        },
+        "Profile_5": {
+            "class": "State"
+        }
+    }
+}

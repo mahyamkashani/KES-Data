@@ -1,0 +1,88 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO203 hasTask Dive_012"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_012"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO203 hasTask Dive_015"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_015"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO203 hasTask Dive_019"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_019"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO203 hasTask Dive_020"
+            ],
+            "Individuals": [
+                "SO203",
+                "Dive_020"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "DR94-1 hasAction DR94-4",
+                "DR95-1 hasAction DR95-2",
+                "DR96-1 hasAction DR96-2",
+                "DR97-1 hasAction DR97-2",
+                "DR103-1 hasAction DR103-2",
+                "DR105-1 hasAction DR105-2",
+                "DR114-1 hasAction DR114-2",
+                "DR120-1 hasAction DR120-2",
+                "DR125-1 hasAction DR125-2",
+                "DR135-1 hasAction DR135-2",
+                "DR140-1 hasAction DR140-2",
+                "DR145-1 hasAction DR145-2",
+                "DR153-1 hasAction DR153-2",
+                "DR155-1 hasAction DR155-2"
+            ],
+            "Individuals": [
+                "DR94-1",
+                "DR94-4",
+                "DR95-1",
+                "DR95-2",
+                "DR96-1",
+                "DR96-2",
+                "DR97-1",
+                "DR97-2",
+                "DR103-1",
+                "DR103-2",
+                "DR105-1",
+                "DR105-2",
+                "DR114-1",
+                "DR114-2",
+                "DR120-1",
+                "DR120-2",
+                "DR125-1",
+                "DR125-2",
+                "DR135-1",
+                "DR135-2",
+                "DR140-1",
+                "DR140-2",
+                "DR145-1",
+                "DR145-2",
+                "DR153-1",
+                "DR153-2",
+                "DR155-1",
+                "DR155-2"
+            ]
+        }
+    }
+}

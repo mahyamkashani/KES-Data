@@ -1,0 +1,297 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "SO190-2 hasTask OBH_01"
+            ],
+            "Individuals": [
+                "SO190-2",
+                "OBH_01"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "SO190/020-1 hasTask SO190/020-1",
+                "SO190/020-1 goes_through SO190/020-1"
+            ],
+            "Individuals": [
+                "SO190/020-1"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "SO190/021-1 hasTask SO190/021-1",
+                "SO190/021-1 goes_through SO190/021-1"
+            ],
+            "Individuals": [
+                "SO190/021-1"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "SO190/022-1 hasTask SO190/022-1",
+                "SO190/022-1 goes_through SO190/022-1"
+            ],
+            "Individuals": [
+                "SO190/022-1"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "SO190/023-1 hasTask SO190/023-1",
+                "SO190/023-1 goes_through SO190/023-1"
+            ],
+            "Individuals": [
+                "SO190/023-1"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "SO190/024-1 hasTask SO190/024-1",
+                "SO190/024-1 goes_through SO190/024-1"
+            ],
+            "Individuals": [
+                "SO190/024-1"
+            ]
+        },
+        "pattern07": {
+            "Axioms": [
+                "SO190/025-1 hasTask SO190/025-1",
+                "SO190/025-1 goes_through SO190/025-1"
+            ],
+            "Individuals": [
+                "SO190/025-1"
+            ]
+        },
+        "pattern08": {
+            "Axioms": [
+                "SO190/026-1 hasTask SO190/026-1",
+                "SO190/026-1 goes_through SO190/026-1"
+            ],
+            "Individuals": [
+                "SO190/026-1"
+            ]
+        },
+        "pattern09": {
+            "Axioms": [
+                "SO190/027-1 hasTask SO190/027-1",
+                "SO190/027-1 goes_through SO190/027-1"
+            ],
+            "Individuals": [
+                "SO190/027-1"
+            ]
+        },
+        "pattern10": {
+            "Axioms": [
+                "SO190/028-1 hasTask SO190/028-1",
+                "SO190/028-1 goes_through SO190/028-1"
+            ],
+            "Individuals": [
+                "SO190/028-1"
+            ]
+        },
+        "pattern11": {
+            "Axioms": [
+                "SO190/029-1 hasTask SO190/029-1",
+                "SO190/029-1 goes_through SO190/029-1"
+            ],
+            "Individuals": [
+                "SO190/029-1"
+            ]
+        },
+        "pattern12": {
+            "Axioms": [
+                "SO190/030-1 hasTask SO190/030-1",
+                "SO190/030-1 goes_through SO190/030-1"
+            ],
+            "Individuals": [
+                "SO190/030-1"
+            ]
+        },
+        "pattern13": {
+            "Axioms": [
+                "SO190/031-1 hasTask SO190/031-1",
+                "SO190/031-1 goes_through SO190/031-1"
+            ],
+            "Individuals": [
+                "SO190/031-1"
+            ]
+        },
+        "pattern14": {
+            "Axioms": [
+                "SO190/032-1 hasTask SO190/032-1",
+                "SO190/032-1 goes_through SO190/032-1"
+            ],
+            "Individuals": [
+                "SO190/032-1"
+            ]
+        },
+        "pattern15": {
+            "Axioms": [
+                "SO190/033-1 hasTask SO190/033-1",
+                "SO190/033-1 goes_through SO190/033-1"
+            ],
+            "Individuals": [
+                "SO190/033-1"
+            ]
+        },
+        "pattern16": {
+            "Axioms": [
+                "SO190/034-1 hasTask SO190/034-1",
+                "SO190/034-1 goes_through SO190/034-1"
+            ],
+            "Individuals": [
+                "SO190/034-1"
+            ]
+        },
+        "pattern17": {
+            "Axioms": [
+                "SO190/035-1 hasTask SO190/035-1",
+                "SO190/035-1 goes_through SO190/035-1"
+            ],
+            "Individuals": [
+                "SO190/035-1"
+            ]
+        },
+        "pattern18": {
+            "Axioms": [
+                "SO190/036-1 hasTask SO190/036-1",
+                "SO190/036-1 goes_through SO190/036-1"
+            ],
+            "Individuals": [
+                "SO190/036-1"
+            ]
+        },
+        "pattern19": {
+            "Axioms": [
+                "SO190/037-1 hasTask SO190/037-1",
+                "SO190/037-1 goes_through SO190/037-1"
+            ],
+            "Individuals": [
+                "SO190/037-1"
+            ]
+        },
+        "pattern20": {
+            "Axioms": [
+                "SO190/038-1 hasTask SO190/038-1",
+                "SO190/038-1 goes_through SO190/038-1"
+            ],
+            "Individuals": [
+                "SO190/038-1"
+            ]
+        },
+        "pattern21": {
+            "Axioms": [
+                "SO190/039-1 hasTask SO190/039-1",
+                "SO190/039-1 goes_through SO190/039-1"
+            ],
+            "Individuals": [
+                "SO190/039-1"
+            ]
+        },
+        "pattern22": {
+            "Axioms": [
+                "SO190/040-1 hasTask SO190/040-1",
+                "SO190/040-1 goes_through SO190/040-1"
+            ],
+            "Individuals": [
+                "SO190/040-1"
+            ]
+        },
+        "pattern23": {
+            "Axioms": [
+                "SO190/041-1 hasTask SO190/041-1",
+                "SO190/041-1 goes_through SO190/041-1"
+            ],
+            "Individuals": [
+                "SO190/041-1"
+            ]
+        },
+        "pattern24": {
+            "Axioms": [
+                "SO190/042-1 hasTask SO190/042-1",
+                "SO190/042-1 goes_through SO190/042-1"
+            ],
+            "Individuals": [
+                "SO190/042-1"
+            ]
+        },
+        "pattern25": {
+            "Axioms": [
+                "SO190/043-1 hasTask SO190/043-1",
+                "SO190/043-1 goes_through SO190/043-1"
+            ],
+            "Individuals": [
+                "SO190/043-1"
+            ]
+        },
+        "pattern26": {
+            "Axioms": [
+                "SO190/044-1 hasTask SO190/044-1",
+                "SO190/044-1 goes_through SO190/044-1"
+            ],
+            "Individuals": [
+                "SO190/044-1"
+            ]
+        },
+        "pattern27": {
+            "Axioms": [
+                "SO190/045-1 hasTask SO190/045-1",
+                "SO190/045-1 goes_through SO190/045-1"
+            ],
+            "Individuals": [
+                "SO190/045-1"
+            ]
+        },
+        "pattern28": {
+            "Axioms": [
+                "SO190/046-1 hasTask SO190/046-1",
+                "SO190/046-1 goes_through SO190/046-1"
+            ],
+            "Individuals": [
+                "SO190/046-1"
+            ]
+        },
+        "pattern29": {
+            "Axioms": [
+                "SO190/047-1 hasTask SO190/047-1",
+                "SO190/047-1 goes_through SO190/047-1"
+            ],
+            "Individuals": [
+                "SO190/047-1"
+            ]
+        },
+        "pattern30": {
+            "Axioms": [
+                "SO190/048-1 hasTask SO190/048-1",
+                "SO190/048-1 goes_through SO190/048-1"
+            ],
+            "Individuals": [
+                "SO190/048-1"
+            ]
+        },
+        "pattern31": {
+            "Axioms": [
+                "SO190/049-1 hasTask SO190/049-1",
+                "SO190/049-1 goes_through SO190/049-1"
+            ],
+            "Individuals": [
+                "SO190/049-1"
+            ]
+        },
+        "pattern32": {
+            "Axioms": [
+                "MAGN hasAction Magnetometer",
+                "EM hasAction Vermessung"
+            ],
+            "Individuals": [
+                "SO190_050-1",
+                "SO190_052-1",
+                "SO190_053-1",
+                "MAGN",
+                "SO190_054-1",
+                "EM"
+            ]
+        }
+    }
+}

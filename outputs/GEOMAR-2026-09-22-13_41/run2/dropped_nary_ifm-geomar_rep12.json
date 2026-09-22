@@ -1,0 +1,7 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "MSM04-2 hasTask Task_01",
+        "reason": "'MSM04-2 hasTask Task_01': 'Task_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

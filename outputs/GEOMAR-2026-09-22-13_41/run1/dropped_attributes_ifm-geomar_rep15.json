@@ -1,0 +1,74 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Giza_MV_Station_01": {
+                "class": "Station"
+            }
+        },
+        "reason": "Giza_MV_Station_01: 'Giza_MV_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Giza_MV_Station_02": {
+                "class": "Station"
+            }
+        },
+        "reason": "Giza_MV_Station_02: 'Giza_MV_Station_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Giza_MV_Station_03": {
+                "class": "Station"
+            }
+        },
+        "reason": "Giza_MV_Station_03: 'Giza_MV_Station_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Giza_MV_Station_04": {
+                "class": "Station"
+            }
+        },
+        "reason": "Giza_MV_Station_04: 'Giza_MV_Station_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "North_Alex_MV_Station_01": {
+                "class": "Station"
+            }
+        },
+        "reason": "North_Alex_MV_Station_01: 'North_Alex_MV_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "North_Alex_MV_Station_02": {
+                "class": "Station"
+            }
+        },
+        "reason": "North_Alex_MV_Station_02: 'North_Alex_MV_Station_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "North_Alex_MV_Station_03": {
+                "class": "Station"
+            }
+        },
+        "reason": "North_Alex_MV_Station_03: 'North_Alex_MV_Station_03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "North_Alex_MV_Station_04": {
+                "class": "Station"
+            }
+        },
+        "reason": "North_Alex_MV_Station_04: 'North_Alex_MV_Station_04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

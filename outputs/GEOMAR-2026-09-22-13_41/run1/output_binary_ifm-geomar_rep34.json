@@ -1,0 +1,104 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 921RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 921RD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 922RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 922RD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 924MB"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 924MB"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 928DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 928DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 929DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 929DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 930MB"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 930MB"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 931RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 931RD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 941DR"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 941DR"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 950RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 950RD"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rockdrill 2",
+                "Station 957RD"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mission hasTask Station 957RD"
+        }
+    ]
+}

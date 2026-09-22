@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "WND_V goes_through North_Alex",
+                "WND_V goes_through Giza"
+            ],
+            "Individuals": [
+                "WND_V",
+                "North_Alex",
+                "Giza"
+            ]
+        }
+    }
+}

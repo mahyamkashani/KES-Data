@@ -1,0 +1,58 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA09ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA09ROV"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA13ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA13ROV"
+            ]
+        },
+        "pattern03": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA15ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA15ROV"
+            ]
+        },
+        "pattern04": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA17ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA17ROV"
+            ]
+        },
+        "pattern05": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA21ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA21ROV"
+            ]
+        },
+        "pattern06": {
+            "Axioms": [
+                "HYDROMAR_V hasTask ATA30ROV"
+            ],
+            "Individuals": [
+                "HYDROMAR_V",
+                "ATA30ROV"
+            ]
+        }
+    }
+}

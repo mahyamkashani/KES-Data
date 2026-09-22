@@ -1,0 +1,23 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P348 hasTask SOPRAN",
+                "P348 goes_through CVTSS"
+            ],
+            "Individuals": [
+                "P348",
+                "SOPRAN",
+                "CVTSS",
+                "TestStation",
+                "Waypoint_226",
+                "Waypoint_227",
+                "Waypoint_228",
+                "Waypoint_236",
+                "Waypoint_237",
+                "Waypoint_238",
+                "Waypoint_249"
+            ]
+        }
+    }
+}

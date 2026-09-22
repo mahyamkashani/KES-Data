@@ -1,0 +1,367 @@
+{
+    "Individuals": {
+        "Cruise_SO_206": {
+            "class": "Mission",
+            "MissionID": "SO 206",
+            "startTime": "2010-05-31",
+            "endTime": "2010-06-17",
+            "maxDepth": "2017 m",
+            "dataVolume": "36 sediment cores",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Geophysical, biogeochemical, and sedimentological investigations at cold seeps"
+        },
+        "SO206-01": {
+            "class": "Station",
+            "stationID": "SO206-01",
+            "stationDate": "2010-06-02",
+            "stationTime": "00:18"
+        },
+        "SO206-02-101": {
+            "class": "Station",
+            "stationID": "SO206-02-101",
+            "stationDate": "2010-06-02",
+            "stationTime": "05:58"
+        },
+        "SO206-02-102": {
+            "class": "Station",
+            "stationID": "SO206-02-102",
+            "stationDate": "2010-06-02",
+            "stationTime": "06:32"
+        },
+        "SO206-02-103": {
+            "class": "Station",
+            "stationID": "SO206-02-103",
+            "stationDate": "2010-06-02",
+            "stationTime": "06:54"
+        },
+        "SO206-02-104": {
+            "class": "Station",
+            "stationID": "SO206-02-104",
+            "stationDate": "2010-06-02",
+            "stationTime": "07:18"
+        },
+        "SO206-02-105": {
+            "class": "Station",
+            "stationID": "SO206-02-105",
+            "stationDate": "2010-06-02",
+            "stationTime": "07:40"
+        },
+        "SO206-03": {
+            "class": "Station",
+            "stationID": "SO206-03",
+            "stationDate": "2010-06-03",
+            "stationTime": "09:04"
+        },
+        "SO206-04": {
+            "class": "Station",
+            "stationID": "SO206-04",
+            "stationDate": "2010-06-03",
+            "stationTime": "19:38"
+        },
+        "SO206-05": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1909
+        },
+        "SO206-06": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1896
+        },
+        "SO206-07": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-08": {
+            "class": "Station",
+            "stationID": "SO206-08",
+            "stationDate": "2010-06-05",
+            "stationTime": "09:05"
+        },
+        "SO206-09-106": {
+            "class": "Station",
+            "stationID": "SO206-09-106",
+            "stationDate": "2010-06-05",
+            "stationTime": "10:52"
+        },
+        "SO206-10": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-11": {
+            "class": "Task",
+            "hasDuration": 6.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-12": {
+            "class": "Task",
+            "hasDuration": 3.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-13": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1905
+        },
+        "SO206-14": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1895
+        },
+        "SO206-15": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 766
+        },
+        "SO206-16": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 623
+        },
+        "SO206-17": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 525
+        },
+        "SO206-18": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 673
+        },
+        "SO206-19": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-20": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-21": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2017
+        },
+        "SO206-22": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 2011
+        },
+        "SO206-23": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 518
+        },
+        "SO206-24": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 671
+        },
+        "SO206-25": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-26": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-27": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-28": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-29": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-30": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-31": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-32": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 398
+        },
+        "SO206-34": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-35": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-36": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1006
+        },
+        "SO206-37": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1013
+        },
+        "SO206-38": {
+            "class": "State",
+            "has_Temperature": null,
+            "has_Conductivity": null,
+            "has_Depth": 1020
+        },
+        "SO206-39": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-40": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-41": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-42-306": {
+            "class": "Station",
+            "stationID": "SO206-42-306",
+            "stationDate": "2010-06-11",
+            "stationTime": "04:48"
+        },
+        "SO206-43": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-44": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-45": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-46": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-47": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-48": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-49": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-50": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-51": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-52": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-53": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-54": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-55": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-56": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "Mound_11": {
+            "class": "Waypoint",
+            "locationName": "Mound 11",
+            "latitude": "8.92233",
+            "longitude": "-84.30367",
+            "seabedDepth": "1003 m"
+        },
+        "Mound_12": {
+            "class": "Waypoint",
+            "locationName": "Mound 12",
+            "latitude": "8.92867",
+            "longitude": "-84.31367",
+            "seabedDepth": "1007 m"
+        },
+        "Mound_Cocori": {
+            "class": "Waypoint",
+            "locationName": "Mound Cocori",
+            "latitude": "9.00333",
+            "longitude": "-84.76500",
+            "seabedDepth": "2017 m"
+        },
+        "SO206-33": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        },
+        "SO206-42": {
+            "class": "Task",
+            "hasDuration": 1.0,
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

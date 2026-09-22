@@ -1,0 +1,94 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "SO186",
+                "Profile So186-3-01"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO186 hasTask Profile So186-3-01"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186",
+                "Profile So186-3-02/05"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO186 hasTask Profile So186-3-02/05"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO186",
+                "Profile So186-3-06/19"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "SO186 hasTask Profile So186-3-06/19"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-01",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-01 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-01",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-01 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-02/05",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-02/05 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-02/05",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-02/05 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-06/19",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-06/19 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "Profile So186-3-06/19",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "Profile So186-3-06/19 hasAction Act_TakePhoto"
+        }
+    ]
+}

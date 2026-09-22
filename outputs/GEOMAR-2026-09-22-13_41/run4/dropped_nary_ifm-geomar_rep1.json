@@ -1,0 +1,107 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO176 hasTask Task_1",
+        "reason": "'SO176 hasTask Task_1': 'SO176', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_1 hasVehicle RV_SONNE",
+        "reason": "'Action_1 hasVehicle RV_SONNE': 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "SO179 hasTask Task_2",
+        "reason": "'SO179 hasTask Task_2': 'Task_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_2 hasAction Action_2",
+        "reason": "'Task_2 hasAction Action_2': 'Task_2', 'Action_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Action_2 hasVehicle RV_SONNE",
+        "reason": "'Action_2 hasVehicle RV_SONNE': 'Action_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Mission_hasTask_Task_S0176",
+        "reason": "'Mission_hasTask_Task_S0176': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task_hasAction_Action_S0176",
+        "reason": "'Task_hasAction_Action_S0176': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasVehicle_Vehicle_RV_SONNE",
+        "reason": "'Traversal_hasVehicle_Vehicle_RV_SONNE': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasDestination_Waypoint_WP_S0176",
+        "reason": "'Traversal_hasDestination_Waypoint_WP_S0176': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_goes_through_Waypoint_WP_S0176",
+        "reason": "'Traversal_goes_through_Waypoint_WP_S0176': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Mission_hasTask_Task_S0179",
+        "reason": "'Mission_hasTask_Task_S0179': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Task_hasAction_Action_S0179",
+        "reason": "'Task_hasAction_Action_S0179': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasVehicle_Vehicle_RV_SONNE",
+        "reason": "'Traversal_hasVehicle_Vehicle_RV_SONNE': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_hasDestination_Waypoint_WP_S0179",
+        "reason": "'Traversal_hasDestination_Waypoint_WP_S0179': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Traversal_goes_through_Waypoint_WP_S0179",
+        "reason": "'Traversal_goes_through_Waypoint_WP_S0179': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "S0179 hasTask S0179_Task",
+        "reason": "'S0179 hasTask S0179_Task': 'S0179_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "S0179_Task goes_through OBH_72",
+        "reason": "'S0179_Task goes_through OBH_72': 'S0179_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "S0179_Task goes_through OBH_73",
+        "reason": "'S0179_Task goes_through OBH_73': 'S0179_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "S0179_Task goes_through OBH_74",
+        "reason": "'S0179_Task goes_through OBH_74': 'S0179_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "S0179_Task goes_through OBH_75",
+        "reason": "'S0179_Task goes_through OBH_75': 'S0179_Task' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

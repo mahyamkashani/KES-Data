@@ -1,0 +1,87 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "Leg_1 hasAction GeophysicalInvestigation",
+        "reason": "'Leg_1 hasAction GeophysicalInvestigation': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation hasVehicle RV_SONNE",
+        "reason": "'GeophysicalInvestigation hasVehicle RV_SONNE': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation hasDestination Omakere",
+        "reason": "'GeophysicalInvestigation hasDestination Omakere': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through Moa",
+        "reason": "'GeophysicalInvestigation goes_through Moa': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through Kakapo",
+        "reason": "'GeophysicalInvestigation goes_through Kakapo': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through Kaka",
+        "reason": "'GeophysicalInvestigation goes_through Kaka': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through Kea",
+        "reason": "'GeophysicalInvestigation goes_through Kea': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through BearsPaw",
+        "reason": "'GeophysicalInvestigation goes_through BearsPaw': 'GeophysicalInvestigation', 'BearsPaw' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeophysicalInvestigation goes_through Takahe",
+        "reason": "'GeophysicalInvestigation goes_through Takahe': 'GeophysicalInvestigation' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Leg_2 hasAction GeochemicalAnalysis",
+        "reason": "'Leg_2 hasAction GeochemicalAnalysis': 'GeochemicalAnalysis' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeochemicalAnalysis hasVehicle RV_SONNE",
+        "reason": "'GeochemicalAnalysis hasVehicle RV_SONNE': 'GeochemicalAnalysis' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeochemicalAnalysis hasDestination OpouaweBank",
+        "reason": "'GeochemicalAnalysis hasDestination OpouaweBank': 'GeochemicalAnalysis', 'OpouaweBank' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeochemicalAnalysis goes_through NorthTower",
+        "reason": "'GeochemicalAnalysis goes_through NorthTower': 'GeochemicalAnalysis', 'NorthTower' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeochemicalAnalysis goes_through SouthTower",
+        "reason": "'GeochemicalAnalysis goes_through SouthTower': 'GeochemicalAnalysis', 'SouthTower' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GeochemicalAnalysis goes_through Takahe",
+        "reason": "'GeochemicalAnalysis goes_through Takahe': 'GeochemicalAnalysis' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "CSEM-SO214-1 hasVehicle RV_SONNE",
+        "reason": "'CSEM-SO214-1 hasVehicle RV_SONNE': 'CSEM-SO214-1' and 'RV_SONNE' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "CSEM-SO214-2 hasVehicle RV_SONNE",
+        "reason": "'CSEM-SO214-2 hasVehicle RV_SONNE': 'CSEM-SO214-2' and 'RV_SONNE' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

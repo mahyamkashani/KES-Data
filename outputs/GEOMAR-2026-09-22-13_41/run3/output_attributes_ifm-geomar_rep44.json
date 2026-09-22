@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "ROV-1": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-2": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-6": {
+            "class": "Task",
+            "hasDuration": "5.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-8": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-9": {
+            "class": "Task",
+            "hasDuration": "6.0",
+            "hasStatus": "SUCCESSFUL"
+        },
+        "ROV-10": {
+            "class": "Task",
+            "hasStatus": "SUCCESSFUL"
+        }
+    }
+}

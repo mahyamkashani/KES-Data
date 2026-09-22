@@ -1,0 +1,124 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "ELAC multi-beam system"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "R.V. Poseidon hasSensor ELAC multi-beam system"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rocket Seamount",
+                "DR1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rocket Seamount hasTask DR1"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rocket Seamount",
+                "DR2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rocket Seamount hasTask DR2"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rocket Seamount",
+                "DR3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rocket Seamount hasTask DR3"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rocket Seamount",
+                "DR4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rocket Seamount hasTask DR4"
+        },
+        {
+            "INDIVIDUAL": [
+                "Rocket Seamount",
+                "DR5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Rocket Seamount hasTask DR5"
+        },
+        {
+            "INDIVIDUAL": [
+                "Vayda Seamount",
+                "DR10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Vayda Seamount hasTask DR10"
+        },
+        {
+            "INDIVIDUAL": [
+                "Vayda Seamount",
+                "DR11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Vayda Seamount hasTask DR11"
+        },
+        {
+            "INDIVIDUAL": [
+                "Vayda Seamount",
+                "DR12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Vayda Seamount hasTask DR12"
+        },
+        {
+            "INDIVIDUAL": [
+                "The Shire Seamount",
+                "DR13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "The Shire Seamount hasTask DR13"
+        },
+        {
+            "INDIVIDUAL": [
+                "The Shire Seamount",
+                "DR14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "The Shire Seamount hasTask DR14"
+        },
+        {
+            "INDIVIDUAL": [
+                "Mount Doom",
+                "DR21"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "Mount Doom hasTask DR21"
+        }
+    ]
+}

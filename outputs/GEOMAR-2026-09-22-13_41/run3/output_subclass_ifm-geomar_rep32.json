@@ -1,0 +1,26 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO201 Leg 1b",
+                "hasDuration": "27 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": []
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "P350 hasTask obh03",
+                "P350 hasTask vsp01",
+                "P350 hasTask eq01",
+                "P350 hasTask eq07"
+            ],
+            "Individuals": [
+                "P350",
+                "obh03",
+                "vsp01",
+                "vsp02",
+                "vsp03",
+                "vsp04",
+                "eq01",
+                "eq02",
+                "eq03",
+                "eq04",
+                "eq05",
+                "eq06",
+                "eq07"
+            ]
+        }
+    }
+}

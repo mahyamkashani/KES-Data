@@ -1,0 +1,142 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "P362-2 hasTask GizaMV",
+        "reason": "'P362-2 hasTask GizaMV': 'GizaMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GizaMV hasAction GravityCorer",
+        "reason": "'GizaMV hasAction GravityCorer': 'GizaMV', 'GravityCorer' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer hasVehicle RVPoseidon",
+        "reason": "'GravityCorer hasVehicle RVPoseidon': 'GravityCorer', 'RVPoseidon' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer hasDestination GizaCenter",
+        "reason": "'GravityCorer hasDestination GizaCenter': 'GravityCorer', 'GizaCenter' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through GizaNW",
+        "reason": "'GravityCorer goes_through GizaNW': 'GravityCorer', 'GizaNW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through GizaReference",
+        "reason": "'GravityCorer goes_through GizaReference': 'GravityCorer', 'GizaReference' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through GizaSW",
+        "reason": "'GravityCorer goes_through GizaSW': 'GravityCorer', 'GizaSW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through GizaNE",
+        "reason": "'GravityCorer goes_through GizaNE': 'GravityCorer', 'GizaNE' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P362-2 hasTask NorthAlexMV",
+        "reason": "'P362-2 hasTask NorthAlexMV': 'NorthAlexMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "NorthAlexMV hasAction GravityCorer",
+        "reason": "'NorthAlexMV hasAction GravityCorer': 'NorthAlexMV', 'GravityCorer' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer hasVehicle RVPoseidon",
+        "reason": "'GravityCorer hasVehicle RVPoseidon': 'GravityCorer', 'RVPoseidon' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer hasDestination NorthAlexCenter",
+        "reason": "'GravityCorer hasDestination NorthAlexCenter': 'GravityCorer', 'NorthAlexCenter' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through NorthAlexNW",
+        "reason": "'GravityCorer goes_through NorthAlexNW': 'GravityCorer', 'NorthAlexNW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GravityCorer goes_through NorthAlexSE",
+        "reason": "'GravityCorer goes_through NorthAlexSE': 'GravityCorer', 'NorthAlexSE' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P362-2 hasTask GizaMV",
+        "reason": "'P362-2 hasTask GizaMV': 'GizaMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "GizaMV hasAction Multicorer",
+        "reason": "'GizaMV hasAction Multicorer': 'GizaMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer hasVehicle RVPoseidon",
+        "reason": "'Multicorer hasVehicle RVPoseidon': 'RVPoseidon' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer hasDestination GizaCenter",
+        "reason": "'Multicorer hasDestination GizaCenter': 'GizaCenter' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through GizaNW",
+        "reason": "'Multicorer goes_through GizaNW': 'GizaNW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through GizaReference",
+        "reason": "'Multicorer goes_through GizaReference': 'GizaReference' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through GizaSW",
+        "reason": "'Multicorer goes_through GizaSW': 'GizaSW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through GizaNE",
+        "reason": "'Multicorer goes_through GizaNE': 'GizaNE' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P362-2 hasTask NorthAlexMV",
+        "reason": "'P362-2 hasTask NorthAlexMV': 'NorthAlexMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "NorthAlexMV hasAction Multicorer",
+        "reason": "'NorthAlexMV hasAction Multicorer': 'NorthAlexMV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer hasVehicle RVPoseidon",
+        "reason": "'Multicorer hasVehicle RVPoseidon': 'RVPoseidon' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer hasDestination NorthAlexCenter",
+        "reason": "'Multicorer hasDestination NorthAlexCenter': 'NorthAlexCenter' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through NorthAlexNW",
+        "reason": "'Multicorer goes_through NorthAlexNW': 'NorthAlexNW' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Multicorer goes_through NorthAlexSE",
+        "reason": "'Multicorer goes_through NorthAlexSE': 'NorthAlexSE' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

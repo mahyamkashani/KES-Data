@@ -1,0 +1,676 @@
+{
+    "Individuals": {
+        "MSM94": {
+            "MissionID": "MSM94",
+            "startTime": "2020-08-02",
+            "endTime": "2020-09-06",
+            "maxDepth": "3604",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "Conducted during COVID-19 pandemic with modifications",
+            "class": "Mission"
+        },
+        "KPO_1187": {
+            "locationName": "KPO 1187",
+            "latitude": "53.03867",
+            "longitude": "-51.07382",
+            "seabedDepth": 2567,
+            "class": "Waypoint"
+        },
+        "KPO_1188": {
+            "locationName": "KPO 1188",
+            "latitude": "53.12897",
+            "longitude": "-50.86530",
+            "seabedDepth": 2877,
+            "class": "Waypoint"
+        },
+        "KPO_1189": {
+            "locationName": "KPO 1189",
+            "latitude": "53.24890",
+            "longitude": "-50.54918",
+            "seabedDepth": 3151,
+            "class": "Waypoint"
+        },
+        "KPO_1186": {
+            "locationName": "KPO 1186",
+            "latitude": "52.95123",
+            "longitude": "-51.29758",
+            "seabedDepth": 3513,
+            "class": "Waypoint"
+        },
+        "KPO_1190": {
+            "locationName": "KPO 1190",
+            "latitude": "53.38275",
+            "longitude": "-50.24060",
+            "seabedDepth": 3385,
+            "class": "Waypoint"
+        },
+        "KPO_1191": {
+            "locationName": "KPO 1191",
+            "latitude": "53.58703",
+            "longitude": "-49.77237",
+            "seabedDepth": 3602,
+            "class": "Waypoint"
+        },
+        "KPO_1192": {
+            "locationName": "KPO 1192",
+            "latitude": "59.00515",
+            "longitude": "-47.57902",
+            "seabedDepth": 3112,
+            "class": "Waypoint"
+        },
+        "KPO_1193": {
+            "locationName": "KPO 1193",
+            "latitude": "59.20687",
+            "longitude": "-47.08705",
+            "seabedDepth": 2942,
+            "class": "Waypoint"
+        },
+        "KPO_1194": {
+            "locationName": "KPO 1194",
+            "latitude": "56.56090",
+            "longitude": "-52.67075",
+            "seabedDepth": 3495,
+            "class": "Waypoint"
+        },
+        "KPO_1206": {
+            "stationID": "KPO_1206",
+            "stationDate": "2020-08-26",
+            "stationTime": "14:18",
+            "class": "Station"
+        },
+        "KPO_1222": {
+            "locationName": "KPO 1222",
+            "latitude": "53.04807",
+            "longitude": "-51.08128",
+            "seabedDepth": 2605,
+            "class": "Waypoint"
+        },
+        "KPO_1223": {
+            "locationName": "KPO 1223",
+            "latitude": "53.13398",
+            "longitude": "-50.86692",
+            "seabedDepth": 2896,
+            "class": "Waypoint"
+        },
+        "KPO_1224": {
+            "stationID": "KPO_1224",
+            "stationDate": "2020-08-17",
+            "stationTime": "19:41-20:31",
+            "class": "Station"
+        },
+        "KPO_1225": {
+            "stationID": "KPO_1225",
+            "stationDate": "2020-08-19",
+            "stationTime": "11:56",
+            "class": "Station"
+        },
+        "KPO_1226": {
+            "stationID": "KPO_1226",
+            "stationDate": "2020-08-16",
+            "stationTime": "15:59-18:45",
+            "class": "Station"
+        },
+        "KPO_1227": {
+            "stationID": "KPO_1227",
+            "stationDate": "2020-08-26",
+            "stationTime": "13:11-13:58",
+            "class": "Station"
+        },
+        "KPO_1228": {
+            "stationID": "KPO_1228",
+            "stationDate": "2020-08-25",
+            "stationTime": "21:22-22:09",
+            "class": "Station"
+        },
+        "KPO_1229": {
+            "stationID": "KPO_1229",
+            "stationDate": "2020-08-21",
+            "stationTime": "18:09-22:53",
+            "class": "Station"
+        },
+        "KPO_1230": {
+            "stationID": "KPO_1230",
+            "stationDate": "2020-08-26",
+            "stationTime": "11:03",
+            "class": "Station"
+        },
+        "KPO_1210": {
+            "locationName": "KPO 1210",
+            "latitude": "60.37875",
+            "longitude": "-48.46452",
+            "seabedDepth": 628,
+            "class": "Waypoint"
+        },
+        "MSM94_1-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_2-1": {
+            "class": "Task"
+        },
+        "MSM94_3-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_4-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_5-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_6-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_7-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_8-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_9-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_10-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_11-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_12-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_13-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_14-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_15-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_16-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_17-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_18-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_19-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_20-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_21-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_22-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_23-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_24-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_25-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_26-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_27-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_28-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_29-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_30-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_31-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_32-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_33-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_34-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_35-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_36-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_37-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_38-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_39-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_40-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_41-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_42-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_43-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_44-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_45-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_46-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_47-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_48-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_49-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_50-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_51-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_52-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_53-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_55-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_56-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_57-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_58-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_59-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_60-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_61-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_62-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_63-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_64-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_65-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_66-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_67-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_68-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_69-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_70-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_71-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_72-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_73-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_74-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_75-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_76-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_77-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_78-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_79-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_80-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_81-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_82-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_83-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_84-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_85-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_86-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_87-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_88-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_89-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_90-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_91-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_92-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_96-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_97-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_98-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_99-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_100-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_101-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_102-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_103-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_104-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_105-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_106-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_107-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_108-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_109-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_110-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_111-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_112-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_113-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_114-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_115-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_116-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_117-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_118-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_119-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_120-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_121-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_122-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_123-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_124-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_125-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_126-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_127-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_128-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_129-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_130-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_131-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_132-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_133-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_134-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_135-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_136-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        },
+        "MSM94_137-1": {
+            "hasStatus": "SUCCESSFUL",
+            "class": "Task"
+        }
+    }
+}

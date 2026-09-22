@@ -1,0 +1,42 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask vsp02",
+        "reason": "'P350 hasTask vsp02': 'vsp02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask vsp03",
+        "reason": "'P350 hasTask vsp03': 'vsp03' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask vsp04",
+        "reason": "'P350 hasTask vsp04': 'vsp04' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask eq02",
+        "reason": "'P350 hasTask eq02': 'P350' and 'eq02' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask eq03",
+        "reason": "'P350 hasTask eq03': 'P350' and 'eq03' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask eq04",
+        "reason": "'P350 hasTask eq04': 'P350' and 'eq04' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask eq05",
+        "reason": "'P350 hasTask eq05': 'P350' and 'eq05' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "P350 hasTask eq06",
+        "reason": "'P350 hasTask eq06': 'P350' and 'eq06' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

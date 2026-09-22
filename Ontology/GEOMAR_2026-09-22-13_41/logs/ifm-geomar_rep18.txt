@@ -1,0 +1,40 @@
+
+the reasoner reports the populated ontology is consistent
+individuals before: 15  after: 26
+
+created 11 individuals:
+  + R_V_Poseidon : Vehicle
+  + Acoustic_Doppler_current_profiler : ADCP
+  + CTD : CTDSensor
+  + Stat_226 : CTDMission
+  + Stat_227 : CTDMission
+  + Stat_228 : CTDMission
+  + Stat_236 : CTDMission
+  + Stat_249 : CTDMission
+  + Poseidon_Cruise_348 : Station
+  + Test_Station : Station
+  + CVTSS : Station
+
+asserted 16 axioms:
+  + R_V_Poseidon hasSensor Acoustic_Doppler_current_profiler
+  + R_V_Poseidon hasSensor CTD
+  + Stat_226 hasStatus SUCCESSFUL
+  + Stat_227 hasStatus SUCCESSFUL
+  + Stat_228 hasStatus SUCCESSFUL
+  + Stat_236 hasStatus SUCCESSFUL
+  + Stat_249 hasStatus SUCCESSFUL
+  + Poseidon_Cruise_348 stationID 348
+  + Poseidon_Cruise_348 stationDate 2007-02-08/2007-02-26
+  + Poseidon_Cruise_348 stationTime 08:00-18:00
+  + Test_Station stationID 226
+  + Test_Station stationDate 2007-02-12
+  + Test_Station stationTime 08:30
+  + CVTSS stationID 227
+  + CVTSS stationDate 2007-02-13
+  + CVTSS stationTime 14:47
+
+skipped 2 excluded axioms:
+  - P348 hasTask SOPRAN   [hasTask has no single named domain/range to type from]
+  - P348 goes_through CVTSS   [goes_through has no single named domain/range to type from]
+
+written to /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/Ontology/GEOMAR_2026-09-22-13_41/marine_survey_populated_ifm-geomar_rep18.rdf

@@ -1,0 +1,11 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "Data_Sampling_Mission": {
+                "individual_name": "14-AUV"
+            }
+        },
+        "reason": "14-AUV: '14-AUV' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

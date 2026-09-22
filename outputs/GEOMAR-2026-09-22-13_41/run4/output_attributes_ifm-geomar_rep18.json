@@ -1,0 +1,32 @@
+{
+    "Individuals": {
+        "P348": {
+            "class": "Mission",
+            "MissionID": "P348",
+            "startTime": "2007-02-08",
+            "endTime": "2007-02-26",
+            "maxDepth": "3600",
+            "dataVolume": "36 pages",
+            "hasStatus": "SUCCESSFUL",
+            "remark": "SOPRAN: Mauritanian Upwelling Study 2007"
+        },
+        "Poseidon_Cruise_348": {
+            "class": "Station",
+            "stationID": "348",
+            "stationDate": "2007-02-08/2007-02-26",
+            "stationTime": "08:00-18:00"
+        },
+        "Test_Station": {
+            "class": "Station",
+            "stationID": "226",
+            "stationDate": "2007-02-12",
+            "stationTime": "08:30"
+        },
+        "CVTSS": {
+            "class": "Station",
+            "stationID": "227",
+            "stationDate": "2007-02-13",
+            "stationTime": "14:47"
+        }
+    }
+}

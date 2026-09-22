@@ -1,0 +1,30 @@
+[
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Parasound P70",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "Echosounder",
+            "AXIOM": "RV SONNE hasSensor Parasound P70"
+        },
+        "reason": "RV SONNE hasSensor Parasound P70: 'Parasound P70' and 'RV SONNE' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    },
+    {
+        "where": "binary",
+        "item": {
+            "INDIVIDUAL": [
+                "Kongsberg EM120 Multibeam Bathymetry System",
+                "RV SONNE"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV SONNE hasSensor Kongsberg EM120 Multibeam Bathymetry System"
+        },
+        "reason": "RV SONNE hasSensor Kongsberg EM120 Multibeam Bathymetry System: 'Kongsberg EM120 Multibeam Bathymetry System' and 'RV SONNE' both occur in the document but never on the same page, so the report does not state this relation - pair each name with the one the report actually puts beside it, or drop the axiom"
+    }
+]

@@ -1,0 +1,55 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "SO190 Leg 2",
+                "hasDuration": "Continuous during cruise",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "SO190-2",
+                "hasDuration": "One month from 17th Nov- 17th Dec",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Bathymetric data and seismic signals"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV SONNE",
+                "maxDepth": "6000 m"
+            }
+        ],
+        "Station": [
+            {
+                "individual_name": "OBH 154",
+                "stationID": "OBH 154",
+                "stationName": "Station 154",
+                "stationDate": "2006-12-07",
+                "stationTime": "09.12.06"
+            },
+            {
+                "individual_name": "OBH 155",
+                "stationID": "OBH 155",
+                "stationName": "Station 155",
+                "stationDate": "2006-12-07",
+                "stationTime": "09.12.06"
+            },
+            {
+                "individual_name": "OBH 156",
+                "stationID": "OBH 156",
+                "stationName": "Station 156",
+                "stationDate": "2006-12-07",
+                "stationTime": "09.12.06"
+            }
+        ]
+    }
+}

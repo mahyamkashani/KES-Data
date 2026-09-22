@@ -1,0 +1,48 @@
+{
+    "Task": {
+        "SurveyMission": [
+            {
+                "individual_name": "S0179",
+                "hasDuration": "18. September - 20. September",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "S0179",
+                "hasDuration": "18. September - 20. September",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "CTDMission": [
+            {
+                "individual_name": "S0179",
+                "hasDuration": "18. September - 20. September",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "S0179",
+                "hasDuration": "18. September - 20. September",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "CTD data"
+            }
+        ],
+        "TrialMission": [],
+        "Traversal": []
+    },
+    "Vehicle": {
+        "AUV": [],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "F. S. SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

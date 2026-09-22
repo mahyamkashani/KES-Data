@@ -1,0 +1,146 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_geomar_rep_ns_58_2021 tjm 2.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: LV Fehmarn Belt hasSensor Temperature: 'LV Fehmarn Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40'
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'FK_Südfall hasTask Task_1': 'FK_Südfall', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into
+    n-ary window 1: attempt 2 rejected: 'LV_FehamrnBelt hasTask Task_1': 'LV_FehamrnBelt', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: attempt 2 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_Boknis_Eck: 'Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: attempt 2 rejected: Station_Fehamrn_Belt: 'Station_Fehamrn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a stat
+    attributes: attempt 3 rejected: Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1: 'Dive_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: LV_Fehmarn_Belt: 'LV_Fehmarn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: FK_Südfall: 'FK_Südfall' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom 
+    attributes: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_geomar_rep_ns_58_2021 tjm 2.json
+marked 3 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_attributes_geomar_rep_ns_58_2021 tjm 2.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_geomar_rep_ns_58_2021 tjm 2.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: LV Fehmarn Belt hasTask Station 1: 'LV Fehmarn Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' int
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'FK_Südfall hasTask Task_1': 'FK_Südfall', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into
+    n-ary window 1: attempt 2 rejected: 'FK_Südfall hasTask Task_1': 'FK_Südfall', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into
+    n-ary window 1: attempt 3 rejected: 'FK_Südfall hasTask Task_1': 'FK_Südfall', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into
+    n-ary window 1: no attempt passed: kept what passes on its own, dropped 1 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_geomar_rep_ns_58_2021 tjm 2.json
+marked 1 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_nary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: attempt 2 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_Boknis_Eck: 'Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: attempt 2 rejected: Station_Fehamrn_Belt: 'Station_Fehamrn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a stat
+    attributes: attempt 3 rejected: Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Dive_1: 'Dive_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: LV_Fehmarn_Belt: 'LV_Fehmarn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_geomar_rep_ns_58_2021 tjm 2.json
+marked 3 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_attributes_geomar_rep_ns_58_2021 tjm 2.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_geomar_rep_ns_58_2021 tjm 2.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: Station 2 before Station 3: 'Station 2' and 'Station 3' both occur in the document but never on the same page, so the report does not state this relation - pair
+    binary: attempt 2 rejected: Station 10 before Station 11: 'Station 10' and 'Station 11' both occur in the document but never on the same page, so the report does not state this relation - 
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'FK_Südfall hasTask Task_1': 'FK_Südfall', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into
+    n-ary window 1: attempt 2 rejected: 'LV_FehamrnBelt hasTask Task_1': 'LV_FehamrnBelt', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: attempt 2 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_Boknis_Eck: 'Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: attempt 2 rejected: Station_Fehamrn_Belt: 'Station_Fehamrn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a stat
+    attributes: attempt 3 rejected: Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Dive_1: 'Dive_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: LV_Fehmarn_Belt: 'LV_Fehmarn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 3 rejected: Time_Series_Station_Boknis_Eck: 'Time_Series_Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like '
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_geomar_rep_ns_58_2021 tjm 2.json
+marked 6 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_attributes_geomar_rep_ns_58_2021 tjm 2.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_geomar_rep_ns_58_2021 tjm 2.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: Station 2 before Station 3: 'Station 2' and 'Station 3' both occur in the document but never on the same page, so the report does not state this relation - pair
+    binary: attempt 2 rejected: Station 10 before Station 11: 'Station 10' and 'Station 11' both occur in the document but never on the same page, so the report does not state this relation - 
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'Mission_hasTask Task_01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_0
+    n-ary window 1: attempt 2 rejected: 'Mission_hasTask Task_01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_0
+    n-ary window 1: attempt 3 rejected: 'Mission_hasTask Task_01': an axiom must be exactly three whitespace-separated terms - join multi-word names with underscores, e.g. RV_SONNE, Dive_1426; 'Task_0
+    n-ary window 1: no attempt passed: kept what passes on its own, dropped 6 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_geomar_rep_ns_58_2021 tjm 2.json
+marked 6 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_nary_geomar_rep_ns_58_2021 tjm 2.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: attempt 2 rejected: Mission_1946_1956: 'Mission_1946_1956' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; d
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_Boknis_Eck: 'Station_Boknis_Eck' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: attempt 2 rejected: Station_Fehamrn_Belt: 'Station_Fehamrn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a stat
+    attributes: attempt 3 rejected: Station_Baltic_Sea: 'Station_Baltic_Sea' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station;
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: validated after 2 attempts
+    attributes: attempt 1 rejected: Dive_1: 'Dive_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: LV_Fehamrn_Belt: 'LV_Fehamrn_Belt' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_geomar_rep_ns_58_2021 tjm 2.json
+marked 3 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_attributes_geomar_rep_ns_58_2021 tjm 2.json
+
+vote subclass: kept 6 of 6 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_geomar_rep_ns_58_2021 tjm 2.json
+vote binary: kept 1 of 13 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_geomar_rep_ns_58_2021 tjm 2.json
+vote nary: kept 0 of 0 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_geomar_rep_ns_58_2021 tjm 2.json
+vote attributes: kept 17 of 20 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_geomar_rep_ns_58_2021 tjm 2.json
+
+done: 16/16 patterns succeeded

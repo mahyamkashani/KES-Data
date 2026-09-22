@@ -1,0 +1,22 @@
+{
+    "Task": {
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "CTD operations",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Water samples for various analysis"
+            }
+        ]
+    },
+    "Vehicle": {
+        "Remotely_Operated_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "R/V SONNE"
+            }
+        ],
+        "Station": []
+    }
+}

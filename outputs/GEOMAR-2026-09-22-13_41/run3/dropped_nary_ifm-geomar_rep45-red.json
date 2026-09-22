@@ -1,0 +1,22 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "POS389 goes_through Waypoint_1",
+        "reason": "'POS389 goes_through Waypoint_1': 'Waypoint_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "POS393 goes_through Waypoint_2",
+        "reason": "'POS393 goes_through Waypoint_2': 'Waypoint_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM15/5 goes_through Waypoint_3",
+        "reason": "'MSM15/5 goes_through Waypoint_3': 'Waypoint_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "MSM15/5 hasVehicle RV_Maria_S_Merian",
+        "reason": "'MSM15/5 hasVehicle RV_Maria_S_Merian': 'RV_Maria_S_Merian' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

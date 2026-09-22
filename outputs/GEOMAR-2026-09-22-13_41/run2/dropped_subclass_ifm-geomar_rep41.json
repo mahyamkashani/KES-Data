@@ -1,0 +1,20 @@
+[
+    {
+        "where": "subclass",
+        "item": {
+            "CTD 24": {
+                "hasDuration": "June 2, 2010"
+            }
+        },
+        "reason": "CTD 24: hasDuration='June 2, 2010' is not printed on any page that names 'CTD 24' - copy the number the report prints beside 'CTD 24', or leave hasDuration out"
+    },
+    {
+        "where": "subclass",
+        "item": {
+            "CTD 21": {
+                "hasDuration": "June 2, 2010"
+            }
+        },
+        "reason": "CTD 21: hasDuration='June 2, 2010' is not printed on any page that names 'CTD 21' - copy the number the report prints beside 'CTD 21', or leave hasDuration out"
+    }
+]

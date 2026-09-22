@@ -1,0 +1,174 @@
+
+##### run1 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: P399/2: hasDuration='from 31.05.2010 to 17.06.2010' is not printed on any page that names 'P399/2' - copy the number the report prints beside 'P399/2', or leave
+    subclass: attempt 2 rejected: R/V Poseidon: maxDepth='6000 m' is not printed on any page that names 'R/V Poseidon' - copy the number the report prints beside 'R/V Poseidon', or leave maxDept
+    subclass: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_subclass_ifm-geomar_rep48.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V Poseidon hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; P399 hasTask Dive
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_binary_ifm-geomar_rep48.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'P399_2 hasTask Task_1': 'P399_2', 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a stati
+    n-ary window 1: attempt 2 rejected: 'P399_2 hasVehicle RV_Poseidon': 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_nary_ifm-geomar_rep48.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: P399_leg_2: maxDepth='4328' is not printed on any page that names 'P399_leg_2' - copy the number the report prints beside 'P399_leg_2', or leave maxDepth out; P
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 5 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: attempt 3 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+    attributes: attempt 1 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 2 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 3 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: no attempt passed: kept what passes on its own, dropped 6 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/output_attributes_ifm-geomar_rep48.json
+marked 18 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run1/dropped_attributes_ifm-geomar_rep48.json
+
+##### run2 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: P399/2: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words;
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_subclass_ifm-geomar_rep48.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V Poseidon hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; P399 hasTask Dive
+    binary: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_binary_ifm-geomar_rep48.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'P399_2 hasTask Task_P399_2': 'P399_2', 'Task_P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' in
+    n-ary window 1: attempt 2 rejected: 'P399_2 hasTask Task_SOPRAN': 'P399_2', 'Task_SOPRAN' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' in
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_nary_ifm-geomar_rep48.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 3 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: no attempt passed: kept what passes on its own, dropped 2 item(s)
+    attributes: attempt 1 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 6 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: attempt 3 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+    attributes: attempt 1 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 2 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 3 rejected: CTD_Station_307: 'CTD_Station_307' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/output_attributes_ifm-geomar_rep48.json
+marked 19 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run2/dropped_attributes_ifm-geomar_rep48.json
+
+##### run3 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: P399/2: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words;
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_subclass_ifm-geomar_rep48.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V Poseidon hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; R/V Poseidon hasS
+    binary: attempt 2 rejected: R/V Poseidon hasSensor SBE 911 plus CTD: 'R/V Poseidon' and 'SBE 911 plus CTD' both occur in the document but never on the same page, so the report does not sta
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_binary_ifm-geomar_rep48.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'P399_2 hasTask Task_P399_2': 'P399_2', 'Task_P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' in
+    n-ary window 1: attempt 2 rejected: 'P399_2 hasVehicle RV_Poseidon': 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_nary_ifm-geomar_rep48.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: P399_leg_2: maxDepth='4328' is not printed on any page that names 'P399_leg_2' - copy the number the report prints beside 'P399_leg_2', or leave maxDepth out; P
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 5 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Dive 1426: 'Dive 1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: CTD Station 1: 'CTD Station 1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the 
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 2 rejected: CTD_Station_307: 'CTD_Station_307' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 3 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: no attempt passed: kept what passes on its own, dropped 7 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/output_attributes_ifm-geomar_rep48.json
+marked 15 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run3/dropped_attributes_ifm-geomar_rep48.json
+
+##### run4 of 4
+
+=== subclass pattern ===
+    subclass: attempt 1 rejected: P399/2: hasStatus='completed' is outside its closed value list ['FAILED', 'PartialFAILURE', 'PartialSUCCESSFUL', 'SUCCESSFUL'] - use exactly one of those words;
+    subclass: validated after 2 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_subclass_ifm-geomar_rep48.json
+
+=== binary pattern ===
+    binary: attempt 1 rejected: R/V Poseidon hasSensor ADCP: 'ADCP' is a CLASS in the ontology, not an individual - use the specific name the report gives, or drop the axiom; R/V Poseidon hasS
+    binary: attempt 2 rejected: R/V Poseidon hasSensor SBE 911 plus CTD: 'R/V Poseidon' and 'SBE 911 plus CTD' both occur in the document but never on the same page, so the report does not sta
+    binary: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_binary_ifm-geomar_rep48.json
+
+=== nary pattern ===
+    n-ary window 1: attempt 1 rejected: 'P399_2 hasTask Task_P399_2': 'P399_2', 'Task_P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' in
+    n-ary window 1: attempt 2 rejected: 'P399_2 hasVehicle RV_Poseidon': 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station
+    n-ary window 1: validated after 3 attempts
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_nary_ifm-geomar_rep48.json
+
+=== attributes pattern ===
+    attributes: attempt 1 rejected: P399_2: 'P399_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the r
+    attributes: attempt 2 rejected: P399_leg_2: maxDepth='4328' is not printed on any page that names 'P399_leg_2' - copy the number the report prints beside 'P399_leg_2', or leave maxDepth out; P
+    attributes: validated after 3 attempts
+    attributes: attempt 1 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Station_305: 'Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 5 item(s)
+    attributes: attempt 1 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 2 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: attempt 3 rejected: Waypoint_01: 'Waypoint_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axio
+    attributes: no attempt passed: kept what passes on its own, dropped 3 item(s)
+    attributes: attempt 1 rejected: Dive_1426: 'Dive_1426' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if
+    attributes: attempt 2 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: attempt 3 rejected: Dive_305: 'Dive_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if t
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+    attributes: attempt 1 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 2 rejected: CTD_Station_305: 'CTD_Station_305' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: attempt 3 rejected: CTD_Station_307: 'CTD_Station_307' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop 
+    attributes: no attempt passed: kept what passes on its own, dropped 4 item(s)
+wrote /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/output_attributes_ifm-geomar_rep48.json
+marked 16 item(s) that never passed validation in /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/run4/dropped_attributes_ifm-geomar_rep48.json
+
+vote subclass: kept 23 of 25 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_subclass_ifm-geomar_rep48.json
+vote binary: kept 1 of 2 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_binary_ifm-geomar_rep48.json
+vote nary: kept 0 of 0 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_nary_ifm-geomar_rep48.json
+vote attributes: kept 6 of 24 distinct facts found in >= 3 of 4 runs -> /home/mahya/Desktop/robotic-cybersecurity/Projects/KES-Data/outputs/GEOMAR-2026-09-22-13_41/output_attributes_ifm-geomar_rep48.json
+
+done: 16/16 patterns succeeded

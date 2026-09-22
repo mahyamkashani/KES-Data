@@ -1,0 +1,17 @@
+[
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_14 goes_through Two_Boats",
+        "reason": "'Dive_14 goes_through Two_Boats': 'Dive_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_14 goes_through Marker_2",
+        "reason": "'Dive_14 goes_through Marker_2': 'Dive_14' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 2",
+        "item": "Dive_15 goes_through Comfortless_Cove",
+        "reason": "'Dive_15 goes_through Comfortless_Cove': 'Dive_15' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

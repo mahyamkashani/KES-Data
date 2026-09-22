@@ -1,0 +1,20 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "SO206-13": {
+                "hasDuration": 1.6
+            }
+        },
+        "reason": "SO206-13: hasDuration=1.6 is not printed on any page that names 'SO206-13' - copy the number the report prints beside 'SO206-13', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "SO206-14": {
+                "hasDuration": 1.1
+            }
+        },
+        "reason": "SO206-14: hasDuration=1.1 is not printed on any page that names 'SO206-14' - copy the number the report prints beside 'SO206-14', or leave hasDuration out"
+    }
+]

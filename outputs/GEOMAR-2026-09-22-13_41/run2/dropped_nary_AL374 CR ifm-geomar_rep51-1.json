@@ -1,0 +1,32 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "AL374 hasTask Task_1",
+        "reason": "'AL374 hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Task_1 hasAction Action_1",
+        "reason": "'Task_1 hasAction Action_1': 'Task_1', 'Action_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_ALKOR",
+        "reason": "'Traversal_1 hasVehicle RV_ALKOR': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_2 hasVehicle RV_ALKOR",
+        "reason": "'Traversal_2 hasVehicle RV_ALKOR': 'Traversal_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_2 hasDestination Sleipner",
+        "reason": "'Traversal_2 hasDestination Sleipner': 'Traversal_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_2 goes_through Well_22/4b",
+        "reason": "'Traversal_2 goes_through Well_22/4b': 'Traversal_2', 'Well_22/4b' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

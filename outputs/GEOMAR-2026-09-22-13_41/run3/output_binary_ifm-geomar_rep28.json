@@ -1,0 +1,434 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R.V. Poseidon",
+                "Dredging"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "R.V. Poseidon hasMission Dredging"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR1"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR1"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR2"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR2"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR3"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR3"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR4"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR4"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR5"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR5"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR6"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR6"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR7"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR7"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR8"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR8"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR9"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR9"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR10"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR10"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR11"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR11"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR12"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR12"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR13"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR13"
+        },
+        {
+            "INDIVIDUAL": [
+                "POS 379/1",
+                "DR14"
+            ],
+            "OBJECT_PROPERTY": "hasTask",
+            "DOMAIN": "Mission",
+            "RANGE": "Task",
+            "AXIOM": "POS 379/1 hasTask DR14"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR1",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR1 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR1",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR1 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR2",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR2 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR2",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR2 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR3",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR3 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR3",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR3 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR4",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR4 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR4",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR4 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR5",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR5 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR5",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR5 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR6",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR6 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR6",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR6 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR7",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR7 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR7",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR7 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR8",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR8 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR8",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR8 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR9",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR9 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR9",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR9 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR10",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR10 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR10",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR10 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR11",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR11 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR11",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR11 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR12",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR12 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR12",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR12 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR13",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR13 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR13",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR13 hasAction Act_TakePhoto"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR14",
+                "Act_DeepDive"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR14 hasAction Act_DeepDive"
+        },
+        {
+            "INDIVIDUAL": [
+                "DR14",
+                "Act_TakePhoto"
+            ],
+            "OBJECT_PROPERTY": "hasAction",
+            "DOMAIN": "Task",
+            "RANGE": "Action",
+            "AXIOM": "DR14 hasAction Act_TakePhoto"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Profile SO186-3-01": {
+                "hasDuration": "4.5"
+            }
+        },
+        "reason": "Profile SO186-3-01: hasDuration='4.5' is not printed on any page that names 'Profile SO186-3-01' - copy the number the report prints beside 'Profile SO186-3-01', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Profile SO186-3-02": {
+                "hasDuration": "4.5"
+            }
+        },
+        "reason": "Profile SO186-3-02: hasDuration='4.5' is not printed on any page that names 'Profile SO186-3-02' - copy the number the report prints beside 'Profile SO186-3-02', or leave hasDuration out"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_01": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_01: 'CTD_Station_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "CTD_Station_02": {
+                "class": "State"
+            }
+        },
+        "reason": "CTD_Station_02: 'CTD_Station_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

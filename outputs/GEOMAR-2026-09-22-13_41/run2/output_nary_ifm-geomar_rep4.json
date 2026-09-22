@@ -1,0 +1,47 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "OFOS hasVehicle RV_SONNE",
+                "OFOS hasDestination Jiu_Long"
+            ],
+            "Individuals": [
+                "SO177",
+                "Leg1",
+                "OFOS",
+                "RV_SONNE",
+                "Jiu_Long"
+            ]
+        },
+        "pattern02": {
+            "Axioms": [
+                "GC-3 hasDestination Haiyang4",
+                "GC-9 hasDestination Haiyang4",
+                "GC-10 hasDestination Haiyang4",
+                "GC-11 hasDestination Haiyang4",
+                "GC-13 hasDestination Haiyang4"
+            ],
+            "Individuals": [
+                "GC-1",
+                "GC-2",
+                "GC-3",
+                "GC-4",
+                "GC-5",
+                "GC-6",
+                "GC-7",
+                "GC-8",
+                "GC-9",
+                "GC-10",
+                "GC-11",
+                "GC-12",
+                "GC-13",
+                "GC-14",
+                "GC-15",
+                "GC-16",
+                "Haiyang4",
+                "DAPC-1",
+                "DAPC-2"
+            ]
+        }
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "Kongsberg EM710"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor Kongsberg EM710"
+        },
+        {
+            "INDIVIDUAL": [
+                "RV Sonne",
+                "Kongsberg EM122"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "MBES",
+            "AXIOM": "RV Sonne hasSensor Kongsberg EM122"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP01"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP01"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP02"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP02"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP03"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP03"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP04"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP04"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP05"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP05"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP06"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP06"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP07"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP07"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP08"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP08"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP09"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP09"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP10"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP10"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP11"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP11"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP12"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP12"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP13"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP13"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP14"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP14"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP15"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP15"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP16"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP16"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP17"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP17"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP18"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP18"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP19"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP19"
+        },
+        {
+            "INDIVIDUAL": [
+                "SO277",
+                "WP20"
+            ],
+            "OBJECT_PROPERTY": "hasDestination",
+            "DOMAIN": "Traversal",
+            "RANGE": "Waypoint",
+            "AXIOM": "SO277 hasDestination WP20"
+        }
+    ]
+}

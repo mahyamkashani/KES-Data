@@ -1,0 +1,15 @@
+{
+    "NaryPropertyAxiom": {
+        "pattern01": {
+            "Axioms": [
+                "M67-1 hasTask project",
+                "project hasAction RV_METEOR"
+            ],
+            "Individuals": [
+                "M67-1",
+                "project",
+                "RV_METEOR"
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Task": {
+        "Bathymetric_Mission": [
+            {
+                "individual_name": "Cruise P395",
+                "hasDuration": "15 days",
+                "hasStatus": "SUCCESSFUL"
+            }
+        ],
+        "Data_Sampling_Mission": [
+            {
+                "individual_name": "Sediment Sampling",
+                "hasStatus": "SUCCESSFUL",
+                "collect_sample": "Gravity cores"
+            }
+        ]
+    },
+    "Vehicle": {
+        "AUV": [
+            {
+                "individual_name": "Seabeam 1050"
+            }
+        ],
+        "Remotely_Operated_Vehicle": [],
+        "Submersible_Vehicle": []
+    },
+    "Platform": {
+        "Ship": [
+            {
+                "individual_name": "RV Poseidon"
+            }
+        ],
+        "Station": []
+    }
+}

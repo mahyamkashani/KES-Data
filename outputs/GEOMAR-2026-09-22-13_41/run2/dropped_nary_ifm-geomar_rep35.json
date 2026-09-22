@@ -1,0 +1,42 @@
+[
+    {
+        "where": "n-ary window 1",
+        "item": "SO201-KALMAR hasTask Task_1",
+        "reason": "'SO201-KALMAR hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 1",
+        "item": "Traversal_1 hasVehicle RV_SONNE",
+        "reason": "'Traversal_1 hasVehicle RV_SONNE': 'Traversal_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-12-KL hasTask Task_1",
+        "reason": "'SO201-2-12-KL hasTask Task_1': 'Task_1' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-14-KL hasTask Task_2",
+        "reason": "'SO201-2-14-KL hasTask Task_2': 'SO201-2-14-KL', 'Task_2' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-40-KL hasTask Task_3",
+        "reason": "'SO201-2-40-KL hasTask Task_3': 'SO201-2-40-KL', 'Task_3' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-69-KL hasTask Task_4",
+        "reason": "'SO201-2-69-KL hasTask Task_4': 'SO201-2-69-KL', 'Task_4' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-77-KL hasTask Task_5",
+        "reason": "'SO201-2-77-KL hasTask Task_5': 'Task_5' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "n-ary window 3",
+        "item": "SO201-2-81-KL hasTask Task_6",
+        "reason": "'SO201-2-81-KL hasTask Task_6': 'Task_6' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]

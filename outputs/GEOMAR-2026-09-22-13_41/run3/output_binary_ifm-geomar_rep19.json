@@ -1,0 +1,24 @@
+{
+    "ObjectPropertyAxiom": [
+        {
+            "INDIVIDUAL": [
+                "R/V L\u2019A TALANTE",
+                "McLane Moored Profiler"
+            ],
+            "OBJECT_PROPERTY": "hasSensor",
+            "DOMAIN": "Vehicle",
+            "RANGE": "ADCP",
+            "AXIOM": "R/V L\u2019A TALANTE hasSensor McLane Moored Profiler"
+        },
+        {
+            "INDIVIDUAL": [
+                "KPO_1006",
+                "R/V L\u2019A TALANTE"
+            ],
+            "OBJECT_PROPERTY": "hasMission",
+            "DOMAIN": "Ship",
+            "RANGE": "Mission",
+            "AXIOM": "KPO_1006 hasMission R/V L\u2019A TALANTE"
+        }
+    ]
+}

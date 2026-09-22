@@ -1,0 +1,263 @@
+[
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_01": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_01: 'Mission_01' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Mission_02": {
+                "class": "Mission"
+            }
+        },
+        "reason": "Mission_02: 'Mission_02' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBH102": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBH102: 'Station_OBH102' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS121": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS121: 'Station_OBS121' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBH122": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBH122: 'Station_OBH122' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS123": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS123: 'Station_OBS123' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS124": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS124: 'Station_OBS124' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS125": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS125: 'Station_OBS125' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS126": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS126: 'Station_OBS126' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS127": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS127: 'Station_OBS127' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBH202": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBH202: 'Station_OBH202' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS203": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS203: 'Station_OBS203' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS204": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS204: 'Station_OBS204' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS205": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS205: 'Station_OBS205' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS206": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS206: 'Station_OBS206' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS207": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS207: 'Station_OBS207' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS321": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS321: 'Station_OBS321' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS323": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS323: 'Station_OBS323' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS324": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS324: 'Station_OBS324' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS325": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS325: 'Station_OBS325' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS327": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS327: 'Station_OBS327' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS329": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS329: 'Station_OBS329' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBH401": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBH401: 'Station_OBH401' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS402": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS402: 'Station_OBS402' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS403": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS403: 'Station_OBS403' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS404": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS404: 'Station_OBS404' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS405": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS405: 'Station_OBS405' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS406": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS406: 'Station_OBS406' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    },
+    {
+        "where": "attributes",
+        "item": {
+            "Station_OBS407": {
+                "class": "Station"
+            }
+        },
+        "reason": "Station_OBS407: 'Station_OBS407' does not appear anywhere in the document - do not invent a name, and do not turn a range like 'DR 1-40' into a station; drop the axiom if the report does not name it"
+    }
+]
